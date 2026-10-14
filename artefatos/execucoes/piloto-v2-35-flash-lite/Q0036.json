@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "Q0036",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:09:15.748580+00:00",
+  "sha256_prompt": "b793c5031d4585d8bcc90a13c18850c2e34b4700550d9e3bdaa6d2ab3ef73c58",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e6c46c59383ace2407ac325e1ed182d5a4a939c0621b7d15abb811f5efc79785",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0036\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente a interpretação e aplicação do art. 16 da Lei Maria da Penha. Como o assunto possui nós equivalentes em ramos diferentes do catálogo (Direito Penal - Legislação Especial e Penal), há concorrência entre os IDs 4704 e 6724, exigindo revisão editorial devido à duplicidade de matérias entre os ramos.\",\n  \"evidencia\": \"audiência prevista no Art. 16 da Lei nº 11.340/2006 (Lei Maria da Penha)\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29095,
+      "candidatesTokenCount": 222,
+      "totalTokenCount": 30441,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29095
+        }
+      ],
+      "thoughtsTokenCount": 1124,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "XNPPapfVGOL9qtsPsK6d8Qw"
+  },
+  "duracao_segundos": 4.841634399999748,
+  "usage_metadata": {
+    "promptTokenCount": 29095,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 30441,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29095
+      }
+    ],
+    "thoughtsTokenCount": 1124,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0036",
+    "tema_central_id": "4704",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6724"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente a interpretação e aplicação do art. 16 da Lei Maria da Penha. Como o assunto possui nós equivalentes em ramos diferentes do catálogo (Direito Penal - Legislação Especial e Penal), há concorrência entre os IDs 4704 e 6724, exigindo revisão editorial devido à duplicidade de matérias entre os ramos.",
+    "evidencia": "audiência prevista no Art. 16 da Lei nº 11.340/2006 (Lei Maria da Penha)",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "69c4dd0c13fc7501c0c7865eee833c340160afae0ecc83f03e4dbf91b1a77129"
+}

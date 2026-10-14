@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0179",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:09:28.400936+00:00",
+  "sha256_prompt": "068ee0d1f97b3ccfdbfcf1dbd59b731289b11540d96146425d3b57e393648d08",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6cdadd899cf584fcd602dca2691879a8425f9cc4e8a359af36c0a55fddf8e2cd",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\"id\": \"Q0179\", \"tema_central_id\": \"4369\", \"extras_ids\": [], \"temas_alternativos\": [], \"sem_tema\": false, \"confianca_autodeclarada\": 1.0, \"motivo\": \"A quest\\u00E3o aborda explicitamente a classifica\\u00E7\\u00E3o e os conceitos referentes aos sistemas de preven\\u00E7\\u00E3o do delito, mais especificamente a preven\\u00E7\\u00E3o secund\\u00E1ria.\", \"evidencia\": \"chamada preven\\u00E7\\u00E3o secund\\u00E1ria do delito\", \"requer_revisao\": false}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28248,
+      "candidatesTokenCount": 184,
+      "totalTokenCount": 29151,
+      "cachedContentTokenCount": 24253,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28248
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24253
+        }
+      ],
+      "thoughtsTokenCount": 719,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "adPPaonTBvmAmtkPk5uOoQ4"
+  },
+  "duracao_segundos": 3.5947286000009626,
+  "usage_metadata": {
+    "promptTokenCount": 28248,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 29151,
+    "cachedContentTokenCount": 24253,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28248
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 24253
+      }
+    ],
+    "thoughtsTokenCount": 719,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0179",
+    "tema_central_id": "4369",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda explicitamente a classificação e os conceitos referentes aos sistemas de prevenção do delito, mais especificamente a prevenção secundária.",
+    "evidencia": "chamada prevenção secundária do delito",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c08e59fc975c2fcb09c6e10a5781a7eca1e69f1c03caf3640fce49bfafdf4172"
+}

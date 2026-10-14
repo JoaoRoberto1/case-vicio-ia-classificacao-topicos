@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0036",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T18:59:35.532646+00:00",
+  "sha256_prompt": "f60c4f86a499cfdc30bc7429f6d18e0af477d7b3541299ea7c61757ddcbe4742",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "27b72c1c19058470b706b309e4ba1692645b04f11ca2e4546e13b12eda017936",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0036\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [\n    \"5466\"\n  ],\n  \"temas_alternativos\": [\n    \"5063\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a exigibilidade e o procedimento da audiência do artigo 16 da Lei Maria da Penha, relacionando-se diretamente com a legislação especial e com os institutos da ação penal condicionada à representação.\",\n  \"evidencia\": \"O Magistrado, antes de decidir sobre o recebimento da denúncia, resolve analisar a necessidade de designar a audiência prevista no Art. 16 da Lei nº 11.340/2006 (Lei Maria da Penha).\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28727,
+      "candidatesTokenCount": 224,
+      "totalTokenCount": 30102,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28727
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1151,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GNHPap3yCvPQz7IPkqLl2Qk"
+  },
+  "duracao_segundos": 4.773241599992616,
+  "usage_metadata": {
+    "promptTokenCount": 28727,
+    "candidatesTokenCount": 224,
+    "totalTokenCount": 30102,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28727
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1151,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0036",
+    "tema_central_id": "4704",
+    "extras_ids": [
+      "5466"
+    ],
+    "temas_alternativos": [
+      "5063"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a exigibilidade e o procedimento da audiência do artigo 16 da Lei Maria da Penha, relacionando-se diretamente com a legislação especial e com os institutos da ação penal condicionada à representação.",
+    "evidencia": "O Magistrado, antes de decidir sobre o recebimento da denúncia, resolve analisar a necessidade de designar a audiência prevista no Art. 16 da Lei nº 11.340/2006 (Lei Maria da Penha).",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e7ce4d4c00a49a9f182c74c4353aff0cb74b2b22ebf7309cde93fb2ef21723a5"
+}

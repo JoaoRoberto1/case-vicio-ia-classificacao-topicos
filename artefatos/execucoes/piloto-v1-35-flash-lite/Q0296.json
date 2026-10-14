@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0296",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:08:20.061297+00:00",
+  "sha256_prompt": "abf72080d17267582e524e8f2d6f655986c265f5e1663d89e6928b0aa2baeb46",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "549865c6f35d0e2acc157341236c1823ace4dc06c5f0a0878ddc4a0614fecd8a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\"id\": \"Q0296\", \"tema_central_id\": \"5472\", \"extras_ids\": [], \"temas_alternativos\": [\"5466\"], \"sem_tema\": false, \"confianca_autodeclarada\": 0.9, \"motivo\": \"A questão aborda a legitimidade dos familiares para assumirem o polo ativo da ação penal privada em caso de morte da vítima.\", \"evidencia\": \"no processo penal não se admite que, em caso de morte da vítima, os familiares assumam o lugar dela, no pólo ativo da ação penal privada, para efeito de apresentação de queixa.\", \"requer_revisao\": false}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28257,
+      "candidatesTokenCount": 149,
+      "totalTokenCount": 29543,
+      "cachedContentTokenCount": 24253,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28257
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24253
+        }
+      ],
+      "thoughtsTokenCount": 1137,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "JNPPaoaCL8n5qtsPpr-h2Q8"
+  },
+  "duracao_segundos": 4.451703200000338,
+  "usage_metadata": {
+    "promptTokenCount": 28257,
+    "candidatesTokenCount": 149,
+    "totalTokenCount": 29543,
+    "cachedContentTokenCount": 24253,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28257
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 24253
+      }
+    ],
+    "thoughtsTokenCount": 1137,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0296",
+    "tema_central_id": "5472",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5466"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a legitimidade dos familiares para assumirem o polo ativo da ação penal privada em caso de morte da vítima.",
+    "evidencia": "no processo penal não se admite que, em caso de morte da vítima, os familiares assumam o lugar dela, no pólo ativo da ação penal privada, para efeito de apresentação de queixa.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b2c40310bc152d7dd7dd31ab323beb5353ff0434de6fc9ae4143e4747592d5a8"
+}

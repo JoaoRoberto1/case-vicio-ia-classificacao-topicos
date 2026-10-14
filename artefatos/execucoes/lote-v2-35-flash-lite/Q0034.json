@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0034",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:33:38.699619+00:00",
+  "sha256_prompt": "32cb364f824c4c298deb5a8db1b45525db2786f3d30584c57b0126522a5d0e09",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1e7be11ef95d7084bb6e27a1d8d8a66b4e839cafe28fcc87a65719d9f5ea9149",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0034\",\n  \"tema_central_id\": \"5477\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o cabimento do habeas corpus, exigindo o conhecimento sobre as hipóteses em que esta ação autônoma de impugnação é adequada para a tutela da liberdade de locomoção.\",\n  \"evidencia\": \"A situação em que o habeas corpus é medida de impugnação cabível é\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28699,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29864,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28699
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1005,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "E9nPapShFJeHz7IP_uuYwA8"
+  },
+  "duracao_segundos": 4.018790500005707,
+  "usage_metadata": {
+    "promptTokenCount": 28699,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29864,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28699
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1005,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0034",
+    "tema_central_id": "5477",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o cabimento do habeas corpus, exigindo o conhecimento sobre as hipóteses em que esta ação autônoma de impugnação é adequada para a tutela da liberdade de locomoção.",
+    "evidencia": "A situação em que o habeas corpus é medida de impugnação cabível é",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "436964824f8b0c6dc9023a3104e7fb0ee399e6c98d74d2c0b432be1120f89e8c"
+}

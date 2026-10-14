@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0277",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:15:13.693923+00:00",
+  "sha256_prompt": "b950150f5300de6d71bf38d1e579056332de2c1cc240d9c7c31f9c86012eed4a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8b560d9e621171a5a58b3b6fe68bfbd05f291e60412cf242372bb8161553c196",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0277\",\n  \"tema_central_id\": \"4696\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6722\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda crimes previstos no Estatuto do Idoso. Há duplicidade de nós no catálogo para a mesma matéria em ramos diferentes (4696 e 6722), exigindo revisão editorial e inclusão do concorrente em temas_alternativos.\",\n  \"evidencia\": \"NÃO configura crime contra idoso:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28655,
+      "candidatesTokenCount": 174,
+      "totalTokenCount": 29753,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28655
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 924,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wtTPap_BGKisz7IPkPD9WA"
+  },
+  "duracao_segundos": 7.814449799989234,
+  "usage_metadata": {
+    "promptTokenCount": 28655,
+    "candidatesTokenCount": 174,
+    "totalTokenCount": 29753,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28655
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 924,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0277",
+    "tema_central_id": "4696",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6722"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda crimes previstos no Estatuto do Idoso. Há duplicidade de nós no catálogo para a mesma matéria em ramos diferentes (4696 e 6722), exigindo revisão editorial e inclusão do concorrente em temas_alternativos.",
+    "evidencia": "NÃO configura crime contra idoso:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a3a2ef97cf40d34ffa6ee5fe3811d0bf2b67dfc2b54786a651455102448b2fe7"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0169",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:12:15.518698+00:00",
+  "sha256_prompt": "e3fa5db1675cc2b604911be4e43190eac08cfb45e7c2b583e6cb0f80ec1d3871",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c84fa4b9e9bb56bde238be453c5add6171fa1b28f415354c1733f73753d4456f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0169\",\n  \"tema_central_id\": \"5492\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente as causas de impedimento e suspeição do juiz no âmbito do Código de Processo Penal, correspondendo ao tema de exceções de suspeição, impedimento e incompatibilidade.\",\n  \"evidencia\": \"A respeito das causas de impedimento e suspeição do juiz, de acordo com o Código de Processo Penal, assinale a alternativa correta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28785,
+      "candidatesTokenCount": 171,
+      "totalTokenCount": 29653,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28785
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 697,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ENTParz4CaOHz7IPprGy4A4"
+  },
+  "duracao_segundos": 3.4111910999927204,
+  "usage_metadata": {
+    "promptTokenCount": 28785,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 29653,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28785
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 697,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0169",
+    "tema_central_id": "5492",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente as causas de impedimento e suspeição do juiz no âmbito do Código de Processo Penal, correspondendo ao tema de exceções de suspeição, impedimento e incompatibilidade.",
+    "evidencia": "A respeito das causas de impedimento e suspeição do juiz, de acordo com o Código de Processo Penal, assinale a alternativa correta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b796dcd59cfe51f8ea0dc8e3c42909af215148ba98e2dde7452811e82375b98e"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0015",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:29:15.219692+00:00",
+  "sha256_prompt": "698f515b4d987985c095f811ae61f3b07279ad555dfd9898805e81e1aa23c744",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ac7be685d8a69191cdf5be3ffb228b9888536befb3eb606375559e2a380cb647",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0015\",\n  \"tema_central_id\": \"5498\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5500\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda regras gerais e procedimentos afetos ao inquérito policial e à investigação preliminar previstos no Código de Processo Penal.\",\n  \"evidencia\": \"Com relação ao inquérito policial, segundo o Código de Processo Penal.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28777,
+      "candidatesTokenCount": 155,
+      "totalTokenCount": 30764,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28777
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1832,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "C9jPap23OO2KmtkPrtulEA"
+  },
+  "duracao_segundos": 6.315392000004067,
+  "usage_metadata": {
+    "promptTokenCount": 28777,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 30764,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28777
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1832,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0015",
+    "tema_central_id": "5498",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5500"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda regras gerais e procedimentos afetos ao inquérito policial e à investigação preliminar previstos no Código de Processo Penal.",
+    "evidencia": "Com relação ao inquérito policial, segundo o Código de Processo Penal.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1d1fd329a3be791dd250bcaff59051e1c4024bda57b4bb095299b721f7904e6b"
+}

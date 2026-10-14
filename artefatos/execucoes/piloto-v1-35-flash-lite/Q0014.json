@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "Q0014",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:05:31.552650+00:00",
+  "sha256_prompt": "89c5a1b083dbe90656cf28ea818b8741fbe3dc8ee234a1813526e35a37369a74",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ee53fcea27c61884fa623f2ab88bfc99021775254221a6cc6b5250ce1fcd8167",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0014\",\n  \"tema_central_id\": \"5477\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o cabimento e a aplicação do habeas corpus em face de decisões de internação proferidas por vara da infância e da juventude.\",\n  \"evidencia\": \"ela não pode ser sanada pela via do habeas corpus, pois tal instrumento processual não se aplica às situações que envolvam decisões tomadas por vara da infância e da juventude em detrimento da liberdade de criança ou adolescente.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 337,
+              "endIndex": 549,
+              "uri": "",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28274,
+      "candidatesTokenCount": 182,
+      "totalTokenCount": 29219,
+      "cachedContentTokenCount": 24253,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28274
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24253
+        }
+      ],
+      "thoughtsTokenCount": 763,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fNLPapLxNdSc6dkPtbuGoA8"
+  },
+  "duracao_segundos": 4.217688799995813,
+  "usage_metadata": {
+    "promptTokenCount": 28274,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 29219,
+    "cachedContentTokenCount": 24253,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28274
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 24253
+      }
+    ],
+    "thoughtsTokenCount": 763,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0014",
+    "tema_central_id": "5477",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o cabimento e a aplicação do habeas corpus em face de decisões de internação proferidas por vara da infância e da juventude.",
+    "evidencia": "ela não pode ser sanada pela via do habeas corpus, pois tal instrumento processual não se aplica às situações que envolvam decisões tomadas por vara da infância e da juventude em detrimento da liberdade de criança ou adolescente.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "df84a53f1668c0d44747bbd307e1203d8fef20aab406cc18d7fe095665cbd007"
+}

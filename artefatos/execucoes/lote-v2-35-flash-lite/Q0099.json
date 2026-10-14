@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0099",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:09:45.915442+00:00",
+  "sha256_prompt": "9ab11e4e1d93a135b911fae02faff2dc5be851745839e2cdcf85f8cfd689c0e6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8c7bb3c803e60a4a93349eef4bc54057ad5a5f49445abd073e0a71106409e670",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0099\",\n  \"tema_central_id\": \"5100\",\n  \"extras_ids\": [\n    \"5077\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o crime de resistência (art. 329 do Código Penal) praticado contra agentes públicos no exercício de suas funções, bem como a ocorrência de lesões corporais recíprocas e a atuação dos fiscais sob excludente de ilicitude.\",\n  \"evidencia\": \"Filomena passa a agredir fisicamente os fiscais, no intuito de impedir que levem sua mercadoria\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28948,
+      "candidatesTokenCount": 195,
+      "totalTokenCount": 29724,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28948
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 581,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "etPPasuVJObVz7IPi_XUgQ0"
+  },
+  "duracao_segundos": 3.383839399990393,
+  "usage_metadata": {
+    "promptTokenCount": 28948,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 29724,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28948
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 581,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0099",
+    "tema_central_id": "5100",
+    "extras_ids": [
+      "5077"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o crime de resistência (art. 329 do Código Penal) praticado contra agentes públicos no exercício de suas funções, bem como a ocorrência de lesões corporais recíprocas e a atuação dos fiscais sob excludente de ilicitude.",
+    "evidencia": "Filomena passa a agredir fisicamente os fiscais, no intuito de impedir que levem sua mercadoria",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1aeff8546fa655ac538d70726a4d66d3f08948e40429c55dcdcde3151bffc5ed"
+}

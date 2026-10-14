@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "Q0016",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:29:31.621662+00:00",
+  "sha256_prompt": "3d63e0aa36a5b7244e6b942d70c8ffa95bd1c20ff3744bdd89b5ba9390f9c475",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3d2eb042434ce97b21fd69f9bf02b225a35a9c6717d26985bdff0328fd894b4c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0016\",\n  \"tema_central_id\": \"5517\",\n  \"extras_ids\": [\n    \"5519\",\n    \"5586\",\n    \"5503\"\n  ],\n  \"temas_alternativos\": [\n    \"5584\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda múltiplos temas autônomos e independentes no âmbito da legislação e jurisprudência sobre prisões (vedação da decretação de preventiva de ofício, inconstitucionalidade da prisão especial para diplomados e regras do juiz das garantias), misturando diversos institutos sem um subtema específico dominante.\",\n  \"evidencia\": \"À luz da atual jurisprudência dos Tribunais Superiores sobre o tema prisão, avalie as assertivas a seguir.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "EqAgCp0gAWkUfRMY+oqqJzoBeA8c0swH5G/cStXxBUQcwglob+V2yVCjOsjB69i3PW32FABDpsAyyVbWVLDYLyebra8uK1OsMp4OlHvpLrzprByn8kc1YaA+d1dFB6NKZbyAgaB5iYycRDovU76PmpDKFBZrrVi5bSMlUWPxORu7Aia0CptXw8AAiU4JCcg9z9anhC51CrFIGKaIyZO3ZngzvArOhL9cMDjZQJQIgZhtD2i5yi2iZkT8fRgibODtGkwGQRn1SsdC6y+nDqXBpvgcFbq6DFAPqD1ZgPnJcQo9lgljv9hYWIAfL0hZ/u0ZEXgREYGsGBEvBefZ7IAORXc5IgkY5wS6iHoN0WwoV9mJQLNiqG0VEb9OetYWurpUyLTAnIMbywdoducLv4KXvWJJKgPm47tBa90V4gjKfiyiACLDXqsglMMotGU3iR6I4nXZU0vEcslzl6aqIGniR/dTm+Y81qHCcAXr2n4/z7v8fbxFLPu/d6eY+QaIfrFEdgfi6FS1bygfY2M1jVbeQg5Sh6mWLh/2kYT0xJx8KnjuQvge8wK3i2lu26Am9uGeXvLT1LAzilCVeC7maIL5vLfZqDb9nBCLkFfI/fr0tgfXM92Mw7DBNpsQcEtVFOyKgsfKXjk+1TmXnTx4Vb+A/5wSVUgn5q2xnpkHKsP2G4I/kkrS0zoyZopAPIEjDGMjm/7iIq/A1gKPuk9PwFWUhaP83jh4Gfe7bSBi257ND24IY2INULHZ2JmOrIrEho+dbOer3gkLeXw1jvDMaiee6kHb9qvX+sUp3XiQHnJKsJzqBBSu7atekS70gCbAJsbbauOcKQLopQp5is5vbvWH9q8EyGvgClEccP3se6bFvs5I7vqFsOUbzAyEfflUVBiXf0W/4dGLfJNXxPmHuyvpwnXirUJcHOUY6crvUoFwKRFQaxU2S3AhZ7M5ygV5hwIlVnQvInuBdbvhsvUMINFyyh1lFPj5yRgKOtoJR3EM0LJcMHE64GmWfVjL790z3cHZmWndURpq9eY17PsBd8cPFEv70Qqmk+cX/0G0QEcHDFErLQ+rS8pPHsZb/pCoN2HkrOrGN/ABfKb21uCiyiIWOyQ2BYm53e7S8F0YATm7het83ihEmlwOJktjRycL/7xZKrIkLtLLOV6k1ZYd3xO0Rkz2FZIL3NbwCGr4iOa334PhRIv/v9veZ/+OirbsWsc22GH3agN9n4yYObL3ULfghcIRzHlzbkGMLNtJJaZli9l3AcmbT43a1CMebW6oWD5byvWjdLzTdaJ//9yMt+CkcDI7E5DfTXkom1v3JFTTx90fYo2P5Ekn/cs8kgSoO8JA59eHFM+F2oc6e4SsNJIt5m/s89huCAiujANIAIg8Acngwh8ve7xtq7Y5BHZzDOJ95u7Yx4txWwnWxKoyoIoaMEqwhd26GZ8IALgdyniSb3fcDlLzj44GhdCAsXlVMMZ+04cIeRJIYGUrdEIoWs1vrwTIrjox1X3m/DaCdZdb9P4WBbBTGku2+lVNYxvIT6irx+OqQrPTzfroAQZ1dLRHwz+ARftmPtPMeTgIFiarmJ3ceeyMdRwKbB6kWN8d9+fG6eHU7ko2nrtXIQO53yicoiYvGiozUqh94t4iC+pcWEd4ZMiyLZS6i8ULOAWO3qACrPMEXtBeZEyfNVzWO3pbd6+p/yMy3ZEm6OuTdV/5E/fNMpeB+ovoSLxFYFW8+oi5fOLCf2dKSHxEHC8PmS69ijUr/AMsXazxewbsk3rvhBM4Ng9u3aeKtz3OhPiRsnWAw9upaENxi0LktK8Ia9hqwnom+HfCRBas8B/21v3zqRnU0kPeLGseJDaDmhGt0MuwnwhfEn1Sn8WieQg5FTq8I9gj23pMt3kTKiXB/4mlL/DO6P/xHK4RSX+b+TXJ/+Q9QlNBs8Qcv8ZzTQYZNZO8cbh5A4hYGXYmh76lizobNmmSy9KgGU0Ww2O9Vt67jmTqyVHX9yuGG0oEWpbhV368W0Egs5lbQwJ0Cuzy8a3PxPGMVN71sjPKPKKtDrvwbfY2Fpg+ejLK1YzB51NvWGM5B70Cv5JFzEdX9+HZqMkn2Cxvj5/a54UFhd9B3ZRR9mdIYow6egLkgy023PNf3Ei2V3ZEoIDdr+iVOwamm+UQ1IcqFF/j9Wyi9TysDEdQFUXm5xMhEDGIWt76jWP6y+OS7BIvStt4U8Oe5QLupJ7hWTvA+0LFkWGfHujXXBvFFyVIihpl7JV0xpAGOjB+ngMlyNJZacROWXJCxBXoPD/Dozf7cPcoX61IchLpewk3KtssJBg6Qv37x8pZyl8NYLroyiVlhvzltHyVWDWdxpVeUIFNDSyVYEsNuHzALHk43Lr8YU5juDE1GHFTh3gux26Hd5vXADpQx+LoDUDt1mvqh5Hbcf5KBTvyVRgkf/z0m0V02QecH0PQspqXwI4SNV/YpE+6txQW1V6Qms12NSf0egkjNKPWIZlDJyujdBYjVk6xk4GpIdpA2C4RbG9YMkq3g0RGageEFqDe+MIIOS6xWtgMb96jszfl54Q2+zlMNHYgKoUoRpUukuNN3pF3Y0llbaRDylSbnFoJZgkh8PXH2qlCxdgiSqy44ePy6nj+i/fegAJW290SmlIXMV6YTW4USFSWcHh5eNaRBEJF7aKZ3nJUb8ZdtAEq+Cks01WLoZM8IXQW6zM5e72seSI+6vYMiINBBljqm9xs6WVlM7tePaDPkFI5nln65yzXyy4Ae9F9ddoAN0P2SmxK8J9nft39VUz6KjoVuHo8ChefyD575k/pgfHP7jjMp7w8uam58q4UyYNhT6Q9zc3076LTshlKRvVmBUwGbjqbrEjVSeLe5qlHfsxaMiOizS1UbiGILgXEoOxqkHqpU47s+NetasITRLJin3zmbOX8nPlJi9m6HDyQIFCKnQwplAUuqazlbNwZzf7OmW3DbtLevy2ue+1N46+zmFCrYvXs5XB543bVtL+5yeOe96t5CLxib2tRbdGRIssZeg8VUaLU8z69gMbEqtyje1Lvd9FZnG5i790W2p8ETyBLlj4IFQWsMQ7+epaadELrP206K7XvBbZtJFBskhY0e/yxnm7o9D/dR2wdEddBdXcgD3JEd8c1CQTS7N0atr/yDkLGgooqRJvUTfOVDUDKF0x14YXZkkX2abIN3CZ30XmFwBwOFP66RGX7ID3ZnFgY8nA1OlpWW3nHX7v2dol8HH3jTKmDWnsy1VLdlW5VeZ8FV7yKbyBsnwFNYd1An/EVmxUenw95KTJ2aA6EzyanOzfBlX4C6TYx3Oq+v/IRrfAtr1FA+iAtecY8kT4jPa0Fmvfksn4TsxACVntnJY7bP7ZA/NeWGm94/xiIqMQbnIuXnZ42dW3QHG6k4z8MqnWRuFBpK8vN7Kl7HfMWHHvJpeaFitrcSPZK0+PsmwbKyoJn0W+LSdG4/EDhvpMUVJ9hR5twjLDc0j+eUwNExR8Ch7NsSfiwhGOguCGvQokkzy632XybqSoGieg/KpKydHaMjZQ/ENLtn6yqA+DhQsCVTN7MkEO5vd6GW2TiFYCnWdNRCbGC4Z6G9lyUuRT+F0n67DDB2G1ug0UKiKfCWIu0N25mHOKXuEAgQ5ulB9fsTcRg46rBVvvH+6Ogg4EnV/w5PeEPMivuGi9dVg7fu4h/WKKPrzSKNRYOgfiBz62MxrnV/fb+EPVd2laFPZCxgadIIO2kd06n7uHIq6AqdMZJDfe49mN5amvjJuFNPNRS+hYi4E7CbBTQvh5Sb8OTld/ehawPVZNPxJWCCmHsFLxYgE5EcMFDv0LJ5rJHERlZfEaldHqL0VGbRgdjszJDCsX37LPLlHvxL5EiO//khP0Pxefkfw2N4Mp177LmsdM7rTgk1fTUnOa/bcsbWA61yzWR2Vile4pGKWaVuLdlIlNiHTGDT0nWiXQwddzFMWDtLa79n87Qn70kyWwIO1y7xXEiMzB6UVEhDkQIufdcscDXSx9q4Ij3s8RAvcWvEbOnQvJqUE4MeXJ3XORFVYYZq++eEQH7oUYAQRaPaNMq0NDgGeFcDQCddoyTrLBrW5qYJZVZJGAqX928bOG7GdmnD32Ry14PCupbPlyhAKWa2GPWTiolut335GZxzbu67+0+ea5hjpQ3slzRd+h9LIxIzScTnza0Mrl4k6QThX53mmRXR//ET90ZpIUIhQTEwCkr6aUnqMd7t+IhKPWs2Wp4u8GFtahER6r1O5mexm4dBx/rCJsOVomQJ2RwPKlgqK049ed+RConVBlj7484YQOkV8wNm883H6fvzay+YsPHYj61t121p6KS/GKzmpBeSA5t11EHOiVCPtvs+e6oqrEqNP9tR3WV1v096Su/3rq39/lNKFPW81miyX0OkJFp0JW4fRtFykHoDDYn4YpOC6iqarPahkRC3Z0AsZNrhs1qwbCeXyZtW33eDTjMDe4rTuuXJM/hW6VqAoQLvu32t0xYTTOFArHujs89S8GkmcJ1nSrQbllMiqNxBqxdn88RDEPBEZjPsYDz98yMAmnlaomKkR6s03JDb+n1uD5Bk5GZB6QbGM381ljAi/NCy9+D19fif/GCB+oghCEYuS7gV6LNvVV76VuX4ZovRwlb+NapyMNj/Wx3aDRuB3jO0mQgqHNVzcBQ9lKqoN5W9f/Ih9OLFkaCBRX1qHrKjg0z5LqfSss3zfyGXxEk3SuFkhKYXNlq8Dsq8y6BQDxsgmwsntIeRQPRSCIfVMgRxiUGaHnomRu/bGAT+gy1FQ+q6NUixDdT+TKXoWdKDz+Bebw88+ouxSmofIzoEtK8EbE0qkMdCt1ofpzfidEz2Ms9CwEHVEjKOTeQSuvEuZFwOZXHo9GAybFuBowiKfk3USwkeAJhR2S7FblPzrEbKD2/uU7uMN9Mf0/PysRacMzrYFf+PwyTJY02evEX85ydQdbFoMxDu1aRemqcBP3H+yrf1mOLJfcOI3+/FwrEui3SeKKojR5OJB3Vyb+QUkQPBTizR+zS84x6fohFiK2GAjCQtUobUAZzuY9frPTtuvYXvdOI26BX1FzgolUTmsZv4Wp2tUVlrUXq8ZNwBGx6G3NcarllmieAsjC89VfEbEYNnzwdZqWkCcUDFTdCF2nAQVDUJPgmV0HvTEuveQsYVqsUi4hHXGPFrZfiGqOqp1Yp7OvTot7++xpYdyn9QGiHzjOMDbDUhqiPCXiGl8cqSrHuqTiV1U8lSkXsKHHx3EMAEV4Q9lG+NSEAOzG8jCKCAbm0aEcPuqGmy/JBJaakEiYmWyiDdKNGHtHDAjADl8fF3rKfE+nSWta861a3hjHUDUfUlr4La4LUu6utYK6iqbs9f5nMl6fmFJl4QazkO3wsBATc0bWu6a7EyDasGwmpcM8yC+PkNFRD5M0ldfMWK+PjRWGvY3Y1/EKU4UYCT4ZuPaS2X2Re0A17vuekQI/Mc2ZsBra9U0Ylae5K6bMlyngV089O1U6ypv+dryIHAZ3y/ZajPT4VNeLN"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28907,
+      "candidatesTokenCount": 229,
+      "totalTokenCount": 30361,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28907
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1225,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "HNjPaojoDujlqtsPzaM2"
+  },
+  "duracao_segundos": 4.829292099995655,
+  "usage_metadata": {
+    "promptTokenCount": 28907,
+    "candidatesTokenCount": 229,
+    "totalTokenCount": 30361,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28907
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1225,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0016",
+    "tema_central_id": "5517",
+    "extras_ids": [
+      "5519",
+      "5586",
+      "5503"
+    ],
+    "temas_alternativos": [
+      "5584"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda múltiplos temas autônomos e independentes no âmbito da legislação e jurisprudência sobre prisões (vedação da decretação de preventiva de ofício, inconstitucionalidade da prisão especial para diplomados e regras do juiz das garantias), misturando diversos institutos sem um subtema específico dominante.",
+    "evidencia": "À luz da atual jurisprudência dos Tribunais Superiores sobre o tema prisão, avalie as assertivas a seguir.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "246c2b14671c39eef5621fae16eb2d9effd843246b1c4448230a9db5bb36e57d"
+}

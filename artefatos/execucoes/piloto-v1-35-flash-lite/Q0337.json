@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0337",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:08:54.721561+00:00",
+  "sha256_prompt": "5bb8d9e3d95336e2a24c1aeea0252ddc9d1ba391daedbae3b3a3539e26a0a1c6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "727c4b9c2ea6c7865082c0a2fb3fea5ca58645bbabeda3d8fe86f58d481cc656",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0337\",\n  \"tema_central_id\": \"4684\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6716\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os crimes de abuso de autoridade regulados pela Lei nº 13.869/2019.\",\n  \"evidencia\": \"A Lei nº 13.869/2019 dispõe sobre os crimes de abuso de autoridade.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28436,
+      "candidatesTokenCount": 166,
+      "totalTokenCount": 29434,
+      "cachedContentTokenCount": 26276,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28436
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26276
+        }
+      ],
+      "thoughtsTokenCount": 832,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "R9PPasy4Eo-mqtsPuNuksAo"
+  },
+  "duracao_segundos": 3.67103360001056,
+  "usage_metadata": {
+    "promptTokenCount": 28436,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 29434,
+    "cachedContentTokenCount": 26276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28436
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26276
+      }
+    ],
+    "thoughtsTokenCount": 832,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0337",
+    "tema_central_id": "4684",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6716"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os crimes de abuso de autoridade regulados pela Lei nº 13.869/2019.",
+    "evidencia": "A Lei nº 13.869/2019 dispõe sobre os crimes de abuso de autoridade.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "cea84f2edca6dcb2f524e9aec004314b3d5a7e4d4c930d80408def3740b91ff6"
+}

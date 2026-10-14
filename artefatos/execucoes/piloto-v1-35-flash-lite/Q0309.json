@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0309",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:06:05.779634+00:00",
+  "sha256_prompt": "7d110ed4d845eda84bd241df454149561db0f04dd0bc3b45501f9697a5053d35",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "66e14d677adef7eb3b064ff6f2422d96a722de9ccee3bb3eb0f76a663c12f67f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0309\",\n  \"tema_central_id\": \"4688\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6717\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda os crimes contra o meio ambiente previstos na Lei nº 9.605/98.\",\n  \"evidencia\": \"Artigo 61 da Lei nº 9.605/98\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "ErwWCrkWAWkUfRPuwDa4DSl+WTuy2Gbm1tze4iUACYRPRBZ56Grr1PlCTpxArfa6jObkit0NG6szu8Rdz5QgpXX2hc8IZQ4mts4GGLBk7c/ShDhW5UoSvDg2gjb3iDl/XXa5GeicAxECDOdauPYnWB+lKUqrYz+dKw/oyVzQrW6vsKGXr8ZToMhJarYxUOhgSzVENInR1HWByNwVSPYxSYFli4q3W8dbFDD0UYPr+81i/mJ0t973Axzynzu/mOWw4kBm6xyyby3tiufSCmB7kuQAXNNALM/DWra4kMF/deknI1ubf7BX1D6bR6xZK+I7pjM7FWLpA9cQfjft1uTDFEMf2Zv8H3oXtdX1HDFef4681Sht6rtvcYwz1xXw7G9ePakBAsKUHne6XObaC3+9E9wXs3WtuLXrY6zX5yBTSMQQaPIfr+YQwyrp8coBBlNXWumXvCM1OnS0lDgN2v1hDh/hUO/mZeoFxFyiPEeNOGenEdPCOSED9wACu1R1hgtQz5SpOTrQrJo1VOl7ayqVYiSsHhQTqXaSMdzix8JbZQW6Oi1pWkoS6Txv6uRhznwsCiK3RGdoLA1CFIIc3LDukI6z5gCABNyl46dohOPYTYq67kyhnx6Be08bA2xMUh3d8Y0MnziHP4VUcTU8PXlM0buUcReA8lXO+/zW/kCsxSYqrQ0jkQSNLOO+wPiOqsAlkio8QdApG1HnbW1pNlaXVeil39/JPyY79lsP/dRwcCJAvw3w3rHNKNmASvZ8pDUOE+KChQSZYXgh/LYzLHI3CwQSt25SBz30F1Qd3F0X2goKS8544BGdn3H4Gsge98hYwtxAS0YWix5CP2CIhPKPTYsTtv8GqD7YFp2fXCUK2ZiOqrDap1laOlB30wTsGl0FKe8RVOC9Yb3XefymocqWRF4bHWCBhFqNrinO8J38fFUI/2PJEHchu0yevYB5GxDoUBjGj4L95xPvKLpkYeksNg9fVDIGSADo1dBONwnTZNGsTAvEJ3ao8o0Bu0VMXsstXN8cayLI3SROqZT9C0tyUelz8tfaGroOaVCMHfZldBgUAbPK8Oa/C2GfjIBlajsGFi3dVLLIZpYeLjy2K3dpbDlMi8EZlPyaD1pqNuCNueY8Y9Ib9D7q4656e9GuNfbd58MwSLbnwF9kpTT7xpM9bCw+jHM7aWkys6Olt1GUqDE69p9NbtUqiNeE59Rw5SFCCCLEuVNjVkF/XFqQbgvJX6VQXBTu6bWzBuQX5U/JLLcOfl382TjU2AbXkIOVPZekYviNPf935FgnutEPY1Aepgm3YTREd0KL6oQmKPZ0fPghF0ei+uxQQIuJVUIMQZqier8M7m9H3FYjatHG/k9+kiw255+Psg/1/H04EbO83vygD77z5EZXSM3MouOfp8VxXK5ntj3E5DJFJERmTC5bB4c4W/u1oR86WD2mLeXLxLIsta1KJoG36cI3x89To8K5RVSMUgdUAdKNIxjH5LOvBKbQrnTyJUjdoX6aM07SD4KXmDdHjx3gUhD5lTMIs+vniOjTbbT5sAhkvgZjvY/wL3+0II+l4MVkDxpqM9ly1YanHdca95XJf+XaoF3VPY71LElti/VAvUINE8pz3GSaGFHAXJL+Hr2jqoE+qdhu26F1lXli0CyxPqn3mttp0bA6i7480qljxOcFpfCJzRGPW17s5DcB3tA+l9ZgHvmbl9KnIrk67uX4NvGw4EcKb792O+cmhuzEL6dV4lKF3dWK2uvuk++fZ/aC3m/aEsetit9tkuhud6vIfriaHl/VBfqwvDn8cASePNKT4CITPUcdadtJfRoKkauYW4ielkiv4I7kPqw3GG8G6l5ol8n3RNFWF6K+Ksg73K27Q8aiqxTpLTtJ4IOni2lWlqXh5Cuo0fJ/jH3R3VIJTfXqdC5iXHtT2tw8u7iOzzZ0fEOVeqEd/WWSweOQsjIaFEzZNEct4UuMvsJB6gOJWLJRjKQ6oiGWlD7G907qCkJ8z91sEdevwEM3ZNxWs6TZQ0NlLT66CVcsh2Qm7k2sSB7rb+868UlvS7PiEd12OcpI9L3/o7Y3jgIlkAivuHjs6JjyMjW5MKa9aRnC2rxuvNPMKff5GWbitS/Lx/RJvWDXGtWT5rjHgTX+coUlh8Y3XLOigqGAeYUdO91RFXlJAy9u3X6+77xOlfJ42ZlZTro5DPxotEtXIn1wt74fHldC3aN36rFpeSrKA+Rp0G7DzTk9uALLLbRibEkUWFJoFbMaMLsjkfPlolNH7ZHh1UIRdQeU6OYgonpkTldxG5LTsTtSI31KhAyoRdSAaYMCIcA4b1c+n5d9MXnxlvZuD27n6bBCerzm1bzdv15vs6K56c/Nl+zclRaBWiYjEKNmzmt5N6ELCk9fJzEg64kADQNHBU94nauj0QPN70uLYT2eRxu55Fa8vPUdHsqGPHKQVT1ItIo+em8XpjEMy24acXipLs9/xPj03Y5qH+4ej6D3dDZXkVKljtgIVpHf8/VilaDeQcSZSL5gZe6eMpkqEJkHbMMKr0TpoRnzdi/bzOKHzmLsBsMpjPC4/w1qndDD85Q/Z6+vREW1iDpJLqeMuMXPlEYVPN5qAfaQa6+n2anF8bFD94SMPq3Lkv6R7cpZ7D+He+d1bH5jswGqcThZUASULscpgvr/wi+6e2eRZkr7sIGKwll7uDlgZRLAkTJmA7ES01dByL/APNAXxa5bblFrRO2tFrSESW5UpUghjwZidZfEL4fzu7fitbE5cJs9pml4AL3O7wqRv7u4j1Oo7nLhfWfb7Z7S85UgTYjSsEZw1D7D9XcruVIx1oIj+L/0IvvB867sSIEydrzO7B0xD1Mn7Db1cDkYawwgKEwi1HsH8hxExyCZI96o/TtUDsreA88qbVbFeqqgq0IapP0A88VUCYhplYPTlb991/K6w9sgUAKSixQGYHKILRVchphV/S7yQyn/C0AjceDH/awtebrC7uImnXsuu9JHthEidAVW9czHfMEeGsW9bLlPR610l5CIDtljkHerYgKMPMnzs3c+uMed25NZGvhQGbe0H0EmvGca4I4XwdtMgpqqbou6Tw+Lm8bZn4iZ4Tnf6ZB7Z7/FkKNWjMVF2c9JgJY39Nw82n3v592S16YoJhHvzNzj4a9ylbZSsGka/S6KDkW8KYp4EQelUtYPPNDho5zt4R5v9OOLL3i68NJv7NKWoRONsbsIZDtBcyfeQ3frkgCKM/CZTDMgCSd1sdxQidu3E+mylyCYMFiRW7HA1vGk1nvqper4M+RYdH3U2Djo9FbpZKmuB36uobf4FXxq1yW3K5Pbe5Mh9TP459JK/rJnA31T+Z+gP+1nf0jqe6JeecyqT+UaI7DdBD/igqYSY6T8R4dDSkTrnRD9CGZQFSGWBbzxC/4Mv8hACPrahJAPnNGcXP8as/odD8eUeGEW6Ezw3eS3ZavGVt0+mjEwx+K3VX+Wti00DDzalMsInkMpuJcAfS4ug/I7MTBAhG3teM/Y68Byj2uMyWxc6evi5YcRbEvNrGy/qSOBVgXNIzOdKJeL8freQoY4zz2eCL7zOMlHfRzkVz0YiO89QVBczuvhwEpLQgQOhBnCD/SUmGJbGLORxav9zNuOLnW5MkeSnAvPxjrdIQi3jL5dR1IxBVjtwOOxbzUjdhpAzUAq5Zs+Hi1x6lsJ7x5OPvB8olp5oS+FjGHc4kTjr03wdUtiyBsEadqJaeMWzfHPVMAoG5GTTpwxrRBVVFouLwdTLGfWTQCfTb6uikNIb4DGWrXh1WW4fqnQGl8QuEHgo4Clqktv6bGXoCI2LlUlT9/w3xwbfN5Z3eK9yct21Xw74F0="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28356,
+      "candidatesTokenCount": 152,
+      "totalTokenCount": 29450,
+      "cachedContentTokenCount": 26275,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28356
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26275
+        }
+      ],
+      "thoughtsTokenCount": 942,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ntLPaq6NHu7rz7IPyPnE2A0"
+  },
+  "duracao_segundos": 3.936072199998307,
+  "usage_metadata": {
+    "promptTokenCount": 28356,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 29450,
+    "cachedContentTokenCount": 26275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28356
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26275
+      }
+    ],
+    "thoughtsTokenCount": 942,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0309",
+    "tema_central_id": "4688",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6717"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda os crimes contra o meio ambiente previstos na Lei nº 9.605/98.",
+    "evidencia": "Artigo 61 da Lei nº 9.605/98",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "804137de9e860ec0bbf8baec06990b9e5ade38c25adf7b2faae61f96bf2a0198"
+}

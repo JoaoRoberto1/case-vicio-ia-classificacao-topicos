@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0059",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:11:31.212383+00:00",
+  "sha256_prompt": "13b10c52cd2081133459941df003bac2b104e231fdcd51e849bb8235615b8968",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9c8fe66eb3a7a94af26cdcbd117c2b7c9c5a81f8d7be694d7a509931d0f620c6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0059\",\n  \"tema_central_id\": \"4370\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4384\",\n    \"4373\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.75,\n  \"motivo\": \"A questão aborda a perspectiva da criminologia crítica de Alessandro Baratta sobre a pena privativa de liberdade e a realidade carcerária, havendo concorrência entre os nós de modelos de reação ao delito, teorias legitimadoras da pena e escolas criminológicas, o que recomenda revisão editorial.\",\n  \"evidencia\": \"Sobre a relação entre o preso e a sociedade, segundo Alessandro Baratta, é CORRETO afirmar:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28750,
+      "candidatesTokenCount": 199,
+      "totalTokenCount": 30595,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28750
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1646,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "49PPavyPPMiGqtsPrJiL2A0"
+  },
+  "duracao_segundos": 6.062508200004231,
+  "usage_metadata": {
+    "promptTokenCount": 28750,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 30595,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28750
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1646,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0059",
+    "tema_central_id": "4370",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4384",
+      "4373"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.75,
+    "motivo": "A questão aborda a perspectiva da criminologia crítica de Alessandro Baratta sobre a pena privativa de liberdade e a realidade carcerária, havendo concorrência entre os nós de modelos de reação ao delito, teorias legitimadoras da pena e escolas criminológicas, o que recomenda revisão editorial.",
+    "evidencia": "Sobre a relação entre o preso e a sociedade, segundo Alessandro Baratta, é CORRETO afirmar:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "862bb38f8c7c2d4f46389b4382a7d5815f314a6723c3ba0c74ffd21e3ebefd93"
+}

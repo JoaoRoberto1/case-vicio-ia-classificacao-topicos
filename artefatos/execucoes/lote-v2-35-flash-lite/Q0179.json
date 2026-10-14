@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "Q0179",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:15:00.904847+00:00",
+  "sha256_prompt": "8db445eed10690eb72ffb7ef644dff80f549b81a5560aaa20a98c56effc436aa",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "cf545d35604a13159df57a85ccb33fcdefa57dc8b5f39cb074707e70802aa0f4",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0179",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-14T19:13:25.134128+00:00",
+      "sha256_prompt": "8db445eed10690eb72ffb7ef644dff80f549b81a5560aaa20a98c56effc436aa",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "cf545d35604a13159df57a85ccb33fcdefa57dc8b5f39cb074707e70802aa0f4",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0179\",\n  \"tema_central_id\": \"4369\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4368\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente os níveis de prevenção do delito (especificamente a prevenção secundária), matéria própria dos sistemas de prevenção no âmbito da Criminologia.\",\n  \"evidencia\": \"ações como controle dos meios de comunicação e ordenação urbana, orientadas a determinados grupos ou subgrupos sociais, estão inseridas no âmbito da chamada prevenção secundária do delito.\",\n  \"requer_revisao\": false\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28616,
+          "candidatesTokenCount": 178,
+          "totalTokenCount": 29525,
+          "cachedContentTokenCount": 26278,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28616
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26278
+            }
+          ],
+          "thoughtsTokenCount": 731,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "VdTPapyFLN6d6dkP3siIqQ8"
+      },
+      "duracao_segundos": 4.084314100007759,
+      "usage_metadata": {
+        "promptTokenCount": 28616,
+        "candidatesTokenCount": 178,
+        "totalTokenCount": 29525,
+        "cachedContentTokenCount": 26278,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28616
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26278
+          }
+        ],
+        "thoughtsTokenCount": 731,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "ff00c67f82ece7c38dc649043792c7b9afb6849315e466c0a39115fcd3e97496"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0179\",\n  \"tema_central_id\": \"4369\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o conceito de prevenção secundária do delito, matéria compreendida no âmbito dos sistemas de prevenção da Criminologia.\",\n  \"evidencia\": \"Ações como controle dos meios de comunicação e ordenação urbana, orientadas a determinados grupos ou subgrupos sociais, estão inseridas no âmbito da chamada prevenção secundária do delito.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28616,
+      "candidatesTokenCount": 165,
+      "totalTokenCount": 29177,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28616
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 396,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "tdTPasbrI-aDmtkP9aii0AE"
+  },
+  "duracao_segundos": 2.7373789999983273,
+  "usage_metadata": {
+    "promptTokenCount": 28616,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 29177,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28616
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 396,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0179",
+    "tema_central_id": "4369",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o conceito de prevenção secundária do delito, matéria compreendida no âmbito dos sistemas de prevenção da Criminologia.",
+    "evidencia": "Ações como controle dos meios de comunicação e ordenação urbana, orientadas a determinados grupos ou subgrupos sociais, estão inseridas no âmbito da chamada prevenção secundária do delito.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "19cacf95307d65cefd0f7947b015c47c74399b243d5d2c9540ca27124d063048"
+}

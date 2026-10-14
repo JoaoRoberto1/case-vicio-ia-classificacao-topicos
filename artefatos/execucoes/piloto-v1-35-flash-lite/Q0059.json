@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0059",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:04:56.900558+00:00",
+  "sha256_prompt": "b94d1d125ae1b3e2d27df9b914a964b5ae464fe8c466b57bd9f614dd9d4a68d7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "933fe7649e9678d97ae51141f291c3e5803965253d2a4231aa57842ac5423114",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0059\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4371\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o pensamento de Alessandro Baratta, principal expoente da Criminologia Crítica, inserindo-se no estudo das escolas e correntes criminológicas.\",\n  \"evidencia\": \"Sobre a relação entre o preso e a sociedade, segundo Alessandro Baratta, é CORRETO afirmar:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28382,
+      "candidatesTokenCount": 166,
+      "totalTokenCount": 29781,
+      "cachedContentTokenCount": 26275,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28382
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26275
+        }
+      ],
+      "thoughtsTokenCount": 1233,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WdLPau7iGIDUz7IPwve14Qg"
+  },
+  "duracao_segundos": 4.6448585000034655,
+  "usage_metadata": {
+    "promptTokenCount": 28382,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 29781,
+    "cachedContentTokenCount": 26275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28382
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26275
+      }
+    ],
+    "thoughtsTokenCount": 1233,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0059",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4371"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda o pensamento de Alessandro Baratta, principal expoente da Criminologia Crítica, inserindo-se no estudo das escolas e correntes criminológicas.",
+    "evidencia": "Sobre a relação entre o preso e a sociedade, segundo Alessandro Baratta, é CORRETO afirmar:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c68c25e9fc509fa88ef1c6e2e7424a8fdb23572e79ea7dcb4de9e238cbcea91b"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0142",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:10:30.280076+00:00",
+  "sha256_prompt": "65af4cbc6b18abbcd39be8753ba4160c52df215fe42c2dc02b953a4e0b0d1f41",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e83235f1418e8ff0fd1cedba94d27bfffb33325ccb8057cd7e293eb0700b4222",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0142\",\n  \"tema_central_id\": \"\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": true,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda hipóteses de isenção do Imposto sobre a Transmissão Causa Mortis e Doação (ITCD), matéria de Direito Tributário, ramo que não está presente no catálogo de temas ativos fornecido.\",\n  \"evidencia\": \"Imposto sobre a Transmissão \\\"Causa Mortis\\\" e Doação de quaisquer bens ou direitos (ITCD)\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28931,
+      "candidatesTokenCount": 166,
+      "totalTokenCount": 30222,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28931
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1125,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ptPPaqSvMouHz7IP-Ma2uQw"
+  },
+  "duracao_segundos": 4.412624899996445,
+  "usage_metadata": {
+    "promptTokenCount": 28931,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 30222,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28931
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1125,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0142",
+    "tema_central_id": "",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": true,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda hipóteses de isenção do Imposto sobre a Transmissão Causa Mortis e Doação (ITCD), matéria de Direito Tributário, ramo que não está presente no catálogo de temas ativos fornecido.",
+    "evidencia": "Imposto sobre a Transmissão \"Causa Mortis\" e Doação de quaisquer bens ou direitos (ITCD)",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "2354eaede1d75cf7144daa4703de227ecaf48616d15a8eb4c7e7658a69f8737f"
+}

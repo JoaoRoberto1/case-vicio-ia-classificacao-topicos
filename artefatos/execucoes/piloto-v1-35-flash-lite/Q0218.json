@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0218",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:07:13.707372+00:00",
+  "sha256_prompt": "badc30b2ecffafa323e90da89b15914170d3bd1dab0135f2db1cd9fc9e04fa99",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3049f97440304e9bc5c360e7bcb0f1eeac03bb1c7092bf08e2dc2666cab4f4dc",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0218\",\n  \"tema_central_id\": \"5518\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda a legalidade da prisão em flagrante no contexto de crime em andamento aguardado por terceiros e policiais, instituto diretamente relacionado à modalidade de flagrante esperado.\",\n  \"evidencia\": \"João retorna no horário combinado e, no momento em que efetua o saque, é preso por policiais militares acionados pelo gerente da agência\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EowRCokRAWkUfROCFq91AEjf8SualcOQEKqtKVF3Udtf7xHCfyJfpZgEs74Z/0X0d4PZfUP7l9d9e4tzY27oqZu18q59bFgFJDNmwq4SVHNpplbtqsD4wHojboCr2N8OIU/RDcC5Hvk2IaIyj5BSNnr2dYrwsdHgiuVM89sdEt79YqmpDeY3Dmqk+Mmk6YNt8fQJKNh3s0dPepvvl2yeSSVOBMdkNI+uM0azfcKuFSYoc9ggYZ659zGIor7VYg14E6d1wpP+UFknq0gpJZ4rKOFMckFogh9iOCZ6AFHru1tlOfzASb0ItSrJSQm85WRdPVpitU7jvBsoSD+vge9ho+A7hOP7w2sLrsBqZ98wKNvdHPQVfgy4X8aOCStHg2L9zDLiL7Q+D22K4QPUIs1leCZS8G6LQ47XJQij1C8dvlXcPIYQYZl/mTU1abxNBDiOiw6bMvzX7Ar7U7hSt0Z2XI4OGCVwgzjn7oJeBjj9+bgFZpjzcQLWJ7u/9OPnI/VD6+sihjH5csIoMXek3IN1iS0yObDnyOoCpyz060z2S5ow9GBeR0E7GhpyLMhY98FxoNbyA7IZhQcUU+s3WoSf3TKZ1B/pcrJQJ0w3D9J+hH9hzevlWxYN1cQlK+zk0SfIsJKMT+PQ7eiBkaYOfyydacWVLnIYxifNf9gqKFPuQsE+EyrBoshwn4cssxfCvMo20+QDaC6f8VVOYkZL9EI+JHJupsamiTFNmknL+vPZV+L9z/mKAdtvxSBmVenhPvJymhYF33dxUE0u5KtrVksko71TOMlNSpvsserSKS9lmVvv2/FU7gJmu338plcijQuym14JJ28pjfHrYmjkiHyhns2x24Pa8i1NpyCDzPihcO+3/o/vTcwKzUDx9t6lt1YugSG85qpqQwqfR/1wYNjDuDQ9M74etE2l6Y12SPwfWn0jRdsA+1XEoHqXAvsuccBqW6RVSkiHeSJu2OIABs9Ap1I/Gkbs1X66bGIAXeDqs7D0OtEMnMYyfRsYuPA0Y9Nq1e+EFcAwmVXiKSmhmb4rx2htHfUssATCLGXX5uPn/hJ7UGnWU5OMtipT7nmrIoxMA+Sc9mvBdLAIoQxwEQYJDSozUhIfKmhq9NyCLJW2aNs+kjdt8fS5zHSDd3KoaN9Ox5Xw3hTJ0tCgwn+uVD7gsM+YR7Pr2zz4/4+Cos3xIjvqtRrhZsj7ABjjXvVbwnNK7nj2/ukpKPvGF9/c7mWeijv0vLkth1hLB+a4XVm+/pdpbIXirLXF1JKrRNgcjbO5HPzwXT/z8ZXf7bX3zHQlw6uUd5LpSl0s67Z3FoCWDWiLRZfuxYMaBr09lV86nCtJNaQFVTSEZAqp6VXrt2ItDQSCMZ+nYRK4AepzywRMZh0rtWIRSZUykRrExbOIQTEouJSZSpxVH6y2fL+6k9tgC4qyzw0ty5iknxxxtJThPC/5rsxZ9I2Tf53f+sXZB4dIa/XLQOjDTQuCejN+CiSKjmsJd2s3j6a5xi/tFOHwvZTZlZNtoxPvDt0xcCEYX1nh1wpcc7SFlxDh7DqPlhIqXuc55j0jSkn5zSgWkgTMCdNtTXUgCPBgVDf/haDCcJpjnYO82LvXFTGUo2i7V8pmIfRFZwoqMsknYgLC7QMg+FGculKYE61CP7HKqYzIsdmIhtoAT/D4OrKzfQnNNq70+l7G4LqVhDFiCKINT8pYZ0CQwh3MnXufcro9438xcApvJa0dW+M19bRqfczonjKOOKDVq76/UDxv9yumVwto7RX1C8s36Xv82iURIoTIxcbWLTNePxzlxMam4i/YQuypIyTN9QOjQY2fELIfV8MiMpF0NHtOT0trFevKUInsDnEa0OqA9aq9MT72B8z7eEZC08yYeoIQT5kL+xF50cyv2/cfrEefTcaEIYFkA1p7PR5IHaWyvLhRCe/E69yPi8DJ596cFcZcGfrCf8mMzPUsKCHFsBR3LgIPVprFQCYn3+pUko79qvT0xTZmW9suY41CURW1YbI0Fn9iQ5cDeapaICBBoM+tce7aLLWopfO66KBzTgm4tu0FgSv3ajqLazEExybceKelZmBVt8KU4kHygStQeoHwEBfQ0HwJIuY8Pmr2HqIaAARNlU06G3Q/5yKIQ326tnM4BWPOPb7FPe4Yoq5r3x8Qt7XrNhKU6mJA4WQrJF6FSLLS8xy9CVDmxHJ35aLuhJkG0udWEbxDsY9moFVAaEcwuFqj4IIJPYzoB822ghcv6njqIv15m7ztgRAVkjCd54Kobq1/DFtuo6zpACy7jcIp2mEOCDKjBCCcJh85WEY4njtmOKoL94+s3MCjHy4qpBA3te0XlXVXqH5vLy3cEGQSao/7ygC/dAsNoi5QqNHrJ8q5UCI9FPudjQKNHVrji59O2CQRu7Df1CS71UsO/GwZKEtYTmGjy/JvdcgLSpYx18yybx2wohg5967xsvu8nrmSCpjnagBUCsPWC6GYtNUlGIR3UOkEAnLLya6rVHmhEeIsoo92hXxHi8PYHITh3IZWEUt8K00nyHMh/fDXrESTz7NMteDSNWnaVOFL88iqPj4lHhZk3mi/5HwN6l1bfBoypp579w0gRmpZ/vzlteTlmV2eVujqqS6wHMMYPCgbDigr3BKTYtW6fSrBguBHor6BEnJCDuuvVKeNepQiamDWh++hdiEgfitIUVG+ANs2RhvKOHxmptrr4eybKmI/be8phgiZqWpBY0TdjB0uTV89w+7pnnRH1GfKHsZtMLrapLi+Ycx+HSX/H4hhDFruR6MEDgWA1hy1Kj+dGd4D9n3mcafKzVwTnvlytfeE7lQXpMIgc4LdaKDRVe9GT4m0vPZjFZL6JujaapURna24PguWTwYqKHSWhhGb/aVPmvdNykm+cWLcxG3URC6YLz3Nw6fQWDoT6F0o20Y6wQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28408,
+      "candidatesTokenCount": 167,
+      "totalTokenCount": 29127,
+      "cachedContentTokenCount": 26276,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28408
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26276
+        }
+      ],
+      "thoughtsTokenCount": 552,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "4tLPaov8Fcn5qtsPpr-h2Q8"
+  },
+  "duracao_segundos": 3.304507200009539,
+  "usage_metadata": {
+    "promptTokenCount": 28408,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 29127,
+    "cachedContentTokenCount": 26276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28408
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26276
+      }
+    ],
+    "thoughtsTokenCount": 552,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0218",
+    "tema_central_id": "5518",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda a legalidade da prisão em flagrante no contexto de crime em andamento aguardado por terceiros e policiais, instituto diretamente relacionado à modalidade de flagrante esperado.",
+    "evidencia": "João retorna no horário combinado e, no momento em que efetua o saque, é preso por policiais militares acionados pelo gerente da agência",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "58fea9f4f8f4b7016fe87d36f31dbf36dc7deae6cbca5cb10af4475e29e2a3c0"
+}

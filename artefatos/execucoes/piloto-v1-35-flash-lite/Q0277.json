@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0277",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:10:02.077229+00:00",
+  "sha256_prompt": "e4a475773cc3be42443545b699e35b68b1396880d02aa55ec5fd73d9642aa14b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d5e59fce3fcf64ad9197e9b3794cd556421a5c585f85a4ebdb061bfbafd053d9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0277\",\n  \"tema_central_id\": \"4696\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6722\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os tipos penais e condutas delitivas previstos no Estatuto do Idoso.\",\n  \"evidencia\": \"NÃO configura crime contra idoso:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28287,
+      "candidatesTokenCount": 142,
+      "totalTokenCount": 29820,
+      "cachedContentTokenCount": 24253,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28287
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24253
+        }
+      ],
+      "thoughtsTokenCount": 1391,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "itPPau3XOpiIz7IPmNuwiAE"
+  },
+  "duracao_segundos": 5.227475099993171,
+  "usage_metadata": {
+    "promptTokenCount": 28287,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 29820,
+    "cachedContentTokenCount": 24253,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28287
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 24253
+      }
+    ],
+    "thoughtsTokenCount": 1391,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0277",
+    "tema_central_id": "4696",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6722"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os tipos penais e condutas delitivas previstos no Estatuto do Idoso.",
+    "evidencia": "NÃO configura crime contra idoso:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "289e430273945447aeadd12c94699f15647bc76cc92f6a2cc649b63f8bcbef22"
+}

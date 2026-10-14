@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0284",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:11:16.265392+00:00",
+  "sha256_prompt": "2081a79f27aeb11e504247c9023b40548d8b553527e45e6b2d306b2a8c934ca4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1feddbc366e98c2bf4051452780391e2a1ea455ed36b81e0bf8c9ef78b7c728f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0284\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [\n    \"5231\"\n  ],\n  \"temas_alternativos\": [\n    \"5214\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a legítima defesa putativa decorrente de erro sobre os pressupostos fáticos de uma causa de justificação, matéria tratada no âmbito do erro de tipo permissivo (art. 20, § 1º, do Código Penal), com interface com as discussões sobre o erro de proibição.\",\n  \"evidencia\": \"Bernardo, acreditando ser um assalto, saca sua arma de fogo e, de dentro do próprio carro, efetua disparo, atingindo o alvo pretendido.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29638,
+      "candidatesTokenCount": 224,
+      "totalTokenCount": 31001,
+      "cachedContentTokenCount": 26290,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29638
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26290
+        }
+      ],
+      "thoughtsTokenCount": 1139,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1NPPap3iNYyEz7IPsZeP2A4"
+  },
+  "duracao_segundos": 4.94055080000544,
+  "usage_metadata": {
+    "promptTokenCount": 29638,
+    "candidatesTokenCount": 224,
+    "totalTokenCount": 31001,
+    "cachedContentTokenCount": 26290,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29638
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26290
+      }
+    ],
+    "thoughtsTokenCount": 1139,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0284",
+    "tema_central_id": "5224",
+    "extras_ids": [
+      "5231"
+    ],
+    "temas_alternativos": [
+      "5214"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a legítima defesa putativa decorrente de erro sobre os pressupostos fáticos de uma causa de justificação, matéria tratada no âmbito do erro de tipo permissivo (art. 20, § 1º, do Código Penal), com interface com as discussões sobre o erro de proibição.",
+    "evidencia": "Bernardo, acreditando ser um assalto, saca sua arma de fogo e, de dentro do próprio carro, efetua disparo, atingindo o alvo pretendido.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f1b3c8c3281591f97115ecbf89015751a8163cad1181c1abd18b66708ce8e73c"
+}

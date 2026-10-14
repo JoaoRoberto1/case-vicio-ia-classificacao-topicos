@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0027",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:31:56.562601+00:00",
+  "sha256_prompt": "0d1817472836a80583587a9adb0ad5c0dc560af2d96864cc605654d136d9011e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "af833ff9bf1e5478a7f2e09ec8ec4d7fbeeb6f748dc531d93652bd00c0f99e0a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0027\",\n  \"tema_central_id\": \"5487\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5530\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda os requisitos do artigo 367 do Código de Processo Penal acerca do prosseguimento do processo sem a presença do acusado citado ou intimado, matéria diretamente relacionada à comunicação dos atos processuais.\",\n  \"evidencia\": \"O processo penal seguirá sem a presença do acusado que citado ou intimado:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28666,
+      "candidatesTokenCount": 170,
+      "totalTokenCount": 30177,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28666
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1341,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "rdjPap7nCq3sz7IP1e3ZyAM"
+  },
+  "duracao_segundos": 5.251066099997843,
+  "usage_metadata": {
+    "promptTokenCount": 28666,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 30177,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28666
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1341,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0027",
+    "tema_central_id": "5487",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5530"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda os requisitos do artigo 367 do Código de Processo Penal acerca do prosseguimento do processo sem a presença do acusado citado ou intimado, matéria diretamente relacionada à comunicação dos atos processuais.",
+    "evidencia": "O processo penal seguirá sem a presença do acusado que citado ou intimado:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "30858420739f1820208508499bd88dbabcf38fe4a57670924bb5d473c9863b7a"
+}

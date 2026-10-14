@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0002",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:18:46.304400+00:00",
+  "sha256_prompt": "52872be4eed2b7be16b4ed30fb216c4f12923f7237d49721192697d8a24ae7fd",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3b4862dda82989a885e6bf37d87832806359f1aae13d7e5b0cf93eaf138cac12",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0002\",\n  \"tema_central_id\": \"4378\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a seletividade do sistema penal e a criminalização das classes menos favorecidas, tema central dos processos de criminalização primária e secundária na perspectiva da criminologia crítica.\",\n  \"evidencia\": \"Segundo Vera Regina Pereira de Andrade, a clientela do sistema penal é constituída de pobres, porque\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28648,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29325,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28648
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 517,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ltXPasqLO4_8qtsP2MCZMQ"
+  },
+  "duracao_segundos": 2.7813039000029676,
+  "usage_metadata": {
+    "promptTokenCount": 28648,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29325,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 517,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0002",
+    "tema_central_id": "4378",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a seletividade do sistema penal e a criminalização das classes menos favorecidas, tema central dos processos de criminalização primária e secundária na perspectiva da criminologia crítica.",
+    "evidencia": "Segundo Vera Regina Pereira de Andrade, a clientela do sistema penal é constituída de pobres, porque",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "509a06d9c123a147027d13837eb55e5339eb3ae6abaa7c0a7921d6a54fa13fde"
+}

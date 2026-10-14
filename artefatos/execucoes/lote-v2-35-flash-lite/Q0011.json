@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0011",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:28:30.995702+00:00",
+  "sha256_prompt": "be3d0f20ca102ef93d61e582207a6efd2c5bdd22ba68092ec915a6509b0bfcaf",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "520e55b6c56328379342e07e807a0a1d722646a2e6d7154634d0dda3625ff0df",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0011\",\n  \"tema_central_id\": \"4702\",\n  \"extras_ids\": [\n    \"5480\"\n  ],\n  \"temas_alternativos\": [\n    \"6723\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda simultaneamente o crime de lavagem de dinheiro e a competência jurisdicional para seu julgamento, configurando mistura entre direito penal especial e processo penal, além da existência de duplicidade de nós para o mesmo tema no catálogo.\",\n  \"evidencia\": \"Nessa situação, Álvaro e Flávio responderão pelo crime de lavagem de capitais, e será da justiça federal a competência para processar e julgar a ação penal.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28753,
+      "candidatesTokenCount": 210,
+      "totalTokenCount": 30327,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28753
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1364,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "39fPauznJ5ClmtkPuq2-GA"
+  },
+  "duracao_segundos": 4.8808362999989185,
+  "usage_metadata": {
+    "promptTokenCount": 28753,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 30327,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28753
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1364,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0011",
+    "tema_central_id": "4702",
+    "extras_ids": [
+      "5480"
+    ],
+    "temas_alternativos": [
+      "6723"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda simultaneamente o crime de lavagem de dinheiro e a competência jurisdicional para seu julgamento, configurando mistura entre direito penal especial e processo penal, além da existência de duplicidade de nós para o mesmo tema no catálogo.",
+    "evidencia": "Nessa situação, Álvaro e Flávio responderão pelo crime de lavagem de capitais, e será da justiça federal a competência para processar e julgar a ação penal.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "0781e7c7fd73a8c4166439fc8d68c145f579e8c0d1029f995928f7ad0cc6e228"
+}

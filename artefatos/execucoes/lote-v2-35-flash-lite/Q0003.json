@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0003",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:18:59.128290+00:00",
+  "sha256_prompt": "4c83bf9c489984bda483c2de4d7da537c0053d2b3d9f7a7c5d15e7ee6eba79d9",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9c1cf3c3ac2e722a147ab3b7484e79d8d6281d3eb9e5a1156047aa4cc6629421",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0003\",\n  \"tema_central_id\": \"5562\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5534\",\n    \"5561\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige identificar o recurso cabível contra a decisão de absolvição sumária e seus efeitos no juízo cível, matéria típica do estudo da apelação criminal.\",\n  \"evidencia\": \"após a resposta preliminar, foi absolvido sumariamente\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28808,
+      "candidatesTokenCount": 167,
+      "totalTokenCount": 30808,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28808
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1833,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "o9XPasu7Oaisz7IPkPD9WA"
+  },
+  "duracao_segundos": 7.048520600001211,
+  "usage_metadata": {
+    "promptTokenCount": 28808,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 30808,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28808
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1833,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0003",
+    "tema_central_id": "5562",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5534",
+      "5561"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige identificar o recurso cabível contra a decisão de absolvição sumária e seus efeitos no juízo cível, matéria típica do estudo da apelação criminal.",
+    "evidencia": "após a resposta preliminar, foi absolvido sumariamente",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "441522c4db831d913f6fa91529df19a3a93c0b9ed129bc901c586b68d37f7847"
+}

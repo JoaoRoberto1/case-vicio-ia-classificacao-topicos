@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0031",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:32:54.291515+00:00",
+  "sha256_prompt": "1aece5a5da18c707d0bc4f9285a55295db2d577b46d54fd5d35269ee70c0be66",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ff52409da4006ccf96d2f6c68576a410fa34afa286c62da254f2cc81a1d024a5",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0031\",\n  \"tema_central_id\": \"4388\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4385\",\n    \"4387\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente conceitos da teoria da anomia, inserindo-se no estudo das teorias criminológicas explicativas de nível sociológico e em espécie.\",\n  \"evidencia\": \"De acordo com a teoria da anomia, o crime se origina da impossibilidade social do indivíduo de atingir suas metas pessoais\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EoEcCv4bAWkUfRNDw4qhR2sDMgYpPhRCmp4g0wyKd2P+mKCg+bOCKNvoIYGglP2K5hLIMhfQWK4lKdklJPpZ+pLyk3DmLOqtW2dGSjVkZ61ir6zgLylEaC+UkpM/Ok0Vrym3KeIzAcLaAXuv+Onw+9XRqrhKeNaoCt4bo21LDmi473NX3/JDBUgN50BuFbjMFDYmEz9kgHhtBtacsYrDKYwdIKujlGMIQgkRoGsMgfFGz3HN6Df/ZFww4/07S7Jp8nw2WCNz6UKgIWxV5m7iuNzFeWy0GTBbKz9RbiWQ1xQ0oT+zUsIjTBad1KeZhRZMF42li+0RYPXtyrn9hJKMnOYgV55etk2z1oVJAcR6GYyo+jbW9YubxbjDpZA4V7tGIRTISVWM8HqhnDdZSYWUC7QEc1/vwwyfDgDQ06Tdw6IXgYQBGMY+yt9pxfLcwQUxDzh87+bJf4lzZC+D0NZ8JnFGQXbk7a6ANGfeQfctIQ+GUGKEuUHzKHdyxot4WspgtO22Dsom7WZb9IHxY9zpBAUOl3uR1PScQ3y40jgCuy8RoDE86+3X47VXTuRynvcBwLzl9sS3+b77b56IqwBRYhyUUbuYVC+NNuJj4hQZ3LXqhxs5qSFE/hP/K2EKq+aVYDwbnXA0hsCnawdym2/Tpawh0wSCmBGiD4kcXuuEyhPzdQ0FboSos+Ihp01iL9Kgy46XgGZgNTysL+Hl1q9v0YS06ebQ5m9kunaTSkl9xGIEv1ykt/h7JAE9ptjsZvVUA8fobcka4MDsa/5mO1XxV+VTBrm+o5kjP0HrLVdm3wxxn171MApgQm9aPhYl+FGL8uxlPfPxGMK5neDvf1AkvrxDJtGk8UmSpIb5zwm2tmZY7bvFmm7hLcWSKLZGkrxu/X+eQVVYIpJ2YCYnVwPg9MCMIO0JTmfD0080rAYXbWPwgLIw41JPM5dCBq4Al95IU2Rsa5uAeFlih5ylcwoNrVj1CvirsPcVq9KXb+MeDJjKcst9ocPQqo794zq2Z4kG+KF1AGiTvHWi/pYqQLjZVXK4HUdoNrx2geElUih9tSCP+JdMA1QqossOdXPz5vQ2A0NZ4GuzPIb899mYMUacFgFtmz5JpYF3K5lsBjzq5GTcqmPj8Awx+G35hzvoZF2LM4I63RgbTT6/Hgo8ldl5y2VJjlOmp1kwqckaU3tZHykV8xd1K0DWOwRGyfzOczDMpMy0O6tF0BbW/1zbPkUbwPw2cn1zb+mD5pdh4vRZTPkVc0BNfGQVSb2NWGuXQCf4LwFwOq98w4HKsk1/+bgTSrJqGE3CNSy5a86f9JQMC4rZQpkV8Deu1XuGL8oIuAfvOebVpk/sYlvkW3qhtEBd8njBqHS2fjy6E8JncIK1+DSBJk5sfeuCtgA5H8j9YvwJ3rwEuzHKiWi1AKmscMQRrI+AAn1gu1QS8Xh+6AOh7QOqYVahXDJS0BicpddmzSjn2EknGxBMbVL5Em/1jOg1fhzpCXZ6LIU+qDGQUpLKjZbS5Cwk4lzEOGG3Uhl3sXmB+Hh4qS0GgYC52Ku0ftUqF6QsmAGoFQLfZGpsWbRzLDvto6nijG7p3jppddQ5RAxbrNdCnOfMR9nS0pbc7KY1NznvWUgC1L4zIlStoh0wbsC9mDycQiC1KcFs2wtGqr+VAjBF4yd+yOl7S/LejHejcucWKwlU+3xFofkBBmtyJbnidFmgEBmCz0dKwHFDaI7E04vEa1hkixYEEaeLSMExOAFK3Z+jCQ9BZy8n8Sy9sQq8FzZTE3rPbPjws+a6/tGo11V+8arwSoF3r5gDfL5o64Iyy2nDWhRK59CC7I2cmhtBAXkoutxm2ioNTsqVOBlTTgIHH5FyoSGrSYPo1sXQCxPV6Uj/yBbrl15imCuLE31uZp6P0Fgaqdbscw/UrKw1IZygQSbPLuZ6640JG8evA2zkLN60qgbEXPbQud3o4mWbPcv63vwZtt+uskzcRoH6vG/C8nrH9eCoL+XQPyhuKouxv8rcU9bJ5Vz9n2VWYffuJ9WZs44MzYcurDeCtlf1wmXYa3tjWqBh6et8XkcM3hnCInZNgodi0dLVEjYetf4iX/ertZZsggg767u/2vPwaPlDGmAa40zpFLwaV7YwbiJr036BXCRG3jGlqJN+mSeOFTFRQ6Wk0702pkvtdryyKbleE4BiqS9ynU6uCwS720+orMWLxwly0BbVS3Xqj5tK6SMCjRB5q2sPB01hp2WVzRjqqXyFLQSqGn+6Zc1D3y8iaGESST029eawE1C76vMfQd53tQFAGtmKgOHIfP1M1wLNOHT19yfV8e0xa6v32YZno+pnBMKz3xrKkxeTc+cguXmbQ8SRoLjlUir3zWOMj+8Gt0oud+uLS8UlW4J0jnqZs1JXgUbAPNtrqmYipM6qGqDDmiBYNtiGMzljvgQJ9qp9d7pl7c1C0l1vJ2JB5ngGBMcdXmNtB+DPCbz22Q+4FJyi16vGc2Wu7CneprFCJaXpRwKxPlKGeAGwJPzPWlPQLb6qbVCqhQg22QImDP/SntTVAFqoETIb43xkettUptxXHvugxAaTe8dVdXVdbcswcngCqee5HO2LFUBDyh1Vf9/60NwkEet2ae/mPvKeYNXtH7XEUOb4pdg/5XsJ764HGx+DkeVP7Y0w4/T2EI6VYR1mb8sLtWH6RdinSOEqx/ymxDuSOWgsEAp7nA0Pl+A9IR/jLHWFyoM2sOUM8GqDiLWLI8+yZYu7Cv2eNzOYEc+22pg8ZEUt02fMyOoQu+X68CVwlTJ0DijtpT+Keaw8GV8DnPjhu96WwNvNIj3o7Eh21UdZsxC8MGZGw5rfk9khQZLUWJu4LPX4xkQyaK/DGDaj59OKDMgjrARuWk4HtLc2bKCIgJZRCjUdAjNNzZnJxBoVMtSmzc+0QpUOl3DeUx2Sl9d5keVVsNf10SxjHtkNRY0ZCsi9SOGRmOT/05Uiq1zVoEQ2MxmDx4pAf3lc+LwGwGGc65cA3Vm4lWD3Epjdh0OGaVIS4+xjZKYDEdGO7E6JGf4nZGncYq67cV7wY0JqSeU+giidNga2+obAkirMjuWp8vKQ9DOd1zb9ldSrCNlWXTz/ehpHFbhc2nqzwsLfRISNjEhQys/++/ccJ4+0vsP/6yO2g+x12QpEjGOhr1u9mgy7Q+yy2R7nEDI1DLl6LMVWuotUQDRKOnpjYKwyuYUm7S/wguov3vi075+5attG8/rCcyNapm5Hi64BrP7DFoHOpy2XhaU8uwqU9AyfIK3fNf90eEr8RSKEbIEtMuRrWcmn0hKxhPkw4ES779qSu/DNsOZH/4bBh2TagjanFW84WJRhOxLpt/p+vN/St1kEKzvZzILrfTa3SBLGTqIM4SSylKxTnCEyEdVN+bGi1Q5Tcym5gC0aSE1bARJ4GC6WAilnnFjPnK7qdrYbHP7mtXgvgJNgSZuRYjZvl8k3aMvJUeuG1h+3xtnHHzI3gA20EIlQCTSdw4fSb1/4qbXDV+0LPo+51eRrcRW1JYIIBaKd3UJY9YNM3pHb8EUCAt/sslEfNoUFs2/GErcUZ4vJDvcOyahZ8YlfacQ+IGFABfP8jp7QG6WIp5igaFNGYOl95B6tgaEZH1zjbYE072lD9ZQwd4i5mfmZjs0KA+VuvKaaG1eURlbbdJs0Pn09rAKCpPq4FZVdn+3H/eKTHyDJW8Vx40z/z3Y711a9pAa8Sy+XfjIzTZjVet72eoLnQeiL5wDt7qdEMOAKHIGOTercpRob+peh2o87wejI469stIyExab+e2IuLzIxXNH+1AeI9Evxr0UIkfG+63ijZegipmSqnAUWPQQEdlthi3kc/53GfnKJAp8BYruzbwfzAP3SRVH3BjpA8t7s2AxzgOjAtn/xUBPoOfmS6zNQGVe0IwoZO5La6Sw1De5L2eclInDxJpd8lh9a92os/FeKPMNNujqyeYi3anh3kMOduPlDTIkwiKI5UaehPXIg6x18gFxEm6fwHrMS1korM4dxfCh925lhmfIwjfntcVPXV/IWl9gLMycrSUhZmpmbg9aP33aodZ4EtAE252cKV2JFqUMwKigi+rbxv4ceLmmblvXYpbne/o/kjVrqfeZNNqfoF3ALwmFykNz3qoHw/F9Dbft718wWK505T3gqVqep9Rkk0SbQhNXT2kXvk13RZq5evVZ/eK65oeIxZrI82DdYn1GlkC5gkYTHk5hsE2qZr+RY8rPJu0aXZ5b98L67YTYuBTghsOhkTnr6drYIlKRvp6Bp4d+u/SqPfcqZz4oHnTnpMc6xYovBly45Hw/OKg9yxaLKPlbRIEp6R/kkFgC+F36i2zF82wLHp1Ob6iHX+RWDM6ez/hXM6aMvkC77A3t2ZFkOKLoKZMmR93s5BijoYjkcXINzt+Mc7YY9gLDxUeqMVQSV28Q0KvdqYcCWgfx+07ClXD/SQXMoagkE7emQcvuhUNZT44j+b3brFf+FPLitzd5pf4Jy0op4fybJ0VOHbkrCjX2OQ1ro5kYcBInRebZBDIMgySFCKzjD8D1cNaQnvdXvvIEtQmfPHILgvZfDoHwQdS7fhUAZ6y/vo1hNSmSJutcqYwgAn40B2OzKa/dOY3kl8f79ShdiTquOQZEHG9uH1IAR7rdsg11+yo7+9YYSglio4mpTEY9UXrxe8DXgkRVBA2L/tXAYI6cTgYa7iJU6WHe7Ei6zyaW23yG40HEjP6DBBcjkvB6TGq7RE7IcdTOIsAm6Qwsq6hpQyz3Gcq9PqKoUnxdYIV96ClhkYHth"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28641,
+      "candidatesTokenCount": 178,
+      "totalTokenCount": 29896,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28641
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1077,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5tjPapDwONSfqtsP4_bquQ4"
+  },
+  "duracao_segundos": 5.682714800001122,
+  "usage_metadata": {
+    "promptTokenCount": 28641,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 29896,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28641
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1077,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0031",
+    "tema_central_id": "4388",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4385",
+      "4387"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente conceitos da teoria da anomia, inserindo-se no estudo das teorias criminológicas explicativas de nível sociológico e em espécie.",
+    "evidencia": "De acordo com a teoria da anomia, o crime se origina da impossibilidade social do indivíduo de atingir suas metas pessoais",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "fbcd876dcec240cea89239e186bab313aad20503a27d6ded85a04a7f29e352e0"
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "versao": "politica-v1",
+  "registrada_utc": "2026-10-14T19:19:38.958033+00:00",
+  "prompt_version": "classificacao-v2",
+  "modelo": "gemini-3.5-flash-lite",
+  "confianca_minima": 0.95,
+  "max_extras_publicar": 1,
+  "revisar_quando": [
+    "modelo_requer_revisao",
+    "confianca_abaixo_limiar",
+    "candidatos_concorrentes",
+    "central_disciplina_nivel_0",
+    "central_em_colisao_de_ramos",
+    "extras_acima_limite"
+  ],
+  "ids_ambiguos": [
+    "4684",
+    "4688",
+    "4696",
+    "4702",
+    "4703",
+    "4704",
+    "4705",
+    "4708",
+    "5063",
+    "5065",
+    "5466",
+    "5472",
+    "6716",
+    "6717",
+    "6722",
+    "6723",
+    "6724",
+    "6725",
+    "6728",
+    "6734"
+  ],
+  "ambiguidades_fonte": "artefatos/revisao_taxonomia/ambiguidades.json",
+  "ambiguidades_sha256": "6d069bfb8f34dff9b9d9a978f7440ac64890b58634b8569d5061636b76faba4e",
+  "sem_tema": "Pendente de confirmacao separada da ausencia de tema; nao converter automaticamente em fora nem inventar central.",
+  "confianca_exportada": "Autodeclarada pelo modelo, nao calibrada; nao equivale a precisao medida.",
+  "auditoria": {
+    "estrato_desenvolvimento": "Censo dos publicados entre os 20 casos de desenvolvimento",
+    "estrato_restante": "Amostra aleatoria simples sem reposicao de min(80,N) demais publicados",
+    "semente": 2026101401,
+    "nivel_intervalo": 0.95,
+    "referencia": "Revisao por IA, sem apoio juridico externo disponivel",
+    "inconclusivos": "Cenario principal conta como nao confirmado; cenario otimista separado"
+  },
+  "limites": [
+    "Politica operacional proposta apos piloto; sua qualidade ainda depende de avaliacao.",
+    "Registro criado durante execucao do lote completo, antes da inspecao de seus novos resultados.",
+    "Todos os textos foram inspecionados na exploracao inicial; nao sao dados nunca vistos.",
+    "Congelar conjunto de decisoes antes de sortear a auditoria; ajustes posteriores exigem nova versao e nao podem reutilizar amostra como independente."
+  ]
+}

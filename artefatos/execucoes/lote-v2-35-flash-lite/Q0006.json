@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0006",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:27:12.944389+00:00",
+  "sha256_prompt": "cde263b64218cb076035223fb02b4534392bdd83bc252db3e2585acb123fdbe2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7a31fa309bbe0bbb6bc14e59762a8835384ead78b67b0aa872194e032300be40",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0006\",\n  \"tema_central_id\": \"5159\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5160\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda simultaneamente proposições sobre os crimes de furto e de roubo (consumação do furto, distinção com o roubo pelo emprego de narcóticos e tentativa de roubo impróprio), havendo mistura de temas sem predomínio exclusivo de um único tipo penal.\",\n  \"evidencia\": \"Sobre os crimes de furto e roubo, analise as afirmativas a seguir.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "EvQeCvEeAWkUfRMdRo8aBolxkKMlbIq17SqyxWVNV7P8t29Yz5tPbt79KoaiK7AKU+JxjauHm03P0sFroHJsw8brLiYFzNTU7o4IM4DL7orGtARCO+5Fay2tfRi7yO1dTrMNyYwKeIP+8vxSB6T3uuVBD2Z5t4+AKCBlRIbUlNSwVWnypf1uSoSrGG1Qd+shNkpk3TWMuSGDDAfc4r4Z1xw9PUse0Iirn3a5JJFQhVJ/FjuxbD28jvNO4sCHGJLxTK2JDcGDedULEGOKQ7gE6rVnMvSZtY36VhKv57/HxCqibYh8sWtSmScAtf7+X2i9PjM7r0dCxfAsq1QQDEBzfKLVkxVnMSHT5uQY04gk6mOWUa60OZUpYN//SMZlOgeknaNc/q4v20UWIwtAxgKKBoKlX+WYvDCxaxLjJOcBgaHXdDBZ9E9AWL/kCDVblNoUpNwq6sKo3NKp+m6iuFkOq3/EbAccH/aBFF6w7pHhb8tLb6A6Cj01Rx3NuIKChvf5KiRyZIxWrSm5JVSkDQYufhba4m3xa/V61hvHHpngzjSZqAHmScPeoG8nLR86HQmCis0JAfBhCjGadGnzSFchVa18fs0CIKo+OtPCrb2KQ8Y0XHeOQI+tQltWD3oBom4RnviMQnJW8oumKdPNHNRFL+sSK2HZR+4M0Ci3zRFSa1Bc+tm4B++1bL6dkGEyr9LMYoYd+xHVk0evdD3JKg8pporX51GWUn7EyTLrNLTX8eUiLQKKIdaI0n1jUZrfEANCjD5f/xoFJP6IB+q8XxYlSdNADd49Nb8bhE4xIY+sG8oBTTKFsQhoj3P7TQeHsd/Yc8hkN4xLe5i0mB72jllBNdUk2ljicjQRVRVVZpn6Dw0U99SLPDQqLiiTA2NNahFPxnUpkNwF6//7Q8HgtJCYFD4n7SqHxGYsJIRM56zUrZLbHEeIsNwNANW09YITn7O6tg4IWwkKl0zLk/kns6w4v8tYxWO+chYLIQGoaC91GtUjZQIPnPmSJnA+qDvGH/pJI9GUcMv1jDZBt90xJH8BLjpH6pJhiY/08TuhTqS2Z+N1Z3bjcFDeoDz8PepJ/6sBhEYnFFxp6EqE91ogt2bICygnK9jaxCHZXssmjCL9YnDgl4PmX9pIJIOFily/2vj9zFOA1a3YTGfkMEapos+yjMTuVugCddkiRS8VIHNxYULkwMSKsbXxFk/iHGtWENkW890arbmDrF7pRvwWreiysuRxHfKkgqctXXj1igbcZNGlxBok4EK7pALy+tFRPwSv1D6rsGx4YUKBJ2Q7UiYxCPrs+KeA6//s+JNIvQSZOXdN3l3AEyesumgtpgW/7lMoBmxPYaPL9SsyaaUEsLcKVDm+USz8pRxifEFVlGMBSGowUlZqGah9OLOM86hlKZ2PqZ8WLzg3csQIHcjWAfViCRaXfnVu2Xh6W8Qlwbka2i9X+srPEx2UxgwpiNF04YjfmsUzH8lXwvtk/OZ29rh5pyvZ3XB/0pWE9IneZsRVtYxguaOM8XpGdEn47i6Br2+P+FpfCnn6+WUy1uNbDJTWmOPiYNQtC7UTV/1WAvxb4YgZKxUWh6ZlG/aT/VPzii0RNk597enn5vHCli8pGIJhh9FKTe0fzZ49xLWusKiZOaVL2NaqGVam4A1yZPsJTbHPc6q+EFIjcPIel6SB+AjE56Fszh91CMrXpIskdmofxz2E6Nfs84v5X2Y3Io+BZ/fe6UHtB+gJJ/H0x/Ze7NpaVSO+ouHv+yEACif8sDSeVM8OoHV6SUQv0prGshdIsb/tZEtEbupL7auTxfMXn+OSLE+rcHhxkQPyEQDiS9o1dZDFhUAEU5vUOta85AsQiaWqe1cPkWBQ5rcPaeG+4qF/cCJU9x3H/YNn8OcVlrkMKfSpLzLXX3NxveVCcv4l3YpUczLedV6mQkqO5/4wiWKx+nqHkQoiJAQxbLMRdzx3PTrf5G87Xs4CggwySFY2BSsyMBYq+mou19D1UVibMuVb4uSHYCl36G5E9pGnliMhMO4HViIl0ZKYETkhGr/XTZSF4UGqhdcncbA5nYVKjgyhG77n7xdM9em9o8uaEgCDB7cKgVhwtxfBMaXA+4FGoYi81yMjhB/yi62H9dtCjSsRUjrpt3UMeaAt6nG9WcUvLO0QkCy0vTN/IpKsx97VUF/yhT0sBGmGUnOcwAGWNMlqyeYX7BJRqqmCWa+IEM+UoOl/VW+EqMX+0P6NE7sQ8zSPDddoNy5tHAVMh3HAQnQANy292/x8WUgMmxNhg1H90QclQ/ouhWpiBBISkjWqSm39lm1V00cDCMi3u4TxeagE5ASCxaEZSRckvd0YFIR5CWZeSUvuWZXVKokB33R/b2FnMIF7tC9sTFenvB223LDMZiY6cYGPCFWOyWAw2gnw1WGfbxZm2V5ACU9fL2ko0kTsWypamEbgegQj4jKeemIQo9rnzO7H0eUcVWgO3VlYorRdvpmTfjz7BMTFZ5vy2NUZ6kqPQziwz0+GuDumFwC8RuH1yhrW7w0z2c/GmPZA8TlzmJvU0h1Cv8ayCffy85RDdN4MO+hnVH6hSpFHXBDRbPsFWlynwYvImvRZmhxB967QB42Yh8ouQlovj9aUVZE5S9I794DexEp/DLJvywDxF5A2zrNHEV2Bm1n/YeSi1bXQFEV9D2qX1Lhvu4W14+6bujrKBaBPWyvrRoMOp/1Rfb6ywyhY9e62qErDJWy+mJWA3b7INCBJNAxPnwkFe5rc0NC/KPOG24yAZhZXBVhBbG7CZ8JHA/EWzjhBPjSfLNdQmaUzVVL26Y0SfCSH9m7dVaVDOtw1Nb0UxHmLi3Jwusw1fJq8U0Jg4TFUJxpBNL0KmvZ+iWTZEK05W+OhI9Dkb4Ww5+NWyhf6XzVLoJZp/SHlLrXbS83jsYMKCPPQJoJmC73a4e7XOJm8YFk7o7k7cXxNsFga/Y7Vt3b8D2vie4fr8DNO1Pz3sMw4YO2cUqipssPw8wEoNc2DCTTdmAK8aElnt6Pjan3kijQcgvcTKzsy2POBGV8MZA0bEAX/rqd0zfTEcQ0lqQKz3fx+KnPj37if6MZ9OFudwSOA/9zONU/JOrJRJkHK7NiHLkKXKUbZUd8RQ1oWtsq4bKXoUT+nXcQ/pd276sr70fs6fD3u8ofdLw8Vb12RpwxMug689BLEeqNGwqVlDK1miI7WMmo+QFuGM4P+JbrvGbIZCUVwc/A3tKVNE7juB1JaYnaOqYLnsr2ZEMV+vQ0+C22YWcFUpClMgbffeD/7YfflqjwVoMJzYyzWGCc1vjKCLJlYpt8k9dRpftf980BG8zV4B0xz/nac6KcZyX9QgIdJ9Y5TZFJZTvuDnsFbvGd1qHVrrrnH8lUy3erIN59BQmADQMu4LKLMQ9U9ufgt7OfjUXxCVzT6HqUc0PEYp3iX/+Dbvlsy+/y+TrXEb9wTeRnV+OgACAFsLqP7dvYy94q5stlaV7STQqzm8mfyEq1EEWUjGoyJ46mx2sjqcQ67GUVmbuRsgLmYhftSR/ruwezVHBrLeJ7DfOEVWEJVQLN4QzV8LZUL+08QKVHBUfU0+1TnjI8wEuLYImUIIypvYQV0bz1YelmxmMBNElPtN5l4VE+AfawKo38OkM/n3oZs+Xm78tfyI71G8VT/+5JZQqa0jT5FUzl9WzDXtrBDld8yPOJJvU8ugmzfGMKSbg0J3E8B85A2zL7+cEwBGHNmShCXPaZZzml5L2O24DPQYRa5MpaASvLKRlHLiQY6IifSJCvxZ2tU7T7Ju7hpFBy6hgC9UDoqbyjsqQ4fFOxYQ6B88VxMXKHumGqk30DhMsa73CuGNHXhOu2yqbmtTj0qZFJcoAH8gd9uOubLQf4Sx8fODnrMJLpSd8feP+MhekOz7S/PJ2RGhlPo+FMhZ0SUhEOINWIV8pMdS6e+HIcCt1rvgEHlrf3l/bXY0TJu/RpQlCHEYd/6QdYMkRnDe9GPvmMFDDwY7R6KUljt6q+izB3Hnts2XvVjtN5d6ey7nc27CWagmF5PEmORQqL4YBKlBpqDa9Varm8aOWvN5S5Aldet4wBWScXMdwhjOP9BlZo3cMM2LA/7YsCvtj1IW7ytRB455GceuMd27vISGVh8ajggQftERS3nVHMwZSjlrPPsYynn2BGpkkVo+fu0M26I/hEmh9Q9BoIa+7+oLbhdnnjcAUYvwNCGGFqa2lm31rfcxPwiZ5n/OieS7CswBoRhoJR/FXgTGor0Ln3wuNTr6NXSQx5QZTJ2f5jC9Iz1CWtyjEPvAigLw9YOL16W2mwmIS8sa+hqVKN0WGb1rfx14xAibwroKxYzTs6TVmlmOfM4PmWxOnFs8AwzAWMw/t19lZxsDMi1kZuZew8A7uvRi+Qme+qyJp9p51yqwA7hjlDU38a5+uCOQwa9a5b5uNut/uqe8bFiDF3YkWSIgJ5dBOs1qXKxh8NaVvk+4DsbImK+BLfKrTgyp/WPm6qhUgidpw3hTXYavs5xU58W+HIxiQN+gS6UDN/MIngWn5mU0RKFlXXequdYj0nszhkXs3MJS+xtuKyoXQ1jEOsn8n1iJBC/LWf41qMjDNuccA5vyvXb2L3HksT4tUjhBy5K71d1WT/SpzoiHjRH2anRlyD0VZ2vwM1c/YXNjCDC6Ua47IncWafTd5qwp0+HnpEfsaKNXI6l5zfPbXfchnrHkVjoQ4TfBo+Vxz3jNhlHquk4GFsizb6DjopH49fPs2S9xVmPzicw5OaUGye3MjdJN/Fye0S7MfRz1JPRmLRwGk7N8HhKRQewd5HQ7Vyy8+g0xNWYqgrtzUDeXMsEw4zjWBHAyvGnfAxYqg5bDjl+AY50w0KQqH+4ZCYx2V+8CvOfs52Onw3vUmzOcRPAJFsEC/jPBLekCnZRF1nnw3R0CskSgZ30xN4fxTkM79HiFcb6pMwD6vMZos8gP6SuzFjyYxYHDKLYI9DTQEJOgFvZuHS93KHdLn9N2akQS+sPt8p8S6C2BVaTmI7eCQSUduqJGQALJIia6Vp4DEt2QEyOFSQ/WZXXCPqkfQIHpLilZ3X/s8anuRptpQCYSwppyxXy/yI+DCLmboGg31mzgzOdQRJfPNkyhBvaBzveO9bUq/PCgXLuI8VZ8MoBB3SdDJpJyiXIKowMIbFMTZ8rj1iTUXka3Fy4DU+m9G6SObuFbRBlK/KHpfTGA+teNh0XtAllBsdMDh+PR8Nv/LVNHywYqfx7NWtP5tAJkx4ADNa+c1YeLs1ulYF7TztmE+sqYvrGs0U="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28729,
+      "candidatesTokenCount": 188,
+      "totalTokenCount": 30007,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28729
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1090,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "kdfPaqK0JeSEz7IP_b2yoA0"
+  },
+  "duracao_segundos": 4.697300499989069,
+  "usage_metadata": {
+    "promptTokenCount": 28729,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 30007,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28729
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1090,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0006",
+    "tema_central_id": "5159",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5160"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda simultaneamente proposições sobre os crimes de furto e de roubo (consumação do furto, distinção com o roubo pelo emprego de narcóticos e tentativa de roubo impróprio), havendo mistura de temas sem predomínio exclusivo de um único tipo penal.",
+    "evidencia": "Sobre os crimes de furto e roubo, analise as afirmativas a seguir.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "285f9aa65687696fe7981662bc35c22776a0674855dfcb7196f699f8d89d0cf3"
+}

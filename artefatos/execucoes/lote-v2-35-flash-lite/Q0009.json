@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0009",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:28:00.483891+00:00",
+  "sha256_prompt": "9ab933b1387692729026b8470b2843fb18cae9af03c9bc2f56d02c35bf126c31",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b37263950bd9188a630ced7fca340a23fb17a8aeee118f1f32abd7f06d51abf8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0009\",\n  \"tema_central_id\": \"5158\",\n  \"extras_ids\": [\n    \"5159\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento das regras de imunidade penal absoluta previstas nas disposições gerais dos crimes contra o patrimônio (art. 181 do Código Penal), aplicadas ao furto cometido em prejuízo de ascendente.\",\n  \"evidencia\": \"arromba a joalheria de seu pai, “Benoir”, com 60 anos de idade, de madrugada, levando bens avaliados em R$ 5.000,00\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28705,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 30367,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28705
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1461,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wdfPau_TCIvrz7IP0dDd0A0"
+  },
+  "duracao_segundos": 5.676556799997343,
+  "usage_metadata": {
+    "promptTokenCount": 28705,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 30367,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28705
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1461,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0009",
+    "tema_central_id": "5158",
+    "extras_ids": [
+      "5159"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento das regras de imunidade penal absoluta previstas nas disposições gerais dos crimes contra o patrimônio (art. 181 do Código Penal), aplicadas ao furto cometido em prejuízo de ascendente.",
+    "evidencia": "arromba a joalheria de seu pai, “Benoir”, com 60 anos de idade, de madrugada, levando bens avaliados em R$ 5.000,00",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "4c900dde38ae9c29a97f1f65d826e72e7016d2365fa5ead820b952be738aa565"
+}

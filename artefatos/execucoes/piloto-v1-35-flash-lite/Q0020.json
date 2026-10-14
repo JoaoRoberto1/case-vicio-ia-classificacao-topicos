@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "Q0020",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T18:59:02.390323+00:00",
+  "sha256_prompt": "6c6e09d419593a0d4c886bca7c2d55a80445fb2fdc0356311da2da77e6f78b6b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a7ca5d88f14df7eea9ab315adb5e08ccbe63e557c587b8c449d782c8712e8e11",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0020\",\n  \"tema_central_id\": \"5062\",\n  \"extras_ids\": [\n    \"5066\",\n    \"5199\",\n    \"5157\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão apresenta proposições sobre jurisprudência do STJ que misturam diversos temas de Direito Penal, abrangendo concurso de crimes, teoria da pena, crimes contra o patrimônio e outros institutos penais.\",\n  \"evidencia\": \"Assinale com V (verdadeiro) ou com F (falso) as seguintes afirmações sobre posições jurisprudenciais do Superior Tribunal de Justiça.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28860,
+      "candidatesTokenCount": 200,
+      "totalTokenCount": 30435,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28860
+        }
+      ],
+      "thoughtsTokenCount": 1375,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "99DPasHcAq3sz7IP1e3ZyAM"
+  },
+  "duracao_segundos": 6.074634399992647,
+  "usage_metadata": {
+    "promptTokenCount": 28860,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 30435,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28860
+      }
+    ],
+    "thoughtsTokenCount": 1375,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0020",
+    "tema_central_id": "5062",
+    "extras_ids": [
+      "5066",
+      "5199",
+      "5157"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão apresenta proposições sobre jurisprudência do STJ que misturam diversos temas de Direito Penal, abrangendo concurso de crimes, teoria da pena, crimes contra o patrimônio e outros institutos penais.",
+    "evidencia": "Assinale com V (verdadeiro) ou com F (falso) as seguintes afirmações sobre posições jurisprudenciais do Superior Tribunal de Justiça.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "7b7e2596ba7bf5c8823f613e1b2e7bc2229d5f90a3c35fded7e8c1388774018b"
+}

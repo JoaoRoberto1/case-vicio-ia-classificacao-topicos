@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0019",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:30:18.769615+00:00",
+  "sha256_prompt": "63905da45aac74a9b3424541a9b88781e84df28e3f1f54649d6ed22b973069e7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3cb5ff21112b781f4f677d86dc4b3ce39fe150d3282d85641eb8ee88576190ae",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0019\",\n  \"tema_central_id\": \"5475\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os aspectos processuais, o cabimento e as relações entre as esferas criminal e cível no âmbito da ação civil ex delicto.\",\n  \"evidencia\": \"relações entre as esferas criminal e cível e a ação civil ex delicto\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28863,
+      "candidatesTokenCount": 152,
+      "totalTokenCount": 30154,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28863
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1139,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "S9jPatH9GtSfqtsP4_bquQ4"
+  },
+  "duracao_segundos": 4.569186299995636,
+  "usage_metadata": {
+    "promptTokenCount": 28863,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 30154,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28863
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1139,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0019",
+    "tema_central_id": "5475",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os aspectos processuais, o cabimento e as relações entre as esferas criminal e cível no âmbito da ação civil ex delicto.",
+    "evidencia": "relações entre as esferas criminal e cível e a ação civil ex delicto",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "55887a530517f96e5000d5a6f5ae830adb1a58305e2773db05e48d4d284f422c"
+}

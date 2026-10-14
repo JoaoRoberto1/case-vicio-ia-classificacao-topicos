@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0008",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:27:44.258279+00:00",
+  "sha256_prompt": "e3be9a9c0fa54c94d2183c885a84d4ca69e5a0d9af625b3e2391af173b766e52",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ef4c888b65366faa647b0bccbd736c1bdb745e90963bc8d0affba858738417e2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0008\",\n  \"tema_central_id\": \"5201\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5088\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda as regras de progressão de regime (Teoria da Pena / Penas Privativas de Liberdade) aplicadas de forma específica aos crimes praticados contra a administração pública, exigindo revisão pela interseção entre a parte geral e a parte especial do Código Penal.\",\n  \"evidencia\": \"A progressão de regime do cumprimento da pena de condenado por crime contra a administração pública condiciona-se à reparação do dano que ele causou\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28641,
+      "candidatesTokenCount": 200,
+      "totalTokenCount": 30516,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28641
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1675,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "sdfPaoHKC5eYqtsPiM_CmAE"
+  },
+  "duracao_segundos": 6.217769099996076,
+  "usage_metadata": {
+    "promptTokenCount": 28641,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 30516,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28641
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1675,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0008",
+    "tema_central_id": "5201",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5088"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda as regras de progressão de regime (Teoria da Pena / Penas Privativas de Liberdade) aplicadas de forma específica aos crimes praticados contra a administração pública, exigindo revisão pela interseção entre a parte geral e a parte especial do Código Penal.",
+    "evidencia": "A progressão de regime do cumprimento da pena de condenado por crime contra a administração pública condiciona-se à reparação do dano que ele causou",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b37e7e9187ac232b48c617871129d50991b78480486f711a817b1d7e081b8b07"
+}

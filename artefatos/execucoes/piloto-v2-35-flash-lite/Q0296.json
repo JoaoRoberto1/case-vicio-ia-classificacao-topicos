@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0296",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:12:56.605297+00:00",
+  "sha256_prompt": "86224dca0e43d484c1edce3cf99d209fd35d9e34f5c1d70109d7e93acb54090f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c77dea7000774aa958ef1074780dded31253ebef748f661213b96ab0b59a6b62",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0296\",\n  \"tema_central_id\": \"5466\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5063\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a sucessão processual na ação penal privada em caso de morte da vítima (art. 31 do CPP). Há sobreposição idêntica do tema entre os ramos de Direito Penal e Processo Penal, exigindo revisão editorial devido à duplicidade de nós na taxonomia.\",\n  \"evidencia\": \"no processo penal não se admite que, em caso de morte da vítima, os familiares assumam o lugar dela, no pólo ativo da ação penal privada, para efeito de apresentação de queixa.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28625,
+      "candidatesTokenCount": 210,
+      "totalTokenCount": 29849,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28625
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1014,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "OdTPas2IDYuHz7IP-Ma2uQw"
+  },
+  "duracao_segundos": 4.753549200002453,
+  "usage_metadata": {
+    "promptTokenCount": 28625,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 29849,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28625
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1014,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0296",
+    "tema_central_id": "5466",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5063"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a sucessão processual na ação penal privada em caso de morte da vítima (art. 31 do CPP). Há sobreposição idêntica do tema entre os ramos de Direito Penal e Processo Penal, exigindo revisão editorial devido à duplicidade de nós na taxonomia.",
+    "evidencia": "no processo penal não se admite que, em caso de morte da vítima, os familiares assumam o lugar dela, no pólo ativo da ação penal privada, para efeito de apresentação de queixa.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "e15b21e301b55e55c3e58aac18323fcf9090c918554761d51ef33c6b28d65141"
+}

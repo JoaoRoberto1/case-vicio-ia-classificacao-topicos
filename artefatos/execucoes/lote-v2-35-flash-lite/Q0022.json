@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0022",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:30:46.597354+00:00",
+  "sha256_prompt": "0496fd41873090b9206352bd7b405f345ea158a6a932658be3d04a2c36e9832e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c1b7181efd5ef55618f2ae436abf97f3795cea5ac6c3d5b55a99af08306cc6b2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0022\",\n  \"tema_central_id\": \"5089\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda os crimes contra a administração pública, exigindo identificar qual figura delituosa admite a modalidade culposa (peculato culposo, previsto no art. 312, § 2º, do Código Penal).\",\n  \"evidencia\": \"Admite a modalidade culposa\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28608,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29351,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28608
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 583,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Z9jPasnYDd_rz7IP-9_R2Q4"
+  },
+  "duracao_segundos": 3.0218112000002293,
+  "usage_metadata": {
+    "promptTokenCount": 28608,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29351,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28608
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 583,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0022",
+    "tema_central_id": "5089",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda os crimes contra a administração pública, exigindo identificar qual figura delituosa admite a modalidade culposa (peculato culposo, previsto no art. 312, § 2º, do Código Penal).",
+    "evidencia": "Admite a modalidade culposa",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "418b3c04e98bf26e7e8d6358946acd4ccf53988fce0edda78bac98b2a5f3c60b"
+}

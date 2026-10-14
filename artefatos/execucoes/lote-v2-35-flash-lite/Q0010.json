@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0010",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:28:16.232632+00:00",
+  "sha256_prompt": "540fa04be1b85a4d34eac56818c44a16c637d5ea263eadc05671afcdc2c2f4e9",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3a2fdaceb851ca1f5cbb82b8337b9739da27a7592b557b0a270fdb9a9ae50599",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0010\",\n  \"tema_central_id\": \"4688\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6717\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda os crimes contra a legislação ambiental (Lei nº 9.605/1998). Há duplicação do tema no catálogo entre Direito Penal - Legislação Especial e Penal, exigindo revisão devido à indefinição de critério editorial entre os ramos.\",\n  \"evidencia\": \"Com relação aos crimes contra o meio ambiente, assinale a opção correta\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29002,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30219,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29002
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1031,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0dfPauaJHJPBqtsPp-DZyQg"
+  },
+  "duracao_segundos": 4.659752199993818,
+  "usage_metadata": {
+    "promptTokenCount": 29002,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30219,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29002
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1031,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0010",
+    "tema_central_id": "4688",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6717"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda os crimes contra a legislação ambiental (Lei nº 9.605/1998). Há duplicação do tema no catálogo entre Direito Penal - Legislação Especial e Penal, exigindo revisão devido à indefinição de critério editorial entre os ramos.",
+    "evidencia": "Com relação aos crimes contra o meio ambiente, assinale a opção correta",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "caa66de80343d2896cb7d7b183eff25e4dfc24eaa2be9a0240f227f17997c1a3"
+}

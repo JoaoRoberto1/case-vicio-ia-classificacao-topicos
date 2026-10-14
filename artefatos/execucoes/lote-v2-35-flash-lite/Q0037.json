@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0037",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:34:05.672883+00:00",
+  "sha256_prompt": "874f992cfe809a6aa733f104db483c73c79316e94db0784d393159cdf93b9111",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "831010332038d2cd68bdf3dece46180c6ac1c9c0c9ca203723ed706af5efb9bb",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0037\",\n  \"tema_central_id\": \"5132\",\n  \"extras_ids\": [\n    \"5081\",\n    \"5118\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão apresenta proposições independentes que cobram crimes distintos (redução à condição análoga à de escravo, falso testemunho e falsidade documental), havendo mistura de assuntos sem um tema central dominante único.\",\n  \"evidencia\": \"Assinale a alternativa INCORRETA:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "ErEgCq4gAWkUfRNxg/44vP9lYEBCRPx02TdOqfLeyfUlJxWNNkfSgaAuYNWDaXQSNwNO5UKTNrO53vZnDDQy3YKUaGrqTwYV2GoskDYHxAWgaV09AC88U1etx4NiU7Ec7i/WuKE5f3go9lO6jvj3qACjWtgV1k9K2qyfMTSmeQRKTwszYKmkmlxBfbLLKtfxjoYI2gkqFp4SzP0QdqVM70DsnbN2G+Nd3wQdiI+Sc2+yGK4ya9P/0Jjs+wPNrvVrf70NcQNNADSQO1RcZbm2ukkj8We9wXctonf7py3H8hQcjKhd4eNm3dEHekoIiSx19swGR2rlFlDSqEst8Q7GjPXSR0opItuKUTO24HFiJeOzYzM8JCtqKdd+uutLTewPpqeFe3n0oqoEhkaPKbL3LbszI1QF6MdgZxJmyoUoqgTpx0Y0hK8PlpsrY3BkAPg6E9sEYXrOywiGtcrZf3lfi0H3JDDSgda785sCOBhxlD8CykqJ7aBG392GW09gH8vgbuMo822Tu5U7p+mROpntv+oqeee9zIVZDENG5V81K20/NLZxTF7sXGMM4eNCnyus9gBSrefSTyl3VTA3twKpZgcY4QBk4uaPe/xokoqZWFWiyzXYxBvPljb61JAIprkYZll3JeMkoGELOOwftUZmv+qqHxxEXYysmoTPVysdFnoJbcgTUVYkAeOUcp2ws2Hp5Pq+kB/rk8g0A/NJeZ6R1yBwRlO+Xbb9Ej5nrPEZgd8tErEKnsMUO0CvhlO2imli1mesW4pa5CGIseehgaAQUIKGZgPkR15T5D6USmbPumycUiEy8cz4pPjG+vm+k2lciiU/k8kQORpSU2+KaJw+ZRSFaI8czTiT0yLfNNSeL2qsLPGhGmlkei3x6zc3bgMm91bPrHaRPbmrfuX+f4AY/zfEJKCbs+4bFwdWS8onJpGlnRVpTe9lUARxWwMGKnAurh2q3WltRAjKNJ5n/j/KkfnhyfCo16q8ZcIfrtAqfh6v6Gd9EkFpFOAtqPCPAm1LF5YXKIYxSRsahZmHj91L8sLhvVwwSXeg7OUoCvVX0hCKnXLvIpR0Md0Vs2CiOMrCyLOBaopsx05Em+vikUfnP2eFtIEpAGcF5gDMmvMZtyAyx+HOsC3IpScK935FkmNmYqCMZkMkLCSHJrl6Dig+YYCYr4NoEOPsmSgR/8gZ8Svk5S9W4UwdN8s+HcDf+NLNtbWjNW04QrgiHGY2whLcUY2o11kpfH9w4iz3XmJd9XGjWTUnFOTRvunvDn8TpQCCfyxcFrKGyOUeL/EMPqYr8oGXVjDq/0lraMwXpaxLIFnC2Vis0qIxCz3WHYGnAFwR9C2eD9Dm/ZxUX0O5u78eG2wCswtIR7bA2cq7p02Qa7P74zSDc85lM0maxBSWYfAFq03U3pnpEB1RtHiN6OXU+DEplZR9DQxNnCQVs6ocsHRednyeF4sGWuiyJFeSv4v7IsIMMaxoDdBmfzeu2z9VO0EVxlySFku1BxnBEJbbur3Q/3H9TuQHdC0+O032L3bi3KtAYTboW/XC21J4VbPUUVpgv7bIaPFjekvPnb2yyTF9xQynmeW7Q4zEsUQ7gRx968oUL3FA89/94waXWtguCTP+pwHObzIKcugHBAz1/Rcv59S+W6i3xuSd3LTbB20PN60cON6fdJQd9ZwobsGEnPInm+NikRUXP9J6+vVwtMCEsWf4GrL6HR62XvPwb6w3coKeGxiQBxjd2D9hLQ7Xw4/Qi9l8dKPdDxhnvTzyYVP1tmvQxvltSr7LqT+qwi2wVsG7sJXBp44qqfiNUTG05tDjVDz7uBpAE+22DhkKSStwMdSzDkApPMzwvZJfGYHIf9XFN5f6O6VLc16c3uyWpjqc0c2PCet0Fj8itoqduY8u9JGARtkNjUjBUM3Hobx3ArwZawAeupuX1HzXL27rmMQL1ITDnneXvWu38r1Wj28nGxeijYFZhDbtL8hND4LcaPriWX7/maNHx4q83XWh6xh+4xt5T7iRAhVqqK0UZ3p25se25SnHcB6goCII3QvXfzc0+Q8L5mFXsNx+7msVn5ehr1nP4pioEUZ6DsF2remZyKQKCySj7W72URzDAvuKAP5R2nXd+19NB6Yacow1kczXsRnuI03/j4PsM5JGIBCpduxx6BSqhOqwhbrr34n2nlx3tSsQpeKDd+bVL666xk9BZpd8IfMAg0Ga80d/izeCwn0d2sMATRvPDvnQ2W5VlR+Alj83Wu+9eDzU8ykSx90afvW+6/39TdR2wxHopfWtnmn+5wW4cBBoZp9tcKhheRiq7srGuSmHJvymANZ47GC7YjY+LT5BjayODlMGGUIQskWrNSHK3Gx+L+0RqzffHUF+vfNUWOyoX87zxLgVwgFIUd4cUtXLbBfDOtYaf7U7sG8LX1KBbQlXBX1LpKtontqjKpYRJYyV/s4MSAaUbjEp1U44CN/6R8xAuBjryE/IFDd6/oKu6+EVOw5+41B83ZSrCuEXJEp77HgHVJ/XIzjNfSglWS784t17nZTvxxAY6PrkCxHKDrdu1hGx0Xucf8H5pf7MruEpyq+TzHRdBaZwquzjT9FzwNi/ITM7lW0xUvGSbA3Ast7GzCwRo0kLKHCDfdPhdmk2E+XDlVQXemcp4ne/d/PunAsgQjuRBZ+UKAHkeRS5g+QpqABTlIHzjOefN3fnCyILWrUHwbAG4Je6oXZvI6Wi0sQbT8aIlYDeyjIMTGiRGKf7mjaZ4evsQtaXVBGA/73d6EmJ64JXQjZbBiw4F3qQkJuSk9NQCp4Nzt64xy64tiiD+MXgU7Boit5zRK16tD54ulyrbhcZ9fumRnzCTiGtNL4IGwXYd14USMQFCcVtYd9TUiYNd9MqhX498OVbfDc6nMGQo6x4BJHLvYxVldelf7qBGg5dgTzbe/8+COpfrKr+6fTgLCGmIcizNk9NcpIdMXLIunpz+Exn0Yief5msgczeEhkfJgFNSJhSSchMcpkoRpDmbSfX05d/qcfuyf+QocWr3oeKIHwQZ2F3zm9qCWQt3jalYlKd0v3Xto41AH7U7Anh3Km5bU4IiDly/ScDhxFI1+5rB20YwvnerTJcUEHGVml03mEkm+rjrAfK8zACKgwkgZsd4kXiwKlvi8zaoq3psuYAIJ4xNLhTq2nOGFBQf9WmGiLC1PRbCbnY90kNqB7Cg1WziSpPP8W31IWiHEGCm22t6DjWbKOM8W1dCjlii20RZo32H1yy3icMtsI2+rF07WCaG1R2igfk29b9DCRvCQZgAFzLs7b8x6UA9O6rkvleQSdfZNfW+U3Ik9Duun83a5hSYyXhwyG438SC6BV5oa86eQZwVEFjhnc5AWu9A12yGMAZ2dP09FcCch0lwhmR6BjvtjpHIiP0WKtcMgKTfeTXJrZ25zq/SVKwc8a6cyUUXk6hbreztClNfCLJCN9rOGeYz8n9hUz9Udy6mOANKXe2XftsDzdtxFnvXjUIhgfk2EofIj8r+tf9d3ofEADaYmsXD4D+4vs/ZDP/cKQQXZcvYkXVFXJnTfIQpD7njobfi2nsyaHwq5Q7iCQ/BaU1BepBV9kFxdU469q3+rXhWTL3kWvYF+YajI9wYVkSdCETnFv3pcWYo8/Jr65N0rT4C2PyHrmk0g+X2ruyei2Bo7fYc7D0obT3Bklx7UhyhcvTj1BeJ39Pjd8dBLuF51naYX5MI/HRU8pEmpqoUuaHM7/tjTnRvVLguyocL7bu/A7tON7ZnqoSZlZxc+LWbzHqOF0dmALHBlFuOaeQOGVNt6ierHSE06BaNzTsnXg0tfW73vDtkc6/t1gkdUk5PUtFyiAVvtXA9owRug/tq4RzZyfbImCzLVWFkh+6fPLHqC1LtiJ9vWtxqpSmM5z+rHgE0uW/zlh6UP6QAAEQXkhsXsNJD9i3Im9+n392eyJ7RffVNKNnCVB+V8/76G/f55VHiPx6FdgH9IDH0FMRDlQKetCG+V/o1bNPH9eKXv1nw+aETLzVAhwmpwxOK6oJSpFZHPwBgRcMNHHuvtSQF4/VSms3XwxO+E3ndB3rZpUbfoy7d5Q+AUXm0DCrN1NWVwEsoh/T2XFI7Yzb1oT1WjAC7UHTbfIQXpq3RwsYUOTjgnX+Tkv5nWzjqTzB3KuS9knn6SV4C1QTnUvoigBPkZN0fUisBx5iDgt5sObppQ8ADo5yqvBXhsbiTo5tRXI4Ht6n1/ykPA1ZlFXCYYoP0P481K1RRg69nl/BJ8XIG9LpiLc6Qe3pr6zOEXegyaeJMdqzlak7DatAPFwkcHGVAWL0cgLhyV/KctETjGPp1hc4So6HGgK6pOBLQ9ItPYqTm4XE8DPeSt5d3oFVVur2DcTUPR7P6EwFa0T92U4moDYRauKeKwURGklT+goB3HTMp5uwYwbkcHWq4pLCElOq1j4PXJue0WmzJCX9C9xXRVVaLk/baqSJ88Ihrmyt0ZleJQGEXLXpQ212j3J1HMExwE1ExSY+sMgiDPoWvCJ0fe7BEBaxxQMinJwouucHLPRmqABMars4OiUo3PHkaF83XmqCcI3tfnlO23plP8WSGo37PwH3i3+gmSTvEFiVA5hf+uDTr+ltxrVTZsCuz4AtecEYE0z2S5CrdvtqVFrowz71uj8gkgloWsPBERavQ8PHS74JDTjF/EXr4JRNsrcqUpFP+PgOeQg7KU3vzxUP+dxX8S4wYi20uNtpkplPga4gwDm17+3Ie3Rh5c8KX/NRrpr1wcU7bmpDShiav16oXM1FAaT2f+5wiC2E4tVqYFPNBlh3dmQcNrz1RXW8S09F7jnPkF6hh2NK78mLAREmtaDlrjw4CoCz9RLrFo5DxtyhTr5hSnXZwWbOSXFHlNRmYNF4l3aP0b04j2G32OtFUfwIdZHuK0Y5LtX+ze4RLcVY+fZW/GXcmtEUPcM3tSN4XX9HBe9iT0j+TZH7vsZvlNvCzp2NxWVrpGwO6tAZnYI1FlFhkom1VGz/2FcLIjkPQzdxkbXBlD91AEoROMxCC0Ls0XiSG2RBIiPRjmE4vNAqO14fjpShrXDzUDbEf1FShzkYvANOOTyXDQ7dclS1Wvni1WFY4idrTHo/3sWEa0kU6HivwOItwm4OFA3WF2Bd3OEr/a6NUvO5ERzKbaLLe8zd7oIPn4MKTXQMzPOe1IeaOH5qOyJr94wRmMp//1nt5QXjklsFeihBgQTEQUbtd0sI7C1nK0He8sb2C0v5JYhJNOhpD3mxoXPNYP5sZ79VUjk8JYpGOJ364RiKSeIMjTqE+UnftfqUPulG1cZ88KuTlUzTyvZ/6Ots+BCCRSnAl+yzeFei3AUkGKyDjfN5D38ViSe6mGGgUx3m2BcnLR9RmQsUMnW1UsNJ5sdKgDW7y+jeyvsP00WTnB9IJwCnkIT2ho9x22zoNfLlu53iq1v+LIY9FIJkh1XOJlXbGlL9QMHIj1igU4Jzo9k+wg9xQ7gaq/4BBkA3Sm8aGDKnujnHpw3xN7kYrpA42jujr47o1cBDd1LYbup7N7I="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28809,
+      "candidatesTokenCount": 171,
+      "totalTokenCount": 30109,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28809
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1129,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "LtnPavG2EYvrz7IP0dDd0A0"
+  },
+  "duracao_segundos": 4.592868000007002,
+  "usage_metadata": {
+    "promptTokenCount": 28809,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 30109,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28809
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1129,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0037",
+    "tema_central_id": "5132",
+    "extras_ids": [
+      "5081",
+      "5118"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão apresenta proposições independentes que cobram crimes distintos (redução à condição análoga à de escravo, falso testemunho e falsidade documental), havendo mistura de assuntos sem um tema central dominante único.",
+    "evidencia": "Assinale a alternativa INCORRETA:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a9074339764d45b43d0ed8f3a7383c6e30ea27965b6085f0b371bef30a45d70b"
+}

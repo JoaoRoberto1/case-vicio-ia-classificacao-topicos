@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0023",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:30:59.660529+00:00",
+  "sha256_prompt": "8003e82323d122d8183eaa7876fdac9cce49d785debc76e5c1a5699a79cb8ecd",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6f0d5f7571105a3da802ebb7553fe31d9522d1fc61fc29f52d0d742b0a33579c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0023\",\n  \"tema_central_id\": \"5524\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5526\",\n    \"5527\",\n    \"5528\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diversos aspectos do Tribunal do Júri, mesclando o procedimento bifásico, pronúncia, impronúncia e regras da sessão de julgamento, sem que haja um único subtema dominante. Por envolver proposições independentes sobre diferentes fases do rito, sugere-se o tema geral do procedimento com revisão necessária.\",\n  \"evidencia\": \"Sobre o Tribunal do Júri, é INCORRETO afirmar:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28810,
+      "candidatesTokenCount": 209,
+      "totalTokenCount": 30076,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28810
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1057,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dNjPapqlJpeYqtsPiM_CmAE"
+  },
+  "duracao_segundos": 4.860871800003224,
+  "usage_metadata": {
+    "promptTokenCount": 28810,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 30076,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28810
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1057,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0023",
+    "tema_central_id": "5524",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5526",
+      "5527",
+      "5528"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diversos aspectos do Tribunal do Júri, mesclando o procedimento bifásico, pronúncia, impronúncia e regras da sessão de julgamento, sem que haja um único subtema dominante. Por envolver proposições independentes sobre diferentes fases do rito, sugere-se o tema geral do procedimento com revisão necessária.",
+    "evidencia": "Sobre o Tribunal do Júri, é INCORRETO afirmar:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "89d1906e7d16675139ca5e815d0839c5cfca2ae6bb1c1f390c5446a3a3a43a94"
+}

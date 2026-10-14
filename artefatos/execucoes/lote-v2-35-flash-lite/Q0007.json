@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0007",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:27:27.648047+00:00",
+  "sha256_prompt": "a4d5bc67478ce5279075759ac0526ce00b9dceeff8ae2620e236299e5ca04e94",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "607683a3fbb457a4ec769518fe887e6176dc52da49ea1b95f6bb91d7ec083acc",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0007\",\n  \"tema_central_id\": \"5063\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5466\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a classificação e as espécies de ação penal aplicáveis aos delitos narrados, matéria tratada de forma equivalente nos ramos de Direito Penal e de Processo Penal, exigindo revisão editorial para definir o enquadramento ideal entre os IDs 5063 e 5466.\",\n  \"evidencia\": \"imputando a ele os crimes de ameaça (Art. 147 do Código Penal), injúria (Art. 140 do Código Penal) e perseguição (Art. 147-A do Código Penal).\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28885,
+      "candidatesTokenCount": 224,
+      "totalTokenCount": 30687,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28885
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1578,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "oNfPaoaqE6OHz7IPprGy4A4"
+  },
+  "duracao_segundos": 6.556141500012018,
+  "usage_metadata": {
+    "promptTokenCount": 28885,
+    "candidatesTokenCount": 224,
+    "totalTokenCount": 30687,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28885
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1578,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0007",
+    "tema_central_id": "5063",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5466"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a classificação e as espécies de ação penal aplicáveis aos delitos narrados, matéria tratada de forma equivalente nos ramos de Direito Penal e de Processo Penal, exigindo revisão editorial para definir o enquadramento ideal entre os IDs 5063 e 5466.",
+    "evidencia": "imputando a ele os crimes de ameaça (Art. 147 do Código Penal), injúria (Art. 140 do Código Penal) e perseguição (Art. 147-A do Código Penal).",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "3a3dd1304311798bbb2217f01103df70f956ff00d2c2ec04587bbcde571b63d1"
+}

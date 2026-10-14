@@ -1,0 +1,44 @@
+{
+  "experimento": "lote-v2-35-flash-lite",
+  "registrado_utc": "2026-10-14T19:31:02.146726+00:00",
+  "estado": "pausado_a_pedido_do_usuario",
+  "modelo": "gemini-3.5-flash-lite",
+  "thinking_level": "MEDIUM",
+  "entradas": "artefatos/lote-v2",
+  "execucao": "artefatos/execucoes/lote-v2-35-flash-lite",
+  "intervalo_segundos": 10,
+  "cotas": {
+    "rpm": 15,
+    "tpm": 250000,
+    "rpd": 500,
+    "fonte": "usuario, painel AI Studio, 2026-10-14"
+  },
+  "referencia": "IA sem especialista juridico; nao gabarito oficial",
+  "sha256_arquivos": {
+    "artefatos/lote-v2/manifesto_lote.json": "d9188a28adb767cfc47fc29bba3f9d2238f99be7ee12b82478f6e9749caf4a5b",
+    "prompts/classificacao_v2.txt": "9c9d176bf99d2f5babdd0c95a4ac6d52f6ffa9cc7d907c79942ff4fb93c73909",
+    "config/politica_v1.json": "552fba1739577cebeff845cf8cbab889e95f6931164b623e11e7128f87bc0dd8"
+  },
+  "limites": [
+    "Registro retrospectivo das condicoes; nao pre-registro anterior a todas as chamadas.",
+    "Falhas e consumo observados ficam preservados nos recibos.",
+    "Confianca autodeclarada nao e calibrada."
+  ],
+  "reuso": {
+    "origem": "artefatos/execucoes/piloto-v2-35-flash-lite",
+    "quantidade_recibos": 20,
+    "tentativas_incluindo_historico": 21,
+    "forma": "Copia byte a byte seguida de validacao de fingerprint, checksum e sugestao.",
+    "contabilizacao": "Nao somar novamente estes recibos ao total do projeto."
+  },
+  "continuar_erros_validacao": true,
+  "evidencia": "Trecho presente em um campo, tolerando apenas caixa e espacos; sem correspondencia aproximada.",
+  "checkpoint": "artefatos/checkpoints/pausa_2026-10-14.json",
+  "resumo": {
+    "total_questoes": 359,
+    "sucessos": 53,
+    "erros": 1,
+    "sem_recibo": 305,
+    "pendencias_totais": 306
+  }
+}

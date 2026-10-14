@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0035",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:33:52.729194+00:00",
+  "sha256_prompt": "e516228f456b866ee0884b2411ac38e1bf6bf4a6ba1020bd7e454a7262d0f6ce",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4f48bcce933eef6400965402eb8c709296cc56e39c9e7ff4277a5bf3ccb6edb8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\"id\": \"Q0035\", \"tema_central_id\": \"4706\", \"extras_ids\": [], \"temas_alternativos\": [], \"sem_tema\": false, \"confianca_autodeclarada\": 1.0, \"motivo\": \"A questão aborda diretamente os crimes e disposições da Lei Antiterrorismo (Lei nº 13.260/2016), enquadrando-se perfeitamente no tema de Terrorismo da Legislação Penal Especial.\", \"evidencia\": \"Nos termos da Lei no 13.260/2016 (Lei Antiterrorismo), assinale a alternativa correta.\", \"requer_revisao\": false}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28800,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29467,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28800
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 507,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "IdnPasKVGNmcz7IP75DZkQw"
+  },
+  "duracao_segundos": 2.9352896000054898,
+  "usage_metadata": {
+    "promptTokenCount": 28800,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29467,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28800
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 507,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0035",
+    "tema_central_id": "4706",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente os crimes e disposições da Lei Antiterrorismo (Lei nº 13.260/2016), enquadrando-se perfeitamente no tema de Terrorismo da Legislação Penal Especial.",
+    "evidencia": "Nos termos da Lei no 13.260/2016 (Lei Antiterrorismo), assinale a alternativa correta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1b85a7c2d0105ae8ac241f916a952cddac53b7ef1f06cfdeb796cef5c13bb722"
+}

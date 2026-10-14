@@ -15,6 +15,15 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
+# Prompts expandidos são reproduzíveis; os templates e manifestos são versionados.
+/artefatos/piloto/entradas.jsonl
+/artefatos/piloto-v2/entradas.jsonl
+/artefatos/lote-v2/entradas.jsonl
+
+# Locks e arquivos transitórios não integram checkpoints.
+/artefatos/**/.execucao.lock
+.recibo-*.tmp
+
 # Checkpoints de notebooks
 .ipynb_checkpoints/
 

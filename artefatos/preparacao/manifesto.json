@@ -1,0 +1,18 @@
+{
+  "fontes_preservadas": true,
+  "fontes_sha256": {
+    "LEIA-ME.md": "d7bbbd1e5a91554bf54a64272ace7afc50bfa9a06b14bfc7704d6ca09e047bfc",
+    "entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+    "questoes.jsonl": "6815aad02f1577fb7f3c68bb76cd56b3b23df5a0bf951d3422a5ce7d5e492573",
+    "temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc"
+  },
+  "procedimento": "preparacao-v1",
+  "produtos_sha256": {
+    "arvore_temas.md": "31411d6ad6d6c317230af3ec0db5d5c847b5be0a968dccc2e62332193a37d96c",
+    "avisos_questoes.csv": "3e4839f096f81db93571b4c586512499625c963fec9afc6c47ac9ba7ad069d52",
+    "diagnostico.json": "c6297f3b2c12b8a5d813bb82a4c27d4f8c22a06962dec6c857c3292d2d33fbe0",
+    "questoes_preparadas.jsonl": "db58aa6380f5f8c6f55f95ecba7e9527f04b4f68c732612ef4659ed5452cfb5f",
+    "temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724"
+  },
+  "schema_version": 1
+}

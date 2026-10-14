@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "Q0021",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:30:33.442448+00:00",
+  "sha256_prompt": "9e8051190bbd845c50c1b2907123f2743d830ced77053b3ac34163c15f7ff81d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9e5e8bdc25b0a3c31f4aa9de13ccce3648179a912604fc69cd3617fd43bf64ab",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0021\",\n  \"tema_central_id\": \"5503\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão trata expressamente do instituto do Juiz das Garantias e do entendimento do STF quanto aos prazos e diretrizes para a sua efetiva implantação no âmbito do Processo Penal.\",\n  \"evidencia\": \"O STF fixou o prazo, improrrogável, de doze meses, a contar da publicação da ata do julgamento, para que sejam adotadas as medidas legislativas e administrativas necessárias à adequação das diferentes leis de organização judiciária, à efetiva implantação e ao efetivo funcionamento do juiz das garantias em todo o país\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 484,
+              "endIndex": 685,
+              "uri": "https://www.migalhas.com.br/coluna/leitura-legal/392918/reflexoes-a-respeito-do-juiz-das-garantias",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28699,
+      "candidatesTokenCount": 211,
+      "totalTokenCount": 29539,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28699
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 629,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WtjPapu_A-rVz7IPvMGTwQ8"
+  },
+  "duracao_segundos": 3.0961616999993566,
+  "usage_metadata": {
+    "promptTokenCount": 28699,
+    "candidatesTokenCount": 211,
+    "totalTokenCount": 29539,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28699
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 629,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0021",
+    "tema_central_id": "5503",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão trata expressamente do instituto do Juiz das Garantias e do entendimento do STF quanto aos prazos e diretrizes para a sua efetiva implantação no âmbito do Processo Penal.",
+    "evidencia": "O STF fixou o prazo, improrrogável, de doze meses, a contar da publicação da ata do julgamento, para que sejam adotadas as medidas legislativas e administrativas necessárias à adequação das diferentes leis de organização judiciária, à efetiva implantação e ao efetivo funcionamento do juiz das garantias em todo o país",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "24c50a8cd32669a82aff4042cea2b2e97238d532260a0231f6136b71cc25d3cc"
+}

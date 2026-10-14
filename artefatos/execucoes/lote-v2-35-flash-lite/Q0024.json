@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0024",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:31:14.575111+00:00",
+  "sha256_prompt": "2aef2154f0c2ce7e8bbe4e307611fc9114fed57b3a60e947710178dc06bbebbd",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ea8d61d60f1975bf2c37ce6522a0f4b869d335eaca0a9f7c0be7997dbc26fbe2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0024\",\n  \"tema_central_id\": \"4388\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4385\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diversas teorias criminológicas específicas, como a teoria ecológica da Escola de Chicago, a associação diferencial e os crimes de colarinho branco, exigindo conhecimento sobre teorias criminológicas em espécie.\",\n  \"evidencia\": \"Acerca das teorias criminológicas, analise as afirmativas a seguir.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28835,
+      "candidatesTokenCount": 170,
+      "totalTokenCount": 29833,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28835
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 828,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "g9jPaqP3Daisz7IPkPD9WA"
+  },
+  "duracao_segundos": 3.696083099988755,
+  "usage_metadata": {
+    "promptTokenCount": 28835,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 29833,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28835
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 828,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0024",
+    "tema_central_id": "4388",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4385"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diversas teorias criminológicas específicas, como a teoria ecológica da Escola de Chicago, a associação diferencial e os crimes de colarinho branco, exigindo conhecimento sobre teorias criminológicas em espécie.",
+    "evidencia": "Acerca das teorias criminológicas, analise as afirmativas a seguir.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1c1f65ffc5c393c2e6abb151030e57f6110e69ccf03562dfa5ea20fb37ec2a02"
+}

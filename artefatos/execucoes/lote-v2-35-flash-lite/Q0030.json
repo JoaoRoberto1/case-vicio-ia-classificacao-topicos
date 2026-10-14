@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0030",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:32:41.123953+00:00",
+  "sha256_prompt": "2d68c86032dda564d98cbb8937ae018bdef6fd83b0868afc4e193978511afc2e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4b9553d5167212733e80ac16363b7ec60e78ee5e9bd5aa1c0bece5cfcb010791",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0030\",\n  \"tema_central_id\": \"5135\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o crime de atentado contra a liberdade de trabalho, tipo penal previsto no art. 197 do Código Penal, inserido nos crimes contra a organização do trabalho.\",\n  \"evidencia\": \"Aquele que, mediante violência ou grave ameaça constrange alguém a trabalhar ou não trabalhar durante certo periodo:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28669,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29508,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28669
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 679,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "2djPaqXqL6qsqtsP5enH6Aw"
+  },
+  "duracao_segundos": 3.159742499992717,
+  "usage_metadata": {
+    "promptTokenCount": 28669,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29508,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28669
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 679,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0030",
+    "tema_central_id": "5135",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o crime de atentado contra a liberdade de trabalho, tipo penal previsto no art. 197 do Código Penal, inserido nos crimes contra a organização do trabalho.",
+    "evidencia": "Aquele que, mediante violência ou grave ameaça constrange alguém a trabalhar ou não trabalhar durante certo periodo:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f4d8f249b669cbee8035706b32c9dc97aadf93f80288c1ca12f848efa5815536"
+}

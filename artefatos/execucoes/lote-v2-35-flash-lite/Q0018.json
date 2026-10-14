@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0018",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:30:04.171618+00:00",
+  "sha256_prompt": "fede2d22c3104462cc2f106bca0d04a7c0cf92db02940494ab60319716f6f5cc",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "80a6a3518b091789e7bf196821fe3c02a38d7f17456ce19a2ec6ccb9b44d943a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0018\",\n  \"tema_central_id\": \"5540\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4701\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão trata da competência dos Juizados Especiais Criminais e suas hipóteses de exclusão. O tema possui correspondência direta tanto em Processo Penal quanto em Legislação Especial, exigindo revisão editorial devido à duplicação entre os ramos.\",\n  \"evidencia\": \"São considerados casos de exclusão de competência dos Juizados Especiais Criminais a conexão, não localização do acusado e a complexidade da ocorrência\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28668,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30091,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28668
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1227,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "PNjParG9MvKHz7IP0d6S-Q4"
+  },
+  "duracao_segundos": 4.555663300008746,
+  "usage_metadata": {
+    "promptTokenCount": 28668,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30091,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28668
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1227,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0018",
+    "tema_central_id": "5540",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4701"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão trata da competência dos Juizados Especiais Criminais e suas hipóteses de exclusão. O tema possui correspondência direta tanto em Processo Penal quanto em Legislação Especial, exigindo revisão editorial devido à duplicação entre os ramos.",
+    "evidencia": "São considerados casos de exclusão de competência dos Juizados Especiais Criminais a conexão, não localização do acusado e a complexidade da ocorrência",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "7f0031011bbd396652572585eac94b4f2ab70829f147de7ae11772241a62d28d"
+}

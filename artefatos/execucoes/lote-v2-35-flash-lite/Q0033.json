@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0033",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:33:26.071634+00:00",
+  "sha256_prompt": "3c3948d0d67b5f9e5e8fed5504a2f801bcd86f3a00bc2a00a3fc4dc3ec5255ee",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "fb892cc82335789be0722fbdc3eda0fb593233ebf20513ab62e0e4fec57bd2e5",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0033\",\n  \"tema_central_id\": \"5519\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os requisitos, o cabimento e as características da prisão preventiva no âmbito do Processo Penal.\",\n  \"evidencia\": \"A prisão preventiva\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EvoJCvcJAWkUfRPZQ1NbCqmRFY61xec8UVpyypFXAN20l/DHJaIztqg3/zARAS/lL6vXfMp4uUFQigvxypmPX+54FY2shd9EHH0BRe0oHiT3qXguspmuN7Qn+DvNOZYC+ZtnnETVZKKj3s4SGPDIl1wD2GU/3WBKZj6EXBkAIC+ZoUHE7iM34Is1Z99zksO/2tmAEh5TjB3BbyqeMl9rEE4qqFEGsezplPH/VkAbK1atVKzkw02uxiuU82vY6zFFJwJF7zgFA3IGF+8idcgDD30nRpDYOZczuXBRedOWUBMf0+lBfaATCehQlzD+EPJkcuK8u+bCDbNTzoNYhChh8DLq3TKKO8PC5iwVVK5/wBlczCEQ81N3hUVKpELEw4LRL+f95pvg5PDdQxaOjYyTGWAKmz6E2ZC2DSON9XcjbhwiVRwki8sVSUGe90wr68ebYTyKhWX19cSZTKEjQLBFrbCkaDVMFqlqDMTFMe6kBk8FpAbsE6DyU21jBw+fJDaXSHLByQk5AbMeZ93wDf/HA3cwqM0Da89yp4cYLbzqhHGKQ8gJBnJpkNylG7euSHpYLCxn4OhU7MecTZCTF4052UU9EBMzQNmC4nzZ7mYGgw2mGGGinhsysl+Err5kTlQQ1cUq14VX7t3mOuAl7m/JgiFLw9r4nqkgLeSsgpNg8YQ5B659jhRR4dgGYgV+I07d8cPElvk1RQe2VHP/r7N0gdQ3cjx5ciLAVGJqBee7mieDL6Vwi9TFzAhftvCY8137q5nTCYURsIyMt231EyI7SOqUqnAcMGKtGPVxYw0EOJu26o8W/kGvIuznAOHnQXxPWmwtIAA5uxowW9kxA8sUSLOXuKzM8Dafik0jmjzLIhYeMo+M47x5/iDRttC4uaW5dq0FH0+LWrcxTrtS5LzyZUUS87ObNyvpKoSxeG96AzwuyNum3DdydZFbQrnvQSsEkHJ6vkgXqgpw2eyHzz9E41PxzKT9UTNCAbAvNsrdwpduffPbyikhDczFE85n0viYBlTjNvHo7gD7gLSouCIhHAlzJE8YAOxGYFWatAliP8dPHxBEJPM/zN0ntUv3b3nV033uE34gaih2dh2t9LVhZYlxjK0YFtyZO86L6fhCIpGTQfqYDabmFjyzfeROEiwjFApR5oWfgrjdnynZGJbPAYeCWJYnZKGj8lFIKrXslhcpw7W42NhXMIV0x/Dzt1VDq4Q+a2oO3zVvSnwTzfs/WyFTr/oryfhgTxsDro9AX0v7c7tZNxNO/qc3XG85T1RxjpL5JX17FaHBNxMka29j2qYvkIzKJd0pSG7kPHG0K664sLxWrQxsiadUdqGI5rScrqPHRXbsvKAAha0Cfl8zQXDBo9HypyKbmbnUhg5Qp89iEKjTyJD/FxJ7AdFWSkGmGHtzwVrBRadxAm/4ABOEvoVi3swXAsU1SfwBGymcnvaAqNxQfTIKCiYBrd2pVeiNCqeWsDmzjJA0W6RbrT5S4bYOEGdmmtzzIlE4lYCCW5disQz6vAUgsE7tdzcYsMSnXf94aeuY+UtXJYse3N1pCqW9gZBKe7VQvwsMSVXC2q+jNBDTJm3klJgPVbv2QgisG+Y4NUjqQ29ngIWahSLncq3l7iexUmegpIfLWL6UMsrx9oCCoRnFgC49i0iOsezqptt6asWohawmln7YZvlTuFNEQvzu/6BO6hWc9XQ="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28695,
+      "candidatesTokenCount": 127,
+      "totalTokenCount": 29141,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28695
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 319,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "BtnPasimKoOdz7IPh43h-Q8"
+  },
+  "duracao_segundos": 2.618547899997793,
+  "usage_metadata": {
+    "promptTokenCount": 28695,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 29141,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28695
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 319,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0033",
+    "tema_central_id": "5519",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os requisitos, o cabimento e as características da prisão preventiva no âmbito do Processo Penal.",
+    "evidencia": "A prisão preventiva",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "bc8ab9e9b6f8a8eb506560d1eea3e8d7740773065b37a7ac8067870b51432741"
+}

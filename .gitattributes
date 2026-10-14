@@ -1,0 +1,9 @@
+# Arquivos assinados por SHA-256 devem manter os mesmos bytes em qualquer checkout.
+/questoes.jsonl -text
+/temas.csv -text
+/entrega_modelo.csv -text
+/LEIA-ME.md -text
+/case-ia-classificacao-de-topicos.pdf -text
+/artefatos/** -text
+/prompts/** -text
+/config/** -text

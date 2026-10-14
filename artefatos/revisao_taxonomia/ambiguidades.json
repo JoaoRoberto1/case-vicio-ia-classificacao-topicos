@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "data": "2026-10-14",
+  "responsavel": "Codex",
+  "referencia_tipo": "revisao_por_IA_da_taxonomia_sem_respostas_do_classificador",
+  "fonte": "artefatos/preparacao/temas_preparados.json",
+  "fonte_sha256": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+  "total_registros": 377,
+  "total_ativos": 375,
+  "normalizacao_dos_grupos_exatos": "titulo.strip().casefold(); sem remover acentos ou pontuação e sem substituições semânticas",
+  "grupos_exatos": [
+    {
+      "grupo_id": "exato_4684_6716",
+      "ids": [
+        "4684",
+        "6716"
+      ],
+      "membros": [
+        {
+          "tema_id": "4684",
+          "titulo": "Abuso de Autoridade",
+          "caminho": "Direito Penal - Legislação Especial > Abuso de Autoridade",
+          "status": "active"
+        },
+        {
+          "tema_id": "6716",
+          "titulo": "Abuso de Autoridade",
+          "caminho": "Penal > Abuso de Autoridade",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "abuso de autoridade",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. Um dos nós possui descrição vazia e o outro apenas metadados; não há delimitação editorial suficiente para resolver o ramo.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    },
+    {
+      "grupo_id": "exato_5063_5466",
+      "ids": [
+        "5063",
+        "5466"
+      ],
+      "membros": [
+        {
+          "tema_id": "5063",
+          "titulo": "Ação Penal",
+          "caminho": "Penal > Ação Penal",
+          "status": "active"
+        },
+        {
+          "tema_id": "5466",
+          "titulo": "Ação Penal",
+          "caminho": "Processo Penal > Ação Penal",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "ação penal",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. As duas descrições substantivas incluem iniciativa, legitimidade e espécies de ação penal, reforçando a possibilidade de sobreposição; a estrutura dos filhos difere.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    },
+    {
+      "grupo_id": "exato_4688_6717",
+      "ids": [
+        "4688",
+        "6717"
+      ],
+      "membros": [
+        {
+          "tema_id": "4688",
+          "titulo": "Crimes contra o meio ambiente",
+          "caminho": "Direito Penal - Legislação Especial > Crimes contra o meio ambiente",
+          "status": "active"
+        },
+        {
+          "tema_id": "6717",
+          "titulo": "Crimes contra o meio ambiente",
+          "caminho": "Penal > Crimes contra o meio ambiente",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "crimes contra o meio ambiente",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. Um dos nós possui descrição vazia e o outro apenas metadados; não há delimitação editorial suficiente para resolver o ramo.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    },
+    {
+      "grupo_id": "exato_4702_6723",
+      "ids": [
+        "4702",
+        "6723"
+      ],
+      "membros": [
+        {
+          "tema_id": "4702",
+          "titulo": "Lavagem de Dinheiro",
+          "caminho": "Direito Penal - Legislação Especial > Lavagem de Dinheiro",
+          "status": "active"
+        },
+        {
+          "tema_id": "6723",
+          "titulo": "Lavagem de Dinheiro",
+          "caminho": "Penal > Lavagem de Dinheiro",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "lavagem de dinheiro",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. Um dos nós possui descrição vazia e o outro apenas metadados; não há delimitação editorial suficiente para resolver o ramo.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    },
+    {
+      "grupo_id": "exato_4703_6734",
+      "ids": [
+        "4703",
+        "6734"
+      ],
+      "membros": [
+        {
+          "tema_id": "4703",
+          "titulo": "Lei de Execução Penal",
+          "caminho": "Direito Penal - Legislação Especial > Lei de Execução Penal",
+          "status": "active"
+        },
+        {
+          "tema_id": "6734",
+          "titulo": "Lei de Execução Penal",
+          "caminho": "Processo Penal > Lei de Execução Penal",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "lei de execução penal",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. Um dos nós possui descrição vazia e o outro apenas metadados; não há delimitação editorial suficiente para resolver o ramo.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    },
+    {
+      "grupo_id": "exato_4704_6724",
+      "ids": [
+        "4704",
+        "6724"
+      ],
+      "membros": [
+        {
+          "tema_id": "4704",
+          "titulo": "Lei Maria da Penha",
+          "caminho": "Direito Penal - Legislação Especial > Lei Maria da Penha",
+          "status": "active"
+        },
+        {
+          "tema_id": "6724",
+          "titulo": "Lei Maria da Penha",
+          "caminho": "Penal > Lei Maria da Penha",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "lei maria da penha",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. Um dos nós possui descrição vazia e o outro apenas metadados; não há delimitação editorial suficiente para resolver o ramo.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    },
+    {
+      "grupo_id": "exato_4705_6725",
+      "ids": [
+        "4705",
+        "6725"
+      ],
+      "membros": [
+        {
+          "tema_id": "4705",
+          "titulo": "Organizações Criminosas",
+          "caminho": "Direito Penal - Legislação Especial > Organizações Criminosas",
+          "status": "active"
+        },
+        {
+          "tema_id": "6725",
+          "titulo": "Organizações Criminosas",
+          "caminho": "Penal > Organizações Criminosas",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "organizações criminosas",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. Um dos nós possui descrição vazia e o outro apenas metadados; não há delimitação editorial suficiente para resolver o ramo.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    },
+    {
+      "grupo_id": "exato_4708_6728",
+      "ids": [
+        "4708",
+        "6728"
+      ],
+      "membros": [
+        {
+          "tema_id": "4708",
+          "titulo": "Tráfico de Drogas",
+          "caminho": "Direito Penal - Legislação Especial > Tráfico de Drogas",
+          "status": "active"
+        },
+        {
+          "tema_id": "6728",
+          "titulo": "Tráfico de Drogas",
+          "caminho": "Penal > Tráfico de Drogas",
+          "status": "active"
+        }
+      ],
+      "titulo_normalizado": "tráfico de drogas",
+      "criterio": "igualdade_exata_de_titulo_apos_strip_casefold",
+      "origem_identificacao": "extraido_por_codigo",
+      "motivo": "Títulos iguais após a normalização definida, em ramos distintos. A igualdade lexical é verificável; não define qual ramo deve receber uma questão nem demonstra equivalência oficial. Um dos nós possui descrição vazia e o outro apenas metadados; não há delimitação editorial suficiente para resolver o ramo.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes"
+    }
+  ],
+  "grupos_semanticos_possiveis": [
+    {
+      "grupo_id": "semantico_4696_6722",
+      "ids": [
+        "4696",
+        "6722"
+      ],
+      "criterio": "possivel_mesma_lei_com_variacao_grafica_no_titulo",
+      "origem_identificacao": "avaliacao_semantica_por_IA",
+      "motivo": "Estaturo de Idoso - Crimes e Estatuto do Idoso - Crimes apontam, semanticamente, para crimes previstos no estatuto da pessoa idosa. A primeira grafia foi preservada. A diferença de grafia não basta para estabelecer escopos distintos, mas as descrições não confirmam uma equivalência editorial oficial.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes",
+      "equivalencia_oficial_confirmada": false,
+      "membros": [
+        {
+          "tema_id": "4696",
+          "titulo": "Estaturo de Idoso - Crimes",
+          "caminho": "Direito Penal - Legislação Especial > Estaturo de Idoso - Crimes",
+          "status": "active"
+        },
+        {
+          "tema_id": "6722",
+          "titulo": "Estatuto do Idoso - Crimes",
+          "caminho": "Penal > Estatuto do Idoso - Crimes",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "grupo_id": "semantico_5065_5472",
+      "ids": [
+        "5065",
+        "5472"
+      ],
+      "criterio": "possivel_equivalencia_semantica_entre_acao_penal_privada_e_de_iniciativa_privada",
+      "origem_identificacao": "avaliacao_semantica_por_IA",
+      "motivo": "Ação Penal Privada e Ação Penal de Iniciativa Privada nomeiam a iniciativa privada da ação penal em ramos diferentes. Ambos são filhos de nós intitulados Ação Penal cujas descrições também cobrem a iniciativa privada. A hipótese de sobreposição é defensável, porém os filhos possuem somente descrições de metadados e a árvore não fornece equivalência oficial.",
+      "acao_sugerida": "revisar_escolha_do_ramo",
+      "alcance": "somente_ids_listados_sem_fundir_nos_ou_propagar_a_descendentes",
+      "equivalencia_oficial_confirmada": false,
+      "membros": [
+        {
+          "tema_id": "5065",
+          "titulo": "Ação Penal Privada",
+          "caminho": "Penal > Ação Penal > Ação Penal Privada",
+          "status": "active"
+        },
+        {
+          "tema_id": "5472",
+          "titulo": "Ação Penal de Iniciativa Privada",
+          "caminho": "Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada",
+          "status": "active"
+        }
+      ]
+    }
+  ],
+  "contagens": {
+    "grupos_exatos": 8,
+    "grupos_semanticos_possiveis": 2
+  },
+  "ressalvas": [
+    "Referência de revisão por IA, pendente de avaliação do responsável pelo projeto; não é regra oficial da avaliação nem gabarito especialista.",
+    "Nenhum ID foi escolhido como preferido, fundido, reparentado ou desativado.",
+    "Igualdade de títulos e possível equivalência semântica não autorizam considerar classificações em ramos diferentes como acertos.",
+    "Os grupos alcançam apenas os IDs explicitamente listados; não afirmam equivalência dos filhos, dos irmãos ou dos respectivos sub-ramos.",
+    "Não foram agrupados assuntos apenas relacionados, títulos com Parte 1/Parte 2 de escopo desconhecido, ou temas gerais com subtemas específicos.",
+    "A seleção usa somente os temas preparados, sem questões, rótulos ou recibos do classificador."
+  ],
+  "fontes_urls": []
+}

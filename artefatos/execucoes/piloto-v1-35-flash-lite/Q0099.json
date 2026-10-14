@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0099",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:00:48.010242+00:00",
+  "sha256_prompt": "99458bcc802a51cb5b7671de264366c1f52a73712029f88a69f4a3c984aeff58",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c98b09ac25552d89f815a4d762a5f15f1221321bb7b98143d5978dfc4aaac5fa",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0099\",\n  \"tema_central_id\": \"5100\",\n  \"extras_ids\": [\n    \"5077\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os crimes de resistência e lesão corporal no contexto de ato praticado por agentes públicos na função.\",\n  \"evidencia\": \"Filomena passa a agredir fisicamente os fiscais, no intuito de impedir que levem sua mercadoria\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28580,
+      "candidatesTokenCount": 158,
+      "totalTokenCount": 29551,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28580
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 813,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "YNHPaoGUKOaDmtkP9aii0AE"
+  },
+  "duracao_segundos": 3.8306527999957325,
+  "usage_metadata": {
+    "promptTokenCount": 28580,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 29551,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28580
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 813,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0099",
+    "tema_central_id": "5100",
+    "extras_ids": [
+      "5077"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os crimes de resistência e lesão corporal no contexto de ato praticado por agentes públicos na função.",
+    "evidencia": "Filomena passa a agredir fisicamente os fiscais, no intuito de impedir que levem sua mercadoria",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "cc00a6cbfe54393d1fcbf732b428bed7556bb81ba28f86f92262001b369502a1"
+}

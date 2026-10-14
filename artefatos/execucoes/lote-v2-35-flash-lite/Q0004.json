@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0004",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:19:16.222162+00:00",
+  "sha256_prompt": "0ee70e7a93b548b82d323dae2abb8ab1423ee4bba422ddefc10bafbb42fedd7d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b495d4a6970ac846579c9cd3f6a0d15c4c2484be619ad2b067e21207960cc031",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0004\",\n  \"tema_central_id\": \"5484\",\n  \"extras_ids\": [\n    \"5483\"\n  ],\n  \"temas_alternativos\": [\n    \"5480\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda predominantemente a competência por prerrogativa de função de prefeitos municipais, mas mescla proposições sobre competência territorial, configurando mistura de assuntos distintos dentro do mesmo tema de competência.\",\n  \"evidencia\": \"Sobre jurisdição e competência no processo penal, analise as assertivas e assinale a alternativa correta\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28850,
+      "candidatesTokenCount": 190,
+      "totalTokenCount": 30787,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28850
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1747,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "tNXPasLeNIesz7IPx82eyQk"
+  },
+  "duracao_segundos": 6.523104400010197,
+  "usage_metadata": {
+    "promptTokenCount": 28850,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 30787,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28850
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1747,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0004",
+    "tema_central_id": "5484",
+    "extras_ids": [
+      "5483"
+    ],
+    "temas_alternativos": [
+      "5480"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda predominantemente a competência por prerrogativa de função de prefeitos municipais, mas mescla proposições sobre competência territorial, configurando mistura de assuntos distintos dentro do mesmo tema de competência.",
+    "evidencia": "Sobre jurisdição e competência no processo penal, analise as assertivas e assinale a alternativa correta",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6292088586e00b8485b124fa47b255cd82e951844d834e07c03dde0c5dfd664f"
+}

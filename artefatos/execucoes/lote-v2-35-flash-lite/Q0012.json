@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0012",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:28:45.920686+00:00",
+  "sha256_prompt": "85cca07e0489c371ae613cf47cc1bebf492545b7a122188298301ceda608b896",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "26e3600076a38046f26fd33dc48a0c78da6fa07c61fd55ab0609ab14943acc65",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0012\",\n  \"tema_central_id\": \"5569\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5562\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o cabimento de recurso específico no âmbito dos Juizados Especiais Criminais (Lei 9.099/1995), enquadrando-se perfeitamente nos recursos no microssistema dos juizados.\",\n  \"evidencia\": \"Da decisão que rejeitar a denúncia oferecida nos termos do artigo 77 da Lei 9.099/1995, caberá:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28703,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30138,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28703
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1239,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "7tfPatOOIYHqz7IPoIbGuQs"
+  },
+  "duracao_segundos": 4.5594240999926114,
+  "usage_metadata": {
+    "promptTokenCount": 28703,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30138,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28703
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1239,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0012",
+    "tema_central_id": "5569",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5562"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o cabimento de recurso específico no âmbito dos Juizados Especiais Criminais (Lei 9.099/1995), enquadrando-se perfeitamente nos recursos no microssistema dos juizados.",
+    "evidencia": "Da decisão que rejeitar a denúncia oferecida nos termos do artigo 77 da Lei 9.099/1995, caberá:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "870b5143b3cef78c88e05c666a2e6df5bb3c548042112d90c3cb634b7f7de793"
+}

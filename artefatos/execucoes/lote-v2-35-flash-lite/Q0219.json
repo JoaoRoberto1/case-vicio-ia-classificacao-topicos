@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0219",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:10:44.700922+00:00",
+  "sha256_prompt": "925c9d3b7e1b37a5d3dfbff55ce3a8053d68d1a281c46b12043d468e99a3de99",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "873db7792761abec3c8ef73be0c54c17a829319c08061b1bf74cab381bc55856",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0219\",\n  \"tema_central_id\": \"5071\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5074\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"O enunciado faz referência a uma situação hipotética anterior que não foi fornecida, impedindo a verificação completa da ocorrência de participação necessária imprópria, embora o tema central envolva o concurso de pessoas.\",\n  \"evidencia\": \"Considerando essa situação hipotética, julgue o item subsequente.\\nNa situação descrita, está presente a hipótese de participação necessária imprópria.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28606,
+      "candidatesTokenCount": 184,
+      "totalTokenCount": 30222,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28606
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1432,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "tdPPasyRE-bVz7IPi_XUgQ0"
+  },
+  "duracao_segundos": 5.155263200009358,
+  "usage_metadata": {
+    "promptTokenCount": 28606,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 30222,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28606
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1432,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0219",
+    "tema_central_id": "5071",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5074"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "O enunciado faz referência a uma situação hipotética anterior que não foi fornecida, impedindo a verificação completa da ocorrência de participação necessária imprópria, embora o tema central envolva o concurso de pessoas.",
+    "evidencia": "Considerando essa situação hipotética, julgue o item subsequente.\nNa situação descrita, está presente a hipótese de participação necessária imprópria.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a2d0ac381664aa906227278f0538e56506e2404281d024c5debeb5c9932bc85b"
+}

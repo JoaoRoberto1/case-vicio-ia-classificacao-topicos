@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "procedimento": "analise-piloto-v1",
+  "total_questoes": 20,
+  "status_tecnico": {
+    "sucesso": 20
+  },
+  "comparacao_central": {
+    "exata": 9,
+    "diferenca_mesmo_ramo": 2,
+    "divergencia": 0,
+    "inconclusivo": 9,
+    "sem_resposta": 0
+  },
+  "ids_por_comparacao": {
+    "exata": [
+      "Q0078",
+      "Q0099",
+      "Q0107",
+      "Q0142",
+      "Q0014",
+      "Q0169",
+      "Q0218",
+      "Q0244",
+      "Q0179"
+    ],
+    "diferenca_mesmo_ramo": [
+      "Q0137",
+      "Q0296"
+    ],
+    "divergencia": [],
+    "inconclusivo": [
+      "Q0020",
+      "Q0036",
+      "Q0219",
+      "Q0239",
+      "Q0284",
+      "Q0059",
+      "Q0309",
+      "Q0337",
+      "Q0277"
+    ],
+    "sem_resposta": []
+  },
+  "revisoes": {
+    "presentes": 20,
+    "ausentes": 0,
+    "situacoes": {
+      "inconclusivo": 9,
+      "provisorio": 11
+    },
+    "referencia_tipos": {
+      "revisao_por_IA_sem_respostas_do_classificador": 20
+    }
+  },
+  "flags_sugestoes_validas": {
+    "total": 20,
+    "requer_revisao": 10,
+    "sem_tema": 1
+  },
+  "consumo": {
+    "tentativas": 21,
+    "tokens_observados": {
+      "promptTokenCount": 605456,
+      "candidatesTokenCount": 3993,
+      "thoughtsTokenCount": 21988,
+      "cachedContentTokenCount": 499324,
+      "totalTokenCount": 631437
+    },
+    "tentativas_com_campo": {
+      "promptTokenCount": 21,
+      "candidatesTokenCount": 21,
+      "thoughtsTokenCount": 21,
+      "cachedContentTokenCount": 19,
+      "totalTokenCount": 21
+    },
+    "tentativas_sem_campo": {
+      "cachedContentTokenCount": 2
+    },
+    "tentativas_sem_usage_metadata": 0,
+    "duracao_chamadas_segundos_observada": 101.92608289998316,
+    "tentativas_com_duracao": 21,
+    "tentativas_sem_duracao": 0,
+    "modelos_solicitados": {
+      "gemini-3.5-flash-lite": 21
+    },
+    "versoes_retornadas": {
+      "gemini-3.5-flash-lite": 21
+    },
+    "tentativas_sem_versao": 0
+  },
+  "fontes_sha256": {
+    "manifesto_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+    "manifesto_piloto": "6f5007a69cd8695cc1cb2ef8eaf8c2b9eaac9791905f0d744c54900fd9c60b99",
+    "recibos": {
+      "Q0014.json": "babb02739312898f3e64a1a93ca62eac51cfcc6dbd1553e1ecf3d9763a5d0344",
+      "Q0020.json": "2c611f1cecab6f256c4ab5037bafbb9da5a87dbb9641b7b1d06c8d8b552cd1df",
+      "Q0036.json": "31dd2a44652fb5695bd7addd73d7f75cf99db899cb4d5b1f5f4cfbb51c51e568",
+      "Q0059.json": "1230be92faeff072ea98f62d65ae09f98ce677c4c2fedc6e50dba8d72d2682e4",
+      "Q0078.json": "687f96f7945c97c79f902425d3f5a2568ec558acaf2c4d7028a2f0f609dfd7ba",
+      "Q0099.json": "c59b5356b334442512b8a427884df8c24f3cb5c1647f7385c0cf495f33784815",
+      "Q0107.json": "91b11e7d809b69709820e530b1d02f95ba55941038472996b9f76aba6c73f646",
+      "Q0137.json": "7cf6d7b51f054b15fa0cb1ae9d0a61f95a93b8889ca9270088a7c5cf1dd80749",
+      "Q0142.json": "fa14d7ba299fc47fc57d97756ff23e33e9cf0beba306fa91affa3ff0d70112d7",
+      "Q0169.json": "0bafaf2f928bf29439286d2f7b663c52a1661fbb876a122098325448461be308",
+      "Q0179.json": "4720479aa728d4ec6e111b1e89befe095999df31b16a79d249ae49bc576b122a",
+      "Q0218.json": "d78d9934bc85998d3f0f85ebe521a8af6fbd2b3242b5932479bbc5fa29d47bf2",
+      "Q0219.json": "4e2fe6e1fb4209243b7286d7148fa97f86bb4896ad59779f15acacae0818a76f",
+      "Q0239.json": "030902aa89fb60176ec5190c9ab437d677b8b56ad6b011722bf3bef5e28ab5be",
+      "Q0244.json": "558e7f5213bd1e5fc57c38c2fbcde53f2a9d0fe54dc06ac30cff69929d4ca9ea",
+      "Q0277.json": "ab4e67502246ff7d0ff9d46dd2c8de312bd8a41ac62fa633d796d6da4e5733fd",
+      "Q0284.json": "013abbddf518e680c657b9262c5f75e4f837c5e1da6b8a49a7ab70331271ad1f",
+      "Q0296.json": "81e7ad235238b01848aa5691bcedb1c2b7e63371e1d979de5484832e8d669617",
+      "Q0309.json": "f8ea2afe90a0ee0ce3eae54215cc52129d649c041bdf7e90e3f7c3a2352ebae1",
+      "Q0337.json": "78e9bed55f5f48e9ec67a03f2f6d3d0a0d89a617270b196972cf792f8d02161d"
+    },
+    "revisoes": {
+      "proposta_complementares.jsonl": "9133fa306527e9d095af0bf5f08ad0091370f7b485f393ead3594cacafd85802",
+      "proposta_deliberados.jsonl": "9c1314b330f95c297ee7db6b12fcfff33c19bc3720d5c2b0960cfdc359029af1"
+    }
+  },
+  "limites": [
+    "Comparação entre sugestões de modelo e revisão provisória por IA; não há gabarito especialista.",
+    "O piloto é uma seleção de desenvolvimento; os indicadores não estimam precisão nem comprovam a meta de 95%.",
+    "Exata compara tema central ou ausência de tema; extras e candidatos ficam expostos no CSV.",
+    "Diferença no mesmo ramo indica ancestralidade direta ou indireta; não aplica interpretação ampliada da regra oficial.",
+    "Revisão inconclusiva permanece inconclusiva mesmo quando os IDs coincidem.",
+    "Não são atribuídas decisões finais publicar, revisar ou fora.",
+    "Consumo inclui todas as tentativas deste diretório, sem duplicar histórico; verificações sintéticas e outros diretórios ficam fora.",
+    "Campos de consumo ausentes não são estimados como zero; duração soma chamadas e não inclui espera entre requisições."
+  ],
+  "produtos_sha256": {
+    "comparacao_piloto.csv": "0da18b0785256059579fc5d0e8fbdda1d8bdad2b86c6b4e78802d53baa10af7f"
+  }
+}

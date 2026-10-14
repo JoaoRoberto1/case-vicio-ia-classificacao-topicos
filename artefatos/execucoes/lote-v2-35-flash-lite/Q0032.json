@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0032",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:33:09.981980+00:00",
+  "sha256_prompt": "4800dbce00037a83cff8ac9ec1dceb4b8f00fac38d60f147c06d0a5ef28284a3",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d438a2a6030c43d38a2eef6598acbc8c19ee4faeb53c2e26c8f69b07568857a2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0032\",\n  \"tema_central_id\": \"5500\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5497\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a providência da autoridade policial no curso da investigação criminal quando há dúvida sobre a integridade mental do investigado, gerando interface temática entre o procedimento do inquérito policial e o incidente de insanidade mental.\",\n  \"evidencia\": \"Quando, no curso da investigação, houver motivo para duvidar da integridade mental do investigado, a autoridade policial devera\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28739,
+      "candidatesTokenCount": 188,
+      "totalTokenCount": 30625,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28739
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1698,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9tjPati5JeOIz7IPxcLpwA0"
+  },
+  "duracao_segundos": 6.080367400005343,
+  "usage_metadata": {
+    "promptTokenCount": 28739,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 30625,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28739
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1698,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0032",
+    "tema_central_id": "5500",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5497"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a providência da autoridade policial no curso da investigação criminal quando há dúvida sobre a integridade mental do investigado, gerando interface temática entre o procedimento do inquérito policial e o incidente de insanidade mental.",
+    "evidencia": "Quando, no curso da investigação, houver motivo para duvidar da integridade mental do investigado, a autoridade policial devera",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "582b89463348f3468f25fa959efc88b693f3e1072a3303d72172676a422ce929"
+}

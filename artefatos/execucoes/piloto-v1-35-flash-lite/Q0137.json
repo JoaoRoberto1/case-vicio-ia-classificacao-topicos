@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0137",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:01:56.790893+00:00",
+  "sha256_prompt": "5f7d171f093559edd1eb18b9b96f6ba605f2702bf58b8b0b23e8e1cc28fe2613",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8ec6f3263094da60a13a6e652374dadc68e36c7008e74464d2df995a1ba6f046",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0137\",\n  \"tema_central_id\": \"5499\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5500\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda as prerrogativas, garantias legais e características da atuação do delegado de polícia na condução da investigação criminal (Lei nº 12.830/2013), tema diretamente relacionado ao inquérito policial.\",\n  \"evidencia\": \"No que dispõe a legislação sobre a investigação criminal, conduzida pelo delegado de polícia é CORRETO afirmar que:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28384,
+      "candidatesTokenCount": 184,
+      "totalTokenCount": 30024,
+      "cachedContentTokenCount": 26275,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28384
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26275
+        }
+      ],
+      "thoughtsTokenCount": 1456,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "pdHPauWuG9X5qtsPqNDl8QE"
+  },
+  "duracao_segundos": 5.6580519000126515,
+  "usage_metadata": {
+    "promptTokenCount": 28384,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 30024,
+    "cachedContentTokenCount": 26275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28384
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26275
+      }
+    ],
+    "thoughtsTokenCount": 1456,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0137",
+    "tema_central_id": "5499",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5500"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda as prerrogativas, garantias legais e características da atuação do delegado de polícia na condução da investigação criminal (Lei nº 12.830/2013), tema diretamente relacionado ao inquérito policial.",
+    "evidencia": "No que dispõe a legislação sobre a investigação criminal, conduzida pelo delegado de polícia é CORRETO afirmar que:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "7522031e667251ed8e1f2c844ccaad0a3c421f70a236054d24d7858311aaf752"
+}

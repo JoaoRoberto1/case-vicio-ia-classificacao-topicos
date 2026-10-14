@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0014",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:11:47.335262+00:00",
+  "sha256_prompt": "4637980cab6eb8cd3dc8d952c38ce933384351c94ae1ea40b029f6697ec34b85",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "61faa0f6cf9880d458937ed1dba6fb5655fe6d9774b5f6543054d3684785f81c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0014\",\n  \"tema_central_id\": \"5477\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o cabimento do habeas corpus para impugnar decisão de internação envolvendo restrição de liberdade, inserindo-se no tema de Ações Autônomas de Impugnação - Habeas Corpus.\",\n  \"evidencia\": \"ela não pode ser sanada pela via do habeas corpus\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28642,
+      "candidatesTokenCount": 157,
+      "totalTokenCount": 29401,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28642
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 602,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "89PPas7xO-aez7IP8peziQo"
+  },
+  "duracao_segundos": 3.3942341999936616,
+  "usage_metadata": {
+    "promptTokenCount": 28642,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 29401,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28642
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 602,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0014",
+    "tema_central_id": "5477",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o cabimento do habeas corpus para impugnar decisão de internação envolvendo restrição de liberdade, inserindo-se no tema de Ações Autônomas de Impugnação - Habeas Corpus.",
+    "evidencia": "ela não pode ser sanada pela via do habeas corpus",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "dba3ff096269ea8691c17e4ca20545dcf1fc1efa6b8afe59637c9a425fa7b853"
+}

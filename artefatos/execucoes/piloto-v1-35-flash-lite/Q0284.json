@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0284",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:04:19.616826+00:00",
+  "sha256_prompt": "5c5753a78b7db28595bbaf3ec9c062fb573caacbd9d76278ec25712f1ac9ed23",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c1288cb78312f2f7d183e18f26e269c84da957b0c7215f08826f6264bbd37b8a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0284\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [\n    \"5231\"\n  ],\n  \"temas_alternativos\": [\n    \"5214\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a legítima defesa putativa e a controvérsia sobre a natureza jurídica do erro incidente sobre os pressupostos fáticos de uma causa de justificação, envolvendo o estudo do erro de tipo e das teorias da culpabilidade.\",\n  \"evidencia\": \"Bernardo, acreditando ser um assalto, saca sua arma de fogo e, de dentro do próprio carro, efetua disparo, atingindo o alvo pretendido.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29270,
+      "candidatesTokenCount": 207,
+      "totalTokenCount": 31172,
+      "cachedContentTokenCount": 26286,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29270
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26286
+        }
+      ],
+      "thoughtsTokenCount": 1695,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "NNLPatGpFcn5qtsP8qaXqQ4"
+  },
+  "duracao_segundos": 7.195071300011477,
+  "usage_metadata": {
+    "promptTokenCount": 29270,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 31172,
+    "cachedContentTokenCount": 26286,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29270
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26286
+      }
+    ],
+    "thoughtsTokenCount": 1695,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0284",
+    "tema_central_id": "5224",
+    "extras_ids": [
+      "5231"
+    ],
+    "temas_alternativos": [
+      "5214"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a legítima defesa putativa e a controvérsia sobre a natureza jurídica do erro incidente sobre os pressupostos fáticos de uma causa de justificação, envolvendo o estudo do erro de tipo e das teorias da culpabilidade.",
+    "evidencia": "Bernardo, acreditando ser um assalto, saca sua arma de fogo e, de dentro do próprio carro, efetua disparo, atingindo o alvo pretendido.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "56dc7ffb511e7c66600bc09b3d6c1e9ae53b31119e08aaa1f14a7607ad72c4ea"
+}

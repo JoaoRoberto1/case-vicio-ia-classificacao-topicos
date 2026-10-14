@@ -1,0 +1,56 @@
+{
+  "experimento": "piloto-v1-35-flash-lite",
+  "registrado_utc": "2026-10-14T19:01:42.435542+00:00",
+  "estado": "concluido",
+  "modelo": "gemini-3.5-flash-lite",
+  "thinking_level": "MEDIUM",
+  "execucao": "artefatos/execucoes/piloto-v1-35-flash-lite",
+  "piloto": "artefatos/piloto",
+  "revisoes": "artefatos/revisao_piloto",
+  "intervalo_segundos": 30,
+  "motivo_modelo": "Alternativa gratuita apos indisponibilidade HTTP 503 em tres tentativas do 3.8 Flash e uma do 3.6 Flash.",
+  "configuracao": "Override GEMINI_MODEL apenas no processo; arquivo .env preservado.",
+  "cotas": {
+    "gemini-3.8-flash": {
+      "rpm": 60,
+      "tpm": 100000,
+      "rpd": 100,
+      "fonte": "informadas pelo usuario a partir do AI Studio em 2026-10-14"
+    },
+    "gemini-3.5-flash-lite": {
+      "rpm": 15,
+      "tpm": 250000,
+      "rpd": 500,
+      "fonte": "informadas pelo usuario a partir do AI Studio em 2026-10-14"
+    }
+  },
+  "registro_sintetico": "artefatos/execucoes/verificacoes_api.jsonl",
+  "comparacao": "Revisoes produzidas por IA sem consultar respostas Gemini; referencia provisoria, nao gabarito especialista nem estimativa de precisao.",
+  "limites": [
+    "Piloto deliberado, nao amostra representativa.",
+    "Registro criado durante a execucao; nao representa pre-registro anterior a todas as chamadas.",
+    "Custos monetarios esperados no nivel gratuito; tokens e duracoes observados nos recibos."
+  ],
+  "sha256_arquivos": {
+    "classificacao_topicos/__init__.py": "8731cafa40d3a5a4516d14bee2cfdef92afd65a76924807c6fccc3c2c3fe6a6b",
+    "classificacao_topicos/__main__.py": "804e15965115d71be9ae3a727fc652c573e447d0b4102ca202711ac1db39597a",
+    "classificacao_topicos/execucao.py": "6060a0e379f2767f2e25749ec0a44aa9a362848e616d4427b7fc36b92d339b6f",
+    "classificacao_topicos/gemini.py": "0d0224df50a4c4a5de56e4f4e44a8b9a2be905ae17f7ee735cbb9ba50cce1e03",
+    "classificacao_topicos/piloto.py": "e6b4bd093f95a1348f34dc4151e2e61bcd672fa016483e49cfeafa78d7d3bf59",
+    "classificacao_topicos/preparacao.py": "79ce6c9ade6b1796ab0de97a9d61a53c75941530f802b929ab98cef737a75a47",
+    "classificacao_topicos/taxonomia.py": "f409f4585d193c162ed0414d388103c5b75c0c13973208267debd24addf15eb3",
+    "classificacao_topicos/texto.py": "973b71caecaf039b0440f037b8f55ba08781ab41939e73664f9d19b229c33e0e",
+    "prompts/classificacao_v1.txt": "e41b53cc5f49df6536daaefa5089b5c51fa62a5539226dd4b635b5c26dc22cdc",
+    "artefatos/preparacao/manifesto.json": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+    "artefatos/piloto/manifesto_piloto.json": "d4233ad9c06a6c475e4b9b6bdb651053d559e16a61b7b17918dcd66044f9e991",
+    "artefatos/revisao_piloto/proposta_complementares.jsonl": "9133fa306527e9d095af0bf5f08ad0091370f7b485f393ead3594cacafd85802",
+    "artefatos/revisao_piloto/proposta_deliberados.jsonl": "9c1314b330f95c297ee7db6b12fcfff33c19bc3720d5c2b0960cfdc359029af1"
+  },
+  "analise": "artefatos/analises/piloto-v1-35-flash-lite/resumo_piloto.json",
+  "observacao_hashes_codigo": "Hashes observados durante a execucao; o codigo evoluiu posteriormente e nao foi armazenado snapshot executavel dessa revisao.",
+  "resumo": {
+    "sugestoes_validas": 20,
+    "tentativas": 20,
+    "tokens_totais": 595370
+  }
+}

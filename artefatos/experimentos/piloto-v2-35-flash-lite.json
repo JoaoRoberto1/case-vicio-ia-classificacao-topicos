@@ -1,0 +1,33 @@
+{
+  "experimento": "piloto-v2-35-flash-lite",
+  "registrado_utc": "2026-10-14T19:31:02.143319+00:00",
+  "estado": "concluido",
+  "modelo": "gemini-3.5-flash-lite",
+  "thinking_level": "MEDIUM",
+  "entradas": "artefatos/piloto-v2",
+  "execucao": "artefatos/execucoes/piloto-v2-35-flash-lite",
+  "intervalo_segundos": 10,
+  "cotas": {
+    "rpm": 15,
+    "tpm": 250000,
+    "rpd": 500,
+    "fonte": "usuario, painel AI Studio, 2026-10-14"
+  },
+  "referencia": "IA sem especialista juridico; nao gabarito oficial",
+  "sha256_arquivos": {
+    "artefatos/piloto-v2/manifesto_piloto.json": "6f5007a69cd8695cc1cb2ef8eaf8c2b9eaac9791905f0d744c54900fd9c60b99",
+    "prompts/classificacao_v2.txt": "9c9d176bf99d2f5babdd0c95a4ac6d52f6ffa9cc7d907c79942ff4fb93c73909",
+    "config/politica_v1.json": "552fba1739577cebeff845cf8cbab889e95f6931164b623e11e7128f87bc0dd8"
+  },
+  "limites": [
+    "Registro retrospectivo das condicoes; nao pre-registro anterior a todas as chamadas.",
+    "Falhas e consumo observados ficam preservados nos recibos.",
+    "Confianca autodeclarada nao e calibrada."
+  ],
+  "resumo": {
+    "sugestoes_validas": 20,
+    "tentativas": 21,
+    "tokens_totais": 631437
+  },
+  "analise": "artefatos/analises/piloto-v2-35-flash-lite/resumo_piloto.json"
+}

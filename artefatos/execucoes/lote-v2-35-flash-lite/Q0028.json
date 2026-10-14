@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0028",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:32:11.820504+00:00",
+  "sha256_prompt": "55bea77676fb20a06217fe7b8ba484e3962f38c06e74fdf97f3078f1d4c398e8",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7ddacb3218c6a7c7ae59513d1431a0f21a2b5c95b0c8a640bf6d7bff38fd870a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0028\",\n  \"tema_central_id\": \"5526\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5524\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda regras relativas ao rito da primeira fase do Tribunal do Júri (arts. 406, 409 e 421 do Código de Processo Penal), o que corresponde diretamente ao procedimento bifásico do Tribunal do Júri.\",\n  \"evidencia\": \"O Código de Processo Penal, em seu art. 406, estabelece que o juiz, ao receber a denúncia ou a queixa, ordenará a citação do acusado para responder a acusação\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28759,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 29936,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28759
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 964,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "vNjPauSnJPH6qtsP3uf4mA4"
+  },
+  "duracao_segundos": 4.029511000000639,
+  "usage_metadata": {
+    "promptTokenCount": 28759,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 29936,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 964,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0028",
+    "tema_central_id": "5526",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5524"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda regras relativas ao rito da primeira fase do Tribunal do Júri (arts. 406, 409 e 421 do Código de Processo Penal), o que corresponde diretamente ao procedimento bifásico do Tribunal do Júri.",
+    "evidencia": "O Código de Processo Penal, em seu art. 406, estabelece que o juiz, ao receber a denúncia ou a queixa, ordenará a citação do acusado para responder a acusação",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "cdf5e6f2bc163f758ad5025e31d68b16deb551385e1d9a49c02a8c5e865525bc"
+}

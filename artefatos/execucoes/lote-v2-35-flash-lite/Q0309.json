@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0309",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:12:00.734520+00:00",
+  "sha256_prompt": "ff9185828504f3da966976e9d3b3b4f85c0a5bc674f1ad951e419b2aea87d6ea",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "83a059d3642a3e02b6af3344a5d05fb006668db1705bc071eb2f4493dd2a4afa",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0309\",\n  \"tema_central_id\": \"4688\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6717\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão cobra a cominação de pena para crime ambiental previsto na Lei nº 9.605/98, havendo concorrência editorial entre os ramos de Direito Penal - Legislação Especial e Penal.\",\n  \"evidencia\": \"Segundo o Artigo 61 da Lei nº 9.605/98 a pena para quem disseminar doença ou praga ou espécies que possam causar dano à agricultura, à pecuária, à fauna, à flora ou aos ecossistemas é de:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28724,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 29688,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28724
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 751,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "AdTPas3oFZiIz7IPmNuwiAE"
+  },
+  "duracao_segundos": 4.7781295999884605,
+  "usage_metadata": {
+    "promptTokenCount": 28724,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 29688,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 751,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0309",
+    "tema_central_id": "4688",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6717"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão cobra a cominação de pena para crime ambiental previsto na Lei nº 9.605/98, havendo concorrência editorial entre os ramos de Direito Penal - Legislação Especial e Penal.",
+    "evidencia": "Segundo o Artigo 61 da Lei nº 9.605/98 a pena para quem disseminar doença ou praga ou espécies que possam causar dano à agricultura, à pecuária, à fauna, à flora ou aos ecossistemas é de:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a8c6192702c504844ef8371290ca72fa7c8337f0d9a22fcab706ae559f3054b0"
+}

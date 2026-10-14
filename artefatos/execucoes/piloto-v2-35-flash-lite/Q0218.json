@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0218",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:12:28.935565+00:00",
+  "sha256_prompt": "652234804a7913d70444cb844562fb413e0ab060b6d57b7f12cad56d08fbc060",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "36eafa52023900ccf2814e27bf0d60136e0fc00af4ad993e96c7c484f90c5dd4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0218\",\n  \"tema_central_id\": \"5518\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a análise da legalidade de prisão em flagrante e a diferenciação entre espécies de flagrante (como o esperado e o preparado), matéria clássica vinculada ao estudo da Prisão em Flagrante no Processo Penal.\",\n  \"evidencia\": \"João retorna no horário combinado e, no momento em que efetua o saque, é preso por policiais militares acionados pelo gerente da agência\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "ErwQCrkQAWkUfRMIJKflRzujqmFlajhhpaY/xSwRvuAVaJWe5bkE1XrK9uDiHCOmtf5LGx1Oe7g87b1nFMx38nnFDG0hQ4eKJaDaaTC3Hbgggc1N+F2cI2tJxF1Ranze5a4pddckIKFE5zNsU+evxBUSVH0QtqCTlcIDqG0pcX0XHMQO8x2yKc4jRJKMI3vsRwv7GeQOu9qv/RVEpAkp74f1lc6zdT1mTh4tp7Gz3L4Lopy/bOIFhGCLNk5c1XghgAknacmbYbeqPBBCH+NgnVZ+fdrhbXWpxGRiucKhC+upQpXzJx7ld8DBntaclLLPaNlAFJwwLIxigqfYS185SS22GzFt9Lzfv60PdXVcpC1eUG8XP7fUh4LSGXauNDz2aacjNTbbx1cXqzVHnGuRiJ/1fuk3FfXNtDvcM+nnSnzVtGTDmjstwp2qn0IxD536vadFhpharzembfUh1WVPs1pv4IostDhcuIQ+smTC61WrFRyEmWuJS1t7oSIY5flI3KOzEe2/ZYcHnsZUZuYeQWHbyZhlfGsaile9Jnsk22D/1unpfY72WQQe4sPGGvwO254FPoz7LrTMsPs0UsTZyQwVPKDCO5kINumjUbJ517FcSFYHq4gtxZjFLH2l3jfXbOM5wUE1IqgUr6kw0vY3z/hhVSURCxtwg9Z692mHKO5vJSdnpe3zEB1Mv8VSm3jGHoUSndpfZohcyzKUvG2Rr1TSC10XcY+c21fmS9b39uPzcaA41/IGCBrQHrrMEj9Yypc6L2UDfvU4IorIfVCCBaNDtoeXfs3EKZs/HsaJwuTHdEY8AoZdY0qkPGEEpNO3IGW9QvgOZTvLSMGM4CTMOBO2Ts6r0Qnq5BRNl5g09mwjbU5iL/b/oBkvrnyEKgHaJHdJyUjhofxKeiqSJ3a7CKKB5EhcyoZEvJ6Kt/2ZY2ciivts6izMTmKa96UK4LruP/s8F8Do3f+xMbYpYySSrJD6vI0uAWriGStTiAd5z8NR9zu0JEtYQCZFDTiazn07nhaj8aAxBWeDpvncuUOFHUsJRlFz7eWilfhv0zAYPTHqDcrjOQLJ/4GLrGIi+dX49iPu8a4MQBZskxQKcLUb/l7VWRdWNyZjX/ttcwaRcE0lvQFVX+F/Ffuhm5keGmTHk0M3RVVJcD9LtDle3OoeqLWRZyqcRGpqjLf0JyFpl4mU5YwH/pJmpeYvBCgAVJzXdFwNvu1fi7cgXPVfOAj8RMyB/c3RQcPN2yYLgWqZwoSHscScUmMW66vORJrd63jjhJnQbG5FJYZIQ298SZt/a0aYa6SjTONAZtU1tEExiickSpB+FsDBvboIBmSx1Vx6bZf3oDwWOleDpTZYQPhPh5YoHWcf1D4Z9eY3NdiaVVfzqyXFBS2V3dxiBdPxZ6mErhwZzfYXQQ7cJpsibBA86qwfMO2PnofNqhIU4qNxYV+lkIH5RXuxYCI1WhCCFZP0RDa94hwraZJ9AcTVY7ZShxMFaHJqrawqW3ZpJSVH49ACQae+Ev0IeRo3/uQkoHkLepbLGMAZ3ILR/Cj5Bu31EV8eN+KDtpMG/hShBI/N5/jDntVDt6QjaArY3RA2abkNqKMTBgYtJyedwPbJjrnoxgMNZqPzn/SDZfBBaUcfpfvFI36MnfVTnH9MyvDVEJGm5/+LQE5Kf93w0wGYHJJJiWCvj2+ZzxQGh9lU47MilGoosKR01bpMd6eda15QXkJcY2Z7lrKBN7yQF0mU3ecaaOO7H+IURTggoletUy/VPvKbIOIBy3o1ki7coPSvKCxHPhk3osVTavTAa1jtZYkFjZItXEreilWGCmGWSzhQBoDKS75jqHaI/lInsb3bhHMLKifMAJIgIThCSooW+bSOJlQ2ESH9n88IaFLQBPaZ5myQbNCgj092KR98OjgRm/sohMV5JcnWXT2LToSiwMtwVl/MYzrmlyNBvd34WWCOFhcMSHBEEsnTctD3+yF9OVxHL/ePLWMDDGNAurOyzRa+cbKNXtUHPgxl24V8YMej+4B7r1FFlIkntNsz5reKyIsLVzgs0fdkeKgJTqmETQoUiTxYTvbMqp9Jnq9bg7EFqn+B164GePPImhaLaiuhjNQJcL5fzUp+D44Pt15NmvD0Dayco5KMivnNEmx1zoOLy2zH8JlPLq0QQ2UUZICEw3YdqgP/5J6lM57V4ArArridPOIr3Bgrx52co84aLEqYCqifr9/JDTVqjpicnFFhOpm1r0dieDemDm4/a8FAhowMlGRwaTlu2XLeQO9pgjnMMgNgaCYN8+FwQ4IDHbN3kqoOwcaNqZgzfyM6BrxtDL1NDGNFJ6KyHeItj0Z5wzbQbw/NMehpGCkp8oO2yQgJI8AjdXQ6gmxz8D29SLO1oFlznEC7sWDfos7hc9cZrrlyNjUZBenncxWN5ej/Y/6Jl2n0LsObvNvqVO3ODMujhWvlA8ioXqevmH3Px7k0PMVPguwA/+hZ7nUCGQQMxroBjyGNkCIeoXgUrfl1k2ZonlTP+t0uJnZwn1hfxfH/yP8JCLFZ4bxN3rcP1ONaV1IMtTACif8QM/3V5b+zN/rboq+rw6DRDPGr+Ta/zT+kHf+uh4pnPMDanloBiZsbIK7kXDu7ASBw+qaoorpKkYnWFBHLeY48NdBOYCQWhWXnDROEpMT+zZ8gtuDoJoVqBMFWU6UcZaU+fxM8NNpXLWElUR/uDJplZnKbiiOOCzm46GQFEhWIDr6Xnk2rUlBA8wwTmB6DsqhosZxaprniqnIJPtcARNJTLTY9EqWDOOwUo4Kn3whmHJ6dElZpfc3Y455qTOc="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28776,
+      "candidatesTokenCount": 178,
+      "totalTokenCount": 29471,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28776
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 517,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "HdTPatKnIN_rz7IP-9_R2Q4"
+  },
+  "duracao_segundos": 3.8180916999990586,
+  "usage_metadata": {
+    "promptTokenCount": 28776,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 29471,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28776
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 517,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0218",
+    "tema_central_id": "5518",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a análise da legalidade de prisão em flagrante e a diferenciação entre espécies de flagrante (como o esperado e o preparado), matéria clássica vinculada ao estudo da Prisão em Flagrante no Processo Penal.",
+    "evidencia": "João retorna no horário combinado e, no momento em que efetua o saque, é preso por policiais militares acionados pelo gerente da agência",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a460d3e099b7d21806e9154ee40c1e9f296b709d2cd258b062417f55aba4ddcc"
+}

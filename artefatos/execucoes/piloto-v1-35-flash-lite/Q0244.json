@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0244",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:07:47.064705+00:00",
+  "sha256_prompt": "e66e29dcdfc3f7a2bd9c023b5bc9e394773d3a37242ecabdc7057712948416ba",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c1436e7b982a00616d745f823f3c455042808929a7f7f3c847a05b59c3336235",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\"id\": \"Q0244\", \"tema_central_id\": \"5091\", \"extras_ids\": [], \"temas_alternativos\": [], \"sem_tema\": false, \"confianca_autodeclarada\": 1.0, \"motivo\": \"A questão cobra a literalidade do crime de concussão previsto no artigo 316 do Código Penal.\", \"evidencia\": \"O agente que exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, responderá pelo crime de\", \"requer_revisao\": false}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28266,
+      "candidatesTokenCount": 147,
+      "totalTokenCount": 28841,
+      "cachedContentTokenCount": 24253,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28266
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24253
+        }
+      ],
+      "thoughtsTokenCount": 428,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "A9PPapWEKsbrz7IPwYKZmAs"
+  },
+  "duracao_segundos": 2.8760611999896355,
+  "usage_metadata": {
+    "promptTokenCount": 28266,
+    "candidatesTokenCount": 147,
+    "totalTokenCount": 28841,
+    "cachedContentTokenCount": 24253,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28266
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 24253
+      }
+    ],
+    "thoughtsTokenCount": 428,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0244",
+    "tema_central_id": "5091",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão cobra a literalidade do crime de concussão previsto no artigo 316 do Código Penal.",
+    "evidencia": "O agente que exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, responderá pelo crime de",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "18309aa3b84bd15767b95d714518bdcce23390a601ebf1f809e7b52f7f8bb606"
+}

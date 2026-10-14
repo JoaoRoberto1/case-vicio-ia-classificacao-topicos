@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0244",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:12:42.796343+00:00",
+  "sha256_prompt": "02a43782f9e88725e308d926e972c2f77e6bcaa69038f11e4fb7a82d60b2aa86",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "cbe8487a25956b32997a6d2d5da6a586bb77fd7fc4ce28f85f3698cf247f7d93",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0244\",\n  \"tema_central_id\": \"5091\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5092\",\n    \"5089\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão descreve a conduta exata tipificada no crime de concussão, prevista no art. 316 do Código Penal.\",\n  \"evidencia\": \"O agente que exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, responderá pelo crime de:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28634,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 29531,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28634
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 704,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "K9TPaqjpGOeHz7IP_67YsQs"
+  },
+  "duracao_segundos": 3.7683325999969384,
+  "usage_metadata": {
+    "promptTokenCount": 28634,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 29531,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28634
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 704,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0244",
+    "tema_central_id": "5091",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5092",
+      "5089"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão descreve a conduta exata tipificada no crime de concussão, prevista no art. 316 do Código Penal.",
+    "evidencia": "O agente que exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, responderá pelo crime de:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "573ef0ab30d6dd95a117d16087ca9131c626684fcdf7916e2709711c9f119647"
+}

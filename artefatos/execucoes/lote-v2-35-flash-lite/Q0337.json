@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0337",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:13:11.423673+00:00",
+  "sha256_prompt": "08c52e8a16ecb9a55828c33bdd04cd94be6f50da12129f78d5ad579c57251cd0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9ec6c505031088193b8cf3bf603e09a11297f82a2cfb36d5a453bf80866e6d9e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0337\",\n  \"tema_central_id\": \"4684\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6716\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão versa sobre os crimes de abuso de autoridade previstos na Lei nº 13.869/2019, havendo duplicidade no catálogo entre os ramos de Direito Penal - Legislação Especial e Penal, o que exige revisão editorial.\",\n  \"evidencia\": \"A Lei nº 13.869/2019 dispõe sobre os crimes de abuso de autoridade.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28804,
+      "candidatesTokenCount": 190,
+      "totalTokenCount": 29886,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28804
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 892,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "SNTPas77Aq64qtsP2P3O6Q8"
+  },
+  "duracao_segundos": 3.6196407999959774,
+  "usage_metadata": {
+    "promptTokenCount": 28804,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 29886,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28804
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 892,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0337",
+    "tema_central_id": "4684",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6716"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão versa sobre os crimes de abuso de autoridade previstos na Lei nº 13.869/2019, havendo duplicidade no catálogo entre os ramos de Direito Penal - Legislação Especial e Penal, o que exige revisão editorial.",
+    "evidencia": "A Lei nº 13.869/2019 dispõe sobre os crimes de abuso de autoridade.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "3ba62b5ded7eaf78c9bcfe0df795d38cee05614d4724b0e5d53b384a4d9cd521"
+}

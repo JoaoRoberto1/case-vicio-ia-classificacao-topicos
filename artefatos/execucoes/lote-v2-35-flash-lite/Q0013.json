@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0013",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:29:00.610427+00:00",
+  "sha256_prompt": "74b57fa641f6553746ad862c270376aae3b799b6cd011416d28329345b6c0b6c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3967d71b0e535aef2d80f19d95e2d532ae16fc685dee1ecafbd19c1106b3297f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0013\",\n  \"tema_central_id\": \"5503\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda expressamente as hipóteses de competência do Juiz das Garantias, instituto introduzido pela Lei nº 13.964/2019 no âmbito da fase pré-processual e do inquérito policial.\",\n  \"evidencia\": \"Nesse contexto, incluem-se na competência legal do Juiz de Garantias as seguintes hipóteses, EXCETO:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28874,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 29943,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28874
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 893,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "_dfPap_PDt-EqtsPoIOqqA4"
+  },
+  "duracao_segundos": 4.558206799993059,
+  "usage_metadata": {
+    "promptTokenCount": 28874,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 29943,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28874
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 893,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0013",
+    "tema_central_id": "5503",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda expressamente as hipóteses de competência do Juiz das Garantias, instituto introduzido pela Lei nº 13.964/2019 no âmbito da fase pré-processual e do inquérito policial.",
+    "evidencia": "Nesse contexto, incluem-se na competência legal do Juiz de Garantias as seguintes hipóteses, EXCETO:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "fbf7a1abeb155e9f2588f60bd3df00dcf4c008d55835228f7424a9d6022466af"
+}

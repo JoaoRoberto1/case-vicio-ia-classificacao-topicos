@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0078",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:09:30.608407+00:00",
+  "sha256_prompt": "4d75e63403b2121858d6c9120e1990dec615c00c578f600bb253b7a0faec4fa4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7aad6b3b946f4d9040257ede5b43d749ee72f8c4e368a0b21b49c9912bf90fe8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0078\",\n  \"tema_central_id\": \"4697\",\n  \"extras_ids\": [\n    \"4691\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão exige conhecimentos sobre o Estatuto do Desarmamento e crimes de trânsito, havendo mistura de múltiplos delitos e trechos com corrupção visível de texto decorrente de falha de OCR no enunciado.\",\n  \"evidencia\": \"Com base na situação hipotética acima apresentada, na Lei n. o 10.826/2003 e no que dispõe o Código de Trânsito Brasileiro\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29113,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30616,
+      "cachedContentTokenCount": 26284,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29113
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26284
+        }
+      ],
+      "thoughtsTokenCount": 1307,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "a9PPaofUD-SEz7IP_b2yoA0"
+  },
+  "duracao_segundos": 5.297353000001749,
+  "usage_metadata": {
+    "promptTokenCount": 29113,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30616,
+    "cachedContentTokenCount": 26284,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29113
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26284
+      }
+    ],
+    "thoughtsTokenCount": 1307,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0078",
+    "tema_central_id": "4697",
+    "extras_ids": [
+      "4691"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão exige conhecimentos sobre o Estatuto do Desarmamento e crimes de trânsito, havendo mistura de múltiplos delitos e trechos com corrupção visível de texto decorrente de falha de OCR no enunciado.",
+    "evidencia": "Com base na situação hipotética acima apresentada, na Lei n. o 10.826/2003 e no que dispõe o Código de Trânsito Brasileiro",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a57199e7b1ddb77722246ebb7cf9c02ef45d3203dbe6f95c7cc95b36d0ec49fe"
+}

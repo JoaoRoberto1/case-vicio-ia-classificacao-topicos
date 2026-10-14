@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Q0239",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:03:43.940309+00:00",
+  "sha256_prompt": "8099da9b43730685fcac794d60989962bea6f4c6c5bca1458bff6c0f31d001c4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "90f580dd2c856363b3dbfbe5a347ec3fbc3698b1cc3e3af8979b8a7642b5c099",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0239\",\n  \"tema_central_id\": \"5203\",\n  \"extras_ids\": [\n    \"5207\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda múltiplos temas do Direito Penal de forma mista nas alternativas, englobando atenuantes, erro na execução e suspensão condicional da pena.\",\n  \"evidencia\": \"São circunstâncias que sempre atenuam a pena, ser o agente menor de 21 (vinte e um) anos ou maior de 70 (setenta) anos, na data do fato.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28521,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30198,
+      "cachedContentTokenCount": 26277,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28521
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26277
+        }
+      ],
+      "thoughtsTokenCount": 1491,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ENLPaqngI4W_qtsPmK-VqQY"
+  },
+  "duracao_segundos": 5.623882099986076,
+  "usage_metadata": {
+    "promptTokenCount": 28521,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30198,
+    "cachedContentTokenCount": 26277,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28521
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26277
+      }
+    ],
+    "thoughtsTokenCount": 1491,
+    "serviceTier": "standard"
+  },
+  "sugestao": {
+    "id": "Q0239",
+    "tema_central_id": "5203",
+    "extras_ids": [
+      "5207"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda múltiplos temas do Direito Penal de forma mista nas alternativas, englobando atenuantes, erro na execução e suspensão condicional da pena.",
+    "evidencia": "São circunstâncias que sempre atenuam a pena, ser o agente menor de 21 (vinte e um) anos ou maior de 70 (setenta) anos, na data do fato.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "38b2623fe7bee9decfb1ce6cbb381390c714adc39113ac1e23beac87c9cf9031"
+}

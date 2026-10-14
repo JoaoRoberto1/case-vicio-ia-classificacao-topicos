@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0017",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-14T19:29:46.623281+00:00",
+  "sha256_prompt": "574b25d9fa394d3d4389c3ab7cbed9444e77eccb5e72724c9b8afbd8321866d2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8184d6e32a770f31a02b9bcedb312f9cdff5caadf8142129ff2c16a408616d1d",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0017\",\n  \"tema_central_id\": \"5531\",\n  \"extras_ids\": [\n    \"5510\"\n  ],\n  \"temas_alternativos\": [\n    \"5533\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda o procedimento especial dos crimes de responsabilidade de funcionários públicos (arts. 513 a 518 do CPP), concentrando-se na notificação preliminar e no momento de recebimento da denúncia. Na ausência de um nó específico para procedimentos especiais no catálogo, o tema central mais adequado é o recebimento da peça acusatória, com alternativas concorrentes em defesa preliminar e repercussões sobre nulidades processuais.\",\n  \"evidencia\": \"No processo e julgamento dos crimes de responsabilidade dos funcionários públicos,\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28791,
+      "candidatesTokenCount": 228,
+      "totalTokenCount": 31291,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28791
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 2272,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "K9jPavK-HomEz7IP97GHyA0"
+  },
+  "duracao_segundos": 7.542732799993246,
+  "usage_metadata": {
+    "promptTokenCount": 28791,
+    "candidatesTokenCount": 228,
+    "totalTokenCount": 31291,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28791
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 2272,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0017",
+    "tema_central_id": "5531",
+    "extras_ids": [
+      "5510"
+    ],
+    "temas_alternativos": [
+      "5533"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda o procedimento especial dos crimes de responsabilidade de funcionários públicos (arts. 513 a 518 do CPP), concentrando-se na notificação preliminar e no momento de recebimento da denúncia. Na ausência de um nó específico para procedimentos especiais no catálogo, o tema central mais adequado é o recebimento da peça acusatória, com alternativas concorrentes em defesa preliminar e repercussões sobre nulidades processuais.",
+    "evidencia": "No processo e julgamento dos crimes de responsabilidade dos funcionários públicos,",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "ad78680fda1b7479034f4e3fb896d7c2e7a5ed00901b172e2a8dc15e7c6378b2"
+}
