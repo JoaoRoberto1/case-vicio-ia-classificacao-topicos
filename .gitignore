@@ -1,0 +1,23 @@
+# Documentos locais de contexto e retomada
+/contexto_local/
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+
+# Ambientes virtuais Python
+.venv/
+venv/
+
+# Arquivos temporários do Python e dos testes
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
