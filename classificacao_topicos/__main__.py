@@ -56,6 +56,11 @@ def main() -> int:
     executar_lote_parser.add_argument("--intervalo-segundos", type=float, default=10.0)
     executar_lote_parser.add_argument("--continuar-erros-validacao", action="store_true",
                                       help="Salvar respostas inválidas e avançar; falhas da API ainda interrompem.")
+    revalidar = comandos.add_parser("revalidar-recibo", help="Revalidar offline a primeira tentativa tecnicamente válida, preservando o recibo.")
+    revalidar.add_argument("--lote", type=Path, required=True)
+    revalidar.add_argument("--preparacao", type=Path, default=Path("artefatos/preparacao"))
+    revalidar.add_argument("--execucao", type=Path, required=True)
+    revalidar.add_argument("--id", required=True)
     analisar = comandos.add_parser("analisar-piloto", help="Comparar sugestões e revisões provisórias, sem chamadas externas.")
     analisar.add_argument("--piloto", type=Path, default=Path("artefatos/piloto"))
     analisar.add_argument("--preparacao", type=Path, default=Path("artefatos/preparacao"))
@@ -104,6 +109,26 @@ def main() -> int:
                          "modelo_retornado": recibo["resposta"].get("modelVersion"),
                          "uso": recibo["resposta"].get("usageMetadata"),
                          "duracao_segundos": recibo["duracao_segundos"]}
+        elif args.comando == "revalidar-recibo":
+            from .execucao import _validar_entradas, _validar_cache, _ler, _json, _hash_bytes, _canonico
+            from .piloto import esquema_resposta
+            from .revalidacao import revalidar_recibo
+            entradas, temas, questoes, hash_preparacao, _ = _validar_entradas(
+                args.lote, args.preparacao, procedimento_esperado="lote-v1")
+            entrada = next((e for e in entradas if e["id"] == args.id), None)
+            if entrada is None:
+                raise ValueError("O ID solicitado não pertence ao lote.")
+            caminho = args.execucao / (args.id + ".json")
+            registro = _json(_ler(caminho))
+            if not isinstance(registro, dict) or not isinstance(registro.get("model"), str):
+                raise ValueError("Recibo sem modelo válido.")
+            modelo = registro["model"]
+            hash_schema = _hash_bytes(_canonico(esquema_resposta()))
+            registro = _validar_cache(caminho, entrada, modelo, hash_schema, hash_preparacao, temas, questoes[args.id])
+            revisao = revalidar_recibo(caminho, registro, entrada, modelo, hash_schema,
+                                       hash_preparacao, temas, questoes[args.id])
+            resultado = {"id": args.id, "status": "sucesso_revalidado", "chamadas_api": 0,
+                         "numero_tentativa_selecionada": revisao["numero_tentativa_selecionada"]}
         elif args.comando in {"executar-piloto", "executar-lote"}:
             from .execucao import executar_lote, executar_piloto
             funcao = executar_piloto if args.comando == "executar-piloto" else executar_lote

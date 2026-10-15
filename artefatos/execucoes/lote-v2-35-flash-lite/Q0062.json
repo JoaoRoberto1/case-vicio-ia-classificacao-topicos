@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0062",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:44:58.913871+00:00",
+  "sha256_prompt": "61a133cc9ad54dce6ff1b9176640e5a43972d75aa2c1c6e52b4fc57acd80f4fe",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5695ca6892368fd61fe0ab1450f16d605114fa3eb010c251107983c50be97842",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0062\",\n  \"tema_central_id\": \"5182\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente a aplicação da lei penal no espaço, especificamente o instituto da extraterritorialidade incondicionada prevista no Código Penal brasileiro.\",\n  \"evidencia\": \"Considerando o princípio da extraterritorialidade incondicionada, previsto no Código Penal brasileiro\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28705,
+      "candidatesTokenCount": 150,
+      "totalTokenCount": 29456,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28705
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 601,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GxHRavGdKbHpz7IPk_3JGA"
+  },
+  "duracao_segundos": 15.043353100001696,
+  "usage_metadata": {
+    "promptTokenCount": 28705,
+    "candidatesTokenCount": 150,
+    "totalTokenCount": 29456,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28705
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 601,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0062",
+    "tema_central_id": "5182",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente a aplicação da lei penal no espaço, especificamente o instituto da extraterritorialidade incondicionada prevista no Código Penal brasileiro.",
+    "evidencia": "Considerando o princípio da extraterritorialidade incondicionada, previsto no Código Penal brasileiro",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "acb4248eb3a27c7a95f0db7e2d9ff677c39a50ac13cef8f8c23842f99316874d"
+}

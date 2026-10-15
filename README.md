@@ -39,9 +39,9 @@ Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `en
 
 O módulo de preparação dos dados e da árvore está implementado e verificado. Ele preserva as fontes, prepara as 359 questões, valida os 377 registros da árvore e gera um diagnóstico reproduzível.
 
-**Bloco de 20 chamadas concluído em 15/10/2026; aguardando revisão e commit do usuário.** Consulte [Ponto de retomada](docs/RETOMADA.md) para o estado salvo, módulos e próximos comandos.
+**Segundo bloco de 20 chamadas concluído em 15/10/2026; aguardando revisão e commit do usuário.** Consulte [Ponto de retomada](docs/RETOMADA.md) para o estado salvo, módulos e próximos comandos.
 
-Dois pilotos reais com os mesmos 20 casos estão concluídos. O prompt v2 reconheceu melhor condições de revisão e foi escolhido para o lote de 359 questões com Gemini 3.5 Flash-Lite no plano gratuito. O lote contém 72 respostas válidas, uma resposta rejeitada e 286 IDs sem recibo. Os vinte sucessos do segundo piloto estão incluídos nesse total, sem novas chamadas. O bloco de 15/10 acrescentou dezenove sucessos em vinte chamadas; Q0005 permanece pendente de validação. A avaliação e as entregas finais ainda estão pendentes.
+Dois pilotos reais com os mesmos 20 casos estão concluídos. O prompt v2 reconheceu melhor condições de revisão e foi escolhido para o lote de 359 questões com Gemini 3.5 Flash-Lite no plano gratuito. O lote contém 90 respostas tecnicamente válidas e 269 IDs sem recibo. Os vinte sucessos do segundo piloto estão incluídos nesse total, sem novas chamadas. O segundo bloco de 15/10 acrescentou dezessete sucessos em vinte chamadas, com três falhas HTTP 503 superadas nas retomadas. Q0005 foi recuperada por revalidação offline de uma resposta já salva, preservando o recibo original e suas quatro tentativas. A avaliação temática e as entregas finais ainda estão pendentes.
 
 Sem revisor jurídico disponível, a referência local será produzida por IA e identificada dessa forma. Concordância entre modelos e intervalos amostrais condicionados a essa referência não comprovam a meta de precisão jurídica. A política operacional foi registrada antes da inspeção dos novos resultados; a auditoria será sorteada após congelar as decisões.
 
@@ -131,6 +131,18 @@ Cada bloco faz no máximo vinte novas chamadas; sucessos válidos são reutiliza
 Os prompts expandidos `entradas.jsonl` são ignorados pelo Git para evitar aproximadamente 39 MB de catálogo repetido. Em um novo checkout, execute a preparação e os comandos `preparar-piloto`/`preparar-lote` antes de ler os recibos; os arquivos são reconstruídos com os mesmos hashes. `.gitattributes` preserva os bytes dos dados, prompts, configurações e artefatos assinados, inclusive no Windows.
 
 As instruções de exportação e auditoria serão acrescentadas quando esses módulos estiverem integrados e verificados.
+
+### Revalidação de uma resposta já salva
+
+Se uma falha local decorreu de um validador posteriormente corrigido, é possível reexaminar as respostas existentes sem chamar a API:
+
+```powershell
+python -m classificacao_topicos revalidar-recibo --lote artefatos/lote-v2 --execucao artefatos/execucoes/lote-v2-35-flash-lite --id Q0005
+```
+
+O comando seleciona a primeira tentativa cronológica que passa integralmente pelo extrator JSON, pelo esquema, pelos IDs ativos e pela validação atual de evidência. Não escolhe pelo tema ou pela confiança. Se nenhuma tentativa passar, não grava recuperação. O resultado fica em `Q0005.revalidacao.json`, com hashes da origem e da tentativa selecionada; `Q0005.json` permanece intacto.
+
+O executor do lote e o módulo de decisões verificam esse arquivo derivado antes de utilizá-lo. A recuperação não é uma chamada nova, não altera consumo e não autoriza publicação: a sugestão continua sujeita à política temática. Uma derivação inconsistente interrompe o processamento. Ao contar recibos diretamente, selecionar apenas nomes no formato `Q` + quatro dígitos + `.json`; `Q*.json` também inclui arquivos de revalidação e não representa uma contagem de chamadas.
 
 ## Entregas previstas
 

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "procedimento": "revalidacao-local-v1",
+  "id": "Q0005",
+  "timestamp_utc": "2026-10-15T17:40:15.901835+00:00",
+  "fingerprint": "fa43a202f5683d1cfee94faa3656043fedca55b8c573df3306731feb4dab175a",
+  "sha256_recibo_origem": "2fe4416a5b11488e960b8dbab5182c107a1f2f18d8ed7789c18b3e31e7d1d2de",
+  "numero_tentativa_selecionada": 1,
+  "sha256_tentativa_selecionada": "23d85a455ee73c156d5f625c159f8f0e39b84a799dff080630c804bf0f7f90e8",
+  "criterio_selecao": "primeira_tentativa_cronologica_tecnicamente_valida",
+  "validador_evidencia": "evidencia-literal-ou-caixa-e-espacos-v1",
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0005",
+    "tema_central_id": "5203",
+    "extras_ids": [
+      "5201"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a reincidência e o cômputo do período depurador, matéria afeta à segunda fase da dosimetria da pena (agravantes), bem como a fixação do regime inicial de cumprimento da pena privativa de liberdade.",
+    "evidencia": "o juiz fixou a pena base no mínimo legal, tendo em seguida agravado em 1/6 a pena em face da reincidência",
+    "requer_revisao": false
+  },
+  "sha256_registro": "87a3103418196e7e62a073d743b0c4ce615f37305418c199f9fc63571ccf716d"
+}

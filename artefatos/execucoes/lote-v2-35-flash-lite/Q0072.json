@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0072",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:50:12.265782+00:00",
+  "sha256_prompt": "c45b005b1cbd096d99dea90d9c0aba1e078d050bed901af7cc78da278e088035",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "21512a28a988b882f4703ed24ba033a87f905300883299186db64dbcab401987",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0072\",\n  \"tema_central_id\": \"5592\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5595\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a valoração judicial de elementos informativos da investigação policial e a exigência de contraditório judicial para a formação da convicção, matéria tratada no âmbito dos sistemas de avaliação da prova e da Teoria Geral das Provas (art. 155 do CPP).\",\n  \"evidencia\": \"Para formar seu juízo de convicção a respeito de fato submetido a julgamento, o juiz.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28736,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 29795,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28736
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 863,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "VRLRaqHjDOeez7IPrdSnKA"
+  },
+  "duracao_segundos": 4.792051799999172,
+  "usage_metadata": {
+    "promptTokenCount": 28736,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 29795,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28736
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 863,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0072",
+    "tema_central_id": "5592",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5595"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a valoração judicial de elementos informativos da investigação policial e a exigência de contraditório judicial para a formação da convicção, matéria tratada no âmbito dos sistemas de avaliação da prova e da Teoria Geral das Provas (art. 155 do CPP).",
+    "evidencia": "Para formar seu juízo de convicção a respeito de fato submetido a julgamento, o juiz.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "054ae7f373b77f0dd9cc580e39a1978abb945ed45559c68bff8126de1b3829e9"
+}

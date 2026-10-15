@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0060",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:44:13.764092+00:00",
+  "sha256_prompt": "27fdf12a7f2b37f8f57968025dbd19426a38c0f146ecec979cc25fca48ac5281",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "61c9f395670d1548fedff4f16d77f1e79263103b3a6f0e99b20c42d72f522d29",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0060\",\n  \"tema_central_id\": \"5087\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5088\",\n    \"6718\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diversos crimes contra a administração pública de forma ampla nas alternativas, exigindo conhecimentos sobre múltiplos tipos penais distintos (peculato, concussão, corrupção ativa, advocacia administrativa, entre outros). Como há mistura de proposições independentes sem um crime central dominante, adota-se o tema geral com recomendação de revisão.\",\n  \"evidencia\": \"A respeito dos crimes praticados em detrimento da administração pública, assinale a alternativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28762,
+      "candidatesTokenCount": 210,
+      "totalTokenCount": 30442,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28762
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1470,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "7hDRasjdIOeGz7IPpMWXgQU"
+  },
+  "duracao_segundos": 15.809219400001894,
+  "usage_metadata": {
+    "promptTokenCount": 28762,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 30442,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28762
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1470,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0060",
+    "tema_central_id": "5087",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5088",
+      "6718"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diversos crimes contra a administração pública de forma ampla nas alternativas, exigindo conhecimentos sobre múltiplos tipos penais distintos (peculato, concussão, corrupção ativa, advocacia administrativa, entre outros). Como há mistura de proposições independentes sem um crime central dominante, adota-se o tema geral com recomendação de revisão.",
+    "evidencia": "A respeito dos crimes praticados em detrimento da administração pública, assinale a alternativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "39e7767e376e77dccc65d63aa8f8ac19a718193f23f5a3769e17b4f88264c15c"
+}

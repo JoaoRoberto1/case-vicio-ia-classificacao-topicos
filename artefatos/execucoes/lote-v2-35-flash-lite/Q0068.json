@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0068",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:49:09.521320+00:00",
+  "sha256_prompt": "1defc0cc030bcafc9ef501785e1b3fac0740752699ea0b168c3f7814063b6016",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "037765d2daf307a758e4575585b298514305fc22618a3ed44325b0ffe40fc441",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0068\",\n  \"tema_central_id\": \"5096\",\n  \"extras_ids\": [\n    \"5103\",\n    \"5126\"\n  ],\n  \"temas_alternativos\": [\n    \"5118\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão é mista e aborda proposições independentes sobre diferentes crimes em espécie do Código Penal (crimes contra a administração pública, dignidade sexual, incolumidade pública e fé pública), sem um tema central dominante único. Exige revisão devido à mistura de assuntos.\",\n  \"evidencia\": \"No crime de estupro, aumenta-se a pena de metade se resultar a gravidez da vítima.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28764,
+      "candidatesTokenCount": 206,
+      "totalTokenCount": 31195,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28764
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 2225,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "FhLRarHeFbCsz7IPrO7G2A8"
+  },
+  "duracao_segundos": 8.129800999999134,
+  "usage_metadata": {
+    "promptTokenCount": 28764,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 31195,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28764
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 2225,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0068",
+    "tema_central_id": "5096",
+    "extras_ids": [
+      "5103",
+      "5126"
+    ],
+    "temas_alternativos": [
+      "5118"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão é mista e aborda proposições independentes sobre diferentes crimes em espécie do Código Penal (crimes contra a administração pública, dignidade sexual, incolumidade pública e fé pública), sem um tema central dominante único. Exige revisão devido à mistura de assuntos.",
+    "evidencia": "No crime de estupro, aumenta-se a pena de metade se resultar a gravidez da vítima.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6c4cebdcdee7fe0344ebdf711d5a0858da987fd2b55f92e500fc46969f1ce9c3"
+}

@@ -127,6 +127,51 @@ class ExecucaoTests(unittest.TestCase):
         self.assertEqual(resumo["tokens_observados"]["totalTokenCount"], 300)
         self.assertFalse((self.saida / ".execucao.lock").exists())
 
+    def test_lote_reutiliza_revalidacao_sem_alterar_recibo_ou_duplicar_consumo(self):
+        from classificacao_topicos.execucao import _validar_entradas, _hash_bytes, _canonico
+        from classificacao_topicos.piloto import esquema_resposta
+        from classificacao_topicos.revalidacao import revalidar_recibo
+        self.converter_para_lote()
+        resposta = sugestao()
+        resposta["evidencia"] = "FURTO"
+        with patch("classificacao_topicos.execucao.gerar_json", return_value=retorno(resposta=resposta)), \
+                patch("classificacao_topicos.execucao._validar_evidencia", side_effect=ValueError("Validador anterior estrito")):
+            self.executar_lote(limite=1)
+        invalida = sugestao()
+        invalida["evidencia"] = "texto que não está na questão"
+        with patch("classificacao_topicos.execucao.gerar_json", return_value=retorno(resposta=invalida)):
+            self.executar_lote(limite=1)
+        caminho = self.saida / "Q0001.json"
+        original = caminho.read_bytes()
+        registro = json.loads(original)
+        entradas, temas, questoes, hash_preparacao, _ = _validar_entradas(self.piloto, self.preparacao)
+        revalidacao = revalidar_recibo(caminho, registro, entradas[0], "gemini-3.8-flash",
+                                      _hash_bytes(_canonico(esquema_resposta())), hash_preparacao,
+                                      temas, questoes["Q0001"])
+        self.assertEqual(revalidacao["numero_tentativa_selecionada"], 1)
+        with patch("classificacao_topicos.execucao.gerar_json", return_value=retorno("Q0002")) as gerar:
+            resumo = self.executar_lote(limite=1)
+        gerar.assert_called_once()
+        self.assertIn("Q0002", gerar.call_args.args[0])
+        self.assertEqual((resumo["cache"], resumo["novas"], resumo["sucesso"]), (1, 1, 2))
+        self.assertEqual(resumo["revalidacoes_ids"], ["Q0001"])
+        self.assertEqual(resumo["erros_validacao_ids"], [])
+        self.assertEqual(resumo["tentativas_registradas"], 3)
+        self.assertEqual(resumo["tokens_observados"]["totalTokenCount"], 450)
+        self.assertEqual(caminho.read_bytes(), original)
+        (self.saida / "Q0001.revalidacao.json").write_text("{}", encoding="utf-8")
+        with patch("classificacao_topicos.execucao.gerar_json") as gerar, self.assertRaises(ValueError):
+            self.executar_lote(limite=1)
+        gerar.assert_not_called()
+
+    def test_lote_rejeita_revalidacao_sem_recibo_antes_da_api(self):
+        self.converter_para_lote()
+        self.saida.mkdir()
+        (self.saida / "Q0001.revalidacao.json").write_text("{}", encoding="utf-8")
+        with patch("classificacao_topicos.execucao.gerar_json") as gerar, self.assertRaises(ValueError):
+            self.executar_lote(limite=1)
+        gerar.assert_not_called()
+
     def test_piloto_completo_em_cache_nao_chama_modelo(self):
         with patch("classificacao_topicos.execucao.gerar_json", side_effect=[retorno(f"Q{i:04d}") for i in range(1, 4)]):
             self.executar(limite=3)

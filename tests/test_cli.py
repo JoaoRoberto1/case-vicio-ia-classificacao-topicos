@@ -11,6 +11,31 @@ from classificacao_topicos.gemini import ErroGemini
 
 
 class TestCLI(unittest.TestCase):
+    def test_revalidar_recibo_funciona_offline_sem_credencial_e_preserva_original(self):
+        from tests.test_execucao import ExecucaoTests, retorno
+        fixture = ExecucaoTests()
+        fixture.setUp()
+        self.addCleanup(fixture.doCleanups)
+        fixture.converter_para_lote()
+        with patch("classificacao_topicos.execucao.gerar_json", return_value=retorno()), \
+                patch("classificacao_topicos.execucao._validar_evidencia", side_effect=ValueError("Validação anterior")):
+            fixture.executar_lote(limite=1)
+        caminho = fixture.saida / "Q0001.json"
+        original = caminho.read_bytes()
+        saida = io.StringIO()
+        argumentos = ["classificacao_topicos", "revalidar-recibo", "--lote", str(fixture.piloto),
+                      "--preparacao", str(fixture.preparacao), "--execucao", str(fixture.saida), "--id", "Q0001"]
+        with patch("sys.argv", argumentos), \
+                patch("classificacao_topicos.gemini.carregar_configuracao", side_effect=AssertionError("Não carregar credenciais")), \
+                patch("classificacao_topicos.execucao.gerar_json", side_effect=AssertionError("Não chamar API")), \
+                redirect_stdout(saida):
+            self.assertEqual(main(), 0)
+        resultado = json.loads(saida.getvalue())
+        self.assertEqual(resultado["chamadas_api"], 0)
+        self.assertEqual(resultado["numero_tentativa_selecionada"], 1)
+        self.assertEqual(caminho.read_bytes(), original)
+        self.assertTrue((fixture.saida / "Q0001.revalidacao.json").is_file())
+
     def test_piloto_limite_conservador_e_falha_retorna_status_nao_zero(self):
         resultado = {"total": 20, "novas": 1, "parou_em_erro": "Q0020"}
         saida = io.StringIO()

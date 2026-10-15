@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0067",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:48:55.230368+00:00",
+  "sha256_prompt": "f2a122aa2e3c628e3e53a2a05ca19d8f8710dd9f2ef56e28f8a10b0113902f6f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b16e30a5d910d20b4574972b922b8daba6819da7dc58d4b034701da4eab82141",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0067\",\n  \"tema_central_id\": \"5091\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A conduta descrita no enunciado caracteriza o crime de concussão, uma vez que o funcionário público exige vantagem indevida em razão de suas funções.\",\n  \"evidencia\": \"Sebastião, policial militar, exige dinheiro de Caio, usuário de maconha, para que este não seja preso.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28844,
+      "candidatesTokenCount": 156,
+      "totalTokenCount": 29953,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28844
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 953,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "BxLRapeZO7Dtz7IP68aTmQQ"
+  },
+  "duracao_segundos": 4.284414499998093,
+  "usage_metadata": {
+    "promptTokenCount": 28844,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 29953,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28844
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 953,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0067",
+    "tema_central_id": "5091",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A conduta descrita no enunciado caracteriza o crime de concussão, uma vez que o funcionário público exige vantagem indevida em razão de suas funções.",
+    "evidencia": "Sebastião, policial militar, exige dinheiro de Caio, usuário de maconha, para que este não seja preso.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c437493e5c4bc192a8c4fa1ce10447e5436c0f9b3b26af4fec6450e96a149bcc"
+}

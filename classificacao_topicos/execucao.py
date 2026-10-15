@@ -240,7 +240,10 @@ def _gravar_atomico(caminho: Path, registro: dict) -> None:
             temporario.unlink(missing_ok=True)
 
 
-def _resumo(registros: dict, total: int, cache: int, novas: int, erro_id: str | None) -> dict:
+def _resumo(registros: dict, total: int, cache: int, novas: int, erro_id: str | None,
+            revalidacoes: dict | None = None) -> dict:
+    from .revalidacao import status_efetivo
+    revalidacoes = revalidacoes or {}
     tokens, informados = {}, {}
     tentativas = []
     for registro in registros.values():
@@ -255,13 +258,14 @@ def _resumo(registros: dict, total: int, cache: int, novas: int, erro_id: str | 
             if type(valor) is int and valor >= 0:
                 tokens[campo] = tokens.get(campo, 0) + valor
                 informados[campo] = informados.get(campo, 0) + 1
-    sucesso = sum(r["status"] == "sucesso" for r in registros.values())
+    sucesso = sum(status_efetivo(r, revalidacoes.get(i)) == "sucesso" for i, r in registros.items())
     erros_validacao = sorted(identificador for identificador, registro in registros.items()
-                             if registro["status"] == "erro"
+                             if status_efetivo(registro, revalidacoes.get(identificador)) == "erro"
                              and registro.get("erro", {}).get("tipo") == "ErroValidacaoLocal")
     return {"total": total, "cache": cache, "novas": novas, "sucesso": sucesso,
             "pendencia": total - sucesso, "parou_em_erro": erro_id,
             "erros_validacao_ids": erros_validacao,
+            "revalidacoes_ids": sorted(revalidacoes),
             "concluido_com_falhas": bool(erros_validacao) and erro_id is None,
             "tentativas_registradas": len(tentativas),
             "tokens_observados": tokens, "tokens_registros_informados": informados}
@@ -271,6 +275,7 @@ def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
               limite_maximo: int, env_path: Path | None, limite: int,
               intervalo_segundos: float, continuar_erros_validacao: bool = False) -> dict:
     """Núcleo compartilhado; o tipo de conjunto não altera a identidade do recibo."""
+    from .revalidacao import carregar_revalidacao, status_efetivo
     piloto, preparacao = Path(piloto).resolve(), Path(preparacao).resolve()
     entradas, temas_por_id, questoes_por_id, preparacao_hash, raiz = _validar_entradas(
         piloto, preparacao, procedimento_esperado=f"{tipo}-v1")
@@ -286,9 +291,15 @@ def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
     schema_hash = _hash_bytes(_canonico(schema))
     saida.mkdir(parents=True, exist_ok=True)
     permitidos = {item["id"] + ".json" for item in entradas}
+    if tipo == "lote":
+        permitidos.update(item["id"] + ".revalidacao.json" for item in entradas)
     for caminho in saida.iterdir():
         if caminho.name not in permitidos or caminho.is_symlink() or not caminho.is_file():
             raise ValueError("A saída contém arquivos incompatíveis ou uma execução ativa; use outra pasta.")
+        if caminho.name.endswith(".revalidacao.json"):
+            original = saida / (caminho.name.removesuffix(".revalidacao.json") + ".json")
+            if not original.is_file() or original.is_symlink():
+                raise ValueError("Revalidação sem recibo original correspondente.")
     # Exclusão mútua evita chamadas duplicadas entre dois processos locais.
     lock = saida / ".execucao.lock"
     try:
@@ -296,6 +307,7 @@ def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
     except FileExistsError:
         raise ValueError("Existe outra execução nesta pasta; aguarde sua conclusão.") from None
     registros = {}
+    revalidacoes = {}
     novas = cache = 0
     erro_id = None
     try:
@@ -305,10 +317,16 @@ def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
             caminho = saida / (entrada["id"] + ".json")
             if caminho.exists():
                 registros[entrada["id"]] = _validar_cache(caminho, entrada, config["model"], schema_hash, preparacao_hash, temas_por_id, questoes_por_id[entrada["id"]])
-        cache = sum(r["status"] == "sucesso" for r in registros.values())
+                if tipo == "lote":
+                    revalidacao = carregar_revalidacao(caminho, registros[entrada["id"]], entrada,
+                                                       config["model"], schema_hash, preparacao_hash,
+                                                       temas_por_id, questoes_por_id[entrada["id"]])
+                    if revalidacao is not None:
+                        revalidacoes[entrada["id"]] = revalidacao
+        cache = sum(status_efetivo(r, revalidacoes.get(i)) == "sucesso" for i, r in registros.items())
         for entrada in entradas:
             identificador = entrada["id"]
-            if registros.get(identificador, {}).get("status") == "sucesso":
+            if identificador in registros and status_efetivo(registros[identificador], revalidacoes.get(identificador)) == "sucesso":
                 continue
             if novas >= limite:
                 break
@@ -364,7 +382,7 @@ def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
             registros[identificador] = registro
             if erro_id:
                 break
-        return _resumo(registros, len(entradas), cache, novas, erro_id)
+        return _resumo(registros, len(entradas), cache, novas, erro_id, revalidacoes)
     finally:
         lock.unlink(missing_ok=True)
 
@@ -396,6 +414,8 @@ def executar_lote(lote: Path, preparacao: Path, saida: Path, *,
     tentar o mesmo ID novamente nesta chamada; erros Gemini sempre interrompem.
     concluido_com_falhas indica término sem interrupção com erros locais ainda
     presentes, inclusive quando o limite solicitado cobre só parte do conjunto.
+    Revalidações offline válidas são reutilizadas e identificadas no resumo;
+    seus recibos originais continuam sendo a única fonte de contagem de chamadas.
     """
     return _executar(lote, preparacao, saida, tipo="lote", limite_maximo=500,
                      env_path=env_path, limite=limite, intervalo_segundos=intervalo_segundos,

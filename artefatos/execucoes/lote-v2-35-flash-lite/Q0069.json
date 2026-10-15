@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0069",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:49:27.664410+00:00",
+  "sha256_prompt": "f07aa3cc90ac1bafe784f067187d5141d83fe7678a8bd7b99e91e39c5f896323",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9f684ac167600ac5fe7250059c28c7e22ee284e93720b2bd2c0c0a16d4e108a8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0069\",\n  \"tema_central_id\": \"5173\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda os conceitos e espécies de interpretação da norma penal, exigindo a identificação da técnica de interpretação analógica, caracterizada por uma fórmula casuística seguida de expressão genérica.\",\n  \"evidencia\": \"Em termos de interpretação da lei penal, quando se encontram na legislação expressões como “qualquer outro meio”, “qualquer outra vantagem”, “outro recurso” ou “qualquer outro meio fraudulento”\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "ErcLCrQLAWkUfRNQUVFU6EMJcu8pA256Z4Nj3jLVjjHwRCTxrRoKF3bGEnAV0Lc8PkFxRXrYdMnNZqk7tbuE8ZW38TBJIiHiYxKDMDFUyaVFmJVCkqE/ao3Myjb6UCKrM6/S+8zQJSQoWCxkr6h9n1ilybs6H/Gjsi0bHcIzyAiy/3vOfkxNYgW+ghe82Xmv0X4OKg8xsV8re+81u6b0mYmDG6PffkIquZYkTm9BZv81dmcuQ4+pQJZkiCuHf+xq4znBVpGamzoaK+o8xJ4PkRiFiuMNMOXuOgZwWSw6udPFSBO/p6llYExUV6JPt4cGDcT/bmokwbtgSK/BMY2USim7/0KfSSP/8PDA1fm4E+AzOLLcYK5k04E5sWpdrmdAVMXwRPMNlQudLGnBW82QoU576N/lGSwbOlVkG0QJ9X/kl9HS4S/wsgPtK4dtfxa/n3WYm6O6VcWj0UKRl8z4XoLC1bwOkKSrgq9TrmVna0ptmzG5bQZ3YIfgmkLdj5C6TebgGb9IlecbUM8eBpH61H79379ul7LCkvBGV/dBttpQCZdlMPEj9QhqC10SbS7ITr7kJKveyg0uuILFtKp6YJjSF5albmnDrxVjccZ35spvVmi1Bc3nV4n5+Arn9cWxmfc3NKWNg65Wq+cGm2/Oo6pAdAFQ94srAo0Q8WPIzoaj6IeBn4RivIcDx9FYLGv4QikGBASxxuRPh6/lrVn0tQNt/1Gn8VITkj7IYUymVmZpZDVKNqdb4acqcFMa8F0Rnhu98Gx99QyueOU+iOsdd7w99qgO+4NiSP0yykPTPBA1tnfChiLtiKet72svScxNwZWdbbe/FlMiHLojAsSihZ7Fnvoz+L4JCfHmWLaMlvPOz8LrEUYWFRmbuYFMTvxOWlMmiIIchpZWUhAaOAAULXbKsirrZLse2EiiP2idPTv+CqwVFBpCRGEtI1uVUvWjSjhY0+4nDfn4hX+YWnuZcmjDxiCa6lV7zv8qZdGUciXvmnIvXmTDgFnNbNxzWtB0MAxTjUycmjw43Pnta5cBkCFRvv7HjoDYkr0hr5d5oqoSU3ngIJc00Nu44sZjBDSsX2Sz/tCDCC1xg/N5BMchUqsGrZaEw19tdpbC6bfiUc1bkYI9Swp2NlfJ2Y3f2lpjcCyNOCBQUTGFpcenH0CL2yCf/X9CBWU5bwStk86wKKMhlF2BMSiBwNfW/eDQTs8CkvkMSM7zXusbpPSAIAJKnPEl+N5krhMILA6k4la8OICbLJ7+X5OTt2duDrhFweOxHfuh1u9ciotQtmg57yFIhqmFHWMALmyi5tUe6wo1ABlCjXQhMVeNHrVl3x0xx8GZgPdvWPhvJia6eqifjrV7iqME8yLLv6+q4QWGDtuRWQwPVKOhddYBKZRFgQPp27EHkyqVWxDivtWwZnc0hFPmxdZ2raCM/lr8xdS0VHchUKSUVmGLsxt70UJifmw1pKT9Es4o+2xNcyThma5v96G9d6MR6tXkSMjStok45ojLC7fyj/srCe3oFRbg8s5dqy3K2ZzFAJv6CBdAE4q/WFSOxhTa2sB/P4E00bhCcq6vhXEbiaQK/CkzVK0NqSTBb23lHtyvE/MwcMlSpcWpbvtYf5AByfSxP2mzCydSVhU1SjfAnyt6f89dUhRBk60JYs4sXHW9uy4tIxLh13BqhH4MtZ4XL/UjGfndiEFDC9NH4RVsgJKdsv26t6i0zdcLC2MYaOpJ+NdNVjjOkB2I/+v/kWomnDscTZB9nvnPVhFFEEp29oLit0Og7Cuu67Typ/8wSBxwqdOxNJFUeDHCMiJKMXsCfo2TqsfrlQq/0se6CHn3jeEDfMUJK0yreG2N/nM1AldNY6d52OsiJF9Kx/dVsyrRyUeV6bOgxOF8DzSTvSRl0d/oFmpVGFE5f/yynsJaXxJa9ra1cgUVgHQpmXla1YtR7r9wrOApjdQ="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28656,
+      "candidatesTokenCount": 184,
+      "totalTokenCount": 29198,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28656
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 358,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "KBLRaoCTGe7rz7IP0KaR4AQ"
+  },
+  "duracao_segundos": 5.282715699999244,
+  "usage_metadata": {
+    "promptTokenCount": 28656,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 29198,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28656
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 358,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0069",
+    "tema_central_id": "5173",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda os conceitos e espécies de interpretação da norma penal, exigindo a identificação da técnica de interpretação analógica, caracterizada por uma fórmula casuística seguida de expressão genérica.",
+    "evidencia": "Em termos de interpretação da lei penal, quando se encontram na legislação expressões como “qualquer outro meio”, “qualquer outra vantagem”, “outro recurso” ou “qualquer outro meio fraudulento”",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d88bac8503f995cd07b443159445c40fbdd4ae303a144f04705a15a74e2e6b01"
+}

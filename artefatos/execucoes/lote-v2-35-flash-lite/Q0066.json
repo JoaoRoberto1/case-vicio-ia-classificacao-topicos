@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0066",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:48:40.596818+00:00",
+  "sha256_prompt": "0ffdcf850947ecd37b30cba1355a8623fbc08daf1b1d9ce49f270249c1320990",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "10ff191347d42527102f3479807e0c901d1f0150bdb04ad6ef03f5c004763ff4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0066\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4382\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o positivismo criminológico, suas características e método empírico, inserindo-se adequadamente no estudo das escolas criminológicas.\",\n  \"evidencia\": \"O positivismo criminológico\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "Er8dCrwdAWkUfRPTivZjdOFjh4X3wLrt0gdCEm20V6gIqpIY1CNs+1O+J//b32+2LA+LuFTARnG2q/VB8eoIEz4nafF5lI5bmfX0QACGL/1diUH6Mefy8FA/mgckGzeTdEjKDj+JENvci4n0DC4bGM+uC8ZF7PzK6s/olZ91lVos+HJrGStSuKBdG2IufZ2zbgy6kg5LReOLN6MBj9Jck1avuiNRXcZtD/f//vHV5jLw6IuHH6xLTG3Uqi6p6nWNUSDWiXokUPaTChVd5hD8k2L/8O0qLCF3jW1ziRE9VqNGs68mhcug+SfcBgq99jQskF7qQ1TFuc+gh/1NveuGyFsurgmp3TEnv9bfbG5zaWx9ZXvFvOoWHJyGff9xXaWziUKntxafj5rtc6UUGnY3q8vxBMUMYfD7Equor+BKHUf8vjBBYSIfAo68nPlV0NTjmnMwaEnyuu5KMaG4/qWFqwganL4Q02QiGu1cF1sgo986Oo4rcGr08ysbXMPbR1h2EjmYZyt2OX9Za3a4c+Erqo6nT/w8Cop1DaQN50iJSTuxNPyVd694HbOe9Kz2N98W1nxmC79wEtUtx93MnB4Kwef3RXEBISDvs+Z+RV1CZU/fNJWEq5wnJDSRbXylIRLV5U8z7UFiIcHhiDLsBUEDySYFYhQIfMptK9AsVY3Tt41K75Ypy23N4FUvwYAHM+zx4Oq4H6Y4bkXDBi1PX6HA/QPYczgORxk1iCP1MR9CGupi0V0N4dn6gkj61rAy6pn8qzZeB03Wqa+en76V1HAIBMHdAO7shTefS55E0DOMEppuRfKGQpXjzUoTg7DrBt09Nb4YdUPYbBMMnVwUjXuf17w9jdpf1XWskwClWIalUs8ooVtdtQ4cf0ZPEAJ2msMo2hSaHtj49mZqsfCInW1vVP93/+de9EM7hIksGpK1ZQ/Al9Gd2g7YuqiTE0dRfM63KeSh43Ry+U7G9P9t7rykpUjNVewaBOWGj5fyQ7roOcz4EeLAZQIU/9iX5jQ94M8gPl3G0etfLyuDa8vtViUvEj59PYYCvaLrQ6xU2C2ge5uT4+wOpJmbiCjcE2fr5bSnveeSqWZbfEjW5UmDUXgO4dX2KSfJYkOwzmQ8luf9ZwvVSCUbQTZJsDUHcFrdwXPpTo7n9QG7H+yJTqey+a4O9Kw9cw1phXqc54vUFf9Cg90mdFpCsnd92hPqoVJz8vbkqgYQyiNl9Abc/M8c1/xGz4hfpEIlpgVMaDCfKGOIVYsZoWlB9nV/2/pKsIHrM+UjsdPdMJKPTAjPr4ubGjYGFU8JldYtCNyZ2ZFb5y0CKxvrl3HOy4tkZLeSJOodyL3DBX2H+gAe8QZ14c+TEFDVAjqi/H68NbGUXyYqxrtoRIys9sYyq65syR/v9eyHwazuOAhJ0w/wwZA9rIrRYHpqLcdgVNVgDR0cC0+Ee981DBCoP43oK+d16ApqtgX9xAPi4Poy/VFqNqpgD2NMv7TafBRb5B7DytjcfjMiW0jyVQIcj3avl8l0fV4TLsfdqGM4Rqbob9lLtnvHS2NmolCSGxGYNYYpNK4rI+F+aovGHbwlg3muJveuQJCy/zefpXmGwBTa6iNbO9raB/22fUqk5S8GrJO988FKFhFrE8slU8urWYZPQIf3hb4s20lktpcCqWLQKUNJDrOfy2dPNHkmzA4BvIHgsDKVtjYBg5BYdqJDqrE2ZUQ5shW7owMeowivQA8j3p2rpNhisB1TEImlaJCt3M1LJL2ZHQSIBaK84/hvUUknsSrkIGTVoGMEO6Mc+Xjz4SyjCKrTBZVabITPe0KNf40bxZgJ9iql97ayvsqSpj00yIP/F2JbIR9P3A1SaRX7LE6ffbvm4H5OQM3kKjK+TuuAg+Lb7nu1oEVTIZkqE3/8R+QB68bJ9dxrbnPyvnQ/5AY0ZPjzf8I1eh9oBxK0Sgado1QHFNNfVfGGoXLaWP6XbwkINCaWxY00soSZIl8tmUN+QW4ATa8T5uwl0Q7prNuGUjkD3gB6zY4NxLwBvtqVj1iq6v0Z9KLXUAP3KGRRmL0BU+UPmcpQtDiv8tQE8QuexPv+dnEUR6tIuscc+/Hm+hWjPV/HFTs0Wp8BORfNyLgcUTpBqPP230H9J2SoNBrpeBKhNVwz+i+r97dcRhOZSxAdT+UtdiY+kgEgXkS4GWIbVj2OT4kas41B2nlRBRd8rE9hD6igTvXlhFUXhKUiTznImN5c1oDFy7bRL7O+o8+FpOTJHIZgbbxfDWhwPOznMyKnUQ3vF6LWGoLKIvVPP6nIyE1Tg9FCDs1NJr4lR+bgBorsZOvO8MyV+PMtp/lusbFmALEXscGy9lxTWQ27WP77a0CMNsxiCBamthbCxmzZKIKm/SzwnVI4GBv5bDNpW2fvOLtLTIpakAHF53XKOOZ6d/NFSbwdLUpqOhhD2i08gqLu1F6DS5ijqiPGqKRRV8OFXn9c6exi5QLKS6K62AoYuvKpD9hXR5P11dN5DueldrnruHCxJ1oCoSBqEQLJnZjsAM7ysmd+XuRHnrkwheBE2/bo0Iwa2a0F3P9exteg+YsWfPstuxwn+Lo3bvEC5F22XPm2HQWn2d6hHcmpEhreJlmnjhk/87+ZANoYwn/2nMO8NhcO6TyB/Le+4JUkIPJCqkq3XIJjoSQivkFYsgGPPUEI33SpEAq4zCcu5YKDwN6udFJd+f4MB9Q9Vkjrxp7tWWL4ANQlPwy2OBZr/LVjykhuyfMTBGQTDEqMV7tJAOfrGFna8A3XNLouzEX37CxhTtGUe7C6b21qg++vb67W9Uonk41ooEdF292f0eKFKHc8qegffC1JCYE4xQRSGfSz5ffGrDsmdF5NUCaXXr2XCFLZ63IKYS88AT7DBysW5QJHsl3LJSGq02EQIMbbDVhdRx1RsLInp4iwMXO0O2XUH/5HpGsp4ceO7VJFjzCiRTwJOa3yF7qGBfeUVz2z0grcjJGeQUiZ80luKVfMD85c/DyCiE+ZT9zLmNFmPX0t+8/oCnk0+fuEa+GUzEdW5sTy01nvCCB25b9LXfhF+XFvhE9PblwwMQbwVPW1t4VAhvPFh8R0bKDAjF4zfDtMUHnDdfKEbcSIUbXIjNOYDJqIMYnhw9PDbEsvFcR7d+PZgigote19AUYTPhS6RPyPc94QgNVOweeX056nvYlgNGA3gLDxVu7xiOCEyOvW0392CtSGR0saWJH5RFp6H8P3iLA2JJTlIp/ChS2vWxxKX7ibTb5XUXUBwuKHeFxw20U0z5TExZPkCXt1jJuYxZv6n9MQaVODV9GcFpRFrdWh8pLTpnf/JWIRMmvzZiK/x8bjh9nGo0IYHsXpbTzdjs8Xrf8Q+rS+5KGnGRQmzkZ9OaX/IbvVqhMu7zPrygxWAA59sL2/VwJ/1P34BrQ0hNzGZW8UH0cQMhUKDNQc0hX4H3/cx97moYTfTYc7YAWnGblodCtqpjxkXarP2EBDWsPs7sSsD+n4GduxdkHNDfk24bj6DyCSiyzZOumOvyXwVd56Wd5thbOZ8LfXVVzRkEdrJcfWb5JR8JVaPSVlsjglO/Tio2UZXuE2XE/y3uMigxe3l8aig14jAkm1leUgJAB/7YvZ2wM7QLqQuPKcAXl1a/QJN2uLvy4jNIrK9n6i4LOJUnQRmAegqTZTEGM5pNIg/J3DiMwIA/BLu2dIXnCwVwZdxnIc46bNvTeXuoSe2Cccv3wKQt8cnzLYCt0YTdSIjDMPDWQKYyH3fL+jbphjD6MQINDv8Umn+EgnjQZ9Vp6LglX0DtlUSuiI7lOZW3JUO4Jbn5y6Ro3gfDLR3SzSq0MRdyQHKtmX6RoXE8NNUkpj8ZPFraIwWbbrEXgzEgjloChp763LGKK8Gx72NLGn1mVV21CkxanL9sx9DnLlD1dNTFw7RR+sxEWjxLGsJ3j3TVtrL7L/wKmKunxDLRaDBqADL+EiQRy1Va6xKNQiX2MI4oeWvSc6sbBo9OkyVA41P/vqR1zFDLdxemJK8maLT73QL38lulsYevSBELO1s7eJAroH+FgEtCVNc6RcjyXzgcC4GblTv4Uhcxzj8k9xLC1u6obziEG0psivzlCrf/FXHUB4UixOQeL5lqfs/lZZQpES/QACoLwiUBLs2dbwD1T8iEkc+yig5KNKeZ7nsM5OCkYpcwCtM1qN28SFb4U0eqfldDGR4bayalRZoPuhadKSRsg1+JNH2Tl6NkgjMAiW/ZDYkpU4tITSC58GVusllESqD4Rp/HepIvv5B22UGgDen2UW5kDNnPRqQWkCajEnN3rv8/ggRbhdk8JH3SK+uMabHgwCPmgBq74z454NyveMWw6l0cYfqAZo67O1cIf92t2iNPQBqiesJ7nqicOmFaJ3NNbxK0a4LcMllPEkbx79AW/2GKt/iJK3e9Km+GMmCllGunjTsaX7EAszuKernYwfrcqcgOZ9LeEyNNkbjTCNpu2pO2rT7Lf9T1dDJCvwI7hkp2DTG/mTIS0hm321QeirFWmfipXcHBli2kTKljh22/WFeEccRtcQHQoHZko8ioz+1P09BVJgkIhq3UKMpdq1XsLV6rxK59bRPtdd2K0VxREIgmhM4zFIQo/lgVq76aboQTo34AAT9mhldpyqM8fz6YA3o7vkJKDbgJLUtKM0E9yZSdkB7cBGccdj1qXMjq0gw2BDn8m+l0NvcfyyfG/Gw8WW9gTSttRbm819iVjUG/qvrWBoaXeYRitENqbKtOcDU2PsJXlTVdb1fIum5h546QBl0g9if1IrkihgIR4ys4rqvgpkR7mw/GHZGTIrZJ330/EkPfYzaGMASBwL19yckWm44iKMzDSzcb1fXbMN6b+S6GH1vc5GhZrGL++RrFzD2WoyqJ0o/E20SoGPL+0e3ZyRHhkcoafpZ3qrHBS9MM4AtToYM5bYgMyZ0JmSslJdHPbjayPmNC4FnDXfXtDTp9N6R3Ou+PnhlTNUfmfRdatRh5ty+OKWkSj2NIN10L0pg3GFGj5vD4Nj0MIQjFm8vm57tahgKOJxMg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28711,
+      "candidatesTokenCount": 147,
+      "totalTokenCount": 29960,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28711
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1102,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "-RHRaqXUFZ2Ez7IPwo60iAU"
+  },
+  "duracao_segundos": 4.626030199997331,
+  "usage_metadata": {
+    "promptTokenCount": 28711,
+    "candidatesTokenCount": 147,
+    "totalTokenCount": 29960,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28711
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1102,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0066",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4382"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o positivismo criminológico, suas características e método empírico, inserindo-se adequadamente no estudo das escolas criminológicas.",
+    "evidencia": "O positivismo criminológico",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0d1ba5c20dd9d5dfda027d593779cb8f7800cb312be073f35f91be1068137222"
+}

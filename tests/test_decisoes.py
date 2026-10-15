@@ -8,7 +8,11 @@ import unittest
 from unittest.mock import patch
 
 from classificacao_topicos.decisoes import preparar_decisoes
-from classificacao_topicos.execucao import executar_lote
+from classificacao_topicos.analise_piloto import _tentativas
+from classificacao_topicos.execucao import executar_lote, _canonico, _validar_entradas, _validar_evidencia
+from classificacao_topicos.piloto import esquema_resposta
+from classificacao_topicos.politica import aplicar_politica
+from classificacao_topicos.revalidacao import revalidar_recibo
 
 
 def sha(conteudo):
@@ -116,6 +120,32 @@ class DecisoesTests(unittest.TestCase):
             return preparar_decisoes(self.lote, self.preparacao, self.execucao, self.politica,
                                       saida or self.saida, confirmacoes_fora=confirmacoes)
 
+    def gravar_revalidacao_de_erro_antigo(self):
+        self.execucao = self.raiz / "artefatos" / "execucao-revalidavel"
+        self.respostas["Q0001"]["evidencia"] = "FURTO"
+
+        def validador_antigo(resposta, questao):
+            if resposta["id"] == "Q0001":
+                raise ValueError("Validador antigo rejeitou diferença de caixa.")
+            return _validar_evidencia(resposta, questao)
+
+        with patch("classificacao_topicos.execucao._validar_evidencia", side_effect=validador_antigo):
+            self.gravar_recibos()
+        # A última tentativa continua inválida. O derivado deve recuperar a
+        # primeira apenas por validação técnica, mantendo ambas no histórico.
+        self.respostas["Q0001"]["evidencia"] = "Trecho inventado."
+        self.gravar_recibos()
+        arquivo = self.execucao / "Q0001.json"
+        original = arquivo.read_bytes()
+        registro = json.loads(original)
+        entradas, temas, questoes, hash_preparacao, _ = _validar_entradas(
+            self.lote, self.preparacao, procedimento_esperado="lote-v1")
+        entrada = next(e for e in entradas if e["id"] == "Q0001")
+        derivado = revalidar_recibo(arquivo, registro, entrada, self.config["modelo"],
+                                    sha(_canonico(esquema_resposta())), hash_preparacao,
+                                    temas, questoes["Q0001"])
+        return arquivo, original, self.execucao / "Q0001.revalidacao.json", derivado
+
     def test_pendente_nao_gera_csv_e_preserva_sugestao_e_politica_na_trilha(self):
         resumo = self.preparar()
         self.assertFalse(resumo["completo"])
@@ -194,6 +224,65 @@ class DecisoesTests(unittest.TestCase):
         self.assertEqual(len(list(self.execucao.glob("Q*.json"))), 3)
         with self.assertRaisesRegex(ValueError, "sucesso técnico"):
             self.preparar()
+        self.assertFalse(self.saida.exists())
+
+    def test_revalidacao_recupera_tentativa_antiga_com_trilha_sem_alterar_consumo(self):
+        arquivo, original, sidecar, derivado = self.gravar_revalidacao_de_erro_antigo()
+        resumo = self.preparar(confirmacoes=self.gravar_confirmacoes())
+        self.assertTrue(resumo["completo"])
+        self.assertEqual(resumo["decisoes"], {"publicar": 1, "revisar": 1, "fora": 1})
+        self.assertEqual(arquivo.read_bytes(), original)
+        tentativas = _tentativas(json.loads(arquivo.read_bytes()))
+        self.assertEqual(len(tentativas), 2)
+        self.assertEqual(sum(t["usage_metadata"]["totalTokenCount"] for t in tentativas), 300)
+        self.assertEqual(resumo["fontes_sha256"]["recibos"][arquivo.name], sha(original))
+        self.assertEqual(resumo["fontes_sha256"]["revalidacoes"], {sidecar.name: sha(sidecar.read_bytes())})
+        trilha = [json.loads(linha) for linha in (self.saida / "trilha_decisoes.jsonl").read_text(encoding="utf-8").splitlines()]
+        self.assertEqual(trilha[0]["revalidacao"], derivado)
+        self.assertEqual(trilha[0]["sha256_revalidacao"], sha(sidecar.read_bytes()))
+        self.assertEqual(trilha[0]["status_recibo"], "erro")
+        self.assertEqual(trilha[0]["status_efetivo"], "sucesso")
+        self.assertEqual(trilha[0]["sugestao"]["evidencia"], "FURTO")
+        self.assertEqual(trilha[0]["revalidacao"]["numero_tentativa_selecionada"], 1)
+        self.assertIsNone(trilha[1]["revalidacao"])
+        self.assertIsNone(trilha[1]["sha256_revalidacao"])
+
+    def test_revalidacao_adulterada_mesmo_com_checksum_refeito_e_rejeitada(self):
+        arquivo, original, sidecar, derivado = self.gravar_revalidacao_de_erro_antigo()
+        derivado["sugestao"]["tema_central_id"] = "T002"
+        derivado.pop("sha256_registro")
+        derivado["sha256_registro"] = sha(_canonico(derivado))
+        escrever_json(sidecar, derivado)
+        with self.assertRaisesRegex(ValueError, "primeira tentativa"):
+            self.preparar()
+        self.assertEqual(arquivo.read_bytes(), original)
+        self.assertFalse(self.saida.exists())
+
+    def test_revalidacao_nao_substitui_recibo_ausente_nem_aceita_id_alheio(self):
+        arquivo, original, sidecar, _ = self.gravar_revalidacao_de_erro_antigo()
+        alheio = self.execucao / "Q9999.revalidacao.json"
+        alheio.write_bytes(sidecar.read_bytes())
+        with self.assertRaisesRegex(ValueError, "cada questão"):
+            self.preparar()
+        alheio.unlink()
+        arquivo.unlink()
+        with self.assertRaisesRegex(ValueError, "cada questão"):
+            self.preparar()
+        arquivo.write_bytes(original)
+        self.assertFalse(self.saida.exists())
+
+    def test_revalidacao_modificada_durante_calculo_impede_saida(self):
+        _, _, sidecar, _ = self.gravar_revalidacao_de_erro_antigo()
+
+        def aplicar_e_alterar(*args, **kwargs):
+            resultado = aplicar_politica(*args, **kwargs)
+            if args[0]["id"] == "Q0001":
+                sidecar.write_bytes(sidecar.read_bytes() + b" ")
+            return resultado
+
+        with patch("classificacao_topicos.decisoes.aplicar_politica", side_effect=aplicar_e_alterar):
+            with self.assertRaisesRegex(ValueError, "fonte mudou"):
+                self.preparar()
         self.assertFalse(self.saida.exists())
 
     def test_politica_incompativel_hash_ambiguidades_e_grupos_sao_rejeitados(self):

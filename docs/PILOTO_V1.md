@@ -80,6 +80,8 @@ O prompt v2 tornou explícita a revisão de contexto ausente, OCR degradado, mis
 
 Durante a execução, uma evidência de Q0179 foi rejeitada por diferença de maiúscula/minúscula e a nova tentativa foi salva com o histórico. No início do lote completo, Q0005 também mostrou variação de caixa e espaços. A validação foi ajustada para tolerar somente essas diferenças de apresentação. Palavras, acentos, pontuação e OCR não são corrigidos nem comparados aproximadamente; paráfrases continuam inválidas. Os recibos originais e o consumo das tentativas foram preservados.
 
+Em 15/10, a investigação de Q0005 confirmou que sua primeira tentativa passa integralmente no validador corrigido. As três posteriores não passam; uma delas também repete um ID entre papéis. A primeira resposta foi recuperada por revalidação offline, registrada em arquivo derivado ligado por hashes ao recibo original. As quatro chamadas e seus 122.031 tokens permanecem na contabilidade; não houve quinta chamada para essa recuperação. A seleção foi cronológica e técnica, sem comparação de qualidade temática entre as tentativas. Isso resolve a pendência de processamento, não constitui confirmação jurídica do tema.
+
 As análises reproduzíveis estão em `artefatos/analises/piloto-v1-35-flash-lite/` e `artefatos/analises/piloto-v2-35-flash-lite/`. Exemplo:
 
 ```powershell

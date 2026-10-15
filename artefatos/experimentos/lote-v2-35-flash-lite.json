@@ -33,12 +33,22 @@
   },
   "continuar_erros_validacao": true,
   "evidencia": "Trecho presente em um campo, tolerando apenas caixa e espacos; sem correspondencia aproximada.",
-  "checkpoint": "artefatos/checkpoints/bloco_2026-10-15_01.json",
+  "checkpoint": "artefatos/checkpoints/bloco_2026-10-15_02.json",
   "resumo": {
     "total_questoes": 359,
-    "sucessos": 72,
-    "erros": 1,
-    "sem_recibo": 286,
-    "pendencias_totais": 287
+    "sucessos": 90,
+    "sucessos_recibos_originais": 89,
+    "sucessos_por_revalidacao": 1,
+    "erros": 0,
+    "sem_recibo": 269,
+    "pendencias_totais": 269
+  },
+  "revalidacoes": {
+    "Q0005": {
+      "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0005.revalidacao.json",
+      "tentativa_selecionada": 1,
+      "chamadas_adicionais": 0,
+      "recibo_original_preservado": true
+    }
   }
 }

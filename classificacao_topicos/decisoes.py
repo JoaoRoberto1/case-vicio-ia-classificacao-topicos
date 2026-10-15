@@ -21,6 +21,7 @@ from .execucao import (
 )
 from .piloto import esquema_resposta
 from .politica import aplicar_politica
+from .revalidacao import carregar_revalidacao, status_efetivo, sugestao_efetiva
 
 
 _COLUNAS = ("id", "decisao", "tema_central_id", "extras_ids", "confianca", "motivo")
@@ -147,26 +148,40 @@ def preparar_decisoes(lote: Path, preparacao: Path, execucao: Path, politica: Pa
     for fonte in (caminho_politica, ambiguidades, caminho_confirmacoes):
         if fonte is not None and (saida == fonte.resolve() or saida in fonte.resolve().parents):
             raise ValueError("A saída de decisões não pode conter uma fonte de política ou confirmação.")
-    permitidos = {e["id"] + ".json" for e in entradas}
-    if {p.name for p in execucao.iterdir()} != permitidos:
+    recibos_esperados = {e["id"] + ".json" for e in entradas}
+    sidecars_permitidos = {e["id"] + ".revalidacao.json" for e in entradas}
+    arquivos_iniciais = {p.name for p in execucao.iterdir()}
+    if (not recibos_esperados.issubset(arquivos_iniciais)
+            or not arquivos_iniciais.issubset(recibos_esperados | sidecars_permitidos)):
         raise ValueError("É necessário um recibo para cada questão, sem arquivos extras ou IDs ausentes.")
     schema_hash = _hash_bytes(_canonico(esquema_resposta()))
     entradas_por_id = {e["id"]: e for e in entradas}
-    registros, politicas, hashes_recibos = {}, {}, {}
+    registros, revalidacoes, politicas, hashes_recibos, hashes_revalidacoes = {}, {}, {}, {}, {}
     # A preparação preserva a ordem original, independentemente da ordem do lote.
     for identificador, questao in questoes.items():
         arquivo = execucao / (identificador + ".json")
         hash_recibo = _hash_bytes(_ler(arquivo))
         registro = _validar_cache(arquivo, entradas_por_id[identificador], config["modelo"],
                                   schema_hash, hash_preparacao, temas, questao)
+        # O histórico é sempre o original: o sidecar não é uma chamada adicional
+        # e não substitui recibos ou suas contagens de consumo.
         _tentativas(registro)
-        if registro["status"] != "sucesso":
+        caminho_revalidacao = execucao / (identificador + ".revalidacao.json")
+        if caminho_revalidacao.name in arquivos_iniciais:
+            hash_revalidacao = _hash_bytes(_ler(caminho_revalidacao))
+            hashes_fontes[caminho_revalidacao] = hash_revalidacao
+            hashes_revalidacoes[caminho_revalidacao.name] = hash_revalidacao
+        revalidacao = carregar_revalidacao(
+            arquivo, registro, entradas_por_id[identificador], config["modelo"],
+            schema_hash, hash_preparacao, temas, questao)
+        if status_efetivo(registro, revalidacao) != "sucesso":
             raise ValueError("Todos os recibos devem ter sucesso técnico antes de preparar decisões.")
         registros[identificador] = registro
+        revalidacoes[identificador] = revalidacao
         hashes_recibos[arquivo.name] = hash_recibo
         hashes_fontes[arquivo] = hash_recibo
         politicas[identificador] = aplicar_politica(
-            registro["sugestao"], temas, set(config["ids_ambiguos"]),
+            sugestao_efetiva(registro, revalidacao), temas, set(config["ids_ambiguos"]),
             confianca_minima=config["confianca_minima"], max_extras_publicar=config["max_extras_publicar"])
     candidatos = {i for i, r in politicas.items() if r["estado"] == "pendente_confirmacao_fora"}
     confirmacoes, hashes_confirmacoes = _carregar_confirmacoes(caminho_confirmacoes, candidatos)
@@ -188,8 +203,12 @@ def preparar_decisoes(lote: Path, preparacao: Path, execucao: Path, politica: Pa
             linhas_csv.append({"id": identificador, "decisao": final["decisao"],
                                "tema_central_id": final["tema_central_id"], "extras_ids": ";".join(final["extras_ids"]),
                                "confianca": final["confianca"], "motivo": final["motivo"]})
+        registro, revalidacao = registros[identificador], revalidacoes[identificador]
         trilha.append({"id": identificador, "sha256_recibo": hashes_recibos[identificador + ".json"],
-                       "sugestao": registros[identificador]["sugestao"], "politica": proposta,
+                       "sha256_revalidacao": hashes_revalidacoes.get(identificador + ".revalidacao.json"),
+                       "revalidacao": revalidacao, "status_recibo": registro["status"],
+                       "status_efetivo": status_efetivo(registro, revalidacao),
+                       "sugestao": sugestao_efetiva(registro, revalidacao), "politica": proposta,
                        "decisao": final, "confirmacao_fora": confirmacao})
     produtos = {"trilha_decisoes.jsonl": _jsonl(trilha), "pendentes_fora.jsonl": _jsonl(pendentes)}
     if not pendentes:
@@ -212,7 +231,7 @@ def preparar_decisoes(lote: Path, preparacao: Path, execucao: Path, politica: Pa
                           "manifesto.json": hash_preparacao, "politica.json": hashes_fontes[caminho_politica],
                           "ambiguidades.json": hashes_fontes[ambiguidades],
                           "confirmacoes_fora.jsonl": hashes_confirmacoes.get(caminho_confirmacoes),
-                          "recibos": hashes_recibos},
+                          "recibos": hashes_recibos, "revalidacoes": hashes_revalidacoes},
         "produtos_sha256": {nome: _hash_bytes(conteudo) for nome, conteudo in produtos.items()},
         "limites": ["As decisões aplicam a política congelada; não são resultado de auditoria de precisão.",
                     "Fora depende de revisão separada identificada na trilha; referência por IA não é revisão especialista.",
@@ -223,7 +242,7 @@ def preparar_decisoes(lote: Path, preparacao: Path, execucao: Path, politica: Pa
     for caminho, esperado in hashes_fontes.items():
         if _hash_bytes(_ler(caminho)) != esperado:
             raise ValueError("Uma fonte mudou durante a preparação das decisões; execute novamente.")
-    if (execucao / ".execucao.lock").exists() or {p.name for p in execucao.iterdir()} != permitidos:
+    if (execucao / ".execucao.lock").exists() or {p.name for p in execucao.iterdir()} != arquivos_iniciais:
         raise ValueError("A pasta de recibos mudou durante a preparação das decisões.")
     if saida.exists():
         for caminho in saida.iterdir():

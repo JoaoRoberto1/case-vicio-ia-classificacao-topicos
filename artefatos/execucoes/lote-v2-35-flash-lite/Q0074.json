@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0074",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:50:43.729617+00:00",
+  "sha256_prompt": "beedc41c59e1eb0eb3fe6bb4e5d3fafb0cec80d512dbd50e4b55f900ad2fba51",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ce20aeb1786e0dff0bd3913280002d9420049aa9857cfd3b9f01f70f89868b07",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0074\",\n  \"tema_central_id\": \"5181\",\n  \"extras_ids\": [\n    \"6734\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a retroatividade da lei penal mais benigna após o trânsito em julgado e a definição do órgão jurisdicional competente para aplicá-la (Súmula 611 do STF), mesclando institutos de Direito Penal (lei penal no tempo) e de execução penal.\",\n  \"evidencia\": \"compete ao juízo da 5.ª vara criminal da capital alagoana a aplicação da lei penal mais benigna.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28696,
+      "candidatesTokenCount": 203,
+      "totalTokenCount": 30660,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28696
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1761,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dBLRao2XId_rz7IPmbWg8AQ"
+  },
+  "duracao_segundos": 7.281155699998635,
+  "usage_metadata": {
+    "promptTokenCount": 28696,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 30660,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28696
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1761,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0074",
+    "tema_central_id": "5181",
+    "extras_ids": [
+      "6734"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a retroatividade da lei penal mais benigna após o trânsito em julgado e a definição do órgão jurisdicional competente para aplicá-la (Súmula 611 do STF), mesclando institutos de Direito Penal (lei penal no tempo) e de execução penal.",
+    "evidencia": "compete ao juízo da 5.ª vara criminal da capital alagoana a aplicação da lei penal mais benigna.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2ef6e69819f2662bcd3f637feda1bfa7f798ecf2d509f353ec273a0cf7520908"
+}

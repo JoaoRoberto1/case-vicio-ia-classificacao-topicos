@@ -1,6 +1,6 @@
 # Ponto de retomada do case
 
-Bloco do módulo 4 concluído em 15/10/2026, após a pausa de 14/10. Foram feitas vinte novas chamadas, com dezenove novos sucessos. O trabalho está no ponto de revisão e commit do usuário; não há execução de API em andamento. O próximo bloco, quando autorizado, continuará limitado a vinte novas chamadas. Ao concluir cada bloco ou módulo, apresentar o resultado e parar para revisão e commit antes de seguir.
+Segundo bloco do módulo 4 concluído em 15/10/2026. Foram feitas vinte novas chamadas, com dezessete novos sucessos; Q0005 também foi recuperada offline. O trabalho está no ponto de revisão e commit do usuário; não há execução de API em andamento. O próximo bloco, quando autorizado, continuará limitado a vinte novas chamadas no total, incluindo eventuais retomadas após falhas. Ao concluir cada bloco ou módulo, apresentar o resultado e parar para revisão e commit antes de seguir.
 
 ## Estado salvo
 
@@ -9,22 +9,22 @@ Bloco do módulo 4 concluído em 15/10/2026, após a pausa de 14/10. Foram feita
 | Módulo 1: dados e árvore | Concluído: 359 questões preparadas, 377 temas validados, 375 ativos |
 | Módulo 2: protocolo | Definido: política v1, referências por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | Módulo 3: integração e pilotos | Concluído: dois pilotos de vinte casos, prompt v2 selecionado |
-| Módulo 4: lote completo | 72 sucessos, uma resposta inválida e 286 IDs sem recibo; 287 pendências no total |
+| Módulo 4: lote completo | 90 respostas tecnicamente válidas, nenhuma falha atual pendente e 269 IDs sem recibo |
 | Módulo 5: decisão e avaliação | Funções e testes offline prontos; integração CLI e aplicação aos resultados reais pendentes |
 | Módulo 6: relatório e memo | Pendente |
 | Módulo 7: entrega final e reprodução | Pendente; esta pausa valida a base, não conclui a entrega |
 
-O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`. Os vinte sucessos do piloto v2 estão incluídos nos 72, pois foram reutilizados sem novas chamadas. O novo bloco concluiu Q0038 a Q0056. Q0005 permanece com erro de evidência e quatro tentativas preservadas: a resposta não reproduziu um trecho aceito do texto. O erro não foi convertido em decisão temática.
+O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`. São 89 recibos com sucesso e uma recuperação offline, totalizando 90 sugestões válidas. Os vinte sucessos do piloto v2 estão incluídos, pois foram reutilizados sem novas chamadas. O novo bloco concluiu Q0057, Q0058 e Q0060 a Q0074; Q0059 já vinha do piloto. A primeira resposta de Q0005 passa na validação atual de evidência e foi recuperada em `Q0005.revalidacao.json`. O recibo original conserva o status histórico de erro, as quatro tentativas e todo o consumo. A recuperação técnica não representa uma decisão de publicação.
 
-O [checkpoint atual](../artefatos/checkpoints/bloco_2026-10-15_01.json) guarda IDs por estado, hashes dos recibos e consumo registrado. São 77 tentativas nessa pasta, incluindo histórico, com 2.319.725 tokens totais informados; o bloco de 15/10 acrescentou 603.109 tokens. Não somar novamente o piloto v2 ao contabilizar todo o projeto. O [checkpoint da pausa anterior](../artefatos/checkpoints/pausa_2026-10-14.json) permanece preservado. A interrupção de 14/10 pode ter ocorrido após o envio de uma chamada ainda sem recibo; eventual consumo não registrado não pode ser tratado como zero.
+O [checkpoint atual](../artefatos/checkpoints/bloco_2026-10-15_02.json) guarda IDs por estado, hashes dos recibos e da revalidação, além do consumo registrado. São 97 tentativas nessa pasta, incluindo histórico, com 2.831.461 tokens totais informados. O segundo bloco acrescentou 511.736 tokens conhecidos em dezessete respostas; as três falhas HTTP 503 não informaram consumo e não são tratadas como consumo zero. Não somar novamente o piloto v2 ao contabilizar todo o projeto. O [primeiro bloco de 15/10](../artefatos/checkpoints/bloco_2026-10-15_01.json) e o [checkpoint da pausa de 14/10](../artefatos/checkpoints/pausa_2026-10-14.json) permanecem preservados. A interrupção de 14/10 pode ter ocorrido após o envio de uma chamada ainda sem recibo; eventual consumo não registrado também permanece desconhecido.
 
-A execução de 15/10 terminou pelo limite de vinte chamadas, sem interrupção da API e sem lock residual. O retorno da CLI foi 1 porque Q0005 continua inválida; os dezenove novos sucessos estão salvos. Nenhum processo de API foi deixado rodando para concluir o restante do lote.
+A execução terminou pelo limite agregado de vinte chamadas, sem lock residual. Houve três interrupções HTTP 503 por indisponibilidade do provedor: duas em Q0058 e uma em Q0063. Após espera, as retomadas respeitaram o saldo de chamadas do bloco e ambas as questões tiveram sucesso. A última invocação terminou com código zero. Nenhum processo de API foi deixado rodando para concluir o restante do lote.
 
-## Verificações do bloco de 15 de outubro
+## Verificações do segundo bloco de 15 de outubro
 
-- `python -B -m unittest discover -s tests -q`: 193 testes, 192 aprovados e um pulado por falta de privilégio do Windows para criar link simbólico real. A proteção também possui teste simulado aprovado.
-- Todos os recibos presentes tiveram identidade do experimento, checksum e histórico conferidos. As sugestões válidas passaram pelo esquema, IDs ativos e correspondência de evidência.
-- Os 53 recibos de sucesso anteriores permaneceram byte a byte idênticos. Não houve alteração de código, modelo, prompt ou política neste bloco.
+- `python -B -m unittest discover -s tests -q`: 213 testes, 212 aprovados e um pulado por falta de privilégio do Windows para criar link simbólico real. A proteção também possui teste simulado aprovado.
+- Todos os recibos presentes tiveram identidade do experimento, checksum e histórico conferidos. As sugestões válidas passaram pelo esquema, IDs ativos e correspondência de evidência. A revalidação confere novamente a origem e a seleção da primeira tentativa tecnicamente válida.
+- Os 73 recibos anteriores permaneceram byte a byte idênticos, incluindo Q0005. Foram acrescentados o comando de revalidação offline, sua integração ao executor e às decisões e testes de integridade. Modelo, prompt, política e regras de evidência permaneceram iguais.
 - Hashes das fontes originais conferidos; os materiais fornecidos permanecem intactos.
 - Em 14/10, preparação e prompts dos pilotos v1, v2 e lote v2 foram reconstruídos em pasta temporária, com hashes idênticos aos produtos existentes. Na retomada, os hashes das fontes e manifestos foram reconferidos.
 - `.env` e `contexto_local/` continuam ignorados pelo Git. A busca por padrão de chave Google nos artefatos do bloco não encontrou credencial.
@@ -33,16 +33,16 @@ A execução de 15/10 terminou pelo limite de vinte chamadas, sem interrupção 
 
 ## Commit deste checkpoint
 
-A base anterior já estava commitada e o repositório estava limpo no início desta retomada, em `7a81655`. Este novo commit pode registrar apenas recibos, checkpoint e documentação de progresso. O lote permanece incompleto e a retomada reutiliza os sucessos; a avaliação real ainda não foi executada.
+A base anterior já estava commitada e o repositório estava limpo no início desta retomada, em `949c906`. Este novo commit reúne a recuperação offline e seus testes, os novos recibos, o checkpoint e a documentação de progresso. O lote permanece incompleto e a retomada reutiliza os sucessos, inclusive Q0005 revalidada; a avaliação real ainda não foi executada.
 
 Comandos sugeridos para o usuário, a partir da raiz:
 
 ```powershell
 git status --short
-git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md artefatos/checkpoints/bloco_2026-10-15_01.json artefatos/experimentos/lote-v2-35-flash-lite.json artefatos/execucoes/lote-v2-35-flash-lite
+git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md docs/PILOTO_V1.md classificacao_topicos/__main__.py classificacao_topicos/execucao.py classificacao_topicos/revalidacao.py classificacao_topicos/decisoes.py tests/test_cli.py tests/test_execucao.py tests/test_revalidacao.py tests/test_decisoes.py artefatos/checkpoints/bloco_2026-10-15_02.json artefatos/experimentos/lote-v2-35-flash-lite.json artefatos/execucoes/lote-v2-35-flash-lite
 git diff --cached --stat
 git diff --cached --name-only
-git commit -m "data: registra bloco do lote com 72 respostas validas"
+git commit -m "fix: recupera resposta salva e avanca lote para 90 validas"
 ```
 
 Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` permanecem no computador, mas são ignorados: repetem o catálogo e são regeneráveis. Templates, manifestos, fontes, recibos e análises são versionáveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.
@@ -77,6 +77,20 @@ python -B -m classificacao_topicos preparar-lote --piloto-desenvolvimento artefa
 Esses quatro comandos são offline. A chave deve ser configurada localmente conforme `CONFIGURACAO_API.md`. Não executar `verificar-api` repetidamente se a integração já estiver funcionando: cada teste sintético é uma chamada real.
 
 ## Próximos módulos após o lote
+
+### Recuperação técnica de Q0005
+
+A primeira resposta salva passa integralmente na validação atual, que já tolerava caixa e espaços. A revalidação foi implementada como arquivo adjacente `Q0005.revalidacao.json`; o recibo original, suas quatro tentativas e seus 122.031 tokens permanecem intactos. Não houve escolha manual de tema, relaxamento adicional de evidência ou chamada de API para a recuperação.
+
+```powershell
+python -B -m classificacao_topicos revalidar-recibo --lote artefatos/lote-v2 --execucao artefatos/execucoes/lote-v2-35-flash-lite --id Q0005
+```
+
+O comando é offline e idempotente quando o derivado existente é válido. O executor e o módulo de decisões validam o derivado e usam a sugestão recuperada; o histórico original continua sendo a fonte exclusiva do consumo. Um derivado adulterado ou incompatível interrompe o processamento. Não editar o status do recibo original para fazê-lo parecer uma nova resposta bem-sucedida.
+
+Ao conferir o lote por scripts, selecionar recibos por `Q[0-9]{4}\.json`, pois `Q*.json` inclui também os derivados. Manter separados o status original do recibo e o status efetivo após revalidação. A função `carregar_revalidacao` verifica a origem e a seleção antes do uso de `status_efetivo` ou `sugestao_efetiva`.
+
+### Entregas restantes
 
 1. Resolver pendências técnicas até obter 359 sugestões válidas. Não inventar tema para contornar erro, nem aceitar paráfrase como evidência literal.
 2. Integrar à CLI as funções já prontas: `decisoes.preparar_decisoes`, `auditoria.preparar_auditoria` e `avaliacao.avaliar_auditoria`. Suas interfaces e contratos estão nos módulos e testes. Hoje não existem comandos CLI correspondentes.

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0064",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:48:09.361492+00:00",
+  "sha256_prompt": "2d0e60701d9d58000fc917e84e4d9fda6f2aa128c2cff2303e66f1117023f45c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9035e07f3b513b503ef8f4ec2a5cdb4375072ca2c62360f275a51b8458881cf7",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0064\",\n  \"tema_central_id\": \"5165\",\n  \"extras_ids\": [\n    \"5185\",\n    \"5191\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda aspectos da apropriação indébita previdenciária, exigindo o conhecimento sobre a tipificação do delito, causas de extinção da punibilidade por pagamento, regras de prescrição e princípio da insignificância. A multiplicidade de institutos penais independentes nas alternativas justifica o uso de requer_revisao.\",\n  \"evidencia\": \"desconto da contribuição previdenciária sem, contudo, fazer o devido repasse aos cofres públicos\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28838,
+      "candidatesTokenCount": 212,
+      "totalTokenCount": 30570,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28838
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1520,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "2hHRas62DpKZqtsPvNzL-AY"
+  },
+  "duracao_segundos": 6.6324491999985185,
+  "usage_metadata": {
+    "promptTokenCount": 28838,
+    "candidatesTokenCount": 212,
+    "totalTokenCount": 30570,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28838
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1520,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0064",
+    "tema_central_id": "5165",
+    "extras_ids": [
+      "5185",
+      "5191"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda aspectos da apropriação indébita previdenciária, exigindo o conhecimento sobre a tipificação do delito, causas de extinção da punibilidade por pagamento, regras de prescrição e princípio da insignificância. A multiplicidade de institutos penais independentes nas alternativas justifica o uso de requer_revisao.",
+    "evidencia": "desconto da contribuição previdenciária sem, contudo, fazer o devido repasse aos cofres públicos",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "72b5f7785d89589a5ac757ef87b95b87a9bc12cbbff5a1a489cc5925a4efd248"
+}

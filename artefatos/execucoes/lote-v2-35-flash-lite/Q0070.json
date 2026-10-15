@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0070",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:49:42.953703+00:00",
+  "sha256_prompt": "7b238794b1e3c8a146764a1f25bc5d6cbaf48a46760ce025acfeb797dea49972",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6c9c8c4c0588338b3397bcbed8e10af960b7f02ca55a75044db9461db27435cc",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0070\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o cômputo da prisão preventiva para fins de preenchimento de requisito objetivo em decreto de indulto e comutação de pena, matéria própria da Lei de Execução Penal. Como a taxonomia apresenta duplicidade da matéria entre os ramos de Legislação Especial e Processo Penal, a classificação requer revisão editorial para dirimir a escolha do ramo.\",\n  \"evidencia\": \"formulou pedido de comutação de pena com base em Decreto Presidencial vigente, que exigia o cumprimento mínimo de um terço da pena para a concessão do benefício.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "EpQeCpEeAWkUfRMmevIwlsFCeaXJtK9VfaWj4367BIH/oLCdkfuuR51mIHrOx89cxLMmXqBQAokOa1aIJ11FhPz+DRY1LbPvsUbeVFwZbrmvmlFjIIWY9upwLynM7JyJLxp/kZxRsiz+LoLV75jfnYr3Hjl+/dggBqZzm3SrnaeVdlT7E2qfKzmorF89bzi3Sky9NqZ8hha+rwax42iHud/wmQiPvKssNXeDSjZ500mwCJMLBtNAWskT7gztMEV5Wb5ZPtGLHaXvsbbjIgSjACWehU7AvZ3llhvA2iw1ShRpdqW4/MI6A0Vmu3lfBQLstlnzf+0j01gkzTjT42x9gR8IlNhABZso/NfxmcaMSONwDZ4Fd08j1nqe2770Mk2qYcRH/NLI9R5nfbuHr5P6p3NyLMPO7wP8POcdTmsLy9ImKRkJYCjs/KyiwviLLj5E3yuNScPTcJVg8+uTYn9p1s8M2rAk4O00vKdbp/LTT8fXnhGsIlbF3EgBoyxlvLfJZs1bYb/BbLexmiIo57gEIac6zUxM2s685ZP1WsrhVeoEtgcEZGpWewHe4rozBavEaUfCgmwxrXcCgWVlChEoEx3ir6tcCxP+ZHZlQfhqM3f+H3YU6Y39xhFQIziYsQop3lkUDK4vPB48VWhQl0awXvaCvLeMDiuLnjXNQ55JZtYMhDL1nX9rjYeACk6LSBTup50jb5Z7qf1IjFWW6zzP2EFZJVx22njM2WsBUQmXRf+woGQMus5T+lDJ5KMcHQqOvyS/bWsRyHEq9G1L7rMIB9SCLWYz3zRbGqpJzm8XLkXaqwMZ2ZmyUNXbohaXamjY+5n/kVTyCQp8mt8u/mNl6Cj/eVt663c4IOB7Mb+sR8lFIqfR8dPYws4586kQ1fbM1wMCJiYn+QPmb4uYbg3ljgiRS9k1ribGKVwXHQlfxrQcmKwOcKCtyXriYU1EQWocJv7UP080xHJN5W3Lvv4ern3AA0umo26xOpaLGrzD2C4EajYP5z5aGypnPLuRqO5CNpN+mu8Ay8f3VoULsZFebZ/2Pz5/eR/NLAWkBte2DQcCjGuQiWIE6XE8AWcmY6lvR0eYw61vFELDk5QtNJrGXIvhJXQ87754UjozFjN3gZ2Qcw9cAtxM1ig3Ji5bCpMv3aqtcOwjaNiBoOPs1i5ygolwxw/Jqs9OOxBhNghuBalVvWRvLFdn6CIqQIf0KAwlQ1hBcBpnGu6f00GJ2xtQ4eC3nr6z3AwGrz7sO6pP+pwirZSI+yU4pX7XAAqA1DutVFwA0YxlXhlp8iAI9UT6V0npPkJrKZXSGz5OwukVDxwhRwp98VfmnA5XChZVt56CbdCId8yLFWiv+lt1ynSn+mgtfyu9BgV72yu3MsWnkOERlyl3Jl4oMvter17PjzzIV1As1/8Jya/R9LOHB1O4vStNLK1lTzo9SHKXqkocdBaL2CrlBuCzP/wHP71sV0nGCXMBxXdXiN/7vOROM6Q61tPXbLdp1V8cnRjNBvFzHnwu7Fhv9u3YawjPVxRKN4aswk8z/A1pDsSQn8lUH/0dBRxQg6xuKsqqOJS7S9LQxXv5GIHiYCcOiACO6mO9Yib34A3Z7pmeWVXXu9NXHy2cYz3Tl+OZ+TzxevwT01rw89YD9Virbiapaey+AFYKFXo72UQwnWdNltt0jm0gosuuJcO4j2A94idZV2OguCr/zARxJMh9PwIviFTnMOz9kjxsKDcne1ydaqEFx/p7XIGaxPa1tVTnc6CvMBBT+tWq06rR7QGC+IruxJdT0lTdQNJXRyZti6pmvg/WurK5apJJhGd8/sOo2NUES58wSyxPlsiYpTJgAYIG8LwcHmf78aW1Cp/lVzJMinBhPA3jmAeLv3WcwtAqlDSJocVEjZ8rIxUQe5gYQJoRQSA7kzT05IBhyLdUz7gWFU8M2oKzVlWVLNYNueyiBV+R3f7oyDxRDt3wH18Zalv6pb5fkXU//Je403eUvMsEDHBzi7RDUZWJ02GgU/Bga67cdlRBvPpxBSjVltw8vMEB4C5TV5Q6oOOCam+lbkqnK48ik390ixvwmLwRK5oNBnVQn+Bo+yWsobMi4XZZL3HiqEpo/bUP8/kazsMQklugY5Q6gwV4SFzUNfLDLerByXpI5jB7SyM/oUGc9PofSHT0OEJMcmbrhGCyR9cu9Fegrj4pKBIgxZx/trs8R8/9Jx8hAsWVDVwAMtan0n6DKuxCq34w5RtMKkd1USFB38g6Kj9HWfeVh4unY6uiLjVGb2fS2VN8u4d49uo2l3JMy/l8Y5T0P4oE5xTmrHirIzHlZAvVhHmdDl+9xoQIMMsfcbgIgDEnGe6OyT+l/qMaddEaMV8g4JLHQBchsxOgYdoTPPWgXg1YAWoyLV0igyqdy3QpOXwe5vUZIdc8uLueYLiJnnhcTFuUcfvAZOzb1Q+cKeaYov0DtBr9HLvqwjw1ylPCd1FEQdm96+8gy4wtglQgnTBHT2i5e80X8WQuZfyM4UKVjtE0phhkZ+LGfvwwUMA1qazyBUwGwH35qZn4U6uuLrZWB9dYq/sNh1L2Q2EXGeeQUUSoteSOJoOLw/0RzSDKXXJ/sw7JjpgiQPkPc95+sUbv5H1DK6iSWsc0lsSeszbw1olUMsSy4GSwLV7+Ytxo0r7+PgZ+JGxfVTSrRNzBxLCR1E+OkH0Hn8wGg8fY9sqWhv8V1nvZ6RHTLcTRzMzO+gE/pCNs9Qjy12R3eVzlV1C48AZMoxZ9qz1cPJ51x/hAFOfRkJrDmFYC3ltbulGNTpo+HcDY2vnQOmnPbubuTOrUPrCS+F4aGi9gQ9IQ8Kq/R22glsi1qtI4IwDAkS8VBySzfBxmFeq91C8KfZnvL7XprYqm/Z2W2zGtKmYh1FMvjWgW8x/XJ5ph64KJHLLAY4fEnPu1QKry2WXOfvw8jQexrjzrATUgGjW/JNqnz8lD84jCfjCVMVuvqbuAk2jKPH40eaozGV+GdlMGp2N45tDZkd1u6lF3SJap4Z6Cg423edtMR93VQdV6EN2z9W/AnZOr7kuFH6DG+XoHun5r+s4DOuxUYvHVOu6HrNCVz/wL5l1NyEU2cFX8Iz0S286bkEjxKCzZg/iDgLQm3+b9+CbGMhnx42mCDUePmDBQypEoVty3rohmBAY8F23+TRAs1F/GDD1K+vhHrWc/YUP7sAzTu2Zu1w0fzS2xk8S9xaHvAtz0DZEkKFZluqkEIRcbLXdoKHTJ9UqeG5+MDLQTvEKwvKcS9gqIozo4uKGy7KalHT/9XH/Onn+FJtz7ufbc163jJlibinFA4pUKGd40bZ3Q4/eCrqJk0T8rmyBwhbZxUdUL8EAtT0Fijtb2Ws15m3Sw0/+AFSeQ76zozAyErjedLNvUab+uH0KSEM+KLXXd3oWRKBjM8ybhVX2lI/JrirByyqwHzZ6O5Fl8cMV/SC+UXr96ea5i9gFnI7m5FKVfn57pmUZQBf339Hv3RNgHYtfDf/NhmV//vihcHoePvM3I+BR7Ne8kFs6tOTPADGRjp27t+cXnOIK1c/RV3oCagZfBjUmzK2wvbXpJoj2xK/2+GEc3dq6MyfCdNftppV0xK9bqkPjiVhMHH70QZM9dxqJYVuwcjwed/tJOyRhrfLx+dce0IFcv5QmVBsjBJSSv4gjBbCF9bqLPV56LVTejdIWmh4uxrXiifdI4eSTYGcyrQtKQfW8pdp/2HdLxwQ6eU84doWdgkdofJ/NwpCql038BiBMS+gW+Miv5K8jRWGDcTiLM60Lt0fYN04xqaLeRU90XHyZEU0gvnPrcUtO442aVnaU9FVVWmpLvCc1ahHg+mf6Lq54+dvuX/2ckh4DdpetDA7VI6l+b/e7JNQzjXxotXZbzwCRWfLxSR/l6YU1UgeynkJpBEi+Tr9j+Ks3we7DKTYhv64qLI8cu0m++5gGAE7JyW5dnK7FqA8LQvirSs+UIpFxtSGEuKNC9fmGEwOmPppnYn1kY6hb6ZC0OyeLS/vPZUw9HraZOwXH9ePeuPrY+U6/UXX6xGfl2vOhVXcmcyw9+xkG25rEJroLVg4YQOm7kTwDkmRkkLnKnU/+5UhoALoo8GyVV6Dyrv5BI951+YVVcupCtuHrzHZMjTjOj00f6pGacjxC4nrAkvcBgZRRhvXDsGKQyQAj1XUUGCN2vIZ2x3n4zIqZApaUw5gFi5z9qcQ8Ynr45f7nRMCyxI7bvexJNrJtfCC5+X+pLoM2PgFjvVlN7t/F2uMaQaOTo1VzBjhIXTfnIgR7KIT+v2JQFWGhvYI1wy/5Ts9rtikCWdkQvpv93L+Z4AFlvxzyDWOlM9NVcL6buhtQor7tVeZjyb9Q1k//rOELA08j4XCtIvZtHilpq5OLK3CrvoE/ccSzEKZs1MbCpMXVLx7f+s15d/p5GV+pTFDBGFVWB3/QChjQ/iOZvXA9DWTIbKQYlUtgibm9K5iOs6eUsP4afyY88+a7PwZHPEbpgOwTXFW2FyJ0zp3WJ7UaBOj7E4aKv4g7mOq3+5oXS0QAAEu/kG1GD5qssyiggSHs1ZPvp4Mk2MN7Sh+sqfUnZKqlymz6NKMG189Yje1ZOLmYbL2F6bc+rLBhZmdQ2r+1Z0ZNEsZLIdT253aoIGIAxZqSZBQUMGj828vxepE3j9yHTM5KUSNMaErM3MV1DlucD4tc8BRw3R+HRPjELQfgdIpmRHW4sfHnq0quI4tbY8nvFXMZjKo198sNmpkEYJDQ1o8LKfDGsIuSYfg9xTTOqCM407zSMGzMVU6mrWYior8GBolOl5H247fxFZM1ZJT0VcNMlD47DPwBiK0+i8pzIZPNIPesYRXSZNSwmJZ5gf5V55EJe9mHxHS14yQ8zrXUZzzx9JnkXXZtQFF+Vt6l5hat5Wq71U9T7jUUF7M9rMWpG83TVNNi6YTaOlXQ80BMQfZZg3K+0tCvrloDSTX0bOrzaeXgrD9hKcMQMfaMkZADlAEJVKnmPwmJ0ldyn0pOb8H6+gO7IGtFD3b+CCoZjh3oOe2pC21VOZYifz7PPsYdQmYQHUpVi9qS6JivP5gWXXjVksybYUYGfC1LF1jJROs/ru5MrkrveBUMwthRc+VB3lSgMv723DZRdyVV4U2YazJ/PgDbLy0Kaz/SGCqgE3Nc="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29287,
+      "candidatesTokenCount": 225,
+      "totalTokenCount": 30586,
+      "cachedContentTokenCount": 26286,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29287
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26286
+        }
+      ],
+      "thoughtsTokenCount": 1074,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "NxLRatrMK5Ptz7IPx6CQKQ"
+  },
+  "duracao_segundos": 5.116452999998728,
+  "usage_metadata": {
+    "promptTokenCount": 29287,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 30586,
+    "cachedContentTokenCount": 26286,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29287
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26286
+      }
+    ],
+    "thoughtsTokenCount": 1074,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0070",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o cômputo da prisão preventiva para fins de preenchimento de requisito objetivo em decreto de indulto e comutação de pena, matéria própria da Lei de Execução Penal. Como a taxonomia apresenta duplicidade da matéria entre os ramos de Legislação Especial e Processo Penal, a classificação requer revisão editorial para dirimir a escolha do ramo.",
+    "evidencia": "formulou pedido de comutação de pena com base em Decreto Presidencial vigente, que exigia o cumprimento mínimo de um terço da pena para a concessão do benefício.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b59b5dd687c9305efd8ee03823f0a155c3886cb99110b22ba162616a2dae6b19"
+}

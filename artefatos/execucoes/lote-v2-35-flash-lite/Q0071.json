@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0071",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:49:58.078171+00:00",
+  "sha256_prompt": "77ed6a086c8f718637fd0cf3194a7b1ca208c652c246ea7e948a51167c9a8173",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6937a609c084c6a1228bd52299811780a321f35f0f4ff4a8d26f9537bd449a12",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0071\",\n  \"tema_central_id\": \"4688\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6717\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda crimes contra a flora na Lei nº 9.605/98. Como o assunto possui nós equivalentes em ramos distintos (Legislação Especial e Penal), marca-se a revisão devido à duplicação.\",\n  \"evidencia\": \"Nos crimes contra a Flora, previstos na Lei n. 9.605/98\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28705,
+      "candidatesTokenCount": 181,
+      "totalTokenCount": 29687,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28705
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 801,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "RhLRavu1NN6lmtkPs-Sq2QY"
+  },
+  "duracao_segundos": 4.179880299998331,
+  "usage_metadata": {
+    "promptTokenCount": 28705,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 29687,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28705
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 801,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0071",
+    "tema_central_id": "4688",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6717"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda crimes contra a flora na Lei nº 9.605/98. Como o assunto possui nós equivalentes em ramos distintos (Legislação Especial e Penal), marca-se a revisão devido à duplicação.",
+    "evidencia": "Nos crimes contra a Flora, previstos na Lei n. 9.605/98",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "c86b9ab2ad843649e45a500d270ced86c9cb512a0496979c9e7239f8698a5665"
+}

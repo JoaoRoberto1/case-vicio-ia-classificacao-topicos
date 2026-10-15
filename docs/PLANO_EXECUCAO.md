@@ -7,7 +7,7 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
-| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Bloco de 15/10 concluído: 72 válidas, uma rejeitada, 286 sem recibo; aguarda revisão/commit |
+| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Segundo bloco de 15/10 concluído: 90 válidas, nenhuma falha atual pendente, 269 sem recibo; aguarda revisão/commit |
 | 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | Política registrada; módulos offline preparados, integração e aplicação real pendentes |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
@@ -21,7 +21,7 @@ O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). A partir deste c
 | Etapa de retomada | Tamanho do bloco | Ponto de parada | Commit sugerido |
 | --- | --- | --- | --- |
 | Base atual dos módulos 1 a 3 | Código, documentação e evidências já salvos | Suíte offline aprovada, originais íntegros, nenhum processo de API ativo | `feat: prepara dados e conclui pilotos de classificacao` |
-| Módulo 4 | Até 20 novas chamadas por comando | Recibos persistidos e resumo conferido; erros permanecem explícitos | `data: registra progresso do lote de classificacao` |
+| Módulo 4 | Até 20 novas chamadas por bloco, incluindo retomadas | Recibos persistidos e resumo conferido; erros permanecem explícitos | `data: registra progresso do lote de classificacao` |
 | Módulo 4 concluído | Resolver pendências técnicas | Todos os 359 recibos válidos | `data: conclui lote de classificacao v2` |
 | Módulo 5A | Integrar CLI, aplicar política e confirmar propostas fora | CSV completo e decisões congeladas, sem iniciar revisão da amostra | `feat: congela decisoes e prepara auditoria` |
 | Módulo 5B | Revisar amostra e calcular estimativa | Referências e métricas rastreáveis, limitações explícitas | `eval: registra auditoria e previsao` |
@@ -47,7 +47,7 @@ A cada módulo, registrar entrega, comando de reprodução, verificações, temp
 
 O histórico de experimentos deve distinguir versão automática e intervenções manuais. Alterações manuais exigem ID, antes, depois, motivo, responsável e data.
 
-### Bloco do módulo 4 concluído em 15 de outubro de 2026
+### Primeiro bloco do módulo 4 concluído em 15 de outubro de 2026
 
 - Retomada autorizada pelo usuário; execução limitada a vinte novas chamadas, sem iniciar outro bloco.
 - Dezenove novos sucessos, Q0038 a Q0056. Q0005 voltou a apresentar evidência inválida e mantém quatro tentativas no histórico.
@@ -56,6 +56,16 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Modelo, prompt e política preservados. Os 53 recibos de sucesso anteriores permaneceram idênticos, e todos os recibos presentes foram validados.
 - Suíte offline: 193 testes, 192 aprovados e um pulado por limitação de privilégio do Windows. Execução encerrada sem lock residual.
 - Registro: `artefatos/checkpoints/bloco_2026-10-15_01.json`. Nenhuma decisão final, estimativa de precisão, alteração manual de tema ou commit realizado nesta etapa.
+
+### Segundo bloco do módulo 4 concluído em 15 de outubro de 2026
+
+- Recuperação offline de Q0005: a primeira tentativa salva passa na validação atual e foi registrada em um arquivo derivado, sem nova chamada, alteração manual do tema ou mudança das regras de evidência. O recibo original e suas quatro tentativas permanecem intactos.
+- Vinte novas chamadas no total, com dezessete sucessos: Q0057, Q0058 e Q0060 a Q0074. Três falhas HTTP 503 em Q0058 e Q0063 interromperam invocações; as retomadas respeitaram o saldo do bloco e concluíram ambas as questões.
+- Estado acumulado: 90 sugestões tecnicamente válidas, sendo 89 sucessos nos recibos originais e uma revalidação. Restam 269 questões sem recibo; nenhuma falha atual pendente entre as processadas.
+- Consumo conhecido do bloco: 511.736 tokens em dezessete respostas; as três falhas não informaram uso. Duração somada das chamadas: 145,75 segundos, sem contar pausas, esperas e verificações locais.
+- Os 73 recibos anteriores permaneceram byte a byte idênticos. Modelo, prompt e política preservados. A implementação de revalidação verifica hashes, histórico e seleção cronológica; o executor e as decisões usam a sugestão recuperada sem duplicar consumo.
+- Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. Última invocação encerrada com código zero, sem processo de API ativo ou lock residual.
+- Registro: `artefatos/checkpoints/bloco_2026-10-15_02.json`. Bloco pronto para revisão e commit do usuário; avaliação temática e entregas finais permanecem pendentes.
 
 ## Registro de execução
 

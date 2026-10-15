@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "id": "Q0058",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:43:48.183610+00:00",
+  "sha256_prompt": "00d4fd7efb4da98db80cb2ffde01f0ef3ea786333a21ddf6f4a413c2e309a004",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2b1556a624c1458322de89a261be7e029fdbf32e9e36177acbac89737c532363",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0058",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-15T17:40:47.201486+00:00",
+      "sha256_prompt": "00d4fd7efb4da98db80cb2ffde01f0ef3ea786333a21ddf6f4a413c2e309a004",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "2b1556a624c1458322de89a261be7e029fdbf32e9e36177acbac89737c532363",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.2596097000023292,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "f642331221927c569955e89d3e449c897501d1ab7a1dbd867ce40d243924c178"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0058",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-15T17:42:19.676669+00:00",
+      "sha256_prompt": "00d4fd7efb4da98db80cb2ffde01f0ef3ea786333a21ddf6f4a413c2e309a004",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "2b1556a624c1458322de89a261be7e029fdbf32e9e36177acbac89737c532363",
+      "numero_tentativa": 2,
+      "status": "erro",
+      "duracao_segundos": 5.489188499999727,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "c1d949b5d1ad85d827bcfe8a42bd1a6a0fa76d693afe0c356987a6e6a72975ec"
+    }
+  ],
+  "numero_tentativa": 3,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0058\",\n  \"tema_central_id\": \"4377\",\n  \"extras_ids\": [\n    \"4389\"\n  ],\n  \"temas_alternativos\": [\n    \"4374\",\n    \"4383\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda a relação entre sistema penal e pobreza, articulando a seletividade da criminalização e da vitimização. Como as alternativas misturam diferentes tópicos criminológicos (política criminal, vitimologia e processos de criminalização), sugere-se o tema central de processos de criminalização com inclusão de extras e revisão devido à pluralidade de conceitos.\",\n  \"evidencia\": \"tal qual o processo de criminalização, a vitimização também é um processo seletivo que tem como alvo preferencial os mais pobres.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28790,
+      "candidatesTokenCount": 234,
+      "totalTokenCount": 30296,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28790
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1272,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1RDRapvQBZqJz7IPw5u-YA"
+  },
+  "duracao_segundos": 15.571768999998312,
+  "usage_metadata": {
+    "promptTokenCount": 28790,
+    "candidatesTokenCount": 234,
+    "totalTokenCount": 30296,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28790
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1272,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0058",
+    "tema_central_id": "4377",
+    "extras_ids": [
+      "4389"
+    ],
+    "temas_alternativos": [
+      "4374",
+      "4383"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda a relação entre sistema penal e pobreza, articulando a seletividade da criminalização e da vitimização. Como as alternativas misturam diferentes tópicos criminológicos (política criminal, vitimologia e processos de criminalização), sugere-se o tema central de processos de criminalização com inclusão de extras e revisão devido à pluralidade de conceitos.",
+    "evidencia": "tal qual o processo de criminalização, a vitimização também é um processo seletivo que tem como alvo preferencial os mais pobres.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "7aea49210916267a0d4ed795bbc3cd60425bbcc17ee550f01ab6c6a6d12bb32f"
+}

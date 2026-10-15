@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0065",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:48:26.001107+00:00",
+  "sha256_prompt": "154c996a2af0bff2bfeddc19210f36b5b9c498eaf4797e86df5ecaff77fe6e46",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "68009929077748587b75ad187e302cc62a56d161832fe729f6f3da9d8ad0f809",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0065\",\n  \"tema_central_id\": \"5161\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda aspectos do crime de extorsão mediante sequestro previsto no artigo 159 do Código Penal, como formas qualificadas, tentativa e momento consumativo.\",\n  \"evidencia\": \"O crime de extorsão mediante sequestro (CP, art. 159)\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28728,
+      "candidatesTokenCount": 154,
+      "totalTokenCount": 29908,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28728
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1026,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "6hHRapm-LoW8qtsP49aFgQ8"
+  },
+  "duracao_segundos": 4.58922800000073,
+  "usage_metadata": {
+    "promptTokenCount": 28728,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 29908,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28728
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1026,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0065",
+    "tema_central_id": "5161",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda aspectos do crime de extorsão mediante sequestro previsto no artigo 159 do Código Penal, como formas qualificadas, tentativa e momento consumativo.",
+    "evidencia": "O crime de extorsão mediante sequestro (CP, art. 159)",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e0aab952dc37907827fd950381e68075cefddd24381ba12328b9af1ee3689397"
+}

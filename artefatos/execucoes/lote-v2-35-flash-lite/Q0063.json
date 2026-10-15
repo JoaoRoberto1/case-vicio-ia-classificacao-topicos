@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "Q0063",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T17:47:53.612969+00:00",
+  "sha256_prompt": "159e3831d841259d2b88d48ec613c4a696356026d5a8bda743f6284f6427274d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "418f31a8ebd2efe1a5caf4e91130490997fac4780bd47feeb5e134414b37787c",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0063",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-15T17:45:23.962586+00:00",
+      "sha256_prompt": "159e3831d841259d2b88d48ec613c4a696356026d5a8bda743f6284f6427274d",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "418f31a8ebd2efe1a5caf4e91130490997fac4780bd47feeb5e134414b37787c",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.263439999998809,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "7dc435094e2d34f0717f7af37d199e584099116a924ba41567eb95d83da18f19"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0063\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda aspectos da Lei Maria da Penha (Lei nº 11.340/2006). Como o catálogo apresenta nós duplicados para a mesma matéria em diferentes ramos (Legislação Especial e Penal), marca-se a revisão conforme a regra de duplicidade de ramos.\",\n  \"evidencia\": \"No contexto da violência doméstica e familiar contra a mulher, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28913,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 30107,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28913
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 989,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "yhHRauKBINvUz7IP3p3EqQI"
+  },
+  "duracao_segundos": 5.740891999997984,
+  "usage_metadata": {
+    "promptTokenCount": 28913,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 30107,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28913
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 989,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0063",
+    "tema_central_id": "4704",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6724"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda aspectos da Lei Maria da Penha (Lei nº 11.340/2006). Como o catálogo apresenta nós duplicados para a mesma matéria em diferentes ramos (Legislação Especial e Penal), marca-se a revisão conforme a regra de duplicidade de ramos.",
+    "evidencia": "No contexto da violência doméstica e familiar contra a mulher, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "0798fefd810086c5b3d125917b6db7fe2ec00827765367345eee32f9bbc97d55"
+}
