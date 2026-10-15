@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0130",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:55:25.621937+00:00",
+  "sha256_prompt": "fc27ab35834e1f24c3fa1dd2d94eb6c6300fdf2e30ee70630dc4a5c04cda4b54",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7905d32fc2445fce18f2bb9ddd2bddd6c37ae03b27b672e2a12fc2fd615b145c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0130\",\n  \"tema_central_id\": \"5160\",\n  \"extras_ids\": [\n    \"5205\"\n  ],\n  \"temas_alternativos\": [\n    \"5157\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o crime de roubo, exigindo o conhecimento sobre a tipificação da conduta com emprego de simulacro (afastando a majorante de arma de fogo mas mantendo a grave ameaça) e as repercussões jurídicas quanto à substituição da pena privativa de liberdade por penas restritivas de direitos.\",\n  \"evidencia\": \"levanta sua camisa e lhe exibe, junto à cintura, o que parece ser um revólver, dizendo-lhe para entregar o celular.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28966,
+      "candidatesTokenCount": 222,
+      "totalTokenCount": 30842,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28966
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1654,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "niHRar3nF8maqtsPnsnvgAc"
+  },
+  "duracao_segundos": 7.208891300000687,
+  "usage_metadata": {
+    "promptTokenCount": 28966,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 30842,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28966
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1654,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0130",
+    "tema_central_id": "5160",
+    "extras_ids": [
+      "5205"
+    ],
+    "temas_alternativos": [
+      "5157"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o crime de roubo, exigindo o conhecimento sobre a tipificação da conduta com emprego de simulacro (afastando a majorante de arma de fogo mas mantendo a grave ameaça) e as repercussões jurídicas quanto à substituição da pena privativa de liberdade por penas restritivas de direitos.",
+    "evidencia": "levanta sua camisa e lhe exibe, junto à cintura, o que parece ser um revólver, dizendo-lhe para entregar o celular.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a4d1281ab3f55eea1d12a55d1fc556d23b355013b1f36e9f5d6878fba00e4fc6"
+}

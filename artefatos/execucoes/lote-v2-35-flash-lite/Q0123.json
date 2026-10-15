@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "Q0123",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:53:33.910683+00:00",
+  "sha256_prompt": "16534839ad40207a43a84398ac49cd2b576ca25117724788e76c8518e2f33cbf",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c4315613f93f1e53d16ad48fc123aeb1116f5ad3a3ae36a4c83a9d23e278812d",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0123\",\n  \"tema_central_id\": \"4378\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5518\",\n    \"4690\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.6,\n  \"motivo\": \"A questão mistura proposições independentes pertencentes a ramos distintos, abordando Criminologia (teoria do etiquetamento e seletividade nas estatísticas criminais) e Processo Penal (prisão em flagrante em crime permanente), sem um conhecimento central dominante único que permita excluir a heterogeneidade das assertivas.\",\n  \"evidencia\": \"I – A partir da teoria do etiquetamento (labeling approach), pode-se afirmar que parcela significativa do conteúdo da norma penal incriminadora seja determinada pelos órgãos encarregados de sua aplicação\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 533,
+              "endIndex": 735,
+              "uri": "https://www.qconcursos.com/questoes-de-concursos/questoes/b4cba2af-2a",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28899,
+      "candidatesTokenCount": 224,
+      "totalTokenCount": 30771,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28899
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1648,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "LiHRas_yJ5XQz7IP-6GRMQ"
+  },
+  "duracao_segundos": 6.200336199999583,
+  "usage_metadata": {
+    "promptTokenCount": 28899,
+    "candidatesTokenCount": 224,
+    "totalTokenCount": 30771,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28899
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1648,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0123",
+    "tema_central_id": "4378",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5518",
+      "4690"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.6,
+    "motivo": "A questão mistura proposições independentes pertencentes a ramos distintos, abordando Criminologia (teoria do etiquetamento e seletividade nas estatísticas criminais) e Processo Penal (prisão em flagrante em crime permanente), sem um conhecimento central dominante único que permita excluir a heterogeneidade das assertivas.",
+    "evidencia": "I – A partir da teoria do etiquetamento (labeling approach), pode-se afirmar que parcela significativa do conteúdo da norma penal incriminadora seja determinada pelos órgãos encarregados de sua aplicação",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2b404f72f39dd0686cac3f665272b7b6a3f0c9a172392e496047a182c46b66eb"
+}

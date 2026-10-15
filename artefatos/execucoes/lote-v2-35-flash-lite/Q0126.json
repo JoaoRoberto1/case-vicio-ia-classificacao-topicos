@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0126",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:54:24.243350+00:00",
+  "sha256_prompt": "74a81e7d2d54f62a5d98726c07e3be7de2b8ec5ea61af0e6a0de22564b8f9d64",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "399d26b21373c730a04db21e19b66bbfaa7de6d86d7d1a5b4dd8a72e71620e04",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0126\",\n  \"tema_central_id\": \"5170\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5180\",\n    \"5213\",\n    \"5226\",\n    \"5076\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão aborda proposições independentes de diferentes institutos da Parte Geral do Direito Penal, sem um tema central dominante, exigindo revisão pela mistura de assuntos.\",\n  \"evidencia\": \"Sobre o Direito Penal brasileiro, assinale a alternativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28788,
+      "candidatesTokenCount": 179,
+      "totalTokenCount": 30771,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28788
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1804,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "YCHRarjiPPrrz7IP5Kyp0AQ"
+  },
+  "duracao_segundos": 6.186408400000801,
+  "usage_metadata": {
+    "promptTokenCount": 28788,
+    "candidatesTokenCount": 179,
+    "totalTokenCount": 30771,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28788
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1804,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0126",
+    "tema_central_id": "5170",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5180",
+      "5213",
+      "5226",
+      "5076"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão aborda proposições independentes de diferentes institutos da Parte Geral do Direito Penal, sem um tema central dominante, exigindo revisão pela mistura de assuntos.",
+    "evidencia": "Sobre o Direito Penal brasileiro, assinale a alternativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "93fbe5b4035951d41e8c6cf700e36f670615451ec81829491ac07edede47526f"
+}

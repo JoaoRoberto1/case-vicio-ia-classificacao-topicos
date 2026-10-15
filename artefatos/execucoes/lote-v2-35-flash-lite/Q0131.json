@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0131",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:55:42.841415+00:00",
+  "sha256_prompt": "6b215e4cba5ad9e81fe4898aab86292df19e4cb2c264608fb2e1c39fe21c3da6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "14c7665f8341705c3dd8d0e3216058dabba26981033e1a59cb5e119bd32dedce",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0131\",\n  \"tema_central_id\": \"5072\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5073\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda os critérios de distinção entre autoria e participação, com menção à teoria do domínio do fato, inserindo-se no tema de concurso de pessoas.\",\n  \"evidencia\": \"diferencia autoria de participação em função da prática dos atos executórios do delito.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28618,
+      "candidatesTokenCount": 163,
+      "totalTokenCount": 29707,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28618
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 926,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ryHRatzCJZz_qtsPvIKauQ8"
+  },
+  "duracao_segundos": 4.312897600000724,
+  "usage_metadata": {
+    "promptTokenCount": 28618,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 29707,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28618
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 926,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0131",
+    "tema_central_id": "5072",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5073"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda os critérios de distinção entre autoria e participação, com menção à teoria do domínio do fato, inserindo-se no tema de concurso de pessoas.",
+    "evidencia": "diferencia autoria de participação em função da prática dos atos executórios do delito.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "accb365aeb0cf6a851cba365b34e70cc7ee7fb77cb10b1fda321b58cfc66c6a7"
+}

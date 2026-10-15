@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0127",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:54:40.434586+00:00",
+  "sha256_prompt": "62c391ccb04a245671dcdc67bc7025b285cb7d817519fd5afe307cf24a63157a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5602651babd5e690004e7e7fdf01dbdd79d15cfdf3c62f3a547f21c77db2b958",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0127\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [\n    \"5572\"\n  ],\n  \"temas_alternativos\": [\n    \"5537\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda de forma mista conhecimentos materiais de legislação especial (crimes de tráfico e associação da Lei nº 11.343/2006) e normas processuais penais relativas à sentença e aos poderes do magistrado ante o pedido de absolvição ministerial, caracterizando mistura de assuntos sem domínio exclusivo de um único ramo.\",\n  \"evidencia\": \"Luiz foi denunciado pelo Ministério Público do Estado do Rio de Janeiro pelos crimes dos Arts. 33, caput , e 35, ambos da Lei nº 11.343/2006\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29166,
+      "candidatesTokenCount": 242,
+      "totalTokenCount": 31027,
+      "cachedContentTokenCount": 26285,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29166
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26285
+        }
+      ],
+      "thoughtsTokenCount": 1619,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "cSHRauzRC7Poz7IPio22GQ"
+  },
+  "duracao_segundos": 6.779388900002232,
+  "usage_metadata": {
+    "promptTokenCount": 29166,
+    "candidatesTokenCount": 242,
+    "totalTokenCount": 31027,
+    "cachedContentTokenCount": 26285,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29166
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26285
+      }
+    ],
+    "thoughtsTokenCount": 1619,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0127",
+    "tema_central_id": "4708",
+    "extras_ids": [
+      "5572"
+    ],
+    "temas_alternativos": [
+      "5537"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda de forma mista conhecimentos materiais de legislação especial (crimes de tráfico e associação da Lei nº 11.343/2006) e normas processuais penais relativas à sentença e aos poderes do magistrado ante o pedido de absolvição ministerial, caracterizando mistura de assuntos sem domínio exclusivo de um único ramo.",
+    "evidencia": "Luiz foi denunciado pelo Ministério Público do Estado do Rio de Janeiro pelos crimes dos Arts. 33, caput , e 35, ambos da Lei nº 11.343/2006",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "f58b6c72feab46c09a53603dfcf4f60c95d80d8d8507199977631e03d920ba9d"
+}

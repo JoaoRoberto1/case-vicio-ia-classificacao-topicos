@@ -7,7 +7,7 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
-| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Quarto bloco de 15/10 concluído: 127 válidas, Q0103 e Q0104 rejeitadas, 230 sem recibo; aguarda revisão/commit |
+| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Quinto bloco de 15/10 concluído: 147 válidas, nenhuma falha técnica atual pendente, 212 sem recibo; aguarda revisão/commit |
 | 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | Política registrada; módulos offline preparados, integração e aplicação real pendentes |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
@@ -87,6 +87,16 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Dos 110 recibos anteriores, 109 permaneceram byte a byte idênticos. Q0083 mantém integralmente o objeto da primeira tentativa no histórico, inclusive checksum e consumo. O derivado de Q0005, código, modelo, prompt e política permanecem iguais.
 - Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. A CLI retornou 1 por Q0103 e Q0104 pendentes; execução encerrada sem processo de API ativo ou lock residual.
 - Registro: `artefatos/checkpoints/bloco_2026-10-15_04.json`. Pronto para revisão e commit; a próxima execução tentará novamente Q0103 e Q0104 dentro do limite do próximo bloco.
+
+### Quinto bloco do módulo 4 concluído em 15 de outubro de 2026
+
+- Retomada autorizada pelo usuário após o commit `d902476`; vinte chamadas em uma única invocação, sem iniciar outro bloco.
+- Vinte sucessos: Q0103 e Q0104 aceitas na segunda tentativa e dezoito novos IDs, Q0117 a Q0134. Nenhuma falha de API ou validação local neste bloco.
+- Estado acumulado: 147 sugestões tecnicamente válidas, sendo 146 sucessos nos recibos originais e a revalidação anterior de Q0005. Restam 212 questões sem recibo; nenhuma falha técnica atual pendente entre as processadas.
+- Consumo do bloco: 606.116 tokens informados nas vinte respostas, incluindo as segundas tentativas de Q0103 e Q0104. O consumo ausente nas três falhas HTTP 503 anteriores permanece identificado.
+- Dos 129 recibos anteriores, 127 permaneceram byte a byte idênticos. Q0103 e Q0104 mantêm integralmente os objetos das primeiras tentativas no histórico, inclusive checksum e consumo. O derivado de Q0005, código, modelo, prompt, política e validadores permanecem iguais.
+- Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. CLI encerrada com código zero, sem processo de API ativo ou lock residual.
+- Registro: `artefatos/checkpoints/bloco_2026-10-15_05.json`. Pronto para revisão e commit; a próxima execução avançará aos IDs sem recibo, começando em Q0135.
 
 ## Registro de execução
 

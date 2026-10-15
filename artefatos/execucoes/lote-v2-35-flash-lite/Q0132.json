@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "Q0132",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:55:57.160667+00:00",
+  "sha256_prompt": "eb4a253bf45bf33f4d764759b4ec2966f9f4332e9194d306c7ef063671cd22d2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f89d403c710a60c90df1b7b45b3f56224ed39236d043dd0fab0fd393a2ca536c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0132\",\n  \"tema_central_id\": \"5543\",\n  \"extras_ids\": [\n    \"5549\",\n    \"5550\"\n  ],\n  \"temas_alternativos\": [\n    \"5590\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.75,\n  \"motivo\": \"A questão aborda a proteção de dados qualificativos e endereços de vítimas e testemunhas em processos criminais, matéria relacionada à produção probatória. Como o catálogo não dispõe de um tema específico para proteção de testemunhas ou vitimologia processual, aloca-se no ramo geral de Provas em Espécies, justificando revisão pela ausência de tópico dedicado.\",\n  \"evidencia\": \"Os tribunais deverão implementar, como medida para proteção de vítimas e testemunhas que se encontrem ameaçadas ou em grave risco, a possibilidade de proteção de seus dados qualificativos e endereços nos processos criminais, físicos e eletrônicos\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 619,
+              "endIndex": 831,
+              "uri": "https://atos.cnj.jus.br/atos/detalhar/4190",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28869,
+      "candidatesTokenCount": 256,
+      "totalTokenCount": 30625,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28869
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1500,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "vSHRarGtN4jUz7IP0O2i6AE"
+  },
+  "duracao_segundos": 5.847590500001388,
+  "usage_metadata": {
+    "promptTokenCount": 28869,
+    "candidatesTokenCount": 256,
+    "totalTokenCount": 30625,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28869
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1500,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0132",
+    "tema_central_id": "5543",
+    "extras_ids": [
+      "5549",
+      "5550"
+    ],
+    "temas_alternativos": [
+      "5590"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.75,
+    "motivo": "A questão aborda a proteção de dados qualificativos e endereços de vítimas e testemunhas em processos criminais, matéria relacionada à produção probatória. Como o catálogo não dispõe de um tema específico para proteção de testemunhas ou vitimologia processual, aloca-se no ramo geral de Provas em Espécies, justificando revisão pela ausência de tópico dedicado.",
+    "evidencia": "Os tribunais deverão implementar, como medida para proteção de vítimas e testemunhas que se encontrem ameaçadas ou em grave risco, a possibilidade de proteção de seus dados qualificativos e endereços nos processos criminais, físicos e eletrônicos",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6b4f75724a693a8726c5e17d6b59110e8bbc6227ed0504f4598aff07f736a7cb"
+}

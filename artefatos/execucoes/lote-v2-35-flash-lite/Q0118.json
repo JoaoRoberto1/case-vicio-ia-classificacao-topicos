@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0118",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:52:18.546861+00:00",
+  "sha256_prompt": "80190a0db16f6c3feeb9c3c30812da077d7b3dfd29186380b7b15a6c1708c0ba",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f1eb56dd26748a6b2db134259219193847ad00c20403f4b289489b307b1c5fa1",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0118\",\n  \"tema_central_id\": \"5507\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente a aplicação da lei processual penal no tempo, disciplinando a eficácia imediata e a incidência de normas mais gravosas ou benéficas sobre atos processuais e institutos como fiança e prisão preventiva.\",\n  \"evidencia\": \"entrou em vigor lei processual penal nova mais gravosa, que tratou tanto da fiança quanto da prisão preventiva.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28781,
+      "candidatesTokenCount": 172,
+      "totalTokenCount": 29749,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28781
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 796,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "4yDRavHkEqGxqtsPpbHH0Ac"
+  },
+  "duracao_segundos": 4.224022300000797,
+  "usage_metadata": {
+    "promptTokenCount": 28781,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 29749,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28781
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 796,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0118",
+    "tema_central_id": "5507",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente a aplicação da lei processual penal no tempo, disciplinando a eficácia imediata e a incidência de normas mais gravosas ou benéficas sobre atos processuais e institutos como fiança e prisão preventiva.",
+    "evidencia": "entrou em vigor lei processual penal nova mais gravosa, que tratou tanto da fiança quanto da prisão preventiva.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3eb163144ceab520ee426f265b07d3f8204bb4e34251a4a79135dfed81ced0d2"
+}

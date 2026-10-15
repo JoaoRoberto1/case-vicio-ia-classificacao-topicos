@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0129",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:55:11.642997+00:00",
+  "sha256_prompt": "ba092babea40f9731e0a159c43fe594e76d3c3c6a916563b590b1faaa6bdba57",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a09787f1c1246efad270909de079c30b5ce3198a80a6d61d7a7992201cd708e6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0129\",\n  \"tema_central_id\": \"5550\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento sobre a admissibilidade de parentes como testemunhas no processo penal, tema diretamente vinculado à prova testemunhal.\",\n  \"evidencia\": \"o depoimento testemunhal de parente do envolvido é admitido em nosso ordenamento\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28904,
+      "candidatesTokenCount": 145,
+      "totalTokenCount": 29800,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28904
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 751,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "kCHRapWIGt6P6dkPiqGEgQc"
+  },
+  "duracao_segundos": 3.9711261999982526,
+  "usage_metadata": {
+    "promptTokenCount": 28904,
+    "candidatesTokenCount": 145,
+    "totalTokenCount": 29800,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28904
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 751,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0129",
+    "tema_central_id": "5550",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento sobre a admissibilidade de parentes como testemunhas no processo penal, tema diretamente vinculado à prova testemunhal.",
+    "evidencia": "o depoimento testemunhal de parente do envolvido é admitido em nosso ordenamento",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "66683802fbca9af79084c9e95880360c31af2b308f832f55c0a88d2ea9decb05"
+}

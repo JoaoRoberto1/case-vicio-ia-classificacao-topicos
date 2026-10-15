@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0119",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:52:32.784821+00:00",
+  "sha256_prompt": "823f915da1b1d3be423f8adbf6de4d4ad6c286204e4c20fec359a6233cf89e6c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c364cb1b62082c4e64640973af4ba271c089cce170048344d6aa017d32d0784c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0119\",\n  \"tema_central_id\": \"5194\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5181\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os efeitos da lei posterior que deixa de considerar o fato criminoso, tratando do instituto da abolitio criminis e de sua aplicação no tempo.\",\n  \"evidencia\": \"Lei posterior ao fato criminoso deixa de considerá-lo crime.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28718,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29798,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28718
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 920,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "8SDRasroIsWtz7IPupOEyQs"
+  },
+  "duracao_segundos": 4.697926199998619,
+  "usage_metadata": {
+    "promptTokenCount": 28718,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29798,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28718
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 920,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0119",
+    "tema_central_id": "5194",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5181"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os efeitos da lei posterior que deixa de considerar o fato criminoso, tratando do instituto da abolitio criminis e de sua aplicação no tempo.",
+    "evidencia": "Lei posterior ao fato criminoso deixa de considerá-lo crime.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "05dbc72ca3cb5b3534874aeeaff587966da9a869db179a412bf5e8db1b28a5e1"
+}

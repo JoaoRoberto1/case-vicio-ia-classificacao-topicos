@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0134",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:56:28.861751+00:00",
+  "sha256_prompt": "12f03e4eee7cd07b3fd9e5cdc127c054722ff2b750875c5de1fca63fab2e33a0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "31f1b617349e3853af48d9142d84be720b1292716ea09deac9cb958f949b6e42",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0134\",\n  \"tema_central_id\": \"5092\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.99,\n  \"motivo\": \"A questão aborda o crime de corrupção passiva previsto no Código Penal, exigindo conhecimento sobre a tipificação da conduta e seus desdobramentos.\",\n  \"evidencia\": \"Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28787,
+      "candidatesTokenCount": 183,
+      "totalTokenCount": 29924,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28787
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 954,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "3SHRarXFHpKjqtsP_re70Ac"
+  },
+  "duracao_segundos": 4.3180141000011645,
+  "usage_metadata": {
+    "promptTokenCount": 28787,
+    "candidatesTokenCount": 183,
+    "totalTokenCount": 29924,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28787
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 954,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0134",
+    "tema_central_id": "5092",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.99,
+    "motivo": "A questão aborda o crime de corrupção passiva previsto no Código Penal, exigindo conhecimento sobre a tipificação da conduta e seus desdobramentos.",
+    "evidencia": "Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "52f8137b7fa96699cec877651b96b28b3a7e39867ad78998c724b2cc5223cce1"
+}

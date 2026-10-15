@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0117",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:52:01.479230+00:00",
+  "sha256_prompt": "85210674d7bde4fc49c071cd495d3dff1b254ae918465593fe4c9fdfc3108d7d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6117549269eaaf18e2528c1170dad7b84be4c492c04d1f4d3e7b45222dbc2db6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0117\",\n  \"tema_central_id\": \"4384\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda as teorias da pena na Criminologia, com foco na teoria agnóstica. O nó de Teorias Legitimidoras da Pena é o mais próximo no catálogo, mas requer revisão pois a teoria agnóstica possui natureza crítica e deslegitimadora, diferindo das teorias tradicionais de justificação da pena.\",\n  \"evidencia\": \"O estudo das teorias relaciona-se intimamente com as finalidades da pena.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28666,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 30540,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28666
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1687,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0iDRar6lFpLpqtsPpYvw6Qg"
+  },
+  "duracao_segundos": 7.060702800001309,
+  "usage_metadata": {
+    "promptTokenCount": 28666,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 30540,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28666
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1687,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0117",
+    "tema_central_id": "4384",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda as teorias da pena na Criminologia, com foco na teoria agnóstica. O nó de Teorias Legitimidoras da Pena é o mais próximo no catálogo, mas requer revisão pois a teoria agnóstica possui natureza crítica e deslegitimadora, diferindo das teorias tradicionais de justificação da pena.",
+    "evidencia": "O estudo das teorias relaciona-se intimamente com as finalidades da pena.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "988744ac70ba0b517c658ff02af9a076dcdfe7aa16562cf6bb3d91d64e035b04"
+}

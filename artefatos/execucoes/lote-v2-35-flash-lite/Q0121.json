@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0121",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:53:04.872578+00:00",
+  "sha256_prompt": "ad394fa837e2c7235b1ddb85285ccbd0dc30e918cfc84562e5e18024171218f5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e0e757dd0160455d89c0c603dd4f3467b100b32f5c03962578a16d749f29584c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0121\",\n  \"tema_central_id\": \"5063\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5466\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda os princípios da ação penal privada e a indivisibilidade, gerando duplicidade entre os ramos de Penal e Processo Penal, o que exige revisão editorial por envolver matérias equivalentes em ramos distintos.\",\n  \"evidencia\": \"Mário ajuizou ação penal privada, mas resolveu poupar um dos autores do fato\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28949,
+      "candidatesTokenCount": 175,
+      "totalTokenCount": 30276,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28949
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1152,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ESHRauj7JeOFz7IPtu-g6AQ"
+  },
+  "duracao_segundos": 4.733475299999554,
+  "usage_metadata": {
+    "promptTokenCount": 28949,
+    "candidatesTokenCount": 175,
+    "totalTokenCount": 30276,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28949
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1152,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0121",
+    "tema_central_id": "5063",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5466"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda os princípios da ação penal privada e a indivisibilidade, gerando duplicidade entre os ramos de Penal e Processo Penal, o que exige revisão editorial por envolver matérias equivalentes em ramos distintos.",
+    "evidencia": "Mário ajuizou ação penal privada, mas resolveu poupar um dos autores do fato",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "28ce470a4b42e25743c09afca588ebcae26373a233da9b8514c36c872819fc97"
+}

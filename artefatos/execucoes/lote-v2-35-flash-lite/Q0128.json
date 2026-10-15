@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0128",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:54:57.219796+00:00",
+  "sha256_prompt": "710098683e0b747a6ef5c4bb8aef25e656b5fd62d227c0c4b593154b75d0d0f4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "420a34ad84eb8dd48f8f4464533a389e7906cd0a1121a6970ee8b0036bf17baa",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0128\",\n  \"tema_central_id\": \"5184\",\n  \"extras_ids\": [\n    \"5213\"\n  ],\n  \"temas_alternativos\": [\n    \"5063\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.6,\n  \"motivo\": \"A questão aborda a aplicação de medida de segurança e inimputabilidade sob a denominação atípica de 'ação de prevenção penal', misturando conceitos de direito material e processual, o que exige revisão para validar a adequação taxodérmica.\",\n  \"evidencia\": \"A ação de prevenção penal é aquela ajuizada com a finalidade de se aplicar medida de segurança\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28649,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 29680,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28649
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 838,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "gSHRas62OJ2Ez7IPwo60iAU"
+  },
+  "duracao_segundos": 4.4166583999976865,
+  "usage_metadata": {
+    "promptTokenCount": 28649,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 29680,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 838,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0128",
+    "tema_central_id": "5184",
+    "extras_ids": [
+      "5213"
+    ],
+    "temas_alternativos": [
+      "5063"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.6,
+    "motivo": "A questão aborda a aplicação de medida de segurança e inimputabilidade sob a denominação atípica de 'ação de prevenção penal', misturando conceitos de direito material e processual, o que exige revisão para validar a adequação taxodérmica.",
+    "evidencia": "A ação de prevenção penal é aquela ajuizada com a finalidade de se aplicar medida de segurança",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "1a608c7154528562629dac0923b8a627eee5f475eccb954c12e233fdc7d88c98"
+}

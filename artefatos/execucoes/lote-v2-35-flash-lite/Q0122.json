@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0122",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:53:19.622386+00:00",
+  "sha256_prompt": "c4ec0b72a5610c470a2889bd96cfc9534111028b1160c0f5c163ceaf073419d0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "60e2ceda160d63cb32f7c44b33e807bf4d1fdb2ea5c0cb06237b3527c2ff728a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0122\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão trata da remição de pena regulada pela Lei de Execução Penal (LEP). Como o catálogo apresenta o mesmo tema em ramos distintos (Direito Penal - Legislação Especial e Processo Penal) sem critério editorial claro de distinção, adota-se um ramo central, inclui-se o concorrente em temas alternativos e marca-se revisão.\",\n  \"evidencia\": \"A remição\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28728,
+      "candidatesTokenCount": 190,
+      "totalTokenCount": 29878,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28728
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 960,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ICHRarazE_rrz7IPtKyp0AQ"
+  },
+  "duracao_segundos": 4.2823067999997875,
+  "usage_metadata": {
+    "promptTokenCount": 28728,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 29878,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28728
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 960,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0122",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão trata da remição de pena regulada pela Lei de Execução Penal (LEP). Como o catálogo apresenta o mesmo tema em ramos distintos (Direito Penal - Legislação Especial e Processo Penal) sem critério editorial claro de distinção, adota-se um ramo central, inclui-se o concorrente em temas alternativos e marca-se revisão.",
+    "evidencia": "A remição",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "0ca6fc049110ce7c708e4d70702734b228d15047a336804f00fd4cad54573e82"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0133",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:56:13.013191+00:00",
+  "sha256_prompt": "b5e764272f7433110cf811f9ce0a1b2a89c4778201c8fc9f549b882e0bc40f3f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c87d2e4cd71fa678d974c3708a54a3fe72a76add49a11cfca2b24871759f77ce",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0133\",\n  \"tema_central_id\": \"5528\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5524\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda as regras de cabimento do desaforamento no âmbito do procedimento do Tribunal do Júri.\",\n  \"evidencia\": \"No procedimento do júri, o desaforamento é cabível a qualquer momento, a partir do recebimento da denúncia.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28617,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 30243,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28617
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1466,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "zSHRasT4LMasz7IPhZ-cOA"
+  },
+  "duracao_segundos": 5.841605600002367,
+  "usage_metadata": {
+    "promptTokenCount": 28617,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 30243,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28617
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1466,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0133",
+    "tema_central_id": "5528",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5524"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda as regras de cabimento do desaforamento no âmbito do procedimento do Tribunal do Júri.",
+    "evidencia": "No procedimento do júri, o desaforamento é cabível a qualquer momento, a partir do recebimento da denúncia.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d137b69f03f06262db336610363c8cc32d9e9767f3bc071807ad8eee490453c2"
+}

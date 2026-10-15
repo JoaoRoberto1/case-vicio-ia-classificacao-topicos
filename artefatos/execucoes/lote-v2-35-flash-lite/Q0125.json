@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0125",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:54:07.480883+00:00",
+  "sha256_prompt": "a60e891a52c2e71289abea33f6cf999ea07f10e0d46269e24cebcfba40a92d6f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5ba000b835a14c0530245f41e691a4696e19c6798907bf20cfdd55ebed50ccd8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0125\",\n  \"tema_central_id\": \"5181\",\n  \"extras_ids\": [\n    \"4708\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão exige o conhecimento sobre a retroatividade da lei penal mais benigna (novatio legis in mellius) aplicada ao crime de tráfico de drogas, gerando interseção entre a teoria geral da lei penal no tempo e a legislação penal especial.\",\n  \"evidencia\": \"o defensor público deverá requerer a aplicação de novatio legis in mellius\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28810,
+      "candidatesTokenCount": 175,
+      "totalTokenCount": 30638,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28810
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1653,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "UCHRavuVEb78qtsP9viLkQ8"
+  },
+  "duracao_segundos": 6.75683129999743,
+  "usage_metadata": {
+    "promptTokenCount": 28810,
+    "candidatesTokenCount": 175,
+    "totalTokenCount": 30638,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28810
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1653,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0125",
+    "tema_central_id": "5181",
+    "extras_ids": [
+      "4708"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão exige o conhecimento sobre a retroatividade da lei penal mais benigna (novatio legis in mellius) aplicada ao crime de tráfico de drogas, gerando interseção entre a teoria geral da lei penal no tempo e a legislação penal especial.",
+    "evidencia": "o defensor público deverá requerer a aplicação de novatio legis in mellius",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "3498f7e1f5e492c466027c518247bae4fc882b17cde91021d89495adbc2b0199"
+}
