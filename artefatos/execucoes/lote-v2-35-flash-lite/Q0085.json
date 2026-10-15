@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0085",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:08:08.725955+00:00",
+  "sha256_prompt": "d1aa60bc856da071b5602abe2735f3120c2d9fcf7c3af5d23ae97a1a4e07c15d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4dcd809dc23fe1fe5cbe30338523e5394cba57ce5cbcec2850853bd1363cbacc",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0085\",\n  \"tema_central_id\": \"5076\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5091\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a comunicabilidade da qualidade de funcionário público (elementar do crime de concussão) a coautor particular, exigindo conhecimentos tanto de Concurso de Pessoas (comunicabilidade de elementares) quanto de crimes contra a administração pública. Há interseção entre os temas 5076 e 5091, o que fundamenta a necessidade de revisão.\",\n  \"evidencia\": \"No crime de concussão, a circunstância de ser um dos agentes funcionário público\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28704,
+      "candidatesTokenCount": 209,
+      "totalTokenCount": 30166,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28704
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1253,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "iRbRat_aHO7rz7IP0KaR4AQ"
+  },
+  "duracao_segundos": 5.973655800000415,
+  "usage_metadata": {
+    "promptTokenCount": 28704,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 30166,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28704
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1253,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0085",
+    "tema_central_id": "5076",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5091"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a comunicabilidade da qualidade de funcionário público (elementar do crime de concussão) a coautor particular, exigindo conhecimentos tanto de Concurso de Pessoas (comunicabilidade de elementares) quanto de crimes contra a administração pública. Há interseção entre os temas 5076 e 5091, o que fundamenta a necessidade de revisão.",
+    "evidencia": "No crime de concussão, a circunstância de ser um dos agentes funcionário público",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "c08c918eeb45511d479acb15f2487e09bc78018c2e1d9007782265eab8c38222"
+}

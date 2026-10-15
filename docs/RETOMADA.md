@@ -1,6 +1,6 @@
 # Ponto de retomada do case
 
-Segundo bloco do módulo 4 concluído em 15/10/2026. Foram feitas vinte novas chamadas, com dezessete novos sucessos; Q0005 também foi recuperada offline. O trabalho está no ponto de revisão e commit do usuário; não há execução de API em andamento. O próximo bloco, quando autorizado, continuará limitado a vinte novas chamadas no total, incluindo eventuais retomadas após falhas. Ao concluir cada bloco ou módulo, apresentar o resultado e parar para revisão e commit antes de seguir.
+Terceiro bloco do módulo 4 concluído em 15/10/2026. Foram feitas vinte novas chamadas, com dezenove novos sucessos e uma resposta rejeitada por evidência inválida em Q0083. O trabalho está no ponto de revisão e commit do usuário; não há execução de API em andamento. O próximo bloco, quando autorizado, continuará limitado a vinte novas chamadas no total, incluindo eventuais retomadas após falhas. Ao concluir cada bloco ou módulo, apresentar o resultado e parar para revisão e commit antes de seguir.
 
 ## Estado salvo
 
@@ -9,22 +9,24 @@ Segundo bloco do módulo 4 concluído em 15/10/2026. Foram feitas vinte novas ch
 | Módulo 1: dados e árvore | Concluído: 359 questões preparadas, 377 temas validados, 375 ativos |
 | Módulo 2: protocolo | Definido: política v1, referências por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | Módulo 3: integração e pilotos | Concluído: dois pilotos de vinte casos, prompt v2 selecionado |
-| Módulo 4: lote completo | 90 respostas tecnicamente válidas, nenhuma falha atual pendente e 269 IDs sem recibo |
+| Módulo 4: lote completo | 109 respostas tecnicamente válidas, Q0083 com erro de evidência e 249 IDs sem recibo; 250 pendências no total |
 | Módulo 5: decisão e avaliação | Funções e testes offline prontos; integração CLI e aplicação aos resultados reais pendentes |
 | Módulo 6: relatório e memo | Pendente |
 | Módulo 7: entrega final e reprodução | Pendente; esta pausa valida a base, não conclui a entrega |
 
-O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`. São 89 recibos com sucesso e uma recuperação offline, totalizando 90 sugestões válidas. Os vinte sucessos do piloto v2 estão incluídos, pois foram reutilizados sem novas chamadas. O novo bloco concluiu Q0057, Q0058 e Q0060 a Q0074; Q0059 já vinha do piloto. A primeira resposta de Q0005 passa na validação atual de evidência e foi recuperada em `Q0005.revalidacao.json`. O recibo original conserva o status histórico de erro, as quatro tentativas e todo o consumo. A recuperação técnica não representa uma decisão de publicação.
+O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`. São 108 recibos com sucesso e a recuperação offline anterior de Q0005, totalizando 109 sugestões válidas. Os vinte sucessos do piloto v2 estão incluídos, pois foram reutilizados sem novas chamadas. O novo bloco processou Q0075 a Q0077 e Q0079 a Q0095; Q0078 já vinha do piloto. Todos passaram, exceto Q0083. A recuperação de Q0005 em `Q0005.revalidacao.json` continua válida; o recibo original conserva o status histórico de erro, as quatro tentativas e todo o consumo. A recuperação técnica não representa uma decisão de publicação.
 
-O [checkpoint atual](../artefatos/checkpoints/bloco_2026-10-15_02.json) guarda IDs por estado, hashes dos recibos e da revalidação, além do consumo registrado. São 97 tentativas nessa pasta, incluindo histórico, com 2.831.461 tokens totais informados. O segundo bloco acrescentou 511.736 tokens conhecidos em dezessete respostas; as três falhas HTTP 503 não informaram consumo e não são tratadas como consumo zero. Não somar novamente o piloto v2 ao contabilizar todo o projeto. O [primeiro bloco de 15/10](../artefatos/checkpoints/bloco_2026-10-15_01.json) e o [checkpoint da pausa de 14/10](../artefatos/checkpoints/pausa_2026-10-14.json) permanecem preservados. A interrupção de 14/10 pode ter ocorrido após o envio de uma chamada ainda sem recibo; eventual consumo não registrado também permanece desconhecido.
+Q0083 passou pelo extrator JSON, esquema e IDs ativos, mas a evidência concatena trechos separados do enunciado com reticências inexistentes no texto. A resposta foi corretamente rejeitada pela exigência de evidência literal, que só tolera diferenças de caixa e espaços. O recibo e seu consumo estão preservados. A próxima execução tentará Q0083 novamente antes de avançar aos IDs sem recibo; não editar a evidência nem relaxar o validador para aceitá-la.
 
-A execução terminou pelo limite agregado de vinte chamadas, sem lock residual. Houve três interrupções HTTP 503 por indisponibilidade do provedor: duas em Q0058 e uma em Q0063. Após espera, as retomadas respeitaram o saldo de chamadas do bloco e ambas as questões tiveram sucesso. A última invocação terminou com código zero. Nenhum processo de API foi deixado rodando para concluir o restante do lote.
+O [checkpoint atual](../artefatos/checkpoints/bloco_2026-10-15_03.json) guarda IDs por estado, hashes dos recibos e da revalidação, além do consumo registrado. São 117 tentativas nessa pasta, incluindo histórico, com 3.431.561 tokens totais informados. O terceiro bloco acrescentou 600.100 tokens nas vinte respostas, incluindo a rejeitada em Q0083. As três falhas HTTP 503 do bloco anterior não informaram consumo e não são tratadas como consumo zero. Não somar novamente o piloto v2 ao contabilizar todo o projeto. Os checkpoints do [segundo bloco](../artefatos/checkpoints/bloco_2026-10-15_02.json), do [primeiro bloco de 15/10](../artefatos/checkpoints/bloco_2026-10-15_01.json) e da [pausa de 14/10](../artefatos/checkpoints/pausa_2026-10-14.json) permanecem preservados. A interrupção de 14/10 pode ter ocorrido após o envio de uma chamada ainda sem recibo; eventual consumo não registrado também permanece desconhecido.
 
-## Verificações do segundo bloco de 15 de outubro
+A execução terminou pelo limite de vinte chamadas em uma única invocação, sem erro da API nem lock residual. O código de saída foi 1 devido à pendência local de Q0083; os dezenove novos sucessos estão salvos. Nenhum processo de API foi deixado rodando para concluir o restante do lote.
+
+## Verificações do terceiro bloco de 15 de outubro
 
 - `python -B -m unittest discover -s tests -q`: 213 testes, 212 aprovados e um pulado por falta de privilégio do Windows para criar link simbólico real. A proteção também possui teste simulado aprovado.
 - Todos os recibos presentes tiveram identidade do experimento, checksum e histórico conferidos. As sugestões válidas passaram pelo esquema, IDs ativos e correspondência de evidência. A revalidação confere novamente a origem e a seleção da primeira tentativa tecnicamente válida.
-- Os 73 recibos anteriores permaneceram byte a byte idênticos, incluindo Q0005. Foram acrescentados o comando de revalidação offline, sua integração ao executor e às decisões e testes de integridade. Modelo, prompt, política e regras de evidência permaneceram iguais.
+- Os 90 recibos anteriores e a revalidação de Q0005 permaneceram byte a byte idênticos. Código, modelo, prompt, política e regras de evidência permaneceram iguais.
 - Hashes das fontes originais conferidos; os materiais fornecidos permanecem intactos.
 - Em 14/10, preparação e prompts dos pilotos v1, v2 e lote v2 foram reconstruídos em pasta temporária, com hashes idênticos aos produtos existentes. Na retomada, os hashes das fontes e manifestos foram reconferidos.
 - `.env` e `contexto_local/` continuam ignorados pelo Git. A busca por padrão de chave Google nos artefatos do bloco não encontrou credencial.
@@ -33,16 +35,16 @@ A execução terminou pelo limite agregado de vinte chamadas, sem lock residual.
 
 ## Commit deste checkpoint
 
-A base anterior já estava commitada e o repositório estava limpo no início desta retomada, em `949c906`. Este novo commit reúne a recuperação offline e seus testes, os novos recibos, o checkpoint e a documentação de progresso. O lote permanece incompleto e a retomada reutiliza os sucessos, inclusive Q0005 revalidada; a avaliação real ainda não foi executada.
+A base anterior já estava commitada e o repositório estava limpo no início desta retomada, em `e0f320b`. Este novo commit reúne os vinte novos recibos, o checkpoint e a documentação de progresso. O lote permanece incompleto e a retomada reutiliza os sucessos, inclusive Q0005 revalidada, enquanto tenta novamente Q0083; a avaliação real ainda não foi executada.
 
 Comandos sugeridos para o usuário, a partir da raiz:
 
 ```powershell
 git status --short
-git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md docs/PILOTO_V1.md classificacao_topicos/__main__.py classificacao_topicos/execucao.py classificacao_topicos/revalidacao.py classificacao_topicos/decisoes.py tests/test_cli.py tests/test_execucao.py tests/test_revalidacao.py tests/test_decisoes.py artefatos/checkpoints/bloco_2026-10-15_02.json artefatos/experimentos/lote-v2-35-flash-lite.json artefatos/execucoes/lote-v2-35-flash-lite
+git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md artefatos/checkpoints/bloco_2026-10-15_03.json artefatos/experimentos/lote-v2-35-flash-lite.json artefatos/execucoes/lote-v2-35-flash-lite
 git diff --cached --stat
 git diff --cached --name-only
-git commit -m "fix: recupera resposta salva e avanca lote para 90 validas"
+git commit -m "data: registra bloco do lote com 109 respostas validas"
 ```
 
 Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` permanecem no computador, mas são ignorados: repetem o catálogo e são regeneráveis. Templates, manifestos, fontes, recibos e análises são versionáveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0082",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:07:04.095853+00:00",
+  "sha256_prompt": "2431c29fe4616c31148f24bf40891f2475b02b9661c6ea8f3c103884cd23332a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ebd8ad3196b34748c4a8b3dc16d2c0195e83487a933c75fb0480c40b1b150d65",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0082\",\n  \"tema_central_id\": \"5100\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os crimes contra a administração pública, especificamente o crime de resistência, praticado quando o indivíduo se opõe à execução de ato legal mediante grave ameaça a funcionário público competente.\",\n  \"evidencia\": \"durante a contenção de Tício, este se opôs à execução do ato afirmando que mataria João caso não fosse solto.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28833,
+      "candidatesTokenCount": 171,
+      "totalTokenCount": 29990,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28833
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 986,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "SBbRaq3PMtvQz7IPmJadwAQ"
+  },
+  "duracao_segundos": 8.62507590000314,
+  "usage_metadata": {
+    "promptTokenCount": 28833,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 29990,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28833
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 986,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0082",
+    "tema_central_id": "5100",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os crimes contra a administração pública, especificamente o crime de resistência, praticado quando o indivíduo se opõe à execução de ato legal mediante grave ameaça a funcionário público competente.",
+    "evidencia": "durante a contenção de Tício, este se opôs à execução do ato afirmando que mataria João caso não fosse solto.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b286b9edc7c264eea58b3a586ea1082722bbf0edd794aec3de6f7414dc7aab8f"
+}

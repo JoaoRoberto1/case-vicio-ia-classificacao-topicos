@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0084",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:07:42.180123+00:00",
+  "sha256_prompt": "18582f52c6ee7af6c865267a264c677c8b5aec651301f7d7d473443cd2b36b64",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "671a49d12b5f6fb44c423450ad54d54881ee57f65ffa5e5acf9925dd6bb35a7a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0084\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda aspectos da Lei Maria da Penha. Como o catálogo apresenta nós duplicados para esta legislação em ramos distintos (Legislação Especial e Penal), sugere-se o tema central com inclusão do concorrente em temas_alternativos e requer_revisao=true devido à sobreposição editorial.\",\n  \"evidencia\": \"Sobre a assistência à mulher em situação de violência doméstica e familiar prevista na Lei Maria da Penha, analise as assertivas abaixo e assinale a alternativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28806,
+      "candidatesTokenCount": 207,
+      "totalTokenCount": 29828,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28806
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 815,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "bhbRavnHOLCsz7IPreu36AQ"
+  },
+  "duracao_segundos": 16.538951300000917,
+  "usage_metadata": {
+    "promptTokenCount": 28806,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 29828,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28806
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 815,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0084",
+    "tema_central_id": "4704",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6724"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda aspectos da Lei Maria da Penha. Como o catálogo apresenta nós duplicados para esta legislação em ramos distintos (Legislação Especial e Penal), sugere-se o tema central com inclusão do concorrente em temas_alternativos e requer_revisao=true devido à sobreposição editorial.",
+    "evidencia": "Sobre a assistência à mulher em situação de violência doméstica e familiar prevista na Lei Maria da Penha, analise as assertivas abaixo e assinale a alternativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "298d577d5f3de3aa1964505fa66f88fc34f5d0c073414ace1211b71b3e08e6d6"
+}

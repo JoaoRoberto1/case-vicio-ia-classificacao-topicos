@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0079",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:05:49.668237+00:00",
+  "sha256_prompt": "d1916e04bc8d7f90706b8b1ba1ff577994e5660c853b32afbd2360247b2c5b68",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4a271c3f1136b46845ff89f9bc9eadec3e5c9766eb996856a246df2e768616bc",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0079\",\n  \"tema_central_id\": \"5581\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os conceitos, características e distinções entre os sistemas processuais penais (acusatório e inquisitivo), encaixando-se perfeitamente no tema de sistemas processuais penais.\",\n  \"evidencia\": \"Em relação aos sistemas processuais penais e aos seus princípios reitores, assinale a opção correta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28784,
+      "candidatesTokenCount": 163,
+      "totalTokenCount": 29510,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28784
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 563,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "_hXRatvOGKGVmtkPyLel-Qc"
+  },
+  "duracao_segundos": 26.993556099998386,
+  "usage_metadata": {
+    "promptTokenCount": 28784,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 29510,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28784
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 563,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0079",
+    "tema_central_id": "5581",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os conceitos, características e distinções entre os sistemas processuais penais (acusatório e inquisitivo), encaixando-se perfeitamente no tema de sistemas processuais penais.",
+    "evidencia": "Em relação aos sistemas processuais penais e aos seus princípios reitores, assinale a opção correta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f5550a61cd1e4c393317a6047684f0b9f2e9a8f0b9479f59f53fd035db8c858d"
+}

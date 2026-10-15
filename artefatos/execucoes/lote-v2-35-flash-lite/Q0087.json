@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0087",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:08:46.878535+00:00",
+  "sha256_prompt": "3102b3bd5f41bf6687747804def8b9334f3a818e4a326f1f90281a9497df6751",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "577820acbaee9245669eed8b9e67d7be224d3c1872513e2445aa0cebdb4475c6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0087\",\n  \"tema_central_id\": \"5521\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4703\",\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a prisão domiciliar no âmbito da execução penal e o art. 117 da LEP, gerando concorrência entre o tema específico de prisão domiciliar nas prisões em espécie e a Lei de Execução Penal, exigindo revisão editorial da duplicidade entre os ramos.\",\n  \"evidencia\": \"a prisão domiciliar na execução penal\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28711,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 30503,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28711
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1605,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "sBbRavDTHOOFz7IPtu-g6AQ"
+  },
+  "duracao_segundos": 22.870614399998885,
+  "usage_metadata": {
+    "promptTokenCount": 28711,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 30503,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28711
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1605,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0087",
+    "tema_central_id": "5521",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4703",
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a prisão domiciliar no âmbito da execução penal e o art. 117 da LEP, gerando concorrência entre o tema específico de prisão domiciliar nas prisões em espécie e a Lei de Execução Penal, exigindo revisão editorial da duplicidade entre os ramos.",
+    "evidencia": "a prisão domiciliar na execução penal",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "94b4b8f1b2b40b9f5d4689f6ebed644db42e4cb51bfffa95b32c519f0aac7493"
+}

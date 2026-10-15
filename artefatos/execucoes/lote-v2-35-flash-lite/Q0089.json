@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0089",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:09:43.151741+00:00",
+  "sha256_prompt": "078e9449a162a58bffd8a5314c811dfc5b3791a103680077aba6a56cfa74ab48",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "eadcdd80197439312005c986fd75e84d890956567f12d10e9cca01a73583e3e9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0089\",\n  \"tema_central_id\": \"5172\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda os fundamentos e os requisitos jurisprudenciais do princípio da insignificância no Direito Penal, correspondendo ao tema Princípios do Direito Penal.\",\n  \"evidencia\": \"o princípio da insignificância tem o sentido de excluir ou de afastar a própria tipicidade penal\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29131,
+      "candidatesTokenCount": 152,
+      "totalTokenCount": 29648,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29131
+        }
+      ],
+      "thoughtsTokenCount": 365,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "6BbRarlKpY_p2Q_ws4qBBw"
+  },
+  "duracao_segundos": 4.778396999998222,
+  "usage_metadata": {
+    "promptTokenCount": 29131,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 29648,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29131
+      }
+    ],
+    "thoughtsTokenCount": 365,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0089",
+    "tema_central_id": "5172",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda os fundamentos e os requisitos jurisprudenciais do princípio da insignificância no Direito Penal, correspondendo ao tema Princípios do Direito Penal.",
+    "evidencia": "o princípio da insignificância tem o sentido de excluir ou de afastar a própria tipicidade penal",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "4166850547e5bbe552c809ab1dafcab0bc46b1bc0de5b7e28a0eccb85b9ff804"
+}

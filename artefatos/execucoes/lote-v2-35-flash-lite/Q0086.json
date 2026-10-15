@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0086",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:08:24.712001+00:00",
+  "sha256_prompt": "4041cb303b2e2dad532a7d2022b2b8139aa720cd54bc0429794a57b003e162e9",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3d1d83c7b15f10eb48620fc65563654362fefdeae9ae3f36f6ad54482cbe982d",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0086\",\n  \"tema_central_id\": \"5092\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5091\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão versa sobre o crime de corrupção passiva (art. 317 do CP), tratando da conduta de funcionário público que aceita promessa de vantagem indevida para omitir ato de ofício, delito que se consuma independentemente do recebimento efetivo da vantagem.\",\n  \"evidencia\": \"deixou de autuar uma empresa que havia cometido infração às normas de segurança no trabalho porque o dirigente dessa empresa prometeu-lhe uma semana de estadia num hotel de luxo\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28743,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 29479,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28743
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 523,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "mRbRatnQHpmtqtsPuZaEkQ8"
+  },
+  "duracao_segundos": 12.157108399998833,
+  "usage_metadata": {
+    "promptTokenCount": 28743,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 29479,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28743
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 523,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0086",
+    "tema_central_id": "5092",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5091"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão versa sobre o crime de corrupção passiva (art. 317 do CP), tratando da conduta de funcionário público que aceita promessa de vantagem indevida para omitir ato de ofício, delito que se consuma independentemente do recebimento efetivo da vantagem.",
+    "evidencia": "deixou de autuar uma empresa que havia cometido infração às normas de segurança no trabalho porque o dirigente dessa empresa prometeu-lhe uma semana de estadia num hotel de luxo",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0d1261d4a1d6e371f4f752409bd9b85427e2f82322305082ece53c61f78bbe0f"
+}

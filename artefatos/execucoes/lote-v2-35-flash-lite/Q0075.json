@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0075",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:04:56.060616+00:00",
+  "sha256_prompt": "a35a832653136014b0e99360c77865b827b35ab67b38d0ed6d75c7336537ce0c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "28cad8d94338981459d31cff524f67fd21b22f483bba42c403e4fe8a95e35325",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0075\",\n  \"tema_central_id\": \"5191\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os efeitos da extinção da punibilidade, tratando da comunicabilidade, elementos constitutivos, agravantes e crimes conexos (art. 108 do Código Penal), matéria diretamente vinculada ao tema de Punibilidade.\",\n  \"evidencia\": \"Quanto à comunicabilidade da extinção da punibilidade, é INCORRETO afirmar:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28719,
+      "candidatesTokenCount": 166,
+      "totalTokenCount": 29789,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28719
+        }
+      ],
+      "thoughtsTokenCount": 904,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "yRXRavj6A5Ptz7IPx6CQKQ"
+  },
+  "duracao_segundos": 7.393389799999568,
+  "usage_metadata": {
+    "promptTokenCount": 28719,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 29789,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28719
+      }
+    ],
+    "thoughtsTokenCount": 904,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0075",
+    "tema_central_id": "5191",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os efeitos da extinção da punibilidade, tratando da comunicabilidade, elementos constitutivos, agravantes e crimes conexos (art. 108 do Código Penal), matéria diretamente vinculada ao tema de Punibilidade.",
+    "evidencia": "Quanto à comunicabilidade da extinção da punibilidade, é INCORRETO afirmar:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "eef7e9044413cfe272cc4567e95ed90203a120adb8243895e6d64f3e2b9689a7"
+}

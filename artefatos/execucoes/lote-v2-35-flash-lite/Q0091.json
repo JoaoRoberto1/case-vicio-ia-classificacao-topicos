@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "Q0091",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:10:15.051042+00:00",
+  "sha256_prompt": "024d8fa6f1370782bca5c1ad82457c7a9231d653ad0522bf4f29ee84120989f0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "fb03b16c205e328942268950e5c6d8c42f3f20908cd737e09d1a9f711f7f78bf",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0091\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5201\",\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a progressão de regime prisional durante o cumprimento da pena, matéria que transita entre a Teoria da Pena (Direito Penal) e a Lei de Execução Penal, gerando interseção e duplicidade entre os ramos.\",\n  \"evidencia\": \"Durante a execução da pena, ele apresentou comportamento excelente e colaborativo, por isso, após o período mínimo para a progressão de regime, seu advogado requereu ao juiz a passagem de Flávio para o regime aberto.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 426,
+              "endIndex": 639,
+              "uri": "https://www.aprovaconcursos.com.br/noticias/concurso-pf-2022",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28759,
+      "candidatesTokenCount": 216,
+      "totalTokenCount": 30666,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28759
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1691,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "CBfRavSyGJKZqtsPvNzL-AY"
+  },
+  "duracao_segundos": 7.962445000001026,
+  "usage_metadata": {
+    "promptTokenCount": 28759,
+    "candidatesTokenCount": 216,
+    "totalTokenCount": 30666,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1691,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0091",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5201",
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a progressão de regime prisional durante o cumprimento da pena, matéria que transita entre a Teoria da Pena (Direito Penal) e a Lei de Execução Penal, gerando interseção e duplicidade entre os ramos.",
+    "evidencia": "Durante a execução da pena, ele apresentou comportamento excelente e colaborativo, por isso, após o período mínimo para a progressão de regime, seu advogado requereu ao juiz a passagem de Flávio para o regime aberto.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d43194bacd6e8d4173300dae64ac95914987b3f321eea84bf97b334a7d9df78c"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0090",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:09:57.945285+00:00",
+  "sha256_prompt": "cbfcecb89957e5f31bc884515b5502c23970b950592bf4e806de840e1a5bef8d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ff741d1795958256ee3c4f7518d2ecf5bc91a39ca81ea9eb0f05d224a9b0b6db",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0090\",\n  \"tema_central_id\": \"5530\",\n  \"extras_ids\": [\n    \"5539\"\n  ],\n  \"temas_alternativos\": [\n    \"5524\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão mistura proposições independentes sobre diferentes ritos e institutos processuais penais, abrangendo o procedimento ordinário, o procedimento sumaríssimo e o Tribunal do Júri, sem um conhecimento central dominante exclusivo.\",\n  \"evidencia\": \"De acordo com o Código de Processo Penal, nos processos submetidos ao rito comum ordinário, a denúncia ou queixa serão rejeitadas quando forem manifestamente ineptas\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28937,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 30942,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28937
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1800,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9hbRao-wMYjUz7IP0O2i6AE"
+  },
+  "duracao_segundos": 7.097577599997749,
+  "usage_metadata": {
+    "promptTokenCount": 28937,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 30942,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28937
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1800,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0090",
+    "tema_central_id": "5530",
+    "extras_ids": [
+      "5539"
+    ],
+    "temas_alternativos": [
+      "5524"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão mistura proposições independentes sobre diferentes ritos e institutos processuais penais, abrangendo o procedimento ordinário, o procedimento sumaríssimo e o Tribunal do Júri, sem um conhecimento central dominante exclusivo.",
+    "evidencia": "De acordo com o Código de Processo Penal, nos processos submetidos ao rito comum ordinário, a denúncia ou queixa serão rejeitadas quando forem manifestamente ineptas",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a774c51c107223e8f6b2107b48d9e65d923cde1bb430a31e24296e11df9b4829"
+}

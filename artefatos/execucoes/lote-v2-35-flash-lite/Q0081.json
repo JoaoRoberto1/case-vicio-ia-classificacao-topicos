@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0081",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:06:50.522644+00:00",
+  "sha256_prompt": "116f3b00e39b4985b3d74f6f4ab0cc62d1493e1cf44d1fa9d96e1b8eb1216864",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2694ec00f02d2a2b6748a8eb22da4edc29a855e1e5a8f093c86e4c60521fa0ad",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0081\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4371\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente as escolas criminológicas, avaliando proposições sobre a Escola Clássica, a Escola Positivista e a Criminologia Crítica.\",\n  \"evidencia\": \"Acerca das Escolas da Criminologia, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28740,
+      "candidatesTokenCount": 173,
+      "totalTokenCount": 29651,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28740
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 738,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "OxbRapycD5qJz7IPw5u-YA"
+  },
+  "duracao_segundos": 3.565949499999988,
+  "usage_metadata": {
+    "promptTokenCount": 28740,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 29651,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 738,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0081",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4371"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente as escolas criminológicas, avaliando proposições sobre a Escola Clássica, a Escola Positivista e a Criminologia Crítica.",
+    "evidencia": "Acerca das Escolas da Criminologia, assinale (V) para a afirmativa verdadeira e (F) para a falsa.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "93c51524ccbda07bbc69c5ca5a6786a9a65691b1be10fbf659901f53465c13b9"
+}

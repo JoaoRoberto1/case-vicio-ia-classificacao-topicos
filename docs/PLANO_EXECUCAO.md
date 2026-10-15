@@ -7,7 +7,7 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
-| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Segundo bloco de 15/10 concluído: 90 válidas, nenhuma falha atual pendente, 269 sem recibo; aguarda revisão/commit |
+| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Terceiro bloco de 15/10 concluído: 109 válidas, Q0083 rejeitada, 249 sem recibo; aguarda revisão/commit |
 | 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | Política registrada; módulos offline preparados, integração e aplicação real pendentes |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
@@ -66,6 +66,16 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Os 73 recibos anteriores permaneceram byte a byte idênticos. Modelo, prompt e política preservados. A implementação de revalidação verifica hashes, histórico e seleção cronológica; o executor e as decisões usam a sugestão recuperada sem duplicar consumo.
 - Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. Última invocação encerrada com código zero, sem processo de API ativo ou lock residual.
 - Registro: `artefatos/checkpoints/bloco_2026-10-15_02.json`. Bloco pronto para revisão e commit do usuário; avaliação temática e entregas finais permanecem pendentes.
+
+### Terceiro bloco do módulo 4 concluído em 15 de outubro de 2026
+
+- Retomada autorizada pelo usuário após o commit `e0f320b`; vinte chamadas em uma única invocação, sem iniciar outro bloco.
+- Dezenove novos sucessos entre Q0075 a Q0077 e Q0079 a Q0095. Q0083 foi rejeitada porque sua evidência uniu trechos separados com reticências inexistentes no enunciado. O JSON e os IDs passaram; a validação de evidência rejeitou corretamente a resposta.
+- Estado acumulado: 109 sugestões tecnicamente válidas, sendo 108 sucessos nos recibos originais e a revalidação anterior de Q0005. Restam Q0083 e 249 questões sem recibo, totalizando 250 pendências.
+- Consumo do bloco: 600.100 tokens informados nas vinte respostas, incluindo a rejeitada. Nenhuma falha de API neste bloco. As três falhas HTTP 503 sem metadados do bloco anterior continuam identificadas no consumo acumulado.
+- Os 90 recibos anteriores e o derivado de Q0005 permaneceram byte a byte idênticos. Código, modelo, prompt, política e regras de evidência preservados.
+- Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. A CLI retornou 1 por Q0083 pendente; execução encerrada sem processo de API ativo ou lock residual.
+- Registro: `artefatos/checkpoints/bloco_2026-10-15_03.json`. Pronto para revisão e commit; a próxima execução tentará novamente Q0083 dentro do limite do próximo bloco.
 
 ## Registro de execução
 

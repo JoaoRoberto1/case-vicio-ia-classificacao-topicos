@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0093",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:10:49.625980+00:00",
+  "sha256_prompt": "f7a714f0dd9f0297a9ebe2d645bba3239e6881208fb5a12ece9927717a16ae6c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c5adb2f5a7c4fcac378d2e1ed50e19091bc7805b43518e67bdf7d8d9107815bd",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0093\",\n  \"tema_central_id\": \"5223\",\n  \"extras_ids\": [\n    \"5150\",\n    \"5142\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a distinção entre crime comissivo por omissão decorrente da posição de garante (caso do salva-vidas) e crime autônomo de omissão de socorro (caso do surfista), misturando institutos da Teoria Geral do Crime (Parte Geral) com crimes em espécie (Parte Especial).\",\n  \"evidencia\": \"Havia naquele local um salva-vidas que, ao avistar apenas JOÃO, notou que ele era seu desafeto e se recusou a salvá-lo\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28772,
+      "candidatesTokenCount": 222,
+      "totalTokenCount": 30362,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28772
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1368,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "KhfRarzZEK3oz7IPrNvZWA"
+  },
+  "duracao_segundos": 7.38896019999811,
+  "usage_metadata": {
+    "promptTokenCount": 28772,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 30362,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28772
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1368,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0093",
+    "tema_central_id": "5223",
+    "extras_ids": [
+      "5150",
+      "5142"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a distinção entre crime comissivo por omissão decorrente da posição de garante (caso do salva-vidas) e crime autônomo de omissão de socorro (caso do surfista), misturando institutos da Teoria Geral do Crime (Parte Geral) com crimes em espécie (Parte Especial).",
+    "evidencia": "Havia naquele local um salva-vidas que, ao avistar apenas JOÃO, notou que ele era seu desafeto e se recusou a salvá-lo",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "198bdcf15840dffe513b467153f06676a2e1859ea7d913c6226873e1370747cf"
+}

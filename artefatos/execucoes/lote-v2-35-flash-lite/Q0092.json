@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0092",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:10:33.020124+00:00",
+  "sha256_prompt": "96d38ddeea07a713564716e2047cc605858c135a9a98c97c55bcdb2d682575b4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8e6988055f5c8e39924d70992d8b6e386e4583c25e90499633442b539c61cb30",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0092\",\n  \"tema_central_id\": \"5509\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5480\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o regime das nulidades no processo penal, especificamente exigindo o conhecimento dos artigos 567 e 568 do Código de Processo Penal acerca dos efeitos da incompetência do juízo e da ilegitimidade do representante.\",\n  \"evidencia\": \"Nos termos dos artigos 567 e 568 do CPP, assinale a alternativa que completa, correta e respectivamente, as lacunas do texto.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28739,
+      "candidatesTokenCount": 197,
+      "totalTokenCount": 30269,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28739
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1333,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GRfRap3fLa_sz7IP-6Gt-Ag"
+  },
+  "duracao_segundos": 6.5987124999992375,
+  "usage_metadata": {
+    "promptTokenCount": 28739,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 30269,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28739
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1333,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0092",
+    "tema_central_id": "5509",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5480"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o regime das nulidades no processo penal, especificamente exigindo o conhecimento dos artigos 567 e 568 do Código de Processo Penal acerca dos efeitos da incompetência do juízo e da ilegitimidade do representante.",
+    "evidencia": "Nos termos dos artigos 567 e 568 do CPP, assinale a alternativa que completa, correta e respectivamente, as lacunas do texto.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1cbf0d7dd099e89b3247daf01332dfc22a9acfea9c6a3e19d4c4270579870308"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0076",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:05:13.459359+00:00",
+  "sha256_prompt": "6b1c87e51cb35bf6419b436e6be835881c0cff7218720c482bbab26ce0be653a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5d7d84926496bc55a0b48240b6274007a420cffe4f75a5e0399b31fd2855ca39",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0076\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4371\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os fundadores da Criminologia Positivista, tema diretamente relacionado às escolas criminológicas.\",\n  \"evidencia\": \"Os autores que fundaram a Criminologia (Positivista) são:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28704,
+      "candidatesTokenCount": 149,
+      "totalTokenCount": 29439,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28704
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 586,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "2xXRapm-AtKyqtsPirWqkAc"
+  },
+  "duracao_segundos": 4.220634900000732,
+  "usage_metadata": {
+    "promptTokenCount": 28704,
+    "candidatesTokenCount": 149,
+    "totalTokenCount": 29439,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28704
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 586,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0076",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4371"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os fundadores da Criminologia Positivista, tema diretamente relacionado às escolas criminológicas.",
+    "evidencia": "Os autores que fundaram a Criminologia (Positivista) são:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8c200e1d5ade55ea83b0d1ec24800befdab1f2d6837e196d44c69c68181c9281"
+}

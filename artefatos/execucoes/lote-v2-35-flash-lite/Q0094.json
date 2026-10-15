@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0094",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:11:07.021385+00:00",
+  "sha256_prompt": "66f79788ebc6906c9c14bd3bb885f004a69adc62a395385aa1fc540408cdb1a4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "74a9404cfdbc90b64a1ae750483bc636ee2804e8f7ba8cfa07463ba027387ce0",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0094\",\n  \"tema_central_id\": \"4377\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4388\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o impacto estigmatizante do uso de vestimentas prisionais em julgamentos, tema diretamente ligado aos processos de criminalização secundária e à teoria do etiquetamento (labelling approach).\",\n  \"evidencia\": \"A utilização de roupas do presídio por um acusado no Tribunal do Júri está associada a qual tema da Criminologia?\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28745,
+      "candidatesTokenCount": 181,
+      "totalTokenCount": 30253,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28745
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1327,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "OxfRasTmLeOFz7IPtu-g6AQ"
+  },
+  "duracao_segundos": 13.084145999997418,
+  "usage_metadata": {
+    "promptTokenCount": 28745,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 30253,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28745
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1327,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0094",
+    "tema_central_id": "4377",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4388"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o impacto estigmatizante do uso de vestimentas prisionais em julgamentos, tema diretamente ligado aos processos de criminalização secundária e à teoria do etiquetamento (labelling approach).",
+    "evidencia": "A utilização de roupas do presídio por um acusado no Tribunal do Júri está associada a qual tema da Criminologia?",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3f55ca4f721fbbb1ffa09c4d0387ed037d97e5aeac928859d655afccc822f11c"
+}

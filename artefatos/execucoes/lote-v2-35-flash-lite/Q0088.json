@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0088",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:09:19.757337+00:00",
+  "sha256_prompt": "ea3e75c6e18f373c57d1c9f95e82c3268264b5a89e102db1e19495f22cdb8fd1",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "26fd31fb46d4963b8bbfa99d88b7ded6493de88a119939ea4ff72a5e9365cd5c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0088\",\n  \"tema_central_id\": \"4381\",\n  \"extras_ids\": [\n    \"4389\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o conceito e o objeto da criminologia, contrapondo-os diretamente ao objeto de estudo da vitimologia.\",\n  \"evidencia\": \"Enquanto a criminologia pode ser identificada como a ciência que se dedica ao estudo do crime, do criminoso e dos fatores da criminalidade, a vitimologia tem por objeto o estudo da vítima\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28643,
+      "candidatesTokenCount": 181,
+      "totalTokenCount": 29642,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28643
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 818,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0BbRarSgFdKyqtsPirWqkAc"
+  },
+  "duracao_segundos": 13.385327899999538,
+  "usage_metadata": {
+    "promptTokenCount": 28643,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 29642,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28643
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 818,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0088",
+    "tema_central_id": "4381",
+    "extras_ids": [
+      "4389"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o conceito e o objeto da criminologia, contrapondo-os diretamente ao objeto de estudo da vitimologia.",
+    "evidencia": "Enquanto a criminologia pode ser identificada como a ciência que se dedica ao estudo do crime, do criminoso e dos fatores da criminalidade, a vitimologia tem por objeto o estudo da vítima",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "2744692e979900653b87cc221831a7809a29ec5a3ba75360b628b50c4e0b0ef8"
+}

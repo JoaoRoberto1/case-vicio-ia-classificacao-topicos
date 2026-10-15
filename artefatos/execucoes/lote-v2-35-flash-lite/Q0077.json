@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0077",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:05:27.685854+00:00",
+  "sha256_prompt": "3335b1dcb24ba7eca72a1405a8c1a32001079d07ec57d75f09ecd121ba894d8f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "97c644402e19a0ea9db52ec69ac96baa8496c7d9718c0cefa36310b16c0ab342",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0077\",\n  \"tema_central_id\": \"5171\",\n  \"extras_ids\": [\n    \"5194\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão apresenta proposições independentes que abordam temas distintos do Direito Penal e Processual Penal, como normas penais em branco, abolitio criminis e competência para cartas rogatórias, sem um conhecimento central dominante.\",\n  \"evidencia\": \"Norma penal em branco heterogênea homovitelina é aquela em que o complemento do preceito primário da norma advém da mesma fonte formal de produção.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28976,
+      "candidatesTokenCount": 191,
+      "totalTokenCount": 30139,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28976
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 972,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "6RXRauXTErraqtsP1tmDiAc"
+  },
+  "duracao_segundos": 11.976957299997594,
+  "usage_metadata": {
+    "promptTokenCount": 28976,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 30139,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28976
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 972,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0077",
+    "tema_central_id": "5171",
+    "extras_ids": [
+      "5194"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão apresenta proposições independentes que abordam temas distintos do Direito Penal e Processual Penal, como normas penais em branco, abolitio criminis e competência para cartas rogatórias, sem um conhecimento central dominante.",
+    "evidencia": "Norma penal em branco heterogênea homovitelina é aquela em que o complemento do preceito primário da norma advém da mesma fonte formal de produção.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "c98b92910ed97bbc2f47de87df396c38580044b897639aad1a028389bb91411f"
+}

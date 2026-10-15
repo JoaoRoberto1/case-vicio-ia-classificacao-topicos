@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0095",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:11:30.118043+00:00",
+  "sha256_prompt": "d487c562037e53c9f5a5def9863cd50d5315685e922a805851f3af0122d166e2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "51b0ee86c94b4321956ecd4a36451041e82a12f4f5bcceac48e4580d7deecd18",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0095\",\n  \"tema_central_id\": \"5197\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a aplicação do instituto do perdão judicial tanto no homicídio culposo quanto na lesão corporal culposa, exigindo o conhecimento das hipóteses de incidência e dos requisitos legais e jurisprudenciais aplicáveis.\",\n  \"evidencia\": \"No que concerne à lesão corporal sofrida por Jano e ao homicídio praticado por Saturno, o perdão judicial, ao menos em tese:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28812,
+      "candidatesTokenCount": 181,
+      "totalTokenCount": 29966,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28812
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 973,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "UhfRas3ENpn9qtsP6dWEmAc"
+  },
+  "duracao_segundos": 8.740719700002956,
+  "usage_metadata": {
+    "promptTokenCount": 28812,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 29966,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28812
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 973,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0095",
+    "tema_central_id": "5197",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a aplicação do instituto do perdão judicial tanto no homicídio culposo quanto na lesão corporal culposa, exigindo o conhecimento das hipóteses de incidência e dos requisitos legais e jurisprudenciais aplicáveis.",
+    "evidencia": "No que concerne à lesão corporal sofrida por Jano e ao homicídio praticado por Saturno, o perdão judicial, ao menos em tese:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "75bfafced110aa92fc0947caf9e399f263a54afb4eee33f83b9dede14a81413b"
+}
