@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0114",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:27:56.771901+00:00",
+  "sha256_prompt": "fbfee2beab7141f30f62b8b603ff8a37ab0b00abf03e6d2760680cac1c1ea0f0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c39baefb5f574e79b4ab51298be954bd6e970cca8bbdbad0b1370b8706c6d064",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0114\",\n  \"tema_central_id\": \"5466\",\n  \"extras_ids\": [\n    \"4704\"\n  ],\n  \"temas_alternativos\": [\n    \"5063\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a natureza da ação penal e seus efeitos temporais em crimes de violência doméstica contra a mulher (ADI 4424), tocando em Processo Penal, Direito Penal e Legislação Especial. Há duplicidade de tratamento entre os ramos de Penal e Processo Penal para o tema de Ação Penal, exigindo revisão editorial.\",\n  \"evidencia\": \"entendeu ser a ação penal por lesão corporal leve, no âmbito da violência doméstica contra a mulher, pública incondicionada\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29085,
+      "candidatesTokenCount": 220,
+      "totalTokenCount": 31046,
+      "cachedContentTokenCount": 26284,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29085
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26284
+        }
+      ],
+      "thoughtsTokenCount": 1741,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "LRvRas75JeGzmtkPp-npcQ"
+  },
+  "duracao_segundos": 7.029011499998887,
+  "usage_metadata": {
+    "promptTokenCount": 29085,
+    "candidatesTokenCount": 220,
+    "totalTokenCount": 31046,
+    "cachedContentTokenCount": 26284,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29085
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26284
+      }
+    ],
+    "thoughtsTokenCount": 1741,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0114",
+    "tema_central_id": "5466",
+    "extras_ids": [
+      "4704"
+    ],
+    "temas_alternativos": [
+      "5063"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a natureza da ação penal e seus efeitos temporais em crimes de violência doméstica contra a mulher (ADI 4424), tocando em Processo Penal, Direito Penal e Legislação Especial. Há duplicidade de tratamento entre os ramos de Penal e Processo Penal para o tema de Ação Penal, exigindo revisão editorial.",
+    "evidencia": "entendeu ser a ação penal por lesão corporal leve, no âmbito da violência doméstica contra a mulher, pública incondicionada",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2a604df722ce91ef6db87c01801cda803075f56e54152c053c82bb33b05d025e"
+}

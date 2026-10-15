@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0096",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:23:50.015138+00:00",
+  "sha256_prompt": "71f9816c5b8cc0b218f6ba13ebecffd2f71ed062d578830db258737f4164dab1",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0802269b6fad1603ce1ee78df70bdc07cf41169e0e599d06d2f2471dc6536c49",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0096\",\n  \"tema_central_id\": \"5480\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5486\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão versa sobre a derrogação da competência territorial, matéria tratada no âmbito das regras de competência e sua modificação no processo penal.\",\n  \"evidencia\": \"Ocorre a derrogação da competência territorial:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28641,
+      "candidatesTokenCount": 151,
+      "totalTokenCount": 29858,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28641
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1066,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "NhrRaq6LMpKZqtsPvNzL-AY"
+  },
+  "duracao_segundos": 4.6979083999976865,
+  "usage_metadata": {
+    "promptTokenCount": 28641,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 29858,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28641
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1066,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0096",
+    "tema_central_id": "5480",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5486"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão versa sobre a derrogação da competência territorial, matéria tratada no âmbito das regras de competência e sua modificação no processo penal.",
+    "evidencia": "Ocorre a derrogação da competência territorial:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c01e1f5ffa6b28436521ad02d48f2af1fd498edcdae9ae3b15ae48c724967b7e"
+}

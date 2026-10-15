@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0106",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:26:09.329569+00:00",
+  "sha256_prompt": "35f841bd9265f8aea698832ea853b7e9defe4ccb49836517a703731b9f455784",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "aa19034da2043f47aef032dcaf30ab07af50559c1ae4f4df769c0dd19e32ad1a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0106\",\n  \"tema_central_id\": \"5166\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a tipicidade penal da conduta conhecida como 'pendura', que corresponde ao crime previsto no art. 176 do Código Penal (outras fraudes), matéria inserida no capítulo e tópico de estelionato e fraudes contra o patrimônio.\",\n  \"evidencia\": \"Delito de fraude, consistente em tomar refeições em restaurante, sem dispor de recursos para pagar as despesas.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28702,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 29897,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28702
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1015,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "whrRapXiBu7rz7IP8eSz-A8"
+  },
+  "duracao_segundos": 5.398625699999684,
+  "usage_metadata": {
+    "promptTokenCount": 28702,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 29897,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28702
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1015,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0106",
+    "tema_central_id": "5166",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a tipicidade penal da conduta conhecida como 'pendura', que corresponde ao crime previsto no art. 176 do Código Penal (outras fraudes), matéria inserida no capítulo e tópico de estelionato e fraudes contra o patrimônio.",
+    "evidencia": "Delito de fraude, consistente em tomar refeições em restaurante, sem dispor de recursos para pagar as despesas.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "2a54e50f25502711d2d8ca305d1fad30d92a333d61cb28fd32557b7c1943b474"
+}

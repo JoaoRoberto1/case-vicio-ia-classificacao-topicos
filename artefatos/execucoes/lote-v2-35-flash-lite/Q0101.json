@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0101",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:24:53.491728+00:00",
+  "sha256_prompt": "2a25a84b19f99f6ad4f593b116c1bbd832d0ab344bb2968540e2c94a2429f664",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9a74a0efb16036af93179d6cd5c3ba7ff4a3839a289e8c0293b3cfd2da486197",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0101\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a competência para o ajuizamento de ação de divórcio e partilha de bens sob a égide da Lei Maria da Penha. Como o catálogo contempla a matéria de forma duplicada em ramos distintos (Legislação Especial e Penal), adota-se o nó de Legislação Especial como central e o de Penal como alternativo, requerendo revisão devido à duplicidade editorial.\",\n  \"evidencia\": \"De acordo com a Lei Maria da Penha, a ação de divórcio ou dissolução de união estável de mulher vítima de violência doméstica e familiar\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28851,
+      "candidatesTokenCount": 228,
+      "totalTokenCount": 30211,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28851
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1132,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dhrRap7FE5GnmtkP0OWDmAg"
+  },
+  "duracao_segundos": 5.246723000000202,
+  "usage_metadata": {
+    "promptTokenCount": 28851,
+    "candidatesTokenCount": 228,
+    "totalTokenCount": 30211,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28851
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1132,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0101",
+    "tema_central_id": "4704",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6724"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a competência para o ajuizamento de ação de divórcio e partilha de bens sob a égide da Lei Maria da Penha. Como o catálogo contempla a matéria de forma duplicada em ramos distintos (Legislação Especial e Penal), adota-se o nó de Legislação Especial como central e o de Penal como alternativo, requerendo revisão devido à duplicidade editorial.",
+    "evidencia": "De acordo com a Lei Maria da Penha, a ação de divórcio ou dissolução de união estável de mulher vítima de violência doméstica e familiar",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "55218673ee42874ab48223f3348f638b068228bbcb4ca6ef3bbe7ce9881e3404"
+}

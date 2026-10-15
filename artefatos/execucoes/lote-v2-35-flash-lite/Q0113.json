@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0113",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:27:40.219596+00:00",
+  "sha256_prompt": "a864eaa515e11731c39c558e948480b57dd7e8dfa1fbfe59e92c961bb439bdda",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f75aac3d119c563562d1c424737781f2a96d8f9bcd21ce55bb47b4e9b9d118d8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0113\",\n  \"tema_central_id\": \"\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": true,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão trata de prescrição em Processo Administrativo Disciplinar (PAD) com base em estatuto de servidores públicos, matéria de Direito Administrativo ausente no catálogo disponível.\",\n  \"evidencia\": \"José está respondendo a processo administrativo disciplinar e sendo investigado por crime em inquérito policial.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28891,
+      "candidatesTokenCount": 150,
+      "totalTokenCount": 30757,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28891
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1716,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "HBvRasa2PPSzmtkPxvPjiQo"
+  },
+  "duracao_segundos": 6.545942499997182,
+  "usage_metadata": {
+    "promptTokenCount": 28891,
+    "candidatesTokenCount": 150,
+    "totalTokenCount": 30757,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28891
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1716,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0113",
+    "tema_central_id": "",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": true,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão trata de prescrição em Processo Administrativo Disciplinar (PAD) com base em estatuto de servidores públicos, matéria de Direito Administrativo ausente no catálogo disponível.",
+    "evidencia": "José está respondendo a processo administrativo disciplinar e sendo investigado por crime em inquérito policial.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f2ab9ccde009ba2db2abf4c6b010790c8c31fd297ba5a7eb928dda80a9563f7a"
+}

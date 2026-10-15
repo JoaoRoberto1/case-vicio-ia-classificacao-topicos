@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0102",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:25:08.772630+00:00",
+  "sha256_prompt": "55c1df8b82ad8555e19b5f43439a3f3959f106188ed6fb1775278a6e0fbe8168",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e187343b4ffad8287a1172ec4d074400cc95e0ca3f9d9a87de8fe91f546f9f52",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0102\",\n  \"tema_central_id\": \"5209\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5577\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda os efeitos da condenação e espécies de sentença, matéria que se sobressai tanto no ramo Penal (Teoria da Pena) quanto em Processo Penal (Sentença Penal), gerando duplicidade temática entre os IDs 5209 e 5577. Requer revisão devido ao conflito editorial entre os ramos.\",\n  \"evidencia\": \"Sobre a sentença e os seus efeitos, é correto afirmar:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28752,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 30045,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28752
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1100,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "hhrRaoLqCdiO6dkPraaKoQ8"
+  },
+  "duracao_segundos": 5.7689466000010725,
+  "usage_metadata": {
+    "promptTokenCount": 28752,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 30045,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28752
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1100,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0102",
+    "tema_central_id": "5209",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5577"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda os efeitos da condenação e espécies de sentença, matéria que se sobressai tanto no ramo Penal (Teoria da Pena) quanto em Processo Penal (Sentença Penal), gerando duplicidade temática entre os IDs 5209 e 5577. Requer revisão devido ao conflito editorial entre os ramos.",
+    "evidencia": "Sobre a sentença e os seus efeitos, é correto afirmar:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "27ff296817a991976562ff48f7dec88f39f46f1f7828db66e647e602a9131518"
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "Q0100",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:24:36.129516+00:00",
+  "sha256_prompt": "d8b286425a6f80e7eb980cf07f7d25659c6861b267e474c6fedeec237f39cc92",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "62241fddec16d9f569b15b3438ccbab2ad800e8325b22a5ac86df385120b8aea",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0100\",\n  \"tema_central_id\": \"5103\",\n  \"extras_ids\": [\n    \"5080\",\n    \"5071\",\n    \"5224\"\n  ],\n  \"temas_alternativos\": [\n    \"5108\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão tem como núcleo central o crime de estupro de vulnerável, mas as alternativas misturam proposições sobre outros institutos e crimes independentes, como denunciação caluniosa, concurso de pessoas e erro de tipo.\",\n  \"evidencia\": \"Após ter relações sexuais consentidas com Otávio, com quem perdera a virgindade, Ana retornou, sozinha, para casa.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29174,
+      "candidatesTokenCount": 214,
+      "totalTokenCount": 31256,
+      "cachedContentTokenCount": 26285,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29174
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26285
+        }
+      ],
+      "thoughtsTokenCount": 1868,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ZBrRao7FOeXQz7IP3IX_oAs"
+  },
+  "duracao_segundos": 7.353931400000874,
+  "usage_metadata": {
+    "promptTokenCount": 29174,
+    "candidatesTokenCount": 214,
+    "totalTokenCount": 31256,
+    "cachedContentTokenCount": 26285,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29174
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26285
+      }
+    ],
+    "thoughtsTokenCount": 1868,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0100",
+    "tema_central_id": "5103",
+    "extras_ids": [
+      "5080",
+      "5071",
+      "5224"
+    ],
+    "temas_alternativos": [
+      "5108"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão tem como núcleo central o crime de estupro de vulnerável, mas as alternativas misturam proposições sobre outros institutos e crimes independentes, como denunciação caluniosa, concurso de pessoas e erro de tipo.",
+    "evidencia": "Após ter relações sexuais consentidas com Otávio, com quem perdera a virgindade, Ana retornou, sozinha, para casa.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "f99d37a9f37b51f35b9fa95f7731e35ec23d7146cc8784f13f781af665930931"
+}

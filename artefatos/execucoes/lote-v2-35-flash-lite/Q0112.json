@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0112",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:27:25.420062+00:00",
+  "sha256_prompt": "6e883c0c1d1549f4bd94d41d7e5438de99bfd56e223e8e6030adcd48bbfc981b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "15de8c5fffa45d03d015c15bfe1fb1286e0ded8a598526e8003a56ab649b9779",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0112\",\n  \"tema_central_id\": \"4705\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6725\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as causas de aumento de pena previstas na Lei de Organizações Criminosas (Lei nº 12.850/13). Como o assunto está presente em nós equivalentes em ramos distintos (Direito Penal - Legislação Especial e Penal), requer revisão editorial para dirimir a duplicidade.\",\n  \"evidencia\": \"As penas do crime de promover, constituir, financiar ou integrar organização criminosa, do art. 2° da Lei n° 12.850/13, são aumentadas de 1/6 a 2/3, nos termos do parágrafo 4°, se\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28759,
+      "candidatesTokenCount": 240,
+      "totalTokenCount": 29971,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28759
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 972,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "DhvRaqr2DK_sz7IP-6Gt-Ag"
+  },
+  "duracao_segundos": 4.791553799997928,
+  "usage_metadata": {
+    "promptTokenCount": 28759,
+    "candidatesTokenCount": 240,
+    "totalTokenCount": 29971,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 972,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0112",
+    "tema_central_id": "4705",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6725"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as causas de aumento de pena previstas na Lei de Organizações Criminosas (Lei nº 12.850/13). Como o assunto está presente em nós equivalentes em ramos distintos (Direito Penal - Legislação Especial e Penal), requer revisão editorial para dirimir a duplicidade.",
+    "evidencia": "As penas do crime de promover, constituir, financiar ou integrar organização criminosa, do art. 2° da Lei n° 12.850/13, são aumentadas de 1/6 a 2/3, nos termos do parágrafo 4°, se",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "3b3f85825082de4c2010a1a094b3a08190e5da06f0aec60e6891de6328d1b367"
+}

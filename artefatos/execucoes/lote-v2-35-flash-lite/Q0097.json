@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0097",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:24:04.719044+00:00",
+  "sha256_prompt": "ecde217428c81dc7c3881b896e58ed493141ebdbbb2d73e0ffff48176ca96f6e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e5606769f07acaad1d53819838b8e1bf1e2c4a606d2c188786d2a46bc1b5e063",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0097\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [\n    \"4705\",\n    \"4702\"\n  ],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda múltiplos delitos de legislação penal especial (tráfico de drogas, organização criminosa e lavagem de dinheiro), havendo duplicidade de nós equivalentes no catálogo entre o ramo de Direito Penal - Legislação Especial e o ramo de Penal, além de mistura de temas sem predomínio de uma única matéria.\",\n  \"evidencia\": \"imputou os crimes de tráfico de drogas, associação para o tráfico de drogas, extorsão e organização criminosa. Imputou também ao líder do grupo o crime de lavagem de dinheiro\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29231,
+      "candidatesTokenCount": 236,
+      "totalTokenCount": 31028,
+      "cachedContentTokenCount": 26285,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29231
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26285
+        }
+      ],
+      "thoughtsTokenCount": 1561,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "RRrRatSbMNmj6dkP78CMkQw"
+  },
+  "duracao_segundos": 7.518816899999365,
+  "usage_metadata": {
+    "promptTokenCount": 29231,
+    "candidatesTokenCount": 236,
+    "totalTokenCount": 31028,
+    "cachedContentTokenCount": 26285,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29231
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26285
+      }
+    ],
+    "thoughtsTokenCount": 1561,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0097",
+    "tema_central_id": "4708",
+    "extras_ids": [
+      "4705",
+      "4702"
+    ],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda múltiplos delitos de legislação penal especial (tráfico de drogas, organização criminosa e lavagem de dinheiro), havendo duplicidade de nós equivalentes no catálogo entre o ramo de Direito Penal - Legislação Especial e o ramo de Penal, além de mistura de temas sem predomínio de uma única matéria.",
+    "evidencia": "imputou os crimes de tráfico de drogas, associação para o tráfico de drogas, extorsão e organização criminosa. Imputou também ao líder do grupo o crime de lavagem de dinheiro",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "0c8d56cb245edfa300298b73f651bd7f7b01484b9659bfb895dece5408de02cf"
+}

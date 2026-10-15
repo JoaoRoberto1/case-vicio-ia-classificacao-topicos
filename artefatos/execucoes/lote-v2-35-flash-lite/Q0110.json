@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0110",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:26:56.469376+00:00",
+  "sha256_prompt": "bb97f27e707e5ff26144c674fa138cf68902a7ef3af35ab53916c73d47a1677f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "58ea2392a6086ff91bf8755c6fb1c86bbf8711ef08f54b39bfc41059112b372c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0110\",\n  \"tema_central_id\": \"5480\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5481\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o tema geral da competência no processo penal, com alternativas que tratam simultaneamente de competência em razão da matéria, competência territorial e prerrogativa de função. Como há mistura de proposições independentes sem um subtema específico dominante, adota-se o tema central de competência com revisão necessária.\",\n  \"evidencia\": \"Sobre a competência em matéria processual penal é correto afirmar que:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28858,
+      "candidatesTokenCount": 192,
+      "totalTokenCount": 30213,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28858
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1163,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "8RrRaqvOD8XRz7IP4Lua0QQ"
+  },
+  "duracao_segundos": 5.352948899999319,
+  "usage_metadata": {
+    "promptTokenCount": 28858,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 30213,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28858
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1163,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0110",
+    "tema_central_id": "5480",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5481"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda o tema geral da competência no processo penal, com alternativas que tratam simultaneamente de competência em razão da matéria, competência territorial e prerrogativa de função. Como há mistura de proposições independentes sem um subtema específico dominante, adota-se o tema central de competência com revisão necessária.",
+    "evidencia": "Sobre a competência em matéria processual penal é correto afirmar que:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b3e86f98d9a9eb8a4a747f5d1ba30bec63f848bca49eae2a40318ce7e0c305b7"
+}

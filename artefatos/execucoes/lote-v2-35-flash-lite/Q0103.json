@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "Q0103",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:25:24.548439+00:00",
+  "sha256_prompt": "c065dc2916be58e8031ee66e56f3f25767871f3976fdaf7041917a13f2cd8cd8",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "25cc9f68c973778b68da30e1d15aa68e7c485f90c19263dd1be1b7bcf6019646",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0103\",\n  \"tema_central_id\": \"5478\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão aborda diretamente o conceito, a natureza jurídica e a finalidade da revisão criminal, instituto inserido nas ações autônomas de impugnação no processo penal.\",\n  \"evidencia\": \"A revisão criminal [...] tem por finalidade o reexame do processo já alcançado pela coisa julgada, de forma a possibilitar ao condenado a absolvição, a melhora de sua situação jurídica ou a anulação do processo.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "Ev0QCvoQAWkUfRMsyICKU/OpXgK+NgqhQIgkr8CesFltkZuSYf1xc0/mn+zjGrjR/oxBs1vztlbb+ppwMzB+AO/WH7p7UGOiIEteXtDCnKgIlxsWUL/EaA8SwB73SoYbcobkIhwInJVdNYYg1KbfegpeaO0U5vKMX//Vyn58LN8r9Ox7drSNFXXhOt47zJKsus2QgU5x/kkwD6QQ/ILOVxNmDNGovsTniFioM646iyq0DDbEJ04OYNzbX48hObBNd8ZctrFHDnZeyO5kal2m2JtiPDSV00fZkVpg303/44RY3t+sakW+iQE9ASjt0/tHMiO84fU/PNEwiz58+ehuMfh4RWFRcQQtE98dhsxKOnoYfw9iqErKyJWnFu+V7OzYIa3+LlGy73aCUbSegJqvzMkW4NiBc7ECo2nqp9kJsid0pxHmFlbqERh/lCZ/J5gCdsk1+IPe58BNaRbEWi6WPlou+xze0Ewtfj/qP7+zZ8c7VbboFZ7GQ+p0co6UmcWD+TdoZmSsSnDwpdaFRPnrcPx/iJ2eaFEmVz4f4vawekf3LR1Fucj5mBcF8ekP00HIZpyP+nRblEf+7VPanNVyVc78v096guZe3jMbRZmjU8k7oSUIim9gCTDQEP/TxMO7b5ueYf+Zcfuwx/2R1srE5gWjGv8/GmNdA/vdptUISBE6Y2GL6Wk+/dwEMg+0O0BxroEW3RhaSDY0VSU1fK6p70Ad351cUddVhKH3qeJ8whaEMHjoAgs7Nu02u6pSYgaiqsrEub6aQDFXLQEa4+5inR/psuv+nTwTN9BDQWNi6Dt50jdkg+bVUFfvFLTur3CNcXT7wc8WwEqvY5wlGoYFyxpk5THD5wcYa8MwPfxzVRQP0kXD6BMStTHZe+rZdmbpOK88z3Z9tBoPj8/wUB5kMadnwDpYQ9iMl+KLLtlZfuorFGw5r3SN5FkKMkk7B0HNygfW+gezkG/ODhn86ZXUbIHZhi4wb209af/JuGL5QCxKHQbGjahzX54vd4B026rp8VfFynmpud69rYHJu9PWxpHXlvk86qYTnZg8SenecgtLyhsvg0dPw+jv5eWdWQR3CS03K+KJpt2mnYlTZDz+S+eZCUgK3/E91rr4V8jrSPvQC2yNmZ2LSv8USxyCeJ9Hizbb9ehnXlfgIOBZlaa7sCP6pYA/PrS8A/K2azHqa/NRKRtGRqAO/Thn4+TfOZmnGdUsATZe29KZit4jmy7Fm7VHTIN4V6cUaT384PGB/Ce/jiiWJUwhvEqSNIl5IhMWuZ+ZERmczl5JIyXWMVoWQ34jNDS4CzoNoCbA9AiplbyfyZoL/bSwfgmaqMXlChA+syiPUxLUQpeZluiR38ChGJCaCMcUfw+1lXAi/KzBC12vcxa+eMkJYb8HFo5o/VMz5EXlcdRhSxEiASNCfo0wceNh3MF/UmmjhPDSJNqszBlsufrKA5YsjIut2nd8zI9D7y7GoTncafjN6oncMCAPGKkEWo8Ufhb++m16NGWw2nVGjlTVq3/kPzhRBnlx6HOQ2xssZk/XBohBWvcdX8NSOCW/h6WN0c6ddJN5kvzcQ5GGH7uVipf4FF6i4JIrZgNMlVfm7NuLbB4YeD0+fZTjlS8LuX1Ja6aufn9zgU/iLe7/0wKKlx+oql0SBJqssMZ7yScnXDXpWjjswknEZ8LV0XEl7h7odnGNQ10hHZ7WBWGwuqYUJVHpjp4ogEdvkc8cElpEVmR8xFxdxDlO0B+GYQAhTLMo0SsPDJ1YqKXeD6nshO48Uktt+HhfIWH7bGfKWg2ot/Yac0xfulxWMgpm/6Fm8lCPaP0G6HFVrfy9Dw2eXX8dIJL/wozlRMc/MexaCoXoUj3gx2KwIDFN3JU1f2b9tjhl6kHVDdxzFfu+JKSw/VtUOHswNuVbquIGXRvKDPONntd+RVEBeEEpmA/xm929EmtzxMpAPTezlP2WtJE5FJLi2pjwXfaTnF/x0j2CNso5hO8WZC5rZmFw7kRiztOiAYStb229kAOLIJyu/qS/C0MKsB8zm1SUFET7xNvfP1cQ8nwUPcxPI2fVoBOoS+yb5wA6cTTiJxM87b/HStSLJEht6JdeSR6WYKnHtd4foxzDswGwGQqWqenzlU/39xznSye/E410aY0jZt82FRyLK2U97ZSVCeY/Ln8pbZqIIted4qhluapuxzQ3WPpNM2+3tL0Hz/VUXjH3/TSp/D6khWQQ6RcLRkBPdaE91E5HDXnEL3GB98bhd1luDaXNe+O1S/2kXsWSYxoa+UjGub3AVifpA7iBkuDuQjJOslf0SFfEbd9WO75LwjQDIt2ItWi6lPJYMJvlwos0s9zWh1YrkHXkMeF/Jjl7Lw1bUHEK7oMu70jqZaJ2bfxaNEhwfQ0aGxKjWKBWghFJnAPlGBKR3gmMa8RMqVT0AAPnyV8x0RJVrqbybGOeRZudq0YJ+6em1g6IEBvoo857aWewUpNv6tCjPaq3JzJy020dmSL+jipNQzRxRDozhq6bFvbtUjcDgQT7xcpCCgmuGGBb3z+PTo2Ik+DpX9147BofSF9fGwEFPlItmJ3QFHIAuWMpdj3fdQkrYBw0cvzGGlyf/xZtr7+kLJ1S+fguvMRfDynHxNP7xp5hogyulEjUF4tez9RzS8uONdKHv6zApRqcvXlS4grPGkuiIpo4sLVmX/WlRL4lxmpekpTKVhth40T5skQj0D/O3iCVk5CAhfJ8MAjSw6khKEPhY/dWJ7dK/Z0K1mMkryp/7mgAwwW1ZQJpyK9tuEipYaT28hzkEFQqJeAEi4t3zX26gclanyTRf3PVkPVRZShTwLOdTSJ9HWEOsRVujmGna14jmIarSsQ+jbUndXu8XDwCaO8ITXnbQV4h6YR+MDKItS2EYH3Rq1uoOA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28666,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 29441,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28666
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 595,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "lRrRasidHrPoz7IPio22GQ"
+  },
+  "duracao_segundos": 3.425559899998916,
+  "usage_metadata": {
+    "promptTokenCount": 28666,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 29441,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28666
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 595,
+    "serviceTier": "standard"
+  },
+  "status": "erro",
+  "erro": {
+    "tipo": "ErroValidacaoLocal",
+    "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+  },
+  "sha256_registro": "4a1b69712eaad4839df730b9b4e532dc1700c79dcc7653cfe1f3f64acd39b426"
+}

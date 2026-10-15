@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0108",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:26:24.736756+00:00",
+  "sha256_prompt": "6e58bda40c38bf892a67e19a2c229e32d553e5644e26e7ec038f59fd8f1b405f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2219496a6e85af0b7f6fdf30eea9857d8596e3d7ed529685dd6e0cfeac32a838",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0108\",\n  \"tema_central_id\": \"5561\",\n  \"extras_ids\": [\n    \"5185\"\n  ],\n  \"temas_alternativos\": [\n    \"5562\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.75,\n  \"motivo\": \"A questão exige definir o recurso cabível (Processo Penal - Recursos em Espécie) em face de decisão que rejeita o reconhecimento da prescrição (Direito Penal - Prescrição), evidenciando forte interface e exigindo revisão sobre a taxatividade recursal e a natureza da decisão interlocutória.\",\n  \"evidencia\": \"requereu o reconhecimento da prescrição da pretensão punitiva estatal\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28825,
+      "candidatesTokenCount": 199,
+      "totalTokenCount": 30685,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28825
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1661,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0RrRatPKHoWHz7IPh6bQOQ"
+  },
+  "duracao_segundos": 7.378393099999812,
+  "usage_metadata": {
+    "promptTokenCount": 28825,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 30685,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28825
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1661,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0108",
+    "tema_central_id": "5561",
+    "extras_ids": [
+      "5185"
+    ],
+    "temas_alternativos": [
+      "5562"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.75,
+    "motivo": "A questão exige definir o recurso cabível (Processo Penal - Recursos em Espécie) em face de decisão que rejeita o reconhecimento da prescrição (Direito Penal - Prescrição), evidenciando forte interface e exigindo revisão sobre a taxatividade recursal e a natureza da decisão interlocutória.",
+    "evidencia": "requereu o reconhecimento da prescrição da pretensão punitiva estatal",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "4d40a875b1c37d4354af874546e28d0b29eeeb4c3f3ca78528f0ae0aaae3e8d4"
+}

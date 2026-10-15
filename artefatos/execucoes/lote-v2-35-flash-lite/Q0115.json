@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0115",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:28:13.811287+00:00",
+  "sha256_prompt": "c874fa518ef3c0d5063702e951879cc59292444d9fde5e6fe870bc972d8491aa",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b92ad4bc82957a3458c4aac0ca1813a7d15cc601d861319225f04eb2b5fd6e32",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0115\",\n  \"tema_central_id\": \"4388\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4385\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão exige a identificação de teorias criminológicas específicas para explicar o comportamento criminoso narrado no caso hipotético.\",\n  \"evidencia\": \"identifique dentre as Teorias abaixo, a que melhor analisa (estuda/explica) o caso.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28948,
+      "candidatesTokenCount": 158,
+      "totalTokenCount": 30513,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28948
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1407,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "PhvRaqCRJZn9qtsP6dWEmAc"
+  },
+  "duracao_segundos": 5.568532599998434,
+  "usage_metadata": {
+    "promptTokenCount": 28948,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 30513,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28948
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1407,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0115",
+    "tema_central_id": "4388",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4385"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão exige a identificação de teorias criminológicas específicas para explicar o comportamento criminoso narrado no caso hipotético.",
+    "evidencia": "identifique dentre as Teorias abaixo, a que melhor analisa (estuda/explica) o caso.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "4e2bd06aa8c386c41a3d91b216b296103e875a037b02695826d4fe92b69bd158"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0109",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:26:42.123254+00:00",
+  "sha256_prompt": "ed6eadb35419303afcd7a3784f56ea6667af2ed9e7e0fe2581d3c88f9b8580d7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "91574375484357334c386665c25121ff53a50838a7c7c935c702d46654ced470",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0109\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o crime de tráfico de drogas (uso compartilhado, art. 33, § 3º, da Lei nº 11.343/06). Há duplicidade no catálogo entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão editorial.\",\n  \"evidencia\": \"Aquele que oferece droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem, está sujeito à pena de\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28777,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 29798,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28777
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 816,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "4xrRarf2DN_rz7IPmbWg8AQ"
+  },
+  "duracao_segundos": 4.339859499999875,
+  "usage_metadata": {
+    "promptTokenCount": 28777,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 29798,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28777
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 816,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0109",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o crime de tráfico de drogas (uso compartilhado, art. 33, § 3º, da Lei nº 11.343/06). Há duplicidade no catálogo entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão editorial.",
+    "evidencia": "Aquele que oferece droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem, está sujeito à pena de",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "34a3674d86497314d384e623e4c2b3aa64bd6954a01b71ffb88e1098dca526d1"
+}

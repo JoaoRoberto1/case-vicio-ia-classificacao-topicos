@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0116",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:28:29.385717+00:00",
+  "sha256_prompt": "415dadda409b3b4f9d73098b5f2e314b533c6395ed6300914594ac599553cbba",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "45c4a9a10a11be2b80c1220d9e3132d75d4f44163b5aabcb6eadf2f9d3638484",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0116\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a Lei de Drogas (Lei nº 11.343/06), matéria cadastrada de forma duplicada entre os ramos de Legislação Especial e Penal, exigindo revisão editorial devido à concorrência entre os nós equivalentes.\",\n  \"evidencia\": \"Em relação à Lei Federal no 11.343/06, que estabelece o Sistema Nacional de Políticas Públicas sobre Drogas, é correto afirmar que\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28830,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 30182,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28830
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1151,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ThvRat-oDLfmqtsP4ZuymA8"
+  },
+  "duracao_segundos": 4.840027499998541,
+  "usage_metadata": {
+    "promptTokenCount": 28830,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 30182,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28830
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1151,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0116",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a Lei de Drogas (Lei nº 11.343/06), matéria cadastrada de forma duplicada entre os ramos de Legislação Especial e Penal, exigindo revisão editorial devido à concorrência entre os nós equivalentes.",
+    "evidencia": "Em relação à Lei Federal no 11.343/06, que estabelece o Sistema Nacional de Políticas Públicas sobre Drogas, é correto afirmar que",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "f961f7f1dab9f1e9bdd3a5b24cd26e65d1fde71fb77aa47ba55990ec0499ffb2"
+}

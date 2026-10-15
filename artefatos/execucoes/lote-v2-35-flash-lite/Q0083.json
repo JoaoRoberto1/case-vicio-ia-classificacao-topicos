@@ -2,77 +2,163 @@
   "schema_version": 1,
   "id": "Q0083",
   "model": "gemini-3.5-flash-lite",
-  "timestamp_utc": "2026-10-15T18:07:22.733044+00:00",
+  "timestamp_utc": "2026-10-15T18:23:31.925940+00:00",
   "sha256_prompt": "d4d96dacd5a35571b34d8c22ffb5532c0f2e4692e073cf817e67809d386334a2",
   "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
   "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
   "thinking_level": "MEDIUM",
   "fingerprint": "4b260248bc0c5fb6e2c95b9018702c7dd5866d3efdc8703113b55191f6508213",
-  "numero_tentativa": 1,
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0083",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-15T18:07:22.733044+00:00",
+      "sha256_prompt": "d4d96dacd5a35571b34d8c22ffb5532c0f2e4692e073cf817e67809d386334a2",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "4b260248bc0c5fb6e2c95b9018702c7dd5866d3efdc8703113b55191f6508213",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0083\",\n  \"tema_central_id\": \"5226\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5150\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o tema de erro sobre o nexo causal (dolo geral), gerando concorrência teórica entre a teoria do fato típico (nexo causal) e os crimes em espécie (homicídio).\",\n  \"evidencia\": \"Osvaldo, desejando matar, disparou seu revólver contra Arnaldo... vindo a vítima a efetivamente morrer, em face da asfixia.\",\n  \"requer_revisao\": true\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28731,
+          "candidatesTokenCount": 191,
+          "totalTokenCount": 30343,
+          "cachedContentTokenCount": 26280,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28731
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26280
+            }
+          ],
+          "thoughtsTokenCount": 1421,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "WxbRateSIcmLmtkPqcfuiA8"
+      },
+      "duracao_segundos": 9.441243299999769,
+      "usage_metadata": {
+        "promptTokenCount": 28731,
+        "candidatesTokenCount": 191,
+        "totalTokenCount": 30343,
+        "cachedContentTokenCount": 26280,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28731
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26280
+          }
+        ],
+        "thoughtsTokenCount": 1421,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "b70453bdf8a8e7381d07134212bf1842e0da7a4c03bf3591289b9f47f9c63b11"
+    }
+  ],
+  "numero_tentativa": 2,
   "resposta_bruta": {
     "candidates": [
       {
         "content": {
           "parts": [
             {
-              "text": "{\n  \"id\": \"Q0083\",\n  \"tema_central_id\": \"5226\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5150\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o tema de erro sobre o nexo causal (dolo geral), gerando concorrência teórica entre a teoria do fato típico (nexo causal) e os crimes em espécie (homicídio).\",\n  \"evidencia\": \"Osvaldo, desejando matar, disparou seu revólver contra Arnaldo... vindo a vítima a efetivamente morrer, em face da asfixia.\",\n  \"requer_revisao\": true\n}",
-              "thoughtSignature": "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"
+              "text": "{\n  \"id\": \"Q0083\",\n  \"tema_central_id\": \"5226\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5150\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o clássico caso de erro sobre o nexo causal (dolo geral), exigindo conhecimentos tanto de nexo causal e imputação objetiva quanto dos crimes contra a vida (homicídio).\",\n  \"evidencia\": \"Osvaldo, desejando matar, disparou seu revólver contra Arnaldo, que, em razão do susto, desmaiou. Osvaldo, acreditando piamente que Arnaldo estava morto, colocou-o em uma cova rasa que já havia cavado, enterrando-o, vindo a vítima a efetivamente morrer, em face da asfixia.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
             }
           ],
           "role": "model"
         },
         "finishReason": "STOP",
-        "index": 0
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 382,
+              "endIndex": 650,
+              "uri": "https://es.scribd.com/document/324135987/Questoes-Homicidio-Art",
+              "license": ""
+            }
+          ]
+        }
       }
     ],
     "usageMetadata": {
       "promptTokenCount": 28731,
-      "candidatesTokenCount": 191,
-      "totalTokenCount": 30343,
-      "cachedContentTokenCount": 26280,
+      "candidatesTokenCount": 236,
+      "totalTokenCount": 30522,
       "promptTokensDetails": [
         {
           "modality": "TEXT",
           "tokenCount": 28731
         }
       ],
-      "cacheTokensDetails": [
-        {
-          "modality": "TEXT",
-          "tokenCount": 26280
-        }
-      ],
-      "thoughtsTokenCount": 1421,
+      "thoughtsTokenCount": 1555,
       "serviceTier": "standard"
     },
     "modelVersion": "gemini-3.5-flash-lite",
-    "responseId": "WxbRateSIcmLmtkPqcfuiA8"
+    "responseId": "JBrRaufXNaammtkPh6iC-A4"
   },
-  "duracao_segundos": 9.441243299999769,
+  "duracao_segundos": 8.080726900003356,
   "usage_metadata": {
     "promptTokenCount": 28731,
-    "candidatesTokenCount": 191,
-    "totalTokenCount": 30343,
-    "cachedContentTokenCount": 26280,
+    "candidatesTokenCount": 236,
+    "totalTokenCount": 30522,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
         "tokenCount": 28731
       }
     ],
-    "cacheTokensDetails": [
-      {
-        "modality": "TEXT",
-        "tokenCount": 26280
-      }
-    ],
-    "thoughtsTokenCount": 1421,
+    "thoughtsTokenCount": 1555,
     "serviceTier": "standard"
   },
-  "status": "erro",
-  "erro": {
-    "tipo": "ErroValidacaoLocal",
-    "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0083",
+    "tema_central_id": "5226",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5150"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda o clássico caso de erro sobre o nexo causal (dolo geral), exigindo conhecimentos tanto de nexo causal e imputação objetiva quanto dos crimes contra a vida (homicídio).",
+    "evidencia": "Osvaldo, desejando matar, disparou seu revólver contra Arnaldo, que, em razão do susto, desmaiou. Osvaldo, acreditando piamente que Arnaldo estava morto, colocou-o em uma cova rasa que já havia cavado, enterrando-o, vindo a vítima a efetivamente morrer, em face da asfixia.",
+    "requer_revisao": true
   },
-  "sha256_registro": "b70453bdf8a8e7381d07134212bf1842e0da7a4c03bf3591289b9f47f9c63b11"
+  "status": "sucesso",
+  "sha256_registro": "416064635f9959c00e3835997e5098e2e4a64d55f9a75f1dcc39f89a6d3471c7"
 }

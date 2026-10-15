@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "Q0105",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:25:53.591874+00:00",
+  "sha256_prompt": "951683860b47d9f738a77eb3f0838daa18eb945adc979c0c31b51caab8196178",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e29787c2d9e70171f0d9d58b09f921c2fb4b21adb5a0dd3de306f6c1877ec859",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0105\",\n  \"tema_central_id\": \"4385\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4373\",\n    \"4370\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda conceitos de criminologia cultural e do paradigma do etiquetamento social, matéria vinculada às teorias sociológicas explicativas da criminalidade e às escolas criminológicas.\",\n  \"evidencia\": \"A criminologia cultural analisa a pichação como ato de contracultura e de representação social de populações periféricas, resgatando e atualizando os estudos sobre o paradigma do etiquetamento social.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EuUeCuIeAWkUfRM3cQIrJW0abtGtUMo1yblD7ID55Bo18u5ULqeeVElsCjriTGf6HkJ5YpawuWk/+gMVLaec5eCP2gbfss/yBRRnmVejs37esntGL8VmOHuqxs+sLqKPgb1x2B8ahYnBtAqdULWtjoN5Aiu6YozGeHfAmVMzfd5Oh7+Dk0uV+1Zl2cIML2nckHISD9s5QPa5pJFKoOh3TPYitHn8YyC/bCcOywSYNqjYkIigRA2VuLEawD6kbVwyGudJtW5roCcrXIxkyJCHm7UbOx4q79ctOyVZhIaTy7+1tpJSPgDVdkLn7iIMlfeDexPrHQpv5MAuXlA4ykTgzkj320+urn2FuEIzxfSkFKTLjOm12AP3DKGnD7F4tI3eFfEsaDCAKrqOFQE/k8fpvwWIKifGY/YuEaVaYezxHMRPehIWD8qeC51RmVm0xyxwxCfgKLNc1u5GkZlqqScIp2WnGdT+8gRyPO6CIEbwb/ptLaXMiWpaZgFgyj6iZ/FFJSdEKiU4GdFfHmH5mE+uw8ykrcB3ED7qVm0KafDXPwuKBBNVWIhiHG2l1jrVJASb0xdF32iUjQhJYvS41WSPA3g3whaFi6RJpZyCoy/hq+DpT4tyXZzdQDbN9pptUXI7DBkVTmbmNeH3VBnURV0iGgQqsRm2K6EzB8mCbxqNWNY+qU7m6NgUMLhQS4Sv6JbHlomrIqJzhDqfC/hhRJNy3NA30sVBTuCNeebEPS5+LVH4jhAfftHg5XrEcUGmuTwc4cWKryQh6GIbMtmGSwKheUleeL51fwwqGFu34JrA0vfmhjlZiGbUKadyCQpZrbwNFAEyNOMgXiWs0ILeT5n3uHvnbC9KVIHx48ZHiKbiRBaBWOWZxG9KS/6/aSATO2AWWHn4JAGIGxmGBZbIz/TBq7KLeRM61ssF6IeFXFkrPOV2v/Y0kccQ0AfKDIH52R2YJTbnn1IgcVxcrjl+HcSU4+9E3b2gouPSjjcKiN0BVSpTD+0b4Vdv5mMLV/g9eFv4RV5HqscNt7wgpbrlN72Pjd6r9un53yKgEjQBjegvLHdp3ZnmCaWrXyxJYl5Sa8tMMlcqIoZy5eCa4CHqc3B663V7wr5jfEqDtt8JPdC0myPnRBILgbMyFxaT181VOZEOPLYWUXaqj4bVv8ltb5k4IsGy7m0V374BRBOVJSphbm9DOblJpH5H7bGBqlMlGkPiF1lXYrDVHjAuRp7a0sZLhobHCyAw4WYPUY5Snw/zg+Sr/NBwAQzOSgnE80xRIuzfAJN9fy/vrxPaJEgd85uNJ9qGrrmAONY69edHWiY+7/Cw5f/Qx13Jgqz30PfwYndd98d+xx39Wgv9V3OeEYOOodAXqKZ+mBKzWEd2Q7Yz0RK1MW4hgkoHWvJUwV8tAHn87X2SkkJR+Q96tqh1Qj8bBrbebw9c6ejkK2kG7dTJiUImgQqBhlDuMTBo3bljI/L19DnnLhKdN/se+tptNjJO6lv/VUHLHS6iFYQhBjnX65jg2FJMiZnmnGPPNnPobkwk6x/YEe+AerVEP+dBm2A8USRpUdbX9wht8MlSuSmQwImNo04j5u6hZ3W+s03DmzHmswNpQRdlYzW+tkeugr3SYotFHMbblF5nI+piZHT75ensRa+3pyoO6cLTk3MaNpmq7XDo8atXMqGVJ6ou0BpnGOhzh3i8Fbi8izU+SkPhvDAy6GOAeN6nF7GHpKbplbTsE2IoZSvAHm0uoZvyUWAAeI7G3wuz0KmemTq5IJVo+XCjoHZ1lr9azluUWSrmC9nhmorNo2gPugQuGQZHEJ6AmLyDJvHPlKLQqGurSjr4Kh4ml1qb4YNDPp9z0hNd0a4wdxZjwTEvk9XRyyDdSmepQy2UMNdHEJsXFU/cYokUlxpYIem4wLdtlSI3Y777juaLzJ935LCEcNVGc1ngcKAWENw8p6DKbVXLtMFJ3EAnlUWHmHZE5FVLd+rlxVL1v7wdlG/EjsnBvAnFtlECGz14xH7TSaxHaK136nFjRJTuGB3mVFVMnMw8rU944mCENEx1J+7AgjNPD1CVcpbRqjohw2pFpvM07NvSSIo6cbhEbvT9P6SyNSpNfrcjdaTiYz7ZlbGiB4aGL5kNSGEIEl3bRbJkN6uZFPiMosiFyHWxq1I4ol2gz076MXg65ake6+jnMxuZs53sqscdqC73ArUjyr04MyQE5XQsMaEUBEC4wneP7AijvzBtASYOVdn/dVblmoPZRruI0JF2C70KUo8LmCtphaPZM/eCmkL+mmCw96b56ezlsHu8vnRBZx597lPbtUPI52odcCjQ2BW2UgfX59JPLeNiqQChDsLyJSDznwTbih2omHBsTndjVL90S6/yGX9ki2apxx9lDlikYNNGOODuymfJHFsbhGQH74o/tXTY8xhzdBY0m3QkQvnn3HtrsFIfR16EUTJ/KAWYbg7Ds5YKgjQ8KNOiHofnxql5/HP0xlcUFv5rd2oHiv7WQpLodt0nTzpPta+vve96ePghrOETQPGbDGpUt1F2lql334kbXHtx29T+VNntlez4CW9U+c+ZyLOXz+oHMXi3Z2It/5blTSOuSmnRSHZ0MT7xY6hibAxRPKJkONM6ssSxLJHzIu2vQZEpQBO/9CHmkROAYcMU2e8x4hA1gmwc3lUKIHX6vTHgNB/0xD/zptjLoljZDvrF4xwa3hSeFP7hQx6qnWMHw6nfvF/txoOk5jvmHmZgiMX9yqrT3oscgGYkVktwz6LP5wA98/l2imTmUGyIUPGNvLf6B7mXha2cwhP4bP/IUm6YiqzP/SugHwBY1cy/XhqHlG5v5u/E7mezENa7JrUTNyvzWImLifNfbRlQgyNK2qTU0WgQEUbdwPfTaVm9TIH97FScjLXgtd3mXcHBzlkvoTHcKSF5bc0cP8X1d+5eY/29aK3eFYCeR1FlSyP9BhVZNQahF7dHLKjqpw/NhKvvuilsKQ3DHr80zeCQTq0EXEfy0sHq0IMcpUaErdFD6OEnXCDCIUD0YCkvH8g6+UwCXZZRKz5/BlNV+xa3zQXeRkn1OyhMWbJbY0hyOpQewNmyuxKIOwJcdZINnuqhDFZvxz1gop2b9QPIB9J4wTTb6hpBJObEfTUttH/wJ0fwmnAFAjWyavkWKO8krO85Rs22JPcHn3kkJNuLwSnnGASU/eUW6/kMss0qjCekqGe7mu9IUjUzXRSe4d0Is5ays+omT/+ufLDKY4QhRmxHQf98piSv+x0g5UwhcTo5Q29SOt0wJWnIRcDhwtheVL6rySEjhYElzLvLeLdeIZohnDd5hO6rg1UOedYeTTQtABUv+B+AHuqNRM8Jxxgi/mCShxtL/Itn4UxQV6J9uVSvgk9/5+rtLFePsG/NBlXi68C67HvLfumMVhinXg7KP+SYFkpm4bbUsPOSJjv2EMaps1dmbQtqwNqFE8Jd73zKIDCOpOTFogKJNtPE8xfjQKnIMzGUJCOl/wNDVam795FECWvhHwCPBw85iajFmDF7T6mUE/LoKk6ORfaUyr1h+CsH1MBH3+2RFqxQB61MK7uVGtGU4rH/BsduUQCGT275SQYcVh7yRTldvd+zHrxJIc0ZydbxuQK5vkTSOzvEHwiMZSGoCykZTnzsifbBDRf/BOhntpAk3+A8XVepfN4Ob8FnoBIe+SFYebGY5OFXudPCkLMkPDcoDIs/MWe0KnE8EUJbE5691kcfCKptMZZg33TUDIYE5D4Quft4B8Ri+gPcibjWlmEoWTPPLG4Ylg0kih62x+L253aLSIYdIg3eARr+n+8pGecSWZFjSjTg+K960G1uLL+KKniW1evyxd5nM0LusA6BJc6S2K5K6Cw5HdtAMA3PLW8hTx621QOSART62snKtrhlG+KKz1e4Cu8hbdimKyLR+AJe6+XnXk1UMPR7I2EySysYxD3L+8cT4VYkAnHvgd5kzgjHENWlY9KloeVCp3BDbRl/WyBdBeXQQ1FenlyYsoeqHVEmxFVpLrJAe8qi5ZMYLlBW30c25FCOOvUTToB2ohFH/R1mN+sN9kohSg8PK7Zw0f8jgX6gwOvQpofHHTHusVNjFLi/s5+2guVMns0HXi/UgnfZtmO04oVrvFTnk47yV1+8/koQFZg3LJ5UNklyexDv/ChBhlrl5kFH/YXJDm6GicesL3ILSdtpY9i0Xj2CWtHvIy3UAlcmFvMzgil05pi2nSA9dy5kwn8oWzjlARMITH5HsDbfYXLJ8x5/INHuK9lRszb4qqsKXyu0aZo+1F4R4avv+oIYITaGyWSyyYCyR7WU+ynWCKezEs0r4AMKw5+o8A6QtP5iv/WTl/golVy6Z13JUSpACoZ9AOzQHSfRIbqPFqMpCKSuqMIqqNHATkJMZsClY5P9AKF/CMx3Imk5jGSAWuovHZQUatQGgo6HrGCTRJQDzJg2XoIMICNIRd0lArOFndTYDHP53XFlk2expJxDUSBW4qCpKxFKnqHQ9H2gfb1d9V45qVdreyFId15PInFBPuQ2vBDrno0jDUjN8xL+ljjBf6pQnhmrni3VIRnLN2z49scjb8eLgT78mFPLEid34u1DDe9SNGHE+2lbC2MlS8ILo36VcryHAAFudY6Cizvzb3Ib2OUkc155F9t4PxAppQLw3WBnTYH3F6yvwj43IZbWHIgqrwY7AryeavgrqBL0RDD5eqnH3xAPm5df8IKa7bD+vaOCFekd6Ur1qgZwwokTnt0RH33jptEH57oyeugY7QCukZL4yRGNtITVSJa/LuL0Lm7chjM+bsfw4mD7HJLYWOBsmJCQmHvECfU9UqiLUEyP3xQOcMec5Pdus0IVEMDK7oyF3PviDemnbDJl1ACG27MswIiUhcQwSYgd0+4h2JQFN36C6qUk10TRu0MxdVHCbJj+HlkzM70zA/rTEgg3RNrg/hz7vne6UFQBKp09Rwg8yEkSHvsqQI4xgvm+rFoe79NWyL81chOFJQD/hskCVjbTMObXyMoYrYbmcgEhHTumNk2Q5b+j8TItxkTza+KO9XoPdd6zJWCI7FcDsCHklM4xD9MuZ/9fwlrsGWahp7krOg5qSNj5U3lUGaF2kKFbKyijdNHHKcb6U3lmZeRGmDIxFePnJVbdRmUp/qw5fyU6vSHfbEeMed3COYuBG2ZH8w3hHmdNCjZuIDwapyaY4OiZV9ZfK69KGEAv2bs+5/8bDle/d7+DlgD2/3rU+WTWRuppZg2TosmTkFyvMpMht+9LZ3Qg2VptGOA="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 402,
+              "endIndex": 608,
+              "uri": "https://blog.grancursosonline.com.br/gabarito-dpe-rs-defensor-extraoficial/",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28724,
+      "candidatesTokenCount": 198,
+      "totalTokenCount": 30028,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28724
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1106,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "shrRav-AFu7rz7IP0KaR4AQ"
+  },
+  "duracao_segundos": 5.729869900002086,
+  "usage_metadata": {
+    "promptTokenCount": 28724,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 30028,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1106,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0105",
+    "tema_central_id": "4385",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4373",
+      "4370"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda conceitos de criminologia cultural e do paradigma do etiquetamento social, matéria vinculada às teorias sociológicas explicativas da criminalidade e às escolas criminológicas.",
+    "evidencia": "A criminologia cultural analisa a pichação como ato de contracultura e de representação social de populações periféricas, resgatando e atualizando os estudos sobre o paradigma do etiquetamento social.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "9481256142a2d7bb00f769370baca7e20eedc92edf1246d607e8b1f7d3aa61bc"
+}

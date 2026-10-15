@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0098",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:24:22.243682+00:00",
+  "sha256_prompt": "04e8250d111b219f82a2fa01758cbe48ecd59db39ae38108d86ff2ec21612603",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "26f1b1f9cb1467ae1aa19df2bd14de4ee9c2f17a92ce4f9f9d0b7524c866b548",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0098\",\n  \"tema_central_id\": \"5548\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o conceito doutrinário de confissão qualificada, instituto estudado no âmbito da prova da confissão no processo penal.\",\n  \"evidencia\": \"A doutrina denomina “confissão qualificada” aquela em que o acusado\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28770,
+      "candidatesTokenCount": 145,
+      "totalTokenCount": 29599,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28770
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 684,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "VhrRavDoPPrrz7IP5Kyp0AQ"
+  },
+  "duracao_segundos": 3.88011799999731,
+  "usage_metadata": {
+    "promptTokenCount": 28770,
+    "candidatesTokenCount": 145,
+    "totalTokenCount": 29599,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28770
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 684,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0098",
+    "tema_central_id": "5548",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o conceito doutrinário de confissão qualificada, instituto estudado no âmbito da prova da confissão no processo penal.",
+    "evidencia": "A doutrina denomina “confissão qualificada” aquela em que o acusado",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "bd72220346929c0e091d56445833c80cee8790d6756a4706625e6f744be9b48c"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0111",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:27:11.827989+00:00",
+  "sha256_prompt": "5383dc71d6ebed510c8ce74b5506e7e7b25d0a8332f7260eee9492e549302ab1",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "718e3f4710bdd30c6a57d3e02f65766348f07527a85356691890f03ff681c066",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0111\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4371\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente a Escola Positivista da Criminologia, suas características, expoentes e recepção histórica, enquadrando-se perfeitamente no tema de Escolas Criminológicas.\",\n  \"evidencia\": \"Sobre a escola positivista da criminologia, é correto afirmar:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28766,
+      "candidatesTokenCount": 165,
+      "totalTokenCount": 29518,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28766
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 587,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ABvRatacJu79qtsPpqGFyAE"
+  },
+  "duracao_segundos": 3.5837791999983892,
+  "usage_metadata": {
+    "promptTokenCount": 28766,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 29518,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28766
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 587,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0111",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4371"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente a Escola Positivista da Criminologia, suas características, expoentes e recepção histórica, enquadrando-se perfeitamente no tema de Escolas Criminológicas.",
+    "evidencia": "Sobre a escola positivista da criminologia, é correto afirmar:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e2600e30cf635102276ee75dcba01087704ae0d953f2b7eb57e64b1cdd4947ca"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0104",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T18:25:37.980351+00:00",
+  "sha256_prompt": "46c44d2e1822facda2e7c315ffc74047f563451eb5ec27eeaff2a35a2a7125bc",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "cdea12297b30ec4f1e578a3f7e3291b8b2dc006d2a6d497d15f318cd02fedfe1",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0104\",\n  \"tema_central_id\": \"5498\",\n  \"extras_ids\": [\n    \"5477\"\n  ],\n  \"temas_alternativos\": [\n    \"5477\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda regras relativas ao inquérito policial (prosseguimento por delegado em procedimento instaurado por promotor) em coniunção com o cabimento e a definição de autoridade coatora em habeas corpus, configurando interface mista entre inquérito policial e ações autônomas de impugnação.\",\n  \"evidencia\": \"O fato de o inquérito policial ser instaurado por promotor de justiça não impede que o delegado dê prosseguimento ao procedimento e seja eventualmente apontado como autoridade coatora na hipótese de impetração de habeas corpus.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 507,
+              "endIndex": 722,
+              "uri": "https://cj.estrategia.com/portal/prova-comentada-direito-processual-penal-delegado-al/",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28640,
+      "candidatesTokenCount": 236,
+      "totalTokenCount": 29784,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28640
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 908,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ohrRas-4LZbrz7IPk6ax4Q8"
+  },
+  "duracao_segundos": 5.602851400002692,
+  "usage_metadata": {
+    "promptTokenCount": 28640,
+    "candidatesTokenCount": 236,
+    "totalTokenCount": 29784,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 908,
+    "serviceTier": "standard"
+  },
+  "status": "erro",
+  "erro": {
+    "tipo": "ErroValidacaoLocal",
+    "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+  },
+  "sha256_registro": "e3ef626fb2a3f0ad246a5b208480d7b11e3692d4428f9300a45bd8458c71dc31"
+}
