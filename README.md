@@ -39,9 +39,9 @@ Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `en
 
 O módulo de preparação dos dados e da árvore está implementado e verificado. Ele preserva as fontes, prepara as 359 questões, valida os 377 registros da árvore e gera um diagnóstico reproduzível.
 
-**Projeto pausado a pedido do usuário em 14/10/2026.** Consulte [Ponto de retomada](docs/RETOMADA.md) para o estado salvo, módulos e próximos comandos.
+**Bloco de 20 chamadas concluído em 15/10/2026; aguardando revisão e commit do usuário.** Consulte [Ponto de retomada](docs/RETOMADA.md) para o estado salvo, módulos e próximos comandos.
 
-Dois pilotos reais com os mesmos 20 casos estão concluídos. O prompt v2 reconheceu melhor condições de revisão e foi escolhido para o lote de 359 questões com Gemini 3.5 Flash-Lite no plano gratuito. Na pausa, o lote contém 53 respostas válidas, uma resposta rejeitada e 305 IDs sem recibo. Os vinte sucessos do segundo piloto estão incluídos nesse total, sem novas chamadas. A avaliação e as entregas finais ainda estão pendentes.
+Dois pilotos reais com os mesmos 20 casos estão concluídos. O prompt v2 reconheceu melhor condições de revisão e foi escolhido para o lote de 359 questões com Gemini 3.5 Flash-Lite no plano gratuito. O lote contém 72 respostas válidas, uma resposta rejeitada e 286 IDs sem recibo. Os vinte sucessos do segundo piloto estão incluídos nesse total, sem novas chamadas. O bloco de 15/10 acrescentou dezenove sucessos em vinte chamadas; Q0005 permanece pendente de validação. A avaliação e as entregas finais ainda estão pendentes.
 
 Sem revisor jurídico disponível, a referência local será produzida por IA e identificada dessa forma. Concordância entre modelos e intervalos amostrais condicionados a essa referência não comprovam a meta de precisão jurídica. A política operacional foi registrada antes da inspeção dos novos resultados; a auditoria será sorteada após congelar as decisões.
 

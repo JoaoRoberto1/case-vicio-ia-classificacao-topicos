@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0053",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:18:58.992131+00:00",
+  "sha256_prompt": "14a58231ea134dcc6761b2bf2d797a7a0bed88f18a4a1d6c7a8748fc304debed",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "fe4e4c44ead1d41e314481383afa1406c80850091388b545572bf2bc63862448",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0053\",\n  \"tema_central_id\": \"5541\",\n  \"extras_ids\": [\n    \"5542\"\n  ],\n  \"temas_alternativos\": [\n    \"5539\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão exige o conhecimento específico sobre a transação penal, seus efeitos jurídicos e a comparação com a suspensão condicional do processo no âmbito dos Juizados Especiais Criminais.\",\n  \"evidencia\": \"Diferentemente da suspensão condicional do processo, a homologação da transação penal no âmbito dos juizados especiais criminais faz coisa julgada material\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "Eq4qCqsqAWkUfROQZrv18GknnsMY5camSpfAC6t8WmNLoXpRyT4uRUrNV+0AQkvkMc2oXRf35usbnO+kHXekpNbX0hatJFr1S8OyEoQqbbHlxe/crKzzs8Wod6Xkj4VGG/8UB8yFS/y9QZPdkinvryIZiVWf3aEyUS/uYwy8VMXDPm6LPy4SHiPLLAW9GhkWopCINFhxm0C4HI/zrWxHkyUGuGQLa5O6NpW1HX+Q8BhCGTFhRyu95GeUVJw5JfbNHopkiopxrGpX3Oz9sY3BbC65T59fjgwLsVR1HCeJbEit4e+48W97GUGG7XaqzT0y0BT2iGFnHgcW35yUvrnyMHwUs69WhploP6dEpJsK+SJRpSmcwHEPI40qd56G3g+8uPAob4cjngwjKhqnIPXIboIoHmZE6ClwKhIdaxELGKNobhoa4dTjAY50xHt70hKLNFsinxwSvdULo0mbk6Le0bi2+LMqp1knqWUzwRxY4hkM0yeiyzciHC0GROP0W6RTvQWLDoGvXuKvgKAtfTnzq5Nnturh8DmylOstfMmbAul/qJpmzMe5IzBE81Gvv0DVd4fEjKcTqkzbrm6lYFg7MYXv0qum4vw1d4akN6mKt7m0CZql+xZFj9K+3FjGWuMORLv9ZWbdEU6i1gWUpJFV2rj8VmRMRROqfkWjFQ2LySS/rsuOauS3LezouhHDoFL8QsjsobsBjO3m55PGbGL2Sa4fWE5cEJK4S5v1SibC6BHcMDPfxNCyQKLEaB/DLDu5glAbEf+ROiSbwSo59nuctSVogT2/+wzMCcCWP6piCYoVW92aICUUCTbz2H90WhNi7Gjuc7VXov/0FWaSpemWhml9oBSV4RVbs3wI27XVkKBfJM1dwsJEXZFKCJ+GMWbdRmbuH9kMscNXJONxPoIRf7bkgov9YbydpR8MpaLgTZh7meJWZKDdMddAZD2luORGTE9B7nmNpKrNWGP5OlCqthekr5TrJy459vLlWPrPNwY5YvF1NpA/+a0j43B0U2g0z2XmlUtJrHlZ7fJQUsPzCZf84JLWBreSli5d659aEUOmxjl9mvcn2gU/t2ddH2ITeMzWyvP4RzUD93rzkOjoV1aSrMwfVVfRMa7CxESYPTAKXbO9rymXj/bPT0ckGOlXlKEnd1Em1P+HGMKlF9p78FwuxeZue6jgn8i5BK1QhmxXGnJlUh/yZHmn4fH1icKW/s1VnDnzwOZk7S5PR6AGktQbBKMe8Rc/WacsG8Rnp3ks62rpILr++MUXeXZ3L+k+esb3DEpvceNcivbAGptREY4XM0D0T6DLd2aQ+T8MNxHwz6/Fb/VPpIq0pUbycM1W3PZXpR5zw0LcJ2kvgnbQM4SbtUtikqtOAL6sfiGb4eAxpZWXDdHrjWN6LrMrjlj2ddmrwTJh0ZdgkHWRnrMV26S6Vfgq6IggTaJKG7SoxwrQ71L/pHJ9Zil6xgEwjFsjzc+XiTH6W+NlpHvuVhmJvc9XQ615kURtsh6lDUyoXfNrqkEO2p3iGYeygWBPaWRZBLBCOL/bTr+Ojb20wdrXidcmttUdOk+LcJLoeCabkJafKaI2W5klj5q2fn8IFGvEqbr2xHXdwtvIkhXduBzspKAkyZKoWV9RxoEQ2FLxdOjK8rUhGslH2nnCnXL8qcwYGSNulyIM7jw3cZ4X3YvFR65ZTGrGZslbwpJXeUBlKIilmx4cC2s2m8FnI2s93oC2IORNlajt2Aes3M3msXIj8QrvuwGbz6asDgVrmAZP0h0TTNxRE7GqIYsE9/YwNLaJQQp0i+Erw0f+FdF/CkN7tb15zkfcMStnjZVKy4jvQU4GcbD5eo69tRBIHtmfgKp97hP6POyt0F8LzKW0Dj9qzhrEF24zg473KuKflti1Og8dU5ZXZEtrGW9/8YagaOcaO5OXuOpu5i3KFsL8+QOR0IupN1N9k8eN5i7cuLsfDU9ciOBkmEViW8jZ7IhXpJUXLvGU4rnU3lDxWQGwy50ZlRRyOjPz05jl6eEZT9X/9E4Hd0z6DmCmZq9h++m+R+9JoJ6PlLBp5CwIKtsx06Oa8AWR9DOsKF5ff2hUbF+cD2UmQ5C3WtDDxL8MbF1USKdyKYd/0MHsBRzNMOLVZiKrVBeUDz5jy5a4xbyt4LDaz0mDPe+NJtC2QDrXMP4pyl1Rfd80JI8psgBCY1DnYc6z/x9qcpfxJPp5TzW2umSI82cw3rJToaNv/Mj4BDBkNZ1GoTV7Jg1yG8gvqmqCQRnNVswIyAs8zOIs1hEvRJKnZf7oaEbpihuyxNyxpi+tBbZiaDm6k6I/lNoTWJChQ8mPBN02P9jRwoqmf2GlBOpy+7J7HNiLLXrMLfgdh+clqG0Xl0p2HSxpX5At2WwdFY2tuJyA6zup4bR3sHpehoBbtMrVMviUGHX2AnatNSzp5V1NCzwX9KMq1wwtHzkxAzXr9MQ7HHfPSuu8ySzv9FHnt6Ghf3aHYpaFO2GTRF3Jzk0ZdI0aV92ivGdoz/r1hQFOqlpEm70DbH8yCHnqi9Lc6dyzRmbkNt1BSzFybhweKzg//mcoh/7LhQMLmQGxNMQMje0XmfgxJpAri6czX697trWqn5tZwgAcbQrAmCpP5wkqeqgW0pNM0YU0sLW7SU1DSXBXDU/5XDlxdmaWxezTEn+wZcUdpMxdy5B9QQpkxa8/tfiTAwbjfvlLdzenrdoT/qG004/5afGnSsUjomFQx+H66QoOlvPCvOi5kobiEZzuqvAsP5ilXUeOd7efl+NOo6Cgqro0c/QCEnucjt1CB8WOsDgByIQRHhkX2qcneH9DxN0FULTKIGiXkIMGGBXql+qAhRR6O05jUNbVkdeF9MRaSAhXXWWOsZxPg5FJTA2+96mERbrdvHQhOMTqRHW06D3fRrLDTExaVE8feKsHLVx0XYdp+oJ8IMVzTWyi6cXAYLCnu/i3wuah2UTrqZej0CccFQGrHMDlspKPx0IJ1tuTCFJ6sPq9AFdq53z5xYVEmkJUoCW0JaR6Zr+gPrZseM8o2KbQQEiTEFr59hK8whpj5lfeHjzYNXTvULV9EFDjm3X9FumhywbLJeghc5BdpN9tIaXjqut5vH5lnAsfRm7VMpsZ//uwT1WzsfdeE1x+WYfXjzUPwzINzbQwoJYXfSTh7xr4Pd9ZXgDTD6zeVBLyBtzlo5Nkfp8x0xoKNgbgeFzWpau0uXrDADazJmLHUo8cridYtLyW+yU9MXPQaybF87D/5FJ6oYLRfIS+MkfOQvnDuQVlgP5EUb6voVq6DLfzawxgLvP+dxPkYbT9bCuf8HE9ilFWFRRVEM+jcQm2yUIIyPtUIrLUYkUD02sSTin5gW1UxIKYm6okMR0IBV1hBYkWcKW98rOoCIHYs/GyVHRT61kiWndC4Gwm4NjZzhoLGweViQBFRXFwrb7k8oDX76o7YxTdbCDHpTvN+f5MD35u4WETGxnjSz9ZTQRoSB2Rx6KHwAwilkwB/RPyvFvO2NKtyno4gfDLty2Eew5AjzxKuw4F3QgCrYWQh4svdGD3ibaNwqxrjQNoihpADVQPymwVXVPkGphW4CE9b74Dpg0CTitE6/sdOtJbCWoz+C7guxpqNrTVy9Uat2f8NRPM/U2PXwMidxdU9MKPt9iS/yJDmnn6YSGR+f4+iH9h00zM8IfU45Nof3ZcuwnBxroO2cL55PKD3IUcXjNQiPZa5z7VEtyTSfRIHKJLOJ5TRLV7RSqL+ImdIsYvobYnOrbWZD1p4kBqiIMlf6oPXxq7pHWI1kPBnsVlUMfmIsqQNg6kHUkXZOqKx5SPzswwI6jkdtG6vnB9rB92CJzRpoT7kzRotcIpJeimdnqG7WICbP/QLxUNxGbu/jpZarM5BfW2tGawW7iT9KrFvjzmDdB7iS+nUbkmosv9uQ/Og+IBkNj1IB0guzHamVjYCcZPaMT3T8uAcmUet1KVurRaxaL0SDhO5LbCkA9Msp4JJDqiJrIQX94up+YvmeeredUTfwU5DOFf/lzcyQ7mhL0hTuntDLrmGhlR0v4k5eTEsYLo7r2Ojz7h3X36DFzxyckvsZysfW/gCtgrQRB7ZUYPT19LNVByugBpnEPLY/ipX9JpmxqTjg8ZsogxhyaaCRwNf9c1ItCTf/Mo75yypHWa3EYFblJ7zltmR+OFcm6tuWGZbxO4PjiOf0FljQxGC+p0hX4O/xVcjDZdL+kg8NELtNaaecdhqTfysJcCrxauALLLnuWHcRL2NrIrIrYoSl16/9nKxv9G6gpfgbVY4dDUi/DYgW6oy385ZmkbttfPizDURng1MjIUPWOnKEC6R8d/ZmcA0vVgLzoDqz58Xpk+UkoBKHjWr9m/k+GzLwghcY2KmfqnrrT6fRZsfXOUiMNTL6wlP+LC7v352x0HrNT0fMFZY/3dTIQDEaL5EFmULaNm1CcdYwZAA2gIbeAUv3Y7Ka7tidF7uHidDXaTNOflFueRgo4WxXSVYo5Nq5x2bQL/X4SN9iM+LTcPsEdJ7QMYawm+3qx1OgJvkzHoRBi5v7LBeJZGBOo3RmQtIt8rvs8UotTMVwLWHyVUc2aVJ4FQ01tl9zm6q/Q/Kd8tY74tP0FSH9EWR26VFNL2SwX3MiZIOVpAxxiWml7BvD2XrKl1elEG2/Cd51vZYKKBH6J5t7bHX5HZHPpnMq34WiyDPMMoU5DitkPSvckluqhp5IxUL/s0NWkNDKgliJdR2E3hFIOEIRAnepaWNbKit9QfIiBScOV1efc76M1YDtW+NKmWB2i7GiBEB37Hk2rkLoGvFd+UduewggHVJ2KZjsSass1fbQh/NfVjVqoxj1M/1rc02MvaTQ9AE3VNN9cM1aUoE7l0GjobAheU8XwzmOjC/BOy7uMU+26LCIMA95romkOCAWrJn2ZQag7daKdVAY9J01zlEclkWTU0hJNEt9Oun2B+d5Fk83PxMKAdFy3AsqWjrYGZEXhEzUN0WTssoAmvEuiUL5776qaPBGItHyk3ZCa7HfgqeFF7zfas0SAX/mWpU6sk4utUhBTkY380SUX5+EC0q4DFho1u40N1eumFTtY/7qSCKhglTL6glMEqzvzsJ789QD8Wx51WacYwtdFaSk61l2X/GuNr7Slphx42a/hwcjhhY+7eh3eLq98/8T55pr1trY1PjLTUqjTMwfbDWDmI7vkG8ihbsluUHXRdVtO55rUmjMS7CAl6p6iW9H/ywFa9DdbjpdjZ6DHzhHhK9OeHdUh+IwAC1LuqJ6hsb+hJfaFBxUvXB9YiSYLU+zy6uwA69xqL442dYGp0grPBQqmQdc3Yozuncl3lAArAPsnTdJ2/sWGYoWFfUNm/7y+XkudmIIqQ6eKXxpdYcKm9TPxPnbIh03InaquRTezf5/syYjYHQ6DOXMJxRiqVeOZyXjxUmZ164PTe+2z2F0GjDBi00YqQq1EqzGfKpY+WB6RwATOd1QA/D/N9XQ5r2pSLS5LMVgF609gkWPn1MqStq5GBeGhFZp1e2FzY7U86X0LNbTqbRAcLb94pWmfnqJEECLJwSlK6MHTe7qjLN2E+zsFhAMzkBY6n0RImwUdVwF1iIytPGwNQPdT3hnwHrYCux0c58Dt4WdBq03Ajl4uea05ANCVpmT0UovhOsioN7IUMaT8V0QW+xNhMzaGzFXB5uT4WMP74ZECY/7QdceBMpzEvyXoFGzvnMHlEmq3qUOXW3TEfpbEaw5ClwVWoEKHk8pFbJWsPobrx0e88djRWIIWwU4HYejG14xc8FS1LYMfHDDCOGKxyv6cEm2Sz59toDNWGmZGhHi+FTqmKGlskjUyYVQ3xrInzhyCYwSappX+zzSU/n0cef1pyHYNEJEpRAWi5ee7J7hlpazmaYzgr7LsYlsYx7BvJWh4zKBhm5B7u+9IlxiR6SzYG8KhpvSAS+UsJH/STzriQP4s563UXr1h2RBTn/3d0pCvXu8fBo0ls25XsG00rc8dtsBrnMYxrN9C4i4sLI7mAtF+N7pIQg1Tf1kAakcBnhNDntoQ4c7kW3oWsLHDWPnCkj+LmNBpbZSN7hlh4Iqi6NK3XYX9iPC810i6s64cx8+m3EGZdkSO9YwkROrzYRavMZWZ8FGxXKvVlyU8OLdzs/gUIway8dpXRhsQ60bB4Vzaaj9SslgbQrhbG6wpkQfmVWe/7JDmMHz2JOa7n/mICGQVW4HPEsK2cyern310xowxkz9yJqNVTgyBts5gaa95CZ8bpTWJmCkiBLqWjQbi3Y09jYVXE+bnRNxpaq/AGPWoPHb1fCa8H6lTYl8fopiP4K2CqKN+ArHorFAx/z7XPsaRtBeB2VZfMpwzzyeL6rScAa6LttZCSnh19vYBOCu+iad12f4fEkZOdV+Ea6V5ZbmsIQBtTfGMFG/jeRwecqTespk4yP12Rg+/coDTyHln4qU/VUnQaTU+CgNYCQz0TrznwG2MFS5MJpK14a971TIoaF3/B59IyQVLLqnAYGdsDdq9s+xa/Zr2y/n+kuu90pL1WaKRFoSeewGr+1Uxr7bca55M9YWxpgzsLleDrClsaleN00ZqXApKg8JDLOMSm0xJF2EeprqsVoq8O52BrKyrD+cZotT9nHiKubujEehNQKdJOHw+Sc3YJUIigZJARntT6Wqil2+ImucVR8eKO66tUrqoHBx1XeLPkNefceJL3BwzZMBFjhlZF1CdXHNj67IgZOm6VGDh9UhJtLBIigfmuOfcMEWtNitAuSQ7mDBshLTDbBAg5VrRvQKtlo6jRl+uCkTBzhO+y+0aA91KOSM69ulBVf7I5PjMRXRMJ1riQRfUhUI+YmsWTYETjU7HGvJ4rxNy+jHvhLSp8LbkczEaEjaWT2BYrud1S9arqdUxdHJDKXGRrabPXib7lUPpYYnXCYkQEDPMoe9IgZnjqZjSnT+RDytwn8V8VclLKykF03/R5z9irHaOpcVqfZz/WgBLLjg10XKYq/cp9s3I+42DGE3qkLcmjBcedilOXZa7WjUbib8fZfM9/mbM17+hxeptJgXEdn6XY6KC1GLY6qPp8o44XhcOMs7Dih+Cufrth6H6ZaidGfzRABC+UPopmJrfoEIR2NmntAtGqSoLv72cZQjG6imZR/YkGg2Ltx2N5YrILGKZJwPGl+EPdHgBhp5hrhsx//gMipWtZZpm/FB8G4uS/roIHsuWQs4DH+PNIV+MX43JgCvpnmmm6Tps6dzF4aGMMmAbbAQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28650,
+      "candidatesTokenCount": 190,
+      "totalTokenCount": 30135,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28650
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1295,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5O7QavKYAua7qtsP-cCkmQ8"
+  },
+  "duracao_segundos": 14.701704799999789,
+  "usage_metadata": {
+    "promptTokenCount": 28650,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 30135,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28650
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1295,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0053",
+    "tema_central_id": "5541",
+    "extras_ids": [
+      "5542"
+    ],
+    "temas_alternativos": [
+      "5539"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão exige o conhecimento específico sobre a transação penal, seus efeitos jurídicos e a comparação com a suspensão condicional do processo no âmbito dos Juizados Especiais Criminais.",
+    "evidencia": "Diferentemente da suspensão condicional do processo, a homologação da transação penal no âmbito dos juizados especiais criminais faz coisa julgada material",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "78acaaac4fffcaf66a2f2272266e0e588ab3a43f38baff94e0673b4994e9ebd5"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0052",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:18:42.761278+00:00",
+  "sha256_prompt": "2a5c03ce79cf0c82b7a37235d9874272f643abbe0b4a74030cbb0d67a04b1a7c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "12fd906cc1f4b98555f918d5f5289d7980fb22edd1e6e7c5b6f7060a754803c4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0052\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda regras da Lei de Execução Penal (remição de pena por trabalho e estudo). Como o assunto está catalogado em ramos distintos (Direito Penal - Legislação Especial e Processo Penal), há duplicidade de nós exigindo revisão editorial.\",\n  \"evidencia\": \"Uma pessoa presa em regime fechado, definitivamente condenada, prestou 300 dias de trabalho prisional intra muros\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28857,
+      "candidatesTokenCount": 190,
+      "totalTokenCount": 30386,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28857
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1339,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0-7QarqgHZz_qtsPvIKauQ8"
+  },
+  "duracao_segundos": 6.13940299999922,
+  "usage_metadata": {
+    "promptTokenCount": 28857,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 30386,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28857
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1339,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0052",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda regras da Lei de Execução Penal (remição de pena por trabalho e estudo). Como o assunto está catalogado em ramos distintos (Direito Penal - Legislação Especial e Processo Penal), há duplicidade de nós exigindo revisão editorial.",
+    "evidencia": "Uma pessoa presa em regime fechado, definitivamente condenada, prestou 300 dias de trabalho prisional intra muros",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "863541bbd218f83c85cdaf52e4ee9ce411a89189dda1bbce59d14b7faf58719f"
+}

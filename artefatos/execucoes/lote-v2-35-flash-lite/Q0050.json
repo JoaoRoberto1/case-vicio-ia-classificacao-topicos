@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0050",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:18:09.834999+00:00",
+  "sha256_prompt": "9911cb492ff25ce1ee31b1204f4ffd100bb54e9bbeebd9214379b0e5ddff1694",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "41e51a25da69ccd537395ef03e22b58fdef240b7f9baa16974686a469f789a44",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0050\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\",\n    \"5557\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a delação premiada específica da Lei de Drogas. O assunto concorre entre os ramos de Direito Penal - Legislação Especial (Tráfico de Drogas), Penal e Processo Penal (Colaboração Premiada), exigindo revisão editorial devido à duplicação temática entre os ramos.\",\n  \"evidencia\": \"Sobre o instituto da delação premiada, previsto na Lei de Drogas (Lei no 11.343/2006)\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28695,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 30291,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28695
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1383,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "su7Qao62JZLpqtsPpYvw6Qg"
+  },
+  "duracao_segundos": 7.8095934999983,
+  "usage_metadata": {
+    "promptTokenCount": 28695,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 30291,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28695
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1383,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0050",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728",
+      "5557"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a delação premiada específica da Lei de Drogas. O assunto concorre entre os ramos de Direito Penal - Legislação Especial (Tráfico de Drogas), Penal e Processo Penal (Colaboração Premiada), exigindo revisão editorial devido à duplicação temática entre os ramos.",
+    "evidencia": "Sobre o instituto da delação premiada, previsto na Lei de Drogas (Lei no 11.343/2006)",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d460805b16478017869e96a9961e15001385ebfb0038782ee62216d374116d14"
+}

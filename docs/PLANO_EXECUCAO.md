@@ -7,7 +7,7 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
-| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Pausado: 53 válidas, uma rejeitada, 305 sem recibo |
+| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Bloco de 15/10 concluído: 72 válidas, uma rejeitada, 286 sem recibo; aguarda revisão/commit |
 | 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | Política registrada; módulos offline preparados, integração e aplicação real pendentes |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
@@ -46,6 +46,16 @@ Os commits são sugestões para o usuário; nenhum foi criado pelo assistente. O
 A cada módulo, registrar entrega, comando de reprodução, verificações, tempo observado, limitações e próximo passo. Na classificação, acompanhar IDs processados, saídas válidas, decisões, cobertura, revisões, estimativa de precisão, uso de tokens e falhas.
 
 O histórico de experimentos deve distinguir versão automática e intervenções manuais. Alterações manuais exigem ID, antes, depois, motivo, responsável e data.
+
+### Bloco do módulo 4 concluído em 15 de outubro de 2026
+
+- Retomada autorizada pelo usuário; execução limitada a vinte novas chamadas, sem iniciar outro bloco.
+- Dezenove novos sucessos, Q0038 a Q0056. Q0005 voltou a apresentar evidência inválida e mantém quatro tentativas no histórico.
+- Estado acumulado: 72 sucessos, uma resposta rejeitada e 286 questões sem recibo; 287 pendências no total.
+- As vinte chamadas registraram 603.109 tokens totais e 178,88 segundos somados de duração de API, sem contar pausas e verificações locais.
+- Modelo, prompt e política preservados. Os 53 recibos de sucesso anteriores permaneceram idênticos, e todos os recibos presentes foram validados.
+- Suíte offline: 193 testes, 192 aprovados e um pulado por limitação de privilégio do Windows. Execução encerrada sem lock residual.
+- Registro: `artefatos/checkpoints/bloco_2026-10-15_01.json`. Nenhuma decisão final, estimativa de precisão, alteração manual de tema ou commit realizado nesta etapa.
 
 ## Registro de execução
 

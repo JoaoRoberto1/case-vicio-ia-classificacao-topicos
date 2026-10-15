@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0045",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:16:41.100362+00:00",
+  "sha256_prompt": "a99d962c581b024ab1f1549b50a0a472bd7caeeadb3c7cc8fd21d58f9db35071",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e45288a4abad26173d5fec5f22981cd2d72f49f53e74970b59e2f93a85c7a307",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0045\",\n  \"tema_central_id\": \"5091\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda o crime de excesso de exação e suas hipóteses de qualificação, matéria diretamente enquadrada no tema de Concussão e Excesso de Exação.\",\n  \"evidencia\": \"No crime de excesso de exação, o crime é qualificado se\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28694,
+      "candidatesTokenCount": 152,
+      "totalTokenCount": 29574,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28694
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 728,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "We7QasHSM8fxqtsPi9i8mAo"
+  },
+  "duracao_segundos": 12.304320699999153,
+  "usage_metadata": {
+    "promptTokenCount": 28694,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 29574,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28694
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 728,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0045",
+    "tema_central_id": "5091",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda o crime de excesso de exação e suas hipóteses de qualificação, matéria diretamente enquadrada no tema de Concussão e Excesso de Exação.",
+    "evidencia": "No crime de excesso de exação, o crime é qualificado se",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "fe13fba503070f655373a1d686a433e89b07af1070a23686637a54120c49b289"
+}

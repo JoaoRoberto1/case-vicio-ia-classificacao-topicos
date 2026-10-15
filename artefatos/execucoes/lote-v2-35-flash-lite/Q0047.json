@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0047",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:17:19.337232+00:00",
+  "sha256_prompt": "4348444b0a27da6876e1ffa67abb5f3878897986562ad8eb4fa6e9b4ab03a81f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3f54b9dde8a9f6cbdbe14197d1bde0e5703412e1c0a2a6d4246edecff38b38c6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0047\",\n  \"tema_central_id\": \"5164\",\n  \"extras_ids\": [\n    \"5063\"\n  ],\n  \"temas_alternativos\": [\n    \"5466\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o crime de dano e as respectivas regras de ação penal sob a ótica do Código Penal, envolvendo conhecimentos centrais de crimes contra o patrimônio e normas de ação penal, com interseção e potencial duplicidade entre os ramos de Penal e Processo Penal.\",\n  \"evidencia\": \"é correto afirmar que Caio responderá, em concurso, pelos crimes de\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28895,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 30632,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28895
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1544,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "gO7QasHFCO_Uz7IPtpiy4Aw"
+  },
+  "duracao_segundos": 7.543075499999759,
+  "usage_metadata": {
+    "promptTokenCount": 28895,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 30632,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28895
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1544,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0047",
+    "tema_central_id": "5164",
+    "extras_ids": [
+      "5063"
+    ],
+    "temas_alternativos": [
+      "5466"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o crime de dano e as respectivas regras de ação penal sob a ótica do Código Penal, envolvendo conhecimentos centrais de crimes contra o patrimônio e normas de ação penal, com interseção e potencial duplicidade entre os ramos de Penal e Processo Penal.",
+    "evidencia": "é correto afirmar que Caio responderá, em concurso, pelos crimes de",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "26d1aca173e2e1af9a183a1fb7a43bfaa569ccbe979f3940744d706d7c2f022d"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0048",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:17:36.923896+00:00",
+  "sha256_prompt": "54d157a09c2fcbaf64a89a7c6991493d6e171e168c8440515c7b1e911d5127be",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e28a04d9b695aac4205ada8ae7c2b427301d4486cb66ae7f95cb5c78c2c3d680",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0048\",\n  \"tema_central_id\": \"5193\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4703\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda institutos de indulto e comutação de pena, inseridos precipuamente no âmbito da extinção da punibilidade, mas que tangenciam fortemente regras de execução penal e requisitos subjetivos (faltas graves), gerando interface com a Lei de Execução Penal.\",\n  \"evidencia\": \"Sobre indulto e comutação de pena, é correto afirmar que:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28953,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 30349,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28953
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1209,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ke7Qav3jKN6P6dkPiqGEgQc"
+  },
+  "duracao_segundos": 6.580504399998972,
+  "usage_metadata": {
+    "promptTokenCount": 28953,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 30349,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28953
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1209,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0048",
+    "tema_central_id": "5193",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4703"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda institutos de indulto e comutação de pena, inseridos precipuamente no âmbito da extinção da punibilidade, mas que tangenciam fortemente regras de execução penal e requisitos subjetivos (faltas graves), gerando interface com a Lei de Execução Penal.",
+    "evidencia": "Sobre indulto e comutação de pena, é correto afirmar que:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "194e65f53d34f188cd12cefdd0dd7ebcc9bb76920be249e137da2e8c8c308d78"
+}

@@ -1,7 +1,7 @@
 {
   "experimento": "lote-v2-35-flash-lite",
   "registrado_utc": "2026-10-14T19:31:02.146726+00:00",
-  "estado": "pausado_a_pedido_do_usuario",
+  "estado": "bloco_concluido_aguardando_revisao_do_usuario",
   "modelo": "gemini-3.5-flash-lite",
   "thinking_level": "MEDIUM",
   "entradas": "artefatos/lote-v2",
@@ -33,12 +33,12 @@
   },
   "continuar_erros_validacao": true,
   "evidencia": "Trecho presente em um campo, tolerando apenas caixa e espacos; sem correspondencia aproximada.",
-  "checkpoint": "artefatos/checkpoints/pausa_2026-10-14.json",
+  "checkpoint": "artefatos/checkpoints/bloco_2026-10-15_01.json",
   "resumo": {
     "total_questoes": 359,
-    "sucessos": 53,
+    "sucessos": 72,
     "erros": 1,
-    "sem_recibo": 305,
-    "pendencias_totais": 306
+    "sem_recibo": 286,
+    "pendencias_totais": 287
   }
 }

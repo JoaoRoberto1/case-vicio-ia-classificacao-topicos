@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0042",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:15:47.582333+00:00",
+  "sha256_prompt": "3407717c6fb4f7f611c9f2debfed5bf6ff20456c671dc0096506f4a2b1eb95fe",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "07dcf62c75a9db61e86fe7af2d9feb292f56ef458edfe9244fec3e8dbbcabe51",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0042\",\n  \"tema_central_id\": \"5222\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda o conceito de dolo direto, matéria pertencente à teoria do crime no âmbito do fato típico, especificamente no estudo dos crimes dolosos e culposos.\",\n  \"evidencia\": \"Sobre o elemento subjetivo da conduta, dolo direto é aquele em que:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28737,
+      "candidatesTokenCount": 152,
+      "totalTokenCount": 29379,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28737
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 490,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "JO7Qav7PFoWHz7IPh6bQOQ"
+  },
+  "duracao_segundos": 3.6968863000001875,
+  "usage_metadata": {
+    "promptTokenCount": 28737,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 29379,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28737
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 490,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0042",
+    "tema_central_id": "5222",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda o conceito de dolo direto, matéria pertencente à teoria do crime no âmbito do fato típico, especificamente no estudo dos crimes dolosos e culposos.",
+    "evidencia": "Sobre o elemento subjetivo da conduta, dolo direto é aquele em que:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f621b38bc71899cd4a2ba5c4be26b937235638d085c0a781499149ca6fd42930"
+}

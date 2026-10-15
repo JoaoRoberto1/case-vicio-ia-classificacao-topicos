@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0044",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:16:19.180181+00:00",
+  "sha256_prompt": "846e3d93449e13575c25a1f58b01e69fbe2e7d01d2353dd445b0ffc7217a40b0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5c4d35446369cdcfdc066c764b0a832d356c06bb51ad9981670785c6f8d75a92",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0044\",\n  \"tema_central_id\": \"5488\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5487\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda os efeitos da ausência do acusado em juízo após a citação pessoal válida, matéria diretamente relacionada à citação e aos atos de comunicação processual penal.\",\n  \"evidencia\": \"Se Jean, após a citação pessoal válida, não comparecer em juízo para defender-se no curso da ação penal, o juiz deverá decretar a sua revelia\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28760,
+      "candidatesTokenCount": 182,
+      "totalTokenCount": 30128,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28760
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1186,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Q-7QasnTOvrrz7IP5Kyp0AQ"
+  },
+  "duracao_segundos": 11.877001300001211,
+  "usage_metadata": {
+    "promptTokenCount": 28760,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 30128,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1186,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0044",
+    "tema_central_id": "5488",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5487"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda os efeitos da ausência do acusado em juízo após a citação pessoal válida, matéria diretamente relacionada à citação e aos atos de comunicação processual penal.",
+    "evidencia": "Se Jean, após a citação pessoal válida, não comparecer em juízo para defender-se no curso da ação penal, o juiz deverá decretar a sua revelia",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "efe6fcd93faa781c6d6cd89f29c32606ed112664db0899ba1e358f84323a66e9"
+}

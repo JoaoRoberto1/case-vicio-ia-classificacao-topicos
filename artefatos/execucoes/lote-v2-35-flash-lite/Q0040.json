@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "Q0040",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:15:01.000488+00:00",
+  "sha256_prompt": "ab312f83e2e76b87dd611332c50fda8dd1a8f93158bc427de8c23149179eb79b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2cfa6dd80d21433d7d7b9eda4967473ae6583eeba4e6e1229ff5cdd47f0843ff",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0040\",\n  \"tema_central_id\": \"5562\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5560\",\n    \"5512\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o recurso de apelação no processo penal, especificamente os requisitos e efeitos associados ao recurso interposto contra decisões do Tribunal do Júri.\",\n  \"evidencia\": \"Assinale a alternativa que traz duas características do recurso de apelação contra sentença condenatória do Tribunal do Júri que, cumuladas, podem levar à atribuição de efeito suspensivo ao referido recurso.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 376,
+              "endIndex": 582,
+              "uri": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=10&examining_board_ids%5B%5D=152&has_professor_commentaries=true",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28754,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 29706,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28754
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 759,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9u3QatGCA6WP6dkP8LOKgQc"
+  },
+  "duracao_segundos": 15.225617300000522,
+  "usage_metadata": {
+    "promptTokenCount": 28754,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 29706,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28754
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 759,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0040",
+    "tema_central_id": "5562",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5560",
+      "5512"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o recurso de apelação no processo penal, especificamente os requisitos e efeitos associados ao recurso interposto contra decisões do Tribunal do Júri.",
+    "evidencia": "Assinale a alternativa que traz duas características do recurso de apelação contra sentença condenatória do Tribunal do Júri que, cumuladas, podem levar à atribuição de efeito suspensivo ao referido recurso.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b5955f2a2618383185462ef288927fef1c489f78a0555192e21fb21dc62143ea"
+}

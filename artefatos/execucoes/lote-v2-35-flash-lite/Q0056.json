@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0056",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:20:09.663500+00:00",
+  "sha256_prompt": "6f9601aa0bf13d708bc3e1ef57de0b336f3e6c81622e011d7176d55c842bc6a4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a27ce6704f12f134949ec84790a819d77453c5cd8c5dde34f6465647696c4660",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0056\",\n  \"tema_central_id\": \"5066\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os critérios de aplicação de pena nas hipóteses de pluralidade delitiva, englobando regras de concurso material, formal e de penas de multa, correspondendo diretamente ao tema geral de Concurso de Crimes.\",\n  \"evidencia\": \"No caso de pluralidade delitiva, deve-se adotar, na determinação da pena,\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28747,
+      "candidatesTokenCount": 165,
+      "totalTokenCount": 29953,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28747
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1041,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Ku_Qaoz6GLCsz7IPrO7G2A8"
+  },
+  "duracao_segundos": 6.290040599998974,
+  "usage_metadata": {
+    "promptTokenCount": 28747,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 29953,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28747
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1041,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0056",
+    "tema_central_id": "5066",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os critérios de aplicação de pena nas hipóteses de pluralidade delitiva, englobando regras de concurso material, formal e de penas de multa, correspondendo diretamente ao tema geral de Concurso de Crimes.",
+    "evidencia": "No caso de pluralidade delitiva, deve-se adotar, na determinação da pena,",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "2350eee9a8a00e5afc621693982859cf20f2cb1a034648c13b8d09a9cede2f98"
+}

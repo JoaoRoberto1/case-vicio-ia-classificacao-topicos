@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0054",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:19:23.750407+00:00",
+  "sha256_prompt": "54e70125054a6c4732ea2edab577d14083526dd0b4e2a8468a04ad8bb49355d5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "888088248ef4f4b366ba9b570ab42dc410ddbac1e9a2dc698a52aa22c809bf8a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0054\",\n  \"tema_central_id\": \"5174\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente as classificações doutrinárias dos crimes, especificamente exigindo identificar exemplos de delito de mera atividade, delito de lesão, delito plurissubjetivo e delito pluriofensivo.\",\n  \"evidencia\": \"delito de mera atividade, delito de lesão, delito plurissubjetivo e delito pluriofensivo\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28759,
+      "candidatesTokenCount": 169,
+      "totalTokenCount": 29440,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28759
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 512,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "_O7QaoXsJIDUz7IPjovqOA"
+  },
+  "duracao_segundos": 11.110041899999487,
+  "usage_metadata": {
+    "promptTokenCount": 28759,
+    "candidatesTokenCount": 169,
+    "totalTokenCount": 29440,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 512,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0054",
+    "tema_central_id": "5174",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente as classificações doutrinárias dos crimes, especificamente exigindo identificar exemplos de delito de mera atividade, delito de lesão, delito plurissubjetivo e delito pluriofensivo.",
+    "evidencia": "delito de mera atividade, delito de lesão, delito plurissubjetivo e delito pluriofensivo",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c15c3cd0da8ec3e3175600ce167e28f391b4e373a148f94358e6aeca1785a367"
+}

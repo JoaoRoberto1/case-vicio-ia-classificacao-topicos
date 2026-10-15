@@ -1,6 +1,6 @@
 # Ponto de retomada do case
 
-Projeto pausado a pedido do usuário em 14/10/2026, com código verificado e resultados parciais preservados. O próximo trabalho é um bloco do módulo 4, limitado a vinte novas chamadas. Ao concluir cada bloco ou módulo, apresentar o resultado e parar para o usuário revisar e commitar antes de seguir.
+Bloco do módulo 4 concluído em 15/10/2026, após a pausa de 14/10. Foram feitas vinte novas chamadas, com dezenove novos sucessos. O trabalho está no ponto de revisão e commit do usuário; não há execução de API em andamento. O próximo bloco, quando autorizado, continuará limitado a vinte novas chamadas. Ao concluir cada bloco ou módulo, apresentar o resultado e parar para revisão e commit antes de seguir.
 
 ## Estado salvo
 
@@ -9,39 +9,40 @@ Projeto pausado a pedido do usuário em 14/10/2026, com código verificado e res
 | Módulo 1: dados e árvore | Concluído: 359 questões preparadas, 377 temas validados, 375 ativos |
 | Módulo 2: protocolo | Definido: política v1, referências por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | Módulo 3: integração e pilotos | Concluído: dois pilotos de vinte casos, prompt v2 selecionado |
-| Módulo 4: lote completo | Pausado: 53 sucessos, uma resposta inválida e 305 IDs sem recibo; 306 pendências no total |
+| Módulo 4: lote completo | 72 sucessos, uma resposta inválida e 286 IDs sem recibo; 287 pendências no total |
 | Módulo 5: decisão e avaliação | Funções e testes offline prontos; integração CLI e aplicação aos resultados reais pendentes |
 | Módulo 6: relatório e memo | Pendente |
 | Módulo 7: entrega final e reprodução | Pendente; esta pausa valida a base, não conclui a entrega |
 
-O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`. Os vinte sucessos do piloto v2 estão incluídos nos 53, pois foram reutilizados sem novas chamadas. Q0005 permanece com erro de evidência: a resposta não reproduziu um trecho aceito do texto. Suas tentativas estão preservadas; o erro não foi convertido em decisão temática.
+O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`. Os vinte sucessos do piloto v2 estão incluídos nos 72, pois foram reutilizados sem novas chamadas. O novo bloco concluiu Q0038 a Q0056. Q0005 permanece com erro de evidência e quatro tentativas preservadas: a resposta não reproduziu um trecho aceito do texto. O erro não foi convertido em decisão temática.
 
-O [checkpoint verificável](../artefatos/checkpoints/pausa_2026-10-14.json) guarda IDs por estado, hashes dos recibos e consumo registrado. São 57 tentativas nessa pasta, incluindo histórico, com 1.716.616 tokens totais informados. Não somar novamente o piloto v2 ao contabilizar todo o projeto. A interrupção pode ter ocorrido após o envio de uma chamada ainda sem recibo; eventual consumo não registrado não pode ser tratado como zero.
+O [checkpoint atual](../artefatos/checkpoints/bloco_2026-10-15_01.json) guarda IDs por estado, hashes dos recibos e consumo registrado. São 77 tentativas nessa pasta, incluindo histórico, com 2.319.725 tokens totais informados; o bloco de 15/10 acrescentou 603.109 tokens. Não somar novamente o piloto v2 ao contabilizar todo o projeto. O [checkpoint da pausa anterior](../artefatos/checkpoints/pausa_2026-10-14.json) permanece preservado. A interrupção de 14/10 pode ter ocorrido após o envio de uma chamada ainda sem recibo; eventual consumo não registrado não pode ser tratado como zero.
 
-A execução de classificação foi encerrada. O lock residual foi removido somente após confirmar que não existia processo de classificação ativo. Nenhum processo de API foi deixado rodando para concluir o lote durante a pausa.
+A execução de 15/10 terminou pelo limite de vinte chamadas, sem interrupção da API e sem lock residual. O retorno da CLI foi 1 porque Q0005 continua inválida; os dezenove novos sucessos estão salvos. Nenhum processo de API foi deixado rodando para concluir o restante do lote.
 
-## Verificações desta pausa
+## Verificações do bloco de 15 de outubro
 
-- `python -B -m unittest discover -s tests -v`: 193 testes, 192 aprovados e um pulado por falta de privilégio do Windows para criar link simbólico real. A proteção também possui teste simulado aprovado.
+- `python -B -m unittest discover -s tests -q`: 193 testes, 192 aprovados e um pulado por falta de privilégio do Windows para criar link simbólico real. A proteção também possui teste simulado aprovado.
 - Todos os recibos presentes tiveram identidade do experimento, checksum e histórico conferidos. As sugestões válidas passaram pelo esquema, IDs ativos e correspondência de evidência.
+- Os 53 recibos de sucesso anteriores permaneceram byte a byte idênticos. Não houve alteração de código, modelo, prompt ou política neste bloco.
 - Hashes das fontes originais conferidos; os materiais fornecidos permanecem intactos.
-- Preparação e prompts dos pilotos v1, v2 e lote v2 reconstruídos em pasta temporária, com hashes idênticos aos produtos existentes.
-- `.env` e `contexto_local/` continuam ignorados pelo Git. A busca por padrão de chave Google nos arquivos versionáveis não encontrou credencial.
+- Em 14/10, preparação e prompts dos pilotos v1, v2 e lote v2 foram reconstruídos em pasta temporária, com hashes idênticos aos produtos existentes. Na retomada, os hashes das fontes e manifestos foram reconferidos.
+- `.env` e `contexto_local/` continuam ignorados pelo Git. A busca por padrão de chave Google nos artefatos do bloco não encontrou credencial.
 - `.gitattributes` impede conversão de fim de linha dos materiais e artefatos assinados, preservando hashes em checkouts Windows.
 - `git diff --check` sem erros de espaços. Nenhum commit ou push realizado pelo assistente.
 
 ## Commit deste checkpoint
 
-É possível commitar a base atual mesmo com o lote incompleto: o estado parcial está explícito e a retomada reutiliza os sucessos. O commit inclui código de avaliação já testado, sem afirmar que a avaliação real foi concluída.
+A base anterior já estava commitada e o repositório estava limpo no início desta retomada, em `7a81655`. Este novo commit pode registrar apenas recibos, checkpoint e documentação de progresso. O lote permanece incompleto e a retomada reutiliza os sucessos; a avaliação real ainda não foi executada.
 
 Comandos sugeridos para o usuário, a partir da raiz:
 
 ```powershell
 git status --short
-git add .gitattributes .gitignore .env.example README.md classificacao_topicos tests config prompts docs artefatos
+git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md artefatos/checkpoints/bloco_2026-10-15_01.json artefatos/experimentos/lote-v2-35-flash-lite.json artefatos/execucoes/lote-v2-35-flash-lite
 git diff --cached --stat
 git diff --cached --name-only
-git commit -m "feat: salva base do case e checkpoint dos pilotos e lote"
+git commit -m "data: registra bloco do lote com 72 respostas validas"
 ```
 
 Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` permanecem no computador, mas são ignorados: repetem o catálogo e são regeneráveis. Templates, manifestos, fontes, recibos e análises são versionáveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.

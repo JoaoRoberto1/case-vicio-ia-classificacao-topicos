@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0041",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:15:26.233387+00:00",
+  "sha256_prompt": "799d176ebf464b8acd3dc055fc393b32cc19af3210b923e66f57cccaa6dec64c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8324337679e2c0e9b7fa4c0468c087a6a844fc8e3fab3151e11c99487b9f9b64",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0041\",\n  \"tema_central_id\": \"5184\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o tema das medidas de segurança no direito penal, exigindo conhecimentos sobre sua aplicação, sistemas adotados e legislação correlata.\",\n  \"evidencia\": \"Sobre as medidas de segurança é correto afirmar:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28799,
+      "candidatesTokenCount": 138,
+      "totalTokenCount": 29572,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28799
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 635,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "D-7QarULiIqa2Q_a9IWIBw"
+  },
+  "duracao_segundos": 11.215720899999724,
+  "usage_metadata": {
+    "promptTokenCount": 28799,
+    "candidatesTokenCount": 138,
+    "totalTokenCount": 29572,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28799
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 635,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0041",
+    "tema_central_id": "5184",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o tema das medidas de segurança no direito penal, exigindo conhecimentos sobre sua aplicação, sistemas adotados e legislação correlata.",
+    "evidencia": "Sobre as medidas de segurança é correto afirmar:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "29ecd7b862533418789695dabfa0b9cbe3ad019e0998934b74ecca2df6b90d3f"
+}

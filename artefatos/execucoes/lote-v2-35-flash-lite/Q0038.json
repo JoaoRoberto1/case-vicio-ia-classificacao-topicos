@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0038",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:14:25.601507+00:00",
+  "sha256_prompt": "c5a2a6d535ca7d88e864f090dc69e46cbc53215f9217cba1615c9801e6d3783d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ef73f176ad91a10f062a188fe6f86d8b3efc41e197d1709ac9cd3d67e3167022",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0038\",\n  \"tema_central_id\": \"5583\",\n  \"extras_ids\": [\n    \"5498\",\n    \"5562\"\n  ],\n  \"temas_alternativos\": [\n    \"5466\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda diversas prerrogativas do ofendido no processo penal, englobando atos na investigação, assistência à acusação, medidas cautelares e recursos, o que mistura múltiplos tópicos de Processo Penal sem um subtema específico dominante, justificando a revisão.\",\n  \"evidencia\": \"No que diz respeito ao ofendido e às suas prerrogativas no processo penal brasileiro, é correto afirmar que poderá:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28783,
+      "candidatesTokenCount": 208,
+      "totalTokenCount": 30409,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28783
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1418,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0u3QapKjEYiKmtkP2vSFiAc"
+  },
+  "duracao_segundos": 7.00291339999967,
+  "usage_metadata": {
+    "promptTokenCount": 28783,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 30409,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28783
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1418,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0038",
+    "tema_central_id": "5583",
+    "extras_ids": [
+      "5498",
+      "5562"
+    ],
+    "temas_alternativos": [
+      "5466"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda diversas prerrogativas do ofendido no processo penal, englobando atos na investigação, assistência à acusação, medidas cautelares e recursos, o que mistura múltiplos tópicos de Processo Penal sem um subtema específico dominante, justificando a revisão.",
+    "evidencia": "No que diz respeito ao ofendido e às suas prerrogativas no processo penal brasileiro, é correto afirmar que poderá:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "1b4be7d84ce6c4910008bea4e30d62fb1c114678d50cd8e58c22e3d61b798f5c"
+}

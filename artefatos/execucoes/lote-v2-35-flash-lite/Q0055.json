@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0055",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:19:44.912452+00:00",
+  "sha256_prompt": "12334a4f30cf6df69ad7c630b4f30eaf4d23ecd1d994c54a993dbded555a2a15",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "83603f229ceb1beb496566de67783fb7642a637f2d05efb16a62b5761443c4d8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0055\",\n  \"tema_central_id\": \"5550\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5535\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda as regras de inquirição de testemunhas com base no Art. 212 do CPP, havendo interseção e concorrência direta entre os temas de Prova Testemunhal e Audiência de Instrução e Julgamento.\",\n  \"evidencia\": \"na forma do Art. 212 do Código de Processo Penal, é correto afirmar que:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28736,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30159,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28736
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1237,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Ee_QaqCAJ76Gz7IPgOHOOA"
+  },
+  "duracao_segundos": 14.677235099999962,
+  "usage_metadata": {
+    "promptTokenCount": 28736,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30159,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28736
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1237,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0055",
+    "tema_central_id": "5550",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5535"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda as regras de inquirição de testemunhas com base no Art. 212 do CPP, havendo interseção e concorrência direta entre os temas de Prova Testemunhal e Audiência de Instrução e Julgamento.",
+    "evidencia": "na forma do Art. 212 do Código de Processo Penal, é correto afirmar que:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "3cd7006a888b77ecaab238db894ba7f2727cc8453d8eeb0f763853de60eabd2e"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0049",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-15T15:17:53.569448+00:00",
+  "sha256_prompt": "0835f404eac42cab6e19c3e4ddaed975918e5c063864cd237b17547a5dae529e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "09e759ed6f8d438f182a61aad1522ee6a262b574dc2abb387688f728aed73b50",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0049\",\n  \"tema_central_id\": \"5152\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5177\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o crime de induzimento, instigação ou auxílio a suicídio ou automutilação, exigindo o conhecimento dos elementos do tipo penal do artigo 122 do Código Penal, bem como discussões sobre tentativa e resultado.\",\n  \"evidencia\": \"o tipo penal de induzimento, instigação ou auxílio a suicídio e automutilação\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29149,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30239,
+      "cachedContentTokenCount": 26284,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29149
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26284
+        }
+      ],
+      "thoughtsTokenCount": 904,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ou7Qasz0E_6UmtkPyK7qgQc"
+  },
+  "duracao_segundos": 6.259511299998849,
+  "usage_metadata": {
+    "promptTokenCount": 29149,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30239,
+    "cachedContentTokenCount": 26284,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29149
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26284
+      }
+    ],
+    "thoughtsTokenCount": 904,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0049",
+    "tema_central_id": "5152",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5177"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o crime de induzimento, instigação ou auxílio a suicídio ou automutilação, exigindo o conhecimento dos elementos do tipo penal do artigo 122 do Código Penal, bem como discussões sobre tentativa e resultado.",
+    "evidencia": "o tipo penal de induzimento, instigação ou auxílio a suicídio e automutilação",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "4c4b490ef18d1b4194b1c1bfd8088a04dc653a0971cc313419f7ba19e383d2f2"
+}
