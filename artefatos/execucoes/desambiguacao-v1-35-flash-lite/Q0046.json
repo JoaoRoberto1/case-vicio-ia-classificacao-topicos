@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0046",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:32:32.499988+00:00",
+  "sha256_prompt": "b00f5f99ce3e54e1f96e5a37341c8d26cab5275796e3285a47dd79cb0537f185",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ecf5d4c66a976d184cace1ad2431da70df7b5515fd20200f237a3995f9dac1c6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0046\",\n  \"tema_central_id\": \"5510\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o regime jurídico das nulidades processuais penais, exigindo o conhecimento sobre a distinção entre nulidades absolutas e relativas, a repercussão do prejuízo e vícios procedimentais.\",\n  \"evidencia\": \"Acerca das nulidades processuais e dos vícios procedimentais, assinale a alternativa correta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28581,
+      "candidatesTokenCount": 167,
+      "totalTokenCount": 29808,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28581
+        }
+      ],
+      "thoughtsTokenCount": 1060,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wW3Saq72GNysuMYP6uvG-A4"
+  },
+  "duracao_segundos": 9.201306099999783,
+  "usage_metadata": {
+    "promptTokenCount": 28581,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 29808,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28581
+      }
+    ],
+    "thoughtsTokenCount": 1060,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0046",
+    "tema_central_id": "5510",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o regime jurídico das nulidades processuais penais, exigindo o conhecimento sobre a distinção entre nulidades absolutas e relativas, a repercussão do prejuízo e vícios procedimentais.",
+    "evidencia": "Acerca das nulidades processuais e dos vícios procedimentais, assinale a alternativa correta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "88cd78238084427329eb7560fe159d2e526cd29a7d1d040b8c94f35de17e702c"
+}

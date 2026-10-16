@@ -273,14 +273,27 @@ def _resumo(registros: dict, total: int, cache: int, novas: int, erro_id: str | 
 
 def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
               limite_maximo: int, env_path: Path | None, limite: int,
-              intervalo_segundos: float, continuar_erros_validacao: bool = False) -> dict:
+              intervalo_segundos: float, continuar_erros_validacao: bool = False,
+              ids_selecionados: list[str] | None = None) -> dict:
     """Núcleo compartilhado; o tipo de conjunto não altera a identidade do recibo."""
     from .revalidacao import carregar_revalidacao, status_efetivo
     piloto, preparacao = Path(piloto).resolve(), Path(preparacao).resolve()
     entradas, temas_por_id, questoes_por_id, preparacao_hash, raiz = _validar_entradas(
         piloto, preparacao, procedimento_esperado=f"{tipo}-v1")
-    if type(limite) is not int or not 1 <= limite <= min(limite_maximo, len(entradas)):
-        raise ValueError(f"O limite deve estar entre 1 e {limite_maximo}, sem exceder o tamanho do {tipo}.")
+    entradas_escopo = entradas
+    if ids_selecionados is not None:
+        if (not isinstance(ids_selecionados, list) or not ids_selecionados
+                or any(not isinstance(i, str) or not _ID_RE.fullmatch(i) for i in ids_selecionados)):
+            raise ValueError("ids_selecionados deve ser uma lista não vazia de IDs válidos.")
+        ids_escopo = set(ids_selecionados)
+        if len(ids_escopo) != len(ids_selecionados):
+            raise ValueError("ids_selecionados contém IDs duplicados.")
+        if not ids_escopo.issubset(item["id"] for item in entradas):
+            raise ValueError("ids_selecionados contém IDs ausentes do lote.")
+        entradas_escopo = [item for item in entradas if item["id"] in ids_escopo]
+    if type(limite) is not int or not 1 <= limite <= min(limite_maximo, len(entradas_escopo)):
+        conjunto = "escopo selecionado" if ids_selecionados is not None else tipo
+        raise ValueError(f"O limite deve estar entre 1 e {limite_maximo}, sem exceder o tamanho do {conjunto}.")
     if type(continuar_erros_validacao) is not bool:
         raise ValueError("continuar_erros_validacao deve ser booleano.")
     if isinstance(intervalo_segundos, bool) or not isinstance(intervalo_segundos, (int, float)) or not math.isfinite(intervalo_segundos) or intervalo_segundos < 0:
@@ -323,8 +336,13 @@ def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
                                                        temas_por_id, questoes_por_id[entrada["id"]])
                     if revalidacao is not None:
                         revalidacoes[entrada["id"]] = revalidacao
+        # Validar toda a pasta continua obrigatório. Só o escopo solicitado
+        # participa das chamadas, das pendências e da contagem de consumo.
+        if ids_selecionados is not None:
+            registros = {i: r for i, r in registros.items() if i in ids_escopo}
+            revalidacoes = {i: r for i, r in revalidacoes.items() if i in ids_escopo}
         cache = sum(status_efetivo(r, revalidacoes.get(i)) == "sucesso" for i, r in registros.items())
-        for entrada in entradas:
+        for entrada in entradas_escopo:
             identificador = entrada["id"]
             if identificador in registros and status_efetivo(registros[identificador], revalidacoes.get(identificador)) == "sucesso":
                 continue
@@ -382,7 +400,11 @@ def _executar(piloto: Path, preparacao: Path, saida: Path, *, tipo: str,
             registros[identificador] = registro
             if erro_id:
                 break
-        return _resumo(registros, len(entradas), cache, novas, erro_id, revalidacoes)
+        resumo = _resumo(registros, len(entradas_escopo), cache, novas, erro_id, revalidacoes)
+        if ids_selecionados is not None:
+            resumo.update(total_lote=len(entradas), total_escopo=len(entradas_escopo),
+                          ids_selecionados=[item["id"] for item in entradas_escopo])
+        return resumo
     finally:
         lock.unlink(missing_ok=True)
 
@@ -404,7 +426,8 @@ def executar_piloto(piloto: Path, preparacao: Path, saida: Path, *,
 def executar_lote(lote: Path, preparacao: Path, saida: Path, *,
                   env_path: Path | None = None, limite: int = 1,
                   intervalo_segundos: float = 10.0,
-                  continuar_erros_validacao: bool = False) -> dict:
+                  continuar_erros_validacao: bool = False,
+                  ids_selecionados: list[str] | None = None) -> dict:
     """Executa no máximo 500 novas chamadas de um lote completo; padrão de uma.
 
     Exige manifesto_lote.json e todos os IDs da preparação. Mantém o contrato de
@@ -416,7 +439,12 @@ def executar_lote(lote: Path, preparacao: Path, saida: Path, *,
     presentes, inclusive quando o limite solicitado cobre só parte do conjunto.
     Revalidações offline válidas são reutilizadas e identificadas no resumo;
     seus recibos originais continuam sendo a única fonte de contagem de chamadas.
+    ids_selecionados restringe as chamadas a uma lista não vazia, sem duplicatas,
+    preservando a ordem do manifesto completo e a validação de toda a pasta.
+    Com seleção, total e demais métricas referem-se ao escopo selecionado;
+    total_lote, total_escopo e ids_selecionados explicitam essa delimitação.
     """
     return _executar(lote, preparacao, saida, tipo="lote", limite_maximo=500,
                      env_path=env_path, limite=limite, intervalo_segundos=intervalo_segundos,
-                     continuar_erros_validacao=continuar_erros_validacao)
+                     continuar_erros_validacao=continuar_erros_validacao,
+                     ids_selecionados=ids_selecionados)

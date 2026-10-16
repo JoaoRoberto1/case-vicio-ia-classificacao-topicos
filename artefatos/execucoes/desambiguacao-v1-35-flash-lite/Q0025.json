@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "Q0025",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:31:56.680392+00:00",
+  "sha256_prompt": "084bd8df01cafef83cd18c4f1cda94430cf283c63d59e1597225ac6f6cd7c20a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c9da95e97c8fd3b568f4cfbe3950cbb82411504db52794609db5a955170781db",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0025",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T18:29:34.707534+00:00",
+      "sha256_prompt": "084bd8df01cafef83cd18c4f1cda94430cf283c63d59e1597225ac6f6cd7c20a",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "c9da95e97c8fd3b568f4cfbe3950cbb82411504db52794609db5a955170781db",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.0017561999993632,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "bd51871eb0fba100c74fc2f4952390618d36de66c88e874ef7a19daf6b3c8c3a"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0025\",\n  \"tema_central_id\": \"5101\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento sobre o crime de tráfico de influência, tipificado quando alguém solicita vantagem a pretexto de influir em ato praticado por funcionário público, distinguindo-o de outros crimes contra a administração pública.\",\n  \"evidencia\": \"A conduta do particular de solicitar vantagem de contribuinte autuado pela fiscalização, a pretexto ilusório de influir em ato praticado por auditor fiscal, configura corrupção ativa.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28378,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 29649,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28378
+        }
+      ],
+      "thoughtsTokenCount": 1085,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "nW3Sar_NKNzcytMPsKijiA8"
+  },
+  "duracao_segundos": 8.54960530000244,
+  "usage_metadata": {
+    "promptTokenCount": 28378,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 29649,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28378
+      }
+    ],
+    "thoughtsTokenCount": 1085,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0025",
+    "tema_central_id": "5101",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento sobre o crime de tráfico de influência, tipificado quando alguém solicita vantagem a pretexto de influir em ato praticado por funcionário público, distinguindo-o de outros crimes contra a administração pública.",
+    "evidencia": "A conduta do particular de solicitar vantagem de contribuinte autuado pela fiscalização, a pretexto ilusório de influir em ato praticado por auditor fiscal, configura corrupção ativa.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e79ccf9ad8188c6dc3a44be383d7b438beb70d5b136d75a99717053343313e59"
+}

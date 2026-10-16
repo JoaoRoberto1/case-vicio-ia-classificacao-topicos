@@ -56,6 +56,8 @@ def main() -> int:
     executar_lote_parser.add_argument("--intervalo-segundos", type=float, default=10.0)
     executar_lote_parser.add_argument("--continuar-erros-validacao", action="store_true",
                                       help="Salvar respostas inválidas e avançar; falhas da API ainda interrompem.")
+    executar_lote_parser.add_argument("--ids-arquivo", type=Path, default=None,
+                                      help="JSON com lista não vazia de IDs únicos do lote; mantém a ordem do manifesto.")
     revalidar = comandos.add_parser("revalidar-recibo", help="Revalidar offline a primeira tentativa tecnicamente válida, preservando o recibo.")
     revalidar.add_argument("--lote", type=Path, required=True)
     revalidar.add_argument("--preparacao", type=Path, default=Path("artefatos/preparacao"))
@@ -158,6 +160,12 @@ def main() -> int:
             entrada = args.piloto if args.comando == "executar-piloto" else args.lote
             opcoes_lote = ({"continuar_erros_validacao": args.continuar_erros_validacao}
                           if args.comando == "executar-lote" else {})
+            if args.comando == "executar-lote" and args.ids_arquivo is not None:
+                from .execucao import _json, _ler
+                ids = _json(_ler(args.ids_arquivo))
+                if not isinstance(ids, list):
+                    raise ValueError("O arquivo de IDs deve conter uma lista JSON de strings.")
+                opcoes_lote["ids_selecionados"] = ids
             resultado = funcao(entrada, args.preparacao, args.saida, env_path=args.env,
                               limite=args.limite, intervalo_segundos=args.intervalo_segundos, **opcoes_lote)
         elif args.comando == "preparar-decisoes":

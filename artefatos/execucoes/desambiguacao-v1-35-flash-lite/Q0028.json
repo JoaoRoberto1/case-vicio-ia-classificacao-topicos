@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0028",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:32:15.273420+00:00",
+  "sha256_prompt": "74228c68756bb4aac737c814f774c775314b87ed79af99a2be62cfee7d851192",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f6635fc2ab4a55da41895bc79d7c9c3807677621d229da2da28c6a6ce15c7583",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0028\",\n  \"tema_central_id\": \"5526\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda as etapas e regras procedimentais da primeira fase do Tribunal do Júri (judicium accusationis), exigindo o conhecimento do rito bifásico previsto no Código de Processo Penal.\",\n  \"evidencia\": \"O Código de Processo Penal, em seu art. 406, estabelece que o juiz, ao receber a denúncia ou a queixa, ordenará a citação do acusado para responder a acusação, por escrito, no prazo de dez dias.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EtQfCtEfAWkUfRNf29lj3NA4H32KlsM4m7evCdoSbfUdlmRfuIC7q/RAdHpuT505nCk4S5BWkGTaoI6KEF45uyn2/4zbCJ8nZaVoCndPr2U7hI1PeT5IlMHm3AZFcuIk+PAfVpuAje4s/3atbakItLcCc0iJCaK+PEvfqXY1/uZfwMoEADtDa1auabO38ZylXsQpydd1gPb2icY2CzKmYBiEXI/SgzCYwnvCNfT8Z6/P2OcYCksnig1+6TkzXEABmPHQ25X0kGaNt/cRSpm43xx7EhEwHTChh8hRdMOncOY5OJrlrj5Pc1NHENrXPd7ZnBIBQ2zyKWTE7J2OV4lX/9xYlKr6+tQLRtcnkblFaV6VB80eqfStqIdJP0l0btXT1PVfuljWEo4D+Ll31Xv2Ia2hf+SA2AyLyqnenOmUlhYva9+jeNdwS1i14LQq62auy8mc5axTGmnV+pNLrJgElrYNh0JgKpbRYLayTNyp+DnBug0vwTKz5H+fjZtbgwIZtJrIHmR7cXWOYTdFi62fxw6drQwA5PHliSZGswE8770JNpMYBjoa4HSgHHaJVy/j80VmR2L0Izw1P8pElYWg6sTrFN6WxQFC6PMnWxNg4AGWGwTAmuQlzAidOCx33Xrt9KKebT8SQtTFjB7mm3PHHXzb3or4ZZZxn6X0M6a76TSAxd+GuqRY1W/1NQAffV5vykYGWiZ44U+T6hgSlLIuh5PNYwV8CoCeVOTGIm3Ql43blA7AQAvoDXpPCi5CRJAzANxMkWZnw7d8A3ksJcRaCA99E+H6WpwsEOyw20r0wx8wyw/9fZQ4pbByFbPxUW5OhY1DM4q7wSlroEbblyS2+m1CZCwG+zgF1e2tIFgYpHB6cFCEPtIXEN9WFjCK2IPdc8YTN1Bop/4qk4ZYIHGVv1UdWIDODSEflpO+unI00LoBAHv00gbEBziTtl5BZ4BskpMyyD7xB5r3MgpVeZV8k8WCWbJubJVuafap13t9dkRQgLD9x1wIMbP2R069ccb1GBY8Ga4S+d2VJ1gTIIYvVj4sCMtx/pVlCvGz3qAbzIpnHij0jnR4uC653fRmetoIevxCv63R72ECIP/S74sSfz40WcF2fOJKBb9YPJL0GG1cr7hPuwofE7nzCZKk/sZJvvRvrS7l4aiTqEmJUhOQ4nvGERVifJlzW07jhE0NOmzIaUyVxbRF/QV2R7JB5E8UI7wuFMtFeZCC9LRVzWhUPB95OB3pBV38jOH6h3zeb+eSqWsDmTXtcQVv2Cm7OXwMGNID0g2AlQ5jcakc1C1KGQYrACgG5OP4IMrQzV06twppr8y/XYIhEgBI2NHE31iZHRKVE8wBR1NClk4FN/S9+yD6WivRs945t+0EAgM/T1osd+vhwvU0cxd+Mt8rs9eP/8uIn5zHQMMOI6yVaYZu201HaJ1r9q86UmvgLuhOi2wj43407Ouq0E79IA72PKcC8yPyxopZt1tQita2j6D6PZQ6IYhWAnYERRfUvQ72LIw0PyDPQebvgsu8D6VaQGij//5MfJ2u3+2EyQvnGPUfROtRFo+bNx1iHv4ffCAt//vJGX8GBS82qV26NHhnCJStBq5CKItOWbCB3fr++BDExgtnOW5D6kHWxGwgswJ1oFkAko9t24MamX7BBHIop3YVmBWZdptKpGDx8qZkc84uVkUxfUaRR2M5FvLqkjBzVuJsp9FiKITD1zoZ3Tvom/UI8teU/rdXxs9gaf4QVtmuaNYWmdMbfPRslQGfx0/a4hNG9nyejaILZq1JPhqpS27ePj314UZ0VPlt76qHsa7m5La/q8WFG8QE7/yL8OjOnDJRaPo6ciIMZhClCzn9tTIEwDdYojUT3/UGALACXpX6Xn13Ao8NpHGQZflkGO6EV2Knfu6nAIDnY93pCKbM6NQTLhUsZ5YX3uwstjKIEYWliiK/um/b4HwpsvdKPbLQa68hGGr7op1xhNYde94hDSE7O7uin/nYktL86WS60LHs47FaTTZdk8VnQAUIgooac6iM4CUDH1M/7K436/yE58uFHcE4DKBcjXmcbrC3yfw6Jv+d6iDATDq1Qmimj63A+ihvUx/rrM+Mr1M4pkvBhEoPjEoRCJmiQoqMohpPJnC8cuUdJyxkiHJEOe/QFzQ5Xt4aEXwvl9ED2xAeq5xtkWphMfEOkXqXi96Pgdywh5SdtKaSiQ/0+kVxYxWkemnNDPA9OyRescL6IRN4W68b12eJ+/sKCwMTbOyaSdTthKc3WjnAAeA8bMvuMAKbU1uRDlDylzOEeDNbtvyYj9QvBnbcy3FDhuvKGXG3zFs+ZVCiyatrD39hQ6BL43R5XKPEZ8rh07CVv5PF67BD2/1QlCFu8kP0SecXTfIZuKAjdw+jHvyIECX+dx+DeBbkxJr3SbIpB9bb5dSfzHehZ7TP/4KusJSAJ54HqobrQfEyyeF4cEIcsfS1BGrph0rgfSSPlGRuisWpHK1Ci/K1yMx+QRhe2e7bbjx2ZtoeL3JZje4PrDRNzcPeZhxep8edfy5phNy26e06fm7zq3etkgh90yv1IO+DinwDwOP8gFpqnLzSi6g39NaiRZH3YupaXpNK9JyAF/Wwy1I+6pG6HTXz9L9p+gNbQBH57U1vitAixmuLwb8J1D2O+uz/xMVgD1X+gU5SQrt92zlkF/v9AzNFGbm/Nzrj1NptLEepYioZsUKJKF49M8GrITD9Fo8tqP4MCVly+h0PIIO0C4vkNTwm7nnfJJJGBfnuTijSuPxy7Fd8J+6HihDgP/jaREcbiUyB5pYPL2/bUz07LmV5dDEtHgenDB+ASjJMZsJpUJo3JJh4zyQSW2xHj7oPvkNHh8FSVi/nZPcV0RLQIEczr8v1ziAhdigtoblrcxAXA3zEQsMU2Q6GaTae8R+NHJW40fO5hNwHMzUyikixXU68PIQ+f0zzBs4LgBsqX2d1Mfmmyr05rie6+6zuCb33K6SVRNnuwNNcz7f1nqPXfJ+RdJlZfgH7r5wDeD4Z+85vxBtrQWvbpJEtXE7xs7lfbB8ZJJfl4H3AbejBY5qdX57EeT5Y0FCBtRCdylYK3C9XbXeJeYDi1gjGbd9ozWUa8Fnt4oG2Tl3hYRyZL88+21y7uN1+GUMRjEj/Qk5TzCwlIpTLmurItW8gDEpJ+6Xlb/zZH+W7ymginJrfhBskyOpU2Jpbd0rwS1h+CYoBXyEgQYSaMoM9cjdrpcZJ28uek1+mst19c20j4PG5pM5DjEKoO2qzvdXnfx/upm//JyLSAZMXOIJ/9sDfbM6gJ60agta3UTCoMzsPYDfRWey870WERkMJ13rofJYAriDKHkN56A4S6BEWFhL2bhzjTvewqLMngSdE12uEj5keq166nobmGzdYodBuS/bd4ucIngzCXzoTR4q9WiTkQL139/cXGx38f+Q/MtIRs7Lavd5F/mryZL5NJPAXT9nVhfIBiV3RSI2QlH/cJAmejSiwLh/VYCea7o7S3M+5y1LcIkSLNkUHRvq8K4dAwo7GL08yoyKhNZSI4Pi87+Hlj4NlIBLJ305S8kSQrOKFk2NdfdQAJ8hsomlMwDjVmJPar5ohxFTaGoExJEvxt+PkusyvCgM/hJIZL9ASLcXPZ82/xkVCRiTtFFiMdy5EsmgFDrhW/5tlauduFT0KPbSDw7wNHMkGVDdyob8hRf6maqUupRoaOLNyyJvbToso5uzojAi0RLxHDZ7FwkTuJqSeUFjhhjal403TBsh5QMN2wUiTFgfS7D0/pWQfrTJdSaMYEfcNdQMZxd3hAlx94vFlKV8AVfnvoRc5uiI/J1Vy1S54iYAfnnFLlCTwrCYtCFfP2pU1K1jdQ6JNhoMBRsfzawxf5LGA2T+V8RVfVHiF9kDBySXXxyPatFIyjCLxe2/0O1G1J4u3hsuy6sFM5wUcm/VcPMEnDT5t0Li4GoCs4w2vXoHgVacV2OJnZUNGhzgj24+e0338Epsx45hl0X8L1TR+igeC990j8VbrDrHrQPDEc6E0HbxHAoIuXBobZBt9i4xa9KEX8vmnNfTVmf8JWOiUbnx1We3HpJjST9EHyGBoJeE8AcIZGFzvLwHkMLjVl2K9auuRa+MhPAoMW2aCPEUa2yCafly9D69sRKdUIpj7iDCDNOxINlklGRJUi2mvxPToZJ41/jCyyT5fHGKHdH3IRzqANVjzeuvUHqTQZfpjapYAOI3mD7c2p/ZbQSLkcWo2czbJ2AR33o9oVxEw277mUzzBfEXIhUrQMTHoLBd/AY7Intt5YxDggJschxBc7pz4i/xxH2JV/OJ8Q1TK7V6fmKLNd243Or+gx00WDgZqI9+FEw1Kts5mfZPEeP0sK7T5Ew6IjE/eRzhQ4JGkObt/JvU6pVR/J0NlbnWlwMpg4zpiAI+Set2+iats0T/QTY3cOW2vfHxZ/yumTodbcNCO9smduoV7QIpTc7hW9T+M1ejL+Z37puGOZiIogzXOkpm2KCoUXhRn7alL9g+/x5AtklZnaUBTkdFLfpxjveTSISq6yYI8Vjh+9Cx/q6e4rtpNvY3xQPspaNPEzaEHGloW7M6k1mrf3a/OxO82JVEeAXPLpQvfYelFW4sLK2f92NeJxPOlem3OALxBou+1KUnNBbwAl/Uc9kA4M4TdhipGhIyKWvbNWggGeaidO0uW/Hsq7Cp7JE4ey4F3UVC2CIL5lxn+dHkjZMhF7vMAPj6Z38g+6ZLPC7kWeJ7I0CmAv8aAfWvM2Njxuc8tRI2NHRX2n0F0wywU1J3iU90pJ+LhVVTERbG9ruDeo5CJ1QyXwAEqEIyt7TC5gjiAqUuS4X2TwjREaA8/TcQ0vGa6uiZfSXHPQ6G3B2IWKh6KNq6fltm6SVV3pmpgbBtdMSnG6MT0uGddx0Dl/Aj3uY57xB2fqiPOnvCxczlMaIgt7W8MT3uqptQPaRYZVoHMwbdGbQauEYFaJMBH23LPLKpqL/7jOWVEYCHcTlFQKcnouyDLjYL2fz52ZJfur5cmrlotp/DVXgeJ7M8YnySLxNNaM+Z1aJnK0LItKLN8EOn44C4ZdjmtA0L4B9iTEmchmAYy9bIE3BnK5iSO7jBaz2WVduqeYr6viOXlNj9vLZYS+o4qbPk7BeLU/Q8vTV+rlJdWQ2NUhdcQ3NKi4T5bMqniH5ThRa0A19uSJlhgDA3BtEXqq+urr0++mRs9nCyHr3AAgrImTwsJMRrKOnYUe2t2K9Z0pexQB8umLkL2SwhR4ZpHxwUJzYt2b37mluugIUjQtwUZmcAhpljLXUbFOvSTz+1MEg107xkSuWN9ZvSXpozCk8WJbC1It4I1/0CrgD3MmAGws4O6FV37lnXLxZ/4YIFkSnJpXV6FxuNuS4VnVVoLpVlLHEOO/EkFnffPjvMVrP7hwDY="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28523,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 29858,
+      "cachedContentTokenCount": 26277,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28523
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26277
+        }
+      ],
+      "thoughtsTokenCount": 1139,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "sG3SauefAtzcytMPsKijiA8"
+  },
+  "duracao_segundos": 7.132782000000589,
+  "usage_metadata": {
+    "promptTokenCount": 28523,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 29858,
+    "cachedContentTokenCount": 26277,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28523
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26277
+      }
+    ],
+    "thoughtsTokenCount": 1139,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0028",
+    "tema_central_id": "5526",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda as etapas e regras procedimentais da primeira fase do Tribunal do Júri (judicium accusationis), exigindo o conhecimento do rito bifásico previsto no Código de Processo Penal.",
+    "evidencia": "O Código de Processo Penal, em seu art. 406, estabelece que o juiz, ao receber a denúncia ou a queixa, ordenará a citação do acusado para responder a acusação, por escrito, no prazo de dez dias.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0b15924b703ca08bec11e08741d19ebdc83b0e25dc4d00f94cedc6adaf661c2d"
+}

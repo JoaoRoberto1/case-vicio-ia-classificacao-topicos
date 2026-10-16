@@ -19,6 +19,7 @@ __pycache__/
 /artefatos/piloto/entradas.jsonl
 /artefatos/piloto-v2/entradas.jsonl
 /artefatos/lote-v2/entradas.jsonl
+/artefatos/lote-desambiguacao-v1/entradas.jsonl
 
 # Locks e arquivos transitórios não integram checkpoints.
 /artefatos/**/.execucao.lock

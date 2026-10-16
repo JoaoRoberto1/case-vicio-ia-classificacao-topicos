@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "versao": "politica-v2",
+  "procedimento": "desambiguacao-controlada-v1",
+  "base": "config/politica_v1.json",
+  "selecao": {"decisao": "revisar", "sinais_exatos": ["temas_alternativos"], "quantidade": 41},
+  "modelo": "gemini-3.5-flash-lite",
+  "prompt": "prompts/desambiguacao_v1.txt",
+  "prompt_version": "desambiguacao-v1",
+  "proposta": {
+    "segundo_passe_aprovado_pela_politica_base": true,
+    "central_igual_ao_original": true,
+    "conjunto_extras_igual_ao_original": true,
+    "exportar_rotulos_e_confianca_originais": true,
+    "falha_tecnica": "manter_revisar_sem_proposta"
+  },
+  "execucao": {"max_tentativas_por_id": 2, "max_chamadas": 82, "intervalo_segundos": 10, "faturamento_autorizado": false},
+  "avaliacao": {
+    "populacao": "censo dos 41 selecionados; indicador de adocao somente nas propostas congeladas",
+    "referencia": "IA_sem_especialista",
+    "coincidencia_estrita": "situacao provisorio, sem_tema false e lista de aceitaveis contendo somente o central original",
+    "limiar_numerador": 95,
+    "limiar_denominador": 100,
+    "max_divergencias_explicitas": 0,
+    "inconclusivos_multiplos_e_pai_filho": "nao confirmados no indicador estrito, mantidos no denominador",
+    "adocao": "lote inteiro de propostas ou nenhuma; exige pelo menos uma proposta, limiar estrito e zero divergencias pela regra hierarquica v1",
+    "regra_secundaria": "mesmo ID ou pai/filho imediato conforme avaliacao-v1",
+    "reuso": "a escolha da versao usa esta avaliacao e constitui desenvolvimento; nao e validacao independente posterior a escolha"
+  },
+  "achado_conhecido": {
+    "id": "Q0180",
+    "acao": "revisar",
+    "preservar_central_extras_confianca": true,
+    "motivo": "Auditoria v1 divergiu entre 5554 (Busca e Apreensao) e 5594 (Prova Ilegal e Prova Ilicita). Revisar o objeto central cobrado; achado conhecido, sem correcao juridica confirmada."
+  }
+}
