@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "Q0345",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:41:07.335348+00:00",
+  "sha256_prompt": "e1d9a5999cd07c2fdcc2b383d589477caef89fef7a79b35f3b1e49d3a45f2b8a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ffa49dda097198e1085c023fb3b17c4e4d56e1dd02e9ee5f6358da1c4442044f",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0345",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T14:35:06.086935+00:00",
+      "sha256_prompt": "e1d9a5999cd07c2fdcc2b383d589477caef89fef7a79b35f3b1e49d3a45f2b8a",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "ffa49dda097198e1085c023fb3b17c4e4d56e1dd02e9ee5f6358da1c4442044f",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0345\",\n  \"tema_central_id\": \"5103\",\n  \"extras_ids\": [\n    \"5105\",\n    \"5203\",\n    \"5204\"\n  ],\n  \"temas_alternativos\": [\n    \"5105\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda crimes contra a dignidade sexual, exigindo a análise da tipificação entre estupro de vulnerável e importunação sexual frente à idade da vítima, bem como a incidência de agravantes e causas de aumento de pena.\",\n  \"evidencia\": \"Antônio, professor respeitado na escola, ofereceu carona à sua aluna Lívia, adolescente de 13 anos\",\n  \"requer_revisao\": false\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 29087,
+          "candidatesTokenCount": 214,
+          "totalTokenCount": 30738,
+          "cachedContentTokenCount": 26284,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 29087
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26284
+            }
+          ],
+          "thoughtsTokenCount": 1437,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "HDbSaqvYA93sz7IPvqWzoQ8"
+      },
+      "duracao_segundos": 15.117178899999999,
+      "usage_metadata": {
+        "promptTokenCount": 29087,
+        "candidatesTokenCount": 214,
+        "totalTokenCount": 30738,
+        "cachedContentTokenCount": 26284,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 29087
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26284
+          }
+        ],
+        "thoughtsTokenCount": 1437,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "a7b31ba72a3158b5e7f596b857bae635f1a2a8c7e501715061620fcbf502e02a"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0345\",\n  \"tema_central_id\": \"5103\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5105\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a adequação típica de conduta de natureza sexual praticada contra menor de 14 anos, discutindo a incidência entre estupro de vulnerável e importunação sexual, além de causas de aumento e agravantes específicas.\",\n  \"evidencia\": \"aluna Lívia, adolescente de 13 anos, que aceitou a oferta. Ainda no estacionamento da escola, Antônio acariciou os seios da aluna, beijou-a na boca\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29087,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 30348,
+      "cachedContentTokenCount": 26284,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29087
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26284
+        }
+      ],
+      "thoughtsTokenCount": 1056,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "hDfSasmCI4Csz7IPoPaK2Q8"
+  },
+  "duracao_segundos": 17.8524266000004,
+  "usage_metadata": {
+    "promptTokenCount": 29087,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 30348,
+    "cachedContentTokenCount": 26284,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29087
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26284
+      }
+    ],
+    "thoughtsTokenCount": 1056,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0345",
+    "tema_central_id": "5103",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5105"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a adequação típica de conduta de natureza sexual praticada contra menor de 14 anos, discutindo a incidência entre estupro de vulnerável e importunação sexual, além de causas de aumento e agravantes específicas.",
+    "evidencia": "aluna Lívia, adolescente de 13 anos, que aceitou a oferta. Ainda no estacionamento da escola, Antônio acariciou os seios da aluna, beijou-a na boca",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "ce624185d5a05b657ca4dcf60c3834db8ec2809e39a3fec3fbb5a5bad4e8d064"
+}

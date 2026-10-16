@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0351",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:38:25.975712+00:00",
+  "sha256_prompt": "cf29b2a999209c73f01a2cae92ef67ee2737d19856f9d5c25dc53d5b3d4de26d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d3fe8701a87931983a0431e9cbe1056c67472fd1f1656420bf0e21f12467a903",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0351\",\n  \"tema_central_id\": \"5118\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a tipificação penal da falsificação de cartão de crédito, matéria integrante dos crimes de falsidade documental previstos no Código Penal.\",\n  \"evidencia\": \"Falsificar cartão de crédito é\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EoIbCv8aAWkUfRPNFZGunPo4AlCTQ8tB5LsFXbYnWAsWn61cIWbfuRQ0l490WMQjjxGji011CvIQAh1RIWwqhEM+ExssX/CopUBgbZHHVj4oY9z7BP7HdrV/HQ8rOE43KChL5F3JVDUM69SdR+TUJDsBUNqKZ3zoe9L/AzFX+3McVTvp9KMrBAqeeOot0PBynX7pGlBAmP7k1Poa4xdOSTiPUmSL3qHPVOz5r3FRqP57oEX7unatYcrgfIvyj3Pl/evkcDz3ylA5MOC/N3FxwEuvPxaUlxwYWRiY87CyUKEEVQCTKo/HPHAXCFyQA9UP8DPWDvP1uWjP4L264Lp0DfGLGgx4peLpf8CiT+Sd+BYoof777WwGa0CpinRYvu91wQtqgvORHgKa6N44AgP+FZ0u/eRG3+dvZ0tugKVT/r4HdE+beeqgXE2zGjocHDQnHomC5yp/KO9ZudE2Bj84sY6Se1GbC0nozGKmoa8ITYIzuUcqmSTWjOx1zA3KjODJ1uRmRpAHDdqt9L5qogC1temVbdTNrBJTEtemstBdDFmLw7r5eWkUjaZl1T4VI6fsH5ufeLVbALoictv8h95mwyBGQMcW5D/eD0SGJGUhR52W/OZVKthdAIupucyBBplXGqLMxf3Up6jaMepLrvqLbbzoJO10uWJUJ4IxGUjPLmhI5v7EJDSVJUekg9Q/C8ClY+KYhH1WxvAX8ixp2w9nv/FDGdQgoORd/77H03rqqg89WjDEVMIcCrIKezcokbmZ2Hh25PCVklQ6/rgqLBRnEKH6QYRxBHVL2zBhbqtiv2VBWILwmAeSF3nO/HvgfsDuhldJ4m9T9uz3pBOAuEbsBiLSg1RsmUjNC+jy6GbkMQSuAMorlZmzOeOzkEqUv254FhMGWppyqM9MfVHDUtYKaPLwy+h31p9+6P3xAjj7UJQqCRljxuoQQUxyHRPgp1LowqgByQ68KeaInJCuqagH1/0w1/NXRurdtRRVgKtE1TjN4SMpnSC2451O++8B3vrnenODnGJ0974VfthSFacBI4PIsFZQU0akgqZZBHTxEl9gqwUDpMumOkYziBD+H5neW2JUSOdDn76rvj8mqNeUf382JrBZ3fckJppr2tANOrGEG4zPBWnlqgzy8RmfLWHRZljlSaZBDSMVyvUC9CEXUqX0U17RCOxZgFJERGD+xVTbXkdQ1ERJn5OmFSThA9qtsPvDxxghNsYUq9C/eZK3GyLQv4hsMgDUIfB2ChLIxMN6rfYpOlOzTnbOEjoxomZOcigrnHR6Ngo4jultbSffDBzxTul2ArQJ0Gw3U1nRkKrZOtJ2SeFd3Hh6emhIotsR1aAkt3Yoasjr77+fpZ7z4/d4tHWL8jUrWtJId/N/guMdp2+OA861AfRkn1zCzdfE/0Q1F7iGfJ8XvNPtNuJUYbHuFAzB/UgMSy+d14nfnxqda0pwtd+ZHiPG9f6nRM4W59vYBFLeBU/mTDiXRaDO8nUPlK49fsR2MKjxRg63LTunYu/W9UeuHkHLbaVRAGHr2j42iApMH0DZaL3FTx6U7Fwk+p0uaEf//Ba8OIl3Ej4scO6Gv0wJQrD4CoGc1h+qyU/eN4HIPjnAWb+HUQ/zfy/CvO7+4td4FC72Jy5LVav2CRDM7vcHUBcb/3qmlXIRP4SPzGHfZjwFw+Gsexu2X8iEu52OReXToaLsS6m1dc5d8b1DgCoZ4Zl+s+kyyY53r1YA4OVotjB1hDoAB1e85+J+x/dmxXaSvOs4TmuMOcedWyoT1w97skfRHeNdUcOJhKFBubTXVjiUhBf+ZwteZgLRj4XxSAr1f+DQGa/Waoqyi8wi4dB/f/4TnR62Xe6V3ddANtHdR3oqU8sj0iLUMTphEr7FSuDYVP/y876KKybZ3orlsxLirRkkU2Sun50q76dvdtvdw7tkMvQ15TPApI3kBFvLeo0NKcCoEiI4ekMECcsOzC1Mi3CrdkjVZJgQ8CtLtvVO3SDSiz/mp6ufwgBZGq5JGUCUsLaF9oi6JqmbhrK/zOKfnTeGScTGapeP4FyhNA/IZS+FVdzkAAdB+4tRtbdQj2lvEVO6ooSfiiLWbQURuAmvr/io9RjnF7uG7YPXIKVSL5w0THRPQPwIOhRwFPtz1rDYmfshPyqawcjVX1P5O5C209KbbFnBehzhsTu/CmgRiaxJpLSrAsjInVD0GJ2EoFPEFG3GaDJ6lNTLYjGLU+CopStTfxBzwLu/vJWKCtmK7iVJvng7cQu6+T+Za1WwFZD+S5jdC2cFYNyHMTppXQIAkF/6IRjAFkTczot3i/VLSrVhrP28/KiVZa/yCoKJIROUwUO5s6vOfh4lXDiTgqdbtJPulhHTEzr9epWb+zaBodF3mbL8VS19c9s+g4c0Jftz+J60iD/T6nZL1JRBBBAeg9LiQDfSIUmvDxALw+0Q4kh5b1Nri/NZPV0xI2OE6OVYGt7FojYfL4dCgkEaH3nX35TkDhjKIuXcwmYSAzYXTsbt7ZFBtiXUcpS4lXK+NeEumRPKIWQfFFRzrO4jJbAWM9bNfB+bDArlfQxQdqb3ERZL3g45Do3PjUmaWX0gyXiIWKGM+yTgcZ/APQm0El0MZ1XO2GarO5Yde15UzpeYwodMyMYjPwJJ8IPkg1ID1oWQtaZyOQnENUwFAwmJ1BG+hPoIIhPqOAcZIm30r+LFOeT913Oc9i+fYmJybk884bY5iawNW7wfiJFGXKtmQ6gDUGt36UObyOMwwWPUJsIgPQO7os+sIOOGQP69T7oGqrKqQND/GoVuiEyUPxI0UyuGLxwCnrg/jpj3U1ztQfXCuVECwKMqLIEw5WcShWo/FWQ6SFuiPX2d2U0brAcLb4FaDJetuG87J7oIH+y6btpa1T60QDC9GDC/sq1riUqHRSWoI1bm9doInmEPV1AcUSMhpVIbXYEM6an+tN9R1ABKWBK0jsZ0OPRrq8n/0BNiknfecOy6lZSOcBITMDJKhLSv5p2daUJfzmvbNc5qa111vVZVmZ/5LiDHCY/ef61b4VtepHITSaiKZt6wlNogVfcVnsWbxcmCtnQiNfpNNtqD2pkFcrbk4opizbr8J/lb+UcXbi5JwFKWWXlMxO+0zmpXvapDvNq6CtuEbcUCKQyrwTkIUS4/owmbY8V+cjPyhOqfkeXxPEb7pqPIA8QyWDu0osExbJn6QxgSRL1KwXu+DM6mqQoIPRn7PQRrAGx0auBnIwjt0doffrXWr/8x3cg1DZH+pLoPg4aFj0safmg1vvTKmCdTqF7RxCjnwc22EGrV22UlkczldPJ5W26X3LRLiiFz4vzj0TCygT8yvLwe5a3YSSArnGLbNAGvPJTo1NPQnKgnQnsO4zFXvBRACBXlkd5Pma9r9gtBg/CfnNb/ztXUKjtnh3l/XGnPcM1yANDhLD5/NJqhnaX7Fwx2nPXLsZxT6XQwFu6COJ+/Mt002/aRCiFV4L0ON1glBYRbYyW6FHjXQVifBz4sxBenWDncgytIev0iY5f3SJ3o+LgRCPVB0OSzv6Afv40M8s9hbCjcFvFdouHrYtURWPxrbzXqpaHQwtgxAslKU+o+c1Yd6NGEvRpCwRPlkguxniK6ca7U2fsiYoFrp+CFWsr3L7oEag2RPcBnqtD8XJKoSZf2i8pEsxde8UhYEWxPxYBm/WkyUZj5o4kgOtgklo7IloLzrQzUV4Y7ozAjA7lol5rwHqOWn9nf/9YDfEl+hX26B0i0qQU52nA1J3mjUAoNgJA7sxIeE5WhCmPDkRfntv+YOfNVhXWyuPqWeD0qrLJlyho28B1KvlzPj1lBYDa7BjQzKnKm0j+y5jLlYFQ/eQ0mlYRs9xa6yqSFiyLJCvEWoYb+1PpKek2lyzvKW/A82mLdv9SruKHnnE2WSiXgPvosti+NCKxGwAqmy5RyIT6hr++MHuJMTOQEyiNuV/pQGpvdVYsGzPnUp6bjiwNLNFAIJUI8BpgY9wBFwUOH1R7SaludoFfj/5BO0Afe9w6zHORaQZpCevL9D1kiWCPSWnE8nmXCTeqKauT3kFjobwvzNntLs9lqK9Lfyf0/tJqgM3RyMmucd4SunETeWHnjSVcYJE2USM9FvCkyrnTTNA7kfEHxc60dr/vilBjVQJAf6+b+ZSibxdu5z9fX445GldpiuxPDgEHck7kWd+gahCmKr4i6Akm/XUgLj6nY7qQEme7gyby01UnPA23LO7y83MLB8UpX01rGZL6CH/R/S/WoxpVaCxt8Z0Pv5amfoOvPSXkf3HK7n13uTbYYGtVamRUymMV6Qx4CqaPB6TVsogxMA/Knb71FcJq8+Ib2ppPS03kdYs+q/Zvdx9iLDyap9BungAzt99VfIwH2VABshFDErxvvLKU0C4jExFw7iV1IZoNYWwTLxdqxzPC8B/k+OXPQ23frzIuvC4W+Pu11SSYay5dG4173mveeoyCmEVxV1RrDleyZ7duMWSMMBBRQLfee5lfGOx0GuuqUk/W789xUe21F6c96BOK46SurQW8tajT7O4fGzJpEJFiN0fVZUBid1gBrvdDqknjlmTEO7Qs/LZJmcwLR2WZO0Ba0UuZKioeTEscBdd24FjEKzfd3sfE="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28623,
+      "candidatesTokenCount": 137,
+      "totalTokenCount": 29722,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28623
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 962,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "6DbSaoPbKaGUmtkPytXekQ0"
+  },
+  "duracao_segundos": 21.145172299999103,
+  "usage_metadata": {
+    "promptTokenCount": 28623,
+    "candidatesTokenCount": 137,
+    "totalTokenCount": 29722,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28623
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 962,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0351",
+    "tema_central_id": "5118",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a tipificação penal da falsificação de cartão de crédito, matéria integrante dos crimes de falsidade documental previstos no Código Penal.",
+    "evidencia": "Falsificar cartão de crédito é",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "5b0cc50303d55fade94459ba52a74e99061c0eea446555c49464149afa3d692f"
+}

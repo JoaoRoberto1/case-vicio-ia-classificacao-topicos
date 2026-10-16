@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0359",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:43:19.306032+00:00",
+  "sha256_prompt": "a0cc5d3ff15443a094b41175f4ff8a089bb063d24cdd36a24d7de4de8e0592c3",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6b8dd3ffd7e3b809023bf18ee83240e85da772f2ccf5d45721c89ac24a21decc",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0359\",\n  \"tema_central_id\": \"4696\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6722\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda crimes cometidos contra idosos e a aplicação subsidiária da Lei nº 9.099/1995, exigindo conhecimentos sobre o Estatuto do Idoso. Ocorre duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, justificando a marcação de revisão.\",\n  \"evidencia\": \"Aos crimes cometidos contra idosos, cuja pena máxima privativa de liberdade não ultrapasse quatro anos, aplica-se o procedimento previsto na Lei nº 9.099/1995\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28694,
+      "candidatesTokenCount": 220,
+      "totalTokenCount": 30050,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28694
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1136,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "CDjSarLCA9aAmtkPgdn58AY"
+  },
+  "duracao_segundos": 16.23565370000142,
+  "usage_metadata": {
+    "promptTokenCount": 28694,
+    "candidatesTokenCount": 220,
+    "totalTokenCount": 30050,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28694
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1136,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0359",
+    "tema_central_id": "4696",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6722"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda crimes cometidos contra idosos e a aplicação subsidiária da Lei nº 9.099/1995, exigindo conhecimentos sobre o Estatuto do Idoso. Ocorre duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, justificando a marcação de revisão.",
+    "evidencia": "Aos crimes cometidos contra idosos, cuja pena máxima privativa de liberdade não ultrapasse quatro anos, aplica-se o procedimento previsto na Lei nº 9.099/1995",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "45cb62edc2849c9a409059f42afcf03afc845ab2584f829e1440fc277d46f2b1"
+}

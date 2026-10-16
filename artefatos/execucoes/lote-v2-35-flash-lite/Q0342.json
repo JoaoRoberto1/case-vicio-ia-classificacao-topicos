@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0342",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:33:51.351855+00:00",
+  "sha256_prompt": "6b37743c9587c715b2a2992e5919bbb0b25b3b7aadaba7ca7f1bfc3190adbd65",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "336e9b324989421f5a9d01b458baa3d7799fa726268cf7eb1cfd4319251fa184",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0342\",\n  \"tema_central_id\": \"5546\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5545\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda conjuntamente regras gerais sobre perícias (quesitos, assistentes técnicos e oitiva de peritos) e regras específicas do exame de corpo de delito (autópsia e exumação), gerando interface direta e concorrência entre os temas de Perícia e Exame de Corpo de Delito.\",\n  \"evidencia\": \"Com relação ao exame de corpo de delito e às perícias em geral, analise as seguintes assertivas, nos termos do Código de Processo Penal:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28848,
+      "candidatesTokenCount": 207,
+      "totalTokenCount": 30305,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28848
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1250,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0DXSapHzDJuP6dkPys6DwAI"
+  },
+  "duracao_segundos": 19.07447520000096,
+  "usage_metadata": {
+    "promptTokenCount": 28848,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 30305,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28848
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1250,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0342",
+    "tema_central_id": "5546",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5545"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda conjuntamente regras gerais sobre perícias (quesitos, assistentes técnicos e oitiva de peritos) e regras específicas do exame de corpo de delito (autópsia e exumação), gerando interface direta e concorrência entre os temas de Perícia e Exame de Corpo de Delito.",
+    "evidencia": "Com relação ao exame de corpo de delito e às perícias em geral, analise as seguintes assertivas, nos termos do Código de Processo Penal:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "be7c66ce21a917ee0166d94ba1fd07c2b73417971777a3fe1df47b819694624e"
+}

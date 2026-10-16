@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0343",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:34:20.439154+00:00",
+  "sha256_prompt": "755e779d3b478a0ad29ede7b4685f929096fad70643fe797390879957dc423ab",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d71b7a4715d49c9a72984ff6027ef4f8b01cd730ec2f1ef3c1b2da047cf1f3e1",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0343\",\n  \"tema_central_id\": \"5196\",\n  \"extras_ids\": [\n    \"5124\"\n  ],\n  \"temas_alternativos\": [\n    \"5065\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda as regras do perdão do ofendido na ação penal privada, exigindo o conhecimento sobre a natureza bilateral do ato e seus efeitos sobre a punibilidade.\",\n  \"evidencia\": \"Durante o processo, Maria resolveu esquecer a ofensa e decidiu perdoar Patrícia, mediante termo nos autos. Contudo, Patrícia que não aceitou o perdão.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28791,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30130,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28791
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1143,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "7TXSarmHErnoz7IP5dOh8Q8"
+  },
+  "duracao_segundos": 11.855761599999823,
+  "usage_metadata": {
+    "promptTokenCount": 28791,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30130,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28791
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1143,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0343",
+    "tema_central_id": "5196",
+    "extras_ids": [
+      "5124"
+    ],
+    "temas_alternativos": [
+      "5065"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda as regras do perdão do ofendido na ação penal privada, exigindo o conhecimento sobre a natureza bilateral do ato e seus efeitos sobre a punibilidade.",
+    "evidencia": "Durante o processo, Maria resolveu esquecer a ofensa e decidiu perdoar Patrícia, mediante termo nos autos. Contudo, Patrícia que não aceitou o perdão.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b3b90e967be78d6dc77afe005d41eee1b3364d158969242ca4c442358a199a8a"
+}

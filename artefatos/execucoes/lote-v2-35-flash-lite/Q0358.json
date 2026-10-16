@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0358",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:42:51.872536+00:00",
+  "sha256_prompt": "6700a4256b81910dd960c6c91d55308966bbb1b9179c5ffe03c0017c550d8fc9",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "371744a4afd1036d7502a16038df2ff765c241d486a0e307f0953c53f74c56e6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0358\",\n  \"tema_central_id\": \"\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": true,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"O catálogo ativo não contempla a matéria de crimes informáticos ou a Lei de Delitos Informáticos (Lei 12.737/2012).\",\n  \"evidencia\": \"É tipificada como crime, de acordo com a Lei de delitos informáticos, a invasão de dispositivo informático alheio mediante violação de mecanismo de segurança\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28666,
+      "candidatesTokenCount": 162,
+      "totalTokenCount": 30549,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28666
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1721,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "7DfSapejKJH6qtsPoZ6jmAQ"
+  },
+  "duracao_segundos": 17.38960600000064,
+  "usage_metadata": {
+    "promptTokenCount": 28666,
+    "candidatesTokenCount": 162,
+    "totalTokenCount": 30549,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28666
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1721,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0358",
+    "tema_central_id": "",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": true,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "O catálogo ativo não contempla a matéria de crimes informáticos ou a Lei de Delitos Informáticos (Lei 12.737/2012).",
+    "evidencia": "É tipificada como crime, de acordo com a Lei de delitos informáticos, a invasão de dispositivo informático alheio mediante violação de mecanismo de segurança",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a86f794b7d43d17e93de73203037b3170daf5fbe9365c26106ad5ec7efe8f03f"
+}

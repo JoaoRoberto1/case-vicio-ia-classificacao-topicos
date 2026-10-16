@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0344",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:34:42.356057+00:00",
+  "sha256_prompt": "5767360f675753966acb46369160bc2930a24b723a5e694157456f50117de9d4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f9d8a16b6a042737588660fdb06228f56b5338217ef452caf2166288373ed1e7",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0344\",\n  \"tema_central_id\": \"4688\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6717\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda os crimes ambientais e disposições da Lei nº 9.605/1998, havendo duplicação de nós no catálogo entre o ramo de Direito Penal - Legislação Especial e o ramo de Penal, o que exige revisão editorial.\",\n  \"evidencia\": \"Quanto à Lei nº 9.605/1998, que dispõe sobre as sanções penais e administrativas derivadas de condutas e atividades lesivas ao meio ambiente, é correto afirmar:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28758,
+      "candidatesTokenCount": 210,
+      "totalTokenCount": 29893,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28758
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 925,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "AzbSasqgF_fyqtsP8PWWoAQ"
+  },
+  "duracao_segundos": 13.487724399999934,
+  "usage_metadata": {
+    "promptTokenCount": 28758,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 29893,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28758
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 925,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0344",
+    "tema_central_id": "4688",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6717"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda os crimes ambientais e disposições da Lei nº 9.605/1998, havendo duplicação de nós no catálogo entre o ramo de Direito Penal - Legislação Especial e o ramo de Penal, o que exige revisão editorial.",
+    "evidencia": "Quanto à Lei nº 9.605/1998, que dispõe sobre as sanções penais e administrativas derivadas de condutas e atividades lesivas ao meio ambiente, é correto afirmar:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "75ce3c8348c50db4454f4bfb6753489f4417b2cc3c7af9947da92854c416577c"
+}

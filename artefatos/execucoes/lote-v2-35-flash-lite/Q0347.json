@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "Q0347",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:35:59.831107+00:00",
+  "sha256_prompt": "8a307d2f256596f0e8e72f73eef6264e0d41e73a4936a8cf6886226f5c108978",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4fcda276f92ace174ebf04cdf8ce8a70bd13aaac136b4eebb2bb6b529dbe8d01",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0347\",\n  \"tema_central_id\": \"5199\",\n  \"extras_ids\": [\n    \"5230\",\n    \"5069\"\n  ],\n  \"temas_alternativos\": [\n    \"5228\",\n    \"5066\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda múltiplos temas independentes da parte geral do Código Penal, mesclando ilicitude, concurso de crimes e teoria da pena, sem um conhecimento central dominante.\",\n  \"evidencia\": \"No tocante à parte geral do Código Penal, assinale a afirmativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28944,
+      "candidatesTokenCount": 191,
+      "totalTokenCount": 30539,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28944
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1404,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WDbSasvPBbDtz7IPxsGFsQ8"
+  },
+  "duracao_segundos": 21.247362300000532,
+  "usage_metadata": {
+    "promptTokenCount": 28944,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 30539,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28944
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1404,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0347",
+    "tema_central_id": "5199",
+    "extras_ids": [
+      "5230",
+      "5069"
+    ],
+    "temas_alternativos": [
+      "5228",
+      "5066"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda múltiplos temas independentes da parte geral do Código Penal, mesclando ilicitude, concurso de crimes e teoria da pena, sem um conhecimento central dominante.",
+    "evidencia": "No tocante à parte geral do Código Penal, assinale a afirmativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "927415ef29eb3997165c9e69fc4c49ac387ceaeca68821825e4dfe27bd9cca8b"
+}

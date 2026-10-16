@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0352",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:38:58.095379+00:00",
+  "sha256_prompt": "57dbef9345f5a382b524051e9b934c38dc31ba2f221adb1640fa780923fbf76d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "20345a2b8b24c617989a10326c0e03b0054b396b5da4344b952286398e791105",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0352\",\n  \"tema_central_id\": \"5512\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5513\",\n    \"5514\",\n    \"5515\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda regras gerais, princípios e pressupostos aplicáveis aos recursos no processo penal (como efeito extensivo, desistência, legitimidade, forma e fungibilidade), enquadrando-se diretamente na parte geral dos recursos.\",\n  \"evidencia\": \"De acordo com a legislação vigente acerca de recursos em geral no processo penal, assinale a opção correta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "ErogCrcgAWkUfRP6DU1ZHFFcsVxMx6VM/KGlB5z7NfnkLFiGTcZhfZHwhTOAi/0rGhlPT+5k0X6X0t40Ue316y7DGTv+5na6pARMsxyOA+6EecwQf7hLHzMkUh3AZeGM35m97BJqM6Mw2S1iU7iMmG+mkHWn1NytSiDqfHjLTPz0KC8zdhNyX/M9WD7zA0PPeNihXZQj1uJMzuk1c0A10CQ4XxR+9WN7WL1dqJayiyfthBKGRmlZjCV6GdbsYHa0U5nTjGajT+FL7HXnoKQ8vQPqvWwvpvK4OmraYGuVOqYrB5tiZwMa6dEqBDlcKo66R2Fg1tjUBF3aN5ezOnV62O+08QgkrkkeyWavQ90ihiMYxkJGd7ZoLv6WFyATASlRMd/Y1sPUqy1REFdw3v3SrLYSfnJWbuboZ7I4+7KtJIaaHZ6cEezzdJMnufu6woS0k601DEjM53Pe2kqqPCWF47Yh9k2Xmj3s/ob8q1MJziGt/Vs77qxHrZ3V0qzv31sVYGHSzNlrAHUWqt65oQSoMez678or2aJ6JLIJ7F/rGI4s9EalqXTiTuH4as77rnQP4Rz0vuQgiw4llz0bL+fOaeyejYVle+ThGS5hcNvm459fLW2D9vduYlcIFcHnsul6CiL7cMI5tqRCERNKJL3GZhOdTnNPqX9UQPjwJ/eYCVziQ1DbRvl7AknMdRwblYxrbOXwi8ZPJCZqk8LTyi38HWbD2DDW2UvoRdeB1K2tVDztWuSs2ec+YSTMQV2yJr0P5sDDHx/sJuilWE0TyjqK5fr8Qm4i53G287fbGuUrdkzjLDpE7LHzUWH+FESDkIpdSkEqqythM1Pw7QipHQghs1Bc9VhoI/qLreU3liUIH6Yh2gU/XPRCvhQBoa8Cy4ti1kpeQ1yWB136fCXu2GOeQFNP9EftznrZk1yu4Jc6nLLJO/SmhByQiaAn063UhmNUxXYxID5311YC2JIK6G+EW0leV5IMYe9/tbfLx1jgUzTvmP8LgL0ywn5r4stJ3XLoZC0TgsfPwP+4WBjU3ra0uvcyGvLUqt95QBwKJu+1gvoapunhjD6VLPRxPAnjZMivxULSZLx/yBb/5KOZNyBwRFa4Lw2/mnw6dlMMDexbJu7uKEeFWTHO66c5P5xPUYDQXP8m/uUwlMu8D2FU+cVwlKEcQaEE7ROUiMN9VOS/VNLDkxIWmbu5QG4QOB267tjNxJSVobX2EzcAWZZLGmSWjzw5S2qdrQnnyMsGlOiEVmKCNX0d+FTDIsEh6duzrs2wi5hlBIWQcoZGj8ipb3Aw8Fj1SID+MOJRezvS+qsjndJ/PJgSQQBtdK+qeLcLFdfgi1i0onQsbsgBHm6U3o1Co8XfCTgBwrreDtTfyCTxddtzlk7cXkk/8GkU5PHCNoFls2gL5iUUem42JPiI1BBZry2ulz+MC2zCkKjvNxjXKqg/J+EZzpnwtL3UXBrpZREMze6OuKCP/JQX8zMuR7VsLXy+Tt0YVpIYWz5Mlc9beCLCGlKPdQZDkoifAqQHUn7yf8YQTguPUxLb6jF4eIQlOb4EaINXqyuaUIw6Yf5zHvs7AiSbqZ7r9nLVXWkvGOO0KFUC+tWYaXZszF1phwX5DquwYg+eYXe4eT2Bh/k7Fb+qbaO+Cpj85fqoRcE9rDSxLU6Zjs5rdf7PQl7hQukOG0nufry6xfRsGn6RoXdpGEwOfQvthcRsGN+KSZeJUG3y0suQOMTDFg2VZUuSOgM+yM+qs+oE+6H4WfY7a4xNrJCen0He50SU+T8inczQPi6duaqNLR9lQxOo5NNiLF/p1as7nIXLMIEBCt7H/UNOSIDNbrigVEYuAsm6bvEWhpmAoGRqbnzuu20tQXY/RnRq7do3l50iztVyzalx4QkExUMTFGLXMOzrqL5GYSHhWkjigDIWgMnr9ZDiXPQRAEG9Qlpv95g8mOfH7LPCZNl8ObXhO03eCd+hcQ2HQ66QJ7+j0DYWI/bBIZ1a4gip5lWbIcMOktD44NWTX8KcpAGyHQMGpPsdSigViSaCyFFvbxFdohWLH8l06xrpo6RgOnxeQQL+XXvCi37bgBPFtGEeCtGerJgXV0jjC4O2JnBxii0FuNDMMtlQ6t9TrY3skl7rAsgLNdd6HvbGo4kXyTylfQJo6A1m360xUHMyR+CvEnpd1IXWgZ3Hditl5Xsf9WjQ6Qm8YtVQKftCtBgsQyXlVj09iDYmgUFImhOZedk4uDaktFVOUjo6K+ug8cV1Z5hEx+T0ClkVkcg+o2RrHKl49IgxK0zjuUXZfzyjmvkQgLgRosk3pXrTxHEbrfJ22dIXT1zW0hoPnbhgoB0zJb2viNMmdMVrbNY0aOf5L9lxit8VMt+kRY0QC+kHSqXCm7lZKq4Cp6uywZBXcab0bwHKGS3nymcgmXmX5SoQmhR7hAYSMz9J77B/LTlXsIAUU0YirjXOJGNLqxrgGOtppSfhgr7VBcvZJJCyQc83oMlJU3JgukCQ6hFiHMF0q44AbPzYuatztgL2Daf/aa7fsjvc4Ls4TgMLno+XdTaXJziKEp1U3zzIYtccEEgkTqgkWiYnqhFOP9Xu6kBisA0iylyM6ect2b4G6D8ilU1nAGnI0ZSvbBFD4jOz+IYdnMhxhzt7a+UI4fCVdQa9QV91OQmVDWbutS4sPNtDItjsIJxJR5RkPJdg89Kgg+5OBdJRRt9t24wUyHdnd4GwhcN2ttvJ/8N85mr8TCt3Jy5mm7vIdD8RmwVDqJNmuTMtowIQGV0DsKkrlRdcFkcwofNfcqJgsxAUe9kkME+XUDV1OHCBijuxlHZ8Uae7aDPYdbR+JwxASuT6SHVP8iiwV5KqUXE53ZIvv5AtYJjqr58EQ946i/KZiUpnRRvVSQFSH3i6tfPxDfRGj7tXmBbzH6+Q1q6o1ayUSZTOJICx+STkxUDQPbLev7jPImC6tHS7NMKFIOQvhWk0zVYKn0xNoce6lPItZVVA+vhNCRlz+Y0jimheuB/pAIjRsJQ/Js7REkXNijIkxkF0chEvYVmDUaudpRaoUSZbPGSvJNJZ7BdCSSgRWSorHL/skew4JT7gzb+OaVTh3lE16BDVD22kpUNwI4RgB6++nI1Z/eQRPLOSaSxVcijBfAkTmUwcB7y1/Kcyp7jiWB7FWzPbcERf7i034ZkJRTUDLzPDjVCGAMSzaQap/BqPxwreZ48ps3KB98bRlmFFitVAmPQVxH14BppN4wwPBNpYGyXa6RvzhFMhQCM10jChDYZelu07JBy7C1l4tTq2UA+flhB4qwEW9c7NyL4x/S1fXLRhYZ6jFzabf9cvqq5nQh4z8DUP6FN1Dv8e3GefoFqMh+9fgP3L2uKBFnhvuqcczJUWJu/zrQY1Ki60uwg+rG/5Wnw6WM8nONAhK06TEhd7k2r9WDrGX5z0cg7CoxYVYuhuELUPW/RFJxxxc6DXD+QAU9KrlAszIRZFE6VIGZm7CiuxJJ6pP966f56KFctrcR0iVYun8uz/oJ2hYqr08zlSy19jAUcW/bMrI53LGWr1zDuPNGftBWL3VRiPc5X4mwHT1wPzn9niUqu+6aEI4qDdCUNtWy+hRs9GnxQpW9S0do7gEniUyd91DOEtx+rjrxewQLic1OgBV2Fg2BhIdNnr5eFDKDes86NimawFJ5Z/vtDkpw48we90zqsqPrUyrQerliJ75Q7XGyGm/TVfvm4Gh0Lcj2qtxrrnYZ2bndu1wOiXtQvOVctRv/GGJaNbo5rkZVBbKfE6Ws0w2jD4bj2ocXH+NqFXHa8/03BI/Mrc7B3GhzuVkGwowqlQfjAx8J35JJq7vZUAUSEaRvc8vJcZgPoSpJmAKtIAg434d9dbpL+iBAUk6t2VhPI35acjUY7Kr8mZwagcjQo+D9qOvh9ThFgqqnGrZgop6EMdkRj/oEYv0k1zhCSiScl/S+zcKKz38C5IdfZbybzbdQNqb707A9fzOq20ThOLn2EHKTpqDAUvqtlX3UCsQQTZPCEynmAE94azhBCvg9PvXrWr9O11IsidcttjFMWUYEtNCTJlV311t7UkdKUaqzDi1qubMf9YQay0aZlIxOYO2kXvVjtL1TRKwG9HsIP0ruAC7R4uJSjjBv6mG0HfwB6lGT6zSE6HGJ/H5y9l3UumhzEDuP/drOpnukRFsoqcMjbwQEY4dntPyjoFj4FxhpZvE91jAUEWAZeFRaf+s6J+qn1QZrouIR3S8dFW/U0PO/n1Dz8jCmOEPl4s11HnTePObXtzVVcUoPOghnfNFiZgzm1pngxzOjM1s36+97UbTZQXodw/tnZE2ONJFJhV8KL7q1NJG32MrskhycKj6csqCOsVbK0fCNB1kpbZr3oWUeMHDPVwX6wgJLbraOVnF9bnMYJBQs7AMkjF/dcJlcwayBd8Gsu4qX9nDMt3v3UZPuL0f26vU3kQU0Ba6TJmbFnCzn7PDwIyECr8Xur2uiQ9iXPM5Y5B5BnNJQeTE4m+0nES13OrJwNv6VhfriUWqVXYJaG0IFDhZYQHGtwpynoSuBtmwhlzsaBE03dmFLPQWR1xWoL/ecrDTNKX7LI3eJm56Aul9LLad56KVYqrEXye6KAT0mXVn5zKer+m1t4kxq8jAGoH1VNXPCJfnvufQ2Jjt7GP+yQ5sQxhuhVvUTzS/VsHemyGtVTEgBYIjkrzj2+gkWxrIxdajyTeH5Oc4kLAQIRUQlX2jNxMxiCgjur7Oi2+ltszJ6miEeJreaaO0CTYkuvoQ65Fba6lwEUprnbOs0W03mXKdr2U+basI4b6cw6a7tiacxo34srzG/CeVdq5TUqb9jXm1j6C06AjFZ3dkq9VtSvNY2uwm5tSL7rGRfExqIWzU1UahfRiUlI3hNIeZiM/fiW9nPezLPVsEZOT5gvHE3dFxopeLO4N/g8Gopf4VdFr7ZN+l5bweB8Vcc0H+R7LJbKZccGUf7VDNO7r2S3c63jLarmIgUkPXAHXoPm880leSGirQoXF1miCaf3R7EPRNfKjhqh65DmXbJl615ovrZu28PNhOygwbn6YsF6whiIpwI1SEFjUs7YqJOzIvlV/l9fClgSOeEPcjOwXSyqa3LOj2kpRYEBSx6C2683KnpeaIGyUGmLGZkElA5aRn1GUyCcjcsfDAfoBubK6Hyaj8hYOUEu9nUQa19YqGGQJEwSiaEyISend48iAzqlfFuhVXcd0WUxc1LEpDCp/uXoaLl41aqeXuYehvBAXG+gz5wnSlG1+G+E7rajnEpelQGTYveaWCLkdnLWJ3AEXhPzn7VNGTDdw8HjwU0u4Ry5sadZWrqHPn40+uRDpa9Qcp6hRvweu8kIZxlTuIJVhRF9zRqLKVBV4mA8QXsribko76T0D3q0EJEjVKCwxiRekdoq3PkHAEKe0PAS4pq/M5rIvRUouXeM8G/Rj1iL9fjpjUAXk1cNZYRz0ceToLDY0c4FqZKguwNr9GvJsS63NIL+DLGfQqBd6c1D36S2EWCoMl0jk8wLxWgS6Xk2d7BO6UV47T29GNEl2Cj10aJk="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28791,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30083,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28791
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1096,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "CjfSapDpIrX8qtsP4f29yQc"
+  },
+  "duracao_segundos": 27.359903299999132,
+  "usage_metadata": {
+    "promptTokenCount": 28791,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30083,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28791
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1096,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0352",
+    "tema_central_id": "5512",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5513",
+      "5514",
+      "5515"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda regras gerais, princípios e pressupostos aplicáveis aos recursos no processo penal (como efeito extensivo, desistência, legitimidade, forma e fungibilidade), enquadrando-se diretamente na parte geral dos recursos.",
+    "evidencia": "De acordo com a legislação vigente acerca de recursos em geral no processo penal, assinale a opção correta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d1af1c7d0f4244bc3d7fa8a9f792b13868eb1d704ed93aba01eed1507c7fb4ba"
+}

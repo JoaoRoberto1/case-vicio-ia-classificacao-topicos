@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0355",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:41:35.197477+00:00",
+  "sha256_prompt": "1ebb405a7114e1e4f8dbbbc74a9f466b680443b8921859f641fc9fc7894ad1af",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7c5f692f831d01e30e7e1a8587308ca5b9be540ed91435ddb5a798e7e13baf46",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0355\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente a interpretação e os reflexos jurídicos do art. 28 da Lei nº 11.343/2006 à luz da jurisprudência do STF, tema enquadrado em Tráfico de Drogas na legislação penal especial.\",\n  \"evidencia\": \"a respeito do Art. 28 da Lei nº 11.343/2006\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28942,
+      "candidatesTokenCount": 183,
+      "totalTokenCount": 30369,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28942
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1244,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "nzfSar3cOpWcz7IP192e0QM"
+  },
+  "duracao_segundos": 16.176848099999916,
+  "usage_metadata": {
+    "promptTokenCount": 28942,
+    "candidatesTokenCount": 183,
+    "totalTokenCount": 30369,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28942
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1244,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0355",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente a interpretação e os reflexos jurídicos do art. 28 da Lei nº 11.343/2006 à luz da jurisprudência do STF, tema enquadrado em Tráfico de Drogas na legislação penal especial.",
+    "evidencia": "a respeito do Art. 28 da Lei nº 11.343/2006",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b494c75145a6ec73538e38bff16e30b695dd29ff4e03c79f27030e63d4e9653f"
+}

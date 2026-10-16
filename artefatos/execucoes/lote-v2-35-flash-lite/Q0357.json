@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0357",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:42:26.616259+00:00",
+  "sha256_prompt": "353e827fd7990f57418d65089e14e785c59a3aaf322d994949ab8a6992325e26",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5d2c46d933e1f8f291183c5fd8ba4d12b318abc59f2b205718d4c7686cff9c44",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0357\",\n  \"tema_central_id\": \"5135\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão aborda o tipo penal específico do crime de boicotagem violenta, que se enquadra na matéria de crimes contra a organização do trabalho no Código Penal.\",\n  \"evidencia\": \"Configura o crime de boicotagem violenta\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28738,
+      "candidatesTokenCount": 142,
+      "totalTokenCount": 29679,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28738
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 799,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0zfSaqPkFbCsz7IPhOr9mA8"
+  },
+  "duracao_segundos": 15.172820099998717,
+  "usage_metadata": {
+    "promptTokenCount": 28738,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 29679,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28738
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 799,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0357",
+    "tema_central_id": "5135",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão aborda o tipo penal específico do crime de boicotagem violenta, que se enquadra na matéria de crimes contra a organização do trabalho no Código Penal.",
+    "evidencia": "Configura o crime de boicotagem violenta",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d4402d62be644aa0179d46e6e6eeba5165e5541a67112ff6a94f7cfe01f5cce1"
+}

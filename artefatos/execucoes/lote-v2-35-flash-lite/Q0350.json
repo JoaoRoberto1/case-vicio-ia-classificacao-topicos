@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0350",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:37:52.707563+00:00",
+  "sha256_prompt": "5029dcf2a9c4f325c535fd27af80d67298f14862d9fac6477dbcbac57cbf4426",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4b08ba9ea832141a0869952fd7366311ce24ef5976ce0dee3a0651ea80ac01d8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0350\",\n  \"tema_central_id\": \"4702\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6723\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o crime de lavagem de dinheiro (Lei nº 9.613/1998). Há duplicação no catálogo entre Direito Penal - Legislação Especial e Penal, exigindo revisão por duplicidade de ramos.\",\n  \"evidencia\": \"Assinale a opção correta acerca dos crimes de lavagem ou ocultação de bens, direitos e valores.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28830,
+      "candidatesTokenCount": 184,
+      "totalTokenCount": 29951,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28830
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 937,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "xTbSapTOKfunmtkPh66j0AI"
+  },
+  "duracao_segundos": 22.769870699999956,
+  "usage_metadata": {
+    "promptTokenCount": 28830,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 29951,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28830
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 937,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0350",
+    "tema_central_id": "4702",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6723"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o crime de lavagem de dinheiro (Lei nº 9.613/1998). Há duplicação no catálogo entre Direito Penal - Legislação Especial e Penal, exigindo revisão por duplicidade de ramos.",
+    "evidencia": "Assinale a opção correta acerca dos crimes de lavagem ou ocultação de bens, direitos e valores.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "c363fb34fd823465f42aefb4992f338dab26824d8f90eddc44739c7975b9a293"
+}

@@ -1,7 +1,7 @@
 {
   "experimento": "lote-v2-35-flash-lite",
   "registrado_utc": "2026-10-14T19:31:02.146726+00:00",
-  "estado": "bloco_concluido_aguardando_revisao_do_usuario",
+  "estado": "modulo4_concluido_aguardando_revisao_do_usuario",
   "modelo": "gemini-3.5-flash-lite",
   "thinking_level": "MEDIUM",
   "entradas": "artefatos/lote-v2",
@@ -33,15 +33,15 @@
   },
   "continuar_erros_validacao": true,
   "evidencia": "Trecho presente em um campo, tolerando apenas caixa e espacos; sem correspondencia aproximada.",
-  "checkpoint": "artefatos/checkpoints/bloco_2026-10-16_01.json",
+  "checkpoint": "artefatos/checkpoints/conclusao_modulo4_2026-10-16.json",
   "resumo": {
     "total_questoes": 359,
-    "sucessos": 162,
-    "sucessos_recibos_originais": 161,
+    "sucessos": 359,
+    "sucessos_recibos_originais": 358,
     "sucessos_por_revalidacao": 1,
     "erros": 0,
-    "sem_recibo": 197,
-    "pendencias_totais": 197
+    "sem_recibo": 0,
+    "pendencias_totais": 0
   },
   "revalidacoes": {
     "Q0005": {
@@ -50,5 +50,17 @@
       "chamadas_adicionais": 0,
       "recibo_original_preservado": true
     }
+  },
+  "atualizado_utc": "2026-10-16T14:44:07.318280+00:00",
+  "conclusao_modulo4": {
+    "registro_execucao_continua": "artefatos/experimentos/conclusao-lote-v2-2026-10-16.json",
+    "registro_execucao_continua_sha256": "3100f649de825068c87181bb38570798de1a48582081cc47e0ea3356c2d8ff38",
+    "novas_chamadas": 227,
+    "novos_sucessos_api": 197,
+    "falhas_api_recuperadas": 20,
+    "falhas_validacao_local_recuperadas": 10,
+    "tentativas_registradas_lote": 404,
+    "tokens_observados_lote": 11350512,
+    "avaliacao_juridica_realizada": false
   }
 }

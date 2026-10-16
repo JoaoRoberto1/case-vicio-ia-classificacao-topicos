@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0349",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:37:12.080321+00:00",
+  "sha256_prompt": "e6d4a7b585858072c3e9a0df556765c913d20e4772b0e7776f5ae690bd0a540e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9cef2f53651057c8e7f9fce337f25329ebfb78dd8bbea8558d16f61b5106f80a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0349\",\n  \"tema_central_id\": \"5178\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento acerca do instituto do arrependimento posterior, especialmente quanto ao requisito de que o crime seja cometido sem violência ou grave ameaça à pessoa para a concessão da causa de diminuição de pena.\",\n  \"evidencia\": \"Nessa situação, a restituição do bem não assegura a Cristiano a redução de um a dois terços da pena, pois o crime foi cometido com grave ameaça à pessoa.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28738,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 30070,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28738
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1152,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "oDbSavCaKpmFz7IPqcW_UQ"
+  },
+  "duracao_segundos": 29.105273999999554,
+  "usage_metadata": {
+    "promptTokenCount": 28738,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 30070,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28738
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1152,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0349",
+    "tema_central_id": "5178",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento acerca do instituto do arrependimento posterior, especialmente quanto ao requisito de que o crime seja cometido sem violência ou grave ameaça à pessoa para a concessão da causa de diminuição de pena.",
+    "evidencia": "Nessa situação, a restituição do bem não assegura a Cristiano a redução de um a dois terços da pena, pois o crime foi cometido com grave ameaça à pessoa.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f8e1edc45cda179a94d7412c24ef5f111a1a39cf6d7ac3dc4c732f9abb5be008"
+}

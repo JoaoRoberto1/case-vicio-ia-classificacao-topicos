@@ -7,7 +7,7 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
-| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Bloco de 16/10 concluído: 162 válidas, nenhuma falha técnica atual pendente, 197 sem recibo; aguarda revisão/commit |
+| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Concluído em 16/10: 359 válidas, zero pendências; aguarda revisão/commit |
 | 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | Política registrada; módulos offline preparados, integração e aplicação real pendentes |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
@@ -16,13 +16,13 @@ O esforço previsto não representa tempo já gasto. Limites de API e achados da
 
 ## Pontos de parada e commits
 
-O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). A partir deste checkpoint, avançar uma etapa por vez e informar quando ela estiver pronta para revisão e commit. Não iniciar automaticamente a etapa seguinte.
+O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O usuário autorizou concluir de uma vez as 197 questões restantes do módulo 4, substituindo as pausas a cada vinte chamadas. Essa continuação terminou com 359 sugestões válidas. A partir deste checkpoint, avançar uma etapa por vez e informar quando ela estiver pronta para revisão e commit. O módulo 5A ainda não foi iniciado.
 
 | Etapa de retomada | Tamanho do bloco | Ponto de parada | Commit sugerido |
 | --- | --- | --- | --- |
 | Base atual dos módulos 1 a 3 | Código, documentação e evidências já salvos | Suíte offline aprovada, originais íntegros, nenhum processo de API ativo | `feat: prepara dados e conclui pilotos de classificacao` |
-| Módulo 4 | Até 20 novas chamadas por bloco, incluindo retomadas | Recibos persistidos e resumo conferido; erros permanecem explícitos | `data: registra progresso do lote de classificacao` |
-| Módulo 4 concluído | Resolver pendências técnicas | Todos os 359 recibos válidos | `data: conclui lote de classificacao v2` |
+| Módulo 4, blocos anteriores | Até 20 novas chamadas por continuação, incluindo retomadas | Histórico preservado nos checkpoints anteriores | `data: registra progresso do lote de classificacao` |
+| Módulo 4 concluído | Continuação final de 197 questões, com invocações internas de até 20 chamadas | 359 sugestões tecnicamente válidas, incluindo Q0005 revalidada; zero pendências | `data: conclui lote de classificacao v2` |
 | Módulo 5A | Integrar CLI, aplicar política e confirmar propostas fora | CSV completo e decisões congeladas, sem iniciar revisão da amostra | `feat: congela decisoes e prepara auditoria` |
 | Módulo 5B | Revisar amostra e calcular estimativa | Referências e métricas rastreáveis, limitações explícitas | `eval: registra auditoria e previsao` |
 | Módulo 6 | Relatório de até cinco páginas e memo | Texto e números revisados | `docs: adiciona relatorio do case` |
@@ -109,6 +109,18 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Identificada diferença preexistente de fins de linha de `temas.csv` entre HEAD e fonte local, embora o arquivo local coincida com o manifesto. Correção do índice validada em ambiente temporário e documentada em `RETOMADA.md` para o commit do usuário; fonte e índice reais não foram alterados.
 - Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. Última CLI encerrada com código zero, sem processo de API ativo ou lock residual.
 - Registro: `artefatos/checkpoints/bloco_2026-10-16_01.json`. Pronto para revisão e commit; a próxima execução avançará aos IDs sem recibo, começando em Q0152.
+
+### Módulo 4 concluído em 16 de outubro de 2026
+
+- O usuário autorizou concluir as 197 questões restantes em uma continuação, substituindo as pausas a cada vinte chamadas. A base era o commit `6b86acd`, com 162 respostas válidas.
+- Foram 227 novas chamadas em 29 invocações internas: 197 sucessos, vinte falhas HTTP 503 e dez rejeições locais, todas recuperadas. Intervalo de dez segundos entre chamadas e esperas após indisponibilidade; nenhuma alteração de modelo, prompt, política ou validador.
+- As dez falhas locais atingiram Q0171, Q0197, Q0208, Q0209, Q0215, Q0254, Q0322, Q0324, Q0339 e Q0345. Sete repetiram temas entre extras e alternativas; três alteraram ou juntaram trechos de evidência. Todas passaram na segunda tentativa, preservando a resposta rejeitada e seu consumo.
+- Estado final: 359 sugestões tecnicamente válidas, sendo 358 sucessos originais e a revalidação anterior de Q0005; zero falhas atuais e zero IDs sem recibo. Os 162 recibos anteriores e o derivado de Q0005 permaneceram byte a byte idênticos.
+- Consumo da continuação: 6.257.155 tokens informados em 207 tentativas; vinte falhas HTTP 503 sem metadados. Total do lote: 404 tentativas, 11.350.512 tokens informados e 28 tentativas com uso desconhecido. O piloto v2 já está incluído; revalidação offline não é chamada.
+- Tempo de relógio: 87 min 31,91 s, das 10:16:03 às 11:43:35 em São Paulo. Duração somada das chamadas: 2.355,46 s, sem contar intervalos, esperas e processamento local.
+- Suíte desta retomada: 213 testes, 212 aprovados e um pulado por privilégio do Windows, em 46,556 s. Conferência final independente dos 359 recibos, históricos, fontes e revalidação aprovada; executor encerrado com código zero e sem lock residual.
+- A diferença de fins de linha de `temas.csv` no Git continua pendente. O arquivo local está intacto e coincide com o manifesto; o comando para preparar seus bytes exatos no índice está em `RETOMADA.md`.
+- Registros: `artefatos/checkpoints/conclusao_modulo4_2026-10-16.json` e `artefatos/experimentos/conclusao-lote-v2-2026-10-16.json`. Módulo 4 pronto para revisão e commit do usuário. A aplicação da política, a auditoria e as entregas finais não foram iniciadas nesta continuação.
 
 ## Registro de execução
 

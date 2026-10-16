@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0356",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:42:01.441733+00:00",
+  "sha256_prompt": "7fd618c3a7505c29ce7596a8c9b1d05e7009ea22a497ac6107000f969760c944",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "70ee89f5c75e4b71b2111e5affbeefe5484478ab853d0cdbe6f9ee4289363435",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0356\",\n  \"tema_central_id\": \"5066\",\n  \"extras_ids\": [\n    \"5070\"\n  ],\n  \"temas_alternativos\": [\n    \"5067\",\n    \"5068\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os conceitos e regras gerais aplicáveis ao concurso de crimes, contemplando o concurso material, o concurso formal e a aplicação da pena de multa.\",\n  \"evidencia\": \"O concurso de crimes é o instituto que se verifica quando o agente, mediante uma ou várias condutas, pratica duas ou mais infrações penais.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28797,
+      "candidatesTokenCount": 192,
+      "totalTokenCount": 29774,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28797
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 785,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ujfSauDpDJmFz7IPqcW_UQ"
+  },
+  "duracao_segundos": 15.120616399999562,
+  "usage_metadata": {
+    "promptTokenCount": 28797,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 29774,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28797
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 785,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0356",
+    "tema_central_id": "5066",
+    "extras_ids": [
+      "5070"
+    ],
+    "temas_alternativos": [
+      "5067",
+      "5068"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os conceitos e regras gerais aplicáveis ao concurso de crimes, contemplando o concurso material, o concurso formal e a aplicação da pena de multa.",
+    "evidencia": "O concurso de crimes é o instituto que se verifica quando o agente, mediante uma ou várias condutas, pratica duas ou mais infrações penais.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "600b68bc343cb215e160b4bad9a249761db16b4a8dd5693702f6d69a36b893cb"
+}

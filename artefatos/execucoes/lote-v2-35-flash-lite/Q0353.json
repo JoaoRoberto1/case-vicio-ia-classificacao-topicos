@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0353",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:39:35.483836+00:00",
+  "sha256_prompt": "1066fa4705d411cc029d64f322fd5f78836ab9b2fac8e0f7243e81bfd3c94d82",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f76f2e1bc179e33103d8cf706199e0c6cc0181f13acb9f1878d9e9068ba3061d",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0353\",\n  \"tema_central_id\": \"5185\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5530\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda simultaneamente regras de Direito Penal (prescrição) e de Processo Penal (procedimento ordinário e atos instrutórios nas alternativas), apresentando mistura de matérias sem um domínio central exclusivo unívoco.\",\n  \"evidencia\": \"Se, no curso da ação penal, o magistrado notar que a prescrição está prestes a ocorrer, poderá:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28706,
+      "candidatesTokenCount": 182,
+      "totalTokenCount": 30193,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28706
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1305,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "KDfSapLyHICsz7IPoPaK2Q8"
+  },
+  "duracao_segundos": 14.094585700000607,
+  "usage_metadata": {
+    "promptTokenCount": 28706,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 30193,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28706
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1305,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0353",
+    "tema_central_id": "5185",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5530"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda simultaneamente regras de Direito Penal (prescrição) e de Processo Penal (procedimento ordinário e atos instrutórios nas alternativas), apresentando mistura de matérias sem um domínio central exclusivo unívoco.",
+    "evidencia": "Se, no curso da ação penal, o magistrado notar que a prescrição está prestes a ocorrer, poderá:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "531c0f06da895d659de03f481539be49fd1e523b7543db18ede4251f573f7345"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0341",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:33:20.178983+00:00",
+  "sha256_prompt": "3ae4a5440199fdc41b5ba6c2e0fa537065117ea8e327a159b08e64f777db7618",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "129ed97fb269e0a249274b5335386f9f3a0c0bea61fd11aca87737b5337edf1c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0341\",\n  \"tema_central_id\": \"5157\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6720\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão mistura proposições independentes sobre diferentes crimes contra o patrimônio (dano, roubo, furto, duplicata simulada e receptação), sem um delito específico dominante, exigindo revisão.\",\n  \"evidencia\": \"Quanto aos crimes contra o patrimônio, possível assegurar que\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28755,
+      "candidatesTokenCount": 164,
+      "totalTokenCount": 30281,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28755
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1362,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "sTXSaqP0EY6sz7IP9ZXkgQI"
+  },
+  "duracao_segundos": 21.163958499999353,
+  "usage_metadata": {
+    "promptTokenCount": 28755,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 30281,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28755
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1362,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0341",
+    "tema_central_id": "5157",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6720"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão mistura proposições independentes sobre diferentes crimes contra o patrimônio (dano, roubo, furto, duplicata simulada e receptação), sem um delito específico dominante, exigindo revisão.",
+    "evidencia": "Quanto aos crimes contra o patrimônio, possível assegurar que",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d50b32dd8ccf695d8822f7d67ccfa51e8911422ffb44a5c8f5ab4c9ba5575df6"
+}

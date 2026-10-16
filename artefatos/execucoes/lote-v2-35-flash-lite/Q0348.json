@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0348",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:36:32.580447+00:00",
+  "sha256_prompt": "d5117f6ef338d8db9e4a2409f7b9def81462686a0886d21d00185b382b8642d3",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "28205da06e72997f4cde6f34fe844af3ede9eee5ede29692a84f9bffdff1a6a3",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0348\",\n  \"tema_central_id\": \"5087\",\n  \"extras_ids\": [\n    \"5182\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda o crime de corrupção ativa em transação comercial internacional, mas suas alternativas misturam proposições independentes sobre o tipo penal, extraterritorialidade da lei penal e prescrição, exigindo revisão pela pluralidade de assuntos cobrados.\",\n  \"evidencia\": \"João foi acusado de corrupção ativa em transação internacional porque deu, em outro país, vantagem indevida a funcionário público estrangeiro\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28869,
+      "candidatesTokenCount": 192,
+      "totalTokenCount": 30966,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28869
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1905,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dTbSaqr2KbDtz7IPxsGFsQ8"
+  },
+  "duracao_segundos": 29.105521299999964,
+  "usage_metadata": {
+    "promptTokenCount": 28869,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 30966,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28869
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1905,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0348",
+    "tema_central_id": "5087",
+    "extras_ids": [
+      "5182"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda o crime de corrupção ativa em transação comercial internacional, mas suas alternativas misturam proposições independentes sobre o tipo penal, extraterritorialidade da lei penal e prescrição, exigindo revisão pela pluralidade de assuntos cobrados.",
+    "evidencia": "João foi acusado de corrupção ativa em transação internacional porque deu, em outro país, vantagem indevida a funcionário público estrangeiro",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "cda53d1e8cfdbc369b9ddf247df588a75765722495e8aad9299ab261aec64bfe"
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0354",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:40:06.250441+00:00",
+  "sha256_prompt": "9965932adec82d8dbc81941361ba001f2f224fd5eab0276acbe4df4e890feda6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1ad95f1a54975f95cc6c5f199ea581bda3266e6e7dd3723ec5ec21a9dbb791d8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0354\",\n  \"tema_central_id\": \"5218\",\n  \"extras_ids\": [\n    \"5071\"\n  ],\n  \"temas_alternativos\": [\n    \"5220\",\n    \"5226\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda múltiplos tópicos independentes da teoria do crime, tais como nexo causal, imputação objetiva, tipicidade, conduta (teoria finalista) e concurso de pessoas, sem apresentar um subtema central dominante.\",\n  \"evidencia\": \"Assinale a alternativa INCORRETA.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29061,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 30845,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29061
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1597,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "RzfSarTuBafoz7IPm5bqIQ"
+  },
+  "duracao_segundos": 15.384940399999323,
+  "usage_metadata": {
+    "promptTokenCount": 29061,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 30845,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29061
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1597,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0354",
+    "tema_central_id": "5218",
+    "extras_ids": [
+      "5071"
+    ],
+    "temas_alternativos": [
+      "5220",
+      "5226"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda múltiplos tópicos independentes da teoria do crime, tais como nexo causal, imputação objetiva, tipicidade, conduta (teoria finalista) e concurso de pessoas, sem apresentar um subtema central dominante.",
+    "evidencia": "Assinale a alternativa INCORRETA.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2bc3c411b6bda6954fd9fc02a9962257f95fead404d8f87b860e5ca01499f0c0"
+}
