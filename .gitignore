@@ -31,3 +31,6 @@ __pycache__/
 # Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
+
+# Renderizacoes temporarias para revisao visual do PDF.
+/tmp/pdfs/

@@ -1,6 +1,6 @@
 # Ponto de retomada do case
 
-**Módulo 5C concluído em 16/10/2026, pronto para revisão e commit.** O experimento de desambiguação gerou 23 propostas, mas não passou nos critérios registrados: 20/23 coincidências estritas e uma divergência explícita. Nenhuma proposta foi adotada. A versão 2 retém separadamente Q0180 e tem **77 `publicar`, 278 `revisar` e quatro `fora`**, cobertura de **21,45%**. O CSV da raiz já corresponde à v2; a v1 e sua auditoria permanecem intactas. Próximo passo: módulo 6, previsão, relatório e memo.
+**Módulo 6 concluído em 16/10/2026, pronto para revisão e commit.** Entregas: [previsao.txt](../previsao.txt), [relatório PDF de cinco páginas](../relatorio.pdf), [Markdown equivalente](../relatorio.md), com memo na quinta página, e [cálculos rastreáveis](../artefatos/entrega-v2/evidencias.json). A previsão de precisão é subjetiva: **94,8052%**, cenários de **89,6104% a 100%**, sem nível de confiança ou calibração. A cobertura conhecida continua **77/359 = 21,4485%**. CSV, decisões e referências anteriores foram preservados. Próximo passo: módulo 7, reprodução completa em checkout limpo e conferência do pacote.
 
 ## Estado salvo
 
@@ -12,11 +12,32 @@
 | Módulo 4: lote completo | Concluído e commitado: 359 sugestões tecnicamente válidas |
 | Módulo 5A: decisões | Concluído e commitado: 359 decisões e trilha congeladas |
 | Módulo 5B: avaliação | Concluído e commitado: censo de 78, referências congeladas, comparação e diagnóstico |
-| Módulo 5C: cobertura | Concluído: experimento não adotado, v2 congelada; aguarda revisão e commit |
-| Módulo 6: relatório e memo | Pendente |
+| Módulo 5C: cobertura | Concluído e commitado: experimento não adotado, v2 congelada |
+| Módulo 6: relatório e memo | Concluído; ponto de revisão e commit do usuário |
 | Módulo 7: entrega final e reprodução | Pendente; verificar checkout limpo e pacote completo |
 
-## Conclusão do módulo 5C
+## Conclusão do módulo 6
+
+Base: commit `94066155ae648f11aacfcceabdff0223c4a9c2d2`, com repositório limpo. O relatório cobre raciocínio, tentativas rejeitadas, diagnóstico, avaliação, consumo/tempo, produção para 50 mil questões por semana e memo sem jargão de IA. A previsão usa reserva editorial de quatro erros possíveis (73/77), com cenários de zero a oito (69/77 a 77/77); não são erros observados ou limite garantido. O [método](ENTREGA_DOCUMENTAL.md) explica as escolhas, as limitações da referência e as fontes.
+
+O gerador `scripts/gerar_relatorio.py` reproduz previsão, Markdown e evidências sem dependências externas ou API; `--pdf` usa dependências opcionais em ambiente isolado. Confere o CSV v2, todos os recibos esperados, os históricos e checksums. O PDF é determinístico, tem cinco páginas e foi renderizado para revisão visual; o memo ocupa a última. A revisão independente identificou e motivou a proteção contra custo subestimado por recibos ausentes.
+
+Preços oficiais Standard do Gemini 3.5 Flash-Lite foram consultados em 16/10/2026. Sobre o consumo conhecido do lote, a simulação paga é US$0,005669 por questão com cache informado, ou US$0,012685 sem desconto. Não é fatura: faltam uso ausente, infraestrutura, auditoria e trabalho humano. A projeção de 38.719 revisões por semana e 1.291 horas a dois minutos por revisão é hipotética, mantendo a mistura deste recorte. Nenhuma arquitetura de produção ou economia de recuperação foi implementada/validada.
+
+O [checkpoint do módulo 6](../artefatos/checkpoints/modulo6_2026-10-16.json) registra hashes e verificações. Nenhuma chamada Gemini, leitura de `.env`, alteração de classificações, ativação de faturamento, staging, commit, push ou envio externo nesta etapa. O uso dos agentes Codex permanece sem medição pelos recibos. A suíte e a reprodução final estão registradas no checkpoint.
+
+Suíte final: **278 testes, 277 aprovados e um pulado** por permissão de symlink no Windows, em 108,497 s. Previsão, Markdown, evidências e PDF foram reconstruídos em pasta temporária com igualdade byte a byte e rede/acesso a `.env` bloqueados. As cinco páginas da versão final foram renderizadas e inspecionadas, com cabeçalhos, tabelas e memo legíveis.
+
+Comandos documentais, sem credenciais:
+
+```powershell
+python -B scripts/gerar_relatorio.py --verificar
+.venv/Scripts/python.exe -B scripts/gerar_relatorio.py --pdf --verificar
+```
+
+O segundo comando pressupõe `requirements-relatorio.txt` instalado no ambiente isolado; em outro ambiente, seguir [ENTREGA_DOCUMENTAL.md](ENTREGA_DOCUMENTAL.md). A versão PDF usa fontes embarcadas pelo ReportLab. Não editar somente as saídas: narrativa em `docs/modelo_relatorio.md`, hipóteses em `config/previsao_v2.json`; alterações precisam manter a explicação coerente e passar por nova renderização.
+
+## Histórico do módulo 5C
 
 A base foi o commit `80c4a1593cc9da1bf49a5da98fc35f685983b928`, com repositório limpo. O [pré-registro](../artefatos/experimento-cobertura-v2/preregistro.json) congelou regras, fontes e os 41 IDs retidos apenas por alternativas antes da análise específica do grupo. O segundo passe usou o mesmo modelo Gemini, um novo prompt e pasta de recibos separada, sem receber sugestões anteriores.
 
@@ -146,20 +167,20 @@ A regra de whitespace de `temas.csv` reconhece o CRLF preservado como fim de lin
 
 ## Commit deste módulo
 
-Este commit reúne o módulo 5B: pacote de auditoria, protocolo e referências cegas, avaliação, diagnóstico de cobertura, sensibilidade exploratória, testes, checkpoint e documentação. O assistente não fez commit, push ou staging nesta etapa.
+Este commit reúne o módulo 6: previsão, relatório, memo, proposta de produção, gerador offline, evidências, testes, checkpoint e documentação. O assistente não fez commit, push ou staging nesta etapa.
 
 Comandos sugeridos, a partir da raiz:
 
 ```powershell
 git status --short
-git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md docs/AVALIACAO.md docs/DECISOES_V1.md docs/AUDITORIA_V1.md docs/COBERTURA_V1.md
-git add classificacao_topicos/diagnostico_cobertura.py tests/test_diagnostico_cobertura.py prompts/revisao_auditoria_v1.txt
-git add artefatos/auditoria-v1 artefatos/revisao_auditoria-v1 artefatos/avaliacao-v1
-git add artefatos/analises/cobertura-v1.json artefatos/analises/sensibilidade-referencia-v1.json artefatos/checkpoints/modulo5b_2026-10-16.json
+git add .gitattributes .gitignore README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md
+git add docs/ENTREGA_DOCUMENTAL.md docs/modelo_relatorio.md config/previsao_v2.json
+git add previsao.txt relatorio.md relatorio.pdf requirements-relatorio.txt scripts/gerar_relatorio.py tests/test_relatorio_documental.py
+git add artefatos/entrega-v2/evidencias.json artefatos/checkpoints/modulo6_2026-10-16.json
 git diff --cached --check
 git diff --cached --stat
 git diff --cached --name-only
-git commit -m "eval: registra auditoria cega e diagnostico de cobertura"
+git commit -m "docs: adiciona previsao relatorio e proposta de producao"
 ```
 
 Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` continuam locais e ignorados: repetem o catálogo e são regeneráveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.
@@ -198,8 +219,7 @@ Ao conferir o lote por scripts, selecionar recibos por `Q[0-9]{4}\.json`, pois `
 
 ## Próximos módulos
 
-1. **6 — previsão, relatório e memo:** usar a v2 selecionada como versão de trabalho, preencher `previsao.txt` e produzir relatório de até cinco páginas, incluindo memo de uma página e proposta para 50 mil questões por semana. Explicar a tentativa de cobertura não adotada, a retenção de Q0180 e a incerteza da referência. Não tratar seleção posterior aos julgamentos como nova validação independente. Não são necessárias novas chamadas de classificação.
-2. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo. O relatório de avaliação v1 inclui caminhos absolutos das fontes; em outro checkout, comparar os hashes dos conteúdos, o CSV e as métricas. Os produtos 5C usam caminhos relativos e foram reproduzidos offline. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
+1. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo, incluindo previsão, Markdown e PDF. O relatório de avaliação v1 inclui caminhos absolutos das fontes; em outro checkout, comparar os hashes dos conteúdos, o CSV e as métricas. Os produtos 5C e as novas fontes documentais usam caminhos relativos. Não são necessárias novas chamadas de classificação. Conferir requisitos, caminhos públicos, ausência de arquivos privados e preparar apresentação das escolhas e limites. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
 
 ## Decisões que devem ser preservadas
 
@@ -207,4 +227,4 @@ O usuário não tem apoio jurídico disponível e não há rótulos temáticos o
 
 Na avaliação local, igualdade de ID ou relação imediata pai/filho é aceita; irmãos e ancestrais distantes permanecem distintos. Essa interpretação conservadora do case está documentada. A confiança das quatro sugestões corrigidas vem do revisor; a de `fora` é zero como sentinela de não aplicável. O intervalo da cobertura observada será degenerado. As convenções estão em [AVALIACAO.md](AVALIACAO.md).
 
-Para retomar: **“Leia docs/RETOMADA.md e inicie o módulo 6: previsão, relatório e memo; preserve as versões e pare ao concluir para eu revisar e commitar.”**
+Para retomar: **“Leia docs/RETOMADA.md e inicie o módulo 7: reprodução em checkout limpo e conferência final; preserve as versões, não faça novas chamadas de classificação e pare para eu revisar.”**

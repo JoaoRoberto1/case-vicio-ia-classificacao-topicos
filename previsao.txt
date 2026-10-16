@@ -1,0 +1,39 @@
+precisao_prevista: 0.948052
+precisao_intervalo: 0.896104-1.000000
+cobertura_prevista: 0.214485
+cobertura_intervalo: 0.214485-0.214485
+
+Escopo: versao 2 de publicacao.csv, 77 publicar / 359 questoes. A cobertura
+e contada, nao estimada para uma populacao futura. Seu intervalo degenerado
+refere-se exclusivamente a este lote; numeros arredondados a seis casas.
+
+A previsao de precisao e subjetiva: reserva editorial de quatro possiveis
+erros entre 77, resultando em 73/77 = 94,8052%. Motivam a cautela as tres
+referencias com varios centrais aceitos (Q0009, Q0088, Q0187) e o incidente
+de exposicao a trecho de gabarito de alternativas em Q0179. Nao sao quatro
+erros observados, nem se presume que os erros estariam nesses quatro IDs.
+A escolha de quatro e julgamento, nao resultado de calibracao ou modelo
+estatistico. Nao usamos a media das confiancas autodeclaradas como precisao.
+
+O intervalo representa cenarios assumidos de zero a oito erros: 69/77 a
+77/77 = 89,6104% a 100%. Oito duplica a reserva de quatro para explorar
+mais quatro erros nao detectados; nao ha evidencia de que seja um teto.
+Nao e intervalo de confianca de 95%, nem faixa empiricamente calibrada.
+Erros compartilhados entre IAs podem levar o resultado abaixo dela. Sem
+essas hipoteses de julgamento, os limites identificaveis seriam [0,1].
+
+Evidencia: o censo historico da v1 encontrou 77 concordancias em 78
+publicadas frente a referencias provisorias de IA, sem especialista ou
+rotulos tematicos oficiais. Q0180 foi depois retida em revisao. A retirada
+e a reutilizacao das referencias nao demonstram precisao de 100% na v2.
+O censo elimina erro amostral, mas nao erro da referencia. O experimento
+5C nao aprovou as propostas de ampliacao; nenhuma foi incorporada.
+
+Para atingir 95% nas 77 publicadas, podem existir no maximo tres erros
+(74/77 = 96,1039%); quatro resultam em 94,8052%. A meta nao esta comprovada.
+Mantemos o conjunto congelado sem excluir mais casos para melhorar a
+aparencia da previsao. Extras, revisar e fora nao tem precisao estimada
+por este indicador. Consulte relatorio.md e as evidencias reproduziveis
+em artefatos/entrega-v2/evidencias.json.
+
+csv_sha256: 2f9ca44feef9998810c18bfb49933737470b758bcde7697b0c8673c531d6d53e

@@ -8,15 +8,15 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido e aplicado na v1; a regra de até 80 restantes resultou em censo dos 78 publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
 | 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Concluído e commitado: 359 válidas, zero pendências técnicas |
-| 5. Auditoria, decisão e cobertura | 5 h | Revisões registradas, decisões congeladas, avaliação e experimento controlado de cobertura | 5A, 5B e 5C concluídos; experimento negativo, v2 com 77 publicados; revisão e commit pendentes |
-| 6. Relatório e produção | 3 h | Previsão, até cinco páginas com diagnóstico, raciocínio, proposta para 50 mil questões por semana e memo | Próxima etapa, após revisão e commit do 5C |
+| 5. Auditoria, decisão e cobertura | 5 h | Revisões registradas, decisões congeladas, avaliação e experimento controlado de cobertura | 5A, 5B e 5C concluídos e commitados; experimento negativo, v2 com 77 publicados |
+| 6. Relatório e produção | 3 h | Previsão, até cinco páginas com diagnóstico, raciocínio, proposta para 50 mil questões por semana e memo | Concluído; pronto para revisão e commit |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
 
 O esforço previsto não representa tempo já gasto. O submódulo 5C faz parte das cinco horas previstas para o módulo 5; não acrescenta uma estimativa de tempo executado. Limites de API e achados da avaliação podem exigir ajustes. A conclusão de um módulo depende de seus artefatos e verificações.
 
 ## Pontos de parada e commits
 
-O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O módulo 4 terminou com 359 sugestões válidas e foi commitado. O módulo 5A congelou 78 decisões `publicar`, 277 `revisar` e quatro `fora`; o 5B registrou 77/78 coincidências no censo dos publicados, frente à referência provisória de IA. O 5C terminou sem adotar nenhuma das 23 propostas: os critérios registrados de coincidência estrita e ausência de divergências não foram satisfeitos. A versão 2 contém 77 `publicar`, 278 `revisar` e quatro `fora`, após reter separadamente Q0180 por achado conhecido. A v1 permanece preservada. O ponto de parada atual é a revisão e o commit do módulo 5C, antes de iniciar o módulo 6.
+O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O módulo 4 terminou com 359 sugestões válidas e foi commitado. O módulo 5A congelou 78 decisões `publicar`, 277 `revisar` e quatro `fora`; o 5B registrou 77/78 coincidências no censo dos publicados, frente à referência provisória de IA. O 5C terminou sem adotar nenhuma das 23 propostas: os critérios registrados de coincidência estrita e ausência de divergências não foram satisfeitos. A versão 2 contém 77 `publicar`, 278 `revisar` e quatro `fora`, após reter separadamente Q0180 por achado conhecido. A v1 permanece preservada. O ponto de parada atual é a revisão e o commit do módulo 6, com previsão e relatório completos, antes de iniciar a conferência final.
 
 | Etapa de retomada | Tamanho do bloco | Ponto de parada | Commit sugerido |
 | --- | --- | --- | --- |
@@ -26,16 +26,16 @@ O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O módulo 4 term
 | Módulo 5A concluído | CLI, política e revisão separada dos oito candidatos fora | CSV com 359 decisões e trilha congelados; pronto para commit antes da avaliação | `feat: congela decisoes e integra avaliacao` |
 | Módulo 5B concluído | Censo de 78 publicados e diagnóstico das 277 revisões | Referências congeladas, concordância condicional e limitações registradas; pronto para commit | `eval: conclui auditoria e diagnostica cobertura` |
 | Módulo 5C concluído | Segundo passe nos 41 casos, 23 propostas congeladas e avaliação por referência de IA | Resultado negativo, nenhuma promoção; v2 com Q0180 em revisão e v1 preservada; pronto para revisão e commit | `eval: registra experimento de desambiguacao e decisoes v2` |
-| Módulo 6 | `previsao.txt`, relatório de até cinco páginas e memo | Texto e números revisados, com proposta para 50 mil questões por semana | `docs: adiciona relatorio do case` |
+| Módulo 6 concluído | `previsao.txt`, relatório PDF/Markdown de cinco páginas, memo e cálculos | Texto, números e layout revisados, com proposta para 50 mil questões por semana | `docs: adiciona previsao relatorio e proposta de producao` |
 | Módulo 7 | Reprodução em checkout limpo | Entrega final verificada | `chore: valida entrega reproduzivel` |
 
 Os commits são sugestões para o usuário; nenhum foi criado pelo assistente. A avaliação real da versão 1 já tem artefatos próprios. Sua conclusão não representa validação por especialista nem autorização para alterar retroativamente política, decisões ou referências congeladas.
 
 ## Próxima etapa
 
-O [experimento 5C](EXPERIMENTO_COBERTURA_V2.md) está concluído e deve ser revisado e commitado pelo usuário. O segundo passe não justificou ampliar a cobertura sob os critérios previamente registrados. Não houve redução de limiar, exclusão individual de discordâncias ou alteração retroativa das referências para aprovar o lote de propostas.
+O [módulo 6](ENTREGA_DOCUMENTAL.md) está concluído e aguarda revisão e commit do usuário. A previsão subjetiva é 94,8052%, com cenários de 89,6104% a 100%, e cobertura conhecida de 21,4485%. O relatório de cinco páginas inclui o memo na última e distingue implementação, evidência observada e proposta de produção.
 
-O módulo 6 deverá produzir `previsao.txt`, relatório de até cinco páginas e memo de uma página, com proposta operacional para 50 mil questões por semana. Deve distinguir a cobertura atual de `77/359 = 21,4485%`, a concordância histórica de `77/78` da v1 e a evidência de desenvolvimento do 5C. A retirada de Q0180 é um tratamento de achado conhecido, não um novo acerto validado. O uso da avaliação para escolher a versão impede descrevê-la como validação independente posterior à escolha.
+O CSV foi preservado. A retirada anterior de Q0180 é tratamento de achado conhecido, não um novo acerto validado. O uso da avaliação para escolher a versão impede descrevê-la como validação independente posterior à escolha. A faixa da previsão não é intervalo estatístico ou limite garantido; não há comprovação da meta jurídica de 95%.
 
 O módulo 7 fará a reprodução completa em novo checkout e a conferência das entregas. Os cálculos offline do 5C já podem ser repetidos em pastas novas com os comandos `propor` e `concluir`, conforme o [README](../README.md#experimento-5c-e-decisões-v2-sem-api), sem novas chamadas ou mudanças nos artefatos congelados.
 
@@ -164,6 +164,16 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Suíte final: 270 testes, 269 aprovados e um pulado por privilégio de symlink no Windows, em 116,632 s. Reprodução offline das propostas e decisões em novas pastas, com validação dos hashes e preservação das saídas congeladas.
 - Registros: [método e limites do 5C](EXPERIMENTO_COBERTURA_V2.md), [propostas congeladas](../artefatos/experimento-cobertura-v2/propostas/manifesto_propostas.json), [resultado](../artefatos/decisoes-v2/relatorio_experimento.json) e [manifesto v2](../artefatos/decisoes-v2/manifesto_decisoes.json). A referência é provisória de IA, e a avaliação foi usada para escolher a versão: evidência de desenvolvimento, sem comprovação de precisão jurídica ou validação independente da versão escolhida.
 - Ponto de parada: revisão e commit do usuário. Próxima etapa: módulo 6, com previsão, relatório e memo; nenhuma dessas entregas foi iniciada neste fechamento.
+
+## Módulo 6 concluído em 16/10/2026
+
+- Base Git: `94066155ae648f11aacfcceabdff0223c4a9c2d2`, inicialmente limpa. Nenhuma alteração nas 359 decisões, fontes ou referências anteriores.
+- Entrega: [previsão](../previsao.txt), [relatório de cinco páginas](../relatorio.pdf), [Markdown equivalente](../relatorio.md), com memo na quinta página, e [evidências reproduzíveis](../artefatos/entrega-v2/evidencias.json).
+- Previsão de precisão subjetiva: 73/77 = 94,8052%; intervalo de cenários zero a oito erros, 89,6104% a 100%, sem calibração ou limite garantido. Cobertura contada: 77/359 = 21,4485%.
+- Produção proposta para 50 mil questões/semana, preços oficiais datados, simulação de custo por questão, capacidade de revisão, integração com importação/reportes e critério futuro de homologação por especialistas. A projeção não representa arquitetura implementada ou custo total observado.
+- Gerador offline com conferência dos IDs esperados e históricos de recibos; PDF opcional com dependências isoladas. Suíte final: 278 testes, 277 aprovados e um pulado por permissão de symlink no Windows, em 108,497 s.
+- Quatro produtos documentais reproduzidos byte a byte em pasta temporária com rede e `.env` bloqueados. PDF final renderizado e revisado nas cinco páginas. A revisão independente confirmou requisitos e métricas e identificou a proteção adicional contra recibos faltantes, já corrigida e testada.
+- Registro: [método documental](ENTREGA_DOCUMENTAL.md) e [checkpoint 6](../artefatos/checkpoints/modulo6_2026-10-16.json). Nenhuma chamada Gemini, commit, push ou envio externo. Próxima etapa após revisão e commit: módulo 7, reprodução completa em checkout limpo e conferência final.
 
 ## Registro de execução
 

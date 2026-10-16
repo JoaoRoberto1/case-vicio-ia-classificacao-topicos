@@ -1,0 +1,6 @@
+# Somente para gerar o PDF e conferir sua renderizacao; pipeline usa stdlib.
+reportlab==5.0.1
+pypdf==6.21.0
+pypdfium2==5.14.0
+pillow==12.3.0
+charset-normalizer==3.5.2

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "versao": "previsao-v2",
+  "csv_sha256": "2f9ca44feef9998810c18bfb49933737470b758bcde7697b0c8673c531d6d53e",
+  "erros_cenario_central": 4,
+  "erros_cenario_minimo": 0,
+  "erros_cenario_maximo": 8,
+  "natureza": "Previsao subjetiva e intervalo de cenarios; sem nivel de confianca ou calibracao empirica.",
+  "ressalvas_que_motivam_reserva": ["Q0009", "Q0088", "Q0187", "Q0179"],
+  "precos_usd_por_milhao": {
+    "entrada": 0.30,
+    "saida_incluindo_raciocinio": 2.50,
+    "entrada_cache": 0.03,
+    "fonte": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-flash-lite",
+    "consultado_em": "2026-10-16"
+  },
+  "producao_hipoteses": {
+    "questoes_semana": 50000,
+    "entrada_reduzida_tokens": 4000,
+    "saida_reduzida_tokens": 1500,
+    "tentativas_por_questao": 1.15,
+    "minutos_por_revisao": 2,
+    "custo_hora_revisor_usd": 20
+  }
+}

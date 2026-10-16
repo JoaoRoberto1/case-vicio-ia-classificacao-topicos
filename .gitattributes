@@ -8,3 +8,6 @@
 /artefatos/** -text
 /prompts/** -text
 /config/** -text
+/previsao.txt -text
+/relatorio.md -text
+/relatorio.pdf -text

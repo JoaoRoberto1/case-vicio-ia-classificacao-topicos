@@ -2,7 +2,9 @@
 
 ## Visão geral
 
-Solução em desenvolvimento para o processo seletivo de IA da Vício (Método VDE), voltada à classificação de questões de concursos jurídicos por tópico.
+Solução para o processo seletivo de IA da Vício (Método VDE), voltada à classificação de questões de concursos jurídicos por tópico. A entrega documental está concluída; falta a conferência final em checkout limpo, prevista no módulo 7.
+
+Entregas para leitura: [publicacao.csv](publicacao.csv), [previsao.txt](previsao.txt), [relatório PDF de cinco páginas](relatorio.pdf) e [mesmo relatório em Markdown](relatorio.md). O memo ao professor ocupa a quinta página do PDF. Os cálculos e suas fontes estão em [evidencias.json](artefatos/entrega-v2/evidencias.json).
 
 ## Objetivo
 
@@ -37,6 +39,10 @@ Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `en
 
 ## Estado atual
 
+**Módulo 6 concluído, pronto para revisão e commit.** A previsão subjetiva de precisão é **94,8052%**, com cenários de **89,6104% a 100%**, sem nível de confiança ou calibração empírica. A reserva de quatro erros possíveis é julgamento editorial, não quatro erros observados; o cenário de oito erros não é um teto garantido. A cobertura é a contagem conhecida **77/359 = 21,4485%**. O [método documental](docs/ENTREGA_DOCUMENTAL.md) explica as hipóteses e como reproduzir os arquivos. O CSV e os artefatos anteriores não foram alterados nesta etapa.
+
+Verificação final: **278 testes, 277 aprovados e um pulado** pela permissão de symlink no Windows, em 108,497 s. Os quatro produtos documentais foram reproduzidos byte a byte em pasta temporária com rede e acesso a `.env` bloqueados. As cinco páginas do PDF foram renderizadas e inspecionadas visualmente.
+
 O módulo de preparação dos dados e da árvore está implementado e verificado. Ele preserva as fontes, prepara as 359 questões, valida os 377 registros da árvore e gera um diagnóstico reproduzível.
 
 **Módulo 5C concluído em 16/10/2026, com resultado negativo para ampliar a cobertura.** Das 23 propostas congeladas, 20 tiveram coincidência estrita com a referência provisória de IA: **20/23 = 86,96%**. A comparação hierárquica encontrou 22/23 = 95,65%, mas incluiu uma divergência explícita, em Q0024. O protocolo exigia pelo menos 95% de coincidências estritas e zero divergências; nenhuma proposta foi adotada. O [relatório do experimento](artefatos/decisoes-v2/relatorio_experimento.json) registra a decisão e seus denominadores.
@@ -64,7 +70,7 @@ Uma sensibilidade exploratória posterior trata as três referências com vário
 
 O [experimento 5C](docs/EXPERIMENTO_COBERTURA_V2.md) classificou novamente os 41 casos retidos apenas por alternativas, em 50 chamadas Gemini: 37 sucessos técnicos e quatro falhas com tentativas esgotadas, em Q0086, Q0119, Q0194 e Q0322. Foram observados 1.134.040 tokens; doze tentativas não informaram uso, e o consumo dos agentes Codex não está incluído. As propostas foram congeladas antes da comparação com as referências cegas. A escolha da versão usa essa avaliação e constitui desenvolvimento, sem validação independente posterior à escolha.
 
-O projeto está no ponto de revisão e commit do **módulo 5C**. A suíte final executou 270 testes: 269 aprovados e um pulado por limitação de permissão de symlink no Windows, em 116,632 s. O próximo trabalho é o módulo 6: `previsao.txt`, relatório de até cinco páginas e memo, incluindo a proposta para 50 mil questões por semana. A reprodução em novo checkout e a conferência final da entrega ficam no módulo 7.
+O módulo 5C foi commitado pelo usuário. Sua suíte final executou 270 testes: 269 aprovados e um pulado por limitação de permissão de symlink no Windows, em 116,632 s. O módulo 6 acrescenta previsão, relatório, memo e projeções de produção para 50 mil questões por semana. A reprodução completa em novo checkout e a conferência final da entrega ficam no módulo 7.
 
 - [Plano e acompanhamento dos módulos](docs/PLANO_EXECUCAO.md)
 - [Protocolo de avaliação e ambiguidades](docs/AVALIACAO.md)
@@ -74,6 +80,7 @@ O projeto está no ponto de revisão e commit do **módulo 5C**. A suíte final 
 - [Auditoria da versão 1 e limitações da referência](docs/AUDITORIA_V1.md)
 - [Diagnóstico reproduzível da cobertura](docs/COBERTURA_V1.md)
 - [Experimento 5C, resultado negativo e versão 2](docs/EXPERIMENTO_COBERTURA_V2.md)
+- [Entrega documental, previsão e custos](docs/ENTREGA_DOCUMENTAL.md)
 - [Política original preservada](config/politica_v1.json)
 - [Política da versão 2](config/politica_v2.json)
 
@@ -93,7 +100,31 @@ flowchart LR
 
 ## Como executar
 
-Use Python 3.11 ou superior. A implementação atual utiliza somente a biblioteca padrão e foi verificada localmente com Python 3.14.7. Não é necessário instalar dependências.
+Use Python 3.11 ou superior. O pipeline de classificação, os cálculos documentais e os testes usam somente a biblioteca padrão e foram verificados localmente com Python 3.14.7. Apenas a geração opcional do PDF requer as dependências separadas abaixo.
+
+### Reproduzir a previsão e o relatório, sem API
+
+Com os recibos versionados já presentes, estes comandos não precisam de chave ou prompts expandidos:
+
+```sh
+python -B scripts/gerar_relatorio.py
+python -B scripts/gerar_relatorio.py --verificar
+```
+
+Eles geram ou conferem `previsao.txt`, `relatorio.md` e `artefatos/entrega-v2/evidencias.json`. O gerador verifica o hash do CSV v2, a presença de todos os recibos esperados, os históricos de tentativas e os checksums; não modifica classificações. A estimativa inclui tentativas malsucedidas com consumo informado, sem duplicar o piloto v2 ou a revalidação offline de Q0005.
+
+Para reconstruir também o PDF no Windows:
+
+```powershell
+python -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements-relatorio.txt
+.venv/Scripts/python.exe -B scripts/gerar_relatorio.py --pdf
+.venv/Scripts/python.exe -B scripts/gerar_relatorio.py --pdf --verificar
+```
+
+Em Linux/macOS, usar `.venv/bin/python` no lugar de `.venv/Scripts/python.exe`. O conteúdo editável está em [docs/modelo_relatorio.md](docs/modelo_relatorio.md); os parâmetros ficam em [config/previsao_v2.json](config/previsao_v2.json). Após editar, regenerar as saídas e revisar as cinco páginas. `--saida DIRETORIO` permite reproduzir em outra pasta. `--verificar` compara bytes sem gravar.
+
+### Preparação e classificação
 
 Na raiz do repositório, prepare os dados:
 

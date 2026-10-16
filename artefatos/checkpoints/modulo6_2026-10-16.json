@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "procedimento": "checkpoint-modulo6-v1",
+  "estado": "concluido_pronto_para_revisao_e_commit",
+  "registrado_utc": "2026-10-16T19:21:53.126027+00:00",
+  "base_git_commit": "94066155ae648f11aacfcceabdff0223c4a9c2d2",
+  "checkpoint_anterior": "artefatos/checkpoints/modulo5c_2026-10-16.json",
+  "checkpoint_anterior_sha256": "fe7ac4645a60788d2f8f22ce60ec85e1da7bb0d8f1ebd916cc8c20ee75039e73",
+  "csv_sha256": "2f9ca44feef9998810c18bfb49933737470b758bcde7697b0c8673c531d6d53e",
+  "decisoes": {
+    "fora": 4,
+    "publicar": 77,
+    "revisar": 278
+  },
+  "previsao": {
+    "cobertura_intervalo": [
+      0.21448467966573817,
+      0.21448467966573817
+    ],
+    "cobertura_prevista": 0.21448467966573817,
+    "erros_cenario_central": 4,
+    "erros_cenario_maximo": 8,
+    "erros_cenario_minimo": 0,
+    "natureza": "Previsao subjetiva e intervalo de cenarios; sem nivel de confianca ou calibracao empirica.",
+    "precisao_intervalo": [
+      0.8961038961038961,
+      1.0
+    ],
+    "precisao_prevista": 0.948051948051948
+  },
+  "testes": {
+    "comando": "python -B -m unittest discover -s tests -q",
+    "total": 278,
+    "aprovados": 277,
+    "pulados": 1,
+    "motivo_skip": "Permissao de symlink real no Windows; protecao tambem testada por simulacao.",
+    "duracao_segundos": 108.497
+  },
+  "reproducao": {
+    "produtos_identicos": 4,
+    "comparacao": "byte a byte em pasta temporaria",
+    "rede_e_env_bloqueados": true,
+    "checkout_limpo_completo": "previsto para modulo 7"
+  },
+  "pdf": {
+    "paginas": 5,
+    "memo_pagina": 5,
+    "renderizador": "pypdfium2 5.14.0",
+    "escala_renderizacao": 1.6,
+    "inspecao_visual": "cinco paginas finais aprovadas; sem cortes, sobreposicoes ou tabelas quebradas"
+  },
+  "revisao_independente": {
+    "requisitos_e_metricas": "conferidos",
+    "achado": "recibos faltantes podiam subestimar custo",
+    "correcao": "validacao do conjunto de IDs por etapa, ID interno e teste de ausencia/excesso"
+  },
+  "chamadas_gemini_novas": 0,
+  "consumo_codex": "desconhecido",
+  "fontes_e_decisoes_anteriores_preservadas": true,
+  "fontes_originais_sha256": {
+    "case-ia-classificacao-de-topicos.pdf": "d0a025985c10318d6728c4b7f1625c8f253972b6ee002a59155956d20d2aabfc",
+    "LEIA-ME.md": "d7bbbd1e5a91554bf54a64272ace7afc50bfa9a06b14bfc7704d6ca09e047bfc",
+    "questoes.jsonl": "6815aad02f1577fb7f3c68bb76cd56b3b23df5a0bf951d3422a5ce7d5e492573",
+    "temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+    "publicacao.csv": "2f9ca44feef9998810c18bfb49933737470b758bcde7697b0c8673c531d6d53e"
+  },
+  "arquivos_modulo_sha256": {
+    ".gitattributes": "c0cc2b7c43b7d03b81a35c75aeed1ea2e7e99e7ad487f281b3727d108f1dc27c",
+    ".gitignore": "d7b308fc664d5d34fdf68d0c7ef1ebcf4520a8d2ed52bd96d37d339b48c33693",
+    "README.md": "ebf11821a282e35ae98942867b789290ab77d74f2bab3d032fe3cfe630c025b9",
+    "docs/RETOMADA.md": "1767fc046ffcc019d92888b8b3df0a72c0745aa98fd96cf9939d17ec56ccce82",
+    "docs/PLANO_EXECUCAO.md": "c8fc9ef9617820c19b3297fad3fe7ccc2677ace3921882129b23373cc9500af1",
+    "docs/ENTREGA_DOCUMENTAL.md": "ee94dbe81e3436a39fbca120c1097529f00c9f1ed213e84530bd67f2f22300f2",
+    "docs/modelo_relatorio.md": "14018c1f3547d1cce9a9f6f86b769d10845a2ed896f9cc3916dec641359a6b5b",
+    "config/previsao_v2.json": "6fce3a754c6f7723b539dccd4e15ef539c364c881004f297de1260d86d9cfdc8",
+    "scripts/gerar_relatorio.py": "7763538185d7903fcc216d1aa66e246b7e326e44a00800e4bebff80197a8a7de",
+    "tests/test_relatorio_documental.py": "65c4c11173300c6db52927fd750def131c351f50453557cc8c4d927224aa98a0",
+    "requirements-relatorio.txt": "d1619ed97dd7e0457e0dc9f10538f3753b29f4fac5be745e1d387d48c9de9d06",
+    "previsao.txt": "8e09fdbb7ab8415dea337ae282987f160adbbd588f70d4e2b0f9b07c44461c82",
+    "relatorio.md": "50635379bd01beb35f06183185df1d006c655a40abc240158ab2a528b24c3ea2",
+    "relatorio.pdf": "0ff62a7af139f5b61de67325abce8ec15cf3ced2cb1065ed3ccad2670acd20a5",
+    "artefatos/entrega-v2/evidencias.json": "f09e475fea2d2125ad009bd75b0db4427ddb0b8166c904533e747ead819ab8cd"
+  },
+  "normalizacao_hashes": "LF para codigo, modelo, requisitos, documentacao, .gitattributes e .gitignore; bytes exatos para config, artefatos e entregas previsao/Markdown/PDF. Atributos Git -text preservam as entregas.",
+  "proxima_etapa": "Modulo 7: reproduzir pipeline completo em checkout limpo, conferir pacote e preparar apresentacao.",
+  "acoes_nao_realizadas": [
+    "alterar classificacoes",
+    "ler .env",
+    "ativar faturamento",
+    "staging",
+    "commit",
+    "push",
+    "enviar email"
+  ],
+  "conferencia_final": {
+    "arquivos_versionaveis": 607,
+    "credenciais_google_detectadas": 0,
+    "links_locais_verificados": 192,
+    "modelo_links_relativos_a_raiz_da_saida": true,
+    "json_novos_validos": 3,
+    "git_diff_check": "aprovado"
+  }
+}
