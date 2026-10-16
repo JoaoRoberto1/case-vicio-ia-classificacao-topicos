@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Q0328",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:49:17.203100+00:00",
+  "sha256_prompt": "5c909dd0f05037df451768b3f035c84f0a628917416eef7c5bb01d0f5d646523",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "69027828a2708fb7959eab6a9f7b76e15ebce0e42f74baaad3c14dcf78a19ddd",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0328\",\n  \"tema_central_id\": \"4382\",\n  \"extras_ids\": [\n    \"4374\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente as funções da criminologia e a delimitação de seu campo em relação à política criminal, avaliando se compete a ela a conversão de dados empíricos em preceitos normativos.\",\n  \"evidencia\": \"Acerca do conceito e das funções da criminologia, julgue o item seguinte.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28419,
+      "candidatesTokenCount": 171,
+      "totalTokenCount": 29687,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28419
+        }
+      ],
+      "thoughtsTokenCount": 1097,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "rnHSat7cBY36ytMP0tneiQw"
+  },
+  "duracao_segundos": 9.278568199999427,
+  "usage_metadata": {
+    "promptTokenCount": 28419,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 29687,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28419
+      }
+    ],
+    "thoughtsTokenCount": 1097,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0328",
+    "tema_central_id": "4382",
+    "extras_ids": [
+      "4374"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente as funções da criminologia e a delimitação de seu campo em relação à política criminal, avaliando se compete a ela a conversão de dados empíricos em preceitos normativos.",
+    "evidencia": "Acerca do conceito e das funções da criminologia, julgue o item seguinte.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b26d2e4ce6989bbec4b089f653763a11d5a361fbe2299fb6a4f718d2ee4c945a"
+}

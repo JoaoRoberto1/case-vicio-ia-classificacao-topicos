@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0244",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:41:55.805656+00:00",
+  "sha256_prompt": "24e02c7303ad7843b17453da38fca5469425e2d6f9fbda951f21385c281e4868",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9c2454cbc8e7f513117d3270d7b49b29a69832ebba728006968d378b681a9c91",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0244\",\n  \"tema_central_id\": \"5091\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente o crime de concussão, previsto no artigo 316 do Código Penal, cuja conduta elementar consiste em exigir vantagem indevida em razão da função pública.\",\n  \"evidencia\": \"O agente que exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, responderá pelo crime de:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28398,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 29238,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28398
+        }
+      ],
+      "thoughtsTokenCount": 654,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9G_SapvII8CPytMP_MG-iQ8"
+  },
+  "duracao_segundos": 11.285353200000827,
+  "usage_metadata": {
+    "promptTokenCount": 28398,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 29238,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28398
+      }
+    ],
+    "thoughtsTokenCount": 654,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0244",
+    "tema_central_id": "5091",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente o crime de concussão, previsto no artigo 316 do Código Penal, cuja conduta elementar consiste em exigir vantagem indevida em razão da função pública.",
+    "evidencia": "O agente que exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, responderá pelo crime de:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "db792bebc97075ff62b8ab7caa33ef168ac70747b54b3b0e86f377576c1b42b0"
+}

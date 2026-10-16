@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "Q0311",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:45:05.499416+00:00",
+  "sha256_prompt": "6e89df911c8175316b2f05d873f807e7da391ab3d430efd2d063f07f994fee8d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0dd02ed432910dca676bc5f16a2f7f300a0d41f5ea48505f9c905e2608dd0774",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0311",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T18:44:32.803460+00:00",
+      "sha256_prompt": "6e89df911c8175316b2f05d873f807e7da391ab3d430efd2d063f07f994fee8d",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "0dd02ed432910dca676bc5f16a2f7f300a0d41f5ea48505f9c905e2608dd0774",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.0973904999991646,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "3c68ae667a01b86c79f714824c9f1f2ff86a3f1ea9dcdb508e7f10e29d2933e2"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0311\",\n  \"tema_central_id\": \"5488\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento sobre as regras e os desdobramentos da citação no processo penal, especialmente o procedimento aplicável quando o réu não é localizado para a citação pessoal no endereço constante nos autos.\",\n  \"evidencia\": \"Considere que um oficial de justiça não tenha localizado o réu, para realizar a citação pessoal na ação penal, no endereço que constava dos autos.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28492,
+      "candidatesTokenCount": 175,
+      "totalTokenCount": 29634,
+      "cachedContentTokenCount": 26277,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28492
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26277
+        }
+      ],
+      "thoughtsTokenCount": 967,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "snDSapSBEfbgytMP1MGJgQw"
+  },
+  "duracao_segundos": 15.522628499998973,
+  "usage_metadata": {
+    "promptTokenCount": 28492,
+    "candidatesTokenCount": 175,
+    "totalTokenCount": 29634,
+    "cachedContentTokenCount": 26277,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28492
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26277
+      }
+    ],
+    "thoughtsTokenCount": 967,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0311",
+    "tema_central_id": "5488",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento sobre as regras e os desdobramentos da citação no processo penal, especialmente o procedimento aplicável quando o réu não é localizado para a citação pessoal no endereço constante nos autos.",
+    "evidencia": "Considere que um oficial de justiça não tenha localizado o réu, para realizar a citação pessoal na ação penal, no endereço que constava dos autos.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8005fda36447895429bceb431f40a461610d359f349dbfdfe7c15101f957682d"
+}

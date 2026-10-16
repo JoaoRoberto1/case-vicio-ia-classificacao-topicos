@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0177",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:39:55.710782+00:00",
+  "sha256_prompt": "fb8f81183fb784636978200600d72faf0f519074dcb25b587f0a19176fedbcba",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "51ee52b014fdc773b96dbc206891b1c3ae02998cb8e7879b3dc25003cf9bbae4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0177\",\n  \"tema_central_id\": \"5547\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os direitos, garantias e formalidades inerentes ao interrogatório judicial no processo penal, como o direito ao silêncio, a advertência prévia, a entrevista reservada com o defensor e a extensão da autodefesa.\",\n  \"evidencia\": \"Assinale a afirmativa incorreta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28504,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29657,
+      "cachedContentTokenCount": 26277,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28504
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26277
+        }
+      ],
+      "thoughtsTokenCount": 993,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fG_SatK5IeCtuMYP85Cf6A4"
+  },
+  "duracao_segundos": 6.476311700000224,
+  "usage_metadata": {
+    "promptTokenCount": 28504,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29657,
+    "cachedContentTokenCount": 26277,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28504
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26277
+      }
+    ],
+    "thoughtsTokenCount": 993,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0177",
+    "tema_central_id": "5547",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os direitos, garantias e formalidades inerentes ao interrogatório judicial no processo penal, como o direito ao silêncio, a advertência prévia, a entrevista reservada com o defensor e a extensão da autodefesa.",
+    "evidencia": "Assinale a afirmativa incorreta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "057d9e9f8e7196da36b8631d0405a2f1bd48df9e5fa262e90bb8b3f7cc393ffd"
+}

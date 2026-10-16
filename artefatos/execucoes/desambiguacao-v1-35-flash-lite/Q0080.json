@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0080",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:34:39.453704+00:00",
+  "sha256_prompt": "5c1aafa09153c5bd22e9af1a1cc5824f122222f1692d8bfaef7d22f8fc322025",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7e2c488b23d799054f3eb1cb3060fccf6a1f8a522743df868bc7d654a04976d6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0080\",\n  \"tema_central_id\": \"4370\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os modelos de reação ao delito na criminologia, avaliando características e premissas associadas às respostas estatais e sociais ao crime.\",\n  \"evidencia\": \"Julgue o item subsequente acerca dos modelos de reação ao delito.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28446,
+      "candidatesTokenCount": 148,
+      "totalTokenCount": 29197,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28446
+        }
+      ],
+      "thoughtsTokenCount": 603,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "QG7SatGkEs6ao_UPu-mGiA8"
+  },
+  "duracao_segundos": 5.74410910000006,
+  "usage_metadata": {
+    "promptTokenCount": 28446,
+    "candidatesTokenCount": 148,
+    "totalTokenCount": 29197,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28446
+      }
+    ],
+    "thoughtsTokenCount": 603,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0080",
+    "tema_central_id": "4370",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os modelos de reação ao delito na criminologia, avaliando características e premissas associadas às respostas estatais e sociais ao crime.",
+    "evidencia": "Julgue o item subsequente acerca dos modelos de reação ao delito.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f01f1d0a8c5fdfa1be329fc3ac41766dab8abb32e8166adabc98a84eadac1ade"
+}

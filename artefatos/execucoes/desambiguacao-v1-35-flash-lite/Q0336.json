@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "Q0336",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:49:36.524233+00:00",
+  "sha256_prompt": "56d7070f993f988b5cb2b8d45cc21f7e5d0e1f286bb6cb241cb40f051b6849cb",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f57138e8a2ffea242ba870b81441819e251809388729fc3868d9cf3a60979475",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0336\",\n  \"tema_central_id\": \"5159\",\n  \"extras_ids\": [\n    \"5177\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a prática de subtração de coisa alheia móvel sem violência ou grave ameaça, exigindo a definição típica do crime de furto e a análise de sua consumação conforme a jurisprudência dos Tribunais Superiores.\",\n  \"evidencia\": \"Diogo, outro cliente que estava no estabelecimento, terminou o almoço, levantou-se de onde estava sentado e foi em direção ao caixa para efetuar o pagamento da conta. Nesse momento, Diogo percebeu a bolsa de Mariana aberta e, sorrateiramente, pegou o aparelho celular dela.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "Eu8hCuwhAWkUfROhTFYNd6OVy+36C8QyebnatSY2pDuYvDfyNJKrBxnQApc0NaCq+vgTN+fsuakjE1CAnI0TGoYRNDRpxKjIIz2jep0yEGiKmUnu25P+KZknfWX4vLK7CnmnvJJ0oYyKC5+Vep9/dbdMtVuWarxVIm8QwPd7Y6Eos050A+2FFEIM2ZpgLjTY+ZSog6M6ttfBe0aAGqFn5AwvPdUkPOSLqUrg22KBIUez9/7gamX/YMTRfADcgmZ2kD1CqBHA2A0+pa0zxOCNFGSXE/DPZnnCoCtM+/2kV1KsHO8m6plGhxyrFoNppkJA+K+mbD3A+lVFvVoLa/5yzqHPHFrnlE1SgICRcBEhqxBHObt7X7jBT3ziT/4oAxLIYek5fYPkDku6/fs03bR8TC8ZmFSJyf5j2624lM03wZ7l+vC92DO98FSnOBDPoNaDjoD79H4Fe6G8jqjC7aJ0307gmgwH1B9tgopucLIdLomjeZ71rgclSQGp1JFkE8w4KoKh+m75rwYl7jsX1IKK3lBLmo5xWPpdn4qFDoyPBanWK7fxiEr+VF4eEpxqLSTT4j04U7VELAIttiS0IeRagZTERcS4iVUtAA5rwj3ZjyotRosCRLwI/DaObx9EywQWV11UxPz3PLU3emZrWPGUj1iR/nV7rGUTCeXi8+0Csmhgk8N2YT2xqyyHnzdbalTlgZcakqGrBUSttl/Q7vrdcdP8cqByczf7zUiVCyqr8yb15157WrE8n4Iyo4y1ux7Q5kR2kZkT2bmWq58SdKn2i14HwCORpPNPSRCzFYwhpgJ3B9uz7lA77SZLjeIOduajUFYb8/ZW8DAr36k/Kzmu+jyd1jEo3qbOae85FpIgiRrtEKEjQuUEm/IHMNs4u47/qUheyoyWgZfg/8iCME84JoHce0H30dL5/NScPp11jJTAohV8sLLDvrRSs6JIqKZ+2Lr5Q2ocIrEicevm2LVTvFnQOKsjrmZYfDEkhER2qiC1bKHQYj/DUPOjUwgvHnUzFQA991mJICicAEtTD1ovP3ByorrJqOUQI4+PiCXsFl+IO8mMV1KD+gYQLuPyN5sTvgPCdaIFY/sQrwEcP3CINCINRjRQm9rZgRzOK0ZAtb65cGixsaJnY3nkmVGfLxAY9oY/1W/lDnrzmnn6IZ441SR0oVuY4ewB/0RjdOlphfx6bqqvZBCdehk77rVWWulHIIj/zyjWgh1zr6czMsafSs5IZjB+TaYwB51Txocy9RRXYBIw6wkE8OTXMdmJ+VmvUvDglUkSxkVzsTIyMEiCNN8Fv5X/OOhtQE2dSSSaRfEnqhoGX0Y+17xtlWgYjMHCIAxyh1aEopsKoZBLm7/bstlM7OsKvVzwO17rqqNTVUCn30+qv7GicEvHl0c/7MIg7vbwJjqAXaJadOhSO7f/XafC5kH8pctR+4dUBrmxqgt+N51vj+q4fmp7t4Ryk8RtC14ZCo1fOo0ctFxa4VW9KsO4lTNz8eP4ZTRU0sATHQ3bh/ZFDdxwPoihknuw+TsF7AxVQzLEd3rnqzcn+71CD8noxcfIGQJ6LJxZm4iDGcLXhuX0VBjYlSJpZtiBlF/RiBdRLhTfFkdkbQ6uouTIiTsQbD5AePYesd8nsrRhwCjLjzDX/2xPpdLpuLCXu5z6IAwzEnx4UIQOalf9bzfeTnhX5HbuHvCDJPWtYI8db17vFD8TmF8tQ3xq4yyAl6Ofb4r5D/q2PTWxAOUj/zLWJIVBVdEisMl5ASlGBqUmNsNSsZYJeiEBhkf8i3mzWekttHgBMZ8RD9I4KIHibCEMXvfWB/WWslsghaci6qk/vg0qRoxxzkSOXG3LoaPrEHN64J4+HfV+os4j+rExXlkt/o/UU3Xy4yvHDnJ50ULpJSeQBNYIoIcF3UBwiqLlMDWyi1AMCjWUo4AwJ8Y6Eru8+fQltptyMIJI37xpQ6b+3u7O3LhymujfmhOzrPTv1u9XBdP4t0yzCUs786HC3iQg80zDx8fJ/kXDckJjjP6j4Qc/NQYnaIYubC1oW4U7kfdDMAcdDR7o0VKG9UqrLzkCiwDoSThoaRivMCYZR/f9o9KYvZwhrRGZYMkl/Ff2TeE8R+cJLsY6RJNDsxISEHerHgcHNtN91Noo2A8gpIweJn/Q3zWmrJh6rNU85YuCvFZ1SHM24CVZ2KAbeTDhNzm9otNvWfe5UEzSh9gB8IQOy90RLjygm70bKKfk1gvSmYO5qKMMmiBAwLjmmiDBzk/3Z4uk4Lnn71SPzjQ7V6UXPP6YqXweFNYWm+0pf8DHzF3MSIVFQMVLJoQK/F4B+mSvpgNZg09HYId3sNYsa4UQHBtaD+uU4HN8Mv2RZOvY5gOS5fu/J50EPwsjHcM8/5wl6Jgx29hK+LhHOxv2eQDSsXlYvNw+XB+5fTa4kLn/9Tiqiig21Ee4/eEAin1kuhiQPtSFbG5BCA9EJY1QIaBrKdM958Hyo8Na6cCCxECvmzWI7FyVdXlVKnFLdEiMBJ5AKGYB4TjTWXUb0ga9ANBf9SFj6cH0YfIBDk2VJlzFbqejh5ulFGbSVcT3uzK+xQBCk/mGEs45UKrpM3WR7Vjx/vS87G1Qn+lmVk018aaPU/QNVn9n+Okr5Bgv1K/+6pnrI8s9RNtltXHjyWTa5XOv3adIBRg9JK4haQ5QME61DewGMP2sbR1GsGIFVaF/1EO/p+Xmu4WA0VAxRGw6Nu+eQjOaX7LuapqWqqSm6O7fvtFfdQOUNcAkoPq2fe+W8tq390nEtImqNbSs1nStddzfX43dbAWbndV1DzuwMXuAOw2kSnFx3pvMCS79UT8rs10GnycTDGw/BDfBndyWPABHsYBZodd1JEw5JCpCywy977fqmuBSWLyE7VxpovPHSBeN1AKSwWZW+OLrG8pFONdoxfXesnfjHZtEybAcWiLxFnB86Y3xXo67OlME8v/x+yBo8JuWmcXDR217uRO2LfFP6UBglq13mYdSyMuJbPgEJ338FAewzZWN1fjMKURSAm3G8rwy/fUjO+K+cVHgiM0QjrMtGQO9xvIGhI9893oLUUZmjsMAM8jHpoWyTmCyiJUhAqmSlzll/Gy3WngUCdw4ZhRz6YayVznJBD8uaPzMBatvcQbLvSs7CWYbq03jrMi5v4f2blvVYF6kCs4C5p2CrkE5wmVtEwI9zgyZXz6ye3tBkR1980C8BdUj/Z1aWQclMj2AYDpV8gD8fZxLu2okej41ExjECsT/QVA9mmaUnAYhSkH1GtYqNzB+2ZYP3S/3FRy37BZ2l0cpwc9pbCLKuV6g4289LeNNf+Aa62ILquDzxVJGtAyBD/jKJiu2kYxG9i5GD7bExdEI1QFbPVlp9Xy4jmhTIp3SZBHPny32oZSkNvtSDRNrlndudN63CLTp4VzKxEkKc4OLRzXg5vBeMs+0FRVEbHlE+wksqy9+wc3k948Q2OGpkODMTnDVEqGgQubHVZj89BY20/ObTLnYw4fTRERITCg7Dyn52ZSJrdLQpWdgpArqQm3Jso5c8Vej5UfDESSBIIOi9DazhF3VRHGnmuy9B5C1CXAOHcAhEldmnvjK9dQE5pkfXnagkK416DwOUxp50n9TDnsBgYq5Gd5PBg0eNee7jgj6HF5KNG/PoW+AydGJ9WnIHTUlxdvn8mrv8J9qc2pB9oY0F8RyFaMkfaxpB5VM0Iz2sYQi14y+MdLR2zkd5UFg79zql8WCZNxo/RsHEiSsQ/SBFsTyaHUS4DjsA8KLucuiDySEaMFy1wfWQx5fP8bUMTHtNW5hziwKRzjB1eEyum8ul11ynUJXtbT4HVbI5CwqSrIPF/QNYFfs+upbxB+Fo0mjtMm368kAwqf8Re9DX6sbNHRuQXtyhZRGd8/Vii0eRCEMhvgIATwpNCguc8KDXRSWNbN2Hh8QQbVIsnVhLEUSjBmpLoabJOczRBEfjCO3gyR6NgBi2OwqmFLrFwaTParfC9i89axaHp4uAZJE6jrXLSy7Ff3IR9QRGbmq33ih14apzYQKW41V2IwFQPw8CMQUkrjdcZC9AlIfBBhIidUtzdDMqYpnvd3FLdeJgu6ZhA5IKmxbOj1Jw+vR2lGWDISz8uY+oJGP/sMbdGoeCF+VRlRACXFPSfmjKhGU4e+F94t94QG4jYZh7xTMdQDEUBmFkmbDkucn94C1fe89kvKG4gkh43F+MCmSSnSPj8F0iBGTfjZYCFLOEbWdJpuVWyVOcngGQnZhYlid/LxzM6HwuIYK6JrrmlF2itSj1u1P+xA7zNpEBY71BO7mJZGJBOchL12W6/dCKy7Iu7e/W+6REQXYEt58KDV4DDgvOdkgwZRdSisjP+Gl2tQvZ3MJHEq2Wxdvik2ZpYAUa0FTaN8Z+FrC/oX0A8WY3/jI/C1S4JcLyBsneUu/FIHfLepMF8CMlKl3rOrRBNcZNU/DH4hIvEdmro56iwBtHiyFlr+gO+N0iFWEdPwmXLRXvnpstY6Alro26vEB2XRTIyt8vYyy8EGQf2DXtQ8HMFcZJbr60SGd90ugLwzNpWI8qcZOorGsJFvufrDDNkK8A0aXDar9NlPajft/V2u332bPV+qa76zeuSyKWKGMebOPqAvPoktszm+Cfs+U+n9RCku13aZIswN32ZnAcM2MI8cbmvcSvp0h5e1vLZjYSr11eYCm1Z94MtudWYgk+MGU2XRR0t+L4oEuJb4m20M4SgBIgmiX9SeAr2hPsEVzkFCXW2qa/prnVhd00xiwVC387ENf7i4X3aJ+3MoDiAKTfKhk+Jz/gK8whChY7WEOckSQN5JKXzDHHs90BqNAB40HnBVUrEYT1nuz0CMD4/h+o0181FSzqwgcQ2B28Iu4i+ALvks4DccEbhXR81PUeEj4Pmt1rrxW3Qq0ZzkRJX69LlL6oJzi0R9GFRkekcDyjg/KXEYaN0i1W7Q949NIqQdlEgBBQRV47oDaHH2lALWEnNtfQuMOfsg7N7Q5Qu10hWvpMtief6xETzTeo7d5MmIgoMY1NGUqFCRzsMD8g2SBeA3jbfkQ6H52fg6vc12m48KpsQBgWXqr5HjOlsGVQ20BNr6RjjsKRtwBsRlubDLWVr25qL8+HUNn7wXwRaqCImqyOgxAJvGUim28SeLpWkDd1KrMaaNZ9Kq2S9oSiopBMpNu7fhLJacrqtXJMMdv28l/E18RgKh6sBrHF4eQEJORHj2CT6GxAnxFAsvNSWATmP5lbN9obx6ubqYisSIOzTWn5HTlwGLk9uJkhR3iJ9mY3pqrlpadTSuU8/TuPQY+ctCN+Jsy98qY+hLQk0ABBynAy5lR9VumPdn5KT/N4MQXrgeng4Q5AvdRJIEKhxsfGxXrbdCc/qW3kS+a+pEin20Z17h7lAju9nIu2gJQJ1cEFcQDx3jkm7V2xzU00Ut36gMTfMTsuiN4RKgXpB24TXps+UKc1tmeyCOLdfSgtNXrHUFnfO4mQPfZjFbeiMtp2mZFMUQ0RAoiYR+HskrEq+RTxqs1o9GxyW+dTqmEnz4BMw0MKZb0if6NDLEK5tO0QkSqY9KgbVSLs/GnAiNntvMCXmPqQq7bIALmVUVnEnshVENWudkbbhXHO2zS6ZPv3I70j0O6Ayxy8eumHPvrBpbEoQKdlGKMuI33l18lhXieZGQCsuScTIFNQQaI3czF0QZI/roAaYhWtMogS9HwSKah2qvVprw80AgG356lHzU2xch6PklzKzc0BRu8R72iAiZpEHNFG7S2AHQWjfV3k8geQa5Z/U7rZ9sQGDKW"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 418,
+              "endIndex": 689,
+              "uri": "https://www.qconcursos.com/questoes-de-concursos/questoes/ceb215ca-6d",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28711,
+      "candidatesTokenCount": 223,
+      "totalTokenCount": 30114,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28711
+        }
+      ],
+      "thoughtsTokenCount": 1180,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wXHSau-ZFIrr1sgPstaImAw"
+  },
+  "duracao_segundos": 11.246912899998279,
+  "usage_metadata": {
+    "promptTokenCount": 28711,
+    "candidatesTokenCount": 223,
+    "totalTokenCount": 30114,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28711
+      }
+    ],
+    "thoughtsTokenCount": 1180,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0336",
+    "tema_central_id": "5159",
+    "extras_ids": [
+      "5177"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a prática de subtração de coisa alheia móvel sem violência ou grave ameaça, exigindo a definição típica do crime de furto e a análise de sua consumação conforme a jurisprudência dos Tribunais Superiores.",
+    "evidencia": "Diogo, outro cliente que estava no estabelecimento, terminou o almoço, levantou-se de onde estava sentado e foi em direção ao caixa para efetuar o pagamento da conta. Nesse momento, Diogo percebeu a bolsa de Mariana aberta e, sorrateiramente, pegou o aparelho celular dela.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "309fd9a9ce6cfa9c302127f316cc3f9d1061103c853f6f6720cd9f75a236049c"
+}

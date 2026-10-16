@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0049",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:32:51.708954+00:00",
+  "sha256_prompt": "a26b7637c679077a585311aab2f058229e6dfe62cc6d794f18197866f6ad60bc",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ef2afecc6728e328a06f2e200dd0aebd9ae0179ef2a924c37ca8a2766a9e351c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0049\",\n  \"tema_central_id\": \"5152\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão aborda o crime de induzimento, instigação ou auxílio ao suicídio e automutilação, exigindo a análise jurídica da conduta de instigar ou induzir alguém ao suicídio e os requisitos legais de consumação e resultado.\",\n  \"evidencia\": \"se a vida perdeu a graça, de que vale viver? Seja homem ao menos uma vez! Coloque fim em seu sofrimento e pare de me infernizar! Eu até vou a seu enterro e faço uma homenagem póstuma!\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EokOCoYOAWkUfRMVvP/R/b4GBVDcHpuRotlu/y3ZaGazhfIleQwQ/9akXH+Ytu6b9aQ+PSrZHObGhY7Qzwn+OzchcY306a5QV5zIbm7xkW85U9Zy/46G3J0oKncHR697ju65G1VgxsxxhxtmPirl5nupZDUPazbbxxLuRpLZ2nIx8hBW55OFtMYzYKKaoR6jwnuVdWybK2eePYx+g9KTqheg2HMaBKnB2k/CaIrZ6OTcSBx6FhT5CE7zCWIcGapBUDoKs/e4wBztiOCxinJKUOtjNdeZrz45/CNwJOsXsqQuv8EYWwF/zIktSyn/qG+Mkj7x+KNymu/UTm6sZVSKYurryVFsxRVLnyf4ZN8D0j1ihB99kMa5F5vUmspG5tS4GVLMLkMOIJMTajOz60CqDQjOVnri5TrF//GfKdJ1WfQWfDdUZW0ELWHFJdn7XNq5uLb+aKkR1gI1OEXSJxtl6UgAH5FDTTovk6byMl3HnZ1D0UDsIkcDarP48d8WjRXZ3WCI3Cy/FgnY+u7xVctfUnchYDFrAhW1gYFTggawqiCTHfdeM7JV+rYPIyNKVY+kAQhWSqFFbgN+EBqQCzYHL716ZUSXHFksxA23Mkx/ucm4uq3xjIKa9TDLfLmU5jxTdbZtgo3zqATvoelS0YzQIh5hd6V/P7zv05HF4HaK1Vffa5e5jhJM7/gV6zDVtBzwr2fHtxp2sukxoXsxQRO+k/OeSR+Crl1Oz4q/sWd3ygcgv0wjXZ0+skusIuZyZlba5gfJ+mqSwcWnLyHLiguJ8LU4EyZ6wJIBJzAeWJFp0nxDHL0UpRwnC+zs/v/LwSsBN2rFM97t1M/KAj6uuhSDa4IrYr+893y78iNqv43uM7iPczKwlZW/6491WmudujELa5xaCzmxf7GGObbKW4KC/2clSn+poDfDwqwT6Fn0HEX1fQFcGqvyHW8juYs/u5dxz9lg6N6S/2qBOVdmOANMsfi4/rLZn79fpKuGpycnCGcSEvC0IcZoTR+VbOB8vDMZJdbsxWwD0FWVjlv88Bd8HQHiustUJl4vW3Q2ix2FtnW5bKcaCPm2ZW58+zAa/jb6W1GGpY19AojOv/03TxWrny4sGxJyzmARbdBnl56WFlvgWy+I5WSPGAEPx6dh6In+G5WcZ7SojNfusVNHC9JXQQfMAuARV+4GDpSderz7ke3aIeg3Zwy1T4JztELhJSxEtfx9D/q3rsDsWO5a8rypI8MGnvgNtPHoGzBNPj1bEgWe4jqRciDeEUN0nspp+w5Sf5paOOkvUciZFzeM8+BMuEWRiZ7AYc8u8tLil26ZUjEZv2ll6/ZVQbD/HMK+0PY1ivId0ceCtPn9P3B+66w4GONvUh4UM1bW2X2Ew4ahXj8+Uoi22o+4ihAMQayJmgOF4rXOeZYlmBWHsgpplQqFQ3o8NaS3b2aPyJrYVWDoZMx7ar/TmYV3b7ndqxCptz8wiVjJos1K0eDqrWgaJypOd6osElEgNlFhY+D2lHATXkuGDXC9dJdT+m7Vzr/V9iC2paYJxkx0JabRQ26TvacbFADjvjskyw1L75VRQv5y4SPD0G49YFpc+jaAUlSxGo1sU26P+eFt1iM2XMHKwKqfhns9hvNeA/Zq9MQ3Nnf2kOAd3ZmovsOM8O5mGWIAlxSWffLoW79scsuMWtw3HVQhfA8TducgXcAcb5c2UvXWmQ0FwYOLva8jUqM2/4Mc0Q+9mb1n0wWpQpnpfj+XoHF24iPjgizUwH4hVfStaQ2B4KfjdstbzLvwSpYAQJdUyfi4B7Vvs9tOmvVbCBGr3GYYvbm8SEUUSoZiiJPHQ/gdwSEgBR08RiADLU846W7Y86V1a5OBH0ZdoAp66MT4cmLZQoyOQzVSUrsIvnnePd47XwULBVJJjRpQ8cYLpMPOZ4KWIAMss0sC19dsLACm2TAJ/7BDDQmMiFwOEfndnw3dD8ubkVfA/9N30Oyff+gwcFLEhvGi/YStD2pmbWZunP40ZxTWtU2H7ElTqoLUBM88chHJyowToedDo9G81SayMEhVUS0GRi9IeIoBDuOB2dmlEjUni+lj+rMvHCRqQteVNlDkeiu9QbrFXb1G/5u96m/rPYVfCduodbao1jdHkMxpbriQ1m1bQWtsVmSX5QpQ248SDLrTuMYSCgtLq5y/O3+yorL8GcNweJTvrL0NhRJxwdvUaqgkuBRIUgf0wdm+F9Pq8eMHGrznw68e3MDqrMZoZgU1yeOfyOjQfGdgdgUx+mRfRNGdFqp56RhPfwvwtMoyKGfZM53cuTdUfNiLO6tAn3tbO4BvJdrSK1J1POEwuBb2WKHXd2GHFzp3Xa38NEszec4/fVCQWyO1+IQNXfEHgXnWt7eeRK3tRI2LozLVuUo9XzJ5Z7ViM/HlSg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28913,
+      "candidatesTokenCount": 199,
+      "totalTokenCount": 29616,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28913
+        }
+      ],
+      "thoughtsTokenCount": 504,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1G3SapzHHo36ytMP0tneiQw"
+  },
+  "duracao_segundos": 6.206479499996931,
+  "usage_metadata": {
+    "promptTokenCount": 28913,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 29616,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28913
+      }
+    ],
+    "thoughtsTokenCount": 504,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0049",
+    "tema_central_id": "5152",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão aborda o crime de induzimento, instigação ou auxílio ao suicídio e automutilação, exigindo a análise jurídica da conduta de instigar ou induzir alguém ao suicídio e os requisitos legais de consumação e resultado.",
+    "evidencia": "se a vida perdeu a graça, de que vale viver? Seja homem ao menos uma vez! Coloque fim em seu sofrimento e pare de me infernizar! Eu até vou a seu enterro e faço uma homenagem póstuma!",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d1e2e17df28078d94b6546ee5a6291d44798c96c5dfae20201213aedec724a99"
+}

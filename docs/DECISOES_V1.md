@@ -1,6 +1,6 @@
 # Decisões da versão 1
 
-O módulo 5A foi concluído em 16/10/2026 com **359 decisões: 78 `publicar`, 277 `revisar` e 4 `fora`**, sem pendências. A cobertura observada é 78/359, ou 21,73%. O [publicacao.csv da raiz](../publicacao.csv) é idêntico à versão congelada; a trilha e o manifesto estão em [artefatos/decisoes-v1](../artefatos/decisoes-v1/manifesto_decisoes.json). Este é o ponto de revisão e commit anterior ao módulo 5B.
+O módulo 5A foi concluído em 16/10/2026 com **359 decisões: 78 `publicar`, 277 `revisar` e 4 `fora`**, sem pendências. A cobertura observada é 78/359, ou 21,73%. O [CSV v1 congelado](../artefatos/decisoes-v1/publicacao.csv), a trilha e o manifesto em [artefatos/decisoes-v1](../artefatos/decisoes-v1/manifesto_decisoes.json) preservam esse ponto histórico anterior ao módulo 5B. Após o módulo 5C, o [CSV da raiz](../publicacao.csv) contém a v2, com Q0180 retida e as demais decisões preservadas; consulte [EXPERIMENTO_COBERTURA_V2.md](EXPERIMENTO_COBERTURA_V2.md).
 
 Esta etapa aplicou regras aos recibos já existentes e revisou separadamente os candidatos sem tema. Não mediu a precisão jurídica das 78 decisões `publicar`. As revisões são de IA, sem especialista jurídico, e não substituem os rótulos reservados pela organização.
 

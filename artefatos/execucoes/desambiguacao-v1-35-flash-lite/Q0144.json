@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0144",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:38:56.887624+00:00",
+  "sha256_prompt": "4a20b1810d562f53c915873ed47a72f2e2c7586100f7e173f97919861a0cc81c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5ac1735a74e7ba35e5b7cd9dd13247aea763dffdebc04060929fed8a517bfc82",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0144\",\n  \"tema_central_id\": \"5562\",\n  \"extras_ids\": [\n    \"5524\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o recurso cabível contra as decisões do Tribunal do Júri quando a sentença do juiz-presidente for contrária à lei expressa ou à decisão dos jurados, tema diretamente vinculado à apelação no processo penal.\",\n  \"evidencia\": \"quando a sentença do juiz-presidente no Tribunal do Júri for contrária à Lei expressa ou à decisão dos jurados, caberá:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28394,
+      "candidatesTokenCount": 190,
+      "totalTokenCount": 29610,
+      "cachedContentTokenCount": 26276,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28394
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26276
+        }
+      ],
+      "thoughtsTokenCount": 1026,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "QW_Sar7TKqLgytMP9cLoiA8"
+  },
+  "duracao_segundos": 6.960470000001806,
+  "usage_metadata": {
+    "promptTokenCount": 28394,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 29610,
+    "cachedContentTokenCount": 26276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28394
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26276
+      }
+    ],
+    "thoughtsTokenCount": 1026,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0144",
+    "tema_central_id": "5562",
+    "extras_ids": [
+      "5524"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o recurso cabível contra as decisões do Tribunal do Júri quando a sentença do juiz-presidente for contrária à lei expressa ou à decisão dos jurados, tema diretamente vinculado à apelação no processo penal.",
+    "evidencia": "quando a sentença do juiz-presidente no Tribunal do Júri for contrária à Lei expressa ou à decisão dos jurados, caberá:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "09e3606e5bb6b2d62b3145f4f8494df16925fd6340570cb21194b26caa33bcd7"
+}

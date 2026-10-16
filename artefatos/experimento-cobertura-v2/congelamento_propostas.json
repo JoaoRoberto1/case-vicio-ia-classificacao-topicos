@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "registrado_utc": "2026-10-16T18:50:41.879386+00:00",
+  "etapa": "propostas_congeladas_antes_da_leitura_das_referencias_pelo_coordenador",
+  "produtos_sha256": {
+    "propostas.jsonl": "34dbbc12c56a460dc87d09c23b0accf04c0de45b461a1e0cbec85c2d33ec9da0",
+    "manifesto_propostas.json": "6e6e1987c547d8e815008ac07cb8a3631240cb3eb5f6b20285876a0ac74d5f98"
+  },
+  "referencias_novas_consultadas_pelo_coordenador": false
+}

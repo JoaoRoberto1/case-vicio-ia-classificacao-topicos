@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "Q0253",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:43:21.709984+00:00",
+  "sha256_prompt": "2ecf5c11951b3f089624895789b832fbc68fabb47f0be3ded91b6318609f46c2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "fa53ee0f988b24b9563f3a6ba8345d2510a526131d21720bea24e8c09a91e0da",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0253",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T18:42:17.097803+00:00",
+      "sha256_prompt": "2ecf5c11951b3f089624895789b832fbc68fabb47f0be3ded91b6318609f46c2",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "fa53ee0f988b24b9563f3a6ba8345d2510a526131d21720bea24e8c09a91e0da",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.206803500001115,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "c7494c6b47f455092d8bb186a9674be6aaf94c4506171aac05ae1d3b34f360a9"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0253\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão exige o conhecimento direto sobre as Escolas Penais, suas premissas filosóficas e científicas e seus principais expoentes, o que corresponde exatamente ao estudo das escolas criminológicas.\",\n  \"evidencia\": \"No que concerne às Escolas Penais, é correto afirmar que a\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28540,
+      "candidatesTokenCount": 150,
+      "totalTokenCount": 29225,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28540
+        }
+      ],
+      "thoughtsTokenCount": 535,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "SnDSarusEZDfytMPwqTC-A4"
+  },
+  "duracao_segundos": 5.380086599998322,
+  "usage_metadata": {
+    "promptTokenCount": 28540,
+    "candidatesTokenCount": 150,
+    "totalTokenCount": 29225,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28540
+      }
+    ],
+    "thoughtsTokenCount": 535,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0253",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão exige o conhecimento direto sobre as Escolas Penais, suas premissas filosóficas e científicas e seus principais expoentes, o que corresponde exatamente ao estudo das escolas criminológicas.",
+    "evidencia": "No que concerne às Escolas Penais, é correto afirmar que a",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c40d1b001d4165a5b4a1b49803cfafc5c6ca72536a728317dd323148b3f3a57a"
+}

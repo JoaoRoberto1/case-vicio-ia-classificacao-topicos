@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0057",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:33:24.353737+00:00",
+  "sha256_prompt": "6511c7727191f196c18034e1c532c12afc09a1d625e0a3f9d440668d391602da",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a1fc9498f55f2f8888157b4c15e802ef2dc61913ca8e170f82dd167de0d7e1c7",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0057\",\n  \"tema_central_id\": \"5176\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o conceito de iter criminis e o conjunto de fases pelas quais o delito passa em seu desenvolvimento.\",\n  \"evidencia\": \"Por iter criminis compreende-se o conjunto de\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28390,
+      "candidatesTokenCount": 136,
+      "totalTokenCount": 29405,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28390
+        }
+      ],
+      "thoughtsTokenCount": 879,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9W3SasrTDbmF1sgPqoqX-A4"
+  },
+  "duracao_segundos": 8.934814500000357,
+  "usage_metadata": {
+    "promptTokenCount": 28390,
+    "candidatesTokenCount": 136,
+    "totalTokenCount": 29405,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28390
+      }
+    ],
+    "thoughtsTokenCount": 879,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0057",
+    "tema_central_id": "5176",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o conceito de iter criminis e o conjunto de fases pelas quais o delito passa em seu desenvolvimento.",
+    "evidencia": "Por iter criminis compreende-se o conjunto de",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3dc85a72083fd9722deed5ee1cbe075a2f0b3667f700163fe6f31e7968fd0730"
+}

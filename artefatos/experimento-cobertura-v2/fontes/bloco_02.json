@@ -1,0 +1,446 @@
+{
+  "data": "2026-10-16",
+  "data_hora_utc": "2026-10-16T18:32:12Z",
+  "bloco": "02",
+  "ids": [
+    "Q0161",
+    "Q0177",
+    "Q0194",
+    "Q0195",
+    "Q0198",
+    "Q0214",
+    "Q0220",
+    "Q0241",
+    "Q0244",
+    "Q0253",
+    "Q0273",
+    "Q0279",
+    "Q0293",
+    "Q0311",
+    "Q0318",
+    "Q0319",
+    "Q0322",
+    "Q0328",
+    "Q0336",
+    "Q0356"
+  ],
+  "tipo_referencia": "IA_sem_especialista",
+  "responsavel": "Codex - revisor cego 5C do bloco atribuído, sem especialista jurídico.",
+  "entradas_locais": [
+    {
+      "caminho": "prompts/revisao_desambiguacao_v1.txt",
+      "sha256": "ca7a1f5e035e50e713a818ace422ce13647e68135c29cd96f809beb26ee11965",
+      "leitura": "integral"
+    },
+    {
+      "caminho": "artefatos/experimento-cobertura-v2/entradas_cegas/bloco_02.jsonl",
+      "sha256": "309babfcbe5ee207acb1b53f5b5926799bf85f946eadb07ffce1a54cd623b970",
+      "leitura": "integral — enunciados, comandos e alternativas dos 20 registros"
+    },
+    {
+      "caminho": "artefatos/preparacao/temas_preparados.json",
+      "sha256": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+      "leitura": "integral — 377 nós, títulos, descrições, hierarquia e situação; saída repartida em intervalos 0–64, 65–129, 130–194, 195–259, 260–324 e 325–376"
+    }
+  ],
+  "metodo": "Leitura cega local limitada a protocolo, bloco e taxonomia. Pesquisa pública por conceitos, tipos legais, identificadores jurisprudenciais e títulos de obras originais. Sem consulta deliberada a enunciados de provas, gabaritos, classificadores, APIs Gemini ou outros agentes. Títulos, descrições e hierarquia foram usados; contagens históricas não foram tratadas como limites jurídicos.",
+  "fontes_por_questao": [
+    {
+      "id": "Q0161",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941",
+          "artigo_ou_localizacao": "Art. 310, I (incluído em 2011)",
+          "relacao_com_classificacao": "Identifica a providência de relaxamento como objeto do controle da prisão.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=280",
+          "titulo": "STF — Tema 280, RE 603616",
+          "artigo_ou_localizacao": "Tese sobre ingresso domiciliar sem mandado; trânsito em 2016",
+          "relacao_com_classificacao": "Confirma a necessidade de razões concretas para o ingresso que fundamenta o controle de legalidade.",
+          "acesso": "Conteúdo oficial recuperado no resultado de pesquisa conceitual."
+        }
+      ],
+      "incertezas": "A data da prova não foi informada. A classificação usa o art. 310, I, e o Tema 280, sem projetar regras posteriores sobre o formato da audiência. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0177",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941",
+          "artigo_ou_localizacao": "Arts. 185, § 5º, e 186",
+          "relacao_com_classificacao": "Situa entrevista reservada e silêncio no regime do interrogatório judicial.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "A alternativa sobre exame grafotécnico expande o alcance para a não autoincriminação. A expressão direito de mentir e os efeitos da falta de advertência exigem ressalvas jurídicas que não alteram o centro temático. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0194",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Arts. 29, 30 e 312",
+          "relacao_com_classificacao": "Permite distinguir a comunicação da elementar funcional do simples reconhecimento do tipo.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "A descrição de subtração de bem sob guarda mistura linguagem de furto e apropriação, mas a comunicação da qualidade funcional permanece o ponto discriminante. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0195",
+      "fontes": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/477/pg477-images.html",
+          "titulo": "Enrico Ferri — Criminal Sociology",
+          "artigo_ou_localizacao": "Introduction: The Positive School of Criminal Law",
+          "relacao_com_classificacao": "Obra original da escola positiva, contrastando método experimental e abstração jurídica clássica.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "Ferri foi consultado como fonte original da escola positiva, com sua perspectiva histórica própria; ela não substitui uma revisão contemporânea de todas as correntes citadas. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0198",
+      "fontes": [
+        {
+          "url": "https://rej.uchile.cl/index.php/RECEJ/article/view/15081",
+          "titulo": "Claus Roxin — El dominio de organización como forma independiente de autoría mediata",
+          "artigo_ou_localizacao": "Revista de Estudios de la Justicia, n. 7, 2006, pp. 11–22; DOI 10.5354/rej.v0i7.15081",
+          "relacao_com_classificacao": "O registro do próprio artigo identifica o domínio de organização como modalidade de autoria mediata.",
+          "acesso": "Metadados editoriais recuperados na busca; o acesso direto retornou página curta sem o artigo integral."
+        }
+      ],
+      "incertezas": "O registro editorial primário de Roxin foi localizado, mas o texto integral não foi acessível no editor. Houve exposição incidental a um resultado de busca que repetia parte do enunciado; a página não foi aberta nem usada. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0214",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941",
+          "artigo_ou_localizacao": "Arts. 95, III e V, 110 e 111",
+          "relacao_com_classificacao": "Localiza as exceções e seu processamento, distinguindo duplicidade pendente de coisa julgada.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "O recorte é a duplicidade processual, sem discussão sobre a configuração da corrupção passiva usada como contexto. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0220",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941",
+          "artigo_ou_localizacao": "Art. 28 e § 1º",
+          "relacao_com_classificacao": "Identifica o procedimento de revisão de arquivamento.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://normas.leg.br/?urn=urn%3Alex%3Abr%3Asupremo.tribunal.federal%3Aacordao%3Badi%3A2023-08-24%3B6298%402023-08-24",
+          "titulo": "STF — Acórdão da ADI 6.298 de 24/08/2023, reprodução oficial Normas.leg.br",
+          "artigo_ou_localizacao": "Dispositivo, itens 20 e 21",
+          "relacao_com_classificacao": "Confirma que o ponto controvertido é a revisão de arquivamento do art. 28.",
+          "acesso": "Dispositivo recuperado pelo índice de busca oficial; página direta depende de aplicação e retornou uma linha."
+        },
+        {
+          "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=512814&ori=1.",
+          "titulo": "STF — regras fixadas no julgamento do juiz das garantias",
+          "artigo_ou_localizacao": "Seções Arquivamento e Revisão",
+          "relacao_com_classificacao": "Relato institucional do próprio tribunal corrobora o objeto específico do precedente.",
+          "acesso": "Conteúdo oficial recuperado no resultado de pesquisa."
+        }
+      ],
+      "incertezas": "A fonte oficial localizada é o julgamento de 24/08/2023 das ADIs do juiz das garantias. Não foi atribuída à questão data de prova não fornecida; o inteiro teor não ficou diretamente acessível pelo portal processual. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0241",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Arts. 20, 21, 73 e 74",
+          "relacao_com_classificacao": "Permite situar o contraste entre erro sobre elemento, ilicitude e desvios na execução.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "As expressões natureza criminosa e não exclui a tipicidade são simplificadas e podem gerar discussão sobre as proposições. A referência é temática, sem confirmação da sequência de respostas. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0244",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Art. 316, caput; confronto com art. 317",
+          "relacao_com_classificacao": "Localiza a descrição típica exigida no comando.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "Não há discussão de dosimetria ou da alteração da pena da concussão, de modo que a data omitida não impede a identificação temática. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0253",
+      "fontes": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/477/pg477-images.html",
+          "titulo": "Enrico Ferri — Criminal Sociology",
+          "artigo_ou_localizacao": "Introduction: The Positive School of Criminal Law",
+          "relacao_com_classificacao": "Obra original da escola positiva, contrastando método experimental e abstração jurídica clássica.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://www.gutenberg.org/cache/epub/10580/pg10580-images.html",
+          "titulo": "Enrico Ferri — The Positive School of Criminology",
+          "artigo_ou_localizacao": "Conferências I e II, pronunciadas em 1901",
+          "relacao_com_classificacao": "Fonte original para a oposição histórica entre escola clássica e positiva.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "A nomenclatura da taxonomia tem a grafia Crimonológicas; foi preservado o ID correspondente. A fonte de Ferri é original e situada historicamente, não uma avaliação neutra das escolas. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0273",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Art. 312, § 2º; art. 18, parágrafo único",
+          "relacao_com_classificacao": "Confirma a modalidade culposa específica e a necessidade de previsão expressa.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "O enquadramento pressupõe a leitura conjunta das alternativas. A ausência de um filho exclusivo para peculato culposo não exige abandonar o nó específico de peculato. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0279",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Arts. 109, 115 e 117, I; art. 155",
+          "relacao_com_classificacao": "Situam a análise prescricional antes do recebimento da denúncia e a redução etária. A página atual do art. 155 contém mudança de 2026; ela não foi aplicada ao cenário histórico implícito.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "Não há ano do fato ou da prova. O enquadramento considera a pena histórica do furto simples e a redução etária; alterações posteriores não foram usadas para reconstruir o caso. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0293",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Arts. 109, parágrafo único, 110, 112–114 e 117, V",
+          "relacao_com_classificacao": "Organizam a prescrição após a condenação, com pena substitutiva e multa.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/MON?dt=20181105&formato=PDF&nreg=201801553152&salvar=false&seq=89338654&tipo=0",
+          "titulo": "STJ — REsp 1.751.177/MS, decisão publicada em 05/11/2018",
+          "artigo_ou_localizacao": "Ementa e pp. 3–4",
+          "relacao_com_classificacao": "Confirma o caráter executório da controvérsia e documenta restrição ao uso do saldo de pena na conversão.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&b=INFJ&i=50&l=25&livre=113&p=true&refinar=S.DISP.&t=JURIDICO",
+          "titulo": "STJ — Informativo 500, junho de 2012",
+          "artigo_ou_localizacao": "HC 232.764/RS, julgamento de 25/06/2012; seção sobre abandono de pena restritiva",
+          "relacao_com_classificacao": "Registra orientação anterior sobre saldo remanescente, razão para explicitar a limitação temporal.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=202304002790",
+          "titulo": "STJ — acórdão, registro 2023/0400279-0",
+          "artigo_ou_localizacao": "Trecho sobre audiência admonitória e efetivo início da prestação de serviços",
+          "relacao_com_classificacao": "Confirma que o evento de efetivo cumprimento, em contraste com audiência, é um parâmetro da prescrição executória.",
+          "acesso": "Trecho recuperado pelo resultado de pesquisa; sem afirmar revisão integral."
+        }
+      ],
+      "incertezas": "As datas são fornecidas apenas por ano. Foram encontrados entendimentos de épocas distintas sobre saldo de pena restritiva; a referência identifica o tema sem certificar o cálculo ou a alternativa correta. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0311",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941",
+          "artigo_ou_localizacao": "Arts. 361, 362, 363 e 366",
+          "relacao_com_classificacao": "Define modalidades de citação e consequências da ausência do acusado.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "Não localizar em um endereço não esclarece o esgotamento das diligências. A suspensão pelo art. 366 também pressupõe ausência de comparecimento e de advogado constituído; a simplificação das alternativas não altera o tema. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0318",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Arts. 13–16 e 65, III, b",
+          "relacao_com_classificacao": "Localiza desistência, impedimento do resultado e esforço de redução das consequências.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "A narrativa contém uma oscilação entre disparo único e disparos. A tipificação final depende dos efeitos do art. 15; a eventual atenuante é consequência incidental, não um segundo tema central. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0319",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Art. 29",
+          "relacao_com_classificacao": "Base legal do concurso de pessoas, sem resolver isoladamente a nomenclatura doutrinária.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://www.stj.jus.br/publicacaoinstitucional/index.php/mstjtse/author/proofGalleyFile/3366/3491",
+          "titulo": "STJ — publicação institucional, seção Crimes Eleitorais",
+          "artigo_ou_localizacao": "p. 283, distinção entre crimes de mão própria e participação",
+          "relacao_com_classificacao": "Trecho de decisão que relaciona execução pessoal e limites da coautoria.",
+          "acesso": "Trecho recuperado pela pesquisa; título específico do acórdão não foi recuperado."
+        },
+        {
+          "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&fr=veja&i=1&livre=%28%27RHC%27+INPATH%28CLAP%29+AND+%273046%27+INPATH%28NUM%29%29+OR+%28%28%27RHC+3046%27%29+INPATH%28SUCE%29%29&thesaurus=JURIDICO",
+          "titulo": "STJ — RHC 3.046/SP",
+          "artigo_ou_localizacao": "Ementa; julgamento 05/04/1994, publicação 14/04/1997",
+          "relacao_com_classificacao": "Documenta emprego histórico de coautoria em discussão sobre intervenção no falso testemunho, aconselhando ressalva terminológica.",
+          "acesso": "Ementa oficial recuperada na pesquisa, sem consulta a resposta de prova."
+        }
+      ],
+      "incertezas": "O enunciado traz itens I–III que não se articulam claramente com as alternativas. Fontes judiciais usam terminologia variável entre coautoria e participação em crimes de mão própria; não se confirma uma resposta de mérito, embora o objeto temático seja identificável. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0322",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm",
+          "titulo": "Lei 13.869/2019 — Abuso de Autoridade",
+          "artigo_ou_localizacao": "Art. 12, caput e pena",
+          "relacao_com_classificacao": "Determina a pena máxima necessária para identificar o regime recursal aplicável.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+          "titulo": "Lei 9.099/1995 — Juizados Especiais",
+          "artigo_ou_localizacao": "Arts. 61 e 82, caput e § 1º",
+          "relacao_com_classificacao": "Estabelece o enquadramento como menor potencial ofensivo e a apelação própria do Juizado.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "O enunciado não nomeia o Juizado nem informa eventual exceção de competência. Adota-se o caso ordinário de infração de menor potencial ofensivo, sustentado pela descrição típica e pelas alternativas de prazo. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0328",
+      "fontes": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/477/pg477-images.html",
+          "titulo": "Enrico Ferri — Criminal Sociology",
+          "artigo_ou_localizacao": "Introdução; contraste entre investigação empírica e construção legal",
+          "relacao_com_classificacao": "Apoio histórico limitado para distinguir função científica de formulação normativa; não valida sozinho a divisão doutrinária contemporânea.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        },
+        {
+          "url": "https://revistajuridica.presidencia.gov.br/index.php/saj/article/view/158",
+          "titulo": "Camilla de Magalhães Gomes — Relações entre o Direito Penal e o Processo Penal",
+          "artigo_ou_localizacao": "Resumo autoral; Revista Jurídica da Presidência; DOI 10.20499/2236-3645.RJP2012v13e101-158",
+          "relacao_com_classificacao": "Trabalho original que situa a relação entre criminologia, política criminal e saberes jurídicos, sem comprovação integral da assertiva.",
+          "acesso": "Somente resumo e metadados recuperados por pesquisa; acesso direto retornou erro interno."
+        }
+      ],
+      "incertezas": "A divisão funcional entre os saberes possui formulações doutrinárias variadas. A fonte histórica consultada sustenta apenas o contraste entre investigação empírica e formulação legal; não foi localizada fonte primária acessível para validar toda a formulação contemporânea. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0336",
+      "fontes": [
+        {
+          "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=934&cod_tema_inicial=934&novaConsulta=true&tipo_pesquisa=T",
+          "titulo": "STJ — Tema Repetitivo 934",
+          "artigo_ou_localizacao": "REsp 1.524.450/RJ; tese; julgamento 14/10/2015",
+          "relacao_com_classificacao": "Identifica a controvérsia sobre consumação do furto apesar de recuperação ou perseguição imediata.",
+          "acesso": "Tese e metadados oficiais recuperados na pesquisa."
+        }
+      ],
+      "incertezas": "O fato é situado em 2022. Foi usado o Tema 934/STJ, julgado em 2015, já anterior ao caso; não se inferiram qualificadoras ausentes. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0356",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940",
+          "artigo_ou_localizacao": "Arts. 69, 70 e 72",
+          "relacao_com_classificacao": "Confirma os três subobjetos comparados: concurso material, formal e multas.",
+          "acesso": "Texto público consultado em 2026-10-16."
+        }
+      ],
+      "incertezas": "A escolha do pai decorre da abrangência semântica do item, não de falta de tema específico na árvore. Não se acrescentam automaticamente os filhos para ampliar aceitação. Ausência de revisão jurídica especializada."
+    }
+  ],
+  "incertezas_gerais": [
+    "Todas as referências são provisórias de IA, sem especialista jurídico, e não certificam respostas corretas.",
+    "A maioria das questões não informa data de prova. Não foram aplicadas retroativamente mudanças posteriores; a classificação visa o objeto jurídico efetivamente cobrado.",
+    "Algumas consultas ao Planalto retornaram caracteres de acentuação degradados, mas artigos e conteúdo relevante estavam legíveis.",
+    "A primeira saída local teve codificação inadequada e a leitura conjunta foi truncada; os textos foram relidos explicitamente em UTF-8 e em blocos menores antes do julgamento.",
+    "O enunciado de uma questão contém itens desarticulados das alternativas. A ressalva específica consta do respectivo registro.",
+    "Foram localizados entendimentos jurisprudenciais de diferentes épocas em matéria de execução; isso foi registrado sem convertê-los em gabarito."
+  ],
+  "falhas_de_acesso": [
+    {
+      "url": "https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ADI&numeroProcesso=6298",
+      "resultado": "Erro interno no acesso direto; utilizado dispositivo em índice oficial e notícia do próprio STF."
+    },
+    {
+      "url": "https://rej.uchile.cl/index.php/RECEJ/article/view/15081",
+      "resultado": "Acesso direto retornou página curta sem conteúdo; metadados do artigo original obtidos no resultado de busca."
+    },
+    {
+      "url": "https://rej.uchile.cl/index.php/RECEJ/article/view/15081/15499",
+      "resultado": "Tentativa de caminho de visualização inferido durante procura pelo PDF; retornou página curta, não utilizada como fonte."
+    },
+    {
+      "url": "https://repositorio.utmachala.edu.ec/bitstreams/890efc45-377d-4511-aaef-5b112feec214/download",
+      "resultado": "Espelho identificado em pesquisa; acesso direto retornou erro interno; nenhum texto integral utilizado."
+    },
+    {
+      "url": "https://revistajuridica.presidencia.gov.br/index.php/saj/article/view/158",
+      "resultado": "Erro interno no acesso direto; resumo autoral obtido no resultado de busca."
+    }
+  ],
+  "exposicoes_incidentais": [
+    {
+      "consulta": "Claus Roxin \"El dominio de organización como forma independiente\" pdf",
+      "url": "https://www.passeidireto.com/arquivo/51871872/fcc-juiz-substituto-tjsc-2017",
+      "descricao": "Resultado não solicitado de material de concurso reproduziu trecho inicial de uma questão do bloco e referência bibliográfica. Nenhuma alternativa correta ou gabarito apareceu no trecho exibido. A página não foi aberta, procurada deliberadamente ou utilizada para o julgamento."
+    },
+    {
+      "descricao": "Pesquisas gerais também exibiram resultados secundários como Wikipédia e agregadores. Eles não foram usados como fundamento; as fontes efetivamente empregadas estão individualizadas acima."
+    }
+  ],
+  "declaracao_nao_consulta_sugestoes": "Não consultei sugestões dos classificadores, propostas, publicacao.csv, configurações, recibos, trilhas, referências anteriores, avaliações, README, .env ou respostas de outros agentes. Nenhuma API de classificação foi executada. Não houve consulta deliberada a gabaritos. A única exposição incidental a material de prova está declarada.",
+  "validacao": {
+    "quantidade_questoes": 20,
+    "quantidade_nos_taxonomia": 377,
+    "exatamente_oito_campos": true,
+    "ids_mesma_ordem": true,
+    "sem_duplicatas": true,
+    "ids_temas_strings": true,
+    "apenas_temas_ativos_e_nao_raizes": true,
+    "justificativa_semantica_pais": true,
+    "hashes_entradas_reconferidos": true,
+    "distribuicao_niveis": {
+      "2": 19,
+      "1": 1
+    },
+    "relacoes_pai_filho_validas": true,
+    "utf8_sem_bom": true
+  },
+  "arquivo_referencia": "artefatos/experimento-cobertura-v2/referencias/bloco_02.jsonl",
+  "sha256_referencia": "16e37dcc30e471b6be961fcf31c6fcb6c0963f88a2726d90b84b3fdd02ad6b11"
+}

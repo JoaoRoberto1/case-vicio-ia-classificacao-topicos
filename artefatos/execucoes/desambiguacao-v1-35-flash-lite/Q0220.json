@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0220",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:41:21.982401+00:00",
+  "sha256_prompt": "d6c3a5e628456bc52461f5c7a725285e33561ff1be13e221dc4e8e0a0b064435",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8859a0744e2f689e0c8277a1d387d6c1faec7d66ceee10e840b87bda3411b5b3",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0220\",\n  \"tema_central_id\": \"5501\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as regras de conclusão e arquivamento do inquérito policial, com foco no precedente do STF em controle concentrado de constitucionalidade acerca da revisão da decisão de arquivamento.\",\n  \"evidencia\": \"Em caso de discordância do arquivamento do inquérito\\npolicial\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28704,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29502,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28704
+        }
+      ],
+      "thoughtsTokenCount": 638,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0m_SarKFMeWA1sgPh8PZkAw"
+  },
+  "duracao_segundos": 6.067584000000352,
+  "usage_metadata": {
+    "promptTokenCount": 28704,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29502,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28704
+      }
+    ],
+    "thoughtsTokenCount": 638,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0220",
+    "tema_central_id": "5501",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as regras de conclusão e arquivamento do inquérito policial, com foco no precedente do STF em controle concentrado de constitucionalidade acerca da revisão da decisão de arquivamento.",
+    "evidencia": "Em caso de discordância do arquivamento do inquérito\npolicial",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "645ad5932d8fd0f73558dc77009c4d215f99aeaa218e0e04cabc4cb8c1b6a527"
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "Q0319",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:47:05.126293+00:00",
+  "sha256_prompt": "fc27b9b226098b9642729b3699c133f1d5ad8da3b7a1cac71cd485bb4a45accf",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8938a0ab461aa0c2d4a0c47eac610d14ebffb2fbd8d6da6f922ae4f75affa409",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0319",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T18:46:31.537941+00:00",
+      "sha256_prompt": "fc27b9b226098b9642729b3699c133f1d5ad8da3b7a1cac71cd485bb4a45accf",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "8938a0ab461aa0c2d4a0c47eac610d14ebffb2fbd8d6da6f922ae4f75affa409",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.607511700000032,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "c28dc315d378dc1b074ae6cb41d0708cf567f9bec40dda54986953980c4a6ea7"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0319\",\n  \"tema_central_id\": \"5071\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o conceito e as restrições da coautoria, tema central inserido no estudo do concurso de pessoas no direito penal.\",\n  \"evidencia\": \"A co-autoria é impossível nos crimes:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28412,
+      "candidatesTokenCount": 140,
+      "totalTokenCount": 29741,
+      "cachedContentTokenCount": 26276,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28412
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26276
+        }
+      ],
+      "thoughtsTokenCount": 1189,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "KXHSauyeO6KNytMPt5y2-Q4"
+  },
+  "duracao_segundos": 20.153476800001954,
+  "usage_metadata": {
+    "promptTokenCount": 28412,
+    "candidatesTokenCount": 140,
+    "totalTokenCount": 29741,
+    "cachedContentTokenCount": 26276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28412
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26276
+      }
+    ],
+    "thoughtsTokenCount": 1189,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0319",
+    "tema_central_id": "5071",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o conceito e as restrições da coautoria, tema central inserido no estudo do concurso de pessoas no direito penal.",
+    "evidencia": "A co-autoria é impossível nos crimes:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c97dad1dacef54183908a66277517b9a2af73336e59796877c0ea95e04ff3626"
+}

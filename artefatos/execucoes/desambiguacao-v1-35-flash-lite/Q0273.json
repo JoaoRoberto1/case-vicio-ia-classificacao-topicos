@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0273",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:43:37.133807+00:00",
+  "sha256_prompt": "cd185fb6b0237c30e7f1565a9463dbacf4e8ab12ee675d88a25429f51a606d81",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8c8ae12df323a5d808d2529b1d5b64f6257f990b4b1a6d73ef6e5e80bcc903b4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0273\",\n  \"tema_central_id\": \"5089\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão cobra o conhecimento sobre os crimes praticados por funcionário público contra a administração em geral, especificamente a identificação do peculato como o único delito entre as alternativas que possui previsão legal na modalidade culposa.\",\n  \"evidencia\": \"É punido na modalidade culposa o crime de\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28402,
+      "candidatesTokenCount": 157,
+      "totalTokenCount": 29603,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28402
+        }
+      ],
+      "thoughtsTokenCount": 1044,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WnDSauPuA7fiytMP4cre8Q4"
+  },
+  "duracao_segundos": 7.0435166000024765,
+  "usage_metadata": {
+    "promptTokenCount": 28402,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 29603,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28402
+      }
+    ],
+    "thoughtsTokenCount": 1044,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0273",
+    "tema_central_id": "5089",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão cobra o conhecimento sobre os crimes praticados por funcionário público contra a administração em geral, especificamente a identificação do peculato como o único delito entre as alternativas que possui previsão legal na modalidade culposa.",
+    "evidencia": "É punido na modalidade culposa o crime de",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "5daac611c650186bf6e03d5caf82c96e7e86543d66550d67a051fd58b3a9c752"
+}

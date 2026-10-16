@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0107",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:36:20.215622+00:00",
+  "sha256_prompt": "ab0c8ad155b67c11f72085d726b029dd39c5d1ee33922ad291ec9313ebe2a03d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e265c3fb8f34b78e95eb33f137849b36423e9aa71b2649bdbec60f72f5d427bf",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0107\",\n  \"tema_central_id\": \"5119\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a tipicidade da conduta de atribuir-se falsa identidade perante a autoridade policial, matéria enquadrada nos crimes contra a fé pública sob o delito de falsa identidade.\",\n  \"evidencia\": \"atribui a si a identidade de outrem, perante o delegado, é típica e configura o crime de falsa identidade.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28393,
+      "candidatesTokenCount": 166,
+      "totalTokenCount": 30294,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28393
+        }
+      ],
+      "thoughtsTokenCount": 1735,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "pW7SavucG6DnytMPwcjV6A4"
+  },
+  "duracao_segundos": 9.713968099997146,
+  "usage_metadata": {
+    "promptTokenCount": 28393,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 30294,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28393
+      }
+    ],
+    "thoughtsTokenCount": 1735,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0107",
+    "tema_central_id": "5119",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a tipicidade da conduta de atribuir-se falsa identidade perante a autoridade policial, matéria enquadrada nos crimes contra a fé pública sob o delito de falsa identidade.",
+    "evidencia": "atribui a si a identidade de outrem, perante o delegado, é típica e configura o crime de falsa identidade.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f34ed481217f92b56a9378a1ec6d79961b4146de8f8cde63729cd610a24b9f4a"
+}

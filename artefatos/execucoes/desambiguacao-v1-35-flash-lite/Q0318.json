@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "Q0318",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:46:03.881152+00:00",
+  "sha256_prompt": "d09903187bdf8e903a0af3763399e26923f7d6c30951f834eece2cf81a123861",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f3254dda2053c6b2c8a120e22b1c0c988b752989f94bee9e1aed3636e4257d73",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0318",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T18:45:31.101721+00:00",
+      "sha256_prompt": "d09903187bdf8e903a0af3763399e26923f7d6c30951f834eece2cf81a123861",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "f3254dda2053c6b2c8a120e22b1c0c988b752989f94bee9e1aed3636e4257d73",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.332099700000981,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "9e304244cc157ca537b9348f53caed9099a64c468ad6168b477a8b17e8833f1d"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0318\",\n  \"tema_central_id\": \"5178\",\n  \"extras_ids\": [\n    \"5177\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os institutos da desistência voluntária, arrependimento eficaz e arrependimento posterior, exigindo distinguir a aplicação desses institutos da ocorrência do crime consumado quando o resultado morte sobrevive à conduta de tentativa e posterior socorro.\",\n  \"evidencia\": \"O caso narrado configura desistência voluntária, uma vez que Lúcio interrompeu voluntariamente a execução do homicídio quando ainda dispunha de meios para prosseguir\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28782,
+      "candidatesTokenCount": 199,
+      "totalTokenCount": 30319,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28782
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1338,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "7HDSao-3K6KoytMPjf2giQ8"
+  },
+  "duracao_segundos": 17.612939700000425,
+  "usage_metadata": {
+    "promptTokenCount": 28782,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 30319,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28782
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1338,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0318",
+    "tema_central_id": "5178",
+    "extras_ids": [
+      "5177"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os institutos da desistência voluntária, arrependimento eficaz e arrependimento posterior, exigindo distinguir a aplicação desses institutos da ocorrência do crime consumado quando o resultado morte sobrevive à conduta de tentativa e posterior socorro.",
+    "evidencia": "O caso narrado configura desistência voluntária, uma vez que Lúcio interrompeu voluntariamente a execução do homicídio quando ainda dispunha de meios para prosseguir",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e033ad9c212fb15e81374ee1140c0ced04f9b13eb15426e0a2f19a64f4a1409d"
+}

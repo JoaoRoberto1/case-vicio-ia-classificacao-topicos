@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0076",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:34:20.759322+00:00",
+  "sha256_prompt": "deeb08c55fc4e68afbe040ff15f4fb0940d562ba080117dd7f46f1e8c36865cb",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0539d31ea78530c69d7d49ac180ab437738cba8bf0cc94519939bb2ccfc7717e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0076\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão cobra o conhecimento sobre os fundadores da Escola Positiva da Criminologia, inserindo-se diretamente no estudo das escolas criminológicas.\",\n  \"evidencia\": \"Os autores que fundaram a Criminologia (Positivista) são:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28468,
+      "candidatesTokenCount": 145,
+      "totalTokenCount": 29878,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28468
+        }
+      ],
+      "thoughtsTokenCount": 1265,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "LW7SaprrIubgytMP4JCOmAw"
+  },
+  "duracao_segundos": 8.639949100001104,
+  "usage_metadata": {
+    "promptTokenCount": 28468,
+    "candidatesTokenCount": 145,
+    "totalTokenCount": 29878,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28468
+      }
+    ],
+    "thoughtsTokenCount": 1265,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0076",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão cobra o conhecimento sobre os fundadores da Escola Positiva da Criminologia, inserindo-se diretamente no estudo das escolas criminológicas.",
+    "evidencia": "Os autores que fundaram a Criminologia (Positivista) são:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8ac4e2ef2718b7c8828d867ace074cea870268cfb616a2b43dd2e85e85a0d415"
+}

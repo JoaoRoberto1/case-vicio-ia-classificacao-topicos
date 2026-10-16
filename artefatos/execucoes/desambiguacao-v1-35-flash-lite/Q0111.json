@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0111",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:36:40.064299+00:00",
+  "sha256_prompt": "e2e49e16339737ac996135590e7d72bc877d29bdf124484fc017680bc0b88a14",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "02f8e97419f3ab1978f6e7c8074eb2a2241364e920f9b0a69ba5ede4d56fdbb0",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0111\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as características, autores e o contexto histórico e a recepção da Escola Positivista da Criminologia, encaixando-se diretamente no tema de escolas criminológicas.\",\n  \"evidencia\": \"Sobre a escola positivista da criminologia, é correto afirmar:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28530,
+      "candidatesTokenCount": 151,
+      "totalTokenCount": 29578,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28530
+        }
+      ],
+      "thoughtsTokenCount": 897,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "uW7Saqi3JPjBqtsPmvjT0AI"
+  },
+  "duracao_segundos": 8.51486169999771,
+  "usage_metadata": {
+    "promptTokenCount": 28530,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 29578,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28530
+      }
+    ],
+    "thoughtsTokenCount": 897,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0111",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as características, autores e o contexto histórico e a recepção da Escola Positivista da Criminologia, encaixando-se diretamente no tema de escolas criminológicas.",
+    "evidencia": "Sobre a escola positivista da criminologia, é correto afirmar:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8c9a1aa7c250481748a0423e60b6a04b3810c09368f6b0b243418597f484332c"
+}

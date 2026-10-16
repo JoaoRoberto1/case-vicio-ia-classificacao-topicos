@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0066",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:33:43.364759+00:00",
+  "sha256_prompt": "1bb8a8c73e0f62ebdc79ab12ea76f00ce5e6e0d10b64c982d8def82f5011c08c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "94147c0b5801b346544addff90ffce02e8a4b122751f96b1c8485c9fdeab53fb",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0066\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as características fundamentais do positivismo criminológico, seu método empírico-indutivo e sua oposição ao livre-arbítrio da Escola Clássica, inserindo-se no estudo das Escolas Criminológicas.\",\n  \"evidencia\": \"O positivismo criminológico\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EpoVCpcVAWkUfROBftdkDrwxeW15p5lQzqNbLloUBkQOLYmeetQ1OlCMpi5emAI5ByMEoHKCjk6oMi1Z/qqmynBfZOfAmmluaonpjvgSDigev6o2bLEX3+z7NKQz+4dg+LAg7puXpgmddlRB5eGvjPgxNhkLWo1NFPLdKYZT8oN1rmc5Q68LjtuhBIr19b4rx69qKc01+8mZXYKhrlvfFQl09XxF/HFVyObuMIrW7avCXQxhxW22CukdIoQTpNr7HrfI66IFI57QTxxDpJznbAco0rNIpLeWJLrel0vglJ0v1F69NYBN8JqRYwHuz/oKTVP3Pzi+HN5iFSeGnfPyeUQhi65YTPF02ion6Uqs/dhX+C/VEiFx2fGukM8NbMq14vmR40ILCQH7TH5z/mkBPilOtGxP1wuhNr6NRSTGBMF1QYgcmopZ65UPgfuKnFPexTH5D4b/FBbEfJBqSLGWs1uSxoe7/2dmZWPdv48EYLJ729E6FRnMQNWSsE0f94BxQZscozgmpur3u8sWMESHna9Frw7O5VJfocKHZyJUdLNxdzqhQcu/SyBE4YEQVQif1Dpkk3TWXKNFcaa6e0MVLS8CWRnn4mH3E/OvMi8hhpLd/Pvv3wtfGZMrG61erPNDbw+RcOCCre3/DZd/wrfZIz5XvtQ2zUTjtagutYFJgf6NsGoAMbuoixOaI48lQbPQWgpx4lCr4Mf4/uaNoKIY0ZFXhXOHJPKb/dE+LDn9Q0lfUb+hIdqDTtwBjgjqqb7qtyFUtCGtDImEM9y8/RM3k7DLpKf9BBB+oLBnvlk5d3oiIlZcLPqc7UNukZzxG+Jl7lKFrjCRaij1DcQjODb+SASTj7MvEsHWM3mksV3SsjDcG5WM6fASwD5gTJcbSLlcf9jVyvC4k0tOqjM6KtL14ASdhHXw/EPyBrGhrif743yVTjIDKpqLu0O/RAOAa4nemhzX+q2U6nLDyVBHMA9RGBjtUyA35Psruej495NlsTWMpF8UInmpmvc8rtxd5zfuRvR+cIsN4u2EX8AO+eoW2QdvxvWoEFWNdeX5hdzwfA0JIdDDVY+73pcHo7lSxzN3iXBQX87JTVNhS5wiNii5c5kpH4eSNlDqXVq+CMtTW9JLguDnEdP82ixgC/mAPrxGUniwxDSZvPvsb9KtQaznIaVevGheAtpaea9QOLKIJcvt/EbCPXb87HkQ75cmkVw72VvpJMEBrogG7g8tVZl5pFU/FbSnKiIxV1IK7hh8Wwuh1Ay76wFzOQDQsUrhSFwIk7AupxWrpxVVX1UoYUREUM0NSv43131Dg1P9ATWb0sal7t44nmLc/c8HijDkeqk7HPX9wh3wpTqMPms+IsmU0f0QAT117uNE6mBsLVGrxb5BUoO1pnh/jfdtA83FGMLfgb03v5jPhVBrkmfaSYGeG/Io8nmohXU4Q6nuL7bo92nkNTZg+l9Z6r0qw0pY5R+9IF4SJzTinLXcNHhEbUGaqWKeknFzezJOcmb3J1Jf6LXNRzp7CQbeyFvHpiLKYAKq+AGEYRor9LUerhhFSuNA7WpcmohnL7kyOsGq/vKS5rHDZAdqGi7IKN2aAmJe/OwPscGoScUXERWUMU0Cuah9FVPUPzwxRCsdOhGGABNQPF5SeTuJUDeBma8McViG7+w1jwtBjNfDu46B0or5lqONaj0SCiQzjTGKoKQxgazffuJNlHGq/Dq1iZxc/xYYaYXZXVJneioO5cdu1f+irDXEFbJG5Wh7wX7/L7jDYvsaqVV1nMkkCy19sJRjGbiWLw0yBPxFcA3Gv4A4PxR/N+6Inee58FclZ4k9qJ6yNf4phogngIL4jOt0B62/MkXN43S3//RCrUvfSe5IhHp5vHXlst7fVWZ+oPYiMiWdb4Iq2f8EeYKiLAWWIpoR0/DlkwNBVvrvb2eB9+VThRp7xrTxZvc4A148S5+NeWoDPVQ7GIRdLfs19+YfqmUx4euGaivTrOuDbQ6i4n31/bgimKgaHDCKBdZrwXON1vqg62B/2j7K21H+QSLLooJw+oItZVn+ldOV/X5h9A9JAE/biOSUzcbn1AUyZU3ktjcPBGe7h6rqFbcSCISPdCEGWlsDlKhn8+T67Hrytdkv8RCYz7rUWK5aogXPlA1fucXWPZzeDeR8UQ3PsZ9kV/xhiTMeJsdI1ZQXSzZtYD3j/T+36CaWSy+VF95lc/COYA2EVY1VrmI+p4AqCg3vVQLIY5CNov+PipUoRSnsrqB1KJd3FrkAVzlSWHCmhqGdrM+lUF/e5vcTVvjdetYFNl+qnlfgMS9LL1NQSRy29fSNLLhWNREjWCrzUqbpX9uX8qLYDLcB0aZsw7Be34a89O1qKNyZ2ceZweZMX3tHO9GT+dlwwCnMMCBAoPyWOjI7Y623LATQZyulsADCuvvlSvNXs3bPnr7PeOw92NOgCks31pnJnBPqbKkVuP8xaZlSbCt01pBCQWMma7So+0ATruEirScCiO/knhY3I4qewdIZZEdy8vnUf6nagEPjDxjMYxjnlt5PM9PCwEbsl78J6qhCbJQggd64H2C9XuAS8gKqTkCJjSG9sjYrzm+khzz8z78qR+7INNh57pEUAEu4y+xT9By9Idu3oWdpFtkaipJ5xcyPc5dfAQqk/q9kc6IHMOTKnRgvIexqEcpun7fQ9cK9I1ifu3gQMpiVh6zy5zKjNrVpVJWObNGjD5AdvZO09FcSRx1eSEjqivbBvbZJDKDAjBnReuIBTAei4ocOypJCMPMR0SkfS4WGZwYOfMxQJngsmzQKYIJ4VSL6RuTi2AE8hLbMttU2/VGsD/PAh0whEQ4qoowln98LAQxwl6i+M4ENAbFouaMZib3KB3WdvBX7R0gKOVDYr6CMsH9aqNOp/gFa3MtHbA2t5FFx0cryqZD7YivbELEa9s9EtnanVwQyC5v9Lf7X/2ZtGRhCK5nx92RXBz909sXi96UWH/EM9vzk2Ad6EV7A9askY8A5K39tWz0C3D1wSq8y9B73L+Kq1oFnw3Ndqil+gs1ye0cXnVIl0V/870Q9nk03fXvwFpo7u0J1TDlbo8jGTLYgDWTM5+NB+8jLcUjAh4lmXXVabHK8rI9ZoBsEyicdk+RAp69Gh2CXkB53XG3NocB7J1d8KSUAHUI9NIoN1/fogNiU4uxFBhiCYOZM8widATSVXSu1oa0X+c4hDJZjB7wlNPInSj1Cj7uaEhVfGp7n8ehQ98ATPuqny+prto1N1WG+wk3nAg1k2YGabC9DXRjpP+wBuvTIH0KLaYUgI4huwQodGuw+aCnE/hsGrRBGZQuTEPdGCVpeSpaSCOVe2WRuFS/qGytayKGeO6vs+KsJ+rAPbtzNPbMAcaHRXLP7iyfeLv8SbztGS7uW5F+Z/cYJbvb7kPorzL738c9QC8ehUmlCERzJM0GheHAj14+7vA63s7NvN0iJp8jzSvoF1Qxq18blkpPxWDfQUQXpPwLB/MXA6xwvZ2sEAN48SoHsANrizrVxlHgH/LA3YYR5c2XuhsYazwAb0aIaFMHo+Pi4mvPRJJAJ4Qky8ybbR7fjyK8HcQ+VSzHBnZc8p1JaCh7jF3p5n5FX7E3d/ENhCRDra5dUioOTrUQ="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28475,
+      "candidatesTokenCount": 156,
+      "totalTokenCount": 29396,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28475
+        }
+      ],
+      "thoughtsTokenCount": 765,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "CG7Sav2-C6OfuMYPqaXeoQw"
+  },
+  "duracao_segundos": 7.391019200000301,
+  "usage_metadata": {
+    "promptTokenCount": 28475,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 29396,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28475
+      }
+    ],
+    "thoughtsTokenCount": 765,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0066",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as características fundamentais do positivismo criminológico, seu método empírico-indutivo e sua oposição ao livre-arbítrio da Escola Clássica, inserindo-se no estudo das Escolas Criminológicas.",
+    "evidencia": "O positivismo criminológico",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "ce6334d3a51313c35cd40d08038bc33a09f88421357f6db75e1f77e44cfba5c6"
+}

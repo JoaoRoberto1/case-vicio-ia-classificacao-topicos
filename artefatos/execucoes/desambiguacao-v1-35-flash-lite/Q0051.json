@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0051",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:33:07.921608+00:00",
+  "sha256_prompt": "9dde560510ffafbce3183a838636f22f899ccade3d59fdfb81f2d6843ddeb4ec",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b74af52a16e57e6d86e1f96ca47faac084662b45c9a3e5ccc020b268460873cf",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0051\",\n  \"tema_central_id\": \"5182\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão exige o conhecimento sobre a aplicação da lei penal brasileira a infrações cometidas fora do território nacional, versando sobre as regras de extraterritorialidade e os princípios correlatos no âmbito da lei penal no espaço.\",\n  \"evidencia\": \"poderá ser aplicada às infrações penais que ocorrerem fora do território nacional\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28847,
+      "candidatesTokenCount": 158,
+      "totalTokenCount": 29480,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28847
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 475,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5G3Sap3CLL2B1sgPmYytgAw"
+  },
+  "duracao_segundos": 6.344205699999293,
+  "usage_metadata": {
+    "promptTokenCount": 28847,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 29480,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28847
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 475,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0051",
+    "tema_central_id": "5182",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão exige o conhecimento sobre a aplicação da lei penal brasileira a infrações cometidas fora do território nacional, versando sobre as regras de extraterritorialidade e os princípios correlatos no âmbito da lei penal no espaço.",
+    "evidencia": "poderá ser aplicada às infrações penais que ocorrerem fora do território nacional",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "5bb372e781a317ce2931e25ced3ecc32c21aba81c8453eb533b860f1f079520d"
+}

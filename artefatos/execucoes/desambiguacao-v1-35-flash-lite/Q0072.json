@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0072",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:34:00.895407+00:00",
+  "sha256_prompt": "d64352f70e89c3acea5731c3d1a53b4f942161227346e8365b0ce58c7a8c252d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "15860d32a0706dea4d709d95e7bac693306bcb21b475bb14e58f6dff042d098d",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0072\",\n  \"tema_central_id\": \"5592\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5595\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a regra de valoração dos elementos informativos da investigação policial na formação do convencimento judicial, o que se insere no estudo dos sistemas de avaliação da prova e do livre convencimento motivado.\",\n  \"evidencia\": \"Para formar seu juízo de convicção a respeito de fato submetido a julgamento, o juiz.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28500,
+      "candidatesTokenCount": 178,
+      "totalTokenCount": 30439,
+      "cachedContentTokenCount": 26277,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28500
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26277
+        }
+      ],
+      "thoughtsTokenCount": 1761,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GW7Sat3DKbuOytMPhv-OoQw"
+  },
+  "duracao_segundos": 9.81990180000139,
+  "usage_metadata": {
+    "promptTokenCount": 28500,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 30439,
+    "cachedContentTokenCount": 26277,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28500
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26277
+      }
+    ],
+    "thoughtsTokenCount": 1761,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0072",
+    "tema_central_id": "5592",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5595"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a regra de valoração dos elementos informativos da investigação policial na formação do convencimento judicial, o que se insere no estudo dos sistemas de avaliação da prova e do livre convencimento motivado.",
+    "evidencia": "Para formar seu juízo de convicção a respeito de fato submetido a julgamento, o juiz.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "74859ebe3d5f389815a3816a46f7012fcf94ae8dc5e70a071229eb61d1e3c275"
+}

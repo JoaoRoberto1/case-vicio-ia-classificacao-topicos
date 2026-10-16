@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0195",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:40:31.084864+00:00",
+  "sha256_prompt": "f279473a7a31257d0eecc6f8f93b8006a9e1b56f3c1026a86df767e26104ebf6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e49823f067c7e19838303af5cb4e162d063b1ab462d9eb911f6a67c95779d17c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0195\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as diferentes correntes do pensamento criminológico, com foco nas escolas criminológicas (clássica, positivista e crítica) e em seus conceitos fundamentais sobre crime, criminoso e pena.\",\n  \"evidencia\": \"Em relação ao conceito de crime, de criminoso e de pena nas diversas correntes do pensamento criminológico e ao desenvolvimento científico de seus modelos teóricos, é correto afirmar:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28690,
+      "candidatesTokenCount": 179,
+      "totalTokenCount": 30042,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28690
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1173,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "n2_SavzlO8CPytMPg8K-iQ8"
+  },
+  "duracao_segundos": 5.739587400003074,
+  "usage_metadata": {
+    "promptTokenCount": 28690,
+    "candidatesTokenCount": 179,
+    "totalTokenCount": 30042,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1173,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0195",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as diferentes correntes do pensamento criminológico, com foco nas escolas criminológicas (clássica, positivista e crítica) e em seus conceitos fundamentais sobre crime, criminoso e pena.",
+    "evidencia": "Em relação ao conceito de crime, de criminoso e de pena nas diversas correntes do pensamento criminológico e ao desenvolvimento científico de seus modelos teóricos, é correto afirmar:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "7a23cedc920ec57fa6abb89265c3e8ea6bf20ea343cf632341ab5bdeb50aaa87"
+}

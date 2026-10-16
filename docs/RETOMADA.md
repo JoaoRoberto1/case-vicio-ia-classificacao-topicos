@@ -1,6 +1,6 @@
 # Ponto de retomada do case
 
-**Módulo 5B concluído em 16/10/2026: as 78 publicadas foram avaliadas contra referências cegas de IA.** Houve 77 correspondências exatas e uma divergência: 98,72% de concordância condicional. Isso não comprova precisão jurídica de 95%. O CSV permanece com 78 `publicar`, 277 `revisar` e quatro `fora`, cobertura de 21,73%. Este é o ponto de parada para revisão e commit do módulo 5B; recomenda-se depois um experimento 5C para melhorar a cobertura.
+**Módulo 5C concluído em 16/10/2026, pronto para revisão e commit.** O experimento de desambiguação gerou 23 propostas, mas não passou nos critérios registrados: 20/23 coincidências estritas e uma divergência explícita. Nenhuma proposta foi adotada. A versão 2 retém separadamente Q0180 e tem **77 `publicar`, 278 `revisar` e quatro `fora`**, cobertura de **21,45%**. O CSV da raiz já corresponde à v2; a v1 e sua auditoria permanecem intactas. Próximo passo: módulo 6, previsão, relatório e memo.
 
 ## Estado salvo
 
@@ -11,12 +11,42 @@
 | Módulo 3: integração e pilotos | Concluído: dois pilotos de vinte casos, prompt v2 selecionado |
 | Módulo 4: lote completo | Concluído e commitado: 359 sugestões tecnicamente válidas |
 | Módulo 5A: decisões | Concluído e commitado: 359 decisões e trilha congeladas |
-| Módulo 5B: avaliação | Concluído: censo de 78, referências congeladas, comparação e diagnóstico; aguarda commit |
-| Módulo 5C: cobertura | Próximo experimento recomendado; não iniciado |
+| Módulo 5B: avaliação | Concluído e commitado: censo de 78, referências congeladas, comparação e diagnóstico |
+| Módulo 5C: cobertura | Concluído: experimento não adotado, v2 congelada; aguarda revisão e commit |
 | Módulo 6: relatório e memo | Pendente |
 | Módulo 7: entrega final e reprodução | Pendente; verificar checkout limpo e pacote completo |
 
-## Conclusão do módulo 5B
+## Conclusão do módulo 5C
+
+A base foi o commit `80c4a1593cc9da1bf49a5da98fc35f685983b928`, com repositório limpo. O [pré-registro](../artefatos/experimento-cobertura-v2/preregistro.json) congelou regras, fontes e os 41 IDs retidos apenas por alternativas antes da análise específica do grupo. O segundo passe usou o mesmo modelo Gemini, um novo prompt e pasta de recibos separada, sem receber sugestões anteriores.
+
+Foram 50 chamadas em treze invocações: 37 sucessos, doze falhas HTTP 503 e uma rejeição local. Q0086, Q0119, Q0194 e Q0322 esgotaram as duas tentativas; ficaram sem proposta. Não retomar essas chamadas neste experimento encerrado. O lote original continua com 359 sugestões tecnicamente válidas. Consumo novo: 1.134.040 tokens conhecidos e doze tentativas sem uso informado; consumo Codex desconhecido. A execução durou 21 min 47,67 s de relógio, incluindo esperas.
+
+As 23 propostas exigiram segundo passe aprovado pela política base e igualdade de central e extras, preservando a confiança original. Foram congeladas antes de o coordenador abrir os julgamentos dos dois revisores cegos. A referência cobriu todos os 41 selecionados, em blocos de 21 e vinte questões.
+
+| Resultado nas 23 propostas | Quantidade |
+| --- | ---: |
+| Coincidência estrita com referência única | 20 |
+| Mesmo ID, com referência múltipla | 1 — Q0130 |
+| Pai/filho imediato | 1 — Q0293 |
+| Divergência explícita | 1 — Q0024 |
+
+O indicador estrito foi **20/23 = 86,96%**, abaixo de 95%; pela regra hierárquica v1 foram **22/23 = 95,65%** de concordância condicional. O critério registrado também exigia zero divergências explícitas. O lote inteiro foi rejeitado; não houve seleção retrospectiva apenas dos itens concordantes. Q0024 contrapõe nós irmãos de teorias criminológicas, com fronteira editorial pouco definida; a referência é provisória de IA, sem especialista.
+
+Q0180 foi encaminhada a `revisar` como achado conhecido da auditoria v1. Central, extras e confiança permaneceram iguais. Essa é a única mudança de decisão e motivo entre os CSVs; as outras 358 linhas mantêm seus campos. A cobertura passou de 78/359 = 21,73% para 77/359 = 21,45%, redução de 0,28 ponto percentual. A tentativa de ampliar cobertura não foi incorporada. A retirada do caso conhecido não é um acerto novo validado nem autoriza tratar referências reutilizadas como avaliação independente.
+
+O [CSV v2 congelado](../artefatos/decisoes-v2/publicacao.csv) e a cópia da raiz têm SHA-256 `2f9ca44feef9998810c18bfb49933737470b758bcde7697b0c8673c531d6d53e`. O [manifesto](../artefatos/decisoes-v2/manifesto_decisoes.json), o [relatório do experimento](../artefatos/decisoes-v2/relatorio_experimento.json) e o [antes/depois](../artefatos/decisoes-v2/alteracoes.jsonl) tornam a escolha rastreável. Consulte [EXPERIMENTO_COBERTURA_V2.md](EXPERIMENTO_COBERTURA_V2.md) para método, diagnósticos, consumo e limites.
+
+### Verificações do módulo 5C
+
+- Suíte final: 270 testes, 269 aprovados e um pulado por privilégio de link simbólico no Windows, em 116,632 s. A revisão de código reforçou a validação das propostas congeladas antes da leitura das referências, antes da comparação real.
+- Reprodução offline independente em diretórios temporários: dois produtos de propostas e seis finais idênticos byte a byte, com rede e acesso à configuração da API bloqueados.
+- Conferência de todos os IDs, decisões, rótulos, confiança, contagens, denominadores e consumo; v1, 359 recibos originais e derivado de Q0005 preservados.
+- As fontes registram falhas de acesso e um resultado incidental de busca com trecho de questão no bloco 02, sem resposta correta exibida e sem abertura da página. Não houve consulta aos rótulos temáticos reservados.
+- Executor encerrado e sem lock residual. Nenhum faturamento ativado, commit, push ou envio externo realizado pelo assistente.
+- Checkpoint: [modulo5c_2026-10-16.json](../artefatos/checkpoints/modulo5c_2026-10-16.json).
+
+## Histórico do módulo 5B
 
 A base desta etapa foi o commit `69c512be315cb7502c82391a6298c474bc39ef65`, com repositório limpo. O usuário informou ter feito commit e push do módulo 5A. As fontes e decisões anteriores foram conferidas e preservadas.
 
@@ -47,7 +77,7 @@ O [diagnóstico de cobertura](COBERTURA_V1.md) explica as 277 revisões: 232 tê
 
 ## Histórico do módulo 5A
 
-A base desta etapa foi o commit `d22435a54c59021f3eeea5dd698aad10d8e32d29`. O [CSV da raiz](../publicacao.csv) é cópia byte a byte do [CSV congelado](../artefatos/decisoes-v1/publicacao.csv). O [manifesto de decisões](../artefatos/decisoes-v1/manifesto_decisoes.json) registra contagens e hashes; a [trilha](../artefatos/decisoes-v1/trilha_decisoes.jsonl) preserva sugestões originais, aplicação da política e intervenções. O arquivo de pendências está vazio.
+A base desta etapa foi o commit `d22435a54c59021f3eeea5dd698aad10d8e32d29`. Na conclusão do 5A, o CSV da raiz correspondia byte a byte ao [CSV v1 congelado](../artefatos/decisoes-v1/publicacao.csv); atualmente a raiz contém a v2 descrita acima. O [manifesto de decisões v1](../artefatos/decisoes-v1/manifesto_decisoes.json) registra contagens e hashes; a [trilha](../artefatos/decisoes-v1/trilha_decisoes.jsonl) preserva sugestões originais, aplicação da política e intervenções. O arquivo de pendências está vazio.
 
 A política v1 foi aplicada sem alteração de limiar, modelo, prompt de classificação ou validadores das respostas. A aplicação inicial produziu 78 propostas de publicação, 273 de revisão e oito candidatos a `fora`. Os oito receberam uma leitura separada por IA, sem acesso inicial às respostas Gemini, seguida de adjudicação registrada com os resultados originais. Essa revisão não é validação por especialista nem auditoria das publicadas.
 
@@ -146,6 +176,9 @@ python -B -m classificacao_topicos preparar-piloto
 python -B -m classificacao_topicos preparar-piloto --saida artefatos/piloto-v2 --prompt prompts/classificacao_v2.txt --versao-prompt classificacao-v2
 python -B -m classificacao_topicos preparar-lote --piloto-desenvolvimento artefatos/piloto-v2 --saida artefatos/lote-v2 --prompt prompts/classificacao_v2.txt --versao-prompt classificacao-v2
 python -B -m classificacao_topicos preparar-decisoes --lote artefatos/lote-v2 --execucao artefatos/execucoes/lote-v2-35-flash-lite --politica config/politica_v1.json --confirmacoes-fora artefatos/revisao_fora-v1/confirmacoes_fora.jsonl --saida artefatos/decisoes-v1
+python -B -m classificacao_topicos preparar-lote --piloto-desenvolvimento artefatos/piloto-v2 --saida artefatos/lote-desambiguacao-v1 --prompt prompts/desambiguacao_v1.txt --versao-prompt desambiguacao-v1
+python -B -m classificacao_topicos.experimento_cobertura propor
+python -B -m classificacao_topicos.experimento_cobertura concluir
 python -B -m unittest discover -s tests -q
 ```
 
@@ -165,9 +198,8 @@ Ao conferir o lote por scripts, selecionar recibos por `Q[0-9]{4}\.json`, pois `
 
 ## Próximos módulos
 
-1. **5C — experimento de cobertura recomendado:** registrar previamente uma intervenção de desambiguação, começando pelas 41 questões retidas somente por alternativas. Preservar a versão 1, congelar novas decisões antes da avaliação e avaliar os novos publicados. O achado de Q0180 pode orientar a distinção entre contexto e centro cobrado. Não afrouxar regras apenas para aumentar a contagem, nem apresentar avaliação reutilizada como independente de um ajuste guiado por ela.
-2. **6 — relatório:** escolher a versão de entrega, preencher `previsao.txt` e produzir relatório de até cinco páginas, incluindo memo de uma página e proposta para 50 mil questões por semana.
-3. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo. O relatório de avaliação atual inclui caminhos absolutos das fontes; em outro checkout, comparar os hashes dos conteúdos, o CSV e as métricas. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
+1. **6 — previsão, relatório e memo:** usar a v2 selecionada como versão de trabalho, preencher `previsao.txt` e produzir relatório de até cinco páginas, incluindo memo de uma página e proposta para 50 mil questões por semana. Explicar a tentativa de cobertura não adotada, a retenção de Q0180 e a incerteza da referência. Não tratar seleção posterior aos julgamentos como nova validação independente. Não são necessárias novas chamadas de classificação.
+2. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo. O relatório de avaliação v1 inclui caminhos absolutos das fontes; em outro checkout, comparar os hashes dos conteúdos, o CSV e as métricas. Os produtos 5C usam caminhos relativos e foram reproduzidos offline. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
 
 ## Decisões que devem ser preservadas
 
@@ -175,4 +207,4 @@ O usuário não tem apoio jurídico disponível e não há rótulos temáticos o
 
 Na avaliação local, igualdade de ID ou relação imediata pai/filho é aceita; irmãos e ancestrais distantes permanecem distintos. Essa interpretação conservadora do case está documentada. A confiança das quatro sugestões corrigidas vem do revisor; a de `fora` é zero como sentinela de não aplicável. O intervalo da cobertura observada será degenerado. As convenções estão em [AVALIACAO.md](AVALIACAO.md).
 
-Para retomar: **“Leia docs/RETOMADA.md e inicie o módulo 5C de melhoria de cobertura; preserve a versão 1 e pare ao concluir para eu revisar e commitar.”**
+Para retomar: **“Leia docs/RETOMADA.md e inicie o módulo 6: previsão, relatório e memo; preserve as versões e pare ao concluir para eu revisar e commitar.”**

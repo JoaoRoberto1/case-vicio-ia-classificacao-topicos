@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0214",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:41:03.726278+00:00",
+  "sha256_prompt": "9b1889bd6130e71ade011888cf66dbeb8c29f17ac495a0a9320443b182d59107",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "dbe1f80e957f29fd6595a55777b4e5e62840bdccb3aa8c566716a02dfe9da81b",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0214\",\n  \"tema_central_id\": \"5494\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o cabimento de exceções processuais penais, especificamente a distinção e aplicação da litispendência diante da duplicidade de ações penais sobre os mesmos fatos com apelação pendente.\",\n  \"evidencia\": \"verificado pelo teor da denúncia que os fatos imputados são os mesmos daquela ação da 1ª Vara Criminal\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28560,
+      "candidatesTokenCount": 172,
+      "totalTokenCount": 29933,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28560
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1201,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wW_Saty5CMGBytMPzryf8A4"
+  },
+  "duracao_segundos": 8.161082300000999,
+  "usage_metadata": {
+    "promptTokenCount": 28560,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 29933,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28560
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1201,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0214",
+    "tema_central_id": "5494",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o cabimento de exceções processuais penais, especificamente a distinção e aplicação da litispendência diante da duplicidade de ações penais sobre os mesmos fatos com apelação pendente.",
+    "evidencia": "verificado pelo teor da denúncia que os fatos imputados são os mesmos daquela ação da 1ª Vara Criminal",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "adf3b446757ab5a49c4e03f2f655c2e60b19820b0e7fe84817b55aa2424de4b4"
+}

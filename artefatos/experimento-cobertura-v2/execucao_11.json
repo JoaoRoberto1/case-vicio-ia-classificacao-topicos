@@ -1,0 +1,49 @@
+{
+  "inicio_utc": "2026-10-16T18:47:04.293256+00:00",
+  "fim_utc": "2026-10-16T18:47:39.864795+00:00",
+  "ids_solicitados": [
+    "Q0319",
+    "Q0322",
+    "Q0328",
+    "Q0336",
+    "Q0356"
+  ],
+  "limite": 5,
+  "intervalo_segundos": 10,
+  "espera_antes_invocacao_segundos": 30,
+  "resumo": {
+    "total": 5,
+    "cache": 0,
+    "novas": 2,
+    "sucesso": 1,
+    "pendencia": 4,
+    "parou_em_erro": "Q0322",
+    "erros_validacao_ids": [],
+    "revalidacoes_ids": [],
+    "concluido_com_falhas": false,
+    "tentativas_registradas": 3,
+    "tokens_observados": {
+      "promptTokenCount": 28412,
+      "candidatesTokenCount": 140,
+      "thoughtsTokenCount": 1189,
+      "cachedContentTokenCount": 26276,
+      "totalTokenCount": 29741
+    },
+    "tokens_registros_informados": {
+      "promptTokenCount": 1,
+      "candidatesTokenCount": 1,
+      "thoughtsTokenCount": 1,
+      "cachedContentTokenCount": 1,
+      "totalTokenCount": 1
+    },
+    "total_lote": 359,
+    "total_escopo": 5,
+    "ids_selecionados": [
+      "Q0319",
+      "Q0322",
+      "Q0328",
+      "Q0336",
+      "Q0356"
+    ]
+  }
+}

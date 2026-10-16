@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0279",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:43:54.281591+00:00",
+  "sha256_prompt": "6a4e85e4c0623d31ddc01d4b36f347ff7096a757ba129a48cb2ffec4685f28e5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "bf1caaf0a2d4c786f19cc6a2ea151c723e1d35242f274cc736f5359f5d547904",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0279\",\n  \"tema_central_id\": \"5188\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão exige o reconhecimento da prescrição da pretensão punitiva, calculada com base na pena máxima do crime de furto simples (quatro anos) reduzida pela metade em virtude da menoridade relativa do agente (dezenove anos ao tempo do fato), cujo lapso temporal transcorreu integralmente entre a data do delito e o recebimento da denúncia sem causas interruptivas intermediárias.\",\n  \"evidencia\": \"A denúncia foi recebida pelo juízo competente quatro anos e seis meses depois da prática do delito\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28596,
+      "candidatesTokenCount": 202,
+      "totalTokenCount": 30491,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28596
+        }
+      ],
+      "thoughtsTokenCount": 1693,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "a3DSatfAI9-AytMPo7Gv8A4"
+  },
+  "duracao_segundos": 12.7949320000007,
+  "usage_metadata": {
+    "promptTokenCount": 28596,
+    "candidatesTokenCount": 202,
+    "totalTokenCount": 30491,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28596
+      }
+    ],
+    "thoughtsTokenCount": 1693,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0279",
+    "tema_central_id": "5188",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão exige o reconhecimento da prescrição da pretensão punitiva, calculada com base na pena máxima do crime de furto simples (quatro anos) reduzida pela metade em virtude da menoridade relativa do agente (dezenove anos ao tempo do fato), cujo lapso temporal transcorreu integralmente entre a data do delito e o recebimento da denúncia sem causas interruptivas intermediárias.",
+    "evidencia": "A denúncia foi recebida pelo juízo competente quatro anos e seis meses depois da prática do delito",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d5bd1ae17bac245b43e607352d36181423e7f60a0c764171adea798465ea0110"
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0198",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:40:46.831040+00:00",
+  "sha256_prompt": "0fe30a72b31c3cc4488e95292db01815c5d4f3d64ea1ec272edc3b6a1dba0c42",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ab2046258abcab8623dd8ebac60698de2d3dde74983985741d234ae7d2b8d8d6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0198\",\n  \"tema_central_id\": \"5073\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os requisitos específicos da autoria mediata no âmbito de aparatos organizados de poder, conforme a teoria de Claus Roxin, matéria inserida no estudo do concurso de pessoas e espécies de autoria.\",\n  \"evidencia\": \"Para que esta seja configurada devem estar presentes alguns requisitos, EXCETO\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28478,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29827,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28478
+        }
+      ],
+      "thoughtsTokenCount": 1189,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "r2_SaqqcKNvcytMPte3viA8"
+  },
+  "duracao_segundos": 6.885938899999019,
+  "usage_metadata": {
+    "promptTokenCount": 28478,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29827,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28478
+      }
+    ],
+    "thoughtsTokenCount": 1189,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0198",
+    "tema_central_id": "5073",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os requisitos específicos da autoria mediata no âmbito de aparatos organizados de poder, conforme a teoria de Claus Roxin, matéria inserida no estudo do concurso de pessoas e espécies de autoria.",
+    "evidencia": "Para que esta seja configurada devem estar presentes alguns requisitos, EXCETO",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a153f2ac92e7a0f0ba1bb113f54053436f2e2a74062688a0ffeaf68c27eec793"
+}

@@ -1,0 +1,35 @@
+{
+  "inicio_utc": "2026-10-16T18:48:09.930969+00:00",
+  "fim_utc": "2026-10-16T18:48:45.069354+00:00",
+  "ids_solicitados": [
+    "Q0322",
+    "Q0328",
+    "Q0336",
+    "Q0356"
+  ],
+  "limite": 4,
+  "intervalo_segundos": 10,
+  "espera_antes_invocacao_segundos": 30,
+  "resumo": {
+    "total": 4,
+    "cache": 0,
+    "novas": 1,
+    "sucesso": 0,
+    "pendencia": 4,
+    "parou_em_erro": "Q0322",
+    "erros_validacao_ids": [],
+    "revalidacoes_ids": [],
+    "concluido_com_falhas": false,
+    "tentativas_registradas": 2,
+    "tokens_observados": {},
+    "tokens_registros_informados": {},
+    "total_lote": 359,
+    "total_escopo": 4,
+    "ids_selecionados": [
+      "Q0322",
+      "Q0328",
+      "Q0336",
+      "Q0356"
+    ]
+  }
+}

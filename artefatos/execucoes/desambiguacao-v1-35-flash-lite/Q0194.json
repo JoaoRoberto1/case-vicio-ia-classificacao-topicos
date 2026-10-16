@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "Q0194",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:42:49.558547+00:00",
+  "sha256_prompt": "4cdcfa8649c37a2bd6c5dcc19eb23c86fdd52467632f14ef11f5f4ed6dea8ba4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c021b6e0d2291cddf71ca06cbec4cbd5533db0dd2d39c3131174da774c34a1ff",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0194",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T18:40:12.194225+00:00",
+      "sha256_prompt": "4cdcfa8649c37a2bd6c5dcc19eb23c86fdd52467632f14ef11f5f4ed6dea8ba4",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "c021b6e0d2291cddf71ca06cbec4cbd5533db0dd2d39c3131174da774c34a1ff",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0194\",\n  \"tema_central_id\": \"5089\",\n  \"extras_ids\": [\n    \"5071\",\n    \"5076\"\n  ],\n  \"temas_alternativos\": [\n    \"5076\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a configuração do crime de peculato praticado por funcionário público em concurso de agentes com particular, exigindo a análise da comunicabilidade das elementares do tipo penal.\",\n  \"evidencia\": \"Tício, funcionário público, convida Mévio, que trabalha em empresa privada, para ajudá-lo a subtrair um computador, pertencente à repartição\",\n  \"requer_revisao\": true\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28501,
+          "candidatesTokenCount": 205,
+          "totalTokenCount": 30364,
+          "cachedContentTokenCount": 26277,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28501
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26277
+            }
+          ],
+          "thoughtsTokenCount": 1658,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "jG_Sau2rPMGBytMP8b2f8A4"
+      },
+      "duracao_segundos": 8.880964299998595,
+      "usage_metadata": {
+        "promptTokenCount": 28501,
+        "candidatesTokenCount": 205,
+        "totalTokenCount": 30364,
+        "cachedContentTokenCount": 26277,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28501
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26277
+          }
+        ],
+        "thoughtsTokenCount": 1658,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "7a6196078e1fcd306b14ab4243aeedc4e6b88dc4b5945fb5085a710e290840f2"
+    }
+  ],
+  "numero_tentativa": 2,
+  "status": "erro",
+  "duracao_segundos": 1.2714860000014596,
+  "resposta_bruta": {
+    "erro_http": {
+      "codigo": 503,
+      "status": "UNAVAILABLE",
+      "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    }
+  },
+  "erro": {
+    "tipo": "ErroGemini",
+    "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+  },
+  "sha256_registro": "12876cd817265381dcb60d406294a5c65ac5054f09eb9ebbd2955d87cd86a171"
+}

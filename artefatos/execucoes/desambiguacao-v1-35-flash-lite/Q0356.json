@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Q0356",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:49:57.815704+00:00",
+  "sha256_prompt": "e746c8a8472611259723b3ba0e7ffff9f79ba1039243668cbb44d7a3295ec92f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d8110837d3859714ac6fd06e9ce352dd63242a1e82e904f650d67221b8290c4e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0356\",\n  \"tema_central_id\": \"5066\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o instituto do concurso de crimes, exigindo o julgamento de proposições sobre concurso material, concurso formal e aplicação da pena de multa.\",\n  \"evidencia\": \"O concurso de crimes é o instituto que se verifica quando o agente, mediante uma ou várias condutas, pratica duas ou mais infrações penais.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28561,
+      "candidatesTokenCount": 161,
+      "totalTokenCount": 29588,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28561
+        }
+      ],
+      "thoughtsTokenCount": 866,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1nHSaqPIJZDfytMPwqTC-A4"
+  },
+  "duracao_segundos": 11.63097430000198,
+  "usage_metadata": {
+    "promptTokenCount": 28561,
+    "candidatesTokenCount": 161,
+    "totalTokenCount": 29588,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28561
+      }
+    ],
+    "thoughtsTokenCount": 866,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0356",
+    "tema_central_id": "5066",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o instituto do concurso de crimes, exigindo o julgamento de proposições sobre concurso material, concurso formal e aplicação da pena de multa.",
+    "evidencia": "O concurso de crimes é o instituto que se verifica quando o agente, mediante uma ou várias condutas, pratica duas ou mais infrações penais.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e5500afbc38c8d2a1c8755958d5bc2225033d7fb2eddca0593f475512b7298c6"
+}

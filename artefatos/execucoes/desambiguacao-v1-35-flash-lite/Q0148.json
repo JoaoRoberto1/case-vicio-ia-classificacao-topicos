@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0148",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:39:13.854773+00:00",
+  "sha256_prompt": "07de59bf47e9bdc397f4e34e9e255558238dd0e9ccd7ebc356822a476955e820",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1b71ece6f1d41358ad7fe42fa030e883a12a65bc09c4fc3222c8e97232aa4728",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0148\",\n  \"tema_central_id\": \"5203\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5202\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda simultaneamente a primeira fase da dosimetria da pena (avaliação de maus antecedentes com base em múltiplas condenações) e a segunda fase (compensação entre a agravante da reincidência e a atenuante da confissão espontânea), gerando concorrência real entre os temas de circunstâncias judiciais e de agravantes e atenuantes.\",\n  \"evidencia\": \"manter a pena-base, na segunda fase da dosimetria da pena, compensando integralmente a agravante da reincidência com a atenuante da confissão espontânea;\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28693,
+      "candidatesTokenCount": 231,
+      "totalTokenCount": 30765,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28693
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1841,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Um_Sas7ZKOiM1sgPpa3YmAw"
+  },
+  "duracao_segundos": 12.436724099999992,
+  "usage_metadata": {
+    "promptTokenCount": 28693,
+    "candidatesTokenCount": 231,
+    "totalTokenCount": 30765,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1841,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0148",
+    "tema_central_id": "5203",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5202"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda simultaneamente a primeira fase da dosimetria da pena (avaliação de maus antecedentes com base em múltiplas condenações) e a segunda fase (compensação entre a agravante da reincidência e a atenuante da confissão espontânea), gerando concorrência real entre os temas de circunstâncias judiciais e de agravantes e atenuantes.",
+    "evidencia": "manter a pena-base, na segunda fase da dosimetria da pena, compensando integralmente a agravante da reincidência com a atenuante da confissão espontânea;",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "c3bdd393d2985dec2437706937e01fb844268f4307a3f3a246b140f931d887c1"
+}

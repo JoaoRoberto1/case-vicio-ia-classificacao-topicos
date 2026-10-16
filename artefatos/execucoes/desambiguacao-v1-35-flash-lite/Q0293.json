@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0293",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:44:17.128716+00:00",
+  "sha256_prompt": "87d3abcd3b1427463155f097487dd89b27e6c23a7f8068c9ce3a6cea3152d7a5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ba4a84d561df7c8feaf49f0731d84b63207fe0f516776f2a9a6b99ca9a33e32a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0293\",\n  \"tema_central_id\": \"5185\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige a análise de regras de prescrição penal, abrangendo a prescrição da pretensão punitiva, da pretensão executória e da pena de multa diante de condenação com penas restritivas de direitos e posterior conversão ou inadimplemento.\",\n  \"evidencia\": \"a pena de Lucas foi atingida pela prescrição da pretensão executória em 2025;\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28716,
+      "candidatesTokenCount": 174,
+      "totalTokenCount": 29826,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28716
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 936,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "gXDSasTXO4WH1sgP44LF8A4"
+  },
+  "duracao_segundos": 5.632214999997814,
+  "usage_metadata": {
+    "promptTokenCount": 28716,
+    "candidatesTokenCount": 174,
+    "totalTokenCount": 29826,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28716
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 936,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0293",
+    "tema_central_id": "5185",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige a análise de regras de prescrição penal, abrangendo a prescrição da pretensão punitiva, da pretensão executória e da pena de multa diante de condenação com penas restritivas de direitos e posterior conversão ou inadimplemento.",
+    "evidencia": "a pena de Lucas foi atingida pela prescrição da pretensão executória em 2025;",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1680cb5726b0f93e08347288f1d5a219d4c38b516665fd4ac031127e7eac6bf1"
+}

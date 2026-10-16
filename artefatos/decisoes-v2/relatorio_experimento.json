@@ -1,0 +1,45 @@
+{
+  "achado_conhecido_separado": {
+    "acao": "revisar",
+    "id": "Q0180",
+    "motivo": "Auditoria v1 divergiu entre 5554 (Busca e Apreensao) e 5594 (Prova Ilegal e Prova Ilicita). Revisar o objeto central cobrado; achado conhecido, sem correcao juridica confirmada.",
+    "preservar_central_extras_confianca": true
+  },
+  "adotar_lote": false,
+  "cobertura_base": 0.21727019498607242,
+  "cobertura_final": 0.21448467966573817,
+  "coincidencias_estritas": 20,
+  "comparacoes_regra_v1": {
+    "divergencia": 1,
+    "exata": 21,
+    "inconclusivo": 0,
+    "pai_filho_direto": 1
+  },
+  "concordancia_estrita": 0.8695652173913043,
+  "concordancia_regra_v1": 0.9565217391304348,
+  "decisoes_finais": {
+    "fora": 4,
+    "publicar": 77,
+    "revisar": 278
+  },
+  "divergentes_ids": [
+    "Q0024"
+  ],
+  "ganho_liquido_questoes": -1,
+  "grupo_avaliado": 41,
+  "limites": [
+    "Referencia de IA sem especialista; nao comprova precisao juridica.",
+    "Gate usa avaliacao para escolher a versao: desenvolvimento, nao validacao independente da versao escolhida.",
+    "Metricas do grupo proposto preservam o denominador anterior a adocao.",
+    "Q0180 e achado conhecido; retirada nao representa novo acerto validado."
+  ],
+  "nao_confirmados_ids": [
+    "Q0024",
+    "Q0130",
+    "Q0293"
+  ],
+  "novos_publicados_ids": [],
+  "procedimento": "avaliacao-desambiguacao-v1",
+  "propostas": 23,
+  "schema_version": 1
+}

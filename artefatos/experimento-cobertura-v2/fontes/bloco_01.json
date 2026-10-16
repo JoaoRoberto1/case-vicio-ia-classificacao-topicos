@@ -1,0 +1,420 @@
+{
+  "data": "2026-10-16",
+  "data_hora_utc_gravacao": "2026-10-16T18:34:18.795981+00:00",
+  "bloco": "bloco_01",
+  "ids": [
+    "Q0003",
+    "Q0015",
+    "Q0024",
+    "Q0025",
+    "Q0028",
+    "Q0046",
+    "Q0049",
+    "Q0051",
+    "Q0057",
+    "Q0066",
+    "Q0072",
+    "Q0076",
+    "Q0080",
+    "Q0081",
+    "Q0086",
+    "Q0107",
+    "Q0111",
+    "Q0119",
+    "Q0130",
+    "Q0144",
+    "Q0148"
+  ],
+  "tipo_referencia": "IA_sem_especialista",
+  "responsavel": "Codex - revisor cego 5C do bloco atribuído, sem especialista jurídico.",
+  "entradas_locais_lidas": [
+    {
+      "caminho": "prompts/revisao_desambiguacao_v1.txt",
+      "algoritmo": "SHA-256",
+      "sha256": "ca7a1f5e035e50e713a818ace422ce13647e68135c29cd96f809beb26ee11965",
+      "bytes": 3315
+    },
+    {
+      "caminho": "artefatos/experimento-cobertura-v2/entradas_cegas/bloco_01.jsonl",
+      "algoritmo": "SHA-256",
+      "sha256": "0e68b3ad83dd9576ffb375503776727947bb7e5017ed89d8390d84eb9e266056",
+      "bytes": 20556
+    },
+    {
+      "caminho": "artefatos/preparacao/temas_preparados.json",
+      "algoritmo": "SHA-256",
+      "sha256": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+      "bytes": 276977
+    }
+  ],
+  "leitura_taxonomia": {
+    "total_nos": 377,
+    "cobertura": "Todos os 377 nós: títulos/caminhos, descrições integrais, pais, filhos, status e níveis. Impressão inicial truncada foi substituída por leitura segmentada dos índices 0 a 376.",
+    "metadados_historicos": "Não usados como limites jurídicos."
+  },
+  "fontes_por_questao": [
+    {
+      "id": "Q0003",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal (Decreto-Lei 3.689/1941)",
+          "artigo_localizacao": "arts. 67, III; 397, III; 593, I",
+          "relacao_com_classificacao": "Separa o recurso da absolvição e a repercussão civil perguntada.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "A pluralidade decorre de dois efeitos expressamente perguntados, não de dúvida entre ramos. A data da prova não foi fornecida; foram conferidos os arts. 67, III, 397, III, e 593, I, do CPP. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0015",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal (Decreto-Lei 3.689/1941)",
+          "artigo_localizacao": "Título II, especialmente art. 16; alternativas remetem também aos arts. 3º, 4º, 10 e 14",
+          "relacao_com_classificacao": "A devolução para diligências pertence ao procedimento investigativo.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "Há mistura de regras gerais e atos do inquérito. O enquadramento privilegia o procedimento efetivamente avaliado, sem inferir o tema apenas da alternativa correta. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0024",
+      "fontes": [
+        {
+          "url": "https://is.muni.cz/el/1423/podzim2015/BSS166/um/Sutherland._1940._White-collar_Criminality.pdf",
+          "titulo": "Edwin H. Sutherland, White-Collar Criminality (1940)",
+          "artigo_localizacao": "American Sociological Review 5(1), pp. 1-12, especialmente p. 11",
+          "relacao_com_classificacao": "Trecho indexado articula associação diferencial, comunidade e criminalidade de colarinho branco.",
+          "acesso": "trechos indexados consultados; abertura integral retornou Internal Error"
+        },
+        {
+          "url": "https://pegasus.law.columbia.edu/record/574097",
+          "titulo": "Shaw e McKay, Juvenile delinquency and urban areas (1942): catálogo de Columbia Law",
+          "artigo_localizacao": "Título e subtítulo da obra original",
+          "relacao_com_classificacao": "Confirma o estudo de taxas de delinquência em relação às características de comunidades urbanas.",
+          "acesso": "somente metadados bibliográficos institucionais; não é leitura integral da obra"
+        }
+      ],
+      "incertezas": "A taxonomia não define precisamente a fronteira entre os rótulos sociológico e em espécie; a escolha é semântica. A cópia universitária de Sutherland falhou na abertura, embora trechos indexados fossem acessíveis. Não foi lida integralmente a obra de Shaw e McKay. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0025",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940)",
+          "artigo_localizacao": "arts. 332 e 333",
+          "relacao_com_classificacao": "Os núcleos típicos distinguem tráfico de influência e corrupção ativa.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "O rótulo corrupção ativa no item não deve ser tratado como classificação correta do comportamento narrado. Foram comparados os núcleos dos arts. 332 e 333 do CP. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0028",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal (Decreto-Lei 3.689/1941)",
+          "artigo_localizacao": "arts. 406, 409 e 421, § 1º",
+          "relacao_com_classificacao": "Situa os atos sucessivos no procedimento do júri.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "O comando pede explicação, apesar das alternativas Certo/Errado. A inconsistência de apresentação não impede identificar o rito pelos arts. 406, 409 e 421 do CPP. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0046",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal (Decreto-Lei 3.689/1941)",
+          "artigo_localizacao": "art. 563; Livro III, Título I",
+          "relacao_com_classificacao": "Confirma o eixo de prejuízo e invalidade.",
+          "acesso": "conteúdo primário consultado"
+        },
+        {
+          "url": "https://processo.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=01%2F07%2F2014&num_registro=201400366710",
+          "titulo": "STJ, AgRg no AREsp 475.610/RS",
+          "artigo_localizacao": "DJe 01/07/2014; discussão do art. 212 do CPP",
+          "relacao_com_classificacao": "Trata a inversão da ordem de perguntas como nulidade relativa dependente de prejuízo.",
+          "acesso": "trecho indexado do acórdão consultado"
+        }
+      ],
+      "incertezas": "Formulações absolutas nas alternativas envolvem nuances jurisprudenciais, sem validação de gabarito nesta referência. Foram conferidos o art. 563 e precedente do STJ sobre o art. 212; não se afirma tratamento idêntico de toda espécie de vício. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0049",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13968.htm",
+          "titulo": "Lei 13.968/2019",
+          "artigo_localizacao": "art. 1º: nova redação do art. 122, caput e §§ 1º e 2º, do CP",
+          "relacao_com_classificacao": "Confirma a alteração do tipo e o papel dos resultados lesão e morte.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "A menção a automutilação nas alternativas indica o regime da Lei 13.968/2019, embora não haja data da prova. A folha não menciona automutilação no título, mas abrange diretamente a conduta de suicídio narrada. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0051",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940)",
+          "artigo_localizacao": "art. 7º, II, a, e §§ 2º e 3º (redação de 1984)",
+          "relacao_com_classificacao": "As condições para fatos ocorridos no exterior pertencem à aplicação espacial da lei.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "O fato é situado em 21/05/2023. O art. 7º, II e §§ 2º e 3º, sustenta o enquadramento espacial; esta referência não confirma a terminologia doutrinária de todas as alternativas nem pressupõe preenchidas as condições da persecução no Brasil. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0057",
+      "fontes": [
+        {
+          "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=31%2F03%2F2025&num_registro=202403743978",
+          "titulo": "STJ, acórdão no registro 2024/0374397-8",
+          "artigo_localizacao": "DJe 31/03/2025; trecho que enumera cogitação, preparação, execução e consumação",
+          "relacao_com_classificacao": "Confirma a nomenclatura do percurso delitivo; não fundamenta solução retroativa de caso.",
+          "acesso": "trecho indexado do acórdão consultado"
+        }
+      ],
+      "incertezas": "A questão cobra nomenclatura doutrinária, sem caso concreto sobre início de execução; o acórdão consultado apenas confirma o uso das fases. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0066",
+      "fontes": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/10580/pg10580-images.html",
+          "titulo": "Enrico Ferri, The Positive School of Criminology",
+          "artigo_localizacao": "Conferências de 1901, tradução de 1908; I e II, método experimental e livre-arbítrio",
+          "relacao_com_classificacao": "A característica metodológica é examinada como identidade da escola positiva.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "O comando descritivo e as alternativas objetivas têm formas diferentes, sem mudar o objeto. Ferri foi consultado como fonte histórica primária; suas teses são objeto de descrição, não endosso científico atual. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0072",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal (Decreto-Lei 3.689/1941)",
+          "artigo_localizacao": "art. 155 (redação da Lei 11.690/2008)",
+          "relacao_com_classificacao": "Disciplina a formação da convicção e o uso do material investigativo.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "Sistemas de Avaliação da Prova e Princípios Relativos à Prova Penal se aproximam no art. 155. A escolha privilegia a formação da convicção expressamente pedida; não valida cada alternativa como regra completa. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0076",
+      "fontes": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/10580/pg10580-images.html",
+          "titulo": "Enrico Ferri, The Positive School of Criminology",
+          "artigo_localizacao": "Conferência I: surgimento da escola, Lombroso, Ferri e Garofalo",
+          "relacao_com_classificacao": "A exposição de um protagonista confirma o recorte histórico dos autores da escola.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "A atribuição tradicional de fundadores foi confrontada com a exposição histórica de Ferri; não esgota a história da disciplina ou seus antecedentes. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0080",
+      "fontes": [
+        {
+          "url": "https://www.unodc.org/e4j/en/crime-prevention-criminal-justice/module-6/key-issues/intro.html",
+          "titulo": "UNODC, Crime Prevention and Criminal Justice Module 6: Prison Reform",
+          "artigo_localizacao": "Key issues: Rehabilitation e Reparation",
+          "relacao_com_classificacao": "Distingue modelos de reabilitação e reparação, sustentando o eixo de reação ao delito.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "As nomenclaturas restaurador, restaurativo e ressocializador variam entre manuais. A UNODC distingue reabilitação e reparação, suficiente para conferir o eixo temático, mas não funciona como gabarito da banca. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0081",
+      "fontes": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/10580/pg10580-images.html",
+          "titulo": "Enrico Ferri, The Positive School of Criminology",
+          "artigo_localizacao": "Conferências I e II: escolas clássica e positiva",
+          "relacao_com_classificacao": "Confirma o domínio comparativo de escolas; não alcança a posterior escola crítica.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "Ferri permite confrontar as tradições clássica e positiva, mas não comprova a assertiva sobre a posterior escola crítica. O tema é identificável independentemente da sequência de verdadeiro/falso. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0086",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940)",
+          "artigo_localizacao": "art. 317, caput e § 1º",
+          "relacao_com_classificacao": "Aceitação da promessa e omissão funcional delimitam corrupção passiva.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "A leitura pressupõe aceitação da promessa, evidenciada pela omissão funcional narrada. Consumação e recebimento foram confrontados com o art. 317, sem conclusão pericial sobre fatos. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0107",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940)",
+          "artigo_localizacao": "Título X, Capítulo IV (De outras falsidades), art. 307",
+          "relacao_com_classificacao": "A localização legislativa sustenta a folha específica.",
+          "acesso": "conteúdo primário consultado"
+        },
+        {
+          "url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&h=true&i=1&l=10&livre=SUMULA+INPATH%28TIPO%29+AND+522+INPATH%28NUM%29&ordenacao=-%40NUM%2C-%40DOCN&p=false",
+          "titulo": "STJ, Súmula 522",
+          "artigo_localizacao": "Terceira Seção, 2015; enunciado",
+          "relacao_com_classificacao": "Confirma a discussão de falsa identidade perante polícia e autodefesa.",
+          "acesso": "enunciado indexado consultado"
+        }
+      ],
+      "incertezas": "A afirmação substantiva está no comando e o enunciado é genérico; ambos foram considerados. A Súmula 522 confirma a orientação, mas não há ano da questão. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0111",
+      "fontes": [
+        {
+          "url": "https://static.scielo.org/scielobooks/h53wj/pdf/rodrigues-9788579820755.pdf",
+          "titulo": "Nina Rodrigues, As raças humanas e a responsabilidade penal no Brasil",
+          "artigo_localizacao": "Original de 1894; capítulo I, PDF pp. 4-5",
+          "relacao_com_classificacao": "Fonte primária histórica da construção racial e da crítica ao livre-arbítrio na recepção brasileira.",
+          "acesso": "conteúdo primário consultado"
+        },
+        {
+          "url": "https://www.gutenberg.org/cache/epub/10580/pg10580-images.html",
+          "titulo": "Enrico Ferri, The Positive School of Criminology",
+          "artigo_localizacao": "Conferências I e II",
+          "relacao_com_classificacao": "Confirma método e defesa social como debates da escola.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "A obra original de Nina Rodrigues documenta a hierarquização racial histórica, sem endosso de seu conteúdo. Não foi feito inventário dos institutos penais atuais influenciados pela escola, desnecessário à identificação temática. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0119",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940)",
+          "artigo_localizacao": "art. 2º, caput e parágrafo único",
+          "relacao_com_classificacao": "Delimita a descriminalização posterior e seu alcance temporal.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "A preferência por Abolitio Criminis sobre Lei penal no Tempo resolve sobreposição entre ramos pela especificidade semântica. O caso abstrato não identifica qual crime seria revogado. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0130",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940)",
+          "artigo_localizacao": "arts. 44, I, e 157",
+          "relacao_com_classificacao": "Relaciona roubo e requisito de substituição da pena.",
+          "acesso": "conteúdo primário consultado"
+        },
+        {
+          "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=sumula+e+%27582%27.num.",
+          "titulo": "STJ, Súmula 582",
+          "artigo_localizacao": "Julgada em 14/09/2016; enunciado",
+          "relacao_com_classificacao": "A recuperação imediata integra a discussão de consumação do roubo.",
+          "acesso": "enunciado indexado consultado"
+        },
+        {
+          "url": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/RR/Repetitivos_e_IACs_com_capa_-_novembro_2024.pdf",
+          "titulo": "STJ, Repetitivos e IACs: Tema 1171",
+          "artigo_localizacao": "p. 430; REsp 1.994.182/RJ, julgado em 13/12/2023, DJe 18/12/2023",
+          "relacao_com_classificacao": "Articula simulacro, grave ameaça e vedação de substituição, sustentando dois eixos centrais.",
+          "acesso": "trecho indexado da compilação oficial consultado"
+        }
+      ],
+      "incertezas": "Não há data da prova. Súmula 582 e Tema 1171 apoiam a delimitação temática, sem projetar automaticamente a decisão de 2023 sobre eventual prova anterior. Simulacro não se confunde com arma de fogo real. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0144",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal (Decreto-Lei 3.689/1941)",
+          "artigo_localizacao": "art. 593, III, b",
+          "relacao_com_classificacao": "Hipótese específica de apelação de sentença do júri.",
+          "acesso": "conteúdo primário consultado"
+        }
+      ],
+      "incertezas": "A redação apresenta hipótese legal determinada, sem exigir avaliação de provas ou soberania do veredicto além do cabimento recursal. Ausência de revisão jurídica especializada."
+    },
+    {
+      "id": "Q0148",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940)",
+          "artigo_localizacao": "arts. 61, I; 63; 64, I; 65, III, d; 67 e 68",
+          "relacao_com_classificacao": "Situa reincidência e confissão na segunda fase da pena.",
+          "acesso": "conteúdo primário consultado"
+        },
+        {
+          "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=585&cod_tema_inicial=585&novaConsulta=true&tipo_pesquisa=T",
+          "titulo": "STJ, Tema Repetitivo 585",
+          "artigo_localizacao": "Tese revista em 22/06/2022: multirreincidência e compensação proporcional",
+          "relacao_com_classificacao": "Confirma o objeto de concurso de agravante e atenuante.",
+          "acesso": "tese e anotações da página oficial consultadas"
+        }
+      ],
+      "incertezas": "A questão usa pena-base na segunda fase, expressão tecnicamente imprecisa. O Tema 585 foi revisto em 2022; sem data da prova, confirma-se o domínio da controvérsia, sem gabarito histórico nem fixação de fração aritmética. Ausência de revisão jurídica especializada."
+    }
+  ],
+  "consultas_publicas": {
+    "metodo": "Busca por conceitos e dispositivos, nunca por frases exatas de questões, IDs ou gabaritos. Legislação, decisões, obras originais e documentos institucionais públicos fundamentam a conferência.",
+    "limites": "Catálogo de Columbia usado somente para metadados bibliográficos; conteúdo de Sutherland acessado em trechos indexados. Referências legislativas extensas indicam o conjunto pertinente; não se alega leitura integral dos códigos.",
+    "resultados_incidentais": "Buscas também retornaram resumos secundários, páginas enciclopédicas, resenhas e discussões públicas, não usados como fundamento ou gabarito. Não houve exposição identificada a sugestões de classificadores ou gabaritos do bloco.",
+    "falhas": [
+      {
+        "url": "https://is.muni.cz/el/1423/podzim2015/BSS166/um/Sutherland._1940._White-collar_Criminality.pdf",
+        "problema": "Internal Error na abertura; trecho indexado do original disponível."
+      },
+      {
+        "url": "https://is.muni.cz/el/fss/podzim2015/BSS166/um/Sutherland._1940._White-collar_Criminality.pdf",
+        "problema": "Segunda URL da cópia universitária também retornou Internal Error."
+      }
+    ],
+    "codificacao": "Primeiro Get-Content exibiu mojibake e foi relido em UTF-8. Extrator web do Planalto substituiu acentos, preservando números de dispositivos e conteúdo relevante legível.",
+    "observacao_consolidacao_penal": "A página consolidada do CP já exibe alteração de 2026 na pena cominada do art. 157. Esse quantum não foi utilizado: a conferência temática usou o núcleo de subtração com grave ameaça e o art. 44, I, com as ressalvas temporais da questão. Não se atribuiu a alteração posterior a fatos ou provas sem data."
+  },
+  "recorte_temporal": "Só Q0051 explicita data dos fatos, 21/05/2023. Sem data de prova nas demais, fontes recentes confirmam conceitos e enquadramento, sem atribuição de gabarito histórico. Q0049 contém nomenclatura indicativa da reforma de 2019. Marcos jurisprudenciais constam das limitações.",
+  "incertezas_gerais": [
+    "Referência provisória gerada por IA, sem especialista jurídico, não é gabarito confirmado.",
+    "Descrições genéricas e sobreposições taxonômicas foram resolvidas pelo objeto perguntado e maior especificidade semântica.",
+    "Não restou dúvida substancial sobre a presença de tema no bloco; limitações de fonte e de recorte constam por questão."
+  ],
+  "declaracao_nao_consulta_sugestoes": "Não consultei sugestões dos classificadores, gabaritos, referências anteriores ou de outros blocos, README, configurações, recibos, trilhas, decisões, .env ou APIs de classificação/Gemini. Não solicitei julgamentos a agentes. As únicas entradas locais lidas foram protocolo, bloco atribuído e taxonomia; os próprios arquivos de saída foram relidos exclusivamente para validação.",
+  "problemas_execucao": [
+    "Primeira tentativa de gerar saídas por python -c falhou por passagem de aspas do PowerShell antes de executar o script; não criou arquivos. As duas saídas foram produzidas em seguida pelos mecanismos corretos."
+  ],
+  "validacao": {
+    "questoes": 21,
+    "campos_por_questao": 8,
+    "ids_na_ordem": true,
+    "ids_sem_duplicatas": true,
+    "todos_temas_ativos_e_elegiveis": true,
+    "sem_raizes_disciplina": true,
+    "contagem_selecoes_por_nivel": {
+      "2": 23
+    },
+    "utf8_sem_bom": true,
+    "hashes_entradas_conferidos": true,
+    "referencia_sha256": "4e83580eb68ed83788a47a1df22ba96e5f3ed10eebcae841259fdd7f7bae00c0"
+  }
+}

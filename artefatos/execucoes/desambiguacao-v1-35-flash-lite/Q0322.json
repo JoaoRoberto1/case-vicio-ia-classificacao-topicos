@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "Q0322",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T18:48:10.645466+00:00",
+  "sha256_prompt": "6155b04566c2c05fb18813a85b641f4e51e40f5eea4f5292ff8d65c534d1ab2e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4fff90b4ecc2ec4fe12aad8ffa18665ad0f64efbef246bac09ca78464af31a6c",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0322",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T18:47:35.324183+00:00",
+      "sha256_prompt": "6155b04566c2c05fb18813a85b641f4e51e40f5eea4f5292ff8d65c534d1ab2e",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "4fff90b4ecc2ec4fe12aad8ffa18665ad0f64efbef246bac09ca78464af31a6c",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 4.4472886999974435,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "8ccfa92cdf0ed5256352d5462c155603a3ed59afcf975bf14e59e22bed60628a"
+    }
+  ],
+  "numero_tentativa": 2,
+  "status": "erro",
+  "duracao_segundos": 34.34359630000108,
+  "resposta_bruta": {
+    "erro_http": {
+      "codigo": 503,
+      "status": "UNAVAILABLE",
+      "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    }
+  },
+  "erro": {
+    "tipo": "ErroGemini",
+    "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+  },
+  "sha256_registro": "ffa0428032f2ee01a7aed49c53ea131450ace303a6fb7db2875d5f1b4ac9673a"
+}
