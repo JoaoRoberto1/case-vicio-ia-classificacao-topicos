@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "procedimento": "revisao-candidatos-fora-v1",
+  "data_revisao": "2026-10-16",
+  "base_git_commit": "d22435a54c59021f3eeea5dd698aad10d8e32d29",
+  "responsavel": "Codex — revisão e adjudicação por IA, sem especialista jurídico",
+  "tipo_referencia": "IA",
+  "metodo": "Leitura separada das oito questões e dos 377 nós da árvore (375 ativos), sem consultar sugestões Gemini na primeira análise. Adjudicação pelo assistente principal com consulta de fontes oficiais para fronteiras jurídicas e registro posterior da sugestão original. Não é auditoria das publicadas nem revisão de especialista.",
+  "instrucao_revisao": "prompts/revisao_fora_v1.txt",
+  "chamadas_gemini": 0,
+  "uso_tokens_revisao_ia": null,
+  "limites": [
+    "A análise separada e a adjudicação são de IA, não referências independentes de especialista.",
+    "A consulta à legislação informa o enquadramento; a adequação ao catálogo continua sendo julgamento temático.",
+    "Confianças das quatro correções são autodeclaradas pelo revisor, não calibradas; não são as confianças originais do Gemini.",
+    "As quatro correções exigem revisar independentemente da confiança, sem promoção automática para publicar.",
+    "As fontes externas foram consultadas em 16/10/2026; não se pretende atualizar ou responder o gabarito das questões."
+  ],
+  "fontes_locais_sha256": {
+    "artefatos/preparacao/questoes_preparadas.jsonl": "db58aa6380f5f8c6f55f95ecba7e9527f04b4f68c732612ef4659ed5452cfb5f",
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "artefatos/preparacao/manifesto.json": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+    "artefatos/lote-v2/manifesto_lote.json": "d9188a28adb767cfc47fc29bba3f9d2238f99be7ee12b82478f6e9749caf4a5b",
+    "config/politica_v1.json": "552fba1739577cebeff845cf8cbab889e95f6931164b623e11e7128f87bc0dd8"
+  },
+  "resumo": {
+    "candidatos": 8,
+    "fora_confirmado": 4,
+    "tema_encontrado_para_revisao": 4
+  },
+  "revisoes": [
+    {
+      "id": "Q0039",
+      "central": "",
+      "confianca": null,
+      "evidencia": "ajustem artificialmente preço final de venda do produto em determinada localidade",
+      "justificativa": "A questão cobra crime contra a ordem econômica por ajuste de preços. O tema 5078 está inativo; economia popular e crimes previstos no CDC não cobrem esse núcleo. Falta tema ativo adequado.",
+      "candidatos": [
+        {
+          "tema_id": "5078",
+          "motivo": "Tema economicamente pertinente, mas inativo."
+        },
+        {
+          "tema_id": "4687",
+          "motivo": "Economia popular não substitui a categoria de ordem econômica distinguida pela própria questão."
+        },
+        {
+          "tema_id": "4694",
+          "motivo": "Título restringe os delitos ao CDC."
+        },
+        {
+          "tema_id": "4695",
+          "motivo": "Não há núcleo tributário."
+        }
+      ],
+      "conclusao_separada": "ausencia_de_tema_ativo",
+      "incerteza": "Não utilizar raízes de disciplina como alternativa genérica.",
+      "fontes": [
+        {
+          "titulo": "Lei 8.137/1990",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8137.htm",
+          "localizacao": "arts. 4º e 7º"
+        }
+      ],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0039.json",
+        "sha256": "91834c0fc99d421755a4a30c3fa8f3dcb4580e738fa11d81507de19fdfd9934d",
+        "sugestao": {
+          "id": "Q0039",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 0.95,
+          "motivo": "A questão aborda crimes contra a ordem econômica (cartel, previsto na Lei nº 8.137/90), matéria que não possui tópico específico correspondente no catálogo ativo, não devendo ser confundida com crimes contra a economia popular (Lei nº 1.521/51).",
+          "evidencia": "ajustem artificialmente preço final de venda do produto em determinada localidade",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "fora",
+      "sugestao_corrigida": null
+    },
+    {
+      "id": "Q0113",
+      "central": "",
+      "confianca": null,
+      "evidencia": "os prazos de prescrição previstos na lei penal se aplicam às infrações disciplinares capituladas também como crime",
+      "justificativa": "O núcleo é a prescrição em processo administrativo disciplinar. Os temas de prescrição da árvore tratam de punibilidade penal; corrupção e tributos são contexto. Falta tema de regime disciplinar.",
+      "candidatos": [
+        {
+          "tema_id": "5185",
+          "motivo": "Descrição substantiva limita-se à punibilidade e às pretensões penais."
+        },
+        {
+          "tema_id": "5186",
+          "motivo": "Regras gerais subordinadas à prescrição penal."
+        },
+        {
+          "tema_id": "5190",
+          "motivo": "O título Outras Prescrições herda o escopo penal do pai."
+        },
+        {
+          "tema_id": "5092",
+          "motivo": "A corrupção é contexto, sem pergunta de tipificação."
+        },
+        {
+          "tema_id": "4695",
+          "motivo": "Crédito tributário é contexto, sem pergunta sobre crime tributário."
+        }
+      ],
+      "conclusao_separada": "ausencia_de_tema_ativo",
+      "incerteza": "A remissão à lei penal não muda o objeto disciplinar da pergunta.",
+      "fontes": [
+        {
+          "titulo": "STJ — Informativo 651",
+          "url": "https://scon.stj.jus.br/docs_internet/informativos/PDF/Inf0651.pdf",
+          "localizacao": "página 7, MS 20.857-DF, Direito Administrativo"
+        }
+      ],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0113.json",
+        "sha256": "49f4f4e616b6bbd1c4df4eba0be755fabf768458ed8293222b16ccd3afc18979",
+        "sugestao": {
+          "id": "Q0113",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 1,
+          "motivo": "A questão trata de prescrição em Processo Administrativo Disciplinar (PAD) com base em estatuto de servidores públicos, matéria de Direito Administrativo ausente no catálogo disponível.",
+          "evidencia": "José está respondendo a processo administrativo disciplinar e sendo investigado por crime em inquérito policial.",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "fora",
+      "sugestao_corrigida": null
+    },
+    {
+      "id": "Q0142",
+      "central": "",
+      "confianca": null,
+      "evidencia": "operação isenta do Imposto sobre a Transmissão",
+      "justificativa": "A questão trata de isenção de ITCD, sem discussão de crime. A árvore não contém Direito Tributário; Crimes Tributários não é adequado para uma hipótese de isenção.",
+      "candidatos": [
+        {
+          "tema_id": "4695",
+          "motivo": "Tema penal tributário não abrange isenção sem discussão de delito."
+        }
+      ],
+      "conclusao_separada": "ausencia_de_tema_ativo",
+      "incerteza": "Conclusão de escopo baseada na questão e na árvore, sem resolver a alternativa tributária.",
+      "fontes": [],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0142.json",
+        "sha256": "fa14d7ba299fc47fc57d97756ff23e33e9cf0beba306fa91affa3ff0d70112d7",
+        "sugestao": {
+          "id": "Q0142",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 1,
+          "motivo": "A questão aborda hipóteses de isenção do Imposto sobre a Transmissão Causa Mortis e Doação (ITCD), matéria de Direito Tributário, ramo que não está presente no catálogo de temas ativos fornecido.",
+          "evidencia": "Imposto sobre a Transmissão \"Causa Mortis\" e Doação de quaisquer bens ou direitos (ITCD)",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "fora",
+      "sugestao_corrigida": null
+    },
+    {
+      "id": "Q0154",
+      "central": "5135",
+      "confianca": 0.75,
+      "evidencia": "práticas discriminatórias relativas à gravidez no trabalho",
+      "justificativa": "O tema 5135 é plausível para discriminação criminal no trabalho. Sua descrição não limita o tema ao Código Penal; revisar o enquadramento da Lei 9.029/1995 e esclarecer esse escopo.",
+      "candidatos": [
+        {
+          "tema_id": "5135",
+          "motivo": "Aderência material; a descrição só contém metadados e não restringe expressamente a fonte legal."
+        },
+        {
+          "tema_id": "4690",
+          "motivo": "Racismo não equivale automaticamente ao tipo específico perguntado."
+        },
+        {
+          "tema_id": "4704",
+          "motivo": "Lei Maria da Penha não é a norma cobrada."
+        }
+      ],
+      "conclusao_separada": "candidato_plausivel_com_escopo_incerto",
+      "incerteza": "O agrupamento lembra títulos do CP; incluir a lei especial no tema material é uma inferência que requer revisão.",
+      "fontes": [
+        {
+          "titulo": "Lei 9.029/1995",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9029.htm",
+          "localizacao": "art. 2º"
+        }
+      ],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0154.json",
+        "sha256": "28da3c5b4be27840daf0ea2ca900a93f6cb7220841d1cda4ea3bc9c54b19b05d",
+        "sugestao": {
+          "id": "Q0154",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 0.95,
+          "motivo": "A questão aborda a Lei nº 9.029/95, que trata de práticas discriminatórias e crimes relacionados à gravidez no trabalho (legislação penal especial). Como o catálogo não possui tema específico para esta lei específica, a questão carece de tema ativo adequado.",
+          "evidencia": "A Lei no 9.029/95, que define práticas discriminatórias relativas à gravidez no trabalho, expressamente considera crime:",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "revisar",
+      "sugestao_corrigida": {
+        "id": "Q0154",
+        "tema_central_id": "5135",
+        "extras_ids": [],
+        "temas_alternativos": [],
+        "sem_tema": false,
+        "confianca_autodeclarada": 0.75,
+        "motivo": "O tema 5135 é plausível para discriminação criminal no trabalho. Sua descrição não limita o tema ao Código Penal; revisar o enquadramento da Lei 9.029/1995 e esclarecer esse escopo.",
+        "evidencia": "práticas discriminatórias relativas à gravidez no trabalho",
+        "requer_revisao": true
+      }
+    },
+    {
+      "id": "Q0168",
+      "central": "",
+      "confianca": null,
+      "evidencia": "para deixar de convocar o jogador Zeca",
+      "justificativa": "A questão distingue crimes da Lei Geral do Esporte. A árvore não contém esse recorte; corrupção contra a Administração Pública e categorias gerais de consumação não cobrem o núcleo específico.",
+      "candidatos": [
+        {
+          "tema_id": "5092",
+          "motivo": "Corrupção passiva está no ramo de Administração Pública, não de corrupção esportiva privada."
+        },
+        {
+          "tema_id": "5093",
+          "motivo": "Corrupção ativa tem o mesmo limite de ramo."
+        },
+        {
+          "tema_id": "5174",
+          "motivo": "Classificação dos crimes é aspecto secundário frente aos tipos esportivos."
+        },
+        {
+          "tema_id": "5177",
+          "motivo": "Consumação é aspecto secundário frente à distinção dos tipos da lei especial."
+        }
+      ],
+      "conclusao_separada": "ausencia_de_tema_ativo",
+      "incerteza": "A referência à consumação não basta para deslocar a questão ao ramo geral.",
+      "fontes": [
+        {
+          "titulo": "Lei Geral do Esporte — Lei 14.597/2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14597.htm",
+          "localizacao": "arts. 165 e 198 a 200"
+        }
+      ],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0168.json",
+        "sha256": "2592b900f93d0ed1c9fd20c143b6067fee85032ba9427a6f5d6a63e1d5d63b26",
+        "sugestao": {
+          "id": "Q0168",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 1,
+          "motivo": "A questão aborda crimes previstos na Lei Geral do Esporte (Lei nº 14.597/2023), matéria que não possui correspondente entre os temas ativos do catálogo.",
+          "evidencia": "crimes contra a incerteza do resultado esportivo, previstos, respectivamente, nos artigos 198 e 199, da Lei no 14.597/2023.",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "fora",
+      "sugestao_corrigida": null
+    },
+    {
+      "id": "Q0261",
+      "central": "5136",
+      "confianca": 0.8,
+      "evidencia": "desejando realizar uma cópia de segurança, reproduziu o conteúdo em mídia digital, guardando-a consigo.",
+      "justificativa": "O tema 5136 abrange materialmente a proteção de software. A descrição não exclui leis especiais; revisar a aplicação à Lei 9.609/1998, sem equiparar seu tipo penal ao art. 184 do CP.",
+      "candidatos": [
+        {
+          "tema_id": "5136",
+          "motivo": "Propriedade imaterial é o núcleo material; descrição sem limitação expressa à fonte legal."
+        },
+        {
+          "tema_id": "5065",
+          "motivo": "Ação penal privada aparece nas alternativas, mas não é o núcleo prévio de avaliação da conduta."
+        },
+        {
+          "tema_id": "5472",
+          "motivo": "Mesma limitação do tema de ação penal."
+        },
+        {
+          "tema_id": "5227",
+          "motivo": "Tipicidade seria enquadramento mais genérico."
+        }
+      ],
+      "conclusao_separada": "tema_materialmente_adequado_com_ressalva",
+      "incerteza": "O tema amplo não esclarece se inclui a lei de software; essa lacuna vai para revisão.",
+      "fontes": [
+        {
+          "titulo": "Lei 9.609/1998",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm",
+          "localizacao": "arts. 6º e 12"
+        }
+      ],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0261.json",
+        "sha256": "2061ee9464cfecdd74484fd57852150c883c3aa15405305444d7644e247c67bc",
+        "sugestao": {
+          "id": "Q0261",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 1,
+          "motivo": "A questão aborda crimes previstos na Lei nº 9.609/98 (proteção de propriedade intelectual de programa de computador), assunto não contemplado no catálogo de temas ativos.",
+          "evidencia": "constitui crime previsto no art. 12 da Lei n°9.609",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "revisar",
+      "sugestao_corrigida": {
+        "id": "Q0261",
+        "tema_central_id": "5136",
+        "extras_ids": [],
+        "temas_alternativos": [],
+        "sem_tema": false,
+        "confianca_autodeclarada": 0.8,
+        "motivo": "O tema 5136 abrange materialmente a proteção de software. A descrição não exclui leis especiais; revisar a aplicação à Lei 9.609/1998, sem equiparar seu tipo penal ao art. 184 do CP.",
+        "evidencia": "desejando realizar uma cópia de segurança, reproduziu o conteúdo em mídia digital, guardando-a consigo.",
+        "requer_revisao": true
+      }
+    },
+    {
+      "id": "Q0298",
+      "central": "5222",
+      "confianca": 0.65,
+      "evidencia": "Os crimes contra as relações de consumo previstos na Lei n. 8.137/90 são punidos, apenas, na modalidade dolosa.",
+      "justificativa": "Há candidato em 5222 para dolo e culpa. A resposta depende da previsão específica da Lei 8.137/1990; revisar essa fronteira de granularidade. A dúvida de enquadramento não confirma ausência de tema.",
+      "candidatos": [
+        {
+          "tema_id": "5222",
+          "motivo": "Concorrente real pelo núcleo de modalidade dolosa/culposa; adequação depende da granularidade do catálogo."
+        },
+        {
+          "tema_id": "4694",
+          "motivo": "Título restrito ao CDC, outra fonte normativa."
+        },
+        {
+          "tema_id": "4695",
+          "motivo": "O dispositivo de consumo não pertence ao núcleo de crimes tributários."
+        }
+      ],
+      "conclusao_separada": "ausencia_de_tema_especifico_com_concorrente_conceitual",
+      "incerteza": "A revisão separada preferiu ausência específica, mas reconheceu 5222 como possível. A adjudicação conserva a questão em revisar com esse candidato, sem tratá-lo como acerto confirmado.",
+      "fontes": [
+        {
+          "titulo": "Lei 8.137/1990",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8137.htm",
+          "localizacao": "arts. 4º e 7º"
+        }
+      ],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0298.json",
+        "sha256": "060404ee2cbc912a7b4699ebbfd33e4dae9448bf35394d48dd23216aa4556e5b",
+        "sugestao": {
+          "id": "Q0298",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 0.95,
+          "motivo": "A questão aborda os crimes contra as relações de consumo previstos na Lei n. 8.137/90, matéria que não possui tema correspondente ou específico no catálogo ativo de Legislação Especial.",
+          "evidencia": "Os crimes contra as relações de consumo previstos na Lei n. 8.137/90 são punidos, apenas, na modalidade dolosa.",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "revisar",
+      "sugestao_corrigida": {
+        "id": "Q0298",
+        "tema_central_id": "5222",
+        "extras_ids": [],
+        "temas_alternativos": [],
+        "sem_tema": false,
+        "confianca_autodeclarada": 0.65,
+        "motivo": "Há candidato em 5222 para dolo e culpa. A resposta depende da previsão específica da Lei 8.137/1990; revisar essa fronteira de granularidade. A dúvida de enquadramento não confirma ausência de tema.",
+        "evidencia": "Os crimes contra as relações de consumo previstos na Lei n. 8.137/90 são punidos, apenas, na modalidade dolosa.",
+        "requer_revisao": true
+      }
+    },
+    {
+      "id": "Q0358",
+      "central": "5133",
+      "confianca": 0.98,
+      "evidencia": "a invasão de dispositivo informático alheio mediante violação de mecanismo de segurança",
+      "justificativa": "O art. 154-A integra a seção de inviolabilidade dos segredos do Código Penal, coberta por 5133. A referência a lei informática não torna o tema ausente. Correção da proposta original encaminhada a revisão.",
+      "candidatos": [
+        {
+          "tema_id": "5133",
+          "motivo": "Enquadramento direto da invasão informática na inviolabilidade dos segredos."
+        },
+        {
+          "tema_id": "5128",
+          "motivo": "Pai menos específico."
+        },
+        {
+          "tema_id": "5555",
+          "motivo": "Tema de prova e interceptação não corresponde à tipificação da invasão."
+        }
+      ],
+      "conclusao_separada": "tema_ativo_adequado",
+      "incerteza": "O enquadramento temático não avalia se a assertiva ou sua redação temporal está correta.",
+      "fontes": [
+        {
+          "titulo": "Lei 12.737/2012",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm",
+          "localizacao": "art. 2º, inclusão dos arts. 154-A e 154-B no Código Penal"
+        },
+        {
+          "titulo": "Código Penal",
+          "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
+          "localizacao": "capítulo de liberdade individual, seção de inviolabilidade dos segredos, art. 154-A"
+        }
+      ],
+      "antes": {
+        "arquivo": "artefatos/execucoes/lote-v2-35-flash-lite/Q0358.json",
+        "sha256": "0316c8bc62f36dca01af9d8e2d2c5ed3f067f8fdec63a59d5d291a2bbfcee869",
+        "sugestao": {
+          "id": "Q0358",
+          "tema_central_id": "",
+          "extras_ids": [],
+          "temas_alternativos": [],
+          "sem_tema": true,
+          "confianca_autodeclarada": 1,
+          "motivo": "O catálogo ativo não contempla a matéria de crimes informáticos ou a Lei de Delitos Informáticos (Lei 12.737/2012).",
+          "evidencia": "É tipificada como crime, de acordo com a Lei de delitos informáticos, a invasão de dispositivo informático alheio mediante violação de mecanismo de segurança",
+          "requer_revisao": false
+        }
+      },
+      "decisao_adjudicada": "revisar",
+      "sugestao_corrigida": {
+        "id": "Q0358",
+        "tema_central_id": "5133",
+        "extras_ids": [],
+        "temas_alternativos": [],
+        "sem_tema": false,
+        "confianca_autodeclarada": 0.98,
+        "motivo": "O art. 154-A integra a seção de inviolabilidade dos segredos do Código Penal, coberta por 5133. A referência a lei informática não torna o tema ausente. Correção da proposta original encaminhada a revisão.",
+        "evidencia": "a invasão de dispositivo informático alheio mediante violação de mecanismo de segurança",
+        "requer_revisao": true
+      }
+    }
+  ]
+}

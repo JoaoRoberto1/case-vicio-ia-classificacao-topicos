@@ -1,7 +1,8 @@
 # Arquivos assinados por SHA-256 devem manter os mesmos bytes em qualquer checkout.
 /questoes.jsonl -text
-/temas.csv -text
+/temas.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /entrega_modelo.csv -text
+/publicacao.csv -text
 /LEIA-ME.md -text
 /case-ia-classificacao-de-topicos.pdf -text
 /artefatos/** -text

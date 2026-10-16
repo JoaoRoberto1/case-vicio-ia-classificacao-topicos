@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "procedimento": "conclusao-modulo5a-v1",
+  "estado": "modulo5a_concluido_aguardando_revisao_e_commit_do_usuario",
+  "registrado_utc": "2026-10-16T17:42:25.174031+00:00",
+  "base_git_commit": "d22435a54c59021f3eeea5dd698aad10d8e32d29",
+  "checkpoint_anterior": "artefatos/checkpoints/conclusao_modulo4_2026-10-16.json",
+  "checkpoint_anterior_sha256": "4975d67dd447e40c18ee960e1b5781c30394ac83b5b1db81eade8f3820143140",
+  "total_questoes": 359,
+  "decisoes": {
+    "publicar": 78,
+    "revisar": 277,
+    "fora": 4
+  },
+  "pendentes_fora": 0,
+  "cobertura_observada": {
+    "publicar": 78,
+    "total": 359,
+    "fracao": 0.21727019498607242,
+    "percentual": 21.72701949860724,
+    "natureza": "Contagem do lote completo; nao e estimativa de precisao."
+  },
+  "revisoes_fora": {
+    "confirmadas_sem_tema": 4,
+    "ids_confirmadas_sem_tema": [
+      "Q0039",
+      "Q0113",
+      "Q0142",
+      "Q0168"
+    ],
+    "temas_encontrados": 4,
+    "ids_temas_encontrados": [
+      "Q0154",
+      "Q0261",
+      "Q0298",
+      "Q0358"
+    ],
+    "total": 8,
+    "tipo_referencia": "IA",
+    "revisor_especialista": false,
+    "instrucao": "prompts/revisao_fora_v1.txt",
+    "registro": "artefatos/revisao_fora-v1/revisoes.json",
+    "entrada_exportador": "artefatos/revisao_fora-v1/confirmacoes_fora.jsonl",
+    "promovidas_a_publicar": 0
+  },
+  "modelo": "gemini-3.5-flash-lite",
+  "prompt_version": "classificacao-v2",
+  "politica_versao": "politica-v1",
+  "modelo_prompt_politica_preservados": true,
+  "validador_resposta_e_evidencia_preservados": true,
+  "chamadas_gemini_novas": 0,
+  "tokens_gemini_novos": 0,
+  "tokens_revisao_codex": null,
+  "consumo_revisao_observacao": "Revisao por IA e consultas a fontes publicas fora dos recibos Gemini; tokens nao medidos.",
+  "recibos_originais_preservados": 359,
+  "revalidacoes_preservadas": 1,
+  "tentativas_gemini_acumuladas_lote": 404,
+  "fontes_sha256": {
+    "questoes.jsonl": "6815aad02f1577fb7f3c68bb76cd56b3b23df5a0bf951d3422a5ce7d5e492573",
+    "temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+    "LEIA-ME.md": "d7bbbd1e5a91554bf54a64272ace7afc50bfa9a06b14bfc7704d6ca09e047bfc",
+    "case-ia-classificacao-de-topicos.pdf": "d0a025985c10318d6728c4b7f1625c8f253972b6ee002a59155956d20d2aabfc",
+    "artefatos/preparacao/manifesto.json": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+    "artefatos/lote-v2/manifesto_lote.json": "d9188a28adb767cfc47fc29bba3f9d2238f99be7ee12b82478f6e9749caf4a5b",
+    "prompts/classificacao_v2.txt": "9c9d176bf99d2f5babdd0c95a4ac6d52f6ffa9cc7d907c79942ff4fb93c73909",
+    "config/politica_v1.json": "552fba1739577cebeff845cf8cbab889e95f6931164b623e11e7128f87bc0dd8",
+    "artefatos/revisao_taxonomia/ambiguidades.json": "6d069bfb8f34dff9b9d9a978f7440ac64890b58634b8569d5061636b76faba4e"
+  },
+  "produtos_e_revisoes_sha256": {
+    "publicacao.csv": "fd6d504169d86c4002ed27ac892a5080f16c4533c27e4bf80daf6de501dd9ca3",
+    "artefatos/decisoes-v1/pendentes_fora.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artefatos/decisoes-v1/publicacao.csv": "fd6d504169d86c4002ed27ac892a5080f16c4533c27e4bf80daf6de501dd9ca3",
+    "artefatos/decisoes-v1/trilha_decisoes.jsonl": "171a247e20d1a0025429fccfb54d6bf4e5517b7a5af8ad0538f9af9a47b4a2ec",
+    "artefatos/decisoes-v1/manifesto_decisoes.json": "859731d56ea635b9c3d3d60865344a9b858c558784328e5436112732c34fd0dc",
+    "artefatos/revisao_fora-v1/revisoes.json": "39768af09c89be68b0b8ffa060f491d859804529293029e0d1808eae230de296",
+    "artefatos/revisao_fora-v1/confirmacoes_fora.jsonl": "a1457ea3ed8835a2bc2f04789b52745c7d4ed9f2e16512b56c851169b11462c3",
+    "prompts/revisao_fora_v1.txt": "a1486b49f1c62fd55378f116c233b4a5e801dd8c6fb90904454a135f90212793"
+  },
+  "codigo_e_testes_hash_normalizacao": "SHA-256 com CRLF convertido para LF; permite comparar codigo em checkouts Windows e Unix.",
+  "codigo_e_testes_sha256": {
+    "classificacao_topicos/decisoes.py": "12997ad71ca795fcc347693155a374a4e3ceb8d576a175039b017c91d2d36119",
+    "classificacao_topicos/__main__.py": "586fd0d937c74d06c3a1308a7439b1b8408ce3c1e0f35ab1c84ad25124e2385a",
+    "tests/test_cli.py": "1ef43d73c9bd5a5062466cbd226e65a87242fb8f30f5db4998fa5dd598ee4d9d",
+    "tests/test_cli_decisoes.py": "e52f93147e85c9ebf3faf2e09b065408df292159895f5c578e6f8c2ee59548b0",
+    "tests/test_decisoes.py": "9d45fcc1d61959b9a63e0169090698e9eed481c35b12c2c6f159cadc7b4ed849"
+  },
+  "verificacao_software": {
+    "comando": "python -B -m unittest discover -s tests -q",
+    "total": 233,
+    "aprovados": 232,
+    "pulados": 1,
+    "falhas": 0,
+    "duracao_segundos": 71.644,
+    "motivo_pulado": "Windows sem privilegio para criar link simbolico real; protecao tambem coberta por teste simulado."
+  },
+  "verificacoes_artefatos": {
+    "csv_359_ids_unicos_ordem_preparada": true,
+    "manifesto_e_produtos_integros": true,
+    "oito_revisoes_consistentes": true,
+    "recibos_e_revalidacao_iguais_checkpoint_anterior": true,
+    "reexecucao_cli_sem_alterar_bytes_ou_mtime": true,
+    "reproducao_em_pasta_temporaria_byte_a_byte": true,
+    "csv_raiz_identico": true,
+    "checkout_limpo_realizado": false
+  },
+  "ajuste_reproducao_git": {
+    "arquivo": "temas.csv",
+    "fonte_local_alterada": false,
+    "comando_executado": "git add --renormalize -- temas.csv",
+    "indice_sha256": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "estado": "Indice corrigido; ainda requer commit. Checkpoints anteriores preservados.",
+    "eol": "i/crlf w/crlf attr/-text",
+    "mudanca_textual_ignorando_eol": false,
+    "publicacao_csv_atributo": "-text",
+    "temas_csv_whitespace": "blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol"
+  },
+  "auditoria_real_iniciada": false,
+  "proximo_modulo": {
+    "id": "5B",
+    "acao": "Preparar pacote cego e referencias provisorias de IA, depois avaliar contra CSV congelado.",
+    "publicadas_desenvolvimento": 5,
+    "publicadas_restante": 73,
+    "protocolo": "Censo do desenvolvimento + min(80,N) restante; nesta versao equivale a censo das 78 publicadas.",
+    "pausa_antes": "Revisao e commit do modulo 5A pelo usuario."
+  },
+  "limites": [
+    "A meta de 95% de precisao juridica ainda nao foi verificada.",
+    "Referencia de IA nao equivale a revisao juridica especializada.",
+    "Confiancas autodeclaradas, nao calibradas; as quatro correcoes de fora usam confianca do revisor.",
+    "Fora exporta zero como sentinela de nao aplicabilidade.",
+    "Nenhuma nova chamada Gemini, faturamento, commit, push ou envio externo.",
+    "Reproducao com entradas locais conferida; verificacao de checkout limpo fica no modulo 7."
+  ]
+}

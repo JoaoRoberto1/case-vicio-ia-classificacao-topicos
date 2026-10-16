@@ -7,8 +7,8 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
-| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Concluído em 16/10: 359 válidas, zero pendências; aguarda revisão/commit |
-| 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | Política registrada; módulos offline preparados, integração e aplicação real pendentes |
+| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Concluído e commitado: 359 válidas, zero pendências técnicas |
+| 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | 5A concluído: CSV congelado com 359 decisões; 5B pendente |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
 
@@ -16,14 +16,14 @@ O esforço previsto não representa tempo já gasto. Limites de API e achados da
 
 ## Pontos de parada e commits
 
-O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O usuário autorizou concluir de uma vez as 197 questões restantes do módulo 4, substituindo as pausas a cada vinte chamadas. Essa continuação terminou com 359 sugestões válidas. A partir deste checkpoint, avançar uma etapa por vez e informar quando ela estiver pronta para revisão e commit. O módulo 5A ainda não foi iniciado.
+O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O usuário autorizou concluir de uma vez as 197 questões restantes do módulo 4, substituindo as pausas a cada vinte chamadas. Essa continuação terminou com 359 sugestões válidas e foi commitada. O módulo 5A também terminou: 78 decisões `publicar`, 277 `revisar` e quatro `fora`, com CSV e trilha congelados. Avançar uma etapa por vez e informar quando ela estiver pronta para revisão e commit. A avaliação real do módulo 5B ainda não foi iniciada.
 
 | Etapa de retomada | Tamanho do bloco | Ponto de parada | Commit sugerido |
 | --- | --- | --- | --- |
 | Base atual dos módulos 1 a 3 | Código, documentação e evidências já salvos | Suíte offline aprovada, originais íntegros, nenhum processo de API ativo | `feat: prepara dados e conclui pilotos de classificacao` |
 | Módulo 4, blocos anteriores | Até 20 novas chamadas por continuação, incluindo retomadas | Histórico preservado nos checkpoints anteriores | `data: registra progresso do lote de classificacao` |
 | Módulo 4 concluído | Continuação final de 197 questões, com invocações internas de até 20 chamadas | 359 sugestões tecnicamente válidas, incluindo Q0005 revalidada; zero pendências | `data: conclui lote de classificacao v2` |
-| Módulo 5A | Integrar CLI, aplicar política e confirmar propostas fora | CSV completo e decisões congeladas, sem iniciar revisão da amostra | `feat: congela decisoes e prepara auditoria` |
+| Módulo 5A concluído | CLI, política e revisão separada dos oito candidatos fora | CSV com 359 decisões e trilha congelados; pronto para commit antes da avaliação | `feat: congela decisoes e integra avaliacao` |
 | Módulo 5B | Revisar amostra e calcular estimativa | Referências e métricas rastreáveis, limitações explícitas | `eval: registra auditoria e previsao` |
 | Módulo 6 | Relatório de até cinco páginas e memo | Texto e números revisados | `docs: adiciona relatorio do case` |
 | Módulo 7 | Reprodução em checkout limpo | Entrega final verificada | `chore: valida entrega reproduzivel` |
@@ -121,6 +121,18 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Suíte desta retomada: 213 testes, 212 aprovados e um pulado por privilégio do Windows, em 46,556 s. Conferência final independente dos 359 recibos, históricos, fontes e revalidação aprovada; executor encerrado com código zero e sem lock residual.
 - A diferença de fins de linha de `temas.csv` no Git continua pendente. O arquivo local está intacto e coincide com o manifesto; o comando para preparar seus bytes exatos no índice está em `RETOMADA.md`.
 - Registros: `artefatos/checkpoints/conclusao_modulo4_2026-10-16.json` e `artefatos/experimentos/conclusao-lote-v2-2026-10-16.json`. Módulo 4 pronto para revisão e commit do usuário. A aplicação da política, a auditoria e as entregas finais não foram iniciadas nesta continuação.
+
+### Módulo 5A concluído em 16 de outubro de 2026
+
+- Base Git `d22435a`; exportação offline sobre as 359 sugestões válidas. Modelo Gemini 3.5 Flash-Lite, prompt de classificação v2 e política v1 preservados. Nenhuma nova chamada Gemini.
+- A política produziu 78 publicações, 273 revisões e oito candidatos a `fora`. Leitura separada por IA e adjudicação documentadas confirmaram quatro ausências de tema e encaminharam quatro questões para revisão com tema sugerido. Resultado congelado: 78 `publicar`, 277 `revisar`, quatro `fora`; cobertura observada de 21,73%, precisão ainda não avaliada.
+- Q0039, Q0113, Q0142 e Q0168 ficaram `fora`. Q0154 → 5135, Q0261 → 5136, Q0298 → 5222 e Q0358 → 5133 seguem para `revisar`, com incertezas preservadas. Os 78 publicados não mudaram durante essas revisões.
+- Contratos estendidos para registrar tema encontrado na revisão de `fora`, sempre com `requer_revisao: true`; trilha mantém resposta original, correção, política e origem da confiança. Saída completa só é reutilizada quando byte a byte idêntica; alterações exigem nova pasta.
+- CLI integrada para decisões, preparação da auditoria e avaliação. Os dois comandos de auditoria foram testados apenas com dados sintéticos. Nenhuma seleção ou referência real da auditoria foi produzida.
+- Suíte: 233 testes, 232 aprovados e um pulado por privilégio do Windows, em 71,644 s. Exportação idempotente sem regravar arquivos; reprodução em pasta temporária com quatro produtos idênticos. CSV na raiz idêntico ao congelado.
+- Os 359 recibos, Q0005 revalidada, fontes, prompt e política permaneceram íntegros. Ajuste de fins de linha de `temas.csv` aplicado ao índice real, preservando a fonte local; precisa entrar neste commit. Acrescentado `-text` para o CSV da raiz.
+- Registros: [decisões e método](DECISOES_V1.md), [checkpoint 5A](../artefatos/checkpoints/modulo5a_2026-10-16.json), `artefatos/decisoes-v1/` e `artefatos/revisao_fora-v1/`. Pronto para revisão e commit do usuário.
+- Próximo módulo: avaliação dos publicados. Há cinco publicados no desenvolvimento e 73 no restante; o protocolo de censo mais `min(80,N)` levará a revisar todos os 78. A referência continuará sendo provisória e produzida por IA, sem equivaler a validação jurídica.
 
 ## Registro de execução
 

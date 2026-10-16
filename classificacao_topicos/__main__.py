@@ -67,6 +67,29 @@ def main() -> int:
     analisar.add_argument("--execucao", type=Path, required=True)
     analisar.add_argument("--revisoes", type=Path, default=Path("artefatos/revisao_piloto"))
     analisar.add_argument("--saida", type=Path, required=True)
+    decisoes = comandos.add_parser("preparar-decisoes", help="Aplicar a política aos recibos e gerar o CSV quando não houver pendências, sem API.")
+    decisoes.add_argument("--lote", type=Path, required=True)
+    decisoes.add_argument("--preparacao", type=Path, default=Path("artefatos/preparacao"))
+    decisoes.add_argument("--execucao", type=Path, required=True)
+    decisoes.add_argument("--politica", type=Path, default=Path("config/politica_v1.json"))
+    decisoes.add_argument("--confirmacoes-fora", type=Path, default=None,
+                          help="JSONL com as revisões separadas dos candidatos fora.")
+    decisoes.add_argument("--saida", type=Path, required=True)
+    auditoria = comandos.add_parser("preparar-auditoria", help="Sortear a amostra e preparar entradas cegas a partir das decisões congeladas, sem API.")
+    auditoria.add_argument("--preparacao", type=Path, default=Path("artefatos/preparacao"))
+    auditoria.add_argument("--lote", type=Path, required=True)
+    auditoria.add_argument("--decisoes", type=Path, required=True,
+                           help="Pasta das decisões ou caminho do CSV completo.")
+    auditoria.add_argument("--politica", type=Path, default=Path("config/politica_v1.json"))
+    auditoria.add_argument("--saida", type=Path, required=True, help="Nova pasta vazia para a seleção congelada.")
+    avaliacao = comandos.add_parser("avaliar-auditoria", help="Comparar a amostra com referências provisórias de IA, sem API.")
+    avaliacao.add_argument("--preparacao", type=Path, default=Path("artefatos/preparacao"))
+    avaliacao.add_argument("--auditoria", type=Path, required=True)
+    avaliacao.add_argument("--decisoes", type=Path, required=True,
+                           help="Pasta das decisões ou caminho do CSV congelado.")
+    avaliacao.add_argument("--revisoes", type=Path, required=True,
+                           help="Arquivo JSONL ou pasta de referências provisórias.")
+    avaliacao.add_argument("--saida", type=Path, required=True)
     args = parser.parse_args()
     try:
         if args.comando == "preparar":
@@ -137,6 +160,33 @@ def main() -> int:
                           if args.comando == "executar-lote" else {})
             resultado = funcao(entrada, args.preparacao, args.saida, env_path=args.env,
                               limite=args.limite, intervalo_segundos=args.intervalo_segundos, **opcoes_lote)
+        elif args.comando == "preparar-decisoes":
+            from .decisoes import preparar_decisoes
+            resumo = preparar_decisoes(args.lote, args.preparacao, args.execucao, args.politica,
+                                       args.saida, confirmacoes_fora=args.confirmacoes_fora)
+            resultado = {"questoes": resumo["total_questoes"], "completo": resumo["completo"],
+                         "decisoes": resumo["decisoes"], "pendentes_fora": resumo["pendentes_fora"],
+                         "revisoes_fora": resumo["revisoes_fora"],
+                         "ids_pendentes": resumo["ids_pendentes"], "saida": str(args.saida),
+                         "chamadas_api": 0}
+        elif args.comando == "preparar-auditoria":
+            from .auditoria import preparar_auditoria
+            manifesto = preparar_auditoria(args.preparacao, args.lote, args.decisoes, args.politica, args.saida)
+            resultado = {"questoes": manifesto["total_questoes"], "publicadas": manifesto["total_publicadas"],
+                         "selecionadas": len(manifesto["ids"]), "semente": manifesto["semente"],
+                         "estratos": {nome: {campo: estrato[campo] for campo in ("N", "n", "metodo")}
+                                      for nome, estrato in manifesto["estratos"].items()},
+                         "referencia_tipo": manifesto["referencia_tipo"],
+                         "saida": str(args.saida), "chamadas_api": 0}
+        elif args.comando == "avaliar-auditoria":
+            from .avaliacao import avaliar_auditoria
+            relatorio = avaliar_auditoria(args.preparacao, args.auditoria, args.decisoes,
+                                          args.revisoes, args.saida)
+            resultado = {"questoes": relatorio["total_questoes"], "publicadas": relatorio["total_publicadas"],
+                         "revisadas": relatorio["total_revisadas"], "tipo_referencia": relatorio["tipo_referencia"],
+                         "comparacao_central": relatorio["comparacao_central"],
+                         "precisao_condicional": relatorio["precisao_condicional"], "cobertura": relatorio["cobertura"],
+                         "saida": str(args.saida), "chamadas_api": 0}
         else:
             from .analise_piloto import analisar_piloto
             resumo = analisar_piloto(args.piloto, args.preparacao, args.execucao,
@@ -149,7 +199,8 @@ def main() -> int:
         # Erros do cliente REST usam mensagens sanitizadas, sem chave/headers.
         parser.exit(2, f"Erro: {erro}\n")
     print(json.dumps(resultado, ensure_ascii=False))
-    return 1 if resultado.get("parou_em_erro") or resultado.get("concluido_com_falhas") else 0
+    return 1 if (resultado.get("parou_em_erro") or resultado.get("concluido_com_falhas")
+                 or resultado.get("completo") is False) else 0
 
 
 if __name__ == "__main__":

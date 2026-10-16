@@ -13,6 +13,9 @@ from classificacao_topicos.gemini import ErroGemini
 class TestCLI(unittest.TestCase):
     def test_revalidar_recibo_funciona_offline_sem_credencial_e_preserva_original(self):
         from tests.test_execucao import ExecucaoTests, retorno
+        # O módulo vincula o validador no import. Carregá-lo antes do patch
+        # evita capturar o mock quando este teste roda isoladamente.
+        from classificacao_topicos import revalidacao
         fixture = ExecucaoTests()
         fixture.setUp()
         self.addCleanup(fixture.doCleanups)

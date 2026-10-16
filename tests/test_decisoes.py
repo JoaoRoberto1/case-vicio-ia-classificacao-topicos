@@ -46,6 +46,14 @@ def confirmacao(**alteracoes):
     return item
 
 
+def revisao_com_tema(**alteracoes):
+    item = confirmacao(sem_tema=False, situacao="tema_encontrado",
+                      justificativa="A revisão identificou tema ativo adequado ao enunciado.",
+                      sugestao_corrigida=sugestao("Q0003", requer_revisao=True, confianca_autodeclarada=0.88))
+    item.update(alteracoes)
+    return item
+
+
 class DecisoesTests(unittest.TestCase):
     def setUp(self):
         temporaria = tempfile.TemporaryDirectory()
@@ -63,7 +71,8 @@ class DecisoesTests(unittest.TestCase):
         (self.preparacao / "questoes_preparadas.jsonl").write_text(
             "".join(json.dumps(q) + "\n" for q in questoes), encoding="utf-8")
         temas = [{"tema_id": f"T{i:03d}", "nivel": "0" if i == 0 else "1",
-                  "parent_id": "" if i == 0 else "T000", "status": "active"} for i in range(4)]
+                  "parent_id": "" if i == 0 else "T000",
+                  "status": "inactive" if i == 4 else "active"} for i in range(5)]
         escrever_json(self.preparacao / "temas_preparados.json", temas)
         manifesto_preparacao = {
             "schema_version": 1, "procedimento": "preparacao-v1",
@@ -199,6 +208,118 @@ class DecisoesTests(unittest.TestCase):
         self.assertEqual(trilha[2]["decisao"]["confianca"], 0)
         self.assertEqual(trilha[2]["sugestao"]["confianca_autodeclarada"], 0.97)
 
+    def test_tema_encontrado_gera_revisar_e_preserva_original_historico_e_confiancas(self):
+        self.execucao = self.raiz / "artefatos" / "execucao-com-historico"
+        self.respostas["Q0003"]["evidencia"] = "Evidência inventada."
+        self.gravar_recibos()
+        self.respostas["Q0003"]["evidencia"] = "furto"
+        self.gravar_recibos()
+        recibos = {p.name: p.read_bytes() for p in self.execucao.iterdir()}
+        revisao = revisao_com_tema()
+        resumo = self.preparar(confirmacoes=self.gravar_confirmacoes([revisao]))
+        self.assertTrue(resumo["completo"])
+        self.assertEqual(resumo["decisoes"], {"publicar": 1, "revisar": 2, "fora": 0})
+        self.assertEqual(resumo["confirmacoes_fora"], {"total": 1, "tipos_referencia": {"IA": 1}})
+        self.assertEqual(resumo["revisoes_fora"], {"confirmadas_sem_tema": 0, "ids_confirmadas_sem_tema": [],
+                                                  "temas_encontrados": 1, "ids_temas_encontrados": ["Q0003"]})
+        self.assertIn("revisor", resumo["confianca"]["revisar_apos_rejeicao_fora"])
+        self.assertEqual(recibos, {p.name: p.read_bytes() for p in self.execucao.iterdir()})
+        historico = _tentativas(json.loads(recibos["Q0003.json"]))
+        self.assertEqual(len(historico), 2)
+        self.assertEqual(sum(t["usage_metadata"]["totalTokenCount"] for t in historico), 300)
+        trilha = [json.loads(linha) for linha in (self.saida / "trilha_decisoes.jsonl").read_text(encoding="utf-8").splitlines()]
+        corrigida = trilha[2]
+        self.assertEqual(corrigida["sugestao"], self.respostas["Q0003"])
+        self.assertEqual(corrigida["status_recibo"], "sucesso")
+        self.assertEqual(corrigida["politica"]["estado"], "pendente_confirmacao_fora")
+        self.assertEqual(corrigida["confirmacao_fora"], revisao)
+        self.assertEqual(corrigida["sugestao_corrigida"], revisao["sugestao_corrigida"])
+        self.assertEqual(corrigida["politica_apos_revisao"]["decisao"], "revisar")
+        self.assertEqual(corrigida["origem_confianca"], "sugestao_corrigida_da_revisao")
+        self.assertEqual(corrigida["sugestao"]["confianca_autodeclarada"], 0.97)
+        self.assertEqual(corrigida["decisao"]["confianca"], 0.88)
+        self.assertIn("fora_rejeitado_por_revisao", corrigida["decisao"]["sinais"])
+        self.assertNotIn("fora_rejeitado_por_revisao", corrigida["politica_apos_revisao"]["sinais"])
+        self.assertIsNone(trilha[0]["sugestao_corrigida"])
+        self.assertIsNone(trilha[0]["politica_apos_revisao"])
+        self.assertEqual(trilha[0]["origem_confianca"], "sugestao_original_do_modelo")
+        with (self.saida / "publicacao.csv").open(encoding="utf-8", newline="") as arquivo:
+            linha = list(csv.DictReader(arquivo))[2]
+        self.assertEqual(linha["decisao"], "revisar")
+        self.assertEqual(linha["tema_central_id"], "T001")
+        self.assertEqual(linha["confianca"], "0.88")
+        self.assertEqual(linha["motivo"], "Revisão encontrou tema: " + revisao["justificativa"])
+
+    def test_revisoes_positiva_e_negativa_compartilham_arquivo_sem_confundir_contagens(self):
+        self.execucao = self.raiz / "artefatos" / "execucao-dois-candidatos"
+        self.respostas["Q0002"] = sugestao("Q0002", tema_central_id="", sem_tema=True)
+        self.gravar_recibos()
+        confirmacoes = self.gravar_confirmacoes([revisao_com_tema(), confirmacao(id="Q0002")])
+        resumo = self.preparar(confirmacoes=confirmacoes)
+        self.assertEqual(resumo["decisoes"], {"publicar": 1, "revisar": 1, "fora": 1})
+        self.assertEqual(resumo["confirmacoes_fora"], {"total": 2, "tipos_referencia": {"IA": 2}})
+        self.assertEqual(resumo["revisoes_fora"], {"confirmadas_sem_tema": 1, "ids_confirmadas_sem_tema": ["Q0002"],
+                                                  "temas_encontrados": 1, "ids_temas_encontrados": ["Q0003"]})
+        trilha = [json.loads(linha) for linha in (self.saida / "trilha_decisoes.jsonl").read_text(encoding="utf-8").splitlines()]
+        self.assertEqual(trilha[1]["decisao"]["confianca"], 0)
+        self.assertEqual(trilha[1]["origem_confianca"], "sentinela_nao_aplicavel")
+        self.assertIsNone(trilha[1]["sugestao_corrigida"])
+        self.assertIsNone(trilha[1]["politica_apos_revisao"])
+        antes = {p.name: p.read_bytes() for p in self.saida.iterdir()}
+        with patch("classificacao_topicos.decisoes.os.replace", side_effect=AssertionError("regravação")):
+            self.assertEqual(resumo, self.preparar(confirmacoes=confirmacoes))
+        self.assertEqual(antes, {p.name: p.read_bytes() for p in self.saida.iterdir()})
+
+    def test_correcao_com_confianca_maxima_segue_para_revisar_com_motivo_curto(self):
+        justificativa = "Tema encontrado na revisão independente. " * 20
+        revisao = revisao_com_tema(justificativa=justificativa)
+        revisao["sugestao_corrigida"]["confianca_autodeclarada"] = 1.0
+        resumo = self.preparar(confirmacoes=self.gravar_confirmacoes([revisao]))
+        self.assertEqual(resumo["decisoes"], {"publicar": 1, "revisar": 2, "fora": 0})
+        trilha = [json.loads(linha) for linha in (self.saida / "trilha_decisoes.jsonl").read_text(encoding="utf-8").splitlines()]
+        self.assertEqual(trilha[2]["politica_apos_revisao"]["sinais"], ["revisao_solicitada"])
+        self.assertEqual(trilha[2]["confirmacao_fora"]["justificativa"], justificativa)
+        with (self.saida / "publicacao.csv").open(encoding="utf-8", newline="") as arquivo:
+            linha = list(csv.DictReader(arquivo))[2]
+        self.assertEqual(linha["decisao"], "revisar")
+        self.assertEqual(linha["confianca"], "1.0")
+        self.assertLessEqual(len(linha["motivo"]), 280)
+        self.assertTrue(linha["motivo"].endswith("..."))
+
+    def test_revisao_negativa_rejeita_sugestao_invalida_e_campos_inconsistentes(self):
+        casos = []
+        for campo, valor in [("requer_revisao", False), ("id", "Q0002"),
+                             ("tema_central_id", "T004"), ("tema_central_id", "T000"),
+                             ("evidencia", "Texto que não existe."), ("extras_ids", ["T004"]),
+                             ("confianca_autodeclarada", 1.01)]:
+            item = revisao_com_tema()
+            item["sugestao_corrigida"][campo] = valor
+            casos.append(item)
+        casos.extend([
+            revisao_com_tema(sugestao_corrigida=sugestao("Q0003", tema_central_id="", sem_tema=True, requer_revisao=True)),
+            revisao_com_tema(sugestao_corrigida=None), revisao_com_tema(situacao="confirmado"),
+            revisao_com_tema(sem_tema=True), revisao_com_tema(sem_tema=0),
+            revisao_com_tema(responsavel=" "), revisao_com_tema(justificativa=""),
+            revisao_com_tema(tipo_referencia="ia"), revisao_com_tema(id="Q0001"),
+        ])
+        incompleto = revisao_com_tema()
+        incompleto.pop("sugestao_corrigida")
+        casos.append(incompleto)
+        for item in casos:
+            with self.subTest(item=item), self.assertRaises(ValueError):
+                self.preparar(confirmacoes=self.gravar_confirmacoes([item]))
+            self.assertFalse(self.saida.exists())
+
+    def test_saida_completa_com_correcao_nao_aceita_troca_por_confirmacao_fora(self):
+        revisao = revisao_com_tema()
+        self.preparar(confirmacoes=self.gravar_confirmacoes([revisao]))
+        antes = {p.name: p.read_bytes() for p in self.saida.iterdir()}
+        with self.assertRaisesRegex(ValueError, "congelada.*nova pasta"):
+            self.preparar(confirmacoes=self.gravar_confirmacoes())
+        self.assertEqual(antes, {p.name: p.read_bytes() for p in self.saida.iterdir()})
+        nova = self.preparar(confirmacoes=self.confirmacoes, saida=self.saida.with_name("decisoes-outra-revisao"))
+        self.assertEqual(nova["decisoes"]["fora"], 1)
+
     def test_falta_recibo_checksum_divergente_ou_lock_impedem_saida(self):
         arquivo = self.execucao / "Q0001.json"
         original = arquivo.read_bytes()
@@ -313,13 +434,106 @@ class DecisoesTests(unittest.TestCase):
             self.preparar()
         self.assertEqual(arquivo.read_text(), "preservar")
 
-    def test_regeneracao_com_pendencia_remove_csv_anterior_para_nao_expor_incompleto(self):
+    def test_saida_completa_e_reutilizada_sem_regravar(self):
+        confirmacoes = self.gravar_confirmacoes()
+        primeiro = self.preparar(confirmacoes=confirmacoes)
+        antes = {p.name: (p.read_bytes(), p.stat().st_mtime_ns) for p in self.saida.iterdir()}
+        with patch("classificacao_topicos.decisoes.os.replace", side_effect=AssertionError("regravação")):
+            segundo = self.preparar(confirmacoes=confirmacoes)
+        self.assertEqual(primeiro, segundo)
+        self.assertEqual(antes, {p.name: (p.read_bytes(), p.stat().st_mtime_ns) for p in self.saida.iterdir()})
+
+    def test_regeneracao_com_pendencia_preserva_saida_completa(self):
         self.preparar(confirmacoes=self.gravar_confirmacoes())
+        antes = {p.name: p.read_bytes() for p in self.saida.iterdir()}
+        with self.assertRaisesRegex(ValueError, "congelada.*nova pasta"):
+            self.preparar()
+        self.assertEqual(antes, {p.name: p.read_bytes() for p in self.saida.iterdir()})
+
+    def test_saida_preliminar_pode_avancar_para_completa(self):
+        preliminar = self.preparar()
+        self.assertFalse(preliminar["completo"])
+        final = self.preparar(confirmacoes=self.gravar_confirmacoes())
+        self.assertTrue(final["completo"])
+        self.assertEqual(final["pendentes_fora"], 0)
         self.assertTrue((self.saida / "publicacao.csv").exists())
-        resumo = self.preparar()
-        self.assertFalse((self.saida / "publicacao.csv").exists())
-        self.assertNotIn("publicacao.csv", resumo["produtos_sha256"])
-        self.assertFalse(resumo["completo"])
+
+    def test_confirmacao_alterada_exige_nova_pasta_e_preserva_versao_anterior(self):
+        self.preparar(confirmacoes=self.gravar_confirmacoes())
+        antes = {p.name: p.read_bytes() for p in self.saida.iterdir()}
+        confirmacoes = self.gravar_confirmacoes([confirmacao(justificativa="Nova justificativa da revisão.")])
+        with self.assertRaisesRegex(ValueError, "congelada.*nova pasta"):
+            self.preparar(confirmacoes=confirmacoes)
+        nova_saida = self.saida.with_name("decisoes-v2")
+        nova = self.preparar(confirmacoes=confirmacoes, saida=nova_saida)
+        self.assertTrue(nova["completo"])
+        self.assertEqual(antes, {p.name: p.read_bytes() for p in self.saida.iterdir()})
+        self.assertNotEqual(antes["publicacao.csv"], (nova_saida / "publicacao.csv").read_bytes())
+
+    def test_politica_alterada_exige_nova_pasta(self):
+        confirmacoes = self.gravar_confirmacoes()
+        self.preparar(confirmacoes=confirmacoes)
+        antes = {p.name: p.read_bytes() for p in self.saida.iterdir()}
+        self.config["confianca_minima"] = 0.98
+        escrever_json(self.politica, self.config)
+        with self.assertRaisesRegex(ValueError, "congelada.*nova pasta"):
+            self.preparar(confirmacoes=confirmacoes)
+        nova = self.preparar(confirmacoes=confirmacoes, saida=self.saida.with_name("decisoes-politica-v2"))
+        self.assertEqual(nova["decisoes"], {"publicar": 0, "revisar": 2, "fora": 1})
+        self.assertEqual(antes, {p.name: p.read_bytes() for p in self.saida.iterdir()})
+
+    def test_csv_existente_com_manifesto_ausente_invalido_ou_rebaixado_e_preservado(self):
+        confirmacoes = self.gravar_confirmacoes()
+        manifesto = self.preparar(confirmacoes=confirmacoes)
+        caminho = self.saida / "manifesto_decisoes.json"
+        rebaixado = copy.deepcopy(manifesto)
+        rebaixado.update(completo=False, pendentes_fora=1, ids_pendentes=["Q0003"])
+        rebaixado["decisoes"]["fora"] = 0
+        rebaixado["produtos_sha256"].pop("publicacao.csv")
+        contagens_adulteradas = copy.deepcopy(manifesto)
+        contagens_adulteradas["decisoes"] = {"publicar": 2, "revisar": 0, "fora": 1}
+        casos = [None, b"{invalido", json.dumps(rebaixado).encode(), json.dumps(contagens_adulteradas).encode()]
+        for conteudo in casos:
+            with self.subTest(conteudo=conteudo):
+                if conteudo is None:
+                    caminho.unlink()
+                else:
+                    caminho.write_bytes(conteudo)
+                antes = {p.name: p.read_bytes() for p in self.saida.iterdir()}
+                with self.assertRaisesRegex(ValueError, "manifesto ou produtos inválidos.*nova pasta"):
+                    self.preparar(confirmacoes=confirmacoes)
+                self.assertEqual(antes, {p.name: p.read_bytes() for p in self.saida.iterdir()})
+
+    def test_csv_adulterado_mesmo_com_hash_refeito_nao_e_sobrescrito(self):
+        confirmacoes = self.gravar_confirmacoes()
+        manifesto = self.preparar(confirmacoes=confirmacoes)
+        arquivo = self.saida / "publicacao.csv"
+        arquivo.write_bytes(arquivo.read_bytes().replace(b"Q0001,publicar,T001", b"Q0001,publicar,T002"))
+        for refazer_hash in (False, True):
+            with self.subTest(refazer_hash=refazer_hash):
+                if refazer_hash:
+                    manifesto["produtos_sha256"]["publicacao.csv"] = sha(arquivo.read_bytes())
+                    escrever_json(self.saida / "manifesto_decisoes.json", manifesto)
+                antes = {p.name: p.read_bytes() for p in self.saida.iterdir()}
+                with self.assertRaisesRegex(ValueError, "nova pasta"):
+                    self.preparar(confirmacoes=confirmacoes)
+                self.assertEqual(antes, {p.name: p.read_bytes() for p in self.saida.iterdir()})
+
+    def test_saida_modificada_durante_calculo_nao_e_sobrescrita(self):
+        confirmacoes = self.gravar_confirmacoes()
+        self.preparar(confirmacoes=confirmacoes)
+        manifesto = self.saida / "manifesto_decisoes.json"
+        original = manifesto.read_bytes()
+
+        def aplicar_e_alterar(*args, **kwargs):
+            if args[0]["id"] == "Q0001":
+                manifesto.write_bytes(original + b" ")
+            return aplicar_politica(*args, **kwargs)
+
+        with patch("classificacao_topicos.decisoes.aplicar_politica", side_effect=aplicar_e_alterar):
+            with self.assertRaisesRegex(ValueError, "saída de decisões mudou"):
+                self.preparar(confirmacoes=confirmacoes)
+        self.assertEqual(manifesto.read_bytes(), original + b" ")
 
 
 if __name__ == "__main__":

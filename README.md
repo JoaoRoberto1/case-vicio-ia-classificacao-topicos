@@ -24,7 +24,7 @@ A **meta é atingir pelo menos 95% de precisão nas questões publicadas**, busc
 | [temas.csv](temas.csv) | Árvore com 377 registros de disciplinas, temas e subtemas, incluindo descrições e status. |
 | [entrega_modelo.csv](entrega_modelo.csv) | Exemplo de formato da futura entrega `publicacao.csv`. As duas linhas são fictícias e não representam classificações reais. |
 
-Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `entrega_modelo.csv` não é a entrega final; `publicacao.csv` ainda será produzido.
+Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `entrega_modelo.csv` é apenas o exemplo fornecido; o [CSV gerado](publicacao.csv) contém as 359 decisões desta versão.
 
 ## Regras importantes
 
@@ -39,20 +39,32 @@ Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `en
 
 O módulo de preparação dos dados e da árvore está implementado e verificado. Ele preserva as fontes, prepara as 359 questões, valida os 377 registros da árvore e gera um diagnóstico reproduzível.
 
-**Módulo 4 concluído em 16/10/2026: 359 de 359 respostas tecnicamente válidas.** Consulte [Ponto de retomada](docs/RETOMADA.md) para o checkpoint, as verificações, o ajuste de reprodução e os comandos de commit.
+**Módulo 5A concluído em 16/10/2026: 359 decisões, sem pendências técnicas ou de confirmação de `fora`.** O CSV e sua trilha estão congelados em [artefatos/decisoes-v1](artefatos/decisoes-v1/manifesto_decisoes.json). Consulte [Decisões da versão 1](docs/DECISOES_V1.md) para as regras e a reprodução offline, e [Ponto de retomada](docs/RETOMADA.md) para o checkpoint e os comandos de commit.
+
+| Decisão | Quantidade |
+| --- | ---: |
+| `publicar` | 78 |
+| `revisar` | 277 |
+| `fora` | 4 |
+| Total | 359 |
+
+A cobertura observada é **78/359 = 21,73%**. A precisão das decisões `publicar` ainda não foi medida; confiança autodeclarada e validação técnica não comprovam a meta de 95%.
 
 Dois pilotos reais com os mesmos 20 casos estão concluídos. O prompt v2 reconheceu melhor condições de revisão e foi escolhido para o lote de 359 questões com Gemini 3.5 Flash-Lite no plano gratuito. O lote completo contém 358 recibos com sucesso e a recuperação offline anterior de Q0005, totalizando 359 sugestões válidas, sem falhas técnicas pendentes. Os vinte sucessos do segundo piloto estão incluídos nesse total, sem novas chamadas.
 
 A continuação final concluiu as 197 questões restantes em 227 chamadas: 197 sucessos, vinte falhas HTTP 503 e dez respostas rejeitadas pela validação local, todas recuperadas nas novas tentativas. As 29 invocações internas avançaram automaticamente conforme autorizado pelo usuário. Os 162 recibos anteriores, o derivado de Q0005 e os históricos foram preservados. Modelo, prompt, política e validadores permaneceram iguais. O lote acumula 404 tentativas, incluindo as do piloto v2 reutilizado; revalidação offline não conta como chamada.
 
-Essa conclusão verifica estrutura, IDs ativos, evidência literal e integridade dos resultados. A aplicação da política, a avaliação temática e as entregas finais ainda estão pendentes. O próximo ponto de trabalho é o módulo 5A, para integrar a CLI de decisões, confirmar as propostas de `fora` e congelar o CSV antes da auditoria.
+O módulo 5A aplicou a política registrada sem alterar modelo, prompt ou seus parâmetros. A revisão separada por IA dos oito candidatos a `fora` confirmou quatro e encaminhou outros quatro a `revisar`, com temas sugeridos e justificativas rastreáveis. Foram reutilizados todos os recibos; esta etapa fez **zero chamadas Gemini**. A suíte local executou 233 testes: 232 aprovados e um pulado por limitação de permissão de symlink no Windows.
 
-Sem revisor jurídico disponível, a referência local será produzida por IA e identificada dessa forma. Concordância entre modelos e intervalos amostrais condicionados a essa referência não comprovam a meta de precisão jurídica. A política operacional foi registrada antes da inspeção dos novos resultados; a auditoria será sorteada após congelar as decisões.
+O projeto está no ponto de revisão e commit do módulo 5A. O próximo módulo é o 5B: preparar a auditoria, produzir referências e avaliar as classificações. Pela regra registrada, serão revisadas todas as 78 decisões `publicar`: cinco do desenvolvimento e 73 restantes. A auditoria real, a previsão de precisão e o relatório final ainda estão pendentes.
+
+Sem revisor jurídico disponível, a referência local será produzida por IA e identificada dessa forma. Concordância entre modelos e intervalos amostrais condicionados a essa referência não comprovam a meta de precisão jurídica. A política operacional foi registrada antes da inspeção dos novos resultados; o pacote de auditoria será preparado a partir das decisões congeladas, seguindo o protocolo registrado.
 
 - [Plano e acompanhamento dos módulos](docs/PLANO_EXECUCAO.md)
 - [Protocolo de avaliação e ambiguidades](docs/AVALIACAO.md)
 - [Configuração da API gratuita para o piloto](docs/CONFIGURACAO_API.md)
 - [Experimentos dos pilotos e resultados observados](docs/PILOTO_V1.md)
+- [Decisões congeladas e revisão dos candidatos fora](docs/DECISOES_V1.md)
 - [Política operacional registrada](config/politica_v1.json)
 
 ```mermaid
@@ -61,9 +73,9 @@ flowchart LR
     B --> C[Prompt com catálogo ativo]
     C --> D[Gemini e recibos com retomada]
     D --> E[Política de decisão]
-    E --> F[Congelamento e amostra cega]
-    F --> G[Avaliação e previsão]
-    G --> H[CSV e relatório]
+    E --> F[CSV e trilha congelados]
+    F --> G[Revisão cega e avaliação]
+    G --> H[Previsão e relatório]
 ```
 
 ## Como executar
@@ -136,7 +148,19 @@ A opção de continuar salva falhas locais de validação e avança para outros 
 
 Os prompts expandidos `entradas.jsonl` são ignorados pelo Git para evitar aproximadamente 39 MB de catálogo repetido. Em um novo checkout, execute a preparação e os comandos `preparar-piloto`/`preparar-lote` antes de ler os recibos; os arquivos são reconstruídos com os mesmos hashes. `.gitattributes` preserva os bytes dos dados, prompts, configurações e artefatos assinados, inclusive no Windows.
 
-As instruções de exportação e auditoria serão acrescentadas quando esses módulos estiverem integrados e verificados.
+### Decisões sem API
+
+Com os dados preparados, os prompts reconstruídos e os recibos versionados disponíveis, execute:
+
+```powershell
+python -m classificacao_topicos preparar-decisoes --lote artefatos/lote-v2 --preparacao artefatos/preparacao --execucao artefatos/execucoes/lote-v2-35-flash-lite --politica config/politica_v1.json --confirmacoes-fora artefatos/revisao_fora-v1/confirmacoes_fora.jsonl --saida artefatos/decisoes-v1
+```
+
+Esse comando não lê `.env` nem acessa a API. Ele revalida as fontes e as sugestões, aplica a política e usa as oito revisões registradas. Uma saída completa idêntica é reutilizada sem regravar arquivos; mudanças exigem uma nova pasta, preservando a versão congelada. Sem todas as revisões necessárias, grava a trilha e as pendências, não gera o CSV e retorna código 1. Entradas inválidas retornam código 2.
+
+A execução repetida preservou bytes e datas de modificação dos produtos. Uma reprodução de decisões em pasta temporária gerou os mesmos quatro arquivos, byte a byte. O [publicacao.csv da raiz](publicacao.csv) é idêntico à cópia congelada. A reprodução completa em um novo checkout será verificada no módulo 7.
+
+Os comandos `preparar-auditoria` e `avaliar-auditoria` também estão integrados e testados com dados sintéticos. Seu uso na população real pertence ao módulo 5B. Os argumentos e os contratos dos arquivos estão em [Decisões da versão 1](docs/DECISOES_V1.md).
 
 ### Revalidação de uma resposta já salva
 
@@ -150,17 +174,15 @@ O comando seleciona a primeira tentativa cronológica que passa integralmente pe
 
 O executor do lote e o módulo de decisões verificam esse arquivo derivado antes de utilizá-lo. A recuperação não é uma chamada nova, não altera consumo e não autoriza publicação: a sugestão continua sujeita à política temática. Uma derivação inconsistente interrompe o processamento. Ao contar recibos diretamente, selecionar apenas nomes no formato `Q` + quatro dígitos + `.json`; `Q*.json` também inclui arquivos de revalidação e não representa uma contagem de chamadas.
 
-## Entregas previstas
+## Entregas
 
-Todas as entregas abaixo estão **pendentes**:
-
-- **`publicacao.csv`**: uma linha com a decisão para cada uma das 359 questões, seguindo o formato definido no `LEIA-ME.md`.
-- **`previsao.txt`**: previsão de precisão nas publicadas e de cobertura, cada uma com seu intervalo e uma explicação da metodologia, antes de conhecer o resultado da avaliação da organização.
-- **Relatório de até 5 páginas, em PDF ou Markdown**: raciocínio, hipóteses e experimentos; diagnóstico dos dados e temas; proposta de produção; e memo para o professor, especialista em Direito. A proposta de produção deverá abordar 50 mil questões por semana e novas importações, técnicas de IA, custo por questão, medição contínua da qualidade e integração com importação, revisão e reportes dos alunos.
-- **Código, prompts, regras de decisão e instruções de reprodução**: documentação do processo completo de classificação e estimativa de precisão, incluindo as chamadas a modelos que forem utilizadas.
+- **CSV de decisões concluído e congelado**: [publicacao.csv](publicacao.csv), com uma decisão para cada uma das 359 questões, seguindo o formato definido no `LEIA-ME.md` e acompanhado de trilha e manifesto em `artefatos/decisoes-v1`.
+- **`previsao.txt` pendente**: previsão de precisão nas publicadas e de cobertura, cada uma com seu intervalo e uma explicação da metodologia, antes de conhecer o resultado da avaliação da organização.
+- **Relatório de até 5 páginas pendente, em PDF ou Markdown**: raciocínio, hipóteses e experimentos; diagnóstico dos dados e temas; proposta de produção; e memo para o professor, especialista em Direito. A proposta de produção deverá abordar 50 mil questões por semana e novas importações, técnicas de IA, custo por questão, medição contínua da qualidade e integração com importação, revisão e reportes dos alunos.
+- **Código, prompts, regras de decisão e instruções disponíveis até o módulo 5A**: as interfaces de auditoria e avaliação estão testadas, mas seus resultados reais e a documentação final dependem do módulo 5B.
 
 O enunciado solicita um memo de uma página, cobrindo achados, mudanças recomendadas nos temas e apoio necessário do especialista. Como proposta de organização da entrega, será reservada uma das cinco páginas do relatório para esse memo.
 
 ## Rastreabilidade
 
-Serão registrados os experimentos, as decisões manuais e seus motivos, os modelos utilizados, o custo aproximado, o tempo gasto e as limitações. Esses registros acompanharão a implementação e a avaliação, distinguindo propostas, procedimentos executados e resultados observados.
+Os recibos preservam cada tentativa e o uso informado pelo provedor. As revisões dos candidatos a `fora` registram responsável, justificativa, fonte consultada e sugestão original. A trilha de decisões vincula esses elementos aos produtos por SHA-256. A avaliação acrescentará suas referências e métricas sem alterar retroativamente esta versão congelada.
