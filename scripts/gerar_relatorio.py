@@ -303,7 +303,7 @@ def pdf(markdown: str) -> bytes:
                 fluxo.append(Paragraph(inline(" ".join(linhas)), estilos[estilo]))
     stream = io.BytesIO()
     doc = SimpleDocTemplate(stream, pagesize=A4, rightMargin=42, leftMargin=42,
-        topMargin=38, bottomMargin=52, title="Case Vício - Classificação de tópicos", author="Roberto Felix")
+        topMargin=38, bottomMargin=52, title="Case Vício - Classificação de tópicos", author="João Roberto de Oliveira Felix")
     doc.build(fluxo, onFirstPage=rodape, onLaterPages=rodape,
         canvasmaker=lambda *a, **kw: Canvas(*a, **dict(kw, invariant=1)))
     conteudo = stream.getvalue()

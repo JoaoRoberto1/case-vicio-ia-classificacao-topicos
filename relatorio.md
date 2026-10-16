@@ -1,6 +1,6 @@
 # Classificar para publicar com critério
 
-**Case Vício | Roberto Felix | 16 de outubro de 2026**
+**Case Vício | João Roberto de Oliveira Felix | 16 de outubro de 2026**
 
 **Entrega: 359 decisões, 77 publicações, 278 revisões e quatro questões fora do recorte.** A cobertura é 21,45%. A meta de precisão jurídica de 95% ainda não foi comprovada. A solução torna explícitos os motivos de retenção, preserva o histórico e permite reproduzir a entrega sem novas chamadas.
 

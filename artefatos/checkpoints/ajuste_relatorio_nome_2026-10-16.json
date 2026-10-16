@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "procedimento": "ajuste-autoria-recuperacao-pdf",
+  "registrado_utc": "2026-10-16T19:52:10.006870+00:00",
+  "base_git_commit": "864c78f95b08eeff6a0fcd52bda53d92bd5bbf22",
+  "nome_completo": "João Roberto de Oliveira Felix",
+  "pdf_antes_sha256": "d1d9b0a3a5a1d12c66e7416d1b09d36b1f16106bd6d94d9c8d7ac44d953942f0",
+  "alteracao": "Nome completo no inicio e nos metadados; PDF reconstruido do modelo intacto para recuperar caracteres e fontes.",
+  "verificacoes": {
+    "paginas": 5,
+    "paginas_renderizadas_e_inspecionadas": 5,
+    "caracteres_de_controle_ou_substituicao_no_texto": 0,
+    "autor_e_nome_visivel": "conferidos",
+    "texto_markdown_alterado_somente_no_nome": true,
+    "comando_reproducao": ".venv/Scripts/python.exe -B -X utf8 scripts/gerar_relatorio.py --pdf --verificar",
+    "produtos_reproduzidos_identicos": 4,
+    "csv_e_previsao_iguais_ao_commit_base": true,
+    "git_diff_check": "aprovado"
+  },
+  "arquivos_sha256": {
+    "docs/modelo_relatorio.md": "8713327fd680e90cd65fd3860616cb73b23d9ae80815da9a1885a371e0fa802e",
+    "scripts/gerar_relatorio.py": "12d170a03e7bcff9dace9f546c98b3fb3504fdf77d0732c9ccead415e3e3e583",
+    "relatorio.md": "7c5d14b2c161c888503de371b738c61573dfd3e893539916345aec1601e98c30",
+    "relatorio.pdf": "bc7d759e27c35869471022c9d8b964615913ef6525991470deae1438b118a4bc",
+    "artefatos/entrega-v2/evidencias.json": "24b96ac768418c0e5cdb06fa1c9a1e11be62e1833ea7f96aedadb60af65d079a",
+    "docs/RETOMADA.md": "654c59b1bd245e804de0d3be9b4b0a56a9231e4d63a276a8df88f49f2734b4bd"
+  },
+  "normalizacao_hashes": "LF para modelo, script e retomada; bytes exatos para produtos gerados.",
+  "checkpoint_modulo6_original_preservado": true,
+  "chamadas_api": 0
+}

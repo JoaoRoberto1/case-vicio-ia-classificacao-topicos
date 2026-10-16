@@ -2,6 +2,8 @@
 
 **Módulo 6 concluído em 16/10/2026, pronto para revisão e commit.** Entregas: [previsao.txt](../previsao.txt), [relatório PDF de cinco páginas](../relatorio.pdf), [Markdown equivalente](../relatorio.md), com memo na quinta página, e [cálculos rastreáveis](../artefatos/entrega-v2/evidencias.json). A previsão de precisão é subjetiva: **94,8052%**, cenários de **89,6104% a 100%**, sem nível de confiança ou calibração. A cobertura conhecida continua **77/359 = 21,4485%**. CSV, decisões e referências anteriores foram preservados. Próximo passo: módulo 7, reprodução completa em checkout limpo e conferência do pacote.
 
+**Ajuste posterior ao commit do módulo 6:** o relatório foi reconstruído após uma edição direta do PDF ter deixado caracteres acentuados corrompidos. O início do documento e os metadados agora usam **João Roberto de Oliveira Felix**, conforme solicitado. As cinco páginas foram renderizadas e revisadas; a geração determinística foi conferida. O texto restante, a previsão e as classificações foram preservados. Registro: [ajuste de autoria e recuperação do PDF](../artefatos/checkpoints/ajuste_relatorio_nome_2026-10-16.json). Para futuras edições, alterar `docs/modelo_relatorio.md` e regenerar com `scripts/gerar_relatorio.py --pdf`; o checkpoint original do módulo 6 permanece como histórico.
+
 ## Estado salvo
 
 | Parte | Estado |

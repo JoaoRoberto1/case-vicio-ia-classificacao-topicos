@@ -1190,10 +1190,10 @@
     "artefatos/preparacao/diagnostico.json": "c6297f3b2c12b8a5d813bb82a4c27d4f8c22a06962dec6c857c3292d2d33fbe0",
     "artefatos/revisao_auditoria-v1/manifesto_revisoes.json": "3c7819728329a6104345e50726eae721ad0b9cd2e427e19cda2eae22cf1acd76",
     "config/previsao_v2.json": "6fce3a754c6f7723b539dccd4e15ef539c364c881004f297de1260d86d9cfdc8",
-    "docs/modelo_relatorio.md": "14018c1f3547d1cce9a9f6f86b769d10845a2ed896f9cc3916dec641359a6b5b",
+    "docs/modelo_relatorio.md": "8713327fd680e90cd65fd3860616cb73b23d9ae80815da9a1885a371e0fa802e",
     "publicacao.csv": "2f9ca44feef9998810c18bfb49933737470b758bcde7697b0c8673c531d6d53e",
     "requirements-relatorio.txt": "d1619ed97dd7e0457e0dc9f10538f3753b29f4fac5be745e1d387d48c9de9d06",
-    "scripts/gerar_relatorio.py": "7763538185d7903fcc216d1aa66e246b7e326e44a00800e4bebff80197a8a7de"
+    "scripts/gerar_relatorio.py": "12d170a03e7bcff9dace9f546c98b3fb3504fdf77d0732c9ccead415e3e3e583"
   },
   "limites": [
     "Previsao subjetiva; intervalo de cenarios sem cobertura probabilistica validada.",
