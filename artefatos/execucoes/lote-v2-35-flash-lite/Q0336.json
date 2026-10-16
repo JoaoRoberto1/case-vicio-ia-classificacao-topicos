@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0336",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:31:34.624184+00:00",
+  "sha256_prompt": "9685ffb53810cee8c44002d37ded87074bc58ea15491a204de6555c34ba02500",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "90bba67daf0cb6baf4667a9a4153b6648e723c780f89855ded989c016871b0a9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0336\",\n  \"tema_central_id\": \"5159\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5160\",\n    \"5177\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a tipificação de conduta patrimonial consistente na subtração de bem móvel alheio sem emprego de violência ou grave ameaça, exigindo distinguir furto de roubo e definir o momento consumativo do delito (teoria da amotio).\",\n  \"evidencia\": \"Diogo percebeu a bolsa de Mariana aberta e, sorrateiramente, pegou o aparelho celular dela.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28947,
+      "candidatesTokenCount": 197,
+      "totalTokenCount": 30233,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28947
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1089,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "RzXSarr7FZWcz7IP192e0QM"
+  },
+  "duracao_segundos": 16.425863899999968,
+  "usage_metadata": {
+    "promptTokenCount": 28947,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 30233,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28947
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1089,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0336",
+    "tema_central_id": "5159",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5160",
+      "5177"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a tipificação de conduta patrimonial consistente na subtração de bem móvel alheio sem emprego de violência ou grave ameaça, exigindo distinguir furto de roubo e definir o momento consumativo do delito (teoria da amotio).",
+    "evidencia": "Diogo percebeu a bolsa de Mariana aberta e, sorrateiramente, pegou o aparelho celular dela.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "5732c3a51572af2bdf786e6c22f4f7519e4d448a39bf0432454b21ba5f55b955"
+}

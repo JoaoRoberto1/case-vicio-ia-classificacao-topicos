@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0164",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:23:12.204496+00:00",
+  "sha256_prompt": "403b0272e1df5d6056c114019da718ec8e8d69305a7e05e5be01644345e54ff2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8050a96a73715b7e8e528cd7fd3f47e03cb2b92073f88d3b3f7e3ef606f58803",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0164\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão cobra conhecimentos gerais sobre a Lei de Execução Penal (LEP). O catálogo apresenta duplicação do tema entre os ramos de Direito Penal - Legislação Especial e Processo Penal, exigindo revisão devido à falta de critério editorial exclusivo para a matéria.\",\n  \"evidencia\": \"Conforme o que a LEP prevê relativamente ao preso e ao egresso, assinale a opção correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28765,
+      "candidatesTokenCount": 188,
+      "totalTokenCount": 30031,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28765
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1078,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "QSXSapOFDMfjqtsPtpGmqAQ"
+  },
+  "duracao_segundos": 8.391302799999721,
+  "usage_metadata": {
+    "promptTokenCount": 28765,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 30031,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28765
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1078,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0164",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão cobra conhecimentos gerais sobre a Lei de Execução Penal (LEP). O catálogo apresenta duplicação do tema entre os ramos de Direito Penal - Legislação Especial e Processo Penal, exigindo revisão devido à falta de critério editorial exclusivo para a matéria.",
+    "evidencia": "Conforme o que a LEP prevê relativamente ao preso e ao egresso, assinale a opção correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "94479318b4b4fc10bc1a424bc59817342fa55e07a054a616ad8be751399089ed"
+}

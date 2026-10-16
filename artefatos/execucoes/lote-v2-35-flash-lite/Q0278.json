@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0278",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:09:15.319485+00:00",
+  "sha256_prompt": "78978111f910176b19fa6cf983c20c98568350ad05166f86654054ed5f49c154",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "203d5b101c0a872df3d9a7172ddfdc13632c5b93ec81d23d452ec933a270584c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0278\",\n  \"tema_central_id\": \"5542\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4701\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a suspensão condicional do processo, instituto clássico do procedimento sumaríssimo e correlato à legislação dos Juizados Especiais Criminais.\",\n  \"evidencia\": \"poderá propor a suspensão do processo por até quatro anos\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28646,
+      "candidatesTokenCount": 155,
+      "totalTokenCount": 29964,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28646
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1163,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "DDDSaqGeC96gz7IP_NDL6A8"
+  },
+  "duracao_segundos": 5.439795199999935,
+  "usage_metadata": {
+    "promptTokenCount": 28646,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 29964,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28646
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1163,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0278",
+    "tema_central_id": "5542",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4701"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a suspensão condicional do processo, instituto clássico do procedimento sumaríssimo e correlato à legislação dos Juizados Especiais Criminais.",
+    "evidencia": "poderá propor a suspensão do processo por até quatro anos",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "90759c0592d6fcf62abdc89780db1665de01ff617343ed00a06d636a578c63a0"
+}

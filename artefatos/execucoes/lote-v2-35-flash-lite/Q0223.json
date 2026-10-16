@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0223",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:50:09.062414+00:00",
+  "sha256_prompt": "00f51e0cf42501eff115eeb33962a3badc4b9733deb9b5cb590a1666e7028223",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "60fda8ba8b0aac34fd37edbb82c6bd72bcd8bb894b54f8d5378c4cb752a9cc5b",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0223\",\n  \"tema_central_id\": \"5086\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a tipificação penal relativa ao ingresso de chip ou aparelho de comunicação em estabelecimento prisional, matéria tratada no artigo 349-A do Código Penal, inserido no capítulo dos crimes contra a administração da justiça.\",\n  \"evidencia\": \"O ingresso de chip de aparelho celular em estabelecimento prisional configura\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28626,
+      "candidatesTokenCount": 161,
+      "totalTokenCount": 30592,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28626
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1805,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "kSvSasqDO4Kez7IP0_PDoA0"
+  },
+  "duracao_segundos": 11.419952199999898,
+  "usage_metadata": {
+    "promptTokenCount": 28626,
+    "candidatesTokenCount": 161,
+    "totalTokenCount": 30592,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28626
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1805,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0223",
+    "tema_central_id": "5086",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a tipificação penal relativa ao ingresso de chip ou aparelho de comunicação em estabelecimento prisional, matéria tratada no artigo 349-A do Código Penal, inserido no capítulo dos crimes contra a administração da justiça.",
+    "evidencia": "O ingresso de chip de aparelho celular em estabelecimento prisional configura",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "092e1d433bf09aabad1bae079669aa9e5cd3b47b22e9524b4b028203bd63b442"
+}

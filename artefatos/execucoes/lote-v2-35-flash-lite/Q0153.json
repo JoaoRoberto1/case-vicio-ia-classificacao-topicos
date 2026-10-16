@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0153",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:18:08.908173+00:00",
+  "sha256_prompt": "49247952ba0b9cc6fa8478bcf5c1148c21c2d9e25512cff7f313ce01825d1c53",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7427304cbe09aab5640bb14678915a72260c48a77c147df64c53141154d48f3a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0153\",\n  \"tema_central_id\": \"5222\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5226\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o conceito de dolo geral (erro sucessivo ou erro sobre o nexo causal), matéria estudada no âmbito dos crimes dolosos e da teoria do crime.\",\n  \"evidencia\": \"O agente que imagina já ter obtido o resultado pensado por ele, sem tê-lo alcançado, e, por isso, pratica outra conduta que efetivamente alcança o objetivo primário realiza a conduta em dolo\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28644,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 29711,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28644
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 874,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ESTSar-FLPiqqtsP7-fgmAI"
+  },
+  "duracao_segundos": 5.299785100000008,
+  "usage_metadata": {
+    "promptTokenCount": 28644,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 29711,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28644
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 874,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0153",
+    "tema_central_id": "5222",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5226"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o conceito de dolo geral (erro sucessivo ou erro sobre o nexo causal), matéria estudada no âmbito dos crimes dolosos e da teoria do crime.",
+    "evidencia": "O agente que imagina já ter obtido o resultado pensado por ele, sem tê-lo alcançado, e, por isso, pratica outra conduta que efetivamente alcança o objetivo primário realiza a conduta em dolo",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "7c949544ddb078fe1492c8ea9b71ca1cab36f3d26456dd76b4801dffdfc33f80"
+}

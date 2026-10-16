@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0182",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:36:35.909211+00:00",
+  "sha256_prompt": "87e839c5bad7ee34c32b6401ec40c43312f9b6e5b9da7b6208d23d615d1e8c27",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ce114f99bfc17d20858a7c2f786824e19738dde603353e80d78e129399edda57",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0182\",\n  \"tema_central_id\": \"5154\",\n  \"extras_ids\": [\n    \"5122\",\n    \"5138\"\n  ],\n  \"temas_alternativos\": [\n    \"5120\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão mistura proposições independentes referentes a diversos capítulos da Parte Especial do Código Penal (aborto, periclitação da vida e da saúde, rixa e crimes contra a honra), sem apresentar um tema central dominante único, exigindo revisão editorial devido à pluralidade de assuntos.\",\n  \"evidencia\": \"I - A instigação da gestante para permitir que terceiro lhe provoque aborto, em se consumando o crime, enseja para o instigador a participação no crime de aborto consensual\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28874,
+      "candidatesTokenCount": 229,
+      "totalTokenCount": 30470,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28874
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1367,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ZCjSapS3KaO_qtsPhdDi0Ak"
+  },
+  "duracao_segundos": 6.169759200000044,
+  "usage_metadata": {
+    "promptTokenCount": 28874,
+    "candidatesTokenCount": 229,
+    "totalTokenCount": 30470,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28874
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1367,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0182",
+    "tema_central_id": "5154",
+    "extras_ids": [
+      "5122",
+      "5138"
+    ],
+    "temas_alternativos": [
+      "5120"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão mistura proposições independentes referentes a diversos capítulos da Parte Especial do Código Penal (aborto, periclitação da vida e da saúde, rixa e crimes contra a honra), sem apresentar um tema central dominante único, exigindo revisão editorial devido à pluralidade de assuntos.",
+    "evidencia": "I - A instigação da gestante para permitir que terceiro lhe provoque aborto, em se consumando o crime, enseja para o instigador a participação no crime de aborto consensual",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "285dee2b632ff4a8167a31af8688e197a1199d21478aab1f056ed7c60f224094"
+}

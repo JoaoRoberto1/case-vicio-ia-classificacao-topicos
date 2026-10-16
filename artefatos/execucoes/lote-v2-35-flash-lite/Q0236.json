@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "Q0236",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:56:07.081447+00:00",
+  "sha256_prompt": "500d3dac77e1d2913f576f4650e1652070cf9092d0ef118e4e5227650186c7ae",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0c911d6c349cedc1a7727d67d813fc63fd57ee3df42e28fc8a8859bfe975e4c6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0236\",\n  \"tema_central_id\": \"5491\",\n  \"extras_ids\": [\n    \"5495\"\n  ],\n  \"temas_alternativos\": [\n    \"5490\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.6,\n  \"motivo\": \"A questão apresenta proposições independentes que cobram temas distintos de Processo Penal, como questões prejudiciais, restituição de bens apreendidos e valor probatório do inquérito policial, sem um conhecimento central dominante.\",\n  \"evidencia\": \"I. A apresentação pelo acusado da prática de furto, no curso do processo, de prévio contrato de compra e venda que o identifique como o comprador da res furtiva, impõe ao magistrado a suspensão do processo\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 443,
+              "endIndex": 644,
+              "uri": "http://www.mapadaprova.com.br/provas/fcc/2013/dpe-sp/defensor-publico",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28854,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 30538,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28854
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1471,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9yzSauHAOe-1qtsPhZmS2QY"
+  },
+  "duracao_segundos": 10.828568400000222,
+  "usage_metadata": {
+    "promptTokenCount": 28854,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 30538,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28854
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1471,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0236",
+    "tema_central_id": "5491",
+    "extras_ids": [
+      "5495"
+    ],
+    "temas_alternativos": [
+      "5490"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.6,
+    "motivo": "A questão apresenta proposições independentes que cobram temas distintos de Processo Penal, como questões prejudiciais, restituição de bens apreendidos e valor probatório do inquérito policial, sem um conhecimento central dominante.",
+    "evidencia": "I. A apresentação pelo acusado da prática de furto, no curso do processo, de prévio contrato de compra e venda que o identifique como o comprador da res furtiva, impõe ao magistrado a suspensão do processo",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "8fc6b3f65cbc12665bd08879a95f5b8fc85b9202752edc661b6e5cd2c1924393"
+}

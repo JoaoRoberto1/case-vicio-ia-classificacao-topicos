@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "Q0268",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:05:59.064337+00:00",
+  "sha256_prompt": "6895ac3f18b0c61b321dbfe7feafd4e43776997f37c711aca71e8967e51f55ec",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "932068b71d35819498f97699c2a7a41cd2a8392532ffc5b0ad20eafcb7418557",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0268\",\n  \"tema_central_id\": \"5120\",\n  \"extras_ids\": [\n    \"5118\",\n    \"6716\"\n  ],\n  \"temas_alternativos\": [\n    \"5121\",\n    \"5122\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão mistura proposições independentes sobre diferentes infrações penais (crimes contra a honra, falsidade documental e abuso de autoridade), exigindo revisão por ausência de um tema central exclusivo.\",\n  \"evidencia\": \"São requisitos do tipo, no crime de falsidade ideológica: 1) alteração da verdade sobre fato juridicamente relevante; 2) imitação da verdade; 3) potencialidade do dano; 4) dolo.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28736,
+      "candidatesTokenCount": 227,
+      "totalTokenCount": 30978,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28736
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 2015,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "SC_SatqCAYqBz7IP0pGLsAM"
+  },
+  "duracao_segundos": 11.616449600000124,
+  "usage_metadata": {
+    "promptTokenCount": 28736,
+    "candidatesTokenCount": 227,
+    "totalTokenCount": 30978,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28736
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 2015,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0268",
+    "tema_central_id": "5120",
+    "extras_ids": [
+      "5118",
+      "6716"
+    ],
+    "temas_alternativos": [
+      "5121",
+      "5122"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão mistura proposições independentes sobre diferentes infrações penais (crimes contra a honra, falsidade documental e abuso de autoridade), exigindo revisão por ausência de um tema central exclusivo.",
+    "evidencia": "São requisitos do tipo, no crime de falsidade ideológica: 1) alteração da verdade sobre fato juridicamente relevante; 2) imitação da verdade; 3) potencialidade do dano; 4) dolo.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b9dd07f1f772c311104db32e69dd02843466d888939261275bc8410939772742"
+}

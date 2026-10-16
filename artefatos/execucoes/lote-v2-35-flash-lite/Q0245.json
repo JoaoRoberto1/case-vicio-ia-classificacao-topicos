@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0245",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:58:26.076471+00:00",
+  "sha256_prompt": "11967b233bb8e1cf1780992a81b4a43ec2e4524d65e6c2d71f504c2f48955da1",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "378f1ec01c331399ab0513da7c95b22e322f8aaf963b823bbe26d5c2b5f7aea1",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0245\",\n  \"tema_central_id\": \"5185\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5189\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda regras de prescrição penal de forma ampla, misturando disposições gerais da parte geral do Código Penal, prescrição da pretensão executória e legislações especiais, sem um subtema central dominante único.\",\n  \"evidencia\": \"Assinale a opção correta a respeito da prescrição.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28820,
+      "candidatesTokenCount": 168,
+      "totalTokenCount": 30977,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28820
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1989,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "gy3Sarv0A46sz7IP9ZXkgQI"
+  },
+  "duracao_segundos": 14.65801399999873,
+  "usage_metadata": {
+    "promptTokenCount": 28820,
+    "candidatesTokenCount": 168,
+    "totalTokenCount": 30977,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28820
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1989,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0245",
+    "tema_central_id": "5185",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5189"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda regras de prescrição penal de forma ampla, misturando disposições gerais da parte geral do Código Penal, prescrição da pretensão executória e legislações especiais, sem um subtema central dominante único.",
+    "evidencia": "Assinale a opção correta a respeito da prescrição.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "99fa765fa722c3bc9e7be6465ae825a96a238280b0911b7dc2ddb91f387693fa"
+}

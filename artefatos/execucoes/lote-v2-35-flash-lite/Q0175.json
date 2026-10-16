@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "id": "Q0175",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:32:43.892457+00:00",
+  "sha256_prompt": "587142c77499cd340ce7e2e325e5ebd1e5a208d7273e3483d60f3b81517521c6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4adc52414dcb40996e4ec1918f21d72cb83a38a899ee7518b66acbdb002ed463",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0175",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:29:09.116043+00:00",
+      "sha256_prompt": "587142c77499cd340ce7e2e325e5ebd1e5a208d7273e3483d60f3b81517521c6",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "4adc52414dcb40996e4ec1918f21d72cb83a38a899ee7518b66acbdb002ed463",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.883934400000726,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "a16476c455390a259a8e3cad38c0dc0364b3de0dd4badabbc353983cc37e80ad"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0175",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:30:13.969438+00:00",
+      "sha256_prompt": "587142c77499cd340ce7e2e325e5ebd1e5a208d7273e3483d60f3b81517521c6",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "4adc52414dcb40996e4ec1918f21d72cb83a38a899ee7518b66acbdb002ed463",
+      "numero_tentativa": 2,
+      "status": "erro",
+      "duracao_segundos": 6.2175223000003825,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "1f8180de97be9308d0f82e77b6989775bb67f06d37592777fda777578cbacdd1"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0175",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:30:54.888163+00:00",
+      "sha256_prompt": "587142c77499cd340ce7e2e325e5ebd1e5a208d7273e3483d60f3b81517521c6",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "4adc52414dcb40996e4ec1918f21d72cb83a38a899ee7518b66acbdb002ed463",
+      "numero_tentativa": 3,
+      "status": "erro",
+      "duracao_segundos": 6.525833099999545,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "8df7d4442d4b24c1394e4c17521710ac330256d1e4fcffe0c0eca1ca245b60d9"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0175",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:31:34.840550+00:00",
+      "sha256_prompt": "587142c77499cd340ce7e2e325e5ebd1e5a208d7273e3483d60f3b81517521c6",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "4adc52414dcb40996e4ec1918f21d72cb83a38a899ee7518b66acbdb002ed463",
+      "numero_tentativa": 4,
+      "status": "erro",
+      "duracao_segundos": 1.5827471000002333,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "b19c1e99612ec77ad4880f5b610a49a8d4ab6d4aabc72b7648ba6f5625f08cf0"
+    }
+  ],
+  "numero_tentativa": 5,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0175\",\n  \"tema_central_id\": \"5091\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5092\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão discute a tipificação da conduta de agente público que exige ou solicita vantagem indevida de particular, gerando clássica dúvida interpretativa e concorrência entre os crimes de concussão e corrupção passiva, o que exige revisão editorial.\",\n  \"evidencia\": \"João solicitou ao condutor dez mil reais para liberá-lo\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28753,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 30218,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28753
+        }
+      ],
+      "thoughtsTokenCount": 1285,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fCfSau2yOfrrz7IP-cGi8A8"
+  },
+  "duracao_segundos": 10.851184999999532,
+  "usage_metadata": {
+    "promptTokenCount": 28753,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 30218,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28753
+      }
+    ],
+    "thoughtsTokenCount": 1285,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0175",
+    "tema_central_id": "5091",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5092"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão discute a tipificação da conduta de agente público que exige ou solicita vantagem indevida de particular, gerando clássica dúvida interpretativa e concorrência entre os crimes de concussão e corrupção passiva, o que exige revisão editorial.",
+    "evidencia": "João solicitou ao condutor dez mil reais para liberá-lo",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "83a1f9c43cbfc206318ed270dd68d07199b72d19f76b0db5eb6b67c0c2ddc624"
+}

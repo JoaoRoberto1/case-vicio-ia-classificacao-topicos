@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0271",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:07:20.378572+00:00",
+  "sha256_prompt": "a52c55bac76dc174c88cd118a0049cf2cccc54f2eb3aa32ab4edc4cdbb6ef690",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "fb21625321e9ae4a36b3b889420fcb99af417b43acb5383f06025ac5c66a479e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0271\",\n  \"tema_central_id\": \"5562\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5524\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a exceção ao princípio do tantum devolutum quantum appellatum no âmbito do processo penal, especificamente a restrição do efeito devolutivo nas apelações contra decisões do Tribunal do Júri (Súmula 713 do STF), gerando interseção entre o tema de recursos (apelação) e o procedimento do júri.\",\n  \"evidencia\": \"às apelações contra as decisões do Júri.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28821,
+      "candidatesTokenCount": 199,
+      "totalTokenCount": 30745,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28821
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1725,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "mS_SavSWD46sz7IP9ZXkgQI"
+  },
+  "duracao_segundos": 8.43128869999964,
+  "usage_metadata": {
+    "promptTokenCount": 28821,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 30745,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28821
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1725,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0271",
+    "tema_central_id": "5562",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5524"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a exceção ao princípio do tantum devolutum quantum appellatum no âmbito do processo penal, especificamente a restrição do efeito devolutivo nas apelações contra decisões do Tribunal do Júri (Súmula 713 do STF), gerando interseção entre o tema de recursos (apelação) e o procedimento do júri.",
+    "evidencia": "às apelações contra as decisões do Júri.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d6da9c7499d315968b0c44a99ebb82008682847ed636be40a910cc8ce62a04f5"
+}

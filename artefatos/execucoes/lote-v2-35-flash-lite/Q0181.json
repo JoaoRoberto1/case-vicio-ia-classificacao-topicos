@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "Q0181",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:36:16.956219+00:00",
+  "sha256_prompt": "15dbd86370d4e6b8b9a9d3b8f393a10c3a59234b0a07b313cee2d2bc05c281d7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6c52e0ec6e189f3257826c249704ad5d57264623a80528f597791bb28ab9d937",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0181",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:35:37.572027+00:00",
+      "sha256_prompt": "15dbd86370d4e6b8b9a9d3b8f393a10c3a59234b0a07b313cee2d2bc05c281d7",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "6c52e0ec6e189f3257826c249704ad5d57264623a80528f597791bb28ab9d937",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 5.114322499999616,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "ff2734323582596ced653da075c94958ce20e40efcfb19e6c652b40bb5e089d0"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0181\",\n  \"tema_central_id\": \"4695\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente crimes contra a ordem tributária (Lei nº 8.137/90), mas engloba nas alternativas proposições referentes a crimes contra a ordem econômica (Lei nº 8.176/91), matéria que não possui nó específico correspondente no catálogo atual. O tema central melhor sustentado é Crimes Tributários, exigindo revisão devido à mistura de legislações penais especiais.\",\n  \"evidencia\": \"Identifique o que constitui crime contra a ordem tributária e assinale a alternativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "Et0rCtorAWkUfRO1vm8hOIfdo8h5ebFYNk/Am2lNpLJubFboupkZCiF0YezG9ZHljBO/F3zj+cLVg/aaEIh5NGpbiLTUWBIp1mC+Gf+zKKIZaAdhQhsnoLHeo0IP9SKFpLkgTTnJNjIe6zILhiX/IgeEmBpQK+traNnKrycIH2yNvutKM4oEWwYT2eBkeKxQ5lMgOAmXr6m3HeT/+4w3UuebGd4daK+gMAG+l0/jJnrFHnGZBIOVM8C//8YG/BWzwsM4h/7Ir0N5V/mnFlF/6lxilwa6xVADF6pbfkE6AmGrbhEpKBOcL+POZ94ikqC2FCgcJJ+XE9x6UILBeMKlt2eGVlY7eUNlJwN9ZcbAF5CVFoW7JSvnzoQ3WjByBsO0M4vaEIrt362dCEXHSu9nFVwKHKlj7HJYfvdokg0NvdqTuqucWA373ipfe+1MyMttWlXJrw0RkCXwdzy94CMIUELYK0S41ZFdZQIFw0qE/U13e5Ppd4rtwHeFHrEorupY5pZPripiZqjkTBU2FRwCCZ3F322tNx5NtsbKp+oNvBg85JKs2Gs0eJSuJ465/T7AAaAbhJjT5GfmUsXcNE0uRXvkuOK6dXX8Re+sJVQ/cR+E5dry7ygp3KHeIQaEcyOVmJ1LepDo1eWRl4YvYw1g+/+FFAXOjec1aeuzDYxZgUbZQif77ali44LjW3uB3ta849GVuL5C0JYMaZ25oXwmuWNXGtLfIXiAIWtFeKerGYrFxwCLAsYY6FBq8bLKzwb7lt+NlvQKKP6dni59mDlSfMZo36iCFBfLasqiKzn0FBj5Vyw4L7R6/HUK3++bfUc/EKnB1Glwn1s819+x8nRLbkoVvdk2KRRshdRyowoDf5Z11UVFBs39Lif+ctkHpG5q+M/m438e91+jngedMrE7Nm2sFEwFrCKQpR9MQ5Uvpv4D8RPS6auKt2flVt/tB4SWrGplkCv3kMJnDhYT+JpgE8mnhBFkqYHmkxtKH0DzSpClNU61kVlyJhOw4chQUaSF1mNlhU3F/DFhWWEg6tYrCqoozwI/LaqMbzw+wjeCDD8lp7xskIZ83KAWB/vaeviz76chdXp7cOn1e0qs9N4Mul0uFIAWbOlHsD0f0rfy3yJXWW47tljNxfZlzWPD1zZ9v+knUE/fnn9VqdHU+TVaQ2GxswmpjJsymOtXus/VeR+iZjH3CfBYZj5QtPWLqQyFaY5wEeW4R8zVQbIocghm2KI5XLPtXgOT9iZR70LQN/uBiRWNlX0zxDxNT+Dx746vuIre0pZhntRzuBQpjvWqZRZmWbTrZ0Un1ZS/OHDtRyaO9iOsWF6mPW/BH7Twkk5ZnM0qZJg1MDi20A9b0VyC3i7zOm4L/C0hmcuPNuixr2eveWVb0EtaoCw8Sl/3nrhV7eBvy/QnbDOgDWeGTZao+4KQTGrk6uplbGqfE9bu36N+QMTpDeFQsHoSrY03+owAStFOjZVhEjnCEVXFvrcUKISPoEpE9jI4PsqVhH5rkWcTBsBTIoDcWhrvHrhkLXLT/S+QPiuizD8R6GIx/fKzT2Fm5dKjN2FGjo/ZTsd+4mMQZI9oGMwR+yPofsqzNuDFA1aFJci2VBLuNJAv/IGm3nIoQnCQljP0YchUGqhCfgx8X8ls5wycjC8YFp7cpvbcdBM1fAcRD2wllXphiCDWemXEEBvzIqAM6GHul/gb3TIUKHXeMguIcvhWj0VoxCE4YFOIocAD7pptFZmLLvBybbMIqx6IAEk4+hGykVH3aITt0KFmL2h+w4FYS3WKZYq0lMowIDbtfX3TflOtomqt6WMSMECWowhPchFt++JigFHhdd/vKTcwR/5NRITx2Bnr4WbPqHLZkKj2VmVzgQeiH0yKJZz3AS56hUx8suQcOy7/1c9jPxV7vlmssvX/1hkEczvcfvAe7K2K4VYtioHBuhR9YYxTqcXAqVOFKmbgJheKqo8XOQHCO1FjzW3cUsA1sJfn6xKl0OYDT6FF5UxulABmFu44rxW/XZMbsbaxslGYMgiu0L80lG2jXzPAVA5vjX8rqDbvFi8WxXZADi1K8ecjBKv2STyWj5CdMCoTIiBmzRNHxL6x25FTexykuuY9cj4TVKerLLKHehuZxR9bFJyjEoT/PE1WtZEtF5P7hVllERZI4OrrBzTXgXOirrhjci1a1T6JBubosEYSwcE32PnH3dzUZ5ZwriSWP8MTdGb3JQ2NLiiJsjCGdDk43t/yPlsfGscigYY43mzDIbBEpVvnD8dZybdfUPUn6H8RAi8CpIKvdEKhc7sCfzbY9DyIBxQZ/dclZ+n3zGnWpud9tgnD+Us49Rw4TqIBB+YwvGIUfP/C2IzxUYfzYDccW4irWK7ljVyol+1geTZJs+24LjKrAi4Xp2ttVsgQRXO01QbLeDDO+XLxEGbAmcYSZy//58nN/B9VsjHNMMlSlCOQOFJo/QC81bmc8sBtfW1chFp4N4p1I+hp7K1y20YbrsI99an5QWUjcSmml2MQuYMzros7hIJKkHl2Q8/YMUb3y8zT2/3GDzKa+RDPEOw2XtSCaGsns9nL9nJjH1uJ2myayn9zYFKtMnUd3YG+D87IFHZer88SZJTusU7bTAUsPpdNUCXAq/R62xZ5dZaoFMOcjSQrMmR9lNyCi5h8zKRXVZWMzbHuKbycrH05zYxEGSQgbigC3qM4qTabAJyvvusDUEZXr+QJsdsIIanoCiXkSzPRjcBI9nABx8PFaOmZ+ndEqxq5DYoj6z5+dVyz9xpoYtKIQcV295cLzWByyT8QlIweN5GziMvchpzlYo/KoNoSVu7txdF8mWZ2llSwtYOBr++EH4AMiYnYl9tLf8msgI0ktrKUDUPtXRSpVGF2W8uggviZmHFRR8Ny47KSHD51LcsfpB/uC14oVBt2Ei4NrOb/RpPEVpH9cXakynjFKWWM6Df3OPr04EmDmNF3LfUUG/qIP0KBbVa7rS8QXlvidSuKpIoPGHdFSCcvRu1C8PtFHuRKE0qltWskGP/35t7QOSKRYCSUcnNRb1b8wFH+z/nWZfMZfBkYbTcVlZjIscFeQ4IWBy9tYeU5HiB/7eH4QsAEytauvBnQTx6sEhmWiJ5U97AsBLAZp2IOWMbkB74fsB7RpjAkh7zm9fd6yBOB3UudqlSeQYzvcZviitisvaGfbVhNYqHTtK7ItTgu5rQtWGdwslJbqFgMdPfKjLPrgy+Ts3GJznJxjTNW5UYcM/uoq5QPSSmBEp+IyAdf+WT3tsTi9+/Y7TqOisDATq+RHpNnDQXMoC4A0vwg7WeWyiHgQnxfvIr+/F/77ap4G2VPpvrfEtw6VxWFdwGmcpK+2iykKnTeI/l/J0omO89u097Vhkh9Q/YEgWDqnbCxYD7wnP+XbeR0aLkYtQzktIzaBkcJp9hi6/g0Xt0LH/c5RbV+x//G2MmyfLMhG+2Whs/JD/67QCF7bZ69cIoDFKbHeggXTUjjiZAPJvRjhZPVt639ZGndqCjhsUlc/gieIRefjp/wdRec1AgHsfBYNNZgYOSUyw2o9MH2FhxkY6Nt9bmL2W4jCTYt9VeyTxEwVLxuRjkEgqEbPc0ePWZw53BLPIfsvi0YL9Z4cj3YuyETzonumr7HUGWs58Miq+vAl8+sVM+vWaZwDWFm4zRsVWdXPitbze4CVEw2q/VuuNMZd73SrxMn7IW2EYV5ra6p7Dp0G3XZm1Jn0BKI0bQOYr0fuqur+KjL5q6LqcjRKv8jU4GDX6yPDWIRnLFJsb22hBT6EYdH0BQN1s0jHOsyq+/aMFhQg2PmtKg7b8hCjNcoTLk6zlokA2G5l8kZy35biRN1+SfGtrKuHZCsjXi0biyFwae55mhQAuo8otSDC9QLfo0K8Zx55X8Zi3UyBRrbslXGh6K9xVSetiYzUiRbb7u+MDwutWjZFUUubKo6PoIfy+yJcloWXaAgx9lbIlC7uOTAwsOAn0s6IXgHsuhLosqx2H0dBuFtPbV0ZRByUSo7HsV6WxtPU5+ZwGObaqT+hkd5Fc/Ykwdm5Pk/Qm0Mpnjs9UlQXMlUZHNQ/Er6Cq9Z4Rnj5HWEmsqMfEwFRkG06yYEhVj4AaMs2OxwRcJagX3jT7dpldW6Xa5wGBP0WDWM/oUgrh7yhm/S2TxJT6DWWNlmzmX83ZWk6lHTx0GXZjLDG5Nd5FSYuK5FFVlU0j0Ls9TlpAZ0RSgzGYNxpNhOASUD2NfnmYd9nFkmW1d/fqPSK4CfQWVzLa+/6bolTR+VZ+Br0GhTmRHaQT4DRGxMCzh2C9ldxlU593qE7zDK25coBk2fDbKgK9Nl0SRwMUrZe7BhdPvKnyJglZLIm/YAqU7vPDsev2qvQXzPNRa26N1wqg9bn5l55Otff9GP5nHYp9PHCvDXcszQ0iclmjarfIDOOIFhAIG0H38Lw4pISXZ8c3sU78Pf1SWGWvWu7I2JBPuPKDVM7pdR2XQkcXqXaTp6ELq7oXnF4ZYcrq74tppi/NYMbO+eoDsJNqqotxs1Y8t9F7wu53UrAFdGljAZM7uObCgPuJ+C6ivzXhOKBEnqCdXLVic/Dl2g1/X1bYUCBRd0DLg2qExyXkl1G6yLHJD8tPG+mkPl0zJSuFQ/dB542Al3buR0f1wXRscRAWCC7gVEZsUZI2QavB9iajjUv1fK+lW22Q1lDi70ZIqG1KVBni0yARl5RktEsOIojh/ayA5P6dXvdX76n/ZoEun7YzaAWhsGUIx+rbe3Zsjs2kYykIPstmH/vFRXeco3wmOOSJ9v8k9pBfBUBAIqVf4E3bP9MSYxN3nD4ODTHf/BBQqu26gx84QBiHKPJJqI6VORO6uY5vZ3UOS7fqZV1jlQzPx6MA2Vdmo2yX/i8aR7+KVDSMHNP4N+yEMVKxpDXlziNYkhmXiYl+DDF+ZPAq5cVCJv0QqCTavdf9SJv1hD7Byk6Y+tC5MBYnKthDRJJ+WQQLZYwN1nRE20NFDaa7ecjG8KKP9hSi9MwgeMeO7kevI4+8PpUVWc/xLdL7GVp9n4X/J1kA6V+4UlQ1dQUeNCZRWOOBFtYnkWHCzdJcHpgSlNqBwwQ9AHzyEE3cmPqmf7qeWbAjDU/acikJk8TWb/Lc9CffLfwUIvrUbtbcVyihFVvysVF9QVUH/ewgpbfifkHJuyaL72k2xicISIeXcBGfULuZ9lmK/bKjYB0oOd3sFgX3jpxvBeiFv8+ZAyFihChVEk0tR77cAzvyCcOAQepju3cdKKPK3yqRE5T8AXuUTyNdH6CTL1YaEOtxDvCluAW+jQ1SAXHOPRweLtgoVpgtS9Tat5SQN2V8XdnPRf1mHmWtZGTG7x1T3E2pMF0sJrGwczaDJ3UtaQqEomjhvHVGMhvgQiS8mOkA0/6co5z4nYyJhFvQcdWoF6qanBvC8IvCFAYIgdIKsloj2Fvh+urt+K8J7sUrAWuXvd6LM6W2wrT+VCFhCmJ6dRq9JaF636XN98pf5egf4LSrH6pSUiQhgxBOKlmWC5sXoPG9qK+OQpWax9OYfaXnwHi19eoaJVmEc1U//OwDD2HX5fRzRgK0I3MnPrnlYnHapI1tEtvq5U8gm2vI75tIfCsdRnYDK1/87DXjSkfefwPGuoHTX/aU7PVm0oXqZtINbIX57c5tFuPOeA5OyBRpvW8N8Ti8Y1b+PQMtx7n/P3V0PszWEFnsM/Iw5OqEeGeE533hi1l8HGJPg4kWbU2Bg6CCFOktIQorGuGBlujykDjbEAOETsVEWAsf65FlhQ98BLRtPBrouMwM6d2+xhedFRhBzj8+zHlxKbXJkMQvpx0gGEYw5Fa/7JIn63f92FC2ayWV6ZQgsIlTPu/McV5+J6/odE8rlDM1sZ1+hxlXRKl8JGslXxKF1GP21u2RpM09toBs8mY0gmlfvx5fbMEjfGOTjbGq1Zvb3T1kDO7BaqncfbMmKLpSxdLValWB5ofm8r8gSRByLstpyP5wsL5XYj5mqtaiLknjbMGJL8fdpo1T476BKa/x6ZK6jSiMuLL7xkRBHvz3rJtQOaU9vEalaSmksClLOhaBqhhMvGyUWHWddlobyUvj55vlcOMSu9zT+Lut1iW3vR6PRzpa1aBKtu5YrNgi+hYhHhW874Zy+mK9AZBHuIX/2V7tL4vQ8YV3EOIjoBCEHt4p/92QP61mE9bMm7U8WpGsZHMVOz7LFdG1nXuqnla4UoIsKDHwGiS1zqzNgNPh+vPwen6WLH8kumeUx4ZGGV+xsZ/9Ll9J9EzfFqv+VCfnoaWEjaDlBgW8Ir3NOd41wHApzq4kmY2Inqlo/6DhfulwpbPovypJDNOnoIEieAoKC0DisBPRqjKUyVLmABVALWazQZq6PAwhNuPwOV5jMr0b9zUx21SsH15OvDzGmuCvHHgcwhcaxh/6kTV4hqdhE2jUfOJ+WYtK6XQdEObjMsJmVxMXJSrbzuNjYAwiX2L1hR/AdqqqPq+Lyc3LXnYfo3eW+jnhnlHq651VYdqD9+UFAz3thVRQrnpx7S4QGaiKvI6+YjHrHeZCX7hvhnhEBxYgpopmH618y/3YwOuXB5SdymC2u7pDh5C1D37SjO3KI4o9GAwDtHOKe7RCNIouyFnmmI/4w2D+CEW5t8s2nXa48JfzUA7aPy5W3Uq2imb35PSt6Xx2MH0Kvhs5z+b80wNp7hmi9vHR8oUS5aVOAd9PaN110xHY7n8vv1mQptP4Qry8/hK1OMvWqUJcIpZ5w7sLcQ9rKfllb32ZDgQUeN/EmVZyxcREzlbZ8WoxF+7n8tIYkACqBeeTWDnfKdflvPfinfxc4YkEf70lHwZl5HwcIjFJn0RKaW+Krp+vewjzhAuhASJ5zevqPTYC6tHAkJxqMUK1VZSi0Jn71Dp/xyQA0iCE0IR6ljYqWXVS+Rwr8FH0SsK4Yzxfk+oeR/2uAKCyhvmxJKU4c5LAMuKrwXzvQqqOcw8Xl2hnEEM27dQq3/Gvinc3orVuWZQNac2SdLkiGlLsAvGNQdiVu/xzTzkwDrb6LGcD9/YOk2WnkOuluG2hNw7Ai+62pJNNsi4Grwg1GAWy+tOl+xdhmaU9cKZxjXjIxZnyvIKbcR/vZjNW8LSez9nrdiuatfmMKvUm6gY+QoIKkKl3i3G6cxffQlFNBR49Onx0ZB+qS/z8rcy2s0UymKQa/7Et89teCoecGr6Z72jhdiK/WgjBQmsEU61I/fQOo7iGC3w7LKMWfw/VXHIKW/RVmSQhsOajIrOMgaO9fLVigzgZhKyrVYsipxWfQ4l09OmPC6lytExwK9NNs37n0plgumPJbKvAS+p5HjV4gE6LT+Sk6ib8Srv4ySZm9XtCkt/4pJz36FX/h/eyG4wUDK2+RstX1ruZS8RWDH2xipxzT7j3B+wbCdnVTWi1JxzP16CfSbuG2QfCXJVo8JQvMb9VtzfrOT0fDRRNcVw2AbilOUVAmNAva4wu6sSBc="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28844,
+      "candidatesTokenCount": 207,
+      "totalTokenCount": 30666,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28844
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1615,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "USjSarKBN9_rz7IP2cDp-Q8"
+  },
+  "duracao_segundos": 8.856164799999533,
+  "usage_metadata": {
+    "promptTokenCount": 28844,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 30666,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28844
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1615,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0181",
+    "tema_central_id": "4695",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente crimes contra a ordem tributária (Lei nº 8.137/90), mas engloba nas alternativas proposições referentes a crimes contra a ordem econômica (Lei nº 8.176/91), matéria que não possui nó específico correspondente no catálogo atual. O tema central melhor sustentado é Crimes Tributários, exigindo revisão devido à mistura de legislações penais especiais.",
+    "evidencia": "Identifique o que constitui crime contra a ordem tributária e assinale a alternativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "85d0bc132088713fa90387e482bd894e02828842bf3dcd0ae9276fc58cd63121"
+}

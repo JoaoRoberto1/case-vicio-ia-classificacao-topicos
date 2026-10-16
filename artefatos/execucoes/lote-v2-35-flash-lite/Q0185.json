@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0185",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:37:27.288915+00:00",
+  "sha256_prompt": "199c01b15c9fe39647b5b35c34258bb818120bc077e03aad7057ded60447b6aa",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "bf8cc37175cc572ace63f4b43b1ae2993435017c4c5f51fc21825138cab6dcfa",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0185\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda institutos da Lei de Execução Penal (falta grave, regressão de regime e procedimentos). Como o mesmo tema está catalogado em ramos distintos (Legislação Especial e Processo Penal) sem critério editorial excludente, utiliza-se o tema central 4703 com o concorrente 6734 em temas_alternativos e requer_revisao=true.\",\n  \"evidencia\": \"Durante revista regular no interior de um presídio, um revólver foi encontrado na posse de Antônio, que cumpria pena no regime semiaberto, o que constitui falta grave.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "EsEfCr4fAWkUfRME+gZtplMNXg7qWoQIzYALrT3jTkrNG52BvnxtnpdChYR68pQ7nkn02KJbkBPIkS8SZ0tyAuAvhgmeDx6C4P8PFVzdj0Pk+RVpqrAFBEPg22v9eed2g0HR6Hg3sZKmJhdk7Rb1poDFrjq3AQcG1AUgbzTJy492Rc6GGbsJ23dxM1cX3C6bzdVACUhilflXI9J8LFv+W2MrBbPFl62pDrgqcfN410A9NjpVMprJBOnINSyTkjHcrfLTGbighzV+ghivUww1SVS6RSb/On14IqVk4S54qG4U4g/hYYQAI6F/9RClDEeQ+ft6Vx8cv4cqVpqaHIeZkk3yoaCKJIp9qgZSN/wD8/9HCg+A9FyZ38TnjUaEfuRYbOSoxsj+JH8WGeC6taN7u30SQBvHKOg3qkDisybNc+l4JQ8UeoUUSVKeLR7lxjl9bIU29wnSa5vhXBWMnhzxR/prJhR3XJsjUSoP2VLN2VbiQvOQrVIScoXWz0t9l1Kxcc7q5ajv45RchuyMKuzQmE5vc+OEdWGe9LnkngX/eIrFv7viuHP/MPJK4UbQ8V6HQxmPETtwr5wIlP2MFeNukmZAj6dZFy9v8Rh5RY8ZWauSFBfHF4q0XiRDMV64pA+M+FtcFmlkHrrKpsT2jTxEkf5pUzPUHNYX5JFMal/k92h+JsJDuEpjsQx8ZDECOSNMI/R8lClehwWoOWlr8FOuvo3igrbtcgRlhc/FKI3JPI9iIjch8n+fcLCopU6s6OQmNbBDaY8CCbj1j/NYlAC0CK4fDvYn6rV7qpdr80/9cPtAV2sIMN3OvWYZ68MUPEL04eIudfpHjUq0fVon7CXmXniXNPFrwPEFNcwPO8aBCObpjythEkmurkZ5uWh4rDG9F3K4wJ4/qSYVDSMA/DxwGdNt3rQLKsh7sw5GrF72OZRxOBVujk/eoX+3OBGZNFllg1z4DDMUcZ2ecwxhFjH9/82EaBKXH1iCtx9v82XyzDgUCog0iY62aUhkhQVk2Y16K2XD1R6XdvDNvexpk/cdRPdGZU1B7lsDAXHWkNQD22oxY7oYpBuJbj89sLHtgPQtd5lEKJkzPQk7cWnJhowSOY+9U0G5yib6teaeAB54RkSiCEwoF7PeDYFMfWDIl01apUHA/ccjDghli4ZJq435WX6yyPz/9wcBsdjpB0ODd/tWNT51xTvHjDUto/Z66zSRUBTx6xzfEuCSUs4Jzqskdj3vu7Saw4dW0iHh2xizxlB+abgnzVQ8bP7E9uTV/SEUd++8Rk6vJscpAqyV3jEXXP63eqDMXpe8jqPXAnk1Xm7sTjjz8fmrZiuBDjw9H8DVTE4Uile2pprB9ToK2B9yFuJhlTsR/orP3r3X4SvmRS+j51sJO4RJfrAsRELPnpzg/GFCTjNzPlNO4yVQYdlQ5zi21gmeeJBgE9/6ZnPkdnk+syMOPO9GxjhtAx2ocK3yu9Tr9VJ75QIEH8v+8ncHwgT8l1XLtxvqSyEkXsYsvmAYXJ3xuYiLUJq9D5bOOMhMKOTfcvpfSWoi50A2LKxaiRGXlVmcOoEVrT/MeCaFBsdDQH+NNN5bdWJ6aee6PAhYYYB+DklEVZWEu714a1dsFn0XIr/+UYfxcUaPGDFiJajz6ZxqJM/XuvznmScFQ/kfIVU0tKqFt9ck1KNFYquC0GX5985/wDA02uqGYO8ta+RK0yH/I/xcgWvKrQuwLbUqSqndmUGjUqhqrqPkDtqQtNdt/SIwCxTwdGBP8s5TWEgW0GOdPh5vB9PxGJi9eKVUroZ+8nJe727d9E+GJUy4KbSGZbZR/67Qor2H9MKDTKHuSDA14e6lBcTxOnvhlgCaY5yGk0ooztK9XVCDl6bMBNDsaXU1Cg/uAyHTVyRGY5/adqswLlj1G8HGwjVKUssu7UIlEjnoowjFVcV0+JxZm5cCK8DwSKr2JGhu7RNhxUvnj3mdf+TRTgpoUOpZC8QqLl5SpvWjiLBU7vWCn2bxT58fE5WaY9kNaEgcMCpcutQUgd2mo+KDHe+ShgeOM0t2da4jc0TQBI1zlKWM+FWLYZh1d1vRLJWYmbUw2V26GWqJxWdtlRQ4VGbEy3z+4Z9jRrMPjJuZXGFSgJxr5qI1t41MjpX5BuVDwpP3K6wIXN9uL9OVLRZbvkf4uVQBHK7rl7PlHz/ZYzKxAOn/8HoUxG/UBxdGzQ4ewWYeS+7B1Z2EEdTPmTWNnJzLmUlfH83YJxbalc+lp/6wWBNhZzbDYUdwoz1d1MxFi37pGkadYm08QBJR8TfptdYDg2oamNbStU10eN+pXUVXJS0FDMx4zDSo6YOPAv7YgZkjBiHrKnoVRWSgPHuV2wChseR6w9h6XBhxjwJ5kmwsxPClCwgfGLDAxJehB1LZzCV3CUx3oA5mAofRc4wDSoK9Ym5352Uaj4zco3K5JEEFnzxu54BrrIMtAYtx1INfTr9PmJ8KKDiXFAa9hs0E8W7GAUk2X04DUuDcPb1y4662CVt38xKAw9J0BOLxvOVdH3PC26sHFsxlgtJHTBJG6F1NQu+IEd8BzRRLRWDPeW8e1TepMgvyqaU+jC86ChntnV/nzZ0dljB7GFvX0DJl8ji72XIfhy+xq0QZF1vn9cS61CKxsfyTx0pL+IO7i3sGhySfKeKW1dluOI3z94FThhJcNpgJDTUJxmJ9XOGjYJY1r6gGcyF5CWkGCwfg7AUBLkg7n9G2IGzGKXk9chUIooAEsD1FMh+7Ftjd36egkCmDlQuz4KT4UcFl1lyO9Ls6guH4EsjJebrLau8HSpXmMhGwuZXiKj4SilttahLoI8zcJoiCORTPK/+f1zHpjFHQ7/LHG25DWQkt3QGQJS8wSgZPIS7BVJdRgvj+F8v0JU7rDfV3cQKzj3bH+c40RofvogYGYGjaxep7sHqpl26CgSm8wJ1kll4Q3tpzlIZ3a8nYSCgn2XN/tJxIq9OS0cfqsHXmtRwtn9mLcUyoMTv/sQnwuigzcqH/79KNKbpbGInC7TBPoEfZUozK/42eAv7R3eiCSxIm7qXMQUsKvLI/XMZ2S2G3PdkE6KfaBCO3bmQrj+2keKsPfJaTkKwyEi43u6EGVL+Su6/RyUBmINccfXv1/FYshGP4+aR12cv3tc2dBZW3xXhkGfLvnefB/AUbgurJMAh8UEM9diyI8H1NfaZFdZhFgnLgU2W0kEg79NLxxLYWJmucLokkRnkCwm0RpaoJ3//D+LtHjfQwbTgIwBBaS3BRVNy+XiHj1vk4dOUTfunuSNcMqJDfR6MrtsaTsnKi0Aialt1F8QlLzuk29cGzegGER8358hrly03cx0460faBbUwqnwO+Dq0RwtVDWswl6BIFmUeWrN98GP/d/UdjqZhg/2aII00St+YZlCcXcQoq6TNsqyXi0BpL0r/vqaPfNQ8VilXbMKVF2lG+Eg0ZNoXdR7efvtlmGVi+oePUK+O/o5T/pTtQTCJ/bKGjUlCYdhY6FUkB4ymAP4eud27jacYw9hDaR5XJHHi/CCzUTg3DiGG1V13zRPaKJ/B0/06t5IxjsbANhakAEsnG69EdXlSyqMKubbnmvwTrnU/B1vQ0t879p2uKWh8mfIf5JwJn4scp4w1HKuYV+DmI31pgeKay2FMyUUwTpkVpeOIXyFVpllWKym3G0H9Lsc7enVSxf0yzYHKyvy/z5yu9VIW9XjW8eFc9WZJx2CRV44NQhNHGL0o+1XUfb/Xkv6OF3GO2ENShLQN3uBDsldz9SNaJIABprfz/4eRwOsV5Pa1OjBW/O/JcAWOs8OiMwqbpFiVSGyBZztYayyBxc4G0dr2RHFQj9X45uyhstv+0Q0qwC82ALbJ9OepcZrbozOiVKuthnnLH5VLROefHx/1jfIFGEewY9I6Ys71CoX2ZFuwa/z/m/VlpAMuxQPtdBYrYZPimSfJLcJxgGUHwp6wRCazqKLd/Klec/hjJRfAjWg3cJldKhMOSDIlTC2xSZYTEy7fjbAOdDTNSaKr7Q49AXM1bzMgYP0N2HtQILhrNx0ODp8vCjVmLVM2M7QULjpu1hRg6fS3PiJWB8AlDMqN2mSLKNa0jkBb8WC3coDeq9Od7q8pCB1ZKKz1SS6meRaWeW0wJlvXe0zyOAMxZIZxhxS9vgsOUQ5XFIAgjePtvFNaCBjCujXP2xQqECZlXCXcW+im9EAaMcZPD+rQ/gAFZmSgxgMKhij0kGlIrYl7te20PWsUs10NHG72xxMxNeKxAY6JAIXYTq9YLw1nW0wuiuaUvtSrzbNP1cFUHldWcGCUs9UsIabYrxWrXPz1QiRYWa20f0yJaV+Tl88mT5hVyva8uo8Ol1kVPhodNcfmdbHPUVD34U2prUJR22x3NtY2Bay+wsrxtUYDWCMWap2R4N1oDRE8DbbZ+akl7bV02nAxqWH3Rm+fZQCJuajCdp9q5AFiaRFPcFMWkA3JJ5r0a1vmt3XUUOcFX+bFue3CcR2I8B7s0uumgS5Eyhb4MGo4sRVNviJVThU0NwOd/NTXT4MU6nJBwrv6pyZRbl8Gk7krSL2BfXlp9VW5imRT4kLzRd60R2d9soP0RTrF+1qBtjtMsjZH9JTum7Nwm/Hxdv93sLSPC2L1Fy7ZiEHysQWzBi2OrKwBUae8Q2fetRULLWgOBWkzBYONPzq/ziDPbHAPHo2rCr3G1F9ANdtJYbNs16E1eVObHmlApvY17qfCayLcGEJkFptU2IcrVcQBb4amjHy7mjj5ISs0pgcc0aZ/QSU9mYrCKhBOsQNMgQ4G+oMgD5bEhFLvSas1jXybMIOeRZeChcOGuPcT7hvh6gaCB6qVKHTBBdA2nxYttJC5Sx9BQv9W4zgkwvktpVnic7VnAwEMxxJgPsB/L71sWZPCy3gqCY1irJfPlnR+RByGgv+tt/Wffa1wyxP4q4CLOqAiV2AjI3jr0GiXyebjeePnq6PMhSCInm+ldLMOHJ+v/0hHLq1SyW5I+mHxpUlScQvov1PWDsW51lh8TZ5KCkYrlyy6mssx0X+AwChbS/jyjkjJIcp74/xpXK1Mx9hXR2KDbmh11zC1RpLR8/pU2bSOq+UpF05sF637KCcrhi0enzJ7wLQ6bgXsNPKTOforHw2uZLW5XOoBwTG5touCUToaDFzMTHD9wkFIzYkGKO2EQE3PU0+R2MLWFKjyGO6x9UDdOwrbusRCSHe8IPhkxZhPexj7XIrB2XaE5+1MF5k6ymRKBTo9uvqUb+F4Uy2y7NjPpBAjtYlBTRxhHgfJz0R7aa9iWlALyhHIh9r5tW5yx845CE0gUw32ZoiKD4cCXip6DVAUGZC2O9r5aUP1fwEO8MUb/saskrQx/s0inYlDHOCM1p0c1PGTcvvPjtg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28819,
+      "candidatesTokenCount": 233,
+      "totalTokenCount": 30164,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28819
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1112,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "mCjSaq27A43_qtsP0ZrAyAI"
+  },
+  "duracao_segundos": 8.340998699999545,
+  "usage_metadata": {
+    "promptTokenCount": 28819,
+    "candidatesTokenCount": 233,
+    "totalTokenCount": 30164,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28819
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1112,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0185",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda institutos da Lei de Execução Penal (falta grave, regressão de regime e procedimentos). Como o mesmo tema está catalogado em ramos distintos (Legislação Especial e Processo Penal) sem critério editorial excludente, utiliza-se o tema central 4703 com o concorrente 6734 em temas_alternativos e requer_revisao=true.",
+    "evidencia": "Durante revista regular no interior de um presídio, um revólver foi encontrado na posse de Antônio, que cumpria pena no regime semiaberto, o que constitui falta grave.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "169ff74de779650d5b8c39c44fe217559e177d79a8ea561921b4515bfd078b77"
+}

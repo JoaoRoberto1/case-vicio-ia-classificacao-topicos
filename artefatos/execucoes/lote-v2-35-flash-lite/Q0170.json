@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "Q0170",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:27:12.616659+00:00",
+  "sha256_prompt": "01348d2a67d104be75a338c70cdf92505ea8e198a754a4d27fdc2597c1e5c627",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2114c26f7953b8df8461c352c5d58f8fa4f2e95f8f0b69b692b42e9c4cc0780b",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0170\",\n  \"tema_central_id\": \"5203\",\n  \"extras_ids\": [\n    \"5210\",\n    \"5185\"\n  ],\n  \"temas_alternativos\": [\n    \"5199\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda os conceitos de primariedade e reincidência no Direito Penal, exigindo a análise de múltiplos institutos jurídicos distintos em cada alternativa (como reabilitação criminal, prescrição e condenação no exterior), o que justifica o uso de extras e a marcação de revisão devido à pluralidade de temas associados.\",\n  \"evidencia\": \"assinale a opção que indica qual deles é tecnicamente primário (não reincidente).\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28887,
+      "candidatesTokenCount": 219,
+      "totalTokenCount": 31151,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28887
+        }
+      ],
+      "thoughtsTokenCount": 2045,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "NCbSao7XMr6hz7IP4tCu8A4"
+  },
+  "duracao_segundos": 14.571947499999624,
+  "usage_metadata": {
+    "promptTokenCount": 28887,
+    "candidatesTokenCount": 219,
+    "totalTokenCount": 31151,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28887
+      }
+    ],
+    "thoughtsTokenCount": 2045,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0170",
+    "tema_central_id": "5203",
+    "extras_ids": [
+      "5210",
+      "5185"
+    ],
+    "temas_alternativos": [
+      "5199"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda os conceitos de primariedade e reincidência no Direito Penal, exigindo a análise de múltiplos institutos jurídicos distintos em cada alternativa (como reabilitação criminal, prescrição e condenação no exterior), o que justifica o uso de extras e a marcação de revisão devido à pluralidade de temas associados.",
+    "evidencia": "assinale a opção que indica qual deles é tecnicamente primário (não reincidente).",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a013fb1b6af46c3879f84cae608311773c5a475d465ccd41b093eb5087d7b237"
+}

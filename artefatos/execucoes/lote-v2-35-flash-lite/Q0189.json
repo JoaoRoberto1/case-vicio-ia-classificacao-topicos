@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0189",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:38:44.319944+00:00",
+  "sha256_prompt": "c9f6273f5d179ebe77fb65e4b5cece1823e2154f33b5ba22e035fb23be13e962",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d2a296b243bea73445bbecd9a0658d8632ecda3b20ae633536fd4dc87e8ed5f2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0189\",\n  \"tema_central_id\": \"5466\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5063\",\n    \"5196\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão trata da desistência da ação penal privada (institutos como renúncia e perdão), matéria disciplinada tanto no âmbito do Processo Penal quanto no Direito Penal, gerando duplicidade temática entre os ramos.\",\n  \"evidencia\": \"A desistência da ação penal privada pode ocorrer a qualquer momento\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28630,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 30127,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28630
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1321,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5SjSar2oDZeRmtkPhc-yoAU"
+  },
+  "duracao_segundos": 10.342141000000083,
+  "usage_metadata": {
+    "promptTokenCount": 28630,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 30127,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28630
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1321,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0189",
+    "tema_central_id": "5466",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5063",
+      "5196"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão trata da desistência da ação penal privada (institutos como renúncia e perdão), matéria disciplinada tanto no âmbito do Processo Penal quanto no Direito Penal, gerando duplicidade temática entre os ramos.",
+    "evidencia": "A desistência da ação penal privada pode ocorrer a qualquer momento",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "aa863f9e87eb9889b26dc4a7eb489b1ae7ecbcdcb2cb332a995e4ac83dca1d16"
+}

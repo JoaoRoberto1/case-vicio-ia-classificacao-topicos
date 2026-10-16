@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0270",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:06:40.016713+00:00",
+  "sha256_prompt": "cf2e628871c89fc9b4961022065f6c0ac2853c1cf67d34548241d6a98a96bb05",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a60a218c4ff13cd5357c6149a3ef4f5c21d705a2b04cbd000bd95ed3d3e59aa9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0270\",\n  \"tema_central_id\": \"5091\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"O policial militar exigiu vantagem indevida em razão da função, conduta típica do crime de concussão previsto no artigo 316 do Código Penal.\",\n  \"evidencia\": \"o policial Caio exigiu, para si, R$ 2.000,00 para liberar o automóvel.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28674,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29542,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28674
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 708,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "cC_SatuNMcqHqtsP-4XcoQ4"
+  },
+  "duracao_segundos": 7.370816500000728,
+  "usage_metadata": {
+    "promptTokenCount": 28674,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29542,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28674
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 708,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0270",
+    "tema_central_id": "5091",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "O policial militar exigiu vantagem indevida em razão da função, conduta típica do crime de concussão previsto no artigo 316 do Código Penal.",
+    "evidencia": "o policial Caio exigiu, para si, R$ 2.000,00 para liberar o automóvel.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3e14a990f450101f7f353cb1f68e74ea38fd03a47d8f9b5bac933ba1d980787c"
+}

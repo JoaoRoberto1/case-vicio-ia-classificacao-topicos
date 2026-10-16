@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0258",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:02:50.990567+00:00",
+  "sha256_prompt": "da27811e4c2f0a6b92a5d0ce7218d88d8846db235e2d0fec3715d16176a420fd",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8e1cf27d74cb0b7e1c7d0362d45b335d2cad3ab21c486b63045b4c4691727248",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0258\",\n  \"tema_central_id\": \"5545\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão aborda diretamente o exame de corpo de delito, exigindo o conhecimento das regras relativas a essa prova em espécie no âmbito do Processo Penal.\",\n  \"evidencia\": \"O exame de corpo de delito\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28687,
+      "candidatesTokenCount": 135,
+      "totalTokenCount": 29394,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28687
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 572,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "iy7Sap_5OMeHz7IP-PyjGQ"
+  },
+  "duracao_segundos": 8.02999760000057,
+  "usage_metadata": {
+    "promptTokenCount": 28687,
+    "candidatesTokenCount": 135,
+    "totalTokenCount": 29394,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28687
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 572,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0258",
+    "tema_central_id": "5545",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão aborda diretamente o exame de corpo de delito, exigindo o conhecimento das regras relativas a essa prova em espécie no âmbito do Processo Penal.",
+    "evidencia": "O exame de corpo de delito",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "15585fc460b3867ddec0698047ac979e76f851ab0fb7737e0a5e8e7304e45b19"
+}

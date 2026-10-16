@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0260",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:03:29.896468+00:00",
+  "sha256_prompt": "79a4424158635ab3fe55075329ee307dbf5e04ea48019d61a4fdda67a95e5b90",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f639d2423c497bbcdccc91601f817e921db02e952e9d4d6c4a61a7e41f30ec95",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0260\",\n  \"tema_central_id\": \"4376\",\n  \"extras_ids\": [\n    \"4370\"\n  ],\n  \"temas_alternativos\": [\n    \"4368\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão apresenta proposições independentes que cobram temas distintos da Criminologia, como o Direito Penal do Inimigo, a Justiça Restaurativa e os movimentos sociais, sem um único conhecimento central dominante.\",\n  \"evidencia\": \"Das construções doutrinárias de Günther Jakobs acerca do “Direito Penal do Inimigo”\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28957,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30207,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28957
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1064,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "sy7SasCzG76mqtsP8KunsAU"
+  },
+  "duracao_segundos": 8.610132100000556,
+  "usage_metadata": {
+    "promptTokenCount": 28957,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30207,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28957
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1064,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0260",
+    "tema_central_id": "4376",
+    "extras_ids": [
+      "4370"
+    ],
+    "temas_alternativos": [
+      "4368"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão apresenta proposições independentes que cobram temas distintos da Criminologia, como o Direito Penal do Inimigo, a Justiça Restaurativa e os movimentos sociais, sem um único conhecimento central dominante.",
+    "evidencia": "Das construções doutrinárias de Günther Jakobs acerca do “Direito Penal do Inimigo”",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2213991f578dff561d23d7e28dbfd162cfc9bd712aebd443d96bbd20e2301db4"
+}

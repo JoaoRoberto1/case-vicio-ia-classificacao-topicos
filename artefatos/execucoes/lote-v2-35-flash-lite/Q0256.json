@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0256",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:02:13.889364+00:00",
+  "sha256_prompt": "a5a2cfc1b868fb56edbc7c912ec87b207b4b49c8f035a99a64984bf8fb768c07",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5e440b3f0e4f588caf81d18b4a0494c22245cdb8d218b1eb268ae8b796b0d64c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0256\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5214\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda simultaneamente o erro de tipo e o erro de proibição, misturando proposições sobre fato típico e culpabilidade sem predomínio absoluto de um único tema central.\",\n  \"evidencia\": \"desconhecimento invencível de algum elemento do tipo quanto a conduta do agente que age acreditando estar autorizado a fazê-lo\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28661,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 30148,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28661
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1311,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Zi7SasKcKPCLqtsPu_KiiA0"
+  },
+  "duracao_segundos": 6.778890100000353,
+  "usage_metadata": {
+    "promptTokenCount": 28661,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 30148,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28661
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1311,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0256",
+    "tema_central_id": "5224",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5214"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda simultaneamente o erro de tipo e o erro de proibição, misturando proposições sobre fato típico e culpabilidade sem predomínio absoluto de um único tema central.",
+    "evidencia": "desconhecimento invencível de algum elemento do tipo quanto a conduta do agente que age acreditando estar autorizado a fazê-lo",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "66e0fc32b78baa6e4b6d0bc17d798328bb27da1fb4405ef9d1905445c030bbfb"
+}

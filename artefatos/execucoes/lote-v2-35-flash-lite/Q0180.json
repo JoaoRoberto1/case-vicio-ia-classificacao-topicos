@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0180",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:35:19.286629+00:00",
+  "sha256_prompt": "7302cd1811543fecf476dddf49cdbee582f2fd9194b7e04dd6ad0720b9ca5746",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c4bf56cd530469dcd6b79d3c5d827370dc26274ee16ae9169bd228ccbec49e69",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0180\",\n  \"tema_central_id\": \"5554\",\n  \"extras_ids\": [\n    \"5594\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento sobre os requisitos legais e constitucionais da busca e apreensão domiciliar, bem como sobre a ilicitação de provas obtidas com violação de domicílio sem mandado judicial e fora das hipóteses legais.\",\n  \"evidencia\": \"o Delegado de Polícia, sem autorização judicial, determina a entrada de agentes na residência de João durante a noite, sob o argumento de que o crime em questão causa grave dano ao erário e que a apreensão de documentos seria essencial para evitar a ocultação de provas.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EpAhCo0hAWkUfRMZW4TviP1hD5lZa+WQsyIe0bbQCTvRyyGB7b2XX3G79DILXfSfK/bGQZF7tsJn/XBastK1fHNbKUmEesC86/vuQLzDmowmpDxUbm/TtyXE6eo+Ll88NufFuriePUOhpavmGafycAnEkvhVzRvIHb+a1g0AY3WKQBv5ufrGKAB4gRodHgMYFyCjujICayAhiOv0WXyZhfy6y/kmKHF9AbzZZvKpBPp6zWNWqvMHbT6VAwFlozzMIGchaN7rB7Jua75Kmazd4wClcru3TxqrUgMSrb3RypTEBndWXB2iBFbCoqUlIqt7OO/UQx003RibP/2LD2VQa1k0jBdgB2BSg2CHgQ3DhT/6PevGwftA1DK4gUzILTsXJbCVR0/WyIytVCbKY0QiXOMvP+eGOWazmv/Q/LlO2pcCRMtCqvi3hIh4SaCgXMbho7WQ1b1LRzc8SUNznEwU1m/I2wSEoLzTBQKQxVfJpHASQp/cL8hPX2u57iG2TVtE5drbmCB9fJXR6Vj2YbrqTC1etAaeF/v9vfnFLubga5dT2Qpo8/yslI9dKbC60RKEIpYBCEvR/QjQj4YbuyG3skgsBB/1QBNKQcPvzpLSNt+WgpfrbxiKsmeSB5IPpBeaBaRfBMLlK3ySGd4+ziF5kd/XRKCHYw//IUXgLhKr6hbTAAWbvhPaZByCoBQ4KFs00m0CJmBE5d/R0PemJPNedESWYwqYxnPFrBimFVFQ6Fk0Nz1PIabMNeTo720lA4xEMnuQynjnkgZjkMox08SI1pXLQ7aTwphQf3w9ngbp46jLV0u7fJAaTQknkcof1yCupY37WlfAaD22YIEI7kmrutff8OPo9c6pHPgVwoETOYVn6o56qEVN/Cyph1D1WepTMwOHnpKUSW0QVcliOTFrp00xBnRawhPjmfqDYZA2fZV3BKLHB67Hu50LNKNB9E5zFpKaHZdvFAWbsm1PVqFX+ZsDt5dX0ffSRMOBkOilq9aWbFXlkBVr1eofHO9LL6a65d5+p6yLHnpHtb/r6oNP5wBorbLpTlSCxmn1W/KCqGhv7IyEBYZpNmstlZY8msfbxawdihf0ezIpoynWT8cRJYW8T+m874K9TFyTeIuHEsCnQNCx30Mz++RS/r0bUIJIJb+I3Wsb87mxWZTFZm8CgNvmo71P3uKF4VVLFxLBE3g6odD+h75/pomBE1jc8YYL0UoSVLABtDvV9zMuF8tT6u47JxcLqpFYIjh9dz/H0Sauk155NfsXnq0QAmDTdyNgPvFUGtAL5to1cmwdRM2bAE0imLcdgLgDxgGzJqz+QyZ5pL9L5eZzci/WdYsB/AQ69qu1e7Bj2BTRoA0TUGdMnA6c+DdrfjyzQ96Z2WEqOBUBgnKiQRy7xW9zsHUsKjw4HX5O+ntolh+p59QWLoEqlGzdfZTgY4LzGq8WakdVtMkXUHqpLeNDLYakWwdKnw8HRg7weh5fQlYJJzq4MkESoPDwzopFlHpPWM3ZY2jlT7tJ27YN3ZsuftZoVc62buUUweTbLFMY2UfFSxNwzQ+KfA8SUfQVN/bCcYbkclTRckh/oB4NdSs1OaTW2yGkwwoNdTqSKU0kxmqkEA4ZVQIlUfp8zvUaWu/7s7hc7s8oWArmK6QjTQydDnsmbjq8+sYEq67H0889CgSYgsVWqKdjQi61BqyaJEuY4EBlrvEoE2VJHvx06Zfqem0BrzT7THqhNGUC3v++txNW//LrFCmGKpUzb7dlTD+gZeqe7tLFw4wqSSO4f6qSLC9MlTbmH1w7kY0uz3L0T8SqT0KtskxZ7sjRIL9zs6wJMdhrX7cdmv3xDmSnTGnJX3cUVbk3jFwwWACwyJZmPdedKNPCNwjKmUQM93TYvYLJejS7GgCTNgskn7TEuvszNFp5LqtUCPW06NIs+fvcj0trtuadgzTnjgWT7q47UaKsRCbZ0m89Yl3KwONuSYTEAPpAQYysybmISahyCB8rFAWH2HeAut9/IXGg9zysTa0+UHTA95VeVvoybaKxWVwvlwKhudvd7MoOZS1kj0zUxFrPe5I9+qwG5zuMb9iLcADgNhaelcuOdVK6GFQ+6Pz3OYWFgyHAe1ZHF3Ydf9BzeJnl/kha9PVzoHeBqgLzKB4qXn0kBQIdGYTu4wmQwGFF4GoX0DlTY2lWXR8kE1z0ENfzVpBDauuYz+S7HarE9NuVcsGMTpbS/vVLr2PiiuG/iRdQDXYzoLiNC/Rq/9qgxe2QnCq50Te/KDn6XYPv8+TNE7+PpjCXmMjYGykmIeLoqJRojDIIxJy7jOmW5A0BSnqwP+y3OBEqYgEiTR2kGqY5dusRk3s4B0nyXRIuNOFcYBq6N0Mo1fEbe5bNDXg3qc1ULrOrT66XJOZN+U7RQTME0g7fm5L2hCfVMXVboOdj5wao4RDCcVfc3N0hcTWCxAtJJ48AVu9meA8F3+ltmOGU3X3ZD5ePxUngGXpLhn4H5mT6uX30DKYs41Y0pjgHJyfAIveBf8+92n+294pSO6QE9uxorD5RJL/4BaFWQNWwAeI/QVPhr5t3I460JmzuhwUxtbe0iA+o8/kfOn462AVH0E8FqpZVa8xhtueMVvAlmdH9Gy6uN23HCIQqBWjaLo7VIYpbdobrGhrXCdUtG4XUjb256sWnXbKuLMJ7AtwqmbSXhb/3z8v07J084L/bLrQ0FXUCRtkaDb6vLT6yIddCqXLkuu1cHNmWeyzS1NxOkEaz1UtkDLWNCaydy+wagqeA3TCp8z9gwi7Eru99FBe61xSazF0dbaoTsAuepno0qoPJG8Aqsq+qTfLo5qJeHn33G/US4XN0qJn+5zjIjGsU3SoGuOUEznv0T1WEzwrV618QJo2V8LbXVuRZerIRRwgYSmYXpc1GSSALn3rf0feoBQVxXOj5Hlzd9Gt5Jss2F9GK0QRur+wQDbumDrLJlhkq/v37FKhdMHynHXmiPh3N1MmJG7r5iRX4j4eNYIokVPUCGbNVmcKhKM8BFzQsUUAmlJEzqGqHo0CltTeeZG5fd6L44batkhtKRbJSkNHK1MqOgcl1wLuOB8pWwaRXxSsenOVcRmXxs9K8VF/qSWyscUqib9QgF6t3A9poXdrfCwwi1XSdl+JBNoV/uMbzsmOmgjNCQzP/5dGxfEIznltLbgH6tKmfcyoY0UtsaBtRqoe9o5J0qZg1Bo91Xnoi6D9gib4p8LDRVMlBoz0MS1lpVvSzGojdRGIl2DsojUiPbF0DdvxpyAyoMyVspMNxUR+Ir5xIvMYKdTTIGSy5FDWLt4XmjSRxEI25UsU0WtagTylT06nTaYgJiY9uB4XU+CYbztjcTogD3Aql+vKpEKXNBkxrkl2HJChGBvfHJzIRUGslu4M7DM5yuzevN/Oi7VtYn8PSOAY3F+wNy3RjDeVG57pswxV10aygmbzlbS6ox1uQND4Vm5X/e5YFyla9xuO0S9ojcMyOeDeWFtVPFt3/SQWdCkWeh2JkE3W3NrETty7OYwpmHK9zkkvvsIKKS6I0UKLWDmcqhbnVe4D9xvKD7ucUZU4KsBu0C2otuYsQj4GDYSy8omyn/Hd6ThhByj0c6NgSGpwId8hN/bUclMZA1iVaQDsa3HdrL2lhMBKBW7GZ7z61EjbKQJzE7phwV1XFDLVRjpKHLUvqUiF6fhqIxRbR73XRAzeT0zmUt77sCa1Q0SaaCA2jRLC69BvjHCnlQbr2D+pjhZAEor3L+TeD51laatnEEhDueLgLGfy+uuaP6eejN0ARsmHT2PAka/y1677ASwQQBKPmSNaYzh2CJvzJp3sRi8Baz/1iVxgWTjUkJAVZhGA7M3ZRjTxYYe257krl2btIOMlAfxEQS+zMO8GGU4m8yf7pikrBH1/CgnTQZTvzPE+hQd6mTP4JAWnucFMq28sQTYHJbaqs1mN8osaqF/KjEQ1x+V1f0btP/DEu2F53Mr/SvwY1L3mg78RTCt/vATfSGB1uDHZtOsHQJJHUKgseUq32C0amjJUKv2T1YRY2Ir13/l5rMVtFELF2wmKbF3SPf+dqACozrmnaTzFSBTKJ8qQ/GPDBzLwsHMX1GCcnEcKFGNvtYmHTui64ZGTTJVJI9LC/fcPizhJotWABVnGTYPBsVDtnOXfInmK2WBAG9GEJvTbyunOPd5HjaHMwhbSDs4Cu3KPr4PbReGE2cPDlNtF41gN4jOAm5ssPhE/cb44HkXXo6VmaiUAO9RNc1x6kR+vWeZEL09gBLu7CxWn+IHx+pfQBtuF7g2zn4hXL+EEvelZxlyzIoUskPU6ID/BXCSKq3N0D54UxfDlP68rSDMXIalq/dxPyBI5tpjX6Z2etz3gfRXDB6wUvX/d1gFv7whI++hFbgVMGqaT6bdmFBtlOjFkMng6ISC2BapUPCAA1pxuewfDDcqxtnY+2yIHI6LLreMaoSu3ZUZLqk1Jd2bt9e/mZE6KKYvz5IpdAxUCOEevgVa9mZaWyU/aFq0OSh+nq9cgXzfxlPwJEs2V6EZ1v+WPDKgQRB44PYd7qgO1UERWlPaYrVoAh7OEOScgH3LWnz2OKydX4sx9UhtLC72riRS7Xhr/PBEOxNzC9X17WLDl/5/GsoNILQHXlHTsU8Lfb7Bcn0asDC4JRYxhj/OSlbyhtNZdTiKNWU1GfnXnpM22Uzkops2mXTtnL4co0H1sfYakif8XIZwsOJJ9dPZ32IU22knaq/RJgNGiTrK3qA6+ir4LQqVeLXoB6LODAYQuWiScEAKq+vST4YUCiKUD2PyWc0xxXLreu3RyDIhy84rdth9nccxlJ5/dO5pdpB7F0Rw7JGvLY+1tgKXeXaar8YgTBB92TccfPEd9eJfvisgi+bdUYOELi8hrBt/ABdWNL28AAOAJf3xlXHtomGSmoRUUX/Jkl9AsqbgZ5dFdOY0UjqUoxYRVHETpIYbgT7sAaJL2xAG8w3ZlISdb8jjfJjfF0vB1rQSKBrKGPYisbFxB5007Oa85akhtkSLMmkMO3eBgtZhLMjpcaw9tQhIhux9WmfIRdngXO/3JhmQf74hK1KM6thSU6a2s9/D+3ZozTD1F4I1+bm3sKP1tWEGy2Jo7N+YcJ0s3/8Ac0Aycatx6Vszx5uWL2zLyuF9dP6U13+G8Th6SJJoE7cdLgRMoONLrl8sSzFL5hR3BkktxcBdxgs0e616IDhKfOubOHZpaEF1UkuDaAeMMX0gfS72MBPyPE5ioykyKvVlo8HGgZWn3ymuJbNk8Wj5qTRnq+pThNkNZznIWJHBVlEemRNWMSlAhyCg3R6R/5Y8PK9xUghWx3iTOa87pWcoioERmgCPjr1OiYvoMtFWUEOMSpDVJt455qoyeoDmKW5r/2BNOvhBJV8TwQMKcv1wnpD7if44HDF+5tL0Vxd7IB7KVHQWPPqbpDSUA/r3/cItDxgDwXtirylcEM/zojF39WNdN8yYQbnAksAyr7SMC00KTt2E3sNQrXBI+wQFPVc04s5zjgue9bmhth5RTsbkFeJY874jkImDkNC7F0lMIFtVOX5zgyUp7yldlwQnV+osWP1fvQnVkdEFVebk8757dsIu5mR9CEsJ3S2GYFsOrUmlzbKBA2LWokWiEV7ll8U8ReD/ukmknt1KtCG1KRGfPrOvtFj6+61Q=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28913,
+      "candidatesTokenCount": 217,
+      "totalTokenCount": 30292,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28913
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1162,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GCjSavvsCYzQz7IP4O-DqQE"
+  },
+  "duracao_segundos": 8.275583300000108,
+  "usage_metadata": {
+    "promptTokenCount": 28913,
+    "candidatesTokenCount": 217,
+    "totalTokenCount": 30292,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28913
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1162,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0180",
+    "tema_central_id": "5554",
+    "extras_ids": [
+      "5594"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento sobre os requisitos legais e constitucionais da busca e apreensão domiciliar, bem como sobre a ilicitação de provas obtidas com violação de domicílio sem mandado judicial e fora das hipóteses legais.",
+    "evidencia": "o Delegado de Polícia, sem autorização judicial, determina a entrada de agentes na residência de João durante a noite, sob o argumento de que o crime em questão causa grave dano ao erário e que a apreensão de documentos seria essencial para evitar a ocultação de provas.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0260f75f1bdb7509d469eacf35e47223a15fb7c8ee62547f50e8b12d672641d0"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0193",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:40:09.908380+00:00",
+  "sha256_prompt": "abd241066cb30e365f3aebab71a8d4e0c5530b1f22c65b395647b7fc83ff1785",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "678c4a2291647727c944b45ab32c8ac6f7f792d1af6c792574eedcfc21540773",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0193\",\n  \"tema_central_id\": \"5557\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4705\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda regras da colaboração premiada (Lei nº 12.850/2013), gerando concorrência e indefinição editorial entre o ramo de Processo Penal (Provas em Espécies) e Direito Penal - Legislação Especial (Organizações Criminosas).\",\n  \"evidencia\": \"Sobre o tema da colaboração premiada, assinale a alternativa incorreta:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28937,
+      "candidatesTokenCount": 191,
+      "totalTokenCount": 30304,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28937
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1176,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "OinSasryKoCsz7IPoPaK2Q8"
+  },
+  "duracao_segundos": 10.208686199999647,
+  "usage_metadata": {
+    "promptTokenCount": 28937,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 30304,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28937
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1176,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0193",
+    "tema_central_id": "5557",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4705"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda regras da colaboração premiada (Lei nº 12.850/2013), gerando concorrência e indefinição editorial entre o ramo de Processo Penal (Provas em Espécies) e Direito Penal - Legislação Especial (Organizações Criminosas).",
+    "evidencia": "Sobre o tema da colaboração premiada, assinale a alternativa incorreta:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "4eb824564b15382e4f305a83f6e2222eead18a68c0102c04622721c0aa7da4b7"
+}

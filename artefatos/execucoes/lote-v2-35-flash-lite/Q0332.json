@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0332",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:28:59.461698+00:00",
+  "sha256_prompt": "aea74821abcc57aeee4e8677c9650a40ffde8810e504e3c0f4828c1cc195e4db",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "df5376f57d088e4df8854bf821433d1f02198bed1bdceca903424f9fbad7b7ae",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0332\",\n  \"tema_central_id\": \"5541\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4701\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda as regras relativas à transação penal prevista na Lei nº 9.099/95. Como o assunto pode ser enquadrado tanto em Processo Penal (Procedimento Sumaríssimo) quanto em Legislação Especial (Juizado Especial Criminal), há duplicidade entre ramos, exigindo revisão editorial.\",\n  \"evidencia\": \"tendo aceito a proposta de transação penal, pela prática de lesão corporal\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "Et0aCtoaAWkUfRNL604EUWj90YM+vq+GMJM6uKoR6ei+PYQI5yzKZ4wOjeMOdIXtOk1PnpFA+DNbpPoJDihQZkhNypIgpTx6wGAvNrX/KXu6HT322qhDQ0srua1vBYY+44HDMqTTA3//vvjf/c7a994G844qt+9FCRsmZ5NxJhEHpfyGjeo1RDZvenZubjMLO/CtPpfE7NY5ViN2ZKsuE6O/OLw2W/ve85kDMV7Tj9Sc6/kvRwXnS1G/4N5HrtE9HGCuztrT6I6d4BoMeyqutkD61JGN+ytRoyCPB0gLB/MITERba4RWZUAE01HbLDudH2EzEXaAvZ3YhLebtRjiPk11UBT3gYCliMBrb4G2n3/Zb2CRcv6QD/iP+VszIZNKyhhfbleGZffXwAT2zy85slwK30h7cKXE+Oo/sxYwmXytKvoCIj3aCWyDIk1zHy53SppvQkKSCY8bLQJScUch8x1N8cT4t7zvo9UzBHNExRfFUsC0iv3VYnleknzbE06TdndNCeaJViUgLYCKE6AKCP/QPmoshQdxpD/D383pVAsa6kpZmJtAvqvLxUdpzgoKKC2MG2GJ5Fe2RuEnB6ln1RLYbW8i2Ka3wjmQJ+UYWXBOYTtp+KgNRmu+gjjFI8kCSBJZz+Oe1Wko29CeXXYdkmqMScXnHLnb73O+O+PiUiLOwx5FBDRHtUMN3eexDhA5g9HbFflrDcawBSnde5s87KmQQW+saLjXElym4vwfnst4W13AiIw4JsbiCixZgPKSmc69cGEgvMcRXgtrU6wsSpie2wZzBensRHynr4E9eIHo+LLtTRDKLr2VCIBAt7hNbAXRCYnB+sZWMgQBi0LoRI4MChEzdya5S4dcuOLUuN9LblzgPtjbsFdltwY08Z5PxWksEthHD7wRNRNzsNAwiD/X6vUPoe93EEOlzDUvd+hg0tjKsWNnPjBFuURdbrRvqKXlwzf2TVAwok/Iie3rgxpfHZuJj3xIGLuxh9Pibje7Jt3m0y+HkJmDH1Avf2utl4dzXh/n0q3TtpTpXiMHId3bIxUqpGABpSlWcC8Ds/XZS+vssN5HaDoNExTruOaJviWI9vUTcvPd+SdwlDVTiFiq8MViMpe2NijQERtIkt6YZFys/FDGsgnplakZ+1FlVwDxBEgKSn7V489EM57gXHPjCbv7uJhhozQEUliaxGIAW+J/KrYKxuh4BgMNVyIuROPwlGRvg29nmc0IyBckgV8Pxy00vTFi5Rja06jbHe90qnCr2uqPEntwW6Xg7JR6/w0StGmqVpeSNxTt53FjvZ7E3oxVdhuPsZGkkzYAQ2O6UqeeqUJCTbWbh43FjAsToO2WVSPwpSpOU7L452Re6qv3VSw4EkGFdX56mQbm434Nogwu3fHqKlJerw+90GiTgD9QofN3Xec6xFLm9DTjjjzJDKVS7KgRHxQwFRqdtqrh8nlqCqrEVw+6FRfTZ05JWFdM2HjVkObLWXICqe7NhUCghQrwZIhE4xQyaBfq3tMZRoMEHI9Z9rPqDWlJC43WQWvO/kVbgENJEmcpJ4gUIZDmd2fMuBYbVYq87JoyDpY+FAgVO/5IXRs5W5r4sCC8FHZNSHC0inw5EgWJqWbXPoltav8Yzn5lb73WJJesmH77k/34Od3xD9xhiwzwfVh+N46UK1RoVOsRazSd/eEWeYqDSWD/XAwWPDdZNM/77wCnt9IKPC3RlhiCZnqD1J9ed4HdlIGOR8wphiaTQ8w9cEoOqlcKK7sV+1jYqCTt/0QwcCrzcgYC+/fsqPhtv2ejYwDShYVeC/4OHz1SB9c8OUAMy0KGnV/6oq8jty4kLYanWicuHJjA5D3ajBdoV8uZzOR16ce/WlB+fq5SSqCnpCYzO4jLoQScuuxQxzMa9zOMXxxqjVN4DpMyiNmQ5iCQR4DI+ra/uDo5Vum7h0boPL+j76t+hRGpar0q7GVLZ1qgI/3CuejAliU5sqNixKtSfcJiMUeba4TqOgTPWl4V0MKOkbtsiVBJ51j7BZSMTRy6tdYwh3rXXdIJHYSe3ftgLHqBtiIMNutJIlgNSX9jrHfbsjxAwofqZp5vTM6o/CvAUdN8VqrhmfwpfQf6BBgLq0yvIhqZwh0YRLtQPyzLm/QQmAkTEJsBQoBgIP53Z6vIQ1HQSuXtezjllD5R005Z2bWiJ7sQyeJmQ2homJJOi+lxphFPUYpqGcd+GNoH0aMHKa5iEoK81aBp3d5NoXnlS8qHJ+wmYoqD71YosANfak7NfFXDv1vmlrX5i6KSoXaGoN0At38b/xDnZqkf/XK684QMfnvgC3c82lAwyb2ZJrSJumienp3dZ1Tpd/srdgk2jZXrbdFUNWBZ+GeMHGYyhVQLL/UMSgJZB5K1uWrICB13gucnIaktuR43qEqcCEOui8BASvLMVov4fInQaKV/GmuZSfHJ2LMXpvUJD31YQIDgHnkAu84lNiQbpDHWRviypk8pT0Knn/ex0bAGjYXp3WY5sDMx5eSkF/MLAwwOEGdo/Hi1KfBLYT18RMYKaiVOol2xtAlor5SiFFiWbRBWbQp7F1woKvJtbsmpDRMEVqO4KDFmYvK0+ukvHDGmvtq4Aw0cbsM3sYdSe86036h1kjPb4Oz/cP/xAqplioK25DUVlqqezy/0oo9FujOjFC+r+y4eolt3BSZ4UtCDn72AQPlwnPAGbPasn+sDuTVhbsmW2+dergLeJo/l7uwE7x8qEjOV4PjBpv/Ue5XqBjVSi8EDS48Tfi4pOvpYGPxrNBzTNl9ZSWxmcClKt/yP90H6e5wcTljE0kO2F2F/Iz9lPy+9LEGBBKCFes8iNdXL7D4WW9qH+fV5NH8IZC0pIihNF7a5rD26vAG5Ie7u3rEB4Jst+4wbGVvmjrgv65b0oP3S47BfHmwNFhzAqiCUVVGqWK3E5L8tkFewWyksW2MKXZ1EYNsri3SRreuQuwJ/EniE/+tClFm/Mf4wsEHoIMCpZXaV5zrRQGOfaw9fM69Kj38m62/ZWTcIcUoEbJF/CDYnMwqKdcF5zCUx83YVWA85uAhc588wlfn6xrgBwWAa3v24ebasf/ER1Y85OnHtRTrKKCwxOFcDqaiyflsozvKZZWyc/MbLFCGcngF/EYV4CtK2OV4ZDCjOcsY2L28owlMAdp3c8HU+YBnvr09bH0VqblEknLpoKdnhbE8z4wBoW0lOfsyMCGQudhlNnqnFMYk6mHZWSlBZI3up55TjD7NmWpdd3UEkNb6IhGCc4IIDvSo3pd78QU90KXM/I+dyBhi7yCqlysUgKiFFJT7yNSx52ahZrYzQAH4cNpzoN9THjweBJD2UHXPh0gh1LdHTwcgdupeSDPIYJxG1nl8NOnTQuGESOJAG2OJH6Jhm+hqGxqGSFCdAzEqWWk1+jVHjtc48MqqlZSSi8J2ycf+OmGarnv9P+uKHa4sDWQhUHa2xazl75AcgOra9isTPPGAbT51PuARvMFDk8b/W5xpxkUxXFD09bTdpiNbAwo+wiabx6RYzDrzQgKchuBKlWp6vOoGGczaXit/cbXu7W68U/sL7mX5uYBKq6my6Gzh90Tu42oYeiVX1I1YktfAMALf3szCAEtAAm3FWHSmDhCYXWvJpoPMMu+IGXg3uk9NLL45BPj/K3yDSUCTOCDLSdLERTeUX+hm+VuO7KrVqz8s1aV1bljY1IlLBKTUrBG+gE/crJbZXuMB3v7xpA/o0OhoLBREqOgO03nVzqYgyiN4RwKbaEped40WQWDyx+pwR2Nez8RiSr7WXuH7J7T4W6xSnlLVPFyfY5hTXNSHPa1iZPgXbP2cpsumMuXMyzx7H2t6se29SdkgO9rD1E3rhipSQ0PBBpOl9iej30Ci1Be9iZLZ/LVBOI69193cwyMH6vuKCDdux0wZzl/PXouoHYJfZTo/udeZwNbq/TPNCaE6Kua2kRKYnNpMJ/qhbNWY81AfRrDi13qbBW0B2xG06fabQdZTNFQyJ/hm1P3itDqrOgEv3WnUlQ5e5LfHet86ti/ZR7EzmjqFECEZHGA70SYXcIm6j7b5tcY3Sehx0a1McwVQVz/AK+Z4CsB7NuNKsb32nRB45MHsYaTMBp7kLZuhOs+nFNds+lptLrOT7BDcvVMFvG65KtPekuNniiQmOQAX4Gzs0tKEI15DzuqsYC8SK/EEn2utjShl6WEkCLRxcSFfG7OJeOx3wefAK0oRs/zkgZPcAHrCnu3QXFYBcS+6RdO1iTsQiUsg8UGgsQfEtpHv9+xmtB1MNXM0JgPwQ4omrrROP2wcGGW4Eo2iiL2nwEJZYHSdNQpX4LebWzk6MrmVkC+5JVMQxVu258W5SYCmAhFBk1AfNI8KpULr54jJTaKFKq+5o6M8/dFJoHEjKjHJnLYNCijJbjQhXpFm+xY6t/Yj0hfh2HDBWJPun07wpbbQ+Fp7rbtNLtT0o7XW7+eySkaqEuNqr/iPfWPkhdKKUi0fPhPdK9aZcQjPxAQVtqlIN9gWWy17VyDkSICmx2lrxIGKgkch7L3jzM1X0TShUVwgybGsuyzz5nhTpRfFLvQ=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28957,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30123,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28957
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 970,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "rDTSaqqHFMGP6dkPmuKJkAQ"
+  },
+  "duracao_segundos": 12.245209499998964,
+  "usage_metadata": {
+    "promptTokenCount": 28957,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30123,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28957
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 970,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0332",
+    "tema_central_id": "5541",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4701"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda as regras relativas à transação penal prevista na Lei nº 9.099/95. Como o assunto pode ser enquadrado tanto em Processo Penal (Procedimento Sumaríssimo) quanto em Legislação Especial (Juizado Especial Criminal), há duplicidade entre ramos, exigindo revisão editorial.",
+    "evidencia": "tendo aceito a proposta de transação penal, pela prática de lesão corporal",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "fed9fd17b1c3234e64d446c6ceb7f17ef5b433a5f52ae2e6df72b2aab64c4a53"
+}

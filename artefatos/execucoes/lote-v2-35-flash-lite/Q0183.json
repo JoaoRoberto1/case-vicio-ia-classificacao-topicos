@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0183",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:36:52.473512+00:00",
+  "sha256_prompt": "41a0688e62d80c48683f831b61f939a99c461e8ace5c301642b1e28576123c62",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d9fe57bafe15282d971f0769556b9557b3fb47f3b4ec9940ac755b36d9018934",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0183\",\n  \"tema_central_id\": \"5561\",\n  \"extras_ids\": [\n    \"5185\"\n  ],\n  \"temas_alternativos\": [\n    \"5562\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o cálculo e a suspensão da prescrição (art. 366 do CPP), mas o comando exige primordialmente o conhecimento sobre o cabimento do recurso em sentido estrito (RESE) contra decisão que julga extinta a punibilidade. Há interseção entre Direito Penal (prescrição) e Processo Penal (recursos), justificando o uso de requer_revisao.\",\n  \"evidencia\": \"Nessa situação, agirá corretamente o promotor ao impugnar a sentença por meio de recurso em sentido estrito, o que poderá fazer no prazo de cinco dias.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28757,
+      "candidatesTokenCount": 240,
+      "totalTokenCount": 30414,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28757
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1417,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dSjSaqiZE8-zmtkP35vs4AM"
+  },
+  "duracao_segundos": 7.240380499999446,
+  "usage_metadata": {
+    "promptTokenCount": 28757,
+    "candidatesTokenCount": 240,
+    "totalTokenCount": 30414,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1417,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0183",
+    "tema_central_id": "5561",
+    "extras_ids": [
+      "5185"
+    ],
+    "temas_alternativos": [
+      "5562"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda o cálculo e a suspensão da prescrição (art. 366 do CPP), mas o comando exige primordialmente o conhecimento sobre o cabimento do recurso em sentido estrito (RESE) contra decisão que julga extinta a punibilidade. Há interseção entre Direito Penal (prescrição) e Processo Penal (recursos), justificando o uso de requer_revisao.",
+    "evidencia": "Nessa situação, agirá corretamente o promotor ao impugnar a sentença por meio de recurso em sentido estrito, o que poderá fazer no prazo de cinco dias.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d69f72efb51df457d4032ce54f8ef24bc2f5bde5f5755a669a6508b5003e67cb"
+}

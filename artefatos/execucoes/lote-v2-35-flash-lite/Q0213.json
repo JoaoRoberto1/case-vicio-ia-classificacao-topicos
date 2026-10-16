@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0213",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:47:37.405717+00:00",
+  "sha256_prompt": "ae0dd70f2922a0c8753634958912cd663101b28753f07901b89d42fd01d4f244",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "970da1523664e50347f4179796a6142f14886a502971483cd4801cb64275a844",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0213\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o rito processual específico previsto na Lei de Drogas (Lei nº 11.343/2006). Há duplicidade de ramos para o tema entre Direito Penal - Legislação Especial e Penal, exigindo revisão editorial para consolidação do ramo aplicável a normas de procedimento em legislação especial.\",\n  \"evidencia\": \"Nos crimes previstos na Lei de Drogas (Lei nº 11.343/2006), oferecida a denúncia, o(a) juiz(a) ordenará a:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28721,
+      "candidatesTokenCount": 224,
+      "totalTokenCount": 29868,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28721
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 923,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "-irSaoSlFKCBmtkPiaWQgQc"
+  },
+  "duracao_segundos": 8.100558099999034,
+  "usage_metadata": {
+    "promptTokenCount": 28721,
+    "candidatesTokenCount": 224,
+    "totalTokenCount": 29868,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28721
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 923,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0213",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda o rito processual específico previsto na Lei de Drogas (Lei nº 11.343/2006). Há duplicidade de ramos para o tema entre Direito Penal - Legislação Especial e Penal, exigindo revisão editorial para consolidação do ramo aplicável a normas de procedimento em legislação especial.",
+    "evidencia": "Nos crimes previstos na Lei de Drogas (Lei nº 11.343/2006), oferecida a denúncia, o(a) juiz(a) ordenará a:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "beebf4861637db7b0a08cf19681597c9a3d28f9ef3fb3c3766a56b83ddc87ca0"
+}

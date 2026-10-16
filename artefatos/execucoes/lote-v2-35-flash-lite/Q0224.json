@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0224",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:50:31.854756+00:00",
+  "sha256_prompt": "50e1eef8166b94e1c9a3cbd1746d5e9f777881b61f3f88cd5b13fab54413087b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3f32c70e7375498768a7fdcba09858bae3a1836a34de2b5886220beeaaccf887",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0224\",\n  \"tema_central_id\": \"5207\",\n  \"extras_ids\": [\n    \"5203\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda cumulativamente a configuração da reincidência a partir de condenações anteriores (pena de multa e contravenção penal) e o impacto desses antecedentes na concessão da suspensão condicional da pena (sursis), exigindo revisão por misturar institutos distintos da Teoria da Pena.\",\n  \"evidencia\": \"ambas as anotações geram reincidência, sendo possível a concessão de suspensão condicional da pena\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29041,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 31401,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29041
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 2159,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "qCvSavqMMOyAmtkP89KD-AI"
+  },
+  "duracao_segundos": 12.149429699999018,
+  "usage_metadata": {
+    "promptTokenCount": 29041,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 31401,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29041
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 2159,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0224",
+    "tema_central_id": "5207",
+    "extras_ids": [
+      "5203"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda cumulativamente a configuração da reincidência a partir de condenações anteriores (pena de multa e contravenção penal) e o impacto desses antecedentes na concessão da suspensão condicional da pena (sursis), exigindo revisão por misturar institutos distintos da Teoria da Pena.",
+    "evidencia": "ambas as anotações geram reincidência, sendo possível a concessão de suspensão condicional da pena",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6f42e127226ff094a636402f350f5cc920bc34c387722af5af8688c4279f6084"
+}

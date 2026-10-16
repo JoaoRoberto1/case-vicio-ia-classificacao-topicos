@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0330",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:28:14.355960+00:00",
+  "sha256_prompt": "07b05b456f6c4d3665a7b8746a77c28b385895521f2773a2b798e583ba74277d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b467ef1901e7b0b314fe77fbf8c6a2e124af307e3b0e53145019cdc8e6f7908c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0330\",\n  \"tema_central_id\": \"5501\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5503\",\n    \"5581\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda as alterações promovidas pelo pacote anticrime no Código de Processo Penal, tendo como foco principal o procedimento de conclusão e arquivamento do inquérito policial, além de abranger aspectos do juiz das garantias e do sistema acusatório.\",\n  \"evidencia\": \"Acerca das modificações introduzidas pelo chamado “pacote anticrime” ao Código de Processo Penal, assinale a alternativa correta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28878,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 30142,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28878
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1063,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fzTSaqyOC_--qtsPhr6ywAQ"
+  },
+  "duracao_segundos": 12.410564200001318,
+  "usage_metadata": {
+    "promptTokenCount": 28878,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 30142,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28878
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1063,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0330",
+    "tema_central_id": "5501",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5503",
+      "5581"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda as alterações promovidas pelo pacote anticrime no Código de Processo Penal, tendo como foco principal o procedimento de conclusão e arquivamento do inquérito policial, além de abranger aspectos do juiz das garantias e do sistema acusatório.",
+    "evidencia": "Acerca das modificações introduzidas pelo chamado “pacote anticrime” ao Código de Processo Penal, assinale a alternativa correta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "66c000f99dde856eccdc8964d6e34000791b0fba2b73b5da31fdd18877e84f5a"
+}

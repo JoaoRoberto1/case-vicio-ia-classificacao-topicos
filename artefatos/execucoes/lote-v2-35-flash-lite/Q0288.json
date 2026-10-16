@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0288",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:12:08.180814+00:00",
+  "sha256_prompt": "d9d9ece8c7a9cc2733f5971ed6a9ecb3165ed77b546f7e163ae4785ce0bd21e0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "69de24edefef3673f2747a0615e74fe005178b141ef6fa5dc4b3a0726d4d69d6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0288\",\n  \"tema_central_id\": \"5103\",\n  \"extras_ids\": [\n    \"5068\",\n    \"4695\",\n    \"4688\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão mistura proposições independentes sobre temas distintos do direito penal e da legislação especial (crimes contra a dignidade sexual, crimes tributários, crimes ambientais e concurso de crimes), sem um conhecimento central dominante.\",\n  \"evidencia\": \"I. Não há o crime de estupro, nos termos do Código Penal, na relação sexual consensual praticada com maior de 14 e menor de 18 anos.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28797,
+      "candidatesTokenCount": 206,
+      "totalTokenCount": 30038,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28797
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1035,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "uTDSau6VAcSfz7IPxbWYqA8"
+  },
+  "duracao_segundos": 11.379751799999212,
+  "usage_metadata": {
+    "promptTokenCount": 28797,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 30038,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28797
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1035,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0288",
+    "tema_central_id": "5103",
+    "extras_ids": [
+      "5068",
+      "4695",
+      "4688"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão mistura proposições independentes sobre temas distintos do direito penal e da legislação especial (crimes contra a dignidade sexual, crimes tributários, crimes ambientais e concurso de crimes), sem um conhecimento central dominante.",
+    "evidencia": "I. Não há o crime de estupro, nos termos do Código Penal, na relação sexual consensual praticada com maior de 14 e menor de 18 anos.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "7f8a256623e041d7a7e7839c2b96aaa35680f70dc20d98ac89cafe71dfd803df"
+}

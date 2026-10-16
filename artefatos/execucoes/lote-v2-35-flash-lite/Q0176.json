@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "Q0176",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:34:22.565205+00:00",
+  "sha256_prompt": "17799367bbbdc90deb57a4b30e3eabdce4e7bd49cd91d415206b3299114207c4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f42db7f89f18647f17442a76cbc5b31b6f8c792551b335bf4d0bc79814e5a312",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0176",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:33:04.753184+00:00",
+      "sha256_prompt": "17799367bbbdc90deb57a4b30e3eabdce4e7bd49cd91d415206b3299114207c4",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "f42db7f89f18647f17442a76cbc5b31b6f8c792551b335bf4d0bc79814e5a312",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.047119500000008,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "f0f9c03752807e70aba08bfbf6511f1b8130149ecb80c7f27f865a9216f43bb7"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0176",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:33:44.765757+00:00",
+      "sha256_prompt": "17799367bbbdc90deb57a4b30e3eabdce4e7bd49cd91d415206b3299114207c4",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "f42db7f89f18647f17442a76cbc5b31b6f8c792551b335bf4d0bc79814e5a312",
+      "numero_tentativa": 2,
+      "status": "erro",
+      "duracao_segundos": 2.319460899999285,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "5b4c7ab3a77ca0ca496c707636bd9fce1aa44bc0a58be44c638cf5460d88b0d6"
+    }
+  ],
+  "numero_tentativa": 3,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0176\",\n  \"tema_central_id\": \"5081\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os elementos, características e requisitos do crime de falso testemunho, tipificado no artigo 342 do Código Penal, enquadrando-se perfeitamente no tema de crimes contra a administração judicial.\",\n  \"evidencia\": \"Sobre o crime de falso testemunho, é CORRETO afirmar que:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28707,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29598,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28707
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 731,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "3yfSat6hI5_sz7IP0dOQqA8"
+  },
+  "duracao_segundos": 7.756706000000122,
+  "usage_metadata": {
+    "promptTokenCount": 28707,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29598,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28707
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 731,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0176",
+    "tema_central_id": "5081",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os elementos, características e requisitos do crime de falso testemunho, tipificado no artigo 342 do Código Penal, enquadrando-se perfeitamente no tema de crimes contra a administração judicial.",
+    "evidencia": "Sobre o crime de falso testemunho, é CORRETO afirmar que:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "5cf5bb43592181df71b0b374a9f34152dd4432f95642aa565c48799a9812fbae"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0230",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:54:11.846579+00:00",
+  "sha256_prompt": "ef49324f0307817db4b39a604f787821a79c24d1511e490fbadb595597ea7c7e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2aa18cd84fea246b0eff6027f6452b8b4251b30a4223f1dbd0f027eee1689e3e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0230\",\n  \"tema_central_id\": \"5211\",\n  \"extras_ids\": [\n    \"5071\",\n    \"5199\",\n    \"5184\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão aborda proposições independentes sobre temas distintos do Direito Penal (culpabilidade, concurso de pessoas, teoria da pena e medida de segurança), sem apresentar um conhecimento central dominante.\",\n  \"evidencia\": \"Assinale a opção correta em relação às causas de exclusão de culpabilidade, ao concurso de pessoas, às finalidades das penas e às medidas de segurança.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28865,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30480,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28865
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1419,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "hCzSaqzGKa3sz7IPg7HP6QQ"
+  },
+  "duracao_segundos": 10.563747500000318,
+  "usage_metadata": {
+    "promptTokenCount": 28865,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30480,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28865
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1419,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0230",
+    "tema_central_id": "5211",
+    "extras_ids": [
+      "5071",
+      "5199",
+      "5184"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão aborda proposições independentes sobre temas distintos do Direito Penal (culpabilidade, concurso de pessoas, teoria da pena e medida de segurança), sem apresentar um conhecimento central dominante.",
+    "evidencia": "Assinale a opção correta em relação às causas de exclusão de culpabilidade, ao concurso de pessoas, às finalidades das penas e às medidas de segurança.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6c3dfa83a396e00e3277c2414dd48adf34442791f4d8ddfb2fd3e3ee00f12ff8"
+}

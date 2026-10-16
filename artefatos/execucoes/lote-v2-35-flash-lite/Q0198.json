@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0198",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:41:50.025227+00:00",
+  "sha256_prompt": "6815d6bd846c1e5c1db72b28c349eca05fd06c33ed667d0284f4268968074a29",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "bbd4ffd192c4d649caa10f4ec0a5ad451d6b25a10f260b536021785e65ad1827",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0198\",\n  \"tema_central_id\": \"5073\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5072\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os requisitos da autoria mediata por meio de aparato organizado de poder, conforme a teoria de Claus Roxin, matéria diretamente afeta ao estudo de autoria no concurso de pessoas.\",\n  \"evidencia\": \"A moderna teoria do domínio do fato de Claus Roxin procura solucionar alguns problemas de autoria e, expressamente, já foi adotada em nossos tribunais.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28714,
+      "candidatesTokenCount": 183,
+      "totalTokenCount": 29734,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28714
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 837,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ninSapHVLtTsz7IP4I_a8QI"
+  },
+  "duracao_segundos": 6.8943922999997085,
+  "usage_metadata": {
+    "promptTokenCount": 28714,
+    "candidatesTokenCount": 183,
+    "totalTokenCount": 29734,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28714
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 837,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0198",
+    "tema_central_id": "5073",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5072"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os requisitos da autoria mediata por meio de aparato organizado de poder, conforme a teoria de Claus Roxin, matéria diretamente afeta ao estudo de autoria no concurso de pessoas.",
+    "evidencia": "A moderna teoria do domínio do fato de Claus Roxin procura solucionar alguns problemas de autoria e, expressamente, já foi adotada em nossos tribunais.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "b363ab92a22762006746302eed51d68e8391614f128b739850ca733d70d08c54"
+}

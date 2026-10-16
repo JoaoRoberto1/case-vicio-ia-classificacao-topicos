@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0194",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:40:30.123974+00:00",
+  "sha256_prompt": "9306b53996089dd0167869b80fc9731312a3c2aea88f297d0b42286de7c8a0b9",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b9b5c290ef3ade260a9caa91305468c3f484cf3b0994175ec8ea1fcc110dbcf3",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0194\",\n  \"tema_central_id\": \"5089\",\n  \"extras_ids\": [\n    \"5076\"\n  ],\n  \"temas_alternativos\": [\n    \"5071\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a prática do crime de peculato por funcionário público em concurso com particular, exigindo o conhecimento sobre a tipificação do peculato e a comunicabilidade da elementar de cargo público ao coautor/partícipe.\",\n  \"evidencia\": \"Tício, funcionário público, convida Mévio, que trabalha em empresa privada, para ajudá-lo a subtrair um computador, pertencente à repartição\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28737,
+      "candidatesTokenCount": 207,
+      "totalTokenCount": 30003,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28737
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1059,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "TinSatn8OI_-qtsPpaCCsAE"
+  },
+  "duracao_segundos": 9.995642200000475,
+  "usage_metadata": {
+    "promptTokenCount": 28737,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 30003,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28737
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1059,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0194",
+    "tema_central_id": "5089",
+    "extras_ids": [
+      "5076"
+    ],
+    "temas_alternativos": [
+      "5071"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a prática do crime de peculato por funcionário público em concurso com particular, exigindo o conhecimento sobre a tipificação do peculato e a comunicabilidade da elementar de cargo público ao coautor/partícipe.",
+    "evidencia": "Tício, funcionário público, convida Mévio, que trabalha em empresa privada, para ajudá-lo a subtrair um computador, pertencente à repartição",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d29545995761350bf9e87766f0189753e3375c306222490c89682d5108008bf9"
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "Q0160",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:21:23.434491+00:00",
+  "sha256_prompt": "a76cca85561154611d16bee6e69a2d175f88501de032fbd031bc217fa414ce27",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b71f500a58277e9fd5ccf3029d4bf6cc147f4710211f379c31f53f549a582a3f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0160\",\n  \"tema_central_id\": \"5205\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os requisitos legais para a substituição de pena privativa de liberdade por pena restritiva de direitos, em especial no que tange à reincidência e à recomendação social, tema central da Teoria da Pena.\",\n  \"evidencia\": \"É inadmissível a substituição de pena privativa de liberdade por restritiva de direitos ao réu reincidente, ainda que a substituição seja socialmente recomendável e se trate de reincidência genérica.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 414,
+              "endIndex": 619,
+              "uri": "https://issuu.com/liberbooksbr/docs/s__rie_1001_quest__es_comentadas_-__ed947fd0bff95f",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28641,
+      "candidatesTokenCount": 197,
+      "totalTokenCount": 29506,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28641
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 668,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1CTSav2fFe6JqtsPy8j56AM"
+  },
+  "duracao_segundos": 8.200320799999645,
+  "usage_metadata": {
+    "promptTokenCount": 28641,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 29506,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28641
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 668,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0160",
+    "tema_central_id": "5205",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os requisitos legais para a substituição de pena privativa de liberdade por pena restritiva de direitos, em especial no que tange à reincidência e à recomendação social, tema central da Teoria da Pena.",
+    "evidencia": "É inadmissível a substituição de pena privativa de liberdade por restritiva de direitos ao réu reincidente, ainda que a substituição seja socialmente recomendável e se trate de reincidência genérica.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "98309763e391624f2ebd6d8efeca60202ede311c12ed6c74957362a39527ca02"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0250",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:00:16.499805+00:00",
+  "sha256_prompt": "aaa3ab2b37b3ccd2313c6c955c35d0ddb959e45b4120008f5ca1024f0abd2956",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ef2c28ebe0925cb3117fb5ce53a6194882f3ca37dcf052e630fe4b43ef6f114e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0250\",\n  \"tema_central_id\": \"5201\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5576\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a determinação do regime inicial de cumprimento de pena, tema central do Direito Penal afeto às penas privativas de liberdade (art. 33 do CP), mas que também possui correlação direta com a fixação da pena na sentença no âmbito do Processo Penal, exigindo revisão devido à dualidade de ramos.\",\n  \"evidencia\": \"Sobre a determinação do regime inicial de cumprimento de pena, é correto afirmar que\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28753,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30178,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28753
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1229,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "8S3Sau-kEvXQz7IPi-KsqA8"
+  },
+  "duracao_segundos": 8.764924499999324,
+  "usage_metadata": {
+    "promptTokenCount": 28753,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30178,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28753
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1229,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0250",
+    "tema_central_id": "5201",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5576"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a determinação do regime inicial de cumprimento de pena, tema central do Direito Penal afeto às penas privativas de liberdade (art. 33 do CP), mas que também possui correlação direta com a fixação da pena na sentença no âmbito do Processo Penal, exigindo revisão devido à dualidade de ramos.",
+    "evidencia": "Sobre a determinação do regime inicial de cumprimento de pena, é correto afirmar que",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "ee36aa63629101a0530e1178bdcc09fc2808ce33c10a401f639b94b681d6a332"
+}

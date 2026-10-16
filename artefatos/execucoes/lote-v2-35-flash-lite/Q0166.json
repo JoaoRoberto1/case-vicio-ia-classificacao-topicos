@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "Q0166",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:24:57.529034+00:00",
+  "sha256_prompt": "248df2f0e484c3d43f012f159b5eb821f6b9391a4213a643518108918b5a62e0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "60145aebe964e71c753125e2f1640dd8de2ff1f597f8d5d28d2dcf1ec63ea11c",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0166",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:24:21.998260+00:00",
+      "sha256_prompt": "248df2f0e484c3d43f012f159b5eb821f6b9391a4213a643518108918b5a62e0",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "60145aebe964e71c753125e2f1640dd8de2ff1f597f8d5d28d2dcf1ec63ea11c",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.451461399999971,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "71a0e28b3f912cc9ef217ec62aee19a6dab639fb93c5642c206b15664c2130be"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0166\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5208\",\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda múltiplos benefícios e incidentes da execução penal (livramento condicional, progressão, indulto e prisão domiciliar), gerando concorrência entre os nós de Teoria da Pena e a Lei de Execução Penal presentes em diferentes ramos do catálogo, o que justifica a marcação de revisão.\",\n  \"evidencia\": \"qual pedido a Defensoria Pública do Estado poderia formular ao Juízo da Execução Criminal?\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28931,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 30916,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28931
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1784,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "qiXSarS1G8CGz7IPucPNuA8"
+  },
+  "duracao_segundos": 10.155534699999407,
+  "usage_metadata": {
+    "promptTokenCount": 28931,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 30916,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28931
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1784,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0166",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5208",
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda múltiplos benefícios e incidentes da execução penal (livramento condicional, progressão, indulto e prisão domiciliar), gerando concorrência entre os nós de Teoria da Pena e a Lei de Execução Penal presentes em diferentes ramos do catálogo, o que justifica a marcação de revisão.",
+    "evidencia": "qual pedido a Defensoria Pública do Estado poderia formular ao Juízo da Execução Criminal?",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a29bbf146adea35f95522706027d17d72b0494f2f33c4c7fdc0ed6d47357be4a"
+}

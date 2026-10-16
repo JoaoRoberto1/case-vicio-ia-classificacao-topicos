@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0272",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:07:38.846052+00:00",
+  "sha256_prompt": "dc31778e73055370bf4b19add15d43340489d47ea032363b6a112089dd2c4cc2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a27370e0ec0c392a33ef9b5ad88babba00edee3ae6d5cf49f669bf8b942595be",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0272\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão versa sobre faltas disciplinares graves na execução penal (Lei de Execução Penal). Como o catálogo apresenta o mesmo assunto duplicado em ramos diferentes (Legislação Especial e Processo Penal), o item requer revisão.\",\n  \"evidencia\": \"No que concerne à prática de falta grave no curso da execução penal, assinale a opção correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28751,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 29861,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28751
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 934,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "qy_Saq2eO6LPz7IPmqH_kA8"
+  },
+  "duracao_segundos": 6.213754500000505,
+  "usage_metadata": {
+    "promptTokenCount": 28751,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 29861,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28751
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 934,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0272",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão versa sobre faltas disciplinares graves na execução penal (Lei de Execução Penal). Como o catálogo apresenta o mesmo assunto duplicado em ramos diferentes (Legislação Especial e Processo Penal), o item requer revisão.",
+    "evidencia": "No que concerne à prática de falta grave no curso da execução penal, assinale a opção correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "7d1f38afe81595beb0a9ecbb78ad3c3c6594168a6dab281fd229400657c75c9a"
+}

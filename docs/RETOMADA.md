@@ -1,6 +1,6 @@
 # Ponto de retomada do case
 
-Primeiro bloco do módulo 4 de 16/10/2026 concluído. Foram feitas vinte novas chamadas, com quinze sucessos e cinco falhas HTTP 503 superadas nas retomadas. Não restam falhas técnicas pendentes entre as questões já processadas. O trabalho está no ponto de revisão e commit do usuário; não há execução de API em andamento. O próximo bloco, quando autorizado, continuará limitado a vinte novas chamadas no total, incluindo eventuais retomadas após falhas. Ao concluir cada bloco ou módulo, apresentar o resultado e parar para revisão e commit antes de seguir.
+**Módulo 4 concluído em 16/10/2026: 359 de 359 sugestões tecnicamente válidas, sem pendências.** O usuário autorizou concluir de uma vez as 197 questões restantes, substituindo as pausas a cada vinte chamadas. A execução terminou e a integridade do lote foi conferida. Este é o ponto de parada para revisão e commit; o módulo 5A e a auditoria não foram iniciados.
 
 ## Estado salvo
 
@@ -9,111 +9,109 @@ Primeiro bloco do módulo 4 de 16/10/2026 concluído. Foram feitas vinte novas c
 | Módulo 1: dados e árvore | Concluído: 359 questões preparadas, 377 temas validados, 375 ativos |
 | Módulo 2: protocolo | Definido: política v1, referências por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | Módulo 3: integração e pilotos | Concluído: dois pilotos de vinte casos, prompt v2 selecionado |
-| Módulo 4: lote completo | 162 respostas tecnicamente válidas, nenhuma falha técnica atual pendente e 197 IDs sem recibo |
-| Módulo 5: decisão e avaliação | Funções e testes offline prontos; integração CLI e aplicação aos resultados reais pendentes |
+| Módulo 4: lote completo | Concluído: 359 sugestões tecnicamente válidas, zero falhas atuais e zero IDs sem recibo |
+| Módulo 5A: decisões | Funções e testes offline prontos; integração CLI, aplicação da política e confirmação de `fora` pendentes |
+| Módulo 5B: avaliação | Pendente; executar após congelar as decisões |
 | Módulo 6: relatório e memo | Pendente |
-| Módulo 7: entrega final e reprodução | Pendente; esta pausa valida a base, não conclui a entrega |
+| Módulo 7: entrega final e reprodução | Pendente; o lote concluído ainda não é a entrega final |
 
-O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`. São 161 recibos com sucesso e a recuperação offline anterior de Q0005, totalizando 162 sugestões válidas. Os vinte sucessos do piloto v2 estão incluídos, pois foram reutilizados sem novas chamadas. O novo bloco processou Q0135, Q0136, Q0138 a Q0141 e Q0143 a Q0151; Q0137 e Q0142 já vinham do piloto. Todos esses quinze IDs terminaram com respostas válidas. A recuperação de Q0005 em `Q0005.revalidacao.json` continua válida; o recibo original conserva o status histórico de erro, as quatro tentativas e todo o consumo. A recuperação técnica não representa uma decisão de publicação.
+O lote está em `artefatos/execucoes/lote-v2-35-flash-lite/`: 358 recibos originais com sucesso e a recuperação offline anterior de Q0005, totalizando 359 sugestões válidas. Os vinte sucessos do piloto v2 estão incluídos, pois foram reutilizados sem novas chamadas. Q0005 conserva o recibo original com status histórico de erro e quatro tentativas; `Q0005.revalidacao.json` fornece a sugestão efetiva após validar a origem. Validade técnica não representa decisão de publicação nem precisão jurídica medida.
 
-Houve cinco falhas HTTP 503 por alta demanda do provedor: duas em Q0135 e uma em cada Q0145, Q0149 e Q0151. As retomadas após espera recuperaram todos esses IDs, preservando as tentativas anteriores. Os limites das seis invocações foram 20, 19, 18, 9, 4 e 1; elas consumiram, respectivamente, 1, 1, 9, 5, 3 e 1 chamadas, totalizando vinte. A próxima execução começará nos IDs sem recibo, a partir de Q0152, reutilizando os sucessos existentes.
+O [checkpoint final](../artefatos/checkpoints/conclusao_modulo4_2026-10-16.json) registra os 359 IDs, hashes dos recibos e da revalidação, consumo, falhas e verificações. O [registro da execução contínua](../artefatos/experimentos/conclusao-lote-v2-2026-10-16.json) preserva as 29 invocações, seus horários e resumos. Seu estado `concluido_aguardando_verificacao_final` é o encerramento original do executor; a conferência posterior consta no checkpoint final. O [resumo do experimento](../artefatos/experimentos/lote-v2-35-flash-lite.json) aponta para esse checkpoint.
 
-O [checkpoint atual](../artefatos/checkpoints/bloco_2026-10-16_01.json) guarda IDs por estado, hashes dos recibos e da revalidação, além do consumo registrado. São 177 tentativas nessa pasta, incluindo histórico, com 5.093.357 tokens totais informados. O bloco de 16/10 acrescentou 451.328 tokens conhecidos nas quinze respostas válidas; as cinco falhas HTTP 503 não informaram uso. Somadas às três falhas anteriores sem metadados, são oito tentativas com consumo desconhecido, que não é tratado como zero. Não somar novamente o piloto v2 ao contabilizar todo o projeto. Os checkpoints dos blocos [cinco](../artefatos/checkpoints/bloco_2026-10-15_05.json), [quatro](../artefatos/checkpoints/bloco_2026-10-15_04.json), [três](../artefatos/checkpoints/bloco_2026-10-15_03.json), [dois](../artefatos/checkpoints/bloco_2026-10-15_02.json) e [um de 15/10](../artefatos/checkpoints/bloco_2026-10-15_01.json), além da [pausa de 14/10](../artefatos/checkpoints/pausa_2026-10-14.json), permanecem preservados. A interrupção de 14/10 pode ter ocorrido após o envio de uma chamada ainda sem recibo; eventual consumo não registrado também permanece desconhecido.
+## Conclusão das 197 questões restantes
 
-A execução terminou pelo limite agregado de vinte chamadas. A última invocação retornou código zero; não houve falha local de validação, e nenhum erro de API ficou pendente. Os quinze sucessos do bloco estão salvos, sem lock residual. Nenhum processo de API foi deixado rodando para concluir o restante do lote.
+A continuação partiu do commit `6b86acdf4a09c868c92a3fd6c8a8ba380e1da6c3`, com 162 sugestões válidas e repositório limpo. Foram 227 novas chamadas: 197 sucessos, vinte falhas HTTP 503 e dez respostas rejeitadas pela validação local. Todas as falhas foram recuperadas em novas tentativas e permanecem nos históricos. As invocações internas fizeram até vinte chamadas cada, avançando automaticamente e aguardando após indisponibilidade transitória. O limite de proteção da continuação era 450 chamadas; ele não foi atingido.
 
-## Verificações do bloco de 16 de outubro
+As dez rejeições locais ocorreram em Q0171, Q0197, Q0208, Q0209, Q0215, Q0254, Q0322, Q0324, Q0339 e Q0345. Sete repetiram IDs entre extras e alternativas; três alteraram ou juntaram trechos da evidência. Todas passaram na segunda tentativa. Os validadores, o modelo, o prompt e a política permaneceram iguais; nenhum tema foi escolhido manualmente para contornar uma falha.
 
-- `python -B -m unittest discover -s tests -q`: 213 testes, 212 aprovados e um pulado por falta de privilégio do Windows para criar link simbólico real. A proteção também possui teste simulado aprovado.
-- Todos os recibos presentes tiveram identidade do experimento, checksum e histórico conferidos. As sugestões válidas passaram pelo esquema, IDs ativos e correspondência de evidência. A revalidação confere novamente a origem e a seleção da primeira tentativa tecnicamente válida.
-- Os 147 recibos anteriores e a revalidação de Q0005 permaneceram byte a byte idênticos. As novas tentativas e os erros de API estão preservados nos quinze recibos acrescentados. Código, modelo, prompt, política e regras de validação permaneceram iguais.
-- Hashes das fontes originais conferidos; os materiais fornecidos permanecem intactos.
-- Em 14/10, preparação e prompts dos pilotos v1, v2 e lote v2 foram reconstruídos em pasta temporária, com hashes idênticos aos produtos existentes. Na retomada, os hashes das fontes e manifestos foram reconferidos.
-- `.env` e `contexto_local/` continuam ignorados pelo Git. A busca por padrão de chave Google nos artefatos do bloco não encontrou credencial.
-- `.gitattributes` marca os materiais e artefatos assinados para preservar bytes. Foi identificada uma divergência preexistente de fins de linha entre o blob de `temas.csv` no Git e a fonte local; a correção para o próximo commit está abaixo.
-- `git diff --check` sem erros de espaços. Nenhum commit ou push realizado pelo assistente.
+A execução durou 87 min 31,91 s de relógio, das 10:16:03 às 11:43:35 de 16/10, horário de São Paulo. A soma da duração das chamadas foi 2.355,46 s; o restante inclui intervalos, esperas e processamento local. Esse tempo observado não mede o esforço humano total das vinte horas estimadas para o projeto.
+
+| Consumo registrado | Esta continuação | Lote acumulado |
+| --- | ---: | ---: |
+| Tentativas reais, incluindo erros | 227 | 404 |
+| Tokens totais informados | 6.257.155 | 11.350.512 |
+| Tentativas com uso informado | 207 | 376 |
+| Tentativas sem metadados de uso | 20 | 28 |
+
+Uso ausente é desconhecido, não zero. O total do lote já inclui as 21 tentativas do piloto v2 reutilizado; não somá-las novamente. Somando as vinte tentativas do piloto v1, são 424 tentativas únicas registradas nos experimentos de classificação. Houve 247 chamadas registradas desse modelo em 16/10, das quais vinte pertencem ao bloco anterior e 227 a esta continuação. Isso é contagem local dos recibos, não consulta de saldo ao provedor. A interrupção de 14/10 pode ter ocorrido após uma chamada ainda sem recibo; eventual uso não registrado permanece desconhecido.
+
+A última invocação terminou com código zero. O executor encerrou, nenhum processo desse lote ficou em execução e não há lock residual. Os checkpoints anteriores, incluindo a [base de 162 válidas](../artefatos/checkpoints/bloco_2026-10-16_01.json), permanecem preservados; o histórico dos blocos está em [PLANO_EXECUCAO.md](PLANO_EXECUCAO.md).
+
+## Verificações da conclusão
+
+- `python -B -m unittest discover -s tests -q`: 213 testes, 212 aprovados e um pulado por falta de privilégio do Windows para criar link simbólico real; a proteção também tem teste simulado aprovado. Duração: 46,556 s. A suíte foi executada nesta retomada; não foi repetida após alterações apenas de dados e documentação.
+- Os 359 recibos tiveram identidade do experimento, checksum e histórico conferidos. As 359 sugestões efetivas passaram pelo esquema, IDs ativos e correspondência de evidência. A revalidação de Q0005 teve origem e seleção cronológica conferidas novamente.
+- Os 162 recibos anteriores e o derivado de Q0005 permaneceram byte a byte idênticos. As 197 questões novas conservam suas tentativas, erros e metadados de uso.
+- Fontes originais, manifestos, código, testes, modelo, prompt, política e regras de validação permaneceram iguais.
+- A preparação e os prompts já haviam sido reconstruídos offline em pasta temporária com hashes idênticos. Os hashes foram reconferidos no encerramento; a pendência de fins de linha no Git está descrita abaixo.
+- `.env` e `contexto_local/` continuam ignorados. A conferência final inclui busca de credencial Google nos arquivos versionáveis, links locais da documentação e `git diff --check`.
+- Nenhum commit, push, aplicação da política, auditoria ou exportação final foi realizado nesta continuação.
 
 ## Ajuste de reprodução a incluir neste commit
 
-O `temas.csv` local usa CRLF e coincide exatamente com o hash do manifesto (`9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc`). O blob no HEAD usa LF (`260c1826a6604a64ce26be0883ddc63e2ba768f1e55dcf88f323db42be36325c`). O texto é idêntico; apenas os fins de linha diferem. Essa diferença anterior a este bloco não afeta a execução local, mas precisa ser corrigida antes de reproduzir os hashes em outro checkout.
+O `temas.csv` local usa CRLF e coincide exatamente com o hash do manifesto (`9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc`). O blob no HEAD usa LF (`260c1826a6604a64ce26be0883ddc63e2ba768f1e55dcf88f323db42be36325c`). O texto é idêntico; apenas os fins de linha diferem. Essa pendência continua presente apesar da mensagem do commit anterior. Ela não afeta a execução local, mas precisa ser corrigida para reproduzir os hashes em outro checkout.
 
-O comando `git add --renormalize -- temas.csv`, com o atributo atual `-text`, prepara no índice os bytes exatos da fonte local. Ele foi comprovado em índice e armazenamento de objetos temporários, fora do repositório. A fonte e o índice real permaneceram intactos; o comando ainda deve ser executado pelo usuário junto ao commit abaixo. Após executá-lo, `git ls-files --eol temas.csv` deve mostrar `i/crlf w/crlf attr/-text`. A comparação ignorando fins de linha não deve mostrar mudança textual.
+O comando `git add --renormalize -- temas.csv`, com o atributo atual `-text`, prepara no índice os bytes exatos da fonte local. Foi comprovado em índice e armazenamento de objetos temporários, fora do repositório. A fonte e o índice real permaneceram intactos; o comando deve ser executado pelo usuário junto ao commit abaixo. Depois, `git ls-files --eol temas.csv` deve mostrar `i/crlf w/crlf attr/-text`. A comparação ignorando fins de linha não deve mostrar mudança textual.
 
-## Commit deste checkpoint
+## Commit deste módulo
 
-A base anterior já estava commitada e o repositório estava limpo no início desta retomada, em `b5b2cb2`. Este novo commit reúne quinze novos recibos, o checkpoint, a documentação de progresso e o ajuste dos bytes de `temas.csv` no Git descrito acima. O lote permanece incompleto e a retomada reutiliza todos os sucessos, inclusive Q0005 revalidada; a avaliação real ainda não foi executada.
+Este commit reúne 197 novos recibos, o registro contínuo, o checkpoint final, o resumo do experimento e a documentação. Os commits anteriores não precisam ser refeitos.
 
-Comandos sugeridos para o usuário, a partir da raiz:
+Comandos sugeridos, a partir da raiz:
 
 ```powershell
 git status --short
 git add --renormalize -- temas.csv
 git ls-files --eol temas.csv
 git diff --cached --ignore-space-at-eol -- temas.csv
-git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md artefatos/checkpoints/bloco_2026-10-16_01.json artefatos/experimentos/lote-v2-35-flash-lite.json artefatos/execucoes/lote-v2-35-flash-lite
+git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md artefatos/checkpoints/conclusao_modulo4_2026-10-16.json artefatos/experimentos/conclusao-lote-v2-2026-10-16.json artefatos/experimentos/lote-v2-35-flash-lite.json artefatos/execucoes/lote-v2-35-flash-lite
 git diff --cached --stat
 git diff --cached --name-only
-git commit -m "data: registra 162 respostas validas e preserva bytes da taxonomia"
+git commit -m "data: conclui lote de classificacao v2"
 ```
 
-Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` permanecem no computador, mas são ignorados: repetem o catálogo e são regeneráveis. Templates, manifestos, fontes, recibos e análises são versionáveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.
+Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` continuam locais e ignorados: repetem o catálogo e são regeneráveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.
 
-## Retomada na mesma pasta
+## Retomada e reprodução
 
-Primeiro, ler este registro e conferir `git status --short`. O usuário dispõe de vinte horas estimadas para o projeto; essa previsão não é uma medição automática de tempo já gasto. Não iniciar o lote inteiro nem alterar a política sem avaliar o impacto no protocolo.
+Na mesma pasta, ler este registro e conferir `git status --short`. O módulo 4 está completo: não é necessário executar novas chamadas de classificação. As cotas informadas pelo usuário para o modelo eram 15 RPM, 250 mil TPM e 500 RPD; uma futura etapa com API precisa considerar o uso do dia. Nenhum gasto ou ativação de faturamento foi autorizado.
 
-Rodar os testes offline. Só quando o usuário retomar o trabalho, executar um bloco:
-
-```powershell
-python -B -m unittest discover -s tests -v
-$env:GEMINI_MODEL = 'gemini-3.5-flash-lite'
-python -B -m classificacao_topicos executar-lote --lote artefatos/lote-v2 --saida artefatos/execucoes/lote-v2-35-flash-lite --limite 20 --intervalo-segundos 10 --continuar-erros-validacao
-```
-
-A variável vale para o terminal e prevalece sobre o modelo do `.env`, que não foi editado. A chave permanece local. As cotas informadas para esse modelo eram 15 RPM, 250 mil TPM e 500 RPD; conferir disponibilidade e uso do dia ao retomar. Não ativar faturamento nem usar alternativa paga.
-
-O comando pula sucessos, tenta pendências e limita as novas chamadas. Uma falha local fica salva e os demais IDs avançam; erro da API interrompe. O código de saída pode ser 1 por pendências de validação, mesmo com progresso salvo. Ao finalizar, conferir o resumo e parar para revisão/commit. Para pausas planejadas, aguardar o fim do bloco, evitando interrupções durante uma chamada.
-
-## Retomada em outro checkout
-
-Os prompts expandidos não estarão no Git. Reconstruí-los antes de executar ou validar recibos:
+Em outro checkout, corrigir primeiro os bytes de `temas.csv` no commit conforme acima. Os prompts expandidos não estarão no Git; reconstruí-los antes de executar ou validar recibos:
 
 ```powershell
 python -B -m classificacao_topicos preparar
 python -B -m classificacao_topicos preparar-piloto
 python -B -m classificacao_topicos preparar-piloto --saida artefatos/piloto-v2 --prompt prompts/classificacao_v2.txt --versao-prompt classificacao-v2
 python -B -m classificacao_topicos preparar-lote --piloto-desenvolvimento artefatos/piloto-v2 --saida artefatos/lote-v2 --prompt prompts/classificacao_v2.txt --versao-prompt classificacao-v2
+python -B -m unittest discover -s tests -q
 ```
 
-Esses quatro comandos são offline. A chave deve ser configurada localmente conforme `CONFIGURACAO_API.md`. Não executar `verificar-api` repetidamente se a integração já estiver funcionando: cada teste sintético é uma chamada real.
-
-## Próximos módulos após o lote
+Esses comandos são offline. A chave deve ser configurada localmente conforme [CONFIGURACAO_API.md](CONFIGURACAO_API.md) quando necessária. Não repetir `verificar-api` se a integração já estiver funcionando: cada teste sintético é uma chamada real.
 
 ### Recuperação técnica de Q0005
 
-A primeira resposta salva passa integralmente na validação atual, que já tolerava caixa e espaços. A revalidação foi implementada como arquivo adjacente `Q0005.revalidacao.json`; o recibo original, suas quatro tentativas e seus 122.031 tokens permanecem intactos. Não houve escolha manual de tema, relaxamento adicional de evidência ou chamada de API para a recuperação.
+A primeira resposta salva passa integralmente na validação atual, que tolera apenas caixa e espaços. A recuperação anterior foi registrada em `Q0005.revalidacao.json`; o recibo original, suas quatro tentativas e seus 122.031 tokens permanecem intactos. Não houve chamada de API, escolha manual de tema ou relaxamento adicional nesta continuação.
 
 ```powershell
 python -B -m classificacao_topicos revalidar-recibo --lote artefatos/lote-v2 --execucao artefatos/execucoes/lote-v2-35-flash-lite --id Q0005
 ```
 
-O comando é offline e idempotente quando o derivado existente é válido. O executor e o módulo de decisões validam o derivado e usam a sugestão recuperada; o histórico original continua sendo a fonte exclusiva do consumo. Um derivado adulterado ou incompatível interrompe o processamento. Não editar o status do recibo original para fazê-lo parecer uma nova resposta bem-sucedida.
+O comando é offline e idempotente quando o derivado existente é válido. O executor e o módulo de decisões validam o derivado antes de usar a sugestão; o histórico original é a fonte exclusiva do consumo. Um derivado adulterado ou incompatível interrompe o processamento. Não editar o status do recibo original.
 
-Ao conferir o lote por scripts, selecionar recibos por `Q[0-9]{4}\.json`, pois `Q*.json` inclui também os derivados. Manter separados o status original do recibo e o status efetivo após revalidação. A função `carregar_revalidacao` verifica a origem e a seleção antes do uso de `status_efetivo` ou `sugestao_efetiva`.
+Ao conferir o lote por scripts, selecionar recibos por `Q[0-9]{4}\.json`, pois `Q*.json` inclui também o derivado. Separar status original e status efetivo. A função `carregar_revalidacao` verifica a origem e a seleção antes de `status_efetivo` ou `sugestao_efetiva`.
 
-### Entregas restantes
+## Próximos módulos
 
-1. Resolver pendências técnicas até obter 359 sugestões válidas. Não inventar tema para contornar erro, nem aceitar paráfrase como evidência literal.
-2. Integrar à CLI as funções já prontas: `decisoes.preparar_decisoes`, `auditoria.preparar_auditoria` e `avaliacao.avaliar_auditoria`. Suas interfaces e contratos estão nos módulos e testes. Hoje não existem comandos CLI correspondentes.
-3. Aplicar `config/politica_v1.json`. Confirmar separadamente os candidatos sem tema antes de gerar `publicacao.csv`; os demais candidatos pendentes impedem uma exportação oficial incompleta.
-4. Congelar as decisões e sortear o pacote cego: censo dos publicados entre vinte casos de desenvolvimento; amostra sem reposição de `min(80,N)` demais publicados, semente `2026101401`.
-5. Produzir referências de IA sem acesso às respostas Gemini e calcular cenários conservador/otimista com intervalos condicionais à referência. Não transformar concordância entre IAs em precisão jurídica validada.
-6. Preencher `previsao.txt`, produzir relatório de até cinco páginas com memo de uma página e proposta para 50 mil questões/semana, e validar a entrega. Não publicar repositório nem enviar materiais sem instrução do usuário.
+1. **5A — decisões:** integrar à CLI as funções existentes de decisões, auditoria e avaliação, preservando os testes e contratos; aplicar `config/politica_v1.json`; confirmar separadamente as propostas de `fora`; gerar as 359 linhas de `publicacao.csv` e congelar as decisões. Parar para revisão e commit antes de revisar a amostra.
+2. **5B — avaliação:** preparar o pacote cego com censo dos publicados entre os vinte casos de desenvolvimento e amostra sem reposição de `min(80,N)` demais publicados, semente `2026101401`. Produzir referências de IA sem acesso às respostas Gemini e calcular os cenários conservador e otimista, condicionados à referência.
+3. **6 — relatório:** preencher `previsao.txt` e produzir relatório de até cinco páginas, incluindo memo de uma página e proposta para 50 mil questões por semana.
+4. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
 
 ## Decisões que devem ser preservadas
 
-O usuário não tem apoio jurídico disponível. Não há gabarito oficial. O limiar 0,95 é operacional e a confiança é autodeclarada, não calibrada. A política foi registrada antes de inspecionar as novas classificações do lote; não ajustá-la sobre a própria amostra e depois chamar a mesma avaliação de independente.
+O usuário não tem apoio jurídico disponível e não há gabarito oficial. A referência futura será identificada como produzida por IA. Concordância entre IAs não comprova precisão jurídica. O limiar 0,95 é operacional e a confiança é autodeclarada, não calibrada. A política foi registrada antes de inspecionar as novas classificações; não ajustá-la sobre a amostra e depois chamar essa avaliação de independente.
 
-Na avaliação local, igualdade de ID ou relação imediata pai/filho é aceita; irmãos e ancestrais distantes permanecem distintos. É uma interpretação conservadora explicitada do texto do case. A confiança de `fora` será zero como sentinela de não aplicável; a cobertura do lote terá intervalo degenerado porque é contagem observada. Essas convenções estão em `AVALIACAO.md`.
+Na avaliação local, igualdade de ID ou relação imediata pai/filho é aceita; irmãos e ancestrais distantes permanecem distintos. Essa interpretação conservadora do case está documentada. A confiança de `fora` será zero como sentinela de não aplicável; o intervalo da cobertura observada será degenerado. As convenções estão em [AVALIACAO.md](AVALIACAO.md).
 
-Para retomar a conversa, basta: **“Leia docs/RETOMADA.md e continue somente o próximo bloco do módulo 4; pare ao concluir para eu revisar e commitar.”**
+Para retomar: **“Leia docs/RETOMADA.md e continue somente o módulo 5A; pare ao concluir para eu revisar e commitar.”**

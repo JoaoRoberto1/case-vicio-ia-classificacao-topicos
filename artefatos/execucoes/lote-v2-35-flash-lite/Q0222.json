@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0222",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:49:50.395976+00:00",
+  "sha256_prompt": "4c4265f451daa3dd324f8fa81d09ee037f3babc49a59369cf06310dd1a6f934c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8b1f080cb4b57af7708ad5c22e8500729220930a48822f47c68132842f8e4e3e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0222\",\n  \"tema_central_id\": \"4374\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4375\",\n    \"4376\",\n    \"5170\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda as teorias das velocidades do direito penal e o direito penal do inimigo, matérias clássicas de política criminal que transitam entre a Criminologia e a Teoria Geral do Direito Penal, exigindo revisão pela pluralidade de enquadramentos posibles.\",\n  \"evidencia\": \"O denominado direito penal do inimigo, que tem como expoente Günther Jakobs, pode ser entendido como um direito penal de segunda velocidade\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28794,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 30483,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28794
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1476,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fyvSasL3D_iO6dkP49u3wAc"
+  },
+  "duracao_segundos": 8.652970600000117,
+  "usage_metadata": {
+    "promptTokenCount": 28794,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 30483,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28794
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1476,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0222",
+    "tema_central_id": "4374",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4375",
+      "4376",
+      "5170"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda as teorias das velocidades do direito penal e o direito penal do inimigo, matérias clássicas de política criminal que transitam entre a Criminologia e a Teoria Geral do Direito Penal, exigindo revisão pela pluralidade de enquadramentos posibles.",
+    "evidencia": "O denominado direito penal do inimigo, que tem como expoente Günther Jakobs, pode ser entendido como um direito penal de segunda velocidade",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "e3205e0037633269381519c312dfc00907af57a88be1d47b4417d9d212aaea81"
+}

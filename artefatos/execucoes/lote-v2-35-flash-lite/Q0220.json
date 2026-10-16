@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0220",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:49:12.732505+00:00",
+  "sha256_prompt": "9ca1db8564431bd46715430187e7af1390c7fc12fb38b88f137ee7bd447c72e0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d204b5df309725e4d7d10ff8ce216186991431c043860b5ccf282ff5c55d2a79",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0220\",\n  \"tema_central_id\": \"5501\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5498\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a revisão do arquivamento do inquérito policial e os legitimados para submeter a matéria à instância superior do Ministério Público, tema diretamente vinculado à conclusão e ao arquivamento do inquérito policial.\",\n  \"evidencia\": \"Em caso de discordância do arquivamento do inquérito policial\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28940,
+      "candidatesTokenCount": 172,
+      "totalTokenCount": 29689,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28940
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 577,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WSvSaof7Kv2VmtkPmvrRoQQ"
+  },
+  "duracao_segundos": 9.14828210000087,
+  "usage_metadata": {
+    "promptTokenCount": 28940,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 29689,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28940
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 577,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0220",
+    "tema_central_id": "5501",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5498"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a revisão do arquivamento do inquérito policial e os legitimados para submeter a matéria à instância superior do Ministério Público, tema diretamente vinculado à conclusão e ao arquivamento do inquérito policial.",
+    "evidencia": "Em caso de discordância do arquivamento do inquérito policial",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0c2354f575a6174dfc6026793ec2b441373c0cfe85d2bd262b9121eb017280c6"
+}

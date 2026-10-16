@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0200",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:42:25.580379+00:00",
+  "sha256_prompt": "e68f657a700490ab1f6a4192ff4b797d4943dcdb75664621a7c4cd5cbb1d0afe",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "dcff79085c726bb81659ad9b3575b0ed035afccc75e9d3e30a9504d407f961e3",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0200\",\n  \"tema_central_id\": \"4705\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6725\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão trata integralmente da Lei de Organizações Criminosas (Lei nº 12.850/2013). Como há duplicação do tema entre os ramos de Legislação Especial e Direito Penal, marca-se a revisão para tratamento da duplicidade editorial.\",\n  \"evidencia\": \"No que diz respeito às organizações criminosas, assinale a opção correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28817,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 29878,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28817
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 874,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "winSasmKF8fjqtsPtpGmqAQ"
+  },
+  "duracao_segundos": 6.729593300000488,
+  "usage_metadata": {
+    "promptTokenCount": 28817,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 29878,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28817
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 874,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0200",
+    "tema_central_id": "4705",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6725"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão trata integralmente da Lei de Organizações Criminosas (Lei nº 12.850/2013). Como há duplicação do tema entre os ramos de Legislação Especial e Direito Penal, marca-se a revisão para tratamento da duplicidade editorial.",
+    "evidencia": "No que diz respeito às organizações criminosas, assinale a opção correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "c15cf5fec441636ee2e657c96a8797c9395f6e8065409f77cd15cbab9eb9b07c"
+}

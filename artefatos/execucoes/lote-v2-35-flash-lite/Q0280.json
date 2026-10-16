@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0280",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:09:50.021272+00:00",
+  "sha256_prompt": "d88b3c16f325ae99ca70218602015708c46ef61bc3324639548de8aa8c8a2fad",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d7ce06ff3792b981e1a8414eb62dc8794f53f90169f8a430356934ad15840532",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0280\",\n  \"tema_central_id\": \"5120\",\n  \"extras_ids\": [\n    \"5466\"\n  ],\n  \"temas_alternativos\": [\n    \"5122\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda os crimes contra a honra (especificamente calúnia) e aspectos processuais penais essenciais, como a ação penal privada, queixa-crime, aditamento pelo Ministério Público e o instituto da exceção da verdade, exigindo conhecimentos mistos de Direito Penal e Processo Penal.\",\n  \"evidencia\": \"Astolfo pratica, em tese, crime contra a honra de Lucíolo, afirmando que este, na condição de funcionário público, subtraiu valores\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28847,
+      "candidatesTokenCount": 221,
+      "totalTokenCount": 30612,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28847
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1544,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "LzDSaoxtvqaq2w_wq6ewBQ"
+  },
+  "duracao_segundos": 10.697471400000722,
+  "usage_metadata": {
+    "promptTokenCount": 28847,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 30612,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28847
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1544,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0280",
+    "tema_central_id": "5120",
+    "extras_ids": [
+      "5466"
+    ],
+    "temas_alternativos": [
+      "5122"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda os crimes contra a honra (especificamente calúnia) e aspectos processuais penais essenciais, como a ação penal privada, queixa-crime, aditamento pelo Ministério Público e o instituto da exceção da verdade, exigindo conhecimentos mistos de Direito Penal e Processo Penal.",
+    "evidencia": "Astolfo pratica, em tese, crime contra a honra de Lucíolo, afirmando que este, na condição de funcionário público, subtraiu valores",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a0c8010ccb245497f3edc089306256bf8dacea730d5e6a7d1d80e07e19d9e381"
+}

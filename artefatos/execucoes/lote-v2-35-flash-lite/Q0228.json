@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0228",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:52:55.186178+00:00",
+  "sha256_prompt": "4bfda9aa25c3328d93734c25cbd9430d262190045dac61b93daae1a816a603d3",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a65613b16872de4353a9dff939ab807519efcc1e6d41d21f58918c135745c521",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0228\",\n  \"tema_central_id\": \"5208\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4703\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda o livramento condicional e o procedimento para sua postulação no âmbito da execução penal, havendo interseção entre a Teoria da Pena e a Lei de Execução Penal.\",\n  \"evidencia\": \"Se o defensor de um condenado preso entender que ele faz jus ao livramento condicional, deverá:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28667,
+      "candidatesTokenCount": 170,
+      "totalTokenCount": 29983,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28667
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1146,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "OCzSas4YoIGa2Q-JpZCBBw"
+  },
+  "duracao_segundos": 8.89926050000031,
+  "usage_metadata": {
+    "promptTokenCount": 28667,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 29983,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28667
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1146,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0228",
+    "tema_central_id": "5208",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4703"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda o livramento condicional e o procedimento para sua postulação no âmbito da execução penal, havendo interseção entre a Teoria da Pena e a Lei de Execução Penal.",
+    "evidencia": "Se o defensor de um condenado preso entender que ele faz jus ao livramento condicional, deverá:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "4b0c6aa25bdf59ea8cc9ef0713b0d36cda86a2bd3bcba5405800427b40420ea1"
+}

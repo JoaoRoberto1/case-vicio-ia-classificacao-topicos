@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0267",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:05:41.122025+00:00",
+  "sha256_prompt": "6220e640e52545edf98e976924ef479953ac097da1a482930e000420df77cd9e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "96265e406334d8327fc02e0d45046dbf5d56e2bf2f03db619fa5c63477a2b610",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0267\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda disposições da Lei nº 11.343/2006 (Tráfico de Drogas). O catálogo apresenta duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão editorial devido à concorrência entre os nós.\",\n  \"evidencia\": \"considerando as disposições da Lei n o 11.343/2006, é correto afirmar que:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28986,
+      "candidatesTokenCount": 197,
+      "totalTokenCount": 30116,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28986
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 933,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Ni_SapaPAv--qtsPhr6ywAQ"
+  },
+  "duracao_segundos": 7.881425100000342,
+  "usage_metadata": {
+    "promptTokenCount": 28986,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 30116,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28986
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 933,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0267",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda disposições da Lei nº 11.343/2006 (Tráfico de Drogas). O catálogo apresenta duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão editorial devido à concorrência entre os nós.",
+    "evidencia": "considerando as disposições da Lei n o 11.343/2006, é correto afirmar que:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "1f0c9f9392aa58fd36151ad1f4d1a26c382d912f7f0d6eeec17b71d6e84c7dc1"
+}

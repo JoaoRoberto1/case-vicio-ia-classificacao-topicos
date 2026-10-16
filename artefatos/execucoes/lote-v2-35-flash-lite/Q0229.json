@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "Q0229",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:53:51.625969+00:00",
+  "sha256_prompt": "5c9c3b47af834408831acda3c82773ae0a3258fbb2b4d9a227f68def47192961",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e7aac9f7713bf5c26b5b4b8b05b7fb03ef98cba159f194f88f30d80ecba40c0b",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0229",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:53:14.096270+00:00",
+      "sha256_prompt": "5c9c3b47af834408831acda3c82773ae0a3258fbb2b4d9a227f68def47192961",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "e7aac9f7713bf5c26b5b4b8b05b7fb03ef98cba159f194f88f30d80ecba40c0b",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.988644300001397,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "7f52a992950912e1e9c60b60ab391b28fcd448169476af62fd3fa30d3a8f8b68"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0229\",\n  \"tema_central_id\": \"5517\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5519\",\n    \"5520\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda múltiplos aspectos e espécies de prisões no processo penal, incluindo prisão preventiva, temporária, domiciliar e prisão especial, sem apresentar um tema central dominante único, exigindo a marcação de revisão pela mistura de assuntos.\",\n  \"evidencia\": \"Assinale a opção incorreta acerca da prisão no processo penal.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28745,
+      "candidatesTokenCount": 178,
+      "totalTokenCount": 30272,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28745
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1349,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "cCzSaq6OH8WkqtsP9aK2sQQ"
+  },
+  "duracao_segundos": 10.202333100000033,
+  "usage_metadata": {
+    "promptTokenCount": 28745,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 30272,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28745
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1349,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0229",
+    "tema_central_id": "5517",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5519",
+      "5520"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda múltiplos aspectos e espécies de prisões no processo penal, incluindo prisão preventiva, temporária, domiciliar e prisão especial, sem apresentar um tema central dominante único, exigindo a marcação de revisão pela mistura de assuntos.",
+    "evidencia": "Assinale a opção incorreta acerca da prisão no processo penal.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d95a0c903e6b0bdb83189dfe34cfdfb3358444af663b2c59fec31a5e745eb596"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0316",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:22:23.588575+00:00",
+  "sha256_prompt": "50e5af401c6fd21286f5d891bab3c8d1c4ef0ffbe899b5e3cf2e4e9d95fcf8f9",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c93b001eee62e57b3769c503b9b8022af936d03ff424bb9ba62418455874a39c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0316\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o erro sobre a pessoa previsto no artigo 20, § 3º, do Código Penal, matéria inserida na teoria do Erro de Tipo.\",\n  \"evidencia\": \"Dispõe o artigo 20, § 3º, do Código Penal, que, em tal caso, não se consideram as condições ou qualidades da vítima\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28758,
+      "candidatesTokenCount": 170,
+      "totalTokenCount": 30118,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28758
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1190,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "IDPSav7YIYqaqtsP7MDMuAk"
+  },
+  "duracao_segundos": 14.5470075000012,
+  "usage_metadata": {
+    "promptTokenCount": 28758,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 30118,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28758
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1190,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0316",
+    "tema_central_id": "5224",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o erro sobre a pessoa previsto no artigo 20, § 3º, do Código Penal, matéria inserida na teoria do Erro de Tipo.",
+    "evidencia": "Dispõe o artigo 20, § 3º, do Código Penal, que, em tal caso, não se consideram as condições ou qualidades da vítima",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f5708bf6f8f7ad0236222a08de9a7d4fa7fae61c1906969f1402115224b592b9"
+}

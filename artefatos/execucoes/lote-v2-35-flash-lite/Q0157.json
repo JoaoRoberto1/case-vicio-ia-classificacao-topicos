@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Q0157",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:19:53.049514+00:00",
+  "sha256_prompt": "53d8bd778a5863c5048d9d5ef8225c00e3ace28ad6094b52bf187dfaf6bd2adc",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c28ac855a078911536c71f91c5f7c24b63f4a3e7d7a78f5579573f620250258c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0157\",\n  \"tema_central_id\": \"5520\",\n  \"extras_ids\": [\n    \"4693\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o prazo da prisão temporária para crime hediondo (epidemia com resultado morte), exigindo o conhecimento integrado da Lei nº 7.960/89 e da Lei nº 8.072/90.\",\n  \"evidencia\": \"A prisão temporária decretada no curso de inquérito policial instaurado para investigar crime de epidemia com resultado morte, artigo 267, § 1º, do Código Penal, tem prazo limite de\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28682,
+      "candidatesTokenCount": 208,
+      "totalTokenCount": 29741,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28682
+        }
+      ],
+      "thoughtsTokenCount": 851,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "eSTSao_6Mq3oz7IP_PykuQ8"
+  },
+  "duracao_segundos": 7.7647845999999845,
+  "usage_metadata": {
+    "promptTokenCount": 28682,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 29741,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28682
+      }
+    ],
+    "thoughtsTokenCount": 851,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0157",
+    "tema_central_id": "5520",
+    "extras_ids": [
+      "4693"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o prazo da prisão temporária para crime hediondo (epidemia com resultado morte), exigindo o conhecimento integrado da Lei nº 7.960/89 e da Lei nº 8.072/90.",
+    "evidencia": "A prisão temporária decretada no curso de inquérito policial instaurado para investigar crime de epidemia com resultado morte, artigo 267, § 1º, do Código Penal, tem prazo limite de",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "04576bdd3c30c6e01709a3e3aed7d06eaf30e8ecc11c0320ca9c18cc03aaf58a"
+}

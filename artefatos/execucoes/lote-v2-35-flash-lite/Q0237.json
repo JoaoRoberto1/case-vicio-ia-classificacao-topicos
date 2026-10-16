@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0237",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:56:27.927693+00:00",
+  "sha256_prompt": "65fe9e6bd7a03c6682db6a76d2904b51311c0e99b49cd47a7051f28ad5640b0a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "bfa021cfdf790933507795e0ab148f33fb906b41e7fd69e3d1afed5c206df436",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0237\",\n  \"tema_central_id\": \"5178\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão aborda diretamente os institutos da desistência voluntária e do arrependimento eficaz, ambos previstos no artigo 15 do Código Penal, exigindo a distinção entre suas fases e aplicações.\",\n  \"evidencia\": \"Qual a diferença entre desistência voluntária e arrependimento eficaz?\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EsoKCscKAWkUfRP+aYdCcWgx14vhD339UHuOwI9sYI3J6ATCxA7w23f8xj5Ctu9RurlFJDnyHtrSip8dAUDqHkSI9BtOqNFKF5ZtoTv5XKP4gwBwOQZLQuPW7RPEVyEqp06m3MxoaNGeK3mziyyq9SOAcqDKx+/XDa23nR8IrFz4XoKF34ehQxInBukpBGj6scmvbN57tz+/wZPZWFF+0zHRohk3qDxd8qIMvvHnQRoopDG7scMfjPbB1xXes0cRA9emk1t2YpOY4xJq71GOcCdST2hi9/PusxEhZ5u8ZDztfmySxOoOADKlp14r54L9AFAdBDGQUfGrZB1rJbaleQBWaXH00WVP9tBGopD06mqAVF0h9UCHJpDnCgPvK53o3rBMmZ5Ck0x6g1m4FvOs2Bfq+Ja/wyckE7iI8rdF/NDl8TTrzijAIciFWEjP7NvydJFYVE4quDpQ9RoQZApacZOASTwYH/X0GuNzeehIa9No/pwpMrS/+bvzuBRYKwjgQKMJ/VvmDFYgtO9M45SlenVbWoomPVk5kmyIMpz11Fy4lf8a8C6cMLKLrV1bOTiCI2EeVSl2xz9/crYd3b2yYrBDrZk4UpR2KpHuBrCX6lem0ER50kYsbu4dbEVzPq319ifLqAu6RQOsPpSeIvJZiTPI7BfrnGW401nqO21nDnPLRxP2H+/KM4RQ/pYNpf7vABE9tjQmPHpd6o6LroGKLXVlb6DVsA5ZZwEi5i7SuuAdhHppOF9emLuc6gpZcReVOBTwL0HZihaE0MSRAIcOpUODOICI4fxw28WuQMrSyaKcGTkFTjEAUhvD4YrSD/uDnzilHnJ4rzLttDakUJY2rgxm3nQXQArVK6RBFWKAgV2yQ/oIKo/TxR+oISbeKwnTG//zXvs0Q/Et5DDqnYb2U6WJ36USt1iB+CJ/LvIOQRRtVI5LrJLGvFjsUk5hDHG9oB3Mannu9S/NwBnYXxy7Y6xqL3/x8B8vRVwExXd7e2gEC2Jqq3fO0ZEHoxbSG+9B7kVOwGm8pG9o/wvhTKq6DA3iuGJ/T8T/taRYlcllMAOk78Ct2hggVNXWRsVEEAUonHY574mQzWMrJFbW3iXW9YVA8lOHA63IPA0GJBYUPDIGSGeHn1uwSaeixfEhjwAa3fIogS2b/ImRtLR1gw37BlL/lUH6CtEKCWlt/GsLmiRj9D6H17nTFG2KnCMrnUw5BuvmtPCCAfWFwkGydJC1nWs7w66RoeZIySU0dUT1NAbJtsqYC/kuS++3ozasM8E293gScYj61dE70fb0mpPCfmPkHOkDrBbkm4e+k6yKUVHD6vXygI1OdRovEZx3TAaOuf2K79ZWhZORfTHwOS3DGAjLTFptwP+UkY42QGuCuNEJYl7JqxaEYq5GHFyUs8Uro2J0/J3LKrKDL/SgUlO4ZVNCgpGb50ezIEwdqTY/hLskHkjcxRU4uh3in7mRRdkaMKHgJSv3D+98jh+StFSh6AfQrYec2Bgz3rRi0Lroxh10Z9txja+H1vuczetIjMTQ033ZeEr4Or9SqV1aJdMy8lVRF5aOdVR+odV+i8E1ssnv8z49i4hOvjVvF8p5iOaQZ5xoCVfVA9vuAp0ad25D8+6efEvyoeFqRsrRfy4oxLQt1snnWDmlJrIANImte2q5XPLV3kk9dMZTepJ1rD5+ESE2z2CxGA2lULjP1QWoXofkkS7LVu2NEtQhZiXogct5ew58xV1KEvae3N9lXXqJRDxa4Qi4AlFNkhzRknim+8dkilyaNCXJZ5t4uReApzK2eNbPTf7wZs2E4owziA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28906,
+      "candidatesTokenCount": 153,
+      "totalTokenCount": 29416,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28906
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 357,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "DC3SaobaMYacqtsP5bbkkQQ"
+  },
+  "duracao_segundos": 7.817731199998889,
+  "usage_metadata": {
+    "promptTokenCount": 28906,
+    "candidatesTokenCount": 153,
+    "totalTokenCount": 29416,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28906
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 357,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0237",
+    "tema_central_id": "5178",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão aborda diretamente os institutos da desistência voluntária e do arrependimento eficaz, ambos previstos no artigo 15 do Código Penal, exigindo a distinção entre suas fases e aplicações.",
+    "evidencia": "Qual a diferença entre desistência voluntária e arrependimento eficaz?",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "2fea67a10def70099c6573215b9d9cbfea0e5cbe0f063ebc2cdf77a590cc202d"
+}

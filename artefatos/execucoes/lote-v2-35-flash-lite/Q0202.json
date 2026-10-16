@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0202",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:43:25.770865+00:00",
+  "sha256_prompt": "f7def2465ba9dcd7fcef0b6a1010b3c91c6da4d2847264e6a81dc40bb14f17a1",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "894d8b9bfe51fca2e94f67a1f29553f0e78b6fa2245f1eb97c12515ec017a6d9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0202\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [\n    \"5109\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão exige o conhecimento de Teoria do Crime, especificamente sobre Erro de Tipo (análise da exclusão do dolo pelo desconhecimento de elementares como a menoridade e a situação de prostituição), articulado com os Crimes Contra a Dignidade Sexual (Art. 218-B do CP). Requer revisão devido à interseção entre a Parte Geral e a Parte Especial do Direito Penal.\",\n  \"evidencia\": \"sendo acusado de manter relação sexual com menor de 18 anos, em situação de prostituição (art. 218, B, parágrafo 2º, inciso I, do CP), já que a moça conta com apenas 17 anos de idade.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29008,
+      "candidatesTokenCount": 254,
+      "totalTokenCount": 31751,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29008
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 2489,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "_inSaqDCNr2fz7IP7t6CKA"
+  },
+  "duracao_segundos": 13.040191099998992,
+  "usage_metadata": {
+    "promptTokenCount": 29008,
+    "candidatesTokenCount": 254,
+    "totalTokenCount": 31751,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29008
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 2489,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0202",
+    "tema_central_id": "5224",
+    "extras_ids": [
+      "5109"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão exige o conhecimento de Teoria do Crime, especificamente sobre Erro de Tipo (análise da exclusão do dolo pelo desconhecimento de elementares como a menoridade e a situação de prostituição), articulado com os Crimes Contra a Dignidade Sexual (Art. 218-B do CP). Requer revisão devido à interseção entre a Parte Geral e a Parte Especial do Direito Penal.",
+    "evidencia": "sendo acusado de manter relação sexual com menor de 18 anos, em situação de prostituição (art. 218, B, parágrafo 2º, inciso I, do CP), já que a moça conta com apenas 17 anos de idade.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a7bf917ac54b63f0eb6b9ddcfe149e48aeb8e2c1e8b3e1de6b757a5e2c78c467"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0265",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:05:04.640564+00:00",
+  "sha256_prompt": "7091d410c0a322702dacdb3eedad1ef37ffaa26bbf8241e86fd90b03afdf30b2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0745a74464690bb1bc24f53a488c049d3587748044163d73f7d01178f1d5da9f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0265\",\n  \"tema_central_id\": \"5186\",\n  \"extras_ids\": [\n    \"5066\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a regra de incidência da prescrição em casos de concurso de crimes, matéria própria das regras gerais da prescrição no Direito Penal (art. 119 do CP), com interseção direta com o tema de concurso de crimes.\",\n  \"evidencia\": \"Na hipótese de concurso de crimes, a extinção da punibilidade pela prescrição incidirá sobre a pena cominada por cada crime, isoladamente.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28618,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 29884,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28618
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1070,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ES_SaunRH72IqtsPpJqxmQU"
+  },
+  "duracao_segundos": 6.796798399998806,
+  "usage_metadata": {
+    "promptTokenCount": 28618,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 29884,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28618
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1070,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0265",
+    "tema_central_id": "5186",
+    "extras_ids": [
+      "5066"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a regra de incidência da prescrição em casos de concurso de crimes, matéria própria das regras gerais da prescrição no Direito Penal (art. 119 do CP), com interseção direta com o tema de concurso de crimes.",
+    "evidencia": "Na hipótese de concurso de crimes, a extinção da punibilidade pela prescrição incidirá sobre a pena cominada por cada crime, isoladamente.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "04ae930c3d5d2615c33e4c5ee8efccb58e37027f8bb0c98eabc6cc7d5d6168ce"
+}

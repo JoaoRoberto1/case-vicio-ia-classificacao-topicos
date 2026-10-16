@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0328",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:27:24.420821+00:00",
+  "sha256_prompt": "4c2e5407e14f356505ab0f8b83109ff0bf32d6016bd7524dbdf46170ff2518c6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "40eb9d4ed59fb6d84b886136a28c435b997e88467cb49938bc33b77f599dce65",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0328\",\n  \"tema_central_id\": \"4382\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4381\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente as funções da criminologia e sua articulação com o direito penal e a política criminal, sendo classificada no tema de métodos e funções da criminologia, com o conceito e objeto como alternativa concorrente.\",\n  \"evidencia\": \"Acerca do conceito e das funções da criminologia, julgue o item seguinte.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EtAXCs0XAWkUfRNuPh8rM3RAD2yDAO6UHh81UOkj6BL0BmSSD1RiHIfyv9DHqMHqHdca7al0ZtIq3g5bNyTe+K4Js4N9QRSNHHG00kweszzA01Y3kQQo6XhQsZVBSTFQ1mVzKlg4imDzHJoy0Nh0FOl2DUE5XoVDQZ4iXAV6xy/mOXwdS0EC4rRiZC/Ja2O414y4arydjcgdu9l6cesCHarf+ua5jnQf1xyDh/DjPh/kxKK/O0pf/lVerFBRS9Ez6AF9MGF27RrY6JRSEmbcgv7V2nCFounmnjql8HKVK+Zm+vMu2+FH3pf6twoPK3Ly2s2rM2I+EbfvmobMdf+YPP2CvJTumoCLkb4bqDDT+AeVK/IKrTjv0ADLZyfDofU3PBiYFq3XICzmHXP4TDUyY+7Ohef3zi7/RAT06gymLBrsWW8R8SRNTity9y/uw85jQeFuqdpOExkuk0PGg6dfTqTjK+uXIOQoW8If59LbQ3FlCgTYK8/mR+GMiH9NNWzelzNpVMvw51jzm/dkFWy6s/4843hn3XOlFCK5TQvAglebm7nSEUivrDRwYuBgoj7dkQG0Lq0FHyd/dO9v06midkgrirG938mzlUg4+nLlIGFKL60LQ4zi414xhef4EJ3GTvbUUzRzfjbEb6w+CCJXjnebbS2zPuI1QFlG1sZ9DwlXFs3tx5WCl7ppLiPDmD8BAUC+VTKiL3rH3EyESgAZDB0eTkHLIgtFWVpLFZagmez29WxqKI4tytIHUg/unHjWYOwfK8lQ8wtkYMr9JfuvPJC5p7nR+6ezfULGT/XmZweAYw6+ImidIj3uqMLQxbx51NT9lov/51hLOvswc5xl+D7r00CfXNWaX0kWWKBlozTSAHgBF41YP4kgPtWbedJekRk3PBYhL8H0c6nGPvqxlihjD2NXgxAmNSQdc1OLNhYG5NdRM8NKFPKHqw26c7MIDWRj3ZVCvqmEKY0kKaAE0KtWwbRbzGLLBAcCKpn1IM5DPXBCZgKt4NJlTz2k1AXD1WCO7w4i/OzP1kragvSCNhdbyHJXi5hN8Hhzew1bd/uvFsLzOO/4AdHndrdM5zAVh7J1NbQyP1nSeGH81O+wT4AiAiRfzZleRqFPNJt7IV+FLAkyptMW4h/gXLk0/QSbgStDHxA2n5ibS7/42q7mH+2tQuaTL2f2cHtXVGDSG+s5uxfyEFQ0b6bxDX28OwQDv9ruDGO7U/RdyQpSSRDc1M/tSI/vKMo+McWxAa6XGl79EX+g2hKnNGso7u1X5718MM4WcqQooHWV+YAd5OZ3i6EjJ14GDerMwvc/DznKVQhfdV5PzN1P2FE00FmN1G9IJCwFhLrzpo0OY27gmuUeQ+SBHL0ApSAOVaWwq0SW/IVkMCyALu/6K1ePhYuuoUgeRuccVKsLYLRPXeRKqQflaS5mfkWg5MdIiQn8/w+sWfR+6ugel/At2wKG3JoJZKX3jkmhfj3AYIBOixqy/clfJAualU4lpMfuI+733RJuO5zMZEn1qkWlPhHUgkJzrIkZjwuyH+ISByP1v1hJSmVsCBmA24yUqH2/Wh0/kJgJdCs8phWQbIQ4we1JCHVp7zLAy5f6b56SquuQq8GSmyPLn+cbcFlyaoR6ad3XeWqM+f0OhSar82IFA87lPilKGMQD2NvtBFbXspj5w+A2hqdrTSy3MkFmURrVS9Oool+L/I9xY1HpNt6vM4kRVEFKNI45mdkPp/I1lyss/KUOSPFL6N9w3kfQSuHYulK6PFcJ1MLx4e3UjQWDRAdVt/b0I7ZH+2CNb4bkAJGs46nxJZyAxJ7/fezo6xGc7B+5M1TeNA8ByFDxNDvKXgMCmHupIMjLXneUl6hNU8fxnnF5NjFPdNI9o+yLM4i6nymameWfUDgAe5ROTWMO6GVgy4+ifxIM/1F1mdB9QZSRlKIPBwDa/RN7+pMq4of1qPRl8b4eob5D3SrJ0+6JeV5pf+U91i36DLflRo4o+2AVwxP/zYtuHuwofPQ6I47pTbZeDqDHJs+zRmZaT9Yl7LSz4ylDPfYBliaA8mVleWRZ9sNo/KI0TKJGFMHbBs8k7ynOxtdQz9e4h8GJS0TzrWGnayhNf2MZndaiTXY2TsxBrkE228Dp7pS/FkIiBWc+mx9l9FCtpRcnpDt1LL7LNGSFHarzbsFATMFjyyTGxIZmJgLw9SHgdT12S1ZcZ9qfwqgXXLpzWHpr3OQ5ra8eyrBWdJltLcZjJbnBwHo8zMkF4pPAIsLpMc85SH3PkKRn22qPJ6EgXBXCWH9im6T/piQrZxM2+L/9WhXsV+PnYxGVveVsPM/qJ2Q+wz2zFWt3w+f8exsveTMIuwAZ6/PK2sf5TOoWgqlTx0l/NQRwa1NqSlOJ0syKN2n50dsTWZCVaHfWo5hu7i++JeWJGwkDPqBJ7/UdN+YG7zd1qpo5Vbm3M064xiDjX1cQNBsZ4vUt6G5l5GWvxvLDw1SVi4xCx1nNSIih3X4kG5k9SmQEYgT9L67Znw8rALUEQUkNPB4AsulGF2L0ZlyyVNlu8LLAKNvINFDxURDFPwWX0sCafq5tAGdyvPhf+40vUmV6YEGXOrVV1k+NSkagE8k1sFqQvw/XO859OmXMavVwPa7LJcm6jWxtcGaNsb7zw+VZ93iiqRDicP14//Nzi2+ByA9Ccn676rFNd0wZjW6/HsisES2utQB0PSj6FbWg+a9fFxMs44+xyw7kRWmckj/xnNiM75I4akU1tyh4dTJ0X2pHEvynCHf3QmzwUTYABWqfinJoGvy8f+7lCb2mgtkRbK0dclC4YKUJJJJxLQbB32GRPQlcxyqSW5jFoeW62azoViNTQ7EP5STpp9ewSojJ3Z0/hIVdAYbh9gbDpmQvTFmVzJcpeaW3pCcls37miWqG55fQbZkSjAGOjHHJnKKduVJy3uoVTPRkCrncP2BrWO8Ojp8pZOmOJwl0W4j3FpGl3nWAL+sW3V5qXZ/rX4/EKHFL62ElK7Vd+DMMfRIeOIBaDaHKcpynDiFSXIkTWBx2c5QeCWiTcfg5Nt4GjdDYgdVZOUqrvQVajFW4qmhqLHagFt3r1Xeud2j9vpSrLG2G7Yf2JDoLkHegslP2tvL7LPpYKeLC6DcO/9ziLjqzsPgPH0W+K9QJ/vHZ3Q+OISpIJmbrFcRMd0Yupd1Gz40tE1/MPaIaVNQNLQlLtub+9JuAMoDJ37E7UWsP5VLCiIvvFj4tdxGAM14nlmmTMx4Pv7BKJ7yov/TbZ1VIrSU5I4a32LcRP+hzR2nZqqsAy7aGXjf7sHbFzr9VQaGZPxGfyiOBjx/Om0i1ZRd+7/+xP2jSvT0ye2SaE06g55lg36FQBwdLFUoo5plhMaD3oSfiL2PVViipPLt4uoZI9bgm/E/5frbdgM6wkTMTe/5RY9d146MG/LjXhTNC5BS9cuv5ZdU7y/6gAW8DMGAIWgEwewIOTprk/SoEM5qtntk9B1pKVF5X8HZlaLd+dQCO3Va5lIr5bZgA5bRK4EjWlsh+LBnrkrfoBxUOpGI1JH8X/x1ySNNJ2+pG4nZEp9BeHgECCcah0/ZeT8nD9Hj7+KK6D9JMGzOl0INB1tCbQnOVkQB7TbTEV7QRlRQQFWk414L9HnQ0bTMBxEqtCO11W+WOQ/0suW6zlhG8xSi/hga1CdO3aFOp0NbuHfGxZDfzRzSYukybxHIdSqImCwxCXJUyOcfZnzW1X+PI4NnDwqXcAUDSTp1ha74cg/GA9uvtpNyR73RB0fadMmSVonrzpNBqtLpuLxs3bCZQp0DuU5MgM4e+gzJ5eSXzOYN3dX2kotIvKRdAI8G1Cusje73D+RiIjdIkVj2IMaGas3XDr5wnMFb7XpxtImEpBL6Ty6nKOoH91+rP9IMO7UDlygUt9ZaXN0ctMwHQpwInHd7dmKgIHcl435lZLQFjniFnOXsdBfKT4kWXdFYzfo5oh5Iqsur3KcFG0nHlVicUSPpWeGUpHm0HUwwGgQQtXzVgNeJQP5aCz1c88KIHwaK4hfGlSKFM"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28655,
+      "candidatesTokenCount": 173,
+      "totalTokenCount": 29611,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28655
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 783,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "TTTSarbfM4qaqtsP7MDMuAk"
+  },
+  "duracao_segundos": 12.070696400000088,
+  "usage_metadata": {
+    "promptTokenCount": 28655,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 29611,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28655
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 783,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0328",
+    "tema_central_id": "4382",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4381"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente as funções da criminologia e sua articulação com o direito penal e a política criminal, sendo classificada no tema de métodos e funções da criminologia, com o conceito e objeto como alternativa concorrente.",
+    "evidencia": "Acerca do conceito e das funções da criminologia, julgue o item seguinte.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "dba655bcd7ac5d5d81c3ce8d726b38b0e854285797a76165cd446cf43f651d37"
+}

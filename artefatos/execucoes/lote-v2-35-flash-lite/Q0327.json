@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0327",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:27:02.209198+00:00",
+  "sha256_prompt": "813d6957a5b31a03a3f75bcd34084416056d354471064bd78478858601495fd5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2683068438a14eb38bd27d0d393c1c0ff1d5ae4bb11b0500511b3ac08b40355f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0327\",\n  \"tema_central_id\": \"5203\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a segunda fase da dosimetria da pena, focando na incidência e na compensação entre a agravante da reincidência e a atenuante da confissão espontânea.\",\n  \"evidencia\": \"na segunda fase da dosimetria da pena, a pena deverá ser aplicada considerando os antecedentes criminais mencionados.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29057,
+      "candidatesTokenCount": 164,
+      "totalTokenCount": 29849,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29057
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 628,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "NzTSaqPPFajqz7IP9N_kEA"
+  },
+  "duracao_segundos": 12.19982600000003,
+  "usage_metadata": {
+    "promptTokenCount": 29057,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 29849,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29057
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 628,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0327",
+    "tema_central_id": "5203",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a segunda fase da dosimetria da pena, focando na incidência e na compensação entre a agravante da reincidência e a atenuante da confissão espontânea.",
+    "evidencia": "na segunda fase da dosimetria da pena, a pena deverá ser aplicada considerando os antecedentes criminais mencionados.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "fdb1354778c55350b89821f4af20fb538e4313b811ded629d79ba7d9241c68ae"
+}

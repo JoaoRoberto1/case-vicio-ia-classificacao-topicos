@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0217",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:48:53.464001+00:00",
+  "sha256_prompt": "09660e77469a383943be32f1bfd8e727701f30422e442ef630f1d3098c5a610a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5049da04392f5b2c8e72ec3ded2aa27242294975c063fb38022e4d4c31d7983d",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0217\",\n  \"tema_central_id\": \"4371\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4384\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a reforma penal no século XVIII e a obra de Michel Foucault 'Vigiar e punir', tema diretamente inserido no estudo das etapas evolutivas e escolas criminológicas e das teorias de controle e punição.\",\n  \"evidencia\": \"Para Michel Foucault, em Vigiar e punir, as razões de ser essenciais da reforma penal no século XVIII, também denominada Reforma Humanista do Direito penal, são constituir uma nova economia e uma nova tecnologia do poder de:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28647,
+      "candidatesTokenCount": 209,
+      "totalTokenCount": 30370,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28647
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1514,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "RivSau3PEoCsz7IPoPaK2Q8"
+  },
+  "duracao_segundos": 9.2617881999995,
+  "usage_metadata": {
+    "promptTokenCount": 28647,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 30370,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28647
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1514,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0217",
+    "tema_central_id": "4371",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4384"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda a reforma penal no século XVIII e a obra de Michel Foucault 'Vigiar e punir', tema diretamente inserido no estudo das etapas evolutivas e escolas criminológicas e das teorias de controle e punição.",
+    "evidencia": "Para Michel Foucault, em Vigiar e punir, as razões de ser essenciais da reforma penal no século XVIII, também denominada Reforma Humanista do Direito penal, são constituir uma nova economia e uma nova tecnologia do poder de:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "461addeb959ec00ac44e215f6bd0f27983bcbb71b8ab57e0d035ded0aad4b85f"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0308",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:19:47.857252+00:00",
+  "sha256_prompt": "a310049e9e3e76244eb6aac41ba4341dee7c184d96a446111e82b726e2322cf5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f4aa2fbcf0d5626f4d03bfd9cda14a70519dce9c9489710779eeec48717a2384",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0308\",\n  \"tema_central_id\": \"5501\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o arquivamento do inquérito policial pelo Ministério Público por insuficiência de elementos informativos, inserindo-se no tema de conclusão e arquivamento do inquérito policial.\",\n  \"evidencia\": \"Inquérito policial arquivado pelo Ministério Público por ausência de elementos suficientes de informação\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28636,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29562,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28636
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 766,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "hDLSar7zJ-GlmtkPjJzjmQM"
+  },
+  "duracao_segundos": 8.338516499999969,
+  "usage_metadata": {
+    "promptTokenCount": 28636,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29562,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28636
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 766,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0308",
+    "tema_central_id": "5501",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o arquivamento do inquérito policial pelo Ministério Público por insuficiência de elementos informativos, inserindo-se no tema de conclusão e arquivamento do inquérito policial.",
+    "evidencia": "Inquérito policial arquivado pelo Ministério Público por ausência de elementos suficientes de informação",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "6316050a3d0dc0e437795e16fd0cd732963dca80021987ded076e0cfd484c129"
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "Q0208",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:51:36.351117+00:00",
+  "sha256_prompt": "901b90bc4333560f3b2755d8008a7a4eacd8c070b313348bdd2232eb42a979f7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9ae3f7dac2c092a045defce9ba56cdaad7806e7d10080eed7c29aa4902bfe1de",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0208",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:45:59.604189+00:00",
+      "sha256_prompt": "901b90bc4333560f3b2755d8008a7a4eacd8c070b313348bdd2232eb42a979f7",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "9ae3f7dac2c092a045defce9ba56cdaad7806e7d10080eed7c29aa4902bfe1de",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0208\",\n  \"tema_central_id\": \"5072\",\n  \"extras_ids\": [\n    \"5150\",\n    \"5231\"\n  ],\n  \"temas_alternativos\": [\n    \"5150\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda a delimitação entre autor e partícipe em um contexto de homicídio e análise de excludente de ilicitude (legítima defesa de terceiro), havendo interseção entre concurso de pessoas, crimes contra a vida e teoria da ilicitude.\",\n  \"evidencia\": \"Lucas foi o autor de homicídio e Carlos figurou como partícipe do crime\",\n  \"requer_revisao\": true\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28918,
+          "candidatesTokenCount": 203,
+          "totalTokenCount": 30338,
+          "cachedContentTokenCount": 26282,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28918
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26282
+            }
+          ],
+          "thoughtsTokenCount": 1217,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "mCrSataDGo6sz7IP9ZXkgQI"
+      },
+      "duracao_segundos": 10.113189300000158,
+      "usage_metadata": {
+        "promptTokenCount": 28918,
+        "candidatesTokenCount": 203,
+        "totalTokenCount": 30338,
+        "cachedContentTokenCount": 26282,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28918
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26282
+          }
+        ],
+        "thoughtsTokenCount": 1217,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "af0b6b3cb85ca4a44f29344a7346fee65330ae2961f95e10493ed995a9a2f2aa"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0208\",\n  \"tema_central_id\": \"5072\",\n  \"extras_ids\": [\n    \"5231\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda concomitantemente o concurso de pessoas (distinção entre autor e partícipe) e a excludente de ilicitude da legítima defesa de terceiro, exigindo revisão devido à mistura de institutos penais distintos.\",\n  \"evidencia\": \"Lucas foi o autor de homicídio e Carlos figurou como partícipe do crime\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28918,
+      "candidatesTokenCount": 177,
+      "totalTokenCount": 30282,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28918
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1187,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "6SvSauXKDY_-qtsPpaCCsAE"
+  },
+  "duracao_segundos": 7.451817699999083,
+  "usage_metadata": {
+    "promptTokenCount": 28918,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 30282,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28918
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1187,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0208",
+    "tema_central_id": "5072",
+    "extras_ids": [
+      "5231"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda concomitantemente o concurso de pessoas (distinção entre autor e partícipe) e a excludente de ilicitude da legítima defesa de terceiro, exigindo revisão devido à mistura de institutos penais distintos.",
+    "evidencia": "Lucas foi o autor de homicídio e Carlos figurou como partícipe do crime",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "5c66fb7c3d41c50973ca233f3b78d30099296b00fd089c9f437bef3e064fd7ac"
+}

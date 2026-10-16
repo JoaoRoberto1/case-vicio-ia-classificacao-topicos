@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0235",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:55:48.229180+00:00",
+  "sha256_prompt": "eef0fa9aff143399396afd6bcf9e20ac0d0f0d0aa47b037c39cfa9d16d269694",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "32bdf564d03b45f52be3f70a551a76a04064d6e8512907e86c95dd3be7038605",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0235\",\n  \"tema_central_id\": \"5561\",\n  \"extras_ids\": [\n    \"5480\"\n  ],\n  \"temas_alternativos\": [\n    \"5560\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o cabimento, o prazo e os efeitos do recurso em sentido estrito (RESE) em face de decisão sobre a competência do juízo, mesclando conhecimentos de teoria dos recursos em espécie e de regras de competência no processo penal.\",\n  \"evidencia\": \"Caberá recurso, no sentido estrito, da decisão que concluir pela competência do juízo.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28649,
+      "candidatesTokenCount": 197,
+      "totalTokenCount": 29634,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28649
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 788,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5SzSatvBBMrnz7IPrcjl6Q8"
+  },
+  "duracao_segundos": 8.84196940000038,
+  "usage_metadata": {
+    "promptTokenCount": 28649,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 29634,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 788,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0235",
+    "tema_central_id": "5561",
+    "extras_ids": [
+      "5480"
+    ],
+    "temas_alternativos": [
+      "5560"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda o cabimento, o prazo e os efeitos do recurso em sentido estrito (RESE) em face de decisão sobre a competência do juízo, mesclando conhecimentos de teoria dos recursos em espécie e de regras de competência no processo penal.",
+    "evidencia": "Caberá recurso, no sentido estrito, da decisão que concluir pela competência do juízo.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "f704b31620551c1c28d845da37820874c1e32cfb2f899db5bdd7dc6e90bf3e1f"
+}

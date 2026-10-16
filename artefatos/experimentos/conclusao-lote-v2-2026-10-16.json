@@ -1,0 +1,1081 @@
+{
+  "schema_version": 1,
+  "procedimento": "conclusao-continua-lote-v1",
+  "estado": "concluido_aguardando_verificacao_final",
+  "inicio_utc": "2026-10-16T13:16:03.668974+00:00",
+  "autorizacao": "Usuario autorizou concluir as 197 questoes restantes sem parar a cada bloco; auditoria fora do escopo.",
+  "base_git_commit": "6b86acdf4a09c868c92a3fd6c8a8ba380e1da6c3",
+  "checkpoint_base": "artefatos/checkpoints/bloco_2026-10-16_01.json",
+  "checkpoint_base_sha256": "53bd7f691b759d92c43c05bc0067c79eb1f33addbc8a59ef683e6c734d911850",
+  "execucao": "artefatos/execucoes/lote-v2-35-flash-lite",
+  "modelo": "gemini-3.5-flash-lite",
+  "prompt": "classificacao-v2",
+  "limite_por_invocacao": 20,
+  "limite_operacional_novas_chamadas": 450,
+  "intervalo_segundos": 10,
+  "sucessos_iniciais": 162,
+  "tentativas_iniciais": 177,
+  "novas_chamadas": 227,
+  "sucessos": 359,
+  "pendencias": 0,
+  "invocacoes": [
+    {
+      "numero": 1,
+      "inicio_utc": "2026-10-16T13:16:04.190953+00:00",
+      "fim_utc": "2026-10-16T13:16:10.727655+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 162,
+        "novas": 1,
+        "sucesso": 162,
+        "pendencia": 197,
+        "parou_em_erro": "Q0152",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 178,
+        "tokens_observados": {
+          "promptTokenCount": 4867737,
+          "candidatesTokenCount": 31991,
+          "thoughtsTokenCount": 193629,
+          "cachedContentTokenCount": 4126012,
+          "totalTokenCount": 5093357
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 169,
+          "candidatesTokenCount": 169,
+          "thoughtsTokenCount": 169,
+          "cachedContentTokenCount": 157,
+          "totalTokenCount": 169
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 2,
+      "inicio_utc": "2026-10-16T13:16:40.800876+00:00",
+      "fim_utc": "2026-10-16T13:16:47.972982+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 162,
+        "novas": 1,
+        "sucesso": 162,
+        "pendencia": 197,
+        "parou_em_erro": "Q0152",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 179,
+        "tokens_observados": {
+          "promptTokenCount": 4867737,
+          "candidatesTokenCount": 31991,
+          "thoughtsTokenCount": 193629,
+          "cachedContentTokenCount": 4126012,
+          "totalTokenCount": 5093357
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 169,
+          "candidatesTokenCount": 169,
+          "thoughtsTokenCount": 169,
+          "cachedContentTokenCount": 157,
+          "totalTokenCount": 169
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 3,
+      "inicio_utc": "2026-10-16T13:17:48.024667+00:00",
+      "fim_utc": "2026-10-16T13:18:46.197157+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 162,
+        "novas": 4,
+        "sucesso": 165,
+        "pendencia": 194,
+        "parou_em_erro": "Q0155",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 183,
+        "tokens_observados": {
+          "promptTokenCount": 4953789,
+          "candidatesTokenCount": 32536,
+          "thoughtsTokenCount": 197524,
+          "cachedContentTokenCount": 4178570,
+          "totalTokenCount": 5183849
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 172,
+          "candidatesTokenCount": 172,
+          "thoughtsTokenCount": 172,
+          "cachedContentTokenCount": 159,
+          "totalTokenCount": 172
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 4,
+      "inicio_utc": "2026-10-16T13:19:16.278785+00:00",
+      "fim_utc": "2026-10-16T13:20:12.095372+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 165,
+        "novas": 4,
+        "sucesso": 168,
+        "pendencia": 191,
+        "parou_em_erro": "Q0158",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 187,
+        "tokens_observados": {
+          "promptTokenCount": 5039903,
+          "candidatesTokenCount": 33153,
+          "thoughtsTokenCount": 199955,
+          "cachedContentTokenCount": 4231129,
+          "totalTokenCount": 5273011
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 175,
+          "candidatesTokenCount": 175,
+          "thoughtsTokenCount": 175,
+          "cachedContentTokenCount": 161,
+          "totalTokenCount": 175
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 5,
+      "inicio_utc": "2026-10-16T13:20:42.137654+00:00",
+      "fim_utc": "2026-10-16T13:22:19.821498+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 168,
+        "novas": 6,
+        "sucesso": 173,
+        "pendencia": 186,
+        "parou_em_erro": "Q0163",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 193,
+        "tokens_observados": {
+          "promptTokenCount": 5183873,
+          "candidatesTokenCount": 34111,
+          "thoughtsTokenCount": 205498,
+          "cachedContentTokenCount": 4362531,
+          "totalTokenCount": 5423482
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 180,
+          "candidatesTokenCount": 180,
+          "thoughtsTokenCount": 180,
+          "cachedContentTokenCount": 166,
+          "totalTokenCount": 180
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 6,
+      "inicio_utc": "2026-10-16T13:22:49.859015+00:00",
+      "fim_utc": "2026-10-16T13:23:32.006807+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 173,
+        "novas": 3,
+        "sucesso": 175,
+        "pendencia": 184,
+        "parou_em_erro": "Q0165",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 196,
+        "tokens_observados": {
+          "promptTokenCount": 5241456,
+          "candidatesTokenCount": 34525,
+          "thoughtsTokenCount": 208006,
+          "cachedContentTokenCount": 4415092,
+          "totalTokenCount": 5483987
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 182,
+          "candidatesTokenCount": 182,
+          "thoughtsTokenCount": 182,
+          "cachedContentTokenCount": 168,
+          "totalTokenCount": 182
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 7,
+      "inicio_utc": "2026-10-16T13:24:02.064642+00:00",
+      "fim_utc": "2026-10-16T13:24:23.476107+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 175,
+        "novas": 2,
+        "sucesso": 176,
+        "pendencia": 183,
+        "parou_em_erro": "Q0166",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 198,
+        "tokens_observados": {
+          "promptTokenCount": 5270372,
+          "candidatesTokenCount": 34731,
+          "thoughtsTokenCount": 208734,
+          "cachedContentTokenCount": 4441374,
+          "totalTokenCount": 5513837
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 183,
+          "candidatesTokenCount": 183,
+          "thoughtsTokenCount": 183,
+          "cachedContentTokenCount": 169,
+          "totalTokenCount": 183
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 8,
+      "inicio_utc": "2026-10-16T13:24:53.519284+00:00",
+      "fim_utc": "2026-10-16T13:25:19.333567+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 176,
+        "novas": 2,
+        "sucesso": 177,
+        "pendencia": 182,
+        "parou_em_erro": "Q0167",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 200,
+        "tokens_observados": {
+          "promptTokenCount": 5299303,
+          "candidatesTokenCount": 34932,
+          "thoughtsTokenCount": 210518,
+          "cachedContentTokenCount": 4467656,
+          "totalTokenCount": 5544753
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 184,
+          "candidatesTokenCount": 184,
+          "thoughtsTokenCount": 184,
+          "cachedContentTokenCount": 170,
+          "totalTokenCount": 184
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 9,
+      "inicio_utc": "2026-10-16T13:25:49.379954+00:00",
+      "fim_utc": "2026-10-16T13:26:14.713663+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 177,
+        "novas": 2,
+        "sucesso": 178,
+        "pendencia": 181,
+        "parou_em_erro": "Q0168",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 202,
+        "tokens_observados": {
+          "promptTokenCount": 5328046,
+          "candidatesTokenCount": 35105,
+          "thoughtsTokenCount": 212466,
+          "cachedContentTokenCount": 4493936,
+          "totalTokenCount": 5575617
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 185,
+          "candidatesTokenCount": 185,
+          "thoughtsTokenCount": 185,
+          "cachedContentTokenCount": 171,
+          "totalTokenCount": 185
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 10,
+      "inicio_utc": "2026-10-16T13:26:44.765395+00:00",
+      "fim_utc": "2026-10-16T13:29:12.205405+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 178,
+        "novas": 7,
+        "sucesso": 183,
+        "pendencia": 176,
+        "parou_em_erro": "Q0175",
+        "erros_validacao_ids": [
+          "Q0171"
+        ],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 209,
+        "tokens_observados": {
+          "promptTokenCount": 5501337,
+          "candidatesTokenCount": 36313,
+          "thoughtsTokenCount": 221991,
+          "cachedContentTokenCount": 4599063,
+          "totalTokenCount": 5759641
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 191,
+          "candidatesTokenCount": 191,
+          "thoughtsTokenCount": 191,
+          "cachedContentTokenCount": 175,
+          "totalTokenCount": 191
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 11,
+      "inicio_utc": "2026-10-16T13:29:42.545914+00:00",
+      "fim_utc": "2026-10-16T13:30:20.219436+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 183,
+        "novas": 2,
+        "sucesso": 184,
+        "pendencia": 175,
+        "parou_em_erro": "Q0175",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 211,
+        "tokens_observados": {
+          "promptTokenCount": 5530186,
+          "candidatesTokenCount": 36544,
+          "thoughtsTokenCount": 223864,
+          "cachedContentTokenCount": 4599063,
+          "totalTokenCount": 5790594
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 192,
+          "candidatesTokenCount": 192,
+          "thoughtsTokenCount": 192,
+          "cachedContentTokenCount": 175,
+          "totalTokenCount": 192
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 12,
+      "inicio_utc": "2026-10-16T13:30:50.302410+00:00",
+      "fim_utc": "2026-10-16T13:31:01.436164+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 184,
+        "novas": 1,
+        "sucesso": 184,
+        "pendencia": 175,
+        "parou_em_erro": "Q0175",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 212,
+        "tokens_observados": {
+          "promptTokenCount": 5530186,
+          "candidatesTokenCount": 36544,
+          "thoughtsTokenCount": 223864,
+          "cachedContentTokenCount": 4599063,
+          "totalTokenCount": 5790594
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 192,
+          "candidatesTokenCount": 192,
+          "thoughtsTokenCount": 192,
+          "cachedContentTokenCount": 175,
+          "totalTokenCount": 192
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 13,
+      "inicio_utc": "2026-10-16T13:31:31.482176+00:00",
+      "fim_utc": "2026-10-16T13:31:36.545205+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 184,
+        "novas": 1,
+        "sucesso": 184,
+        "pendencia": 175,
+        "parou_em_erro": "Q0175",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 213,
+        "tokens_observados": {
+          "promptTokenCount": 5530186,
+          "candidatesTokenCount": 36544,
+          "thoughtsTokenCount": 223864,
+          "cachedContentTokenCount": 4599063,
+          "totalTokenCount": 5790594
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 192,
+          "candidatesTokenCount": 192,
+          "thoughtsTokenCount": 192,
+          "cachedContentTokenCount": 175,
+          "totalTokenCount": 192
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 14,
+      "inicio_utc": "2026-10-16T13:32:36.578397+00:00",
+      "fim_utc": "2026-10-16T13:33:06.826713+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 184,
+        "novas": 2,
+        "sucesso": 185,
+        "pendencia": 174,
+        "parou_em_erro": "Q0176",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 215,
+        "tokens_observados": {
+          "promptTokenCount": 5558939,
+          "candidatesTokenCount": 36724,
+          "thoughtsTokenCount": 225149,
+          "cachedContentTokenCount": 4599063,
+          "totalTokenCount": 5820812
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 193,
+          "candidatesTokenCount": 193,
+          "thoughtsTokenCount": 193,
+          "cachedContentTokenCount": 175,
+          "totalTokenCount": 193
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 15,
+      "inicio_utc": "2026-10-16T13:33:37.000650+00:00",
+      "fim_utc": "2026-10-16T13:33:47.139600+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 185,
+        "novas": 1,
+        "sucesso": 185,
+        "pendencia": 174,
+        "parou_em_erro": "Q0176",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 216,
+        "tokens_observados": {
+          "promptTokenCount": 5558939,
+          "candidatesTokenCount": 36724,
+          "thoughtsTokenCount": 225149,
+          "cachedContentTokenCount": 4599063,
+          "totalTokenCount": 5820812
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 193,
+          "candidatesTokenCount": 193,
+          "thoughtsTokenCount": 193,
+          "cachedContentTokenCount": 175,
+          "totalTokenCount": 193
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 16,
+      "inicio_utc": "2026-10-16T13:34:17.514107+00:00",
+      "fim_utc": "2026-10-16T13:35:42.834489+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 185,
+        "novas": 5,
+        "sucesso": 189,
+        "pendencia": 170,
+        "parou_em_erro": "Q0181",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 221,
+        "tokens_observados": {
+          "promptTokenCount": 5674192,
+          "candidatesTokenCount": 37494,
+          "thoughtsTokenCount": 228367,
+          "cachedContentTokenCount": 4677905,
+          "totalTokenCount": 5940053
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 197,
+          "candidatesTokenCount": 197,
+          "thoughtsTokenCount": 197,
+          "cachedContentTokenCount": 178,
+          "totalTokenCount": 197
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 17,
+      "inicio_utc": "2026-10-16T13:36:12.899323+00:00",
+      "fim_utc": "2026-10-16T13:42:32.332590+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 189,
+        "novas": 20,
+        "sucesso": 208,
+        "pendencia": 151,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [
+          "Q0197"
+        ],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": true,
+        "tentativas_registradas": 241,
+        "tokens_observados": {
+          "promptTokenCount": 6249904,
+          "candidatesTokenCount": 41386,
+          "thoughtsTokenCount": 253160,
+          "cachedContentTokenCount": 5150951,
+          "totalTokenCount": 6544450
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 217,
+          "candidatesTokenCount": 217,
+          "thoughtsTokenCount": 217,
+          "cachedContentTokenCount": 196,
+          "totalTokenCount": 217
+        }
+      }
+    },
+    {
+      "numero": 18,
+      "inicio_utc": "2026-10-16T13:42:42.345749+00:00",
+      "fim_utc": "2026-10-16T13:44:26.380388+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 208,
+        "novas": 6,
+        "sucesso": 213,
+        "pendencia": 146,
+        "parou_em_erro": "Q0205",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 247,
+        "tokens_observados": {
+          "promptTokenCount": 6393887,
+          "candidatesTokenCount": 42383,
+          "thoughtsTokenCount": 259575,
+          "cachedContentTokenCount": 5282354,
+          "totalTokenCount": 6695845
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 222,
+          "candidatesTokenCount": 222,
+          "thoughtsTokenCount": 222,
+          "cachedContentTokenCount": 201,
+          "totalTokenCount": 222
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 19,
+      "inicio_utc": "2026-10-16T13:44:56.448327+00:00",
+      "fim_utc": "2026-10-16T13:51:21.756856+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 213,
+        "novas": 20,
+        "sucesso": 230,
+        "pendencia": 129,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [
+          "Q0208",
+          "Q0209",
+          "Q0215"
+        ],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": true,
+        "tentativas_registradas": 267,
+        "tokens_observados": {
+          "promptTokenCount": 6969766,
+          "candidatesTokenCount": 46539,
+          "thoughtsTokenCount": 285533,
+          "cachedContentTokenCount": 5807961,
+          "totalTokenCount": 7301838
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 242,
+          "candidatesTokenCount": 242,
+          "thoughtsTokenCount": 242,
+          "cachedContentTokenCount": 221,
+          "totalTokenCount": 242
+        }
+      }
+    },
+    {
+      "numero": 20,
+      "inicio_utc": "2026-10-16T13:51:31.763035+00:00",
+      "fim_utc": "2026-10-16T13:53:17.122548+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 230,
+        "novas": 6,
+        "sucesso": 235,
+        "pendencia": 124,
+        "parou_em_erro": "Q0229",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 273,
+        "tokens_observados": {
+          "promptTokenCount": 7113906,
+          "candidatesTokenCount": 47491,
+          "thoughtsTokenCount": 292864,
+          "cachedContentTokenCount": 5939366,
+          "totalTokenCount": 7454261
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 247,
+          "candidatesTokenCount": 247,
+          "thoughtsTokenCount": 247,
+          "cachedContentTokenCount": 226,
+          "totalTokenCount": 247
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 21,
+      "inicio_utc": "2026-10-16T13:53:47.173321+00:00",
+      "fim_utc": "2026-10-16T14:00:25.366540+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 235,
+        "novas": 20,
+        "sucesso": 255,
+        "pendencia": 104,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 293,
+        "tokens_observados": {
+          "promptTokenCount": 7689365,
+          "candidatesTokenCount": 51124,
+          "thoughtsTokenCount": 316344,
+          "cachedContentTokenCount": 6464969,
+          "totalTokenCount": 8056833
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 267,
+          "candidatesTokenCount": 267,
+          "thoughtsTokenCount": 267,
+          "cachedContentTokenCount": 246,
+          "totalTokenCount": 267
+        }
+      }
+    },
+    {
+      "numero": 22,
+      "inicio_utc": "2026-10-16T14:00:35.394252+00:00",
+      "fim_utc": "2026-10-16T14:06:47.417685+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 255,
+        "novas": 20,
+        "sucesso": 274,
+        "pendencia": 85,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [
+          "Q0254"
+        ],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": true,
+        "tentativas_registradas": 313,
+        "tokens_observados": {
+          "promptTokenCount": 8265267,
+          "candidatesTokenCount": 54761,
+          "thoughtsTokenCount": 339703,
+          "cachedContentTokenCount": 6990578,
+          "totalTokenCount": 8659731
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 287,
+          "candidatesTokenCount": 287,
+          "thoughtsTokenCount": 287,
+          "cachedContentTokenCount": 266,
+          "totalTokenCount": 287
+        }
+      }
+    },
+    {
+      "numero": 23,
+      "inicio_utc": "2026-10-16T14:06:57.422642+00:00",
+      "fim_utc": "2026-10-16T14:13:12.889114+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 274,
+        "novas": 20,
+        "sucesso": 294,
+        "pendencia": 65,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 333,
+        "tokens_observados": {
+          "promptTokenCount": 8840858,
+          "candidatesTokenCount": 58438,
+          "thoughtsTokenCount": 364097,
+          "cachedContentTokenCount": 7516180,
+          "totalTokenCount": 9263393
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 307,
+          "candidatesTokenCount": 307,
+          "thoughtsTokenCount": 307,
+          "cachedContentTokenCount": 286,
+          "totalTokenCount": 307
+        }
+      }
+    },
+    {
+      "numero": 24,
+      "inicio_utc": "2026-10-16T14:13:22.893397+00:00",
+      "fim_utc": "2026-10-16T14:14:07.866221+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 294,
+        "novas": 3,
+        "sucesso": 296,
+        "pendencia": 63,
+        "parou_em_erro": "Q0294",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 336,
+        "tokens_observados": {
+          "promptTokenCount": 8898558,
+          "candidatesTokenCount": 58792,
+          "thoughtsTokenCount": 366413,
+          "cachedContentTokenCount": 7568742,
+          "totalTokenCount": 9323763
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 309,
+          "candidatesTokenCount": 309,
+          "thoughtsTokenCount": 309,
+          "cachedContentTokenCount": 288,
+          "totalTokenCount": 309
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 25,
+      "inicio_utc": "2026-10-16T14:14:37.899296+00:00",
+      "fim_utc": "2026-10-16T14:14:44.005660+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 296,
+        "novas": 1,
+        "sucesso": 296,
+        "pendencia": 63,
+        "parou_em_erro": "Q0294",
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 337,
+        "tokens_observados": {
+          "promptTokenCount": 8898558,
+          "candidatesTokenCount": 58792,
+          "thoughtsTokenCount": 366413,
+          "cachedContentTokenCount": 7568742,
+          "totalTokenCount": 9323763
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 309,
+          "candidatesTokenCount": 309,
+          "thoughtsTokenCount": 309,
+          "cachedContentTokenCount": 288,
+          "totalTokenCount": 309
+        }
+      },
+      "codigo_http": 503,
+      "erro_tipo": "ErroGemini"
+    },
+    {
+      "numero": 26,
+      "inicio_utc": "2026-10-16T14:15:14.137974+00:00",
+      "fim_utc": "2026-10-16T14:22:07.871251+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 296,
+        "novas": 20,
+        "sucesso": 316,
+        "pendencia": 43,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 357,
+        "tokens_observados": {
+          "promptTokenCount": 9473545,
+          "candidatesTokenCount": 62488,
+          "thoughtsTokenCount": 391749,
+          "cachedContentTokenCount": 8094339,
+          "totalTokenCount": 9927782
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 329,
+          "candidatesTokenCount": 329,
+          "thoughtsTokenCount": 329,
+          "cachedContentTokenCount": 308,
+          "totalTokenCount": 329
+        }
+      }
+    },
+    {
+      "numero": 27,
+      "inicio_utc": "2026-10-16T14:22:17.921405+00:00",
+      "fim_utc": "2026-10-16T14:30:25.254338+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 316,
+        "novas": 20,
+        "sucesso": 334,
+        "pendencia": 25,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [
+          "Q0322",
+          "Q0324"
+        ],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": true,
+        "tentativas_registradas": 377,
+        "tokens_observados": {
+          "promptTokenCount": 10050014,
+          "candidatesTokenCount": 66268,
+          "thoughtsTokenCount": 415705,
+          "cachedContentTokenCount": 8619952,
+          "totalTokenCount": 10531987
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 349,
+          "candidatesTokenCount": 349,
+          "thoughtsTokenCount": 349,
+          "cachedContentTokenCount": 328,
+          "totalTokenCount": 349
+        }
+      }
+    },
+    {
+      "numero": 28,
+      "inicio_utc": "2026-10-16T14:30:35.289197+00:00",
+      "fim_utc": "2026-10-16T14:40:22.011626+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 334,
+        "novas": 20,
+        "sucesso": 352,
+        "pendencia": 7,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [
+          "Q0339",
+          "Q0345"
+        ],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": true,
+        "tentativas_registradas": 397,
+        "tokens_observados": {
+          "promptTokenCount": 10626646,
+          "candidatesTokenCount": 70095,
+          "thoughtsTokenCount": 442984,
+          "cachedContentTokenCount": 9145566,
+          "totalTokenCount": 11139725
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 369,
+          "candidatesTokenCount": 369,
+          "thoughtsTokenCount": 369,
+          "cachedContentTokenCount": 348,
+          "totalTokenCount": 369
+        }
+      }
+    },
+    {
+      "numero": 29,
+      "inicio_utc": "2026-10-16T14:40:32.152433+00:00",
+      "fim_utc": "2026-10-16T14:43:35.570630+00:00",
+      "limite": 20,
+      "resumo": {
+        "total": 359,
+        "cache": 352,
+        "novas": 7,
+        "sucesso": 359,
+        "pendencia": 0,
+        "parou_em_erro": null,
+        "erros_validacao_ids": [],
+        "revalidacoes_ids": [
+          "Q0005"
+        ],
+        "concluido_com_falhas": false,
+        "tentativas_registradas": 404,
+        "tokens_observados": {
+          "promptTokenCount": 10828291,
+          "candidatesTokenCount": 71381,
+          "thoughtsTokenCount": 450840,
+          "cachedContentTokenCount": 9329529,
+          "totalTokenCount": 11350512
+        },
+        "tokens_registros_informados": {
+          "promptTokenCount": 376,
+          "candidatesTokenCount": 376,
+          "thoughtsTokenCount": 376,
+          "cachedContentTokenCount": 355,
+          "totalTokenCount": 376
+        }
+      }
+    }
+  ],
+  "verificacao_software": {
+    "comando": "python -B -m unittest discover -s tests -q",
+    "total": 213,
+    "aprovados": 212,
+    "pulados": 1,
+    "falhas": 0,
+    "duracao_segundos": 46.556
+  },
+  "limites": [
+    "Uso ausente nao e zero.",
+    "Recibos do piloto v2 ja estao incluidos; nao duplicar consumo.",
+    "Nao constitui avaliacao juridica.",
+    "Nenhuma alteracao de modelo, prompt, politica ou validadores."
+  ],
+  "atualizado_utc": "2026-10-16T14:43:35.578660+00:00",
+  "fim_utc": "2026-10-16T14:43:35.576806+00:00"
+}

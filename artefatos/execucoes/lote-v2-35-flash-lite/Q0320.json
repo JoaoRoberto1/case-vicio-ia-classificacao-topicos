@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0320",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:23:55.614266+00:00",
+  "sha256_prompt": "c08a64fbee22f5b71c0504ebe4eef16dbec7cfb20b24ecffdd031ef6a4c1f7ce",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "614ac07dee660351250786b368ae6fe3405eefa4bbe2b029af12396045683258",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0320\",\n  \"tema_central_id\": \"5550\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as espécies de testemunhas no direito processual penal, exigindo conhecimentos sobre a classificação e o conceito da testemunha fedatária, matéria inserida no âmbito da prova testemunhal.\",\n  \"evidencia\": \"O Direito Processual Penal, doutrinariamente, elenca as espécies de testemunhas. Dentre elas há a chamada testemunha fedatária.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28712,
+      "candidatesTokenCount": 170,
+      "totalTokenCount": 29968,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28712
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1086,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fDPSatK0FYzQz7IP4O-DqQE"
+  },
+  "duracao_segundos": 14.4165107000008,
+  "usage_metadata": {
+    "promptTokenCount": 28712,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 29968,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28712
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1086,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0320",
+    "tema_central_id": "5550",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as espécies de testemunhas no direito processual penal, exigindo conhecimentos sobre a classificação e o conceito da testemunha fedatária, matéria inserida no âmbito da prova testemunhal.",
+    "evidencia": "O Direito Processual Penal, doutrinariamente, elenca as espécies de testemunhas. Dentre elas há a chamada testemunha fedatária.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "ff244e06d39f5458d1774d65aef0e894817d722f561e247dfcaa367347890203"
+}

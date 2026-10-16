@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0206",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:45:21.225309+00:00",
+  "sha256_prompt": "b88e87e47c823b94095b374401a6810574221b1cf146e0de410372f6b5c84b8b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "196c577a6844725dcbf7d3b96803e5a5c7a22c732494d466dbff9b03401cf6d9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0206\",\n  \"tema_central_id\": \"5466\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5063\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão trata do assistente de acusação, instituto afeto à teoria da ação penal e ao Código de Processo Penal. Ocorre duplicidade temática entre os ramos de Penal (5063) e Processo Penal (5466), exigindo revisão editorial devido à sobreposição.\",\n  \"evidencia\": \"No tocante ao assistente de acusação, é correto afirmar que\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28683,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30543,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28683
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1674,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "cirSasfoEbDtz7IPxsGFsQ8"
+  },
+  "duracao_segundos": 9.30784279999898,
+  "usage_metadata": {
+    "promptTokenCount": 28683,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30543,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28683
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1674,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0206",
+    "tema_central_id": "5466",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5063"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão trata do assistente de acusação, instituto afeto à teoria da ação penal e ao Código de Processo Penal. Ocorre duplicidade temática entre os ramos de Penal (5063) e Processo Penal (5466), exigindo revisão editorial devido à sobreposição.",
+    "evidencia": "No tocante ao assistente de acusação, é correto afirmar que",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "fd2825648419179c7f1b2ae7fb2fb5ba87d958cf1c0174e18ca55054cb8c7c37"
+}

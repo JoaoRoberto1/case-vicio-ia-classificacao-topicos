@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "Q0338",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:32:01.062783+00:00",
+  "sha256_prompt": "9be00a577793dd22c50ebbff89a1b127399c3a57730cd181ef3956f15df95c37",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "42736d3b05782c06c1668f9d1ac643e427fa93301c95c461a529e10bdf6c8885",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0338\",\n  \"tema_central_id\": \"5543\",\n  \"extras_ids\": [\n    \"5546\",\n    \"5548\",\n    \"5550\"\n  ],\n  \"temas_alternativos\": [\n    \"5590\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda simultaneamente múltiplos tópicos de provas em espécie (perícia, confissão e prova testemunhal) de forma heterogênea nas alternativas, sem um conhecimento central dominante em um único subtema específico.\",\n  \"evidencia\": \"Com relação às regras de provas do Código de Processo Penal, é correto afirmar que:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28816,
+      "candidatesTokenCount": 199,
+      "totalTokenCount": 30183,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28816
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1168,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "YjXSav3fFqT9qtsPsuLJyQI"
+  },
+  "duracao_segundos": 14.340577799999664,
+  "usage_metadata": {
+    "promptTokenCount": 28816,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 30183,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28816
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1168,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0338",
+    "tema_central_id": "5543",
+    "extras_ids": [
+      "5546",
+      "5548",
+      "5550"
+    ],
+    "temas_alternativos": [
+      "5590"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda simultaneamente múltiplos tópicos de provas em espécie (perícia, confissão e prova testemunhal) de forma heterogênea nas alternativas, sem um conhecimento central dominante em um único subtema específico.",
+    "evidencia": "Com relação às regras de provas do Código de Processo Penal, é correto afirmar que:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "abb3f0e946e1951612e40f4ad16843db908889e0c261923400b52c30e25f8a05"
+}

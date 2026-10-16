@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0186",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:37:45.637964+00:00",
+  "sha256_prompt": "82855b758c4c8a6a18886bc30242561c7be4566b0c69e2802cb5d32fbad2372a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "85fcf8009e4c270a1c939684d035d424ee9f4c1c3b09c3064584990c964e0a1e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0186\",\n  \"tema_central_id\": \"5202\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda a valoração de condenações definitivas anteriores na primeira fase da dosimetria da pena, tema diretamente vinculado às circunstâncias judiciais do art. 59 do Código Penal.\",\n  \"evidencia\": \"as condenações definitivas, por fato anterior ao delito, transitadas em julgado no curso da ação penal, somente podem ser valoradas, na primeira fase da dosimetria, a título de:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28839,
+      "candidatesTokenCount": 182,
+      "totalTokenCount": 29524,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28839
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 503,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "qijSaov2M4-kmtkP5eOW2QI"
+  },
+  "duracao_segundos": 7.07376959999965,
+  "usage_metadata": {
+    "promptTokenCount": 28839,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 29524,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28839
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 503,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0186",
+    "tema_central_id": "5202",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda a valoração de condenações definitivas anteriores na primeira fase da dosimetria da pena, tema diretamente vinculado às circunstâncias judiciais do art. 59 do Código Penal.",
+    "evidencia": "as condenações definitivas, por fato anterior ao delito, transitadas em julgado no curso da ação penal, somente podem ser valoradas, na primeira fase da dosimetria, a título de:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "69d4018c1eb8082dec9b97b974325c6f8d0f6a333ef17f26e43b19507d1deca2"
+}

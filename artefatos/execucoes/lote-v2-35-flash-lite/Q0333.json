@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0333",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:29:21.792952+00:00",
+  "sha256_prompt": "51e31cd7ffc84edc47b56a4c374a273144d17ff067121af4c5237a510b61e92d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "01ef081d98a406c39a7c795ec6d8248c39a248359970309f4c77e9c594c1fb85",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0333\",\n  \"tema_central_id\": \"5219\",\n  \"extras_ids\": [\n    \"5178\"\n  ],\n  \"temas_alternativos\": [\n    \"4373\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão apresenta proposições independentes em cada alternativa, misturando temas de teoria do crime, iter criminis e criminologia, sem um conhecimento central dominante.\",\n  \"evidencia\": \"A pessoa pode ser, ao mesmo tempo, sujeito ativo e passivo de um delito em face de sua própria conduta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28726,
+      "candidatesTokenCount": 177,
+      "totalTokenCount": 30636,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28726
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1733,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wjTSap7WJrKJz7IP-_HlKA"
+  },
+  "duracao_segundos": 16.121590199998536,
+  "usage_metadata": {
+    "promptTokenCount": 28726,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 30636,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28726
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1733,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0333",
+    "tema_central_id": "5219",
+    "extras_ids": [
+      "5178"
+    ],
+    "temas_alternativos": [
+      "4373"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão apresenta proposições independentes em cada alternativa, misturando temas de teoria do crime, iter criminis e criminologia, sem um conhecimento central dominante.",
+    "evidencia": "A pessoa pode ser, ao mesmo tempo, sujeito ativo e passivo de um delito em face de sua própria conduta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "682b2e2628bed7a0ab49712446750fc48b5b638d83ff20fb2c86e70af68122a8"
+}

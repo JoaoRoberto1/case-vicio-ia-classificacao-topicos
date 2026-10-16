@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "Q0324",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:31:08.110772+00:00",
+  "sha256_prompt": "cfb40e5d2710628e7650e87ba3d21b14e3cd10ecceb6f8c7e1dcbef54f6b7cb2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8771b882c415c59655ededcd2e9e948675567edc07e53df2f0323101ed295f62",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0324",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T14:25:37.359896+00:00",
+      "sha256_prompt": "cfb40e5d2710628e7650e87ba3d21b14e3cd10ecceb6f8c7e1dcbef54f6b7cb2",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "8771b882c415c59655ededcd2e9e948675567edc07e53df2f0323101ed295f62",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0324\",\n  \"tema_central_id\": \"5209\",\n  \"extras_ids\": [\n    \"4686\",\n    \"4703\",\n    \"5184\"\n  ],\n  \"temas_alternativos\": [\n    \"5184\",\n    \"4686\",\n    \"4703\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão mistura proposições independentes abordando temas distintos do direito penal e legislação especial, como contravenções penais (prisão simples), efeitos da condenação, medida de segurança por semi-imputabilidade e o trabalho do preso na Lei de Execução Penal, sem um conhecimento central dominante.\",\n  \"evidencia\": \"I. A pena de prisão simples deve ser cumprida, sem rigor penitenciário, em estabelecimento especial ou seção especial de prisão comum, em regime semiaberto ou aberto.\",\n  \"requer_revisao\": true\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28835,
+          "candidatesTokenCount": 249,
+          "totalTokenCount": 30391,
+          "cachedContentTokenCount": 26281,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28835
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26281
+            }
+          ],
+          "thoughtsTokenCount": 1307,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "4jPSat-lCoWFz7IPxI6jqQ8"
+      },
+      "duracao_segundos": 26.994644599999447,
+      "usage_metadata": {
+        "promptTokenCount": 28835,
+        "candidatesTokenCount": 249,
+        "totalTokenCount": 30391,
+        "cachedContentTokenCount": 26281,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28835
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26281
+          }
+        ],
+        "thoughtsTokenCount": 1307,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "1e5f406f68076bd53462628fc22f93e2a26758d0048c401adc206c1791647a7b"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0324\",\n  \"tema_central_id\": \"5199\",\n  \"extras_ids\": [\n    \"4686\",\n    \"4703\"\n  ],\n  \"temas_alternativos\": [\n    \"5213\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"Questão mista que reúne proposições independentes sobre contravenções penais, teoria da pena, inimputabilidade/medida de segurança e lei de execução penal, sem um conhecimento central dominante.\",\n  \"evidencia\": \"I. A pena de prisão simples deve ser cumprida, sem rigor penitenciário, em estabelecimento especial ou seção especial de prisão comum, em regime semiaberto ou aberto.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28835,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 30389,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28835
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1349,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "LDXSasq6OceHz7IP-PyjGQ"
+  },
+  "duracao_segundos": 16.434085799999593,
+  "usage_metadata": {
+    "promptTokenCount": 28835,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 30389,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28835
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1349,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0324",
+    "tema_central_id": "5199",
+    "extras_ids": [
+      "4686",
+      "4703"
+    ],
+    "temas_alternativos": [
+      "5213"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "Questão mista que reúne proposições independentes sobre contravenções penais, teoria da pena, inimputabilidade/medida de segurança e lei de execução penal, sem um conhecimento central dominante.",
+    "evidencia": "I. A pena de prisão simples deve ser cumprida, sem rigor penitenciário, em estabelecimento especial ou seção especial de prisão comum, em regime semiaberto ou aberto.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "7405bc83444aebb0628cb6e0cf7f4c956139c3923c610801cf5e22ebff9f5876"
+}

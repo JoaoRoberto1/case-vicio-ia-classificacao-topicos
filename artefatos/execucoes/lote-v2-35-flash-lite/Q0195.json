@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0195",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:40:50.156029+00:00",
+  "sha256_prompt": "a60c317c3ee218e04ff3d29c66b37657a0b9823a801e35c5779eedbc3110767b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4b3f513c0cd13b0c50e38dbd97c9ff4230f64f6072ca918460e137e8e58cdb63",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0195\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4371\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os conceitos de crime, pena e criminoso nas diversas correntes do pensamento criminológico, com foco nas escolas criminológicas.\",\n  \"evidencia\": \"pensamento criminológico e ao desenvolvimento científico de seus modelos teóricos\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "Es0UCsoUAWkUfRMSOU2zsAhTpPk8cW1Fp5XMfIkCbyp7pAd+9eubRojezBnf8XKlTVW1005PuTJTNiKYQEQOAT0NMaOXr5zMCSRIg6orlBgCOFvAhg7C/xyC0UbHr15d1vps6PHvMIX2C1Zh3cQsPrF4rdWIfljb5zfwUGl9x1UwlItI/PORboM02ytLypYM2+KWlPQnHXDs6GFwFnhk20JBEzUPkZGowqny9egwaOWPrWj8xhEm8U/zd4opZTbCL4AWTQNpNsk2KaGFXGDz4ouVRUAP186nwObgfLqT74whQB7dnEUrL/gLAkBF3bT/5h3m1axmAgq7bM90h4okIjYuJqTXH8paTgLIg9zpTtG/DZ+Z+GUEATkHionFtCVY2Lo4vxIGQOVynFLmaU+YcTBWrNTvR8Ywazu0Rc+ToHZk5zKp9Od/iTtjuwKPJN6lObO19uWeBJUIBWJXLrxlTgXkEuKuQ8Us6Dit/ZMnYQyRSQp6Ly21ZoVveDQEQ43ZwEikeBV6kxoWz/9cy0Dmc6IPhW53lxDekkCW8weE2z3PmXU9wbGRk8enXvyMmdw0Bj5EgDkGV2tM6L+LZVTGSum8BN/mwVlxau1A9VFhaRsuiybJaqZVVwc/cQh6OkO8geo3/f4T7GTrqmXllY7CJRnSDzFd3HoAhrmsIV4NyDLPmgwpqQraR1eTw2mZPhzfUh3w2/yjjOWSd+8clvNK5wOIOWvgSvv43VAQQp7kHgxeACeoRuDPi7c3nWOFAb3jpcs1Jh7fdU24LcRbV0wPwo/8DHk2vHtymtC7WwhBp2luw9tMJkojfP8IXJnhUCifoHgmsl5V6q89Ajh1AkZKkkjpBxtDyYWO6BCnGkvF5bvrKANEpmrhdJafflqGXIcLhB5L+0swB4f8/o2QdGwbtOAHI5fAa6Y5+WpWsojeCmG5bsW9kad/1/rZMZnSaSfPYxmNDDNeeSs+qI387lFn1p8+Hs479wuJX0wX6/fEOvIU0hlWwJH9M2xPy/83JvSE+6p4EaTBdfXB0AL3Y+dEmqrDVV3QgWl+GPu0MlwqYUbNdjilmUKMv4qa2jX7Wgr5QnFzkLu5/a0/JgKZSlFwS/GNAnBhfwr2USyrVhxGgM8HRR5oYPHIeomP4dCeK6Ha/ArqGhroTY7+8c0OK/OiuNwBw3nf8TwZBr33ntqHc1XF0fMeNeNdnfwl/OSEEoNZdb01i8vtCAlATKfD3qXXQPs8KjbW9s4g/wkvaPTDWUx2r/6KQSG1qYjOTc+dUV9aN7Qi+KAO/A726lrwxIm98LVpof8ESQFqmgHSlgKxDg7RNNrpRuTi1h0IhVaOqoXdKDoB34bhvlJs3sAuRPwM/oTnCgk/SAh6Rv0cCmA7K76kWBnOaNlRqv8Y8+JcMLFdiuokGMrVNKp8WkH5DMRVswQ5aWyT7JCqJ3UTMoPzBOh6F6TFsuBD7KrkKFq8XKmRjbzLuCbfuIAr5ROKkEBRs2uEWAZWtcD95HjsUX3Eizz1g8V33FZlHovtNod9YcbofOY3FR2gXyPJDX7pthuQjgeHyvDcWx5hMRtxWr4gbqSkSUgx0wn/5mCMqsMz0t2bX+auiztXBZfm1GZRwRqyshlJdW87SePsff2ijb4s39mT6OrGIL4QfgDnLF/exupLzGCbk9N10gt7Ya235pTHvuQNZeh+Hp010sByg+GTaEslXloRfZzTESroCysGijW4nig6kFhHQdV3t7D8YOkHSAmK90XYAl0TP2WoujWor2rqJxJGh60YCnFAWEhWb4rjVBDi/3kWUwlpKBl26vbuNnzz+olzSu/9O4hwTNZZZlftCxZpCnIYnxnPwmvR9k2sGS+5aFRNOEzNP0bjx4cNPU6mIDH1sX5G0FIcIalaDhUg2gEEgPUdz3o3/1LSmlSqD3orbx7/+xPhIcQRXDOxwEGnpSQNhl2XquDFBAr0W50mcurZYhpYsns9Sp4sa5uBSvBA9yZ6Ypbq1g9avaZMOP2d12fAVk4IICqU+FQsu+1Uqq2rk5VcAl4VSWr5FeMLe9ArhFwKu4Nw7TkQTWcL2yqJbM0Ijer8UXRhSy/em0tHPhAX2k+o1p2VHeP6CuuDkyp5cJmCVW70mSw6UrZkLevzES6Tzue+xj8YcCiJUdVEp7GGY5FgSrFCWkUikW0ZBL3lYwt2JKO/1eWjQwknnmPC5VktlXcv8Wl9/9d80vqULaPuwZZQCgAP0VZQT9gJIZ7JfmDihN4VFJsXaMz9HP/Emf/QCVnqageZ1e1iZ/jm4q3Fod2859X9rPzaptuT5CF2RtLIqboqhWsYXjna3hLiSEWrUpcBeFLzCCLHND+Wd1HkbMtiAU2ubYBU6uHHdW1mAmvhcgOxSTilOnpsAcjcIF04bkoGauYji61Tjy4WptJhr3Mj5LLQztK5fhlL94/uiwFwPWcPhHY1/ALlckj5HMSutGhcp7B7Zac43p5aAnl//5bsUdYxV3Y1NB66/b4/y5zpE4RtN6C+IWfne6qHzvJ50jIBg2BQvC3ulfvuyGwE+tmKefyAPoAtU6d/WX0rqr+/q9GGtN9YaaT4gfeSfDejnwFXnHDWG/nOsNX34E/ePcBHJuJy4BXL7tAxsDqC0SFSUDTtrB4bc2BRTw4DG8l3N685PHS0cXubCr54UddlpO+6uWQqIJKLyWUMZJZ2K6J4HMiVVzzlGgw4Kvt7p19JQ8gxuUkJYFPei15MpIDncw6WG89CN1MP6GbQihi6KaqdeA/M8qIEEWnI9eGNnFYjDnWQXmh54uVtrljYzswPsfmaq5icxid9zDru/oh8HRv9CLt0gr4JbLIDJ0wyH7l+svHfAK+F0bUSZnDr8fsPVTt/W+mIp2Gx9kml7/yu7ssby5Cyl/Nv5sfW1PoSBxWKhhejHF/T2GtG8pFFtNAIzea8KdWats5PXDFxYKSIu0DZmdxz7MjlHHW76/zifUkEHqnlVJpgFy3XtNYuETZFrvAvfa/wonxCyXEPL+l5N1A1v9eFEUO3hB8qu4KtfZc6FYcOn+Rw81trpQqGEUdfbWCKHvDQ0D8ynGKKoFebwMrH2yGYARiFY+CyXXK14JK16swn8qx8BZkUojia/X7hUKpX9vU3wmmCIkvNp1j/u+pRm8zYSJs073K53aEcGiRXg8VE4kGgA+u1rYGbObiresUHNyLB5MCns87I6Otd9z4atIlDIAY4+W+s1lR0q9Pengn4WGot4JiUrZjeU2auI6RDKnGYfDdMmGTEiP+St81PmfoRW8F1kkub8mooTR7SzzNK4UR/FPgTa/La+oMovkdUy/2pox7+0MUWon87pazd8GNULP6aK3S++KDIhWL5grzRT0lHFN+QUzAnsEbyc8Dx/51Q3Zf9U7dWr/MzK9So8C6C1M+i3ECHq1WV9oKoGMJMa1P65bSfuuiDiLkGBsFCqu9xzsmF59C8auFVuEfU5Y/VjYb4IyVfNXAaDPzucMTDHZ44nk6izQZb58J7NrtR1qc5A3QbqkDg"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28926,
+      "candidatesTokenCount": 154,
+      "totalTokenCount": 29782,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28926
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 702,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "YinSarenOPjBqtsPmvjT0AI"
+  },
+  "duracao_segundos": 8.911591199999748,
+  "usage_metadata": {
+    "promptTokenCount": 28926,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 29782,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28926
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 702,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0195",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4371"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os conceitos de crime, pena e criminoso nas diversas correntes do pensamento criminológico, com foco nas escolas criminológicas.",
+    "evidencia": "pensamento criminológico e ao desenvolvimento científico de seus modelos teóricos",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e1b80d16ce995dbaf5501e3239bd06430deedeb2b5230ea80e88df937f368d68"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0283",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:10:50.861671+00:00",
+  "sha256_prompt": "3b496905e449845eadcfbdf7a3c00ecfe27ebd8bbd3218be2cd26127c1ed34bc",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3becb0702b0f15f57738ca0164d46e63d8ea3d6e6b04398bcd19f81986d2c182",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0283\",\n  \"tema_central_id\": \"5496\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente as regras relativas à hipoteca legal, espécie de medida assecuratória prevista no Código de Processo Penal.\",\n  \"evidencia\": \"Antonio acabou de sofrer hipoteca, determinada por juiz criminal, de imóvel que recebeu de seu pai.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28714,
+      "candidatesTokenCount": 149,
+      "totalTokenCount": 29554,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28714
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 691,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "bDDSatPbDPbwqtsPqIzZuQI"
+  },
+  "duracao_segundos": 6.599463599999581,
+  "usage_metadata": {
+    "promptTokenCount": 28714,
+    "candidatesTokenCount": 149,
+    "totalTokenCount": 29554,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28714
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 691,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0283",
+    "tema_central_id": "5496",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente as regras relativas à hipoteca legal, espécie de medida assecuratória prevista no Código de Processo Penal.",
+    "evidencia": "Antonio acabou de sofrer hipoteca, determinada por juiz criminal, de imóvel que recebeu de seu pai.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3a2ac225c7b9d0c082423ba936143d27a267025580798624bb2bbb04e20b9662"
+}

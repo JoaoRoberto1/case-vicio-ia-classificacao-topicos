@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0269",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:06:20.690161+00:00",
+  "sha256_prompt": "17407e7c050e8321efdd7815a5a10fedd427c6785b504e33781504fde009da64",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1e1eff8af6cc38f708eb604484c3250654aa0b49c3cf39d0b69c233daeccc8e4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0269\",\n  \"tema_central_id\": \"5172\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5171\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda conceitos e postulados fundamentais da doutrina do garantismo penal, matéria que se enquadra na introdução ao estudo do direito penal, especificamente nos princípios e bases dogmáticas da disciplina.\",\n  \"evidencia\": \"Assinale a alternativa que NÃO SE AJUSTA à doutrina do garantismo penal, em sua concepção clássica\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28816,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 30316,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28816
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1320,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "XS_Sao2GK7H7qtsPj8WB-Ao"
+  },
+  "duracao_segundos": 9.261371200000212,
+  "usage_metadata": {
+    "promptTokenCount": 28816,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 30316,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28816
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1320,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0269",
+    "tema_central_id": "5172",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5171"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda conceitos e postulados fundamentais da doutrina do garantismo penal, matéria que se enquadra na introdução ao estudo do direito penal, especificamente nos princípios e bases dogmáticas da disciplina.",
+    "evidencia": "Assinale a alternativa que NÃO SE AJUSTA à doutrina do garantismo penal, em sua concepção clássica",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3d6332a97f04ccec456af4880cc50d612a45bf27f07feae6af94d35b93173e84"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0211",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:46:58.691044+00:00",
+  "sha256_prompt": "1df3c96de5d7e44b981797f69ce8afc811ffe2d3535779fcda998f9b7f169158",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6a5f948db56899f6f29af64ded5238d2794db737bd06b3f183f61744361bf79f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0211\",\n  \"tema_central_id\": \"5582\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5535\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda as regras gerais de publicidade e poder de polícia nas audiências (art. 792 do CPP). Como o catálogo não possui um nó específico para disposições gerais ou atos processuais em sentido estrito, há concorrência entre princípios processuais penais (publicidade) e regras de audiência, justificando a revisão.\",\n  \"evidencia\": \"As audiências, as sessões e os atos processuais serão, em regra, públicos e realizados com assistência dos funcionários da Justiça\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28813,
+      "candidatesTokenCount": 209,
+      "totalTokenCount": 30790,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28813
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1768,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0yrSatbOIsi_qtsPhLCL2AI"
+  },
+  "duracao_segundos": 10.269699599999512,
+  "usage_metadata": {
+    "promptTokenCount": 28813,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 30790,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28813
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1768,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0211",
+    "tema_central_id": "5582",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5535"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda as regras gerais de publicidade e poder de polícia nas audiências (art. 792 do CPP). Como o catálogo não possui um nó específico para disposições gerais ou atos processuais em sentido estrito, há concorrência entre princípios processuais penais (publicidade) e regras de audiência, justificando a revisão.",
+    "evidencia": "As audiências, as sessões e os atos processuais serão, em regra, públicos e realizados com assistência dos funcionários da Justiça",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "33e9870c49159f6aaf0d977a512f89296f315638defdc2d330fa31b52ae3ebe0"
+}

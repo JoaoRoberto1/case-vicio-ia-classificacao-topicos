@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "Q0323",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:25:11.467507+00:00",
+  "sha256_prompt": "a6b5f7f8772c3e35dddfa317935c7d1c4cdcbd33a46ea2efcb39887a38451217",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a714cf48a4dfef89602ed79cfea6f9b3d2cbd03468cbc5105e68ca719f4945b4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0323\",\n  \"tema_central_id\": \"5590\",\n  \"extras_ids\": [\n    \"5593\",\n    \"5547\",\n    \"5557\"\n  ],\n  \"temas_alternativos\": [\n    \"5543\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda múltiplos temas sobre o sistema probatório no processo penal, englobando a teoria geral das provas, prova emprestada, interrogatório e colaboração premiada nas alternativas, o que caracteriza uma mistura de assuntos sem um tema central exclusivo.\",\n  \"evidencia\": \"Acerca de provas, instrumentos legais de obtenção de prova e procedimento probatório, assinale a opção correta\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29082,
+      "candidatesTokenCount": 212,
+      "totalTokenCount": 30674,
+      "cachedContentTokenCount": 26284,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29082
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26284
+        }
+      ],
+      "thoughtsTokenCount": 1380,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "yDPSasXcDuydz7IPvO7MyAE"
+  },
+  "duracao_segundos": 15.883710199999769,
+  "usage_metadata": {
+    "promptTokenCount": 29082,
+    "candidatesTokenCount": 212,
+    "totalTokenCount": 30674,
+    "cachedContentTokenCount": 26284,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29082
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26284
+      }
+    ],
+    "thoughtsTokenCount": 1380,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0323",
+    "tema_central_id": "5590",
+    "extras_ids": [
+      "5593",
+      "5547",
+      "5557"
+    ],
+    "temas_alternativos": [
+      "5543"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda múltiplos temas sobre o sistema probatório no processo penal, englobando a teoria geral das provas, prova emprestada, interrogatório e colaboração premiada nas alternativas, o que caracteriza uma mistura de assuntos sem um tema central exclusivo.",
+    "evidencia": "Acerca de provas, instrumentos legais de obtenção de prova e procedimento probatório, assinale a opção correta",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "552779d56ca8e5888083dd6996f956db6a02a0da1fd89238c7ab390e403b08a8"
+}

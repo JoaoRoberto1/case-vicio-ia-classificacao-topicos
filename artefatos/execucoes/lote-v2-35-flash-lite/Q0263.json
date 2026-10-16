@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0263",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:04:26.382679+00:00",
+  "sha256_prompt": "c2d155a3016ab9a2e25b5853c12b7fe68990f6692196131757eb38c6a4da8775",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "697fba24af4f0c31ef54cc3db27f960a0fcdf056ef263a45296e52abdb1a7233",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0263\",\n  \"tema_central_id\": \"5492\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as hipóteses legais de impedimento e suspeição do juiz no processo penal, matéria diretamente relacionada ao estudo das exceções de suspeição, impedimento ou incompatibilidade.\",\n  \"evidencia\": \"O juiz dar-se-á por suspeito e, se não o fizer, poderá ser recusado por qualquer das partes:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28829,
+      "candidatesTokenCount": 165,
+      "totalTokenCount": 30379,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28829
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1385,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "6y7SaqeBENGCmtkP_saImAQ"
+  },
+  "duracao_segundos": 9.405670399999508,
+  "usage_metadata": {
+    "promptTokenCount": 28829,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 30379,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28829
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1385,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0263",
+    "tema_central_id": "5492",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as hipóteses legais de impedimento e suspeição do juiz no processo penal, matéria diretamente relacionada ao estudo das exceções de suspeição, impedimento ou incompatibilidade.",
+    "evidencia": "O juiz dar-se-á por suspeito e, se não o fizer, poderá ser recusado por qualquer das partes:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c7d8e13edb5a2cf8254f7559ba75cc5b02e1d6c446d8eb32d8daa1cb38701feb"
+}

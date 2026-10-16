@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0279",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:09:30.820128+00:00",
+  "sha256_prompt": "8b7f0e7f7632a07eb9e24d7ea9d3f697b657e094df43d2ed4db14580c85e14e2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ff060391475d6e9ae7262b581fee162135989076facc92082a307df49b2b2a57",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0279\",\n  \"tema_central_id\": \"5188\",\n  \"extras_ids\": [\n    \"5178\"\n  ],\n  \"temas_alternativos\": [\n    \"5185\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o cálculo do prazo prescricional e o reconhecimento da prescrição da pretensão punitiva, considerando a pena máxima in abstrato do furto simples e a redução do prazo pela metade devido à menoridade relativa do agente ao tempo do fato.\",\n  \"evidencia\": \"A denúncia foi recebida pelo juízo competente quatro anos e seis meses depois da prática do delito\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28832,
+      "candidatesTokenCount": 194,
+      "totalTokenCount": 30467,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28832
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1441,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GzDSaszxJ8WkqtsP9aK2sQQ"
+  },
+  "duracao_segundos": 9.080798000000868,
+  "usage_metadata": {
+    "promptTokenCount": 28832,
+    "candidatesTokenCount": 194,
+    "totalTokenCount": 30467,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28832
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1441,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0279",
+    "tema_central_id": "5188",
+    "extras_ids": [
+      "5178"
+    ],
+    "temas_alternativos": [
+      "5185"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o cálculo do prazo prescricional e o reconhecimento da prescrição da pretensão punitiva, considerando a pena máxima in abstrato do furto simples e a redução do prazo pela metade devido à menoridade relativa do agente ao tempo do fato.",
+    "evidencia": "A denúncia foi recebida pelo juízo competente quatro anos e seis meses depois da prática do delito",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "ec050a096caaa71fe426c44c4ed5a71c75b5a5a9b1a432c2142aa9c1d04d7069"
+}

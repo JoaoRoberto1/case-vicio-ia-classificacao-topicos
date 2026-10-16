@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0159",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:21:03.565473+00:00",
+  "sha256_prompt": "fe2be76903ebbec3140801d6549f2b404aa83f29d71474bc3facd1a2a82b4d18",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3a46dce4226b9e3126092e736fe566fd0ebff9e901ffa9a42c562045f1b95a45",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0159\",\n  \"tema_central_id\": \"5150\",\n  \"extras_ids\": [\n    \"5160\"\n  ],\n  \"temas_alternativos\": [\n    \"5075\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão exige a análise simultânea de crimes distintos (homicídio tentado e latrocínio) cometidos por agentes diferentes em concurso eventual, envolvendo desdobramento causal e regras de concurso de pessoas, o que gera mistura entre os temas de homicídio, roubo e cooperação dolosamente distinta sem clara predominância única.\",\n  \"evidencia\": \"Túlio vem a óbito e no exame cadavérico o legista atesta que a morte ocorreu por concussão cerebral.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28760,
+      "candidatesTokenCount": 217,
+      "totalTokenCount": 30698,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28760
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1721,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wCTSaouFGYqBz7IP0pGLsAM"
+  },
+  "duracao_segundos": 9.838137699999606,
+  "usage_metadata": {
+    "promptTokenCount": 28760,
+    "candidatesTokenCount": 217,
+    "totalTokenCount": 30698,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1721,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0159",
+    "tema_central_id": "5150",
+    "extras_ids": [
+      "5160"
+    ],
+    "temas_alternativos": [
+      "5075"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão exige a análise simultânea de crimes distintos (homicídio tentado e latrocínio) cometidos por agentes diferentes em concurso eventual, envolvendo desdobramento causal e regras de concurso de pessoas, o que gera mistura entre os temas de homicídio, roubo e cooperação dolosamente distinta sem clara predominância única.",
+    "evidencia": "Túlio vem a óbito e no exame cadavérico o legista atesta que a morte ocorreu por concussão cerebral.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "0b0e9c6ef42f5e715752c96c8a6e9fdbde9b3b40a08b710f912200e3e33834e6"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0306",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:19:05.475375+00:00",
+  "sha256_prompt": "7cef91e66d78177fa0c706b2e00338880098a19c0ccd35f7a59dadac1987f7ee",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "11c2046602c78366be3eb3c6b7a00eb6ee45a884f14facf6d401a5aa2843696c",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0306\",\n  \"tema_central_id\": \"4705\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5146\",\n    \"6725\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda no enunciado o crime de associação criminosa (Código Penal), mas as alternativas exigem o conhecimento sobre os conceitos, requisitos e normas da Lei de Organizações Criminosas (Lei 12.850/13), gerando interseção e concorrência entre o ramo de Legislação Especial e a Parte Especial do Código Penal.\",\n  \"evidencia\": \"Sobre o crime de associação criminosa é correto afirmar que\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28751,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 30619,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28751
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1663,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WjLSavG7KKjqz7IP9N_kEA"
+  },
+  "duracao_segundos": 11.920560799999294,
+  "usage_metadata": {
+    "promptTokenCount": 28751,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 30619,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28751
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1663,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0306",
+    "tema_central_id": "4705",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5146",
+      "6725"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda no enunciado o crime de associação criminosa (Código Penal), mas as alternativas exigem o conhecimento sobre os conceitos, requisitos e normas da Lei de Organizações Criminosas (Lei 12.850/13), gerando interseção e concorrência entre o ramo de Legislação Especial e a Parte Especial do Código Penal.",
+    "evidencia": "Sobre o crime de associação criminosa é correto afirmar que",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6b58e22dedd7baccb55edf2d6950af39eb8f818fafbbed8e7883e45018bd8ea9"
+}

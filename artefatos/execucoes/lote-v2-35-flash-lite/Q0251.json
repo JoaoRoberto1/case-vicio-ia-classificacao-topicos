@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0251",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:00:40.243209+00:00",
+  "sha256_prompt": "7bf7b1f96938c454fdfd9522f46e4727505e8e8ff011c4f93b5f8e2de82e4c26",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e0036931acce11ceef9236a4e564e381334884eac8a4c6590b042c11eda1305e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0251\",\n  \"tema_central_id\": \"5191\",\n  \"extras_ids\": [\n    \"5193\",\n    \"5185\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda aspectos gerais e específicos da extinção da punibilidade, abrangendo o art. 107 do Código Penal, bem como institutos como anistia, indulto e prescrição.\",\n  \"evidencia\": \"Considere as assertivas abaixo sobre extinção da puni bilidade.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28700,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 30067,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28700
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1191,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "CS7SasaRCdGCmtkP_saImAQ"
+  },
+  "duracao_segundos": 7.280044200000702,
+  "usage_metadata": {
+    "promptTokenCount": 28700,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 30067,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28700
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1191,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0251",
+    "tema_central_id": "5191",
+    "extras_ids": [
+      "5193",
+      "5185"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda aspectos gerais e específicos da extinção da punibilidade, abrangendo o art. 107 do Código Penal, bem como institutos como anistia, indulto e prescrição.",
+    "evidencia": "Considere as assertivas abaixo sobre extinção da puni bilidade.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "43dc963391188391d70ae910fc0de1f9abe2e8648590ed12d30c99fd43e90de1"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0285",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:11:07.470472+00:00",
+  "sha256_prompt": "5ab56d675c38682b34c9f18b22f0e5b207504dbaf77a3890a230b2fc164c1aae",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "82634b58631e8d90d97bc053613c7ac726b29bd7d18c9cab83981b6cdb852740",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0285\",\n  \"tema_central_id\": \"4376\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o conceito e as características do direito penal do inimigo, tema específico de política criminal e criminologia.\",\n  \"evidencia\": \"Constitui uma das características do direito penal do inimigo\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28648,
+      "candidatesTokenCount": 137,
+      "totalTokenCount": 29429,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28648
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 644,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fDDSaq_1Fv--qtsPhr6ywAQ"
+  },
+  "duracao_segundos": 8.892896199999086,
+  "usage_metadata": {
+    "promptTokenCount": 28648,
+    "candidatesTokenCount": 137,
+    "totalTokenCount": 29429,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 644,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0285",
+    "tema_central_id": "4376",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o conceito e as características do direito penal do inimigo, tema específico de política criminal e criminologia.",
+    "evidencia": "Constitui uma das características do direito penal do inimigo",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "2dcfc728487aecac4abdb059e1406051ef1a05a535bc2831bcc309ca71b13374"
+}

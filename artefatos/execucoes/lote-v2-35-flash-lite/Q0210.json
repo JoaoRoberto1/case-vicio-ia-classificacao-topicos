@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0210",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:46:39.127970+00:00",
+  "sha256_prompt": "85f2f0b02e75e52f4b41d22f40b1e06c4838103193ce01b89bd311105347f153",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a690ddf1ebfefa6a3cfe9f39886c294b81ac2450332a486a5f77795cbade4944",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0210\",\n  \"tema_central_id\": \"4697\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda diversos entendimentos jurisprudenciais aplicados aos crimes previstos no Estatuto do Desarmamento, mesclando tópicos distintos nas alternativas, como consunção, princípio da insignificância, retroatividade de norma penal mais benéfica e crimes hediondos. O tema central é o Estatuto do Desarmamento, mas o item requer revisão devido à multiplicidade de institutos penais misturados.\",\n  \"evidencia\": \"O Estatuto do Desarmamento, Lei nº 10.826/2003, no seu capítulo IV, define crimes relacionados a armas de fogo e munições.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29027,
+      "candidatesTokenCount": 226,
+      "totalTokenCount": 30650,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29027
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1397,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "vyrSaofqPKmkmtkP8LKx6QU"
+  },
+  "duracao_segundos": 9.54761690000123,
+  "usage_metadata": {
+    "promptTokenCount": 29027,
+    "candidatesTokenCount": 226,
+    "totalTokenCount": 30650,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29027
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1397,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0210",
+    "tema_central_id": "4697",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda diversos entendimentos jurisprudenciais aplicados aos crimes previstos no Estatuto do Desarmamento, mesclando tópicos distintos nas alternativas, como consunção, princípio da insignificância, retroatividade de norma penal mais benéfica e crimes hediondos. O tema central é o Estatuto do Desarmamento, mas o item requer revisão devido à multiplicidade de institutos penais misturados.",
+    "evidencia": "O Estatuto do Desarmamento, Lei nº 10.826/2003, no seu capítulo IV, define crimes relacionados a armas de fogo e munições.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b290ebf490925691dd0702d816aabdb64fdbd4db995b10a95e9f74487362e43b"
+}

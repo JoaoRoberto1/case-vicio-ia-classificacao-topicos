@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0299",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:16:43.509650+00:00",
+  "sha256_prompt": "7fb9ce8e1582e4371aa1771814f8d0a2bd298e78c3e53bc89ac94d8ab4a103c7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0138489430d3ba67228163cc512fb4fd27d84f90a90b5c5751452af5995238f8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0299\",\n  \"tema_central_id\": \"4371\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4373\",\n    \"4377\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda diversas escolas e teorias criminológicas (positivismo, criminologia crítica, labelling approach e finalismo), misturando proposições independentes sem um único foco dominante, o que justifica o uso de tema abrangente e requer_revisao.\",\n  \"evidencia\": \"A teoria do labelling approach dispõe-se a estudar, dentre outros aspectos do sistema punitivo, os mecanismos de reação social ao delito\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28737,
+      "candidatesTokenCount": 198,
+      "totalTokenCount": 30150,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28737
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1215,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "zDHSarWEEo3_qtsP0ZrAyAI"
+  },
+  "duracao_segundos": 10.659273900000699,
+  "usage_metadata": {
+    "promptTokenCount": 28737,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 30150,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28737
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1215,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0299",
+    "tema_central_id": "4371",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4373",
+      "4377"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda diversas escolas e teorias criminológicas (positivismo, criminologia crítica, labelling approach e finalismo), misturando proposições independentes sem um único foco dominante, o que justifica o uso de tema abrangente e requer_revisao.",
+    "evidencia": "A teoria do labelling approach dispõe-se a estudar, dentre outros aspectos do sistema punitivo, os mecanismos de reação social ao delito",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d80b673da343c849e1df9030db3b8e7abe6a4c4372aa0951dadd91d6b99c446b"
+}

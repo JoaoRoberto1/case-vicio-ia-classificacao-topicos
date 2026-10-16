@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "Q0155",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:19:20.652970+00:00",
+  "sha256_prompt": "b45202f48dff7b8347e6ffc77861acaf20ae86861ff122b7ccdcf86da2b8fc58",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c6280d602a3788968cf2cc5581f0c6ba40df84465dc38384a4ff3f1aa12bcf0f",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0155",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:18:44.556004+00:00",
+      "sha256_prompt": "b45202f48dff7b8347e6ffc77861acaf20ae86861ff122b7ccdcf86da2b8fc58",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "c6280d602a3788968cf2cc5581f0c6ba40df84465dc38384a4ff3f1aa12bcf0f",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.5051908000004914,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "e81201af03270b976526c998c4e73c600c4e9e6d053045780ad3104cf8871959"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0155\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o Regime Disciplinar Diferenciado (RDD), instituto da Lei de Execução Penal. Como a matéria da Lei de Execução Penal encontra-se duplicada no catálogo em ramos distintos (Direito Penal - Legislação Especial e Processo Penal), marca-se a revisão pela ausência de critério editorial para escolha exclusiva do ramo.\",\n  \"evidencia\": \"Sobre o Regime Disciplinar Diferenciado, segundo a legislação aplicável, assinale a alternativa correta:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28672,
+      "candidatesTokenCount": 203,
+      "totalTokenCount": 29659,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28672
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 784,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WSTSapLgG8P_qtsPs7WEwAw"
+  },
+  "duracao_segundos": 5.708440499999597,
+  "usage_metadata": {
+    "promptTokenCount": 28672,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 29659,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28672
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 784,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0155",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o Regime Disciplinar Diferenciado (RDD), instituto da Lei de Execução Penal. Como a matéria da Lei de Execução Penal encontra-se duplicada no catálogo em ramos distintos (Direito Penal - Legislação Especial e Processo Penal), marca-se a revisão pela ausência de critério editorial para escolha exclusiva do ramo.",
+    "evidencia": "Sobre o Regime Disciplinar Diferenciado, segundo a legislação aplicável, assinale a alternativa correta:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "e4358f298b26d78881665a6e7e9598afb99d5c3c2150169a11624345426d7390"
+}

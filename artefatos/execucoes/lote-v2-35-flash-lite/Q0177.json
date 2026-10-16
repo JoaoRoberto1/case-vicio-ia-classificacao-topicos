@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Q0177",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:34:40.334643+00:00",
+  "sha256_prompt": "cb1240ff011ab291efd22297029ea91a08271ed51c9064ad98f614ca10f2719e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0980d13c4269640115a35a208ff0242a4de82b4eda8147fdac3758953ec56d4a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0177\",\n  \"tema_central_id\": \"5547\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5595\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os direitos do réu durante o interrogatório judicial, abrangendo o direito ao silêncio, a garantia contra a autoincriminação e a entrevista com o defensor, matéria específica de Interrogatório Judicial.\",\n  \"evidencia\": \"O réu tem o direito de entrevistar-se reservadamente com seu advogado antes de seu interrogatório judicial.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28740,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 29852,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28740
+        }
+      ],
+      "thoughtsTokenCount": 932,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "8SfSaryuCMfjqtsPtpGmqAQ"
+  },
+  "duracao_segundos": 11.262420799999745,
+  "usage_metadata": {
+    "promptTokenCount": 28740,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 29852,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28740
+      }
+    ],
+    "thoughtsTokenCount": 932,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0177",
+    "tema_central_id": "5547",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5595"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os direitos do réu durante o interrogatório judicial, abrangendo o direito ao silêncio, a garantia contra a autoincriminação e a entrevista com o defensor, matéria específica de Interrogatório Judicial.",
+    "evidencia": "O réu tem o direito de entrevistar-se reservadamente com seu advogado antes de seu interrogatório judicial.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "00b3937fb5729e572805a37379fd090a1c46f7693038b7b734e0f32d9363d94a"
+}

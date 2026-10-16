@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0190",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:39:04.898494+00:00",
+  "sha256_prompt": "7353aafa0509eeae6ce0a51811653e27569ef1dafce5380830ea9216c21395ee",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4577512752bf6ea9c434986a4cc5a3858eb454201495e71f763420ef2508ccef",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0190\",\n  \"tema_central_id\": \"5539\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4701\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a temática geral dos Juizados Especiais Criminais, englobando múltiplos institutos como competência, transação penal e suspensão condicional do processo. Como a matéria possui dupla catalogação entre Processo Penal (Procedimento Sumaríssimo) e Direito Penal - Legislação Especial (Juizado Especial Criminal), requer revisão editorial devido à duplicidade de ramos.\",\n  \"evidencia\": \"Considerando a temática dos Juizados Especiais Criminais, assinale a alternativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28825,
+      "candidatesTokenCount": 208,
+      "totalTokenCount": 30485,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28825
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1452,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "-ijSavjCLo6cz7IPk5ijyQE"
+  },
+  "duracao_segundos": 10.963784300000043,
+  "usage_metadata": {
+    "promptTokenCount": 28825,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 30485,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28825
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1452,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0190",
+    "tema_central_id": "5539",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4701"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a temática geral dos Juizados Especiais Criminais, englobando múltiplos institutos como competência, transação penal e suspensão condicional do processo. Como a matéria possui dupla catalogação entre Processo Penal (Procedimento Sumaríssimo) e Direito Penal - Legislação Especial (Juizado Especial Criminal), requer revisão editorial devido à duplicidade de ramos.",
+    "evidencia": "Considerando a temática dos Juizados Especiais Criminais, assinale a alternativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6beb38c3f5dc96fc8503a074ecbc051a1e138f88be7022860d4559632bea35c7"
+}

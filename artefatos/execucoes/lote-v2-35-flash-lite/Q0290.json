@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0290",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:12:44.110887+00:00",
+  "sha256_prompt": "d07dc99bd4fe86b18fbf640d858f118b1854a3b2e85ca0dee182dbccae14a752",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "519c96eb716feff184b7d4d7bdcee33ec13765226a2dfea90b8ebb0431af4f99",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0290\",\n  \"tema_central_id\": \"5539\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4701\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda regras gerais e procedimentais da Lei nº 9.099/1995, gerando concorrência direta entre o ramo de Processo Penal (Procedimento Sumaríssimo) e o de Direito Penal - Legislação Especial (Juizado Especial Criminal).\",\n  \"evidencia\": \"No que diz respeito ao preceituado na Lei nº 9.099/1995, a qual disciplina os Juizados especiais criminais, assinale a alternativa incorreta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28853,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 30113,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28853
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1047,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "3DDSapmtOeyAmtkP6vaD-AI"
+  },
+  "duracao_segundos": 9.207163500001116,
+  "usage_metadata": {
+    "promptTokenCount": 28853,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 30113,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28853
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1047,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0290",
+    "tema_central_id": "5539",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4701"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda regras gerais e procedimentais da Lei nº 9.099/1995, gerando concorrência direta entre o ramo de Processo Penal (Procedimento Sumaríssimo) e o de Direito Penal - Legislação Especial (Juizado Especial Criminal).",
+    "evidencia": "No que diz respeito ao preceituado na Lei nº 9.099/1995, a qual disciplina os Juizados especiais criminais, assinale a alternativa incorreta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "f966b356157add0aaf69454a1ab96496e954804d7ebfbe25edac348e8a09b42e"
+}

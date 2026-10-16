@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0297",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:16:03.148862+00:00",
+  "sha256_prompt": "aa4dbc4245ad533ddea4232171f378b094f857f591e9c0d654e9030b342184de",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7f0727ed5ad773d7f77f13448a520f5346003a16435a57e1f49ba61b43c69132",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0297\",\n  \"tema_central_id\": \"4695\",\n  \"extras_ids\": [\n    \"4689\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda predominantemente crimes contra a ordem tributária (Lei 8.137/90), mas também inclui proposições sobre crimes contra o sistema financeiro (Lei 7.492/86). Requer revisão devido à mistura de legislações especiais distintas sem um único tema central dominante absoluto.\",\n  \"evidencia\": \"Os crimes contra a ordem tributária e contra o sistema financeiro se amoldam nessa perspectiva.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28932,
+      "candidatesTokenCount": 198,
+      "totalTokenCount": 30065,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28932
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 935,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "pDHSapOaL7ihz7IPp-mn8Qo"
+  },
+  "duracao_segundos": 8.288218800000323,
+  "usage_metadata": {
+    "promptTokenCount": 28932,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 30065,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28932
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 935,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0297",
+    "tema_central_id": "4695",
+    "extras_ids": [
+      "4689"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda predominantemente crimes contra a ordem tributária (Lei 8.137/90), mas também inclui proposições sobre crimes contra o sistema financeiro (Lei 7.492/86). Requer revisão devido à mistura de legislações especiais distintas sem um único tema central dominante absoluto.",
+    "evidencia": "Os crimes contra a ordem tributária e contra o sistema financeiro se amoldam nessa perspectiva.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "d1da792f1f993f534bcee78e08104404e173784266c9cbe06f02ed3746ea12f2"
+}

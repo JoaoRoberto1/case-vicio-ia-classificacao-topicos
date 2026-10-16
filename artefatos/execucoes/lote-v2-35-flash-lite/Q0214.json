@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "Q0214",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:47:55.514438+00:00",
+  "sha256_prompt": "ef4b19bc81b6650657c4f03eec0707dfbabb9d7e0a8a27b516ebbcfd4ad3997b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2d070666bfdd1a06697e03ca751389edce84c2f25ce035825973111ffa72c6b4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0214\",\n  \"tema_central_id\": \"5494\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5490\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o cabimento da exceção de litispendência no processo penal, aplicável quando há identidade de fatos em ação penal anterior ainda em curso (com recurso pendente de julgamento), devendo a exceção ser processada em autos apartados conforme o Código de Processo Penal.\",\n  \"evidencia\": \"verificado pelo teor da denúncia que os fatos imputados são os mesmos daquela ação da 1ª Vara Criminal. A defesa técnica de Patrick, poderá apresentar, ao responder a segunda ação penal, a exceção de:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EqUaCqIaAWkUfRPYuL2jnyZgMvW1SN0RbiMWXedT4sFwSe59o29pAxWtNvvnWjU5ktmrNIcWZNO6Xx+k2xk2Rgphzx54IfxaKF6Ml3K45g6DNs3CWGEP2NTYKIE97rV+i6IoWJIkStkTWT0eB+U6J2LlTnvHscO8FBdJ2MpNkH5qfG9Bq3/u5vvqqyzGhUW333uxe7ruICWnUGTrZu0v9fi7boyqAAl0Z5IyHb8nCW10b8OxGGiAfNNfB6+e7ipwAiusK6lOeY0eczP8b1V1a2CXo9IG+Mbu5ATW0oRINTvkBt977N5kMtBvVk5H1Cev9bHvj9zWNd9dpMvtr6Q4ERoN6JTu20VsF64ORXQIsLRhY7CHXrUTKY3Mwt2f5xz8Ec1gz3ZK2uACU0/1ACs0G+Gkf1YQrpnIhO4jALULhzWR7HaGNHuKmTEcK1q/CT1HGG5hD2Jz1/Kmck3/QCQxGPEEWvm2kBkG8GQt9grvtOzdYWKUI7snvt4Fejxe4+ZXHTxaubxhEko6RXMuINP3yT2QZMVwwDnkiiCV28b28TBTYK2HuIEqEdS7pJ5IpV3nC1gmV9fsD3/J2hXCfmDzeplm05GzqwOJE6Oc51VRMsGk8PGSdhyerGLjMTSzjsO7UTSObfNhicViaa3SB0SeRGKTMDz9vJcQgrEIB91Jnc9oSWxA0RsFxnPQucgkVio0+G1xqT9B4+j69Uk/JSBPJc0R0eljdMsJav+HTWMKNNnZH4ZWhOgmjEnDRRNb8tWR798MeGl6Nm1i/2m0YoJb1/lNqzxOSC+m2dR82FS40ouYspiDXL6s05JB3eW9DFysWtB2KmQxHkkNAeSfc7z7ZkUL7+K6MMTurR+5uG035+1TO//wFbt9MQT8yUeIgKfjgXkea/GJTMGCuW04PW4JZrDzANphdDijXgn9XW3g3uJ22quqNNYqxZ5dxhQjqBIktrcE1pvGVbyxmDl0GQVRfaTCXg1JR50B2slmDJN85JlPwk5TKzGMXCnGOUYxwcdc6fL3UWf0JxFFpBwalRiyHT4BZXUFW9wCcNMcXEMgJoo3stcYBzsallt5jd5/qJUlao0N+JDpbl/cWPxXTK9SaX3poInplnkwUkKfRV3FqBXtmdy7VHPYz9BVb+EKT0XkEggyC4FUSbnokq1pBHrmyzON7l9FvbL16bUfc1hSYxBh7L+T3j9hsDjk3frCNILK+DF9Gq9o7G5WywOUT/0EH+hZFb9kD4UzPOxlBiySNh9PJqjpCzECesNF7G00RHZjjFqKv00mlyY3bdbN3wJ7R9bwEGS+kGheV7ceRkUOJvrRdkYeQ2AMXI21/abDInh9oT/GmxFjcGMz9YNfxpccZPW4ndYLvd2Tb4RxzTMvqzOzEwfWummvKqz5fQZYJAgvGrAiIyylusSfh6XOVgzFo4e/5DZ0aTBUINKooD2nj4hkpJKpM7u24Gi/uDBeQzwzV/npTowugZeckB3ZguSTSri2JnH9d2ojPNwlV99cbBjd4qGIg2O3oISrgGhIGD87+Wq6GvkAwbSZSOOcRQyr4Mn39nEY2YFbjksRKDHVNmYLKzoK8Oylb7F8CB6x3D+cWwfp3NOv2KVJXEnQhNIS8sIpd6sc5Om5EDUks3KB1LX+RwRMTf4ifcppEHwx59G/ddWIn3a3k5xLxpa1U3WFybuJO/GwDqTG1fReZWKQRDRCSOW5xK6paJUbnBch65/gSZZEKFgLVw3dt1t5FVEAtJtGSmvZLOqeYcazhaoWDWbtO09A22icVMvl6JyNTt8WjXG8f3nkjlB8qBHnW7DMjr/vAbpbN7ug/7bv5/FJJqZEJc6BJH9XCj2dmMQpngW2ITF3gkMILxORGoPzPTIJhV+iqN6HvSxixTzfz+5bHQNTt/IYkGwTddSNPvKHo0YG8eScUS+31RSIzRfIvgpLG1cv94yylT1fyfc+CRcZGHrwmt0MyCGNaaII4zGGs3CoaHuxTeEvPJTsu0/gk1s/rVhIWuq0PigJoi38ThLwb3RXDQlqz9F3vE2FMqZZDBFgbYAg80yP22qssCaUi9cAfyCKDBj2kwTZ0+ruyWsG0Gat5qEezVnfPSBIn/bfeArVjDCUx8aiSoz5dJEh8DFZFYlY2WQ+Go5n5wxeMQH+Efdp8igkslmQRwgKEcn8UO3ktAjSg+Tk8RKT4EmHe+TyW/iL0+3MRLhHAOZ9HhHGxWPgk6W2Ia/nWuQqno3/NyjOlX5tKKWGCVR8V5yqFFyfgmCkagpWPCxUm0GOUZY/M0+9IBg/Qac32uGQgRc6aHCTI+n+hoymVdITbhkzG/lbVeK60JXWfdC2UcoJjLL5vOOvxc6VqUbu2F88HyZD4AybnDeI0znMTXxObFJYzSntqtvpDettRTo9tw/1pM04zKBAG+IbwsOpIu3A6sCRuDF5UpguNLJYCKN9fXmpbOKMwP0oeQU1NYytN3SoeMMWuRAWzQDrGwet3FzBQ4dhTJsxQ2RFPSRs8YkUz/g7XE8MIP4zylYDvrcxD70X3/9qqFD9eagdNBJl+GOZEbk7DkI/hfvLAvxwUQ+Q5jSje3qDmzrPpIX066r2vlQUWZByj9TvqSqCzSBZvGjnUuGcaZJOiTfjVk+vvaormF6PWuNxyqJP7ZjrXmb4hSS7Gi2S/hosu/ZliyY8mT9aseXGqS+qtAh1CrUc68vOhOkrUaMRzgrBXbdOnrTsDDzfrMz4ORrj6YTpn2Tjr5525qmo0D35oPvo2CSQoqlgJnjcnlSRJ67dl4XSkOlhpNhw03Uo5RL8mxM3Nq1FQ/HFrc8bet6jdPId3U00iub9hs/ZkWnXeRl+rngOx2qbFcOgRtzLWFuFQmQ3g9QTaeMRVeiWF3rVdxo3wDDvo28u8WArAy31BbVIXt3vPPlKohj644CA/yXW11I8ejNXdRTOkuEtEeqlmo0Ih6IC/xKpCawxK17T5jvvVe/wqCOcyc4cnyd2f4G4/N9dAJHMyPMhnDSkKgysXci9rzpecbl2Q6mm7+KEMZnTtzCu470HXgQ96iCeWSzC4zkN1ZjhknqeDugsrH8GMVaAhK1w81fJDAsIfoTplk9y3zU6tzSFAdAFduAhluLbES2p1L6+Kh6k/pojUzgGApxEYAzIyEY7GWCcY5iNIQipai+DZpid8YQ4rDzDQul+s6Aa00aI8RwFR8tnKlbu0neVu7u90dNDPVPvlQ96+JAaGX08EAHZ6gb+zWFiVDE0qeK3nfUUtqa4ZaGdsWhlT8cfhAbKWLB0eY8fEtFfPgC94Wbvv0G3YMBNHbXC5ZpCfea4g2k8K09h0xTKFsrNsbtoAckDLquhwPx4TOV078/nVt5u63FdY9B2I5IqFe3T6jEIqmRTs9CLmal5E9k5xrbH1jsIr/V81+TWV9B00PD/F5gbluyXfRKSAS5OTVOu6yLMaTl9+StLrvOQkomarXkmhfAQ9qknis/Zlw85rWKf15DGA7PocvcwLA0Wwlz4e9UrwisRcHEnE9b6EXnz47PmTinqcmE/OBr70HibWKBJlzzDl2JNY5iQZouIsELhmCx216zqttiR8Q22Fzony/Mv7K2OTTiUwUS4IfnN5jVvpcUT2WbhsgyRQoCzgfFEQ9zHKJYfzsU0rA9x42Q1S+jPg+fqOTPTps7ScykJYXuAe/Nc2PQ5+qPPK1KppWdkWIXJsznmSZGMqDN7rrCiM12XvI07japjWid8oLB5NXmlPws1lb1cv+KIp1KwWzU24m8aXIKlNlgwPWtyAJi8cr5jqNlv70zvdmHMYimxqU+QS2hDpghgQ2pOoJ4R/Iq6/beW5cgK/NRwdy11ac5UIlzKDQDyNQmInwFScHWFucCUcGPndtwvBYGToYmVknowFyGXP4uXKz59PERcvQCXJ/fRqEV430xs5KBa3sLIwYoTHJdiilaNRVBzxnB5U/Cl81ZNubQewyUn+42vZIEcVUfGs1rtqpgOhqgeoy0UVmh0jy48V5XYPLwAY/ds2kna1montukEE1CL2LQHHicmC/2pWmgbYJoOADB6hlJcZl1djxaN9hIUPRMbCOp69i1WMXsrdd1oGUXDpQ0SiGxv9qlECIt1TeTRoVN+TfCan2kiJCbRN4dOAPUbgOivTfLbwhPwZOEgkUyvY3b4r1m7KyTE1K+MSbXN5InLZKK2t972j/Ovvgw1j9ASkpP16KUVecJGq3mOQiH7haPauwzJWJWZZnl+oi3dFd37oK8uXV2JUfkTbKGG67yngZgsnqxXM4gNHd2z2h1cyuKQRX+umCpPRzIbIjJTHsDOXbi1MY50QbgFCFJYxsBFuVJ9haSwIW8E66iptoyCUMfgra5rkZkWvhLAS0V9BsUbAFehSX3U5m84Pa3s4Yvs0t0ySHkkeWP/NpOdJ/R7GPtcP42AY9G2bBFstNcwPS02boFipotwnmoUFZESdhT5KKvpsC2zkCxez2zFex1cbDyFUXP0j8+HBD6xvHo="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 479,
+              "endIndex": 678,
+              "uri": "https://www.qconcursos.com/questoes-de-concursos/questoes/search?disciplina=10&assunto=3971&modo=1",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28796,
+      "candidatesTokenCount": 220,
+      "totalTokenCount": 29900,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28796
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 884,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "DCvSaty3F7noz7IP5dOh8Q8"
+  },
+  "duracao_segundos": 7.46676750000006,
+  "usage_metadata": {
+    "promptTokenCount": 28796,
+    "candidatesTokenCount": 220,
+    "totalTokenCount": 29900,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28796
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 884,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0214",
+    "tema_central_id": "5494",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5490"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o cabimento da exceção de litispendência no processo penal, aplicável quando há identidade de fatos em ação penal anterior ainda em curso (com recurso pendente de julgamento), devendo a exceção ser processada em autos apartados conforme o Código de Processo Penal.",
+    "evidencia": "verificado pelo teor da denúncia que os fatos imputados são os mesmos daquela ação da 1ª Vara Criminal. A defesa técnica de Patrick, poderá apresentar, ao responder a segunda ação penal, a exceção de:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8c4deaf0b4a949b0fe6c2b5742130895bcac6c33a0bfd47f92d0d4fc1e99f91b"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0233",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:55:11.366314+00:00",
+  "sha256_prompt": "4d65d24000d4142de0c95e2968fb109220813ec4de730fad8e0cfb916853847d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d273378531293fd49d760c25d8b6a5226667c575040f52e541704f7e3c7e3fc4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0233\",\n  \"tema_central_id\": \"5178\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente os institutos da desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível, que compõem a matéria de Iter Criminis no Direito Penal.\",\n  \"evidencia\": \"Sobre a desistência voluntária e o arrependimento eficaz, assinale a alternativa correta\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28810,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29818,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28810
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 848,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wCzSapiGFsfjqtsPtpGmqAQ"
+  },
+  "duracao_segundos": 9.020971600000848,
+  "usage_metadata": {
+    "promptTokenCount": 28810,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29818,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28810
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 848,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0233",
+    "tema_central_id": "5178",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente os institutos da desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível, que compõem a matéria de Iter Criminis no Direito Penal.",
+    "evidencia": "Sobre a desistência voluntária e o arrependimento eficaz, assinale a alternativa correta",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "de86c5aa7c8f84c207e7177a399122397efcf355801c391740a2c1d507911034"
+}

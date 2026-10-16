@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0292",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:13:26.390220+00:00",
+  "sha256_prompt": "bbbc852f317941a427af92902bf138be57f96b484fd1b38636a25a35877808f7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6b0bf6ce3df52b332f125a9a6ed05f4d8797a3bff583ab71eaa41dedd28dcfad",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0292\",\n  \"tema_central_id\": \"4374\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4370\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda aspectos gerais da política criminal brasileira e do sistema penitenciário, inserindo-se no estudo da Criminologia, com concorrência entre política criminal e modelos de reação ao delito.\",\n  \"evidencia\": \"Considerando a atual conjuntura da política criminal brasileira, é correto afirmar que\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28748,
+      "candidatesTokenCount": 167,
+      "totalTokenCount": 29763,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28748
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 848,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "BzHSasa2CcSsz7IP2ObooA8"
+  },
+  "duracao_segundos": 9.33299999999872,
+  "usage_metadata": {
+    "promptTokenCount": 28748,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 29763,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28748
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 848,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0292",
+    "tema_central_id": "4374",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4370"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda aspectos gerais da política criminal brasileira e do sistema penitenciário, inserindo-se no estudo da Criminologia, com concorrência entre política criminal e modelos de reação ao delito.",
+    "evidencia": "Considerando a atual conjuntura da política criminal brasileira, é correto afirmar que",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "84434ef2cf2f059ae9fae00b21e55dff3a9ec328728b07d8be62226e832a6d7e"
+}

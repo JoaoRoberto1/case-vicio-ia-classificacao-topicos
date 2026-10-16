@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0161",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:21:41.641384+00:00",
+  "sha256_prompt": "356467018bc7d25f10cc981ba5b903ee7a465ef9f30c08b7e7802c992c1fb79a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9d941e804cfcb62d521a2ca668b5fc81f86a64d38f6c19e27ceefc320b9d1991",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0161\",\n  \"tema_central_id\": \"5588\",\n  \"extras_ids\": [\n    \"5594\"\n  ],\n  \"temas_alternativos\": [\n    \"5589\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a tese defensiva de relaxamento da prisão em flagrante em razão de ilegalidade na busca domiciliar e consequente ilicitude da prova, a ser arguida na audiência de custódia.\",\n  \"evidencia\": \"o relaxamento da prisão em flagrante diante da ilegalidade da busca domiciliar e da voz de prisão em flagrante delito.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29062,
+      "candidatesTokenCount": 195,
+      "totalTokenCount": 30524,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29062
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1267,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5iTSavjIHqui6dkP_OHGmQU"
+  },
+  "duracao_segundos": 9.809962799999994,
+  "usage_metadata": {
+    "promptTokenCount": 29062,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 30524,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29062
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1267,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0161",
+    "tema_central_id": "5588",
+    "extras_ids": [
+      "5594"
+    ],
+    "temas_alternativos": [
+      "5589"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a tese defensiva de relaxamento da prisão em flagrante em razão de ilegalidade na busca domiciliar e consequente ilicitude da prova, a ser arguida na audiência de custódia.",
+    "evidencia": "o relaxamento da prisão em flagrante diante da ilegalidade da busca domiciliar e da voz de prisão em flagrante delito.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "ac80e6af42fb4b6b9ae1ffffe070d40cfb7baa3cdb45906fcee5875e74877c37"
+}

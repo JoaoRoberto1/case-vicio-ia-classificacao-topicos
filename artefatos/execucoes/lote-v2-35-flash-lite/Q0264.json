@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0264",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:04:45.831301+00:00",
+  "sha256_prompt": "137c8d9a3d33247c50150b9b49caf1ea1020aae77fb0e513d5274d6c039837aa",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7c5cf1aa600fc02ad3c109c839eea294eb24c9f18eeb28d96cf7206fa477a030",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0264\",\n  \"tema_central_id\": \"5103\",\n  \"extras_ids\": [\n    \"5109\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda diretamente o crime de estupro de vulnerável em relação à vítima menor de 14 anos, além de transitar por delitos de exploração sexual e favorecimento à prostituição, todos inseridos no contexto dos crimes contra a dignidade sexual.\",\n  \"evidencia\": \"enquadram-se no delito de estupro de vulnerável; enquanto o proprietário, o gerente ou o responsável pelo local responderão, tão somente, pelo crime de favorecimento à prostituição\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28726,
+      "candidatesTokenCount": 207,
+      "totalTokenCount": 30240,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28726
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1307,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "_i7Satv2LOKwqtsPudCy-AM"
+  },
+  "duracao_segundos": 8.750900199998796,
+  "usage_metadata": {
+    "promptTokenCount": 28726,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 30240,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28726
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1307,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0264",
+    "tema_central_id": "5103",
+    "extras_ids": [
+      "5109"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda diretamente o crime de estupro de vulnerável em relação à vítima menor de 14 anos, além de transitar por delitos de exploração sexual e favorecimento à prostituição, todos inseridos no contexto dos crimes contra a dignidade sexual.",
+    "evidencia": "enquadram-se no delito de estupro de vulnerável; enquanto o proprietário, o gerente ou o responsável pelo local responderão, tão somente, pelo crime de favorecimento à prostituição",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "63230af16458c11e03863d1a5270d2eaf2e5f1aad3f9c8a2f6807ce3c31bf905"
+}

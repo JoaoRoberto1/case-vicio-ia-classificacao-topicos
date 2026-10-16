@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0317",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:22:48.141935+00:00",
+  "sha256_prompt": "fb97623894104967a5042e116aa691c6452d48a5fe04dd954c44607c8c824853",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "835dc9fb62292bec1e1195bd94b9594d0dcfc80d6b53631bb7a7defb0efa5202",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0317\",\n  \"tema_central_id\": \"5198\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5063\",\n    \"5466\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente o prazo de decadência para o exercício do direito de representação e a extinção da punibilidade, havendo concorrência temática com o estudo da Ação Penal.\",\n  \"evidencia\": \"O direito de representação deve ser exercido no prazo de seis meses contados a partir da data do fato, uma vez que o ofensor foi identificado nessa ocasião, sob pena de decadência.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28623,
+      "candidatesTokenCount": 197,
+      "totalTokenCount": 29848,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28623
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1028,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "OTPSapLPAb6mqtsP8KunsAU"
+  },
+  "duracao_segundos": 14.50679769999988,
+  "usage_metadata": {
+    "promptTokenCount": 28623,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 29848,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28623
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1028,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0317",
+    "tema_central_id": "5198",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5063",
+      "5466"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente o prazo de decadência para o exercício do direito de representação e a extinção da punibilidade, havendo concorrência temática com o estudo da Ação Penal.",
+    "evidencia": "O direito de representação deve ser exercido no prazo de seis meses contados a partir da data do fato, uma vez que o ofensor foi identificado nessa ocasião, sob pena de decadência.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "58928a5c97b2512c521d9480951b0ff10677b964559cefff9718872fd3d76757"
+}

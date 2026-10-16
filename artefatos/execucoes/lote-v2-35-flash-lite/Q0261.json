@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0261",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:03:48.660871+00:00",
+  "sha256_prompt": "fcb8a7a9f4d1261549c4251c864e20dc8bf517e47fd0d5ab737b803747b2ff0e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c3c17e9188a80e95b194d0c588a32226807aa92682c3cb8b52875fe2124edcee",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0261\",\n  \"tema_central_id\": \"\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": true,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda crimes previstos na Lei nº 9.609/98 (proteção de propriedade intelectual de programa de computador), assunto não contemplado no catálogo de temas ativos.\",\n  \"evidencia\": \"constitui crime previsto no art. 12 da Lei n°9.609\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28770,
+      "candidatesTokenCount": 153,
+      "totalTokenCount": 30614,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28770
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1691,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "xS7SaselHviwqtsP4a6_sQE"
+  },
+  "duracao_segundos": 9.907422500000393,
+  "usage_metadata": {
+    "promptTokenCount": 28770,
+    "candidatesTokenCount": 153,
+    "totalTokenCount": 30614,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28770
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1691,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0261",
+    "tema_central_id": "",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": true,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda crimes previstos na Lei nº 9.609/98 (proteção de propriedade intelectual de programa de computador), assunto não contemplado no catálogo de temas ativos.",
+    "evidencia": "constitui crime previsto no art. 12 da Lei n°9.609",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8369eaf80c801d926ae182a8f83187ec0f0c3bae44b7adf8e8038e9da595ed52"
+}

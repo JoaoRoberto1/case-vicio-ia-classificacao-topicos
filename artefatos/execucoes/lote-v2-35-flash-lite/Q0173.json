@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0173",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:28:23.996694+00:00",
+  "sha256_prompt": "7b877dfffce485c3051ed7545cbefe00c0a8a1fdc27ef0329e7f43fb627d4864",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e08becb65eb03cb125a296aa3497841822d2ed56fe95ae611bb73b785c26eb05",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0173\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a Lei de Execução Penal, focando em faltas disciplinares e regressão de regime. Há duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Processo Penal, exigindo revisão editorial.\",\n  \"evidencia\": \"Com relação à regressão de regime prisional e às faltas disciplinares, assinale a opção correta com base no disposto na LEP\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28904,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 30159,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28904
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1068,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "eCbSapuMPKmkmtkP8LKx6QU"
+  },
+  "duracao_segundos": 11.28872229999979,
+  "usage_metadata": {
+    "promptTokenCount": 28904,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 30159,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28904
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1068,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0173",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a Lei de Execução Penal, focando em faltas disciplinares e regressão de regime. Há duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Processo Penal, exigindo revisão editorial.",
+    "evidencia": "Com relação à regressão de regime prisional e às faltas disciplinares, assinale a opção correta com base no disposto na LEP",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "ef849a5dd7e9caeee05929ae38f849a4c96d87e7c6c182c491892baf069a892b"
+}

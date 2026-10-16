@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0241",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:57:24.142506+00:00",
+  "sha256_prompt": "6d2a6149d744f0a1f035eeadd86db20aa32f01bb02b4bcfb01c322ff5dd0fd8e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "485d3e8604567500c7a9439d6e63c343fc15615f99d0c8606c07a6f7fba99d3e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0241\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5218\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda conceitos fundamentais da teoria do erro no direito penal, compreendendo o erro de tipo essencial, o erro sobre o objeto, o aberratio ictus e o aberratio criminis, matéria diretamente alocada no estudo do erro de tipo dentro do fato típico.\",\n  \"evidencia\": \"Analise os itens abaixo sobre a teoria do erro.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28801,
+      "candidatesTokenCount": 179,
+      "totalTokenCount": 30051,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28801
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1071,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "RS3SarjBA9aAmtkPgdn58AY"
+  },
+  "duracao_segundos": 9.246589200000017,
+  "usage_metadata": {
+    "promptTokenCount": 28801,
+    "candidatesTokenCount": 179,
+    "totalTokenCount": 30051,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28801
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1071,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0241",
+    "tema_central_id": "5224",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5218"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda conceitos fundamentais da teoria do erro no direito penal, compreendendo o erro de tipo essencial, o erro sobre o objeto, o aberratio ictus e o aberratio criminis, matéria diretamente alocada no estudo do erro de tipo dentro do fato típico.",
+    "evidencia": "Analise os itens abaixo sobre a teoria do erro.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "83d99a66e4671fc95adc8761e5d98e06177e511341a43055fa7f2fa55cc562cb"
+}

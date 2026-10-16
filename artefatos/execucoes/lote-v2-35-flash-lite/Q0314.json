@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0314",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:21:31.602586+00:00",
+  "sha256_prompt": "c00e97748c0ab6d3b973815a36bcfaf50297f49af7f510ffa4114ca6914e73f9",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d6165d9ed5112c7c4a76c229d9d38cbc649b61bb6f5c495323d55ff68dcfd8e6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0314\",\n  \"tema_central_id\": \"5477\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente o conceito, a natureza jurídica e os aspectos fundamentais do habeas corpus, correspondendo ao tema específico de Ações Autônomas de Impugnação.\",\n  \"evidencia\": \"O habeas corpus é\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EpwKCpkKAWkUfRPrsNUiQiA0OzQ+hk/RNB2VVarVNWvgDGMis1mCvR/ocGge1KLCKhhHSvFDgAnngjDaPEviwqsuhPsiS81W4s3VHXafDFglCq+AV7erxmbWkeBIJAWVNFvfuBUsLRm+90YdTMae8UPVIndfiyMDdMQWELc98Po0iXlK8U/e5FHvEUyNROcXZxRE+v7M/J59wFKkxnUdWJ+XhLcLaiWCLvgydTjCQeTM2DsimPWOZUetk2ebtIJgMHycd2AKd1QCko1OOkcQIGMsyAnMq+hrnfEMwsRwLVxdBoyXnrCICNTTtRKUGK/JXwJvyCHmFTBbtgEzHj7VexZ6vG4sK6wWyXKETt4JJsDH5YekEmM1dBhefyn+PogDooQBvOW8a2lCOU+l4PhJoL5Oasa3vdGkD3XUcUo3Vv3TgwDpcNSQipnhI84KHOLSmLyOaQ84prUYmufSo0Vj1G0HAw90cHS9kylBI8Qv7uAx8whh8LWwr/MileC11Sn0krj6yUAxXkmAibYMtLg7nVaB2mFZ6Tk4sWgnYdLjUp1prM3T6aQQEe7GeAMCV3Zjc48x44glNCdhy8GgOEmKJdf6dQe4RJMjUau37GHKVt92+Iw59fxEbFoD6fw4InIpHiC/NrSn4DKwSiLtARtBXzqPftmifV3auOcALpfb1VH7F2oIA5L7tWuHonBifQOjaT57C1hWqfbBHskW8uZ+XuZ0O+/vmTgnCdjkZGuuNtbPi+gD0vAJRopVXIevwlccX1RuNiZWRrqQyXWK/OoM4gDGTJgTju23nLe5jBEshxOtQA28ifj+nsasRgVQXaujzR91vHBvOeBFuVgEnl7iXHibeTYq3wQe9OosjIWMRPrycAxrZdlcsBAhR21ArrGxNlG9Nmkd3Sj+dAu+68kMWS8eweZqrOzyY4tqAbNoc3OFUZWKN8bk9+ne21SGEtttpU9B4KIzYTZv5gxOum6u7xhT+r6j8IVCrTPXPpGv7XPC/wXz6aEnuekgSmvJeLtAoi2LZrrnL/CXo1YK2wQu0XyqBf2eme6iUM8jiT88G1yQgQmYORZWQqZhPDLhKUJzbzXaIAH0Xz/vZntgKyxgiMf2RtqQzPya2Gqti3ASpr48e3O/gMOhIrfDprTNZrEnEKKxXpyzP2xFwyBkDqV/z0xGSIAQ5NT/OPAbywScouaRKHGzktcUimVpT1CWT8pqmEmkwcH7u6lzz4WzfcLuUV5AwX+kvQajUD/bvBhTEKiUWFRNJ9p8ua5WRWLHqV2XgPaxXExECqFOek1TLm0tIX+4Onii36/XFGvlJ89PS+S1KRMFR8LeqOF9pfHv4jcipLIgESuZSo9j4HPqUjtz+dcbINXlCU7UCZT8Bt64O/mszCPvFjo/uFbOar9QfLXNfKTM/OJ0vIe6ZPyDp0AzeYmVn4iJ8GbxqsmY7oMfHqpymwxp8V95scSrvqOXLf2kWcCe2/3dHp7E77FO3evUIvh2FtZogIdgZ6WzXJz+xA9cB0Lt+fHTwu9DuHDmV6O2PEDLRbTK2tN9itC9/l4BuHAkw97o70Xgp6/q5hoOkiN/yGWn3ToyFElbhzRIEkDfDVwizzTtaIAz9+lOCvddNxfGForF8LmerGetXizRrYBPZdeSHXbzOGOXkJ2WH+YXZQRex6/31sTAXivL0Wbi6Tn8xa12Dfzcy2LE650aM4e0sjdao8Kyn6dg6cw288BZU4jjGIidm4HZaygeHaf3"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28698,
+      "candidatesTokenCount": 140,
+      "totalTokenCount": 29194,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28698
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 356,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "7DLSaoq5F7noz7IP5dOh8Q8"
+  },
+  "duracao_segundos": 10.236559599999964,
+  "usage_metadata": {
+    "promptTokenCount": 28698,
+    "candidatesTokenCount": 140,
+    "totalTokenCount": 29194,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28698
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 356,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0314",
+    "tema_central_id": "5477",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente o conceito, a natureza jurídica e os aspectos fundamentais do habeas corpus, correspondendo ao tema específico de Ações Autônomas de Impugnação.",
+    "evidencia": "O habeas corpus é",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e63efb505ee1bdbecd80d5e1b580f9a62810558a8b3c17323e4400f758e8867d"
+}

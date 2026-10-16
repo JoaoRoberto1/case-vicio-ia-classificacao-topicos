@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0301",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:17:23.803595+00:00",
+  "sha256_prompt": "7fa188f82165203abc0d4305d17aa1b35e3f5980f5ec6eb25f16621f113a0f94",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "fee2d39caa7650ded287282f14abffc2af8aeaf21bc23b5dab88ba5942099698",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0301\",\n  \"tema_central_id\": \"5197\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o instituto do perdão judicial, exigindo o conhecimento sobre suas hipóteses de cabimento e exclusão no âmbito do Direito Penal.\",\n  \"evidencia\": \"NÃO admite perdão judicial:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28661,
+      "candidatesTokenCount": 138,
+      "totalTokenCount": 29680,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28661
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 881,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9DHSatXUI4qaqtsP7MDMuAk"
+  },
+  "duracao_segundos": 7.768152200000259,
+  "usage_metadata": {
+    "promptTokenCount": 28661,
+    "candidatesTokenCount": 138,
+    "totalTokenCount": 29680,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28661
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 881,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0301",
+    "tema_central_id": "5197",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o instituto do perdão judicial, exigindo o conhecimento sobre suas hipóteses de cabimento e exclusão no âmbito do Direito Penal.",
+    "evidencia": "NÃO admite perdão judicial:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0fac0044c109b6ef29ea1ba28197b884cbf0871cf00a69a63e827514274edd46"
+}

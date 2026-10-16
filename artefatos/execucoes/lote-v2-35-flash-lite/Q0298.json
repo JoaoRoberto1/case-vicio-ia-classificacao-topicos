@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0298",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:16:21.445564+00:00",
+  "sha256_prompt": "941831c3eca927b0c60c33dc076cf1befb669d396c95fe8867693fa79e78d331",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0ef91764408806fb118dc3afc2a8ea4bfa770101de58c8b310497b88ea8c4de9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0298\",\n  \"tema_central_id\": \"\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": true,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os crimes contra as relações de consumo previstos na Lei n. 8.137/90, matéria que não possui tema correspondente ou específico no catálogo ativo de Legislação Especial.\",\n  \"evidencia\": \"Os crimes contra as relações de consumo previstos na Lei n. 8.137/90 são punidos, apenas, na modalidade dolosa.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28631,
+      "candidatesTokenCount": 173,
+      "totalTokenCount": 30632,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28631
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1828,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "tjHSaszGEs-zmtkP35vs4AM"
+  },
+  "duracao_segundos": 12.057293899999422,
+  "usage_metadata": {
+    "promptTokenCount": 28631,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 30632,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28631
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1828,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0298",
+    "tema_central_id": "",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": true,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os crimes contra as relações de consumo previstos na Lei n. 8.137/90, matéria que não possui tema correspondente ou específico no catálogo ativo de Legislação Especial.",
+    "evidencia": "Os crimes contra as relações de consumo previstos na Lei n. 8.137/90 são punidos, apenas, na modalidade dolosa.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e56e5ebc56eb7dc6b4b11ca1ae23f5701cc76f0448a690b3ab924be812c2a6a4"
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "Q0165",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:24:04.016375+00:00",
+  "sha256_prompt": "7a2fec1682ba865b00d1f31b0f0877a00bd74869b80909a33e33e2726a406ff5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c4d6ec31d5cf1199243a4ff730c3477e353d6df44a796ff37aaceed4d14778b2",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0165",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:23:30.606305+00:00",
+      "sha256_prompt": "7a2fec1682ba865b00d1f31b0f0877a00bd74869b80909a33e33e2726a406ff5",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "c4d6ec31d5cf1199243a4ff730c3477e353d6df44a796ff37aaceed4d14778b2",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.3747462999999698,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "28f435c17accc0e4cc06f19751083721666fc22b70e1a452de69585fa5bfa573"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0165\",\n  \"tema_central_id\": \"4705\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6725\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a Lei de Organizações Criminosas (Lei nº 12.850/2013). Ocorre duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão por haver nós idênticos para a mesma matéria.\",\n  \"evidencia\": \"A Lei n° 12.850, de 2 de agosto de 2013, dentre outras disposições, definiu organização criminosa\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28916,
+      "candidatesTokenCount": 206,
+      "totalTokenCount": 29850,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28916
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 728,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dCXSat-YNP2VmtkPmvrRoQQ"
+  },
+  "duracao_segundos": 7.8243351000000985,
+  "usage_metadata": {
+    "promptTokenCount": 28916,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 29850,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28916
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 728,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0165",
+    "tema_central_id": "4705",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6725"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a Lei de Organizações Criminosas (Lei nº 12.850/2013). Ocorre duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão por haver nós idênticos para a mesma matéria.",
+    "evidencia": "A Lei n° 12.850, de 2 de agosto de 2013, dentre outras disposições, definiu organização criminosa",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "c164e84121345940b71a8976c90d967518f30b988532642b4e094bc8f9c11e5f"
+}

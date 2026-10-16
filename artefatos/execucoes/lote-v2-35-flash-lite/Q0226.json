@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0226",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:51:12.476112+00:00",
+  "sha256_prompt": "05b9be098fae24970bf492d920adb820b0c8ec38b249fd12290c7405bd664493",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7e326ef0caa0b6b3f5af3fdea0f0bf965ad29a2ea72c7525291a1a9c25440ae6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0226\",\n  \"tema_central_id\": \"5544\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente as regras, definições e etapas do procedimento da cadeia de custódia introduzidas no Código de Processo Penal.\",\n  \"evidencia\": \"A lei nº 13.964/19, popularmente conhecida como Pacote Anticrime, introduziu no Código de Processo Penal disciplina acerca do procedimento da cadeia de custódia.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28942,
+      "candidatesTokenCount": 170,
+      "totalTokenCount": 30213,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28942
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1101,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0SvSav6SFZ_sz7IP0dOQqA8"
+  },
+  "duracao_segundos": 9.254887700000836,
+  "usage_metadata": {
+    "promptTokenCount": 28942,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 30213,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28942
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1101,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0226",
+    "tema_central_id": "5544",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente as regras, definições e etapas do procedimento da cadeia de custódia introduzidas no Código de Processo Penal.",
+    "evidencia": "A lei nº 13.964/19, popularmente conhecida como Pacote Anticrime, introduziu no Código de Processo Penal disciplina acerca do procedimento da cadeia de custódia.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3e187f11f0f8976cdcd96421a2cab96355b492ea1fc12148507f2578bcd16133"
+}

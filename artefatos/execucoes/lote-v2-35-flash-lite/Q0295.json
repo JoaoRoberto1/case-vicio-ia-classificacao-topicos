@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0295",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:15:41.380794+00:00",
+  "sha256_prompt": "667a6efae19753d9d56a76d674c7e089d160e0c5cfe66e99a9dea340cc9dac53",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3bf09e439931184e605db7284e805567e1e504b686b027e1e6921650d1bc0a8e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0295\",\n  \"tema_central_id\": \"5487\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5489\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda regras de contagem e fluência de prazos no processo penal, bem como as formas de comunicação de atos e intimações para diferentes sujeitos processuais.\",\n  \"evidencia\": \"Quanto à fluência dos prazos no processo penal, assinale a opção correta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28768,
+      "candidatesTokenCount": 163,
+      "totalTokenCount": 30196,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28768
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1265,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "jjHSatekCuWez7IPhbKhwQE"
+  },
+  "duracao_segundos": 11.759775600001376,
+  "usage_metadata": {
+    "promptTokenCount": 28768,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 30196,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28768
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1265,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0295",
+    "tema_central_id": "5487",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5489"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda regras de contagem e fluência de prazos no processo penal, bem como as formas de comunicação de atos e intimações para diferentes sujeitos processuais.",
+    "evidencia": "Quanto à fluência dos prazos no processo penal, assinale a opção correta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a4bc9f000a60680179f14fe5db09f5dcd4cf1eb419b1500daeb33c54b60546ab"
+}

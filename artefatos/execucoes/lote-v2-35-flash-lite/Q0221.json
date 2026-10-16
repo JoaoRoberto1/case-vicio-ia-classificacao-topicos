@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0221",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:49:31.890178+00:00",
+  "sha256_prompt": "f3715da6673fe2c36af59e59fe4ee02a2b0b26ab1fbb86c11c425f087f69aaa5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ed9d493dba28b99eb8c229c18ef16d8d6508df96f281d2c72ba6042d472f50ca",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0221\",\n  \"tema_central_id\": \"5199\",\n  \"extras_ids\": [\n    \"5201\",\n    \"5203\",\n    \"5205\",\n    \"5184\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda proposições independentes sobre múltiplos tópicos da Teoria da Pena e medidas de segurança, exigindo conhecimentos específicos de diferentes subtemas (dosimetria, penas privativas de liberdade, restritivas de direitos e medida de segurança) sem um assunto central dominante.\",\n  \"evidencia\": \"A respeito das penas e das medidas de segurança, assinale a opção correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28780,
+      "candidatesTokenCount": 208,
+      "totalTokenCount": 30164,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28780
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1176,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "bCvSavjYKJzlqtsPtOafmAQ"
+  },
+  "duracao_segundos": 8.495122500000434,
+  "usage_metadata": {
+    "promptTokenCount": 28780,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 30164,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28780
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1176,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0221",
+    "tema_central_id": "5199",
+    "extras_ids": [
+      "5201",
+      "5203",
+      "5205",
+      "5184"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda proposições independentes sobre múltiplos tópicos da Teoria da Pena e medidas de segurança, exigindo conhecimentos específicos de diferentes subtemas (dosimetria, penas privativas de liberdade, restritivas de direitos e medida de segurança) sem um assunto central dominante.",
+    "evidencia": "A respeito das penas e das medidas de segurança, assinale a opção correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2128650408fc590ec24003890b5460238e825bb0f0cdca4cdd13db9bfef16a90"
+}

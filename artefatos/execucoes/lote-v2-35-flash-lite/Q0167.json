@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "Q0167",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:25:53.601948+00:00",
+  "sha256_prompt": "6ddbc09545c22854108bcc5a752acd0941c9859a2ab34c56c63f87316df8ef97",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "335959ba37913e27afb32ba96ef7db3ff59faeadf1d4a080ecd388340d19dac6",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0167",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:25:17.694622+00:00",
+      "sha256_prompt": "6ddbc09545c22854108bcc5a752acd0941c9859a2ab34c56c63f87316df8ef97",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "335959ba37913e27afb32ba96ef7db3ff59faeadf1d4a080ecd388340d19dac6",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.6129736000002595,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "a5b9cb3b925993899b43f50fba746cf5679fce3409c4e06d1952a42cb5c82192"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0167\",\n  \"tema_central_id\": \"5524\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5480\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão versa sobre o desaforamento, instituto próprio do Tribunal do Júri que também constitui uma hipótese de modificação de competência territorial, gerando concorrência entre os ramos de Procedimento do Tribunal do Júri e de Competência.\",\n  \"evidencia\": \"Acerca de desaforamento é incorreto afirmar:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28743,
+      "candidatesTokenCount": 173,
+      "totalTokenCount": 30864,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28743
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1948,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "4iXSarmAIviwqtsP4a6_sQE"
+  },
+  "duracao_segundos": 9.813810699999522,
+  "usage_metadata": {
+    "promptTokenCount": 28743,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 30864,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28743
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1948,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0167",
+    "tema_central_id": "5524",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5480"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão versa sobre o desaforamento, instituto próprio do Tribunal do Júri que também constitui uma hipótese de modificação de competência territorial, gerando concorrência entre os ramos de Procedimento do Tribunal do Júri e de Competência.",
+    "evidencia": "Acerca de desaforamento é incorreto afirmar:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "0b17bb73f9f09c32d96c7eaf247b99847d714599343ed8c1df45976105f1dfc1"
+}

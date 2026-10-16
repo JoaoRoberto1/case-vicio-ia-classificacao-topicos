@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0252",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:00:57.609186+00:00",
+  "sha256_prompt": "c8cbdbb1075374dbf93daa797a54b824fabb6607e1f41b9f7ef639b52f816a60",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3ca3d03ff1c619a96da71081da909fcb5b2e7078753021d49fb0ec652154aad2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0252\",\n  \"tema_central_id\": \"5208\",\n  \"extras_ids\": [\n    \"5206\",\n    \"5193\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda proposições independentes sobre temas distintos da Teoria da Pena e da Punibilidade (graça, pena de multa e livramento condicional), sem um conhecimento central dominante único, o que justifica a marcação de revisão.\",\n  \"evidencia\": \"João, maior de setenta anos de idade ao tempo do fato, foi condenado pelo crime de estelionato à pena privativa de liberdade de quatro anos e três meses de reclusão\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28814,
+      "candidatesTokenCount": 206,
+      "totalTokenCount": 30314,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28814
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1294,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Gi7SarW9IrCsz7IPhOr9mA8"
+  },
+  "duracao_segundos": 15.562083700000585,
+  "usage_metadata": {
+    "promptTokenCount": 28814,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 30314,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28814
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1294,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0252",
+    "tema_central_id": "5208",
+    "extras_ids": [
+      "5206",
+      "5193"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda proposições independentes sobre temas distintos da Teoria da Pena e da Punibilidade (graça, pena de multa e livramento condicional), sem um conhecimento central dominante único, o que justifica a marcação de revisão.",
+    "evidencia": "João, maior de setenta anos de idade ao tempo do fato, foi condenado pelo crime de estelionato à pena privativa de liberdade de quatro anos e três meses de reclusão",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "a8021a9430b819fc149594a60655b53a4312994b1b6c6e246bd876c20c36ace1"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0340",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:32:52.784383+00:00",
+  "sha256_prompt": "32633750040c14f7ab2d8908857e352f5f1aa2c56fadeb80794686500cd5b196",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9fc7b87327e45a9b3198109bf0624189a7b7b252b7fbfdab87dd6684bfb19a6a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0340\",\n  \"tema_central_id\": \"5071\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5074\",\n    \"5076\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda proposições independentes sobre diferentes subtemas do concurso de pessoas (como participação, comunicabilidade de circunstâncias e minorantes), sem um foco exclusivo em um único subtema de nível 2, justificando o uso do tema geral com recomendação de revisão pela mistura de assuntos.\",\n  \"evidencia\": \"Assinale a alternativa correta sobre o concurso de pessoas.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28787,
+      "candidatesTokenCount": 191,
+      "totalTokenCount": 30545,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28787
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1567,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "lTXSapb2JvunmtkPh66j0AI"
+  },
+  "duracao_segundos": 17.342441200000394,
+  "usage_metadata": {
+    "promptTokenCount": 28787,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 30545,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28787
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1567,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0340",
+    "tema_central_id": "5071",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5074",
+      "5076"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda proposições independentes sobre diferentes subtemas do concurso de pessoas (como participação, comunicabilidade de circunstâncias e minorantes), sem um foco exclusivo em um único subtema de nível 2, justificando o uso do tema geral com recomendação de revisão pela mistura de assuntos.",
+    "evidencia": "Assinale a alternativa correta sobre o concurso de pessoas.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "110eb76adf9ac74442850eda974ab1732e2547caab12b529d52fe3e1d2f4d871"
+}

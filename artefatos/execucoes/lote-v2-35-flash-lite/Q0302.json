@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0302",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:17:41.578806+00:00",
+  "sha256_prompt": "9e0883edcf12dcaabf343a54943156348b9ccd3a6e0d6457cfc99888813923ae",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "bcc7d726b0c7986c67d4a20078eac55ad527c405b1cec6a1dc37df7c28af43bb",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0302\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a ausência de percepção sobre a presença da vítima no local, o que afasta o dolo por erro de elemento constitutivo da figura típica, caracterizando o erro de tipo.\",\n  \"evidencia\": \"sem que César tenha percebido. Ao terminar seu turno, cansado, César acaba jogando uma enorme faca em direção a um armário, momento em que a faca acaba por acertar fatalmente o fugitivo\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28711,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 30023,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28711
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1125,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "BjLSapvhFdaAmtkPgdn58AY"
+  },
+  "duracao_segundos": 8.530735800000912,
+  "usage_metadata": {
+    "promptTokenCount": 28711,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 30023,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28711
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1125,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0302",
+    "tema_central_id": "5224",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a ausência de percepção sobre a presença da vítima no local, o que afasta o dolo por erro de elemento constitutivo da figura típica, caracterizando o erro de tipo.",
+    "evidencia": "sem que César tenha percebido. Ao terminar seu turno, cansado, César acaba jogando uma enorme faca em direção a um armário, momento em que a faca acaba por acertar fatalmente o fugitivo",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c18be64b116f3d2896c4e1681603a296f05819edcb6ccb623fa12f010b989657"
+}

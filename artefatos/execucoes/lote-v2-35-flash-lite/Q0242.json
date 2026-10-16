@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0242",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:57:43.396363+00:00",
+  "sha256_prompt": "aabd6b0700fa450fa28b74f85dfbe017060c09bbf62168b0f837c9c5846d4ac6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "49991e2deb8f74bbb1b1b2b2904a56a0bf9465fef7af287e7610cc574972e589",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0242\",\n  \"tema_central_id\": \"5512\",\n  \"extras_ids\": [\n    \"5570\",\n    \"5571\"\n  ],\n  \"temas_alternativos\": [\n    \"5560\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda proposições independentes que misturam regras da teoria geral dos recursos (como princípios e prazos) com espécies recursais específicas (recurso extraordinário, especial e reexame necessário), sem um foco exclusivo dominante.\",\n  \"evidencia\": \"Sobre os recursos em processo penal, assinale a alternativa CORRETA:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28878,
+      "candidatesTokenCount": 191,
+      "totalTokenCount": 30071,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28878
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1002,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "WC3SaqGwF6jqz7IP9N_kEA"
+  },
+  "duracao_segundos": 11.584423300000708,
+  "usage_metadata": {
+    "promptTokenCount": 28878,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 30071,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28878
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1002,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0242",
+    "tema_central_id": "5512",
+    "extras_ids": [
+      "5570",
+      "5571"
+    ],
+    "temas_alternativos": [
+      "5560"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda proposições independentes que misturam regras da teoria geral dos recursos (como princípios e prazos) com espécies recursais específicas (recurso extraordinário, especial e reexame necessário), sem um foco exclusivo dominante.",
+    "evidencia": "Sobre os recursos em processo penal, assinale a alternativa CORRETA:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "94d3e42be844cbc3629ee29a352faa1ed9c91225764298325fa22c4a05398c97"
+}

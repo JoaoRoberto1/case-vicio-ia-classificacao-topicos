@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "Q0196",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:41:09.077213+00:00",
+  "sha256_prompt": "d1da9ac23787a0f394d61439c97efb6e34d5674b5d6aabb4b64bd9351ce45d07",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0e9d02164e0d59f4d66ac30b3831eda446721647474be726323913014bff475b",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0196\",\n  \"tema_central_id\": \"4388\",\n  \"extras_ids\": [\n    \"4378\"\n  ],\n  \"temas_alternativos\": [\n    \"4377\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente a teoria criminológica do Labelling Approach (Teoria do Etiquetamento Social), suas premissas interacionistas e a atuação do controle social na criminalidade, sendo o tema central adequado as teorias em espécie e conexões com processos de criminalização.\",\n  \"evidencia\": \"Constitui um dos objetivos metodológicos da teoria do Labelling Approach (Teoria do Etiquetamento Social) o estudo detalhado da atuação do controle social na configuração da criminalidade.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28769,
+      "candidatesTokenCount": 215,
+      "totalTokenCount": 30624,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28769
+        }
+      ],
+      "thoughtsTokenCount": 1640,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dSnSaofDOOWez7IPhbKhwQE"
+  },
+  "duracao_segundos": 10.374346200000218,
+  "usage_metadata": {
+    "promptTokenCount": 28769,
+    "candidatesTokenCount": 215,
+    "totalTokenCount": 30624,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28769
+      }
+    ],
+    "thoughtsTokenCount": 1640,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0196",
+    "tema_central_id": "4388",
+    "extras_ids": [
+      "4378"
+    ],
+    "temas_alternativos": [
+      "4377"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente a teoria criminológica do Labelling Approach (Teoria do Etiquetamento Social), suas premissas interacionistas e a atuação do controle social na criminalidade, sendo o tema central adequado as teorias em espécie e conexões com processos de criminalização.",
+    "evidencia": "Constitui um dos objetivos metodológicos da teoria do Labelling Approach (Teoria do Etiquetamento Social) o estudo detalhado da atuação do controle social na configuração da criminalidade.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1d3faf0b808907bce4c0702cfa19d47d6dc00f2673de59373084873e6f2c2d89"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0274",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:08:13.262159+00:00",
+  "sha256_prompt": "43d465488eed44db46a3d6ff9c02f57196f29dc8c19432bd58b70bf57171ba3e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3e19536763d85e96743613840af96e595cf70f8f58cb7359e740565ebe458d34",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0274\",\n  \"tema_central_id\": \"5160\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a consumação do latrocínio (morte consumada e subtração tentada), matéria diretamente vinculada ao crime de roubo.\",\n  \"evidencia\": \"Na hipótese de tentativa de subtração patrimonial e morte consumada, o agente responderá pelo crime de latrocínio consumado.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28635,
+      "candidatesTokenCount": 157,
+      "totalTokenCount": 29430,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28635
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 638,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "zi_SasajH7XUz7IPnJCZ6A8"
+  },
+  "duracao_segundos": 7.735338200000115,
+  "usage_metadata": {
+    "promptTokenCount": 28635,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 29430,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28635
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 638,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0274",
+    "tema_central_id": "5160",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a consumação do latrocínio (morte consumada e subtração tentada), matéria diretamente vinculada ao crime de roubo.",
+    "evidencia": "Na hipótese de tentativa de subtração patrimonial e morte consumada, o agente responderá pelo crime de latrocínio consumado.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "4a1755946ee70c843a460a75f955fb3c29426a1851dde8466b66a47e1f3cf42a"
+}

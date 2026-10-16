@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0253",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:01:23.224230+00:00",
+  "sha256_prompt": "38043460b1885df40e5645c346c07ab8c7edc617c875e748637ff223491731a3",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "759bac6458b31a3e80e2c23df7dcbd3767392b82f01ad6c218ae578caaf0ecd2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0253\",\n  \"tema_central_id\": \"4373\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4371\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o conhecimento sobre as Escolas Penais, como a Clássica e a Positiva, tema diretamente inserido no estudo das escolas criminológicas.\",\n  \"evidencia\": \"No que concerne às Escolas Penais, é correto afirmar que a\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28776,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29871,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28776
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 935,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "My7SaqaDNP-sz7IPzvKN-A8"
+  },
+  "duracao_segundos": 5.639609599998948,
+  "usage_metadata": {
+    "promptTokenCount": 28776,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29871,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28776
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 935,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0253",
+    "tema_central_id": "4373",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4371"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o conhecimento sobre as Escolas Penais, como a Clássica e a Positiva, tema diretamente inserido no estudo das escolas criminológicas.",
+    "evidencia": "No que concerne às Escolas Penais, é correto afirmar que a",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "f0c228e6d54b8e564ed50abbc693fa97018951a76ccaa0c9cc294d9c93bd30b0"
+}

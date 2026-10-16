@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0281",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:10:10.768417+00:00",
+  "sha256_prompt": "29a567fbe1b5c79b9602cb4a5337ef7c63486b700b1e4a4ea2fd29bdbb8dd1f5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "34017a4d07a3594be21c9301cfc22986b9c16d28765f50f6e62473ad6cb637b9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0281\",\n  \"tema_central_id\": \"5555\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4700\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.6,\n  \"motivo\": \"A questão mistura proposições independentes sobre diferentes medidas cautelares e meios de obtenção de prova na investigação (interceptação telefônica, sigilo bancário/fiscal, acesso aos autos pelo advogado e devassa de correspondências), sem um tema central dominante único. Utilizou-se a interceptação telefônica e quebra de sigilo como eixo principal.\",\n  \"evidencia\": \"Pode o juiz autorizar escutas telefônicas em caso de delitos apenados com detenção ou reclusão\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28775,
+      "candidatesTokenCount": 209,
+      "totalTokenCount": 30313,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28775
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1329,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "QzDSarOUKqLTz7IPibWREQ"
+  },
+  "duracao_segundos": 9.20400840000002,
+  "usage_metadata": {
+    "promptTokenCount": 28775,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 30313,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28775
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1329,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0281",
+    "tema_central_id": "5555",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4700"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.6,
+    "motivo": "A questão mistura proposições independentes sobre diferentes medidas cautelares e meios de obtenção de prova na investigação (interceptação telefônica, sigilo bancário/fiscal, acesso aos autos pelo advogado e devassa de correspondências), sem um tema central dominante único. Utilizou-se a interceptação telefônica e quebra de sigilo como eixo principal.",
+    "evidencia": "Pode o juiz autorizar escutas telefônicas em caso de delitos apenados com detenção ou reclusão",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "949f8058b159b9269a2515cf7ccfb1b67d137a019ee70ef113008f5f39811b87"
+}

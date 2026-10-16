@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0311",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:20:26.423831+00:00",
+  "sha256_prompt": "a3f9f2d26a12267a33ae108275781dfd11546ae7d52cc7c1a763dc96a83a8c40",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c642467463e808bab00075e979f511d878b3031bd955bbb3e7bcd3bc109bbf13",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0311\",\n  \"tema_central_id\": \"5488\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5487\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente as regras e os desdobramentos procedimentais da citação no processo penal quando o réu não é localizado no endereço constante nos autos.\",\n  \"evidencia\": \"Considere que um oficial de justiça não tenha localizado o réu, para realizar a citação pessoal na ação penal, no endereço que constava dos autos.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28728,
+      "candidatesTokenCount": 177,
+      "totalTokenCount": 29458,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28728
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 553,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "qzLSauCtCrihz7IPp-mn8Qo"
+  },
+  "duracao_segundos": 11.512257300000783,
+  "usage_metadata": {
+    "promptTokenCount": 28728,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 29458,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28728
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 553,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0311",
+    "tema_central_id": "5488",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5487"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente as regras e os desdobramentos procedimentais da citação no processo penal quando o réu não é localizado no endereço constante nos autos.",
+    "evidencia": "Considere que um oficial de justiça não tenha localizado o réu, para realizar a citação pessoal na ação penal, no endereço que constava dos autos.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e9cf855a5040f840b86be3aab96022ab4262ec1f580ce1d3079b1e09ca5c2d01"
+}

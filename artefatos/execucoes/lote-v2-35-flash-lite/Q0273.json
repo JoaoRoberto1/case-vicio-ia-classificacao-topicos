@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0273",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:07:55.077080+00:00",
+  "sha256_prompt": "36da266c3cc50d25ed5114440f9c0d1edc4a389521272c17cd6ca0e6c707e17b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d87d52bb1ffaeabbc8945edc57a54f57fa1542630de0f855a9a66308c0c8b3e2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0273\",\n  \"tema_central_id\": \"5089\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5096\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a identificação de crime que possui previsão de punição na modalidade culposa, exigindo o conhecimento do tipo penal de peculato e suas formas.\",\n  \"evidencia\": \"É punido na modalidade culposa o crime de\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EpcYCpQYAWkUfRObWoRLpeevhdMxus/l7yolgNgcoDEzg71PkrVMVu6BcPw+T4a7oA/gx4JRq0+hCRKyZAEiLsdkAkCwdPrWn4Oc2IjuEts4Pxb446tEhc5GSmyIhhXTPzGe1KFezmtprepcNZW1J0Rt46mZbFtD3UxFuibmuOAGUVn2AxK7xpOu6rVF10P1AkP5V9VXZRNzM2IGHXCzEWk8dhJ/Ee/VQavDtHnzv8Tll7Y1irLyEyy8j8fGgquLRegZX2jp/zcvh1IoUIH7FURwWhCqXEA/+U++MRmuETQ4pQc6e95RnzHVZ/hXZsXaIAvQG3s3MBqPK3L7LX3AMFBW72FU45oH5r31PWkY05jicOD3qITz21uFe9KDk8Yj7N6+PnV2v6QBVSONSBqsHBUiYW+/ZXdBj96s6UEjTdyqOUG0OUKxeHQU7VQe64IW7d9TE33nJQa1Qj+ew+jKaZbTR+4Pnk9fI52yuNfRZZ8mhd9H9Iu0Jw6iavZ2nnOMh8QPpHvS2ZcOD7zIySn1cMG/4I60C9ZK+ED/jRhGMQ4Nzz+XX1s2HilaEneuj68ngMYnHUsAuSYdg+PQHCFew0dq9bUjloDuqRuxxdeQNjbt0humih+0+G7+/OTE+2BJBUcY6KmkHZgdEozChH0CgMVdtpREvWRb2cmelty3BwpOiee89Iq26GNW3f+YcsuvuP5ok6K5+pUl5IOnUdBxyF6cRvhiAoTsQkN/8/mCm0lm2SkH0lk2UhQAJpwgfsw+bcHFD+d+dIuBF9Yru0xABFC7CwS/DPukTZ6M271Cg1boJl9E+6zhYnjpc2APmLsiKoWioakNw6CdelmRzEr8xPA9mw5cw1E3yMC/bI2TGMMsh7MyKvkOe9VFz3TYmxUUGZA594a0uOz8Prtqzt/6ybluSq8nf6HGUtWwuD5cdN5rGropU9uZyB3hKyNzBS5ftxxS99sBbZqYszglxZ/oZzFJdnxrSABWp8RLDr187o3IKpwnBpngLQMiq8jr1aWLJPruadcdeSCpJt5Mwl2khVpU7cMMuZRlJQQpLEtKjXymTtnF/4xPeK0R/H0XyEWMcvB+7udNwRD72ZMzFri0p0xSLfIggY4MWkSqCS7f0Om8S/jd6HaD2lm3bkJlklmEYnm/m+sD9k+dc2/RJWX7CvuZ74HKGoJr9rPC9rOVk8RNfy/rTYdw7FcLl80YCq7qythjLtGdDLs2Z9HoSQmz3OfbgMLsCclaGOOjBlhN0xhkmsdxKF5HVBHbcA34Vte1zHkOnuf+Q+EAujXpzXn+WjH3lYlbWyvi9X/xdTvKkqgK7LmEFJZtPHEjY+aCVX7Jw4onxg4+zp4PpD7uHAuP/bOP8CKuMlSgwiHA5RVCmutyLzYvO5F3Y1BRZDsyKQ3/8thGZU0cclkJQ9cv0zjyiZrRjf5pWHx9EqiUVNQM8zBtEzpiAOztYvQuLzWc6vQcVU146YSj7PzliKNwHICzBQQ3KGhmxlitQWwScysijGBaoY5n05lvolIGJMEYx7Z8MUodID3Hvf0G6EwISABlk8CZq1S6pSuD4Ks+x7LZLhbFcQZWyXwUXEY2i+Dw7fKnj1hki9pXAgBZO9GxNEcJXqkbg/ya3cweakCHsjLsMQLcLQxgBRfCyjbtXPwbRFaqfV4X7uZTmSpd8vEqhmPwB5fob0L366WtAlGxTM+gpxKDLnY/zrfqu7pGsysSD7Qtx6ivo2rbAbNxsKPwDIHB0Hm7rHHMhsmQTYSHAu0XvJGYolipuXiwfjPaaAbXfa1PnwB8ElxUctBfaRxBj8rl8iHNAHioII51B1reEb13ieW4m8G5ooYarBJUk7lA5Ao1UDFyoqtrvkyzVBrFtu9Onpp4ch7UG/UamRHvevd0khjPM5IDc13xGzGn6zNpKdUbZoCV9JvQbYKwHQOeQwi+pY9z12MMRI4W94C4xdunJL/uOewRpkMqUW1n3zYr619oT8TmOfP2ESVtLvybZvzwCJgASBwq/cMUN/VO4M6r2s8CSnNwq3ASlKJncYQOMId6AKrVAW/Jth0jgmQrWPv81GgP1gSTqg5F2awJg/BLfE+Lqw2W3Kis+2ixVHXoczgwTojLrdrlULG+yzc0BUMvz2ppgZHOjlHhM+8cpoAHmYk0L6SnG8R/Ba95aE7e+bmOFp9BD5CsZGs5Y4AYLKpGBwNcl3Sdj+/SvTzNGrEwJsiC7bqx2OKr9cg2cckBOZVoZ7i6DJzaZNOL8y00gXv7/43mbpeWJMt9smcL0JtCn5aSGNX2Dt6drEsIb79Z/MztvG+IkDveiLf+wn0y5vO/+myxDG1mpubwRkZ49I0TuigoHZVJpmrPcKNV3jwp3UQxF8XaA3peLea0OVSEFsTrG4VpCTGXd5qTBiRBmbPEGC0nT7ndjF3tDvo47Bo9AGK+5Znc5GRr3pBgl/wolKYJrHXJ9HBvAQTavEdTFdBRH7jZ0YOt0bjeJsUOCRLaJkCaQ4ZRFq9ph09Hek9aWGevZavp6txQh+EP8exGDDTCDFihvgOxleRFlli7mOSrGmPN9aDUdWDeI7GRmCyLBwcbdUPm/9wlDKZK+QCqNR8S4BPQ0FEzwhUkJ1HXxzmwWT/jaSihhlasxq5t2kTvUYSo2CYArTe0KsnOnU9peudy81g5eWWtA3hnFcbKD8oECzY2aDtKFt/pPchnfLgv8bXBWBVu1hzMeQn1dRanOFfUr5Ijm31cCgBu66i3BOwiv/pxYLumvMv7lgW08RMjIAzUbd3CS91/uYdwEeKH9QofAQGToyiU7CY+G5Bdl69bAGPugHd+OkNYWlDXXqZ6ucGLnNcSK/PHIisjJ93I+7nCd0aPlNPLnVkad5uXhV6C9qw6ZQGWHLRFRiATsmKKRi6Fcb0LiDi8mCOd9FAj8H27NwmFuHA7GynB8ql7vPbpSwiDVcP3WDxB+kr0dAN8qEt3VuWWHTj06tKGk8fOfc9hTyg+BlAyG5+FdVSUh4w14h5X1RXGCn/JRUAFTS4d89QKn8FNdT8yXyFZZ7m2Cs+kbmonp2OLQtb66Y7dy/f0XqoxESDJ9hATC2TPNi5uHrg10CdXcIOo+VnznPNn6Myj3Y7hJ6HU8NXXH5GM08ruEa9L5TL6gDtp0ReQrDjftbNclC7mUBgAZlUGiaNlxGCHfAd8CBaDvhb6VVCoSiw4GvPEeWyY/MQ38z2WaK1QcR7Oypy4BcHW2eIY3KTNdHXMz3UP6swbHfQtI9/ZEcz/o4BzXPi7+h+HAVXr224xyWxqotwceG1Gh342IbKqy14BKQoZN7hnrqVMw46yveHa+cDvRexv369hGcJLBnMQChrX3q2sPOwd5DxfTURuEfNDy/HgGFtZH3BZy07VbTqbWHIuVPFaZMV0PcoR5sOMuQzDAOiQsr2KqWbclYNMGQroIpVUlc/VQVfJklLPhuN/kao6K7jEKIG6hBrY70+k0xDPM/F215zhsHsE4FUwXQlJuvtKzL1QQG0RsRQsNSrzLzLQXAC6cq/i9wkIh0iQQZqUMU6IQ4er7liLbl8j9SGmElnp8lZN6Jk/d0cUxLkxwuvPLbTB8aGLOWnnev9A3/pBRv5QLIL/XIzt3eQ2Geqx7Y7/BPhQhXR2J3Fa7Dr8FKMflrLkg7AUxaT8eWAJ69AJaFCaBN+csaCtEpvtOlcXWq4CKBQZd5MTc9QfKI8ptD3O/cypdFLPRyKYeoYNTEgu9h8nk4escNqL7yTRky+4/v+d7rXNetsEwhNfLDnEBDvVFFXFz1GZarY/yPrQVGRNEZ22masSov3tM8x3Slw79WFWlaWhcO29t2HQOmfNf54DAOyoKrniP/PP81pLytRrLaUs7Udq8u6wuPhSxDCN4sRTuANxWD1sA4l72/VHqquCHYkNMxBLl8dqE9RR/QdlpFJXGfiWaAbkjRlkasSNB4jl+g1bH0TujcCNvUHPQWEj1hy/vBPH4LiuUc5jQOtDTCCi/kVZYvcstWMEAUtEiq+hVA5vzN9fqm29PtKt458RnqwIusdI/L0zaPy9GZ2w1GXWFAb+sbh0Wpanksl+L1jB4ezl9kKrIoUxG96KrVjtrx+8pyyHSyf/URMPM7em2Jtw1iEC4F9TX+M="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28638,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29693,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28638
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 895,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "vC_SasHNAaui6dkP_OHGmQU"
+  },
+  "duracao_segundos": 8.004764100000102,
+  "usage_metadata": {
+    "promptTokenCount": 28638,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29693,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28638
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 895,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0273",
+    "tema_central_id": "5089",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5096"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a identificação de crime que possui previsão de punição na modalidade culposa, exigindo o conhecimento do tipo penal de peculato e suas formas.",
+    "evidencia": "É punido na modalidade culposa o crime de",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0599a6c2b11ce83450a3900777c8bd464657ffea78d29898ef243d604cc436a8"
+}

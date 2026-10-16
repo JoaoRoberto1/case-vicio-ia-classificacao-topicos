@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0318",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:23:12.703019+00:00",
+  "sha256_prompt": "3202b087222d577a26576f8f7bc20431b1c4c0d0a96e05144e52ff991fc74745",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f3485d5ae036ee907ca22855ae2af8ab2fa18eba3753f1f7df5141f40bb57cc0",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0318\",\n  \"tema_central_id\": \"5178\",\n  \"extras_ids\": [\n    \"5150\"\n  ],\n  \"temas_alternativos\": [\n    \"5177\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento sobre os institutos da desistência voluntária, arrependimento eficaz e arrependimento posterior, além de sua distinção com o crime consumado no iter criminis.\",\n  \"evidencia\": \"O caso narrado configura desistência voluntária, uma vez que Lúcio interrompeu voluntariamente a execução do homicídio\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29018,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30226,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29018
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1022,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "UTPSapK4EsfQz7IPl-LbsAE"
+  },
+  "duracao_segundos": 11.300719399998343,
+  "usage_metadata": {
+    "promptTokenCount": 29018,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30226,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29018
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1022,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0318",
+    "tema_central_id": "5178",
+    "extras_ids": [
+      "5150"
+    ],
+    "temas_alternativos": [
+      "5177"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento sobre os institutos da desistência voluntária, arrependimento eficaz e arrependimento posterior, além de sua distinção com o crime consumado no iter criminis.",
+    "evidencia": "O caso narrado configura desistência voluntária, uma vez que Lúcio interrompeu voluntariamente a execução do homicídio",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "ffa83413d231baa8edd8299276aae67d47ba468b8aa12c6ad66f5adc95957d39"
+}

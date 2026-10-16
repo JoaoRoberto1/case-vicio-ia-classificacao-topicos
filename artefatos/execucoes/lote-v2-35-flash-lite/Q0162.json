@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0162",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:22:01.463446+00:00",
+  "sha256_prompt": "9ebd20553c67e6d6072a7f3fc154e0842178c7645668677f1b9e938226acb9e2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ef9f6f4a00ab44f22c3fb724bcd9c6f208af562e2f247a6d6460cef35a180237",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0162\",\n  \"tema_central_id\": \"4381\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4380\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o controle social do delito como objeto de estudo da criminologia, enquadrando-se no conceito e objeto da disciplina dentro da teoria geral.\",\n  \"evidencia\": \"A moderna criminologia se dedica, também, ao estudo do controle social do delito, tendo este objeto representado um giro metodológico de grande importância.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28755,
+      "candidatesTokenCount": 171,
+      "totalTokenCount": 29946,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28755
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1020,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "-iTSat-fDYCKqtsPtZX5kAo"
+  },
+  "duracao_segundos": 7.076845300000059,
+  "usage_metadata": {
+    "promptTokenCount": 28755,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 29946,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28755
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1020,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0162",
+    "tema_central_id": "4381",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4380"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o controle social do delito como objeto de estudo da criminologia, enquadrando-se no conceito e objeto da disciplina dentro da teoria geral.",
+    "evidencia": "A moderna criminologia se dedica, também, ao estudo do controle social do delito, tendo este objeto representado um giro metodológico de grande importância.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "1b8b62d3bcac4b187d6e0874a2eae4e6244ef3336fa4236f1c9ae59a59e5ce96"
+}

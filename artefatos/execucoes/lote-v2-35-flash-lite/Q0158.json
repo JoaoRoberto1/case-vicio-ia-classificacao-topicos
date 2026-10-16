@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "Q0158",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:20:45.103899+00:00",
+  "sha256_prompt": "86b179502e4d41dd570ee7e30b351176731593204b0f6bc5a887be244a842be5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c069c931a19c6b40e7913cf9ee35c3c1f7ae130f70a21ab172f8624e399f0f0b",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0158",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:20:10.825956+00:00",
+      "sha256_prompt": "86b179502e4d41dd570ee7e30b351176731593204b0f6bc5a887be244a842be5",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "c069c931a19c6b40e7913cf9ee35c3c1f7ae130f70a21ab172f8624e399f0f0b",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.2378420000004553,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "d63e255a477ebf0493414b960f1e2a5a05d1644eea5e6621824d91feed8611f3"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0158\",\n  \"tema_central_id\": \"4707\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os efeitos da condenação e o regime aplicável ao crime de tortura sob a égide da Lei nº 9.455/1997.\",\n  \"evidencia\": \"Nos termos da Lei no 9.455, de 7 de abril de 1997, essa condenação acarretará a perda do cargo, função ou emprego público\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28752,
+      "candidatesTokenCount": 178,
+      "totalTokenCount": 29797,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28752
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 867,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "riTSaplp-MGq2w-a-NPQAg"
+  },
+  "duracao_segundos": 8.454961000000367,
+  "usage_metadata": {
+    "promptTokenCount": 28752,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 29797,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28752
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 867,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0158",
+    "tema_central_id": "4707",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os efeitos da condenação e o regime aplicável ao crime de tortura sob a égide da Lei nº 9.455/1997.",
+    "evidencia": "Nos termos da Lei no 9.455, de 7 de abril de 1997, essa condenação acarretará a perda do cargo, função ou emprego público",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "e13d3a9c8c6be319b99e0fb579e9bc55bfae3c9be0d315ce185ce4eecd2d11f1"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0266",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:05:21.540290+00:00",
+  "sha256_prompt": "bf9f52420a4bff822807457712f78c7638d6c80fff33c7f0281c30daa4863c07",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "2eb2877c85f5472bfe97cbbb4e4a4bafb94d5e43957d19dbfa2354b85882e36b",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0266\",\n  \"tema_central_id\": \"5480\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5524\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda regras de competência jurisdicional criminal para o julgamento de crimes dolosos contra a vida cometidos por militares em contexto de GLO, gerando interface e possível dúvida entre a Justiça Militar e o Tribunal do Júri, o que justifica a revisão.\",\n  \"evidencia\": \"Nesse caso, é correto afirmar que a competência para o eventual julgamento é\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28782,
+      "candidatesTokenCount": 184,
+      "totalTokenCount": 30596,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28782
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1630,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Ii_Sat2GGrnoz7IP5dOh8Q8"
+  },
+  "duracao_segundos": 9.536689399999887,
+  "usage_metadata": {
+    "promptTokenCount": 28782,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 30596,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28782
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1630,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0266",
+    "tema_central_id": "5480",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5524"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda regras de competência jurisdicional criminal para o julgamento de crimes dolosos contra a vida cometidos por militares em contexto de GLO, gerando interface e possível dúvida entre a Justiça Militar e o Tribunal do Júri, o que justifica a revisão.",
+    "evidencia": "Nesse caso, é correto afirmar que a competência para o eventual julgamento é",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "02de831809bb2734e3061ef0446e55eccdbff844ae10da4fe2259a56402108d8"
+}

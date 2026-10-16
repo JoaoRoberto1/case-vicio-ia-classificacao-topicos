@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0313",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:21:10.913369+00:00",
+  "sha256_prompt": "6e34e860d538bba6033fb5d9ea17c2ade6d4eb0af4baefff5a67dadfbd4aff13",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f3c0b55bd97630099d6aafa302222d58f840a59fdfa941641b139f8ed84e70cb",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0313\",\n  \"tema_central_id\": \"5209\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5577\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda os efeitos da condenação e a obrigação de reparar o dano, tema tratado tanto em Direito Penal (Teoria da Pena) quanto em Processo Penal (Sentença Penal), gerando concorrência entre ramos sem clara exclusividade.\",\n  \"evidencia\": \"A condenação tem como efeito genérico tornar certa a obrigação de reparar o dano.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "EuEcCt4cAWkUfRO6PaWymw//GqBPLViI9c+CvzhuNtFGjAEBrHumqh2xjsngPNgPqu49eyhCM+08e3d4/HAaI+nErxdu9mIvn4+z04UocBa8HJNmf1ioxPq2h/3xcQwEbZyGdVeScPPcATKbksPP7D7F7IsNdRpSJxRPNuuY9PtzckDjYYDsSxAqPxGyyOXE6TUViMU6lbOSRfkX72HOtkXB9PnSq8DyeCxhxgg21tUya0XRVy550/StCqSzPdWXSvo5qsmH98coVqBXRBATV4kxOtuip4bRD1oivE79WAy7lvB4FMEaFxFkjP3a1ffFW7ofAiYpfesCH9j2CkgVERsIl4Pn0CAHRnlj3N/6jwmBRQwq6HhStRKFB9NWdUH3MvSkzVYuJwbsViI2+YqyetuIkYH+GNxpQ/KFPvVIUyCjtEXMHHgeWsj5UTEqya2NvuQLRekbAYXdpku9+yMWVdIgnhm/Alxfc/P4JcuxzVZBA1YRi9CcMC6YjypJLuRizYt24btLhztsXo6XHk1orcvPktcKnxRlADqw4Ro8J/Jde2vq3MXFTVfLLysVkfsPC9Es0o+qoic1F8nwd6c0J5nQxjdPqDkfyc0e4kVSTVr7iBcHmXXLfEiqhVbML1gKH2/pAvdkLzcoNhGRmBbturAUYHrY6YqyQUrf2qwjl9Y0UgmO+RvNNQEfB+Cc8vY5zZRorpCo1Mh5+IjQaHWAdRiggRAw3zuatIx62pxGZgmFOMCNuOPK0Z4iV613kvA42DX1QSoq/9iHbxJBWraF33Ts9U2M8d362szgADCEos/l9bxQ0AynsUfhOsPDGmQ0wlfygfSAhqGXfFcGtSsuCmRDPVJvdNbNBKBz5QCxLUKq84MdTFX8xUUMOLb1m7lqQp7sYowh4F/GJJah3FT6ZD//J6sus8VtxCdPLyL+hk6a0W/SPFcl7ZrTT/YuueA8VFxXXckfo8BMir0FOKv7On3S6Hc3s+XXWvwykNLv4pW8wU9Ht7gLdlkTYp6xwJhyfMlaWRjhxGLAqdbKIZTBcFVBupfSQLJzv38WqGtwRr406VwkGcweeE0kR5pEsh91BSWQvWG80/oLvausz1rR7Ms+ACk51Y7WLA2nUyU9VJxocVVXiqbNucxQSrsaLDuZujgsNis8D9p9T7MvRJe955+38Z1XC4KYeTwjBgL28xwJTP6WRjai/aljqrsWgLVUyxTVJ1HqlQmwiSOQ3XOKUWazACyBXvPmotCRyA7Asf0TQ1XkJgwQgCLG7o8s+xLCydsNUPj7ptKL882AVf+i57NbJ/sQb1gQWk9NOQ6dk6qrrF+xsGdrfGpaodu0mK7A/YQTVtXlSGb/9DemSL8RN2pwcLY3OWEDqFBJEa7NjfZfJBiZoiMYwE3MreGr7FnO2E7nflND+93kbYwb3r6didBhDEOsQW/fqpYaRI10v3nIYoK6hQgEYZPMvp+4PgfVjpvTWzSRGBhUNs2wTC/hIZbM6DCrU4KML5CpDPbi+QGefUZwrIhtH7MtkyN/9Wc1Nn7OG9YaoRfB0tJDXVWFcsd7lCUJTnxIJR7NEoXaKoKBN/b74SIZXR4uOyKmbi2b4QvubUEbVvuuG/0u2a7EhhsU11cjrye2PNeSOgB/bJnb6jDYCO8C0VG0Yt3kGRwVHoj1Y7IUf1Pcgv9NkYxacNMmkI4g2QflTgVkvNlg6hQdTSGsNGVn58o8aKyI95xsIcrP9KtpN3aIgBH22b4UkmVRhQTrNf5kyWXv7Z/QJVZMcJ4AYzNb2kxKUoAK+tgUMrt5kLC81GWnw+5C4svREW8VN4SA3ltGCy1F2ISo0Jt/l0wdENaz4VWvZrfeOHSTyj9M8MpVh0bDneeVMExpTWceVtf9NGq1lKw2iUlp/B7NfRzqm5OTiP8jKMl4CKBHdToPBXIb5TXkzbPqFOUfs511GFdQDAEQGStTvPO65+iJTC51rqGZqy1maPK/U3sTVYWTwOZGa/Rc5ItXwAtmABY+X0BVBmNiAktyExwLqRtX4h4LRKMbCe590yIrrqqXJAlzVGHcfN6rvZ2T+u35bHIFQl/pL3YlbGrGh9S82JW/u7yuiQQ69SVgaHn09KQNJJ133MPlyuk2HO84gts6DPW3uPJisYx5hHLY8l9i+/OHk+cvUEcTU2CAJ4XI2YNgPHTKvoJHHcSSri+qAvoQFb4mrBpO8XPFPcdaVnCezrs95fVug64CgCeo8aO5LG834uvVH8zCiepAWiibQoIgncH6i/V/gJI+dLou1BB9xRfXfhbc44qPtvulznI/FjH5fT3vW+2VyGUUU/k09UA0XQRWTj4NoGOUmB2BPLn/nq8G39xHLOuVqL3NKJofq2dzV2sOyp5ymcFvGPAxo3U9Wi9Z+4elKpOunDCMvk0Ya6lGnPPtGI+r3DJvl2r4UQE0zFcTPnZtGqgk4H+fanrrgEnIdMHIlqR7aUhhJWtWzuoVRJpzCUMqE9HSPaGkhNMUyYxfSoG2UiIQkzPYnT5/c2pzZBnMOwKIxpuVEfmKpiP1PlH3/KnIoAMVJdCw4Kp+s3UrmSzcuP8H/NyMI8qWsdU5xMWjo6Vthlw7Y0LAhHuhh6FbKPDf3O3m978VikyaY43xy3+7HjA1y2BfJXIoOzRx1RU+mB/eJnLGLaM2jxl6nuM41PSJlaMA/iQBszL93X+6HUIGETmHmXgovSvsYkAVXhj2jCse/Gm3sQOFCwMMniz7Bo9mC4L+2aa+Dk4QNrwp4IlNvHb7FaQuH3qbJezVJvDSeu02FhWhVX9QLQ/gwarTyEjmIYIK3YszbZgIbOsbLCMsdgKgaTK3Ew2Q33jB08nuAA/QoqOZ8ebQv49jXcFaCBv0E/VbxMN2fknuC3oqFDHPJgINoVGs4t+3Jq9HRDbJ56YeweNAqgRXAwydp7YYbhLIWdl66u0pmDCgpDMJh/12a5jL3bJVFH0WnCAafMaXEHCF6MNto3Q2Q1ebo0X7FVaX75JFj3yGsI9/WS27Q7zcRXKrClR3nEP7DqJ8h6MiUewrrnnHF5bvdSE1f2Acgn/jQ6QNo4nWlhzMNFzJfukWdFNBIjPdGRiOCprMjnc22/BKzQiVjwK96o9PM1LeNRBeHAoOb3CIvSjs4OCaCtCZJl24g+AYYFkOFVQhASmhDT6LCGSLqwMun7IrWi8bBXUx+Lj4u5iZEJXGnDeUGf5SmM6dPymSkPXQ629dhFXIyCmKpn6qtq4sggYfV1glBzj9bYCcXIke7MmkjU/BusVd+M1O7rk1FTpNZH3yfPQqRnLADY7X4q/j7u98HIrHjjOMtx/s9jHXQCCXI80uHqdpX3HugBRgPzmoDoa2qzEvpWxP1ZKw3XtiqjZDrz5h3XYOnT93l/uLcD2CMZObrpDEHdwb5gTTX9E7ok0JR8EM+4GarTNSZTPdhgYdQM4iO5Qwyc3xP8hhGMNQc4MiVjlHfxYaPhIwqa9yc+btnp2XJbPZqv6epoBlpkI2JNE8p43INwEeLFJ3Danbpmj71LpKzl+TZyrHC2qaq1+IE+YiQ+Ria/KtNApScOjfr6BLDitLrsWVOiUT36UcmGkMG08Z6zGzQn23/h7wDVDkz8yg9KKarZEBh8QPVdexCSgoyR51VlZeg5X0KWXGpK2i8YFokqSR/H2vsl7TenINYubFpoDMbMq2ExYzgKMp1CwxH8BPCCn5tOUZvxCzrnUFwWqjp11WuR29iVeyoGExOAN3pigA5zzwyLM73tVMRl5e3itiH+BNMdzO1dMlLtDO9jlMtpEM6/UH44JXBp73GSw9yjEFrigQbC9SQkOVGMtybs4LZohcEdv2/77UZJSuOnMgvsc/zJ8lkKSWD8T5jDxz0C53m5teA493H9ib8F/TknUEZ+Ah7RusYTM8xWcwIigN3b6IAI8pBgVU3YKNCBlah84NN8o6Z+WXwNtDdwDqDNrkCau1bN7gUr4EfXV2d/zpOq1mXqUMBWi3RJUOo3eXWkciWDnAszsTya0PxR5vYgFSrJmp5pHijdiR/NP27pHBwIkW405n6b/T4otFQWPu1s6lKI7IS6/Me8mU2/0Jth99R8jNeoVRDbSgQLv+ZmzZMGvafycssZaOuFRF1WtiolBiN67U/Ro9kwU4gGkCzu/Zin6PplFcj/lery3H5Tjrj9wStBdpR7PpI63F4/lhwP+bfNjeg50QyuBMFC8TAWbeLE+7mrBcaO6AGGvDc5evdoX4gYaty8LH844wbLIQbHHgrtZqUZduvVk9T3mJvh9iUW1Anza9GmBctVnL3I8WKbZZe9aq9clUqFowSR5pEyfcusx2DWUvsYdLLdti1Uxflecg7WGg9f+LJaY9t2t4F4L4mAQ/VBoXh1zDRrQPRYHvWbISuuy6dwCYQz2cZzfOxjE1lVCBtAEmqStY/4IQeob6Mq5gFRaSWOGDEzEef2Ox7ydnBMVhP+yE7perscH8KqSwX2HOwPkmVE7yo+D88AtJvy3nWJz17aLfXZXUdIBS05xaQVgHE3f/V/5X6uMxwBOUrcco3vH7WRim2k70X9stTWvhBD0NnCcNzMeZ9sbJtpuHv1P+OBD6q9Nv3paIAufaDDUCgAXiGD9I9NEu/Ag4SoA2VDtZR3TEV5rzR3ekz6TCivkf/Y8exYvxfIcQYbsDiwsQJcUE4r+FXjQTXz7HWq3kgcz382qLbnUf/3yY/8b6Ya8Pqx1VEk+FnzwZ7wifkcXRX20xY5HtJKVQ7sZKV1mntAE8HaejSYCdrZHcSDOHBRkykAq+df4AsWVrBmlS/fgmNtIHmWHxZY6ody9mjlUCg6KIqP+3J6RXm//VHm8vnwnB2pFOOix9HymJu03RC9ReHF5aaXNz1ikHuSTF/Tv2aQlJdxah44RYCW/n9AOaOYb3dEvyE5Wv"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28649,
+      "candidatesTokenCount": 181,
+      "totalTokenCount": 29869,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28649
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1039,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1zLSasj5Mt-mmtkP4qWHIA"
+  },
+  "duracao_segundos": 10.638325100000657,
+  "usage_metadata": {
+    "promptTokenCount": 28649,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 29869,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1039,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0313",
+    "tema_central_id": "5209",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5577"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda os efeitos da condenação e a obrigação de reparar o dano, tema tratado tanto em Direito Penal (Teoria da Pena) quanto em Processo Penal (Sentença Penal), gerando concorrência entre ramos sem clara exclusividade.",
+    "evidencia": "A condenação tem como efeito genérico tornar certa a obrigação de reparar o dano.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "22982ab3058365d0c57ed205d13238a40332c0fe834aaaaf56849cbd1ec98fde"
+}

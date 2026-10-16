@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0188",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:38:22.823502+00:00",
+  "sha256_prompt": "ced41fa039317b57038d0052c92b27fbedfbcb0bf7a1564c29ecb00a3455b455",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c0a2dc47a8a81b150543e72e5481fd5a83df09dd6ad67ab8310b282709919be1",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0188\",\n  \"tema_central_id\": \"5229\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a natureza jurídica dos ofendículos segundo a doutrina dominante, tratando-se de matéria relativa ao estudo da ilicitude e suas causas de exclusão na teoria do crime.\",\n  \"evidencia\": \"o chamado ofendículo pode mais precisamente caracterizar situação de exclusão de\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28635,
+      "candidatesTokenCount": 155,
+      "totalTokenCount": 30486,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28635
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1696,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "zyjSaqDqIsvrz7IPktIP"
+  },
+  "duracao_segundos": 11.378036299999621,
+  "usage_metadata": {
+    "promptTokenCount": 28635,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 30486,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28635
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1696,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0188",
+    "tema_central_id": "5229",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a natureza jurídica dos ofendículos segundo a doutrina dominante, tratando-se de matéria relativa ao estudo da ilicitude e suas causas de exclusão na teoria do crime.",
+    "evidencia": "o chamado ofendículo pode mais precisamente caracterizar situação de exclusão de",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "c838c625cec877d3ea898de7b6559c91ccf256548ac1abc93a24e472253f874b"
+}

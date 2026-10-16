@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0289",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:12:29.566603+00:00",
+  "sha256_prompt": "5b344dede7bc4d057163e95dd3876097b6da3dd22eec6817e71961cb8907a93b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "795cd21aa29f940c5aecb01d5ece0087658b4c26690511c28c2c7bb9446ddffd",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0289\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a Lei Maria da Penha, havendo duplicação do tema entre os ramos de Legislação Especial e Direito Penal no catálogo, o que exige revisão editorial para definição do ramo adequado.\",\n  \"evidencia\": \"De acordo com os aspectos processuais penais da violência doméstica e familiar contra a mulher, assinale a alternativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29405,
+      "candidatesTokenCount": 177,
+      "totalTokenCount": 30565,
+      "cachedContentTokenCount": 26287,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29405
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26287
+        }
+      ],
+      "thoughtsTokenCount": 983,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "zjDSaqXvFr2fz7IP7t6CKA"
+  },
+  "duracao_segundos": 4.536072600001717,
+  "usage_metadata": {
+    "promptTokenCount": 29405,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 30565,
+    "cachedContentTokenCount": 26287,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29405
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26287
+      }
+    ],
+    "thoughtsTokenCount": 983,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0289",
+    "tema_central_id": "4704",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6724"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a Lei Maria da Penha, havendo duplicação do tema entre os ramos de Legislação Especial e Direito Penal no catálogo, o que exige revisão editorial para definição do ramo adequado.",
+    "evidencia": "De acordo com os aspectos processuais penais da violência doméstica e familiar contra a mulher, assinale a alternativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "9a290f9699b8d244e76c9393a4936f088c4184b6d79a8cc6db509f26c7b204a6"
+}

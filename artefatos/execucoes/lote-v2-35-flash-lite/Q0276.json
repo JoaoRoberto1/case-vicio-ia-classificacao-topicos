@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "Q0276",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:08:51.176298+00:00",
+  "sha256_prompt": "35ce74e7e6e159de81ba82d506bd18080c6f99768f5202d0fe0fd3bd277bd17b",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8490ad186f4db7fb0adadb987e5162f4759d38f4c0b5d44eeb28f00b1d03ca3d",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0276\",\n  \"tema_central_id\": \"5543\",\n  \"extras_ids\": [\n    \"5545\",\n    \"5547\",\n    \"5548\",\n    \"5552\",\n    \"5554\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão mistura proposições independentes sobre diferentes espécies de prova no processo penal (exame de corpo de delito, interrogatório, confissão, acareação e busca e apreensão), sem um tema central dominante único, exigindo revisão pela pluralidade de assuntos.\",\n  \"evidencia\": \"Sobre as provas no processo penal, é correto:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28720,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 30975,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28720
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 2050,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9C_SauaFFrDmz7IP-MKwuAw"
+  },
+  "duracao_segundos": 14.099073299999873,
+  "usage_metadata": {
+    "promptTokenCount": 28720,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 30975,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28720
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 2050,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0276",
+    "tema_central_id": "5543",
+    "extras_ids": [
+      "5545",
+      "5547",
+      "5548",
+      "5552",
+      "5554"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão mistura proposições independentes sobre diferentes espécies de prova no processo penal (exame de corpo de delito, interrogatório, confissão, acareação e busca e apreensão), sem um tema central dominante único, exigindo revisão pela pluralidade de assuntos.",
+    "evidencia": "Sobre as provas no processo penal, é correto:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "0ae27a4c3a11ac6eb5db233ea77cb2ad26258d75fdf831b232c05f828d444ad5"
+}

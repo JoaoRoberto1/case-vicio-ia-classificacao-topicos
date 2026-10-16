@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "Q0197",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:42:48.680193+00:00",
+  "sha256_prompt": "cd8ffea7e6ff8b1f0827ff549eb8172fe1244475c8a31bc43332582c58b68216",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "55adebe24831d77e5208ebb0254a6c2d804f3e351505e8438cbcefdb652f91a3",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0197",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:41:29.471868+00:00",
+      "sha256_prompt": "cd8ffea7e6ff8b1f0827ff549eb8172fe1244475c8a31bc43332582c58b68216",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "55adebe24831d77e5208ebb0254a6c2d804f3e351505e8438cbcefdb652f91a3",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0197\",\n  \"tema_central_id\": \"5498\",\n  \"extras_ids\": [\n    \"5480\"\n  ],\n  \"temas_alternativos\": [\n    \"5480\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a instauração do inquérito policial conjugada com a discussão sobre as atribuições constitucionais e legais da Polícia Federal e a competência para apurar delitos contra bens e serviços da União, misturando temas de inquérito policial e competência.\",\n  \"evidencia\": \"cabe à Polícia Federal a instauração do inquérito policial, porquanto a ela compete, com exclusividade, a apuração de crimes praticados contra bens e serviços da União.\",\n  \"requer_revisao\": true\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28757,
+          "candidatesTokenCount": 215,
+          "totalTokenCount": 30171,
+          "cachedContentTokenCount": 26280,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28757
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26280
+            }
+          ],
+          "thoughtsTokenCount": 1199,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "iinSar7LNZmFz7IPqcW_UQ"
+      },
+      "duracao_segundos": 10.297540300000037,
+      "usage_metadata": {
+        "promptTokenCount": 28757,
+        "candidatesTokenCount": 215,
+        "totalTokenCount": 30171,
+        "cachedContentTokenCount": 26280,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28757
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26280
+          }
+        ],
+        "thoughtsTokenCount": 1199,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "aaa1ac5030888cc85bc82858ae208e5fd70f33ca34f5def7ba119970cbec24aa"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0197\",\n  \"tema_central_id\": \"5498\",\n  \"extras_ids\": [\n    \"5482\"\n  ],\n  \"temas_alternativos\": [\n    \"5480\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda simultaneamente o inquérito policial, a competência e as atribuições da Polícia Federal em relação a crimes contra bens e serviços da União, misturando temas de inquérito policial e competência em razão da matéria.\",\n  \"evidencia\": \"cabe à Polícia Federal a instauração do inquérito policial, porquanto a ela compete, com exclusividade, a apuração de crimes praticados contra bens e serviços da União.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28757,
+      "candidatesTokenCount": 208,
+      "totalTokenCount": 30731,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28757
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1766,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "2SnSarvYJ8rnz7IPrcjl6Q8"
+  },
+  "duracao_segundos": 10.293147300000783,
+  "usage_metadata": {
+    "promptTokenCount": 28757,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 30731,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1766,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0197",
+    "tema_central_id": "5498",
+    "extras_ids": [
+      "5482"
+    ],
+    "temas_alternativos": [
+      "5480"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda simultaneamente o inquérito policial, a competência e as atribuições da Polícia Federal em relação a crimes contra bens e serviços da União, misturando temas de inquérito policial e competência em razão da matéria.",
+    "evidencia": "cabe à Polícia Federal a instauração do inquérito policial, porquanto a ela compete, com exclusividade, a apuração de crimes praticados contra bens e serviços da União.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "847c58ac776217aa91a75acf3da13c4deb8646771f05f964fcd57e45b25f450f"
+}

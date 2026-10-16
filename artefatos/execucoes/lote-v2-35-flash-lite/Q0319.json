@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0319",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:23:34.012687+00:00",
+  "sha256_prompt": "ac58961778b78aaf4a0d9ce3ad6d831ec55f4de81c9d201ee48799a7ae57e67e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d00cf41addede4cdb9b7b8a6bda6fad7a7d2f52c3b947811e94752c664ac7c00",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0319\",\n  \"tema_central_id\": \"5073\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5071\",\n    \"5072\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a temática da coautoria e sua impossibilidade em certas categorias delitivas, tema diretamente vinculado à teoria do concurso de pessoas e espécies de autoria.\",\n  \"evidencia\": \"A co-autoria é impossível nos crimes:\\nI. Culposos;\\nII. Unissubsistentes;\\nIII. Habitual ou de mera conduta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EsYXCsMXAWkUfRPpQTSSQoFRevmtrdcrhdyRbQM4DxIM4JwP3YWNZnoZt2idhzn/W04cWCvjt0ptdhhn6PVHW7TMFCP6sHxhW2Lpc2+IUABeOgjs8O7MgfN7EHdNhuRF2pyetMvYQ2GgyutZX+fCzVvrrBj2P1SpG0m6B4PVsIRnt0xpbZBBFQMs+7mZQq+4fBm8WkARDoqMGfK+ERUeq+ebzCScRNi4AmsudWwku74KWmvH22RDRJm3Sn+WLAVmmrRyB1vJXJ2nNzZmmkRlXnc9LWTb26jyKeyIuFnhzH1l5XIB2XWVp9smePgkWS3ZT4nksUNGihq11sruMK3XXiUGactN4GroQ7w8ghzMYVyBFheVvWEe+dlD174Tl0r4k951PI/xxAr7ocM96C5/2a8To7vWKmr9trKox+LYPxbKRzJ5GuKBZOSl4KkC5mj7wZqqwnKw1L2OCCO0kc5Nd/f2T/xTtEGhuFLCe6Dn92lGwEmRwk4hANYw/oMbmI8TyNrA0aAXkfHaF0PaIZ9zuUIwku/nqW5FQ3qgujjA79MoKiC84SQlwGVgfcpV0WG11AKcpxJmvcuIkxQ4LZdfJH2TpPBa4Zl5fIcU7ndm/4BbFxK/FvuhkI0FQfS3J3wAkIBALPtVUA8h9X9xyDCaE4z0EC43ADplXLS0NyE0rDvYyskwkR2r0Ln2XFfGbw3Lwtdxm58DsKyOONORrf+EiitpkNKKoGWXyovc1P/rIsb45zj2Kp7vRA/HtplALnLFfVTMoWqTl0KAz4bM754Fn8YFdbKHiHaM/ph6/YlCeK48IBAywCheAcd1pWuxmuk5OoxDeqlqc9A4OdKrZAzAOHMgb3Tu+8Ty4DxRgwVRvXVj82Hk2BtrD9v31S5C7Dnadv+4fTfn/46DyDJ3G3ZJb1LQtDvE6tbEnwwMnTLtl3WQ1YBiihzHujto10y5LHISpYcEh5sxblcJOhsGKyj7breAsGGj4Q0wEnaMnRdHKxFFCWwX5yuxouFF3BRYkG73MqF0QoWGnAk5//Dm/6BfH43aZWAkHViiyNijegvt2DozDCxKTk9Ek8qL9gkf7A/poBbeYei4f8ZL2pnNC0xer+b+lbuOelheJ1WVYyVNslhAobD3OJ4bAua+LXzXEVLeSQ8GDwcO/6MxfwqGQHa28xKkBglHk8Pcmvd/ao2CGeHRHqv9CXX/2TAxBKWq+dT0xOQWkUWWxj7xVEAM7pIoWY3Hm7kCnFF+FfKBiRjQ+2tBkKlifNIxsN9BrX+SG1wD9C+MK46wRjzwuXQcXt5z7QUp3M2o5aO36jIqWrc43LsVU1EYR0HT+F7ZEtrFuEtxT28G3Ts0pGz9+F7ujw3hcWO1qFY70P99pS1blQRpLXrYQpeAn36l9Lybc8zIivgJobOF82OaCYUg4TmQhOzXkq1gS99rzZboH8/oyhQItRgWQLZcI8E1JHuWBPoA7N77t1NBG5l44q49z3k82ug71iouL32HUebRwtkRnxbguzQ/TseAqIuDTkER06+XN5mc2bgJ2od9mL3ENoJpJE1F32qDNx9mb7D3oDR0vVDxuw2wHbwdUbtQrM21Nix4FcX6dQsdSwiPktMwUNytujoU4htzGIaZLM8nY9qRTNU58rQ0Rkh7su4SDgFfKkPV3IFdIuvtK8UzD8QySOKJyV25N2Eg++WaERgMmA/eLsWrXSnJtM0JnLkRc1enwXU/RQ5gLojpkdkQXtgcZwB2/lP1rGquFY663Hgf5RS/3AEI9IDiEW6lr6ZmfU2+VncA/JOtQe6FjXUTUWfJaZ+v5BJzDZWgdWZ3pWM1nfoCGMJ0s8lc9IEZTwGubewOW5K3jC3Y79dbbTv2jwOoRp3/uW9HQ6LP4AGDrgIzrFiMqge8lg0+GYx49jXMNV8snqoN8skHerfMF/WQB9E3HozxVtySQa7/QISzIGznLpSRx+doCdxVCXNX9th2C5pQ3XHSwMMwVzP3sHx1/TMdUb0i+eyxxJJFEq/ch7NdMgy1gnM//WMt/NwtfoKMBgrxy367xMEusa/FDZtIqZsJDh//mKVtNGvSa4lnD9VegVQqX1X3rSOO/jM3khgiCDyqXJHABbW1eBE51se1ze5jp81kFRZAaORDSMazd3bH961mcrwIMlOmDPQaQNj9KsCI6OHuXZNf2ACMI6NvLCBbDNJsqZxgEvPTW+nSyNolnOLVM00NAX8eZrJCiW//8yxDU+X+jZe1mawqKJOdIH9jgTglfIDofyb7YSOin8k+3kJRhcVd2QbG/FT/zYrKU4KG8460nZV1svTeh/DxYJ+lgS0Ng26rJS4KxvFMVAxL4zSp+k8lPEFvBN5/YhPiTpPWLUU1bhsJzD1L20EFvPa1wUj1ETexYsInijvr35m9Uh4s6AlgKgPCoaFUvC2TGMgDceA+crCVtwCFpGRvhTq3vqx8RaowAvV19Q/NcUsss+CwvVsZiwkKGxrUaPPUREQRGgoCK6Yn5lLAqziWTQ2bO3gC+Y2RYlv03YzMudcePadfQT8xbW5b5ecwZK4DOriV7HK3cNbO5ak0aZkyMxho13jfTAKNoWvr1LsFQ5my4zE9YwnuHJHTRPVTGtOKldxXqqno7CSpWRx8IZMzvfGnzEkecsxEE7GDDCPZuplgdMFAMfDo4Y6TlIEc9is7z8ewJOLCo6Wy4xUnPrHlFsIzgVe3v7zzDwiejgHZGX2OXVN08QTF5kgbUXo87TqCLfZBattOaKx5sHLUc2gr06rQA+yggrx0O2weUaGpS7jl5014J5Er/LzuFQ3/kgS1uci1IxJoMEqgASImrLO2DaINl18VEd9+Cr3HzbCZb081TGBPB2lg7MbgFmlTzu9h6iU55lGE0re+SQ00teuPgplK5OR4KPFo4sV02c+vD8Jg2lQNUw6OGZGqwhw1hMlIOfO5jQmwl382eESHFfICjHsqm3oOy4lCepdvwqWilJ7sGidFr9+KW6OrBcW5zcIBI+kxxyijVOY2LcrArhX13EnlAKk5Ss+V6oVXENwLl1aIDBbVNHG/rUH73XXNGKDte9nrqQgTyNJFLPGgywrNZZX/jV93lvPPXLwRonf5Vb9R+gcnzXHCmynCpE/JM/c0O0KobrFsaNmfZjaXe0eCnpjiBTV1wuREJlnyXcIBAOIxPsSaIQBYmHZtnric/6L5DfCVeuKW1RRY/qaH/W9Vu2GZ7ibNl5Uj0xeYUGfyyOwAYdZ2AX3MmIJwW4+J2LtmgoPvBiqH24MyWPZYxMff/lM0MytMTVPdKkW6yl9c+LGIu7ymiqQeprdg4AsYzhD1znpgBCYFyESaqEIqGdNR6fVi9jExKhBUx+tKEr9bS6B0o1rRAgU+zbQowjcfrcLTLTS6PThs/X+Me3eb1iawshBKFQ9F1GY5PQNPvOL3nm5EwNtbEU5+zI2DiWpak7h4g+S02aJo6Bq4rvM/UNbSbMtD1gWoam5yKrt/j6F6eFS/pNKkOQI9J28mYBOPzy5CiwU8M6EFxmZbrhjIPDITvC9TdKgYm83q9zqH+dPo3aQO6LB2nIBxmDVu5R9w087YasfWxZyF+MHLOkDDxQIzJaRiESdj1sAZqhRmh8737QpQkKoAu9EftTQu74o6OuM4vVN9Yt4rp+9AVMc2bMQps0J6ciSIYunCmyNBFir0fjNMwSxfXThK8P5M/RpkwyKdNKMspEu7dCELDzeyOZk8kXu6VUpJLbJYgRfcHPf5tEHdFEHEdnITSEH8UtCzlnLZHYeoB8/HAoZRX7txztHAdagF5VyGPX0IBhnBdSMRjn4xdGfrT6WmubfPACZ9BOJqgMe7/T2iKM8hw+euanCg0EEioMOBMDA1FGhAMggeM/GNOxW4hz7BC4BVb+4cRo338FZfMSAtG/Rj+YTXqpM2wzMSRuBWP924LIvd5+1bvs1Q3kP7NN5W87EDmuskCJ/n02WnB1nnNl40vuxmchZ47k7D11TaO/VUX6EYBD7TKEZDqldcgOzKj5ltKVljNHCRUCY="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28648,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 29763,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28648
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 922,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ZjPSatTaMN_wqtsP3_OBoAY"
+  },
+  "duracao_segundos": 11.596492300001046,
+  "usage_metadata": {
+    "promptTokenCount": 28648,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 29763,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 922,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0319",
+    "tema_central_id": "5073",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5071",
+      "5072"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a temática da coautoria e sua impossibilidade em certas categorias delitivas, tema diretamente vinculado à teoria do concurso de pessoas e espécies de autoria.",
+    "evidencia": "A co-autoria é impossível nos crimes:\nI. Culposos;\nII. Unissubsistentes;\nIII. Habitual ou de mera conduta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "dc032856b6fd36f1bbc6ba5a2fe3a516897f3d194d37aec993cc09f0cda981da"
+}

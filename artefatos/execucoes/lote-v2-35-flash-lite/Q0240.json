@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0240",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:57:04.147609+00:00",
+  "sha256_prompt": "a5f3e43cc84c6e93ef7e92d75020fe9f8ef343a105846cf99c55cd1894081c5e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d44ed29c50d3127358baddb5f64e01697c9d4d5dffac241b8dc891417db00b69",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0240\",\n  \"tema_central_id\": \"5500\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5501\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão versa sobre os prazos e o procedimento do inquérito policial, especificamente o cálculo do prazo para conclusão com indiciado preso e o subsequente oferecimento da denúncia.\",\n  \"evidencia\": \"Terminado o inquérito, o delegado, no último dia do prazo determinado em lei, fez logo cedo a remessa a juízo.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28835,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 30248,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28835
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1237,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "MS3SarP4BqOez7IPrZfCwQ8"
+  },
+  "duracao_segundos": 9.983213499999692,
+  "usage_metadata": {
+    "promptTokenCount": 28835,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 30248,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28835
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1237,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0240",
+    "tema_central_id": "5500",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5501"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão versa sobre os prazos e o procedimento do inquérito policial, especificamente o cálculo do prazo para conclusão com indiciado preso e o subsequente oferecimento da denúncia.",
+    "evidencia": "Terminado o inquérito, o delegado, no último dia do prazo determinado em lei, fez logo cedo a remessa a juízo.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "6e531421e3f3e3a0c7b5d0cb130d68ddcc30f772e3ccc53d80bb3444c7140b26"
+}

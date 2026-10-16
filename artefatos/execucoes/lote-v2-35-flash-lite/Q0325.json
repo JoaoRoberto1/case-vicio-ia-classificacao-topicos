@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0325",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:26:14.365414+00:00",
+  "sha256_prompt": "5df4cc71b14dc46c9057dafa9278c47479dd2fcb5cc4d6c916d52372b19c890d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "003ecf0466ac3d4885c55a5041534ac40ba76e077f8d5b8a76bdb0003df55e31",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0325\",\n  \"tema_central_id\": \"5473\",\n  \"extras_ids\": [\n    \"4688\",\n    \"4704\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão mistura proposições independentes sobre temas distintos, como crimes ambientais, inépcia da denúncia, litispendência, justa causa e Lei Maria da Penha, sem um conhecimento central estritamente dominante, embora haja preponderância de normas relativas à denúncia e ação penal.\",\n  \"evidencia\": \"A justa causa é exigência legal para o recebimento da denúncia, instauração e processamento da ação penal\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28970,
+      "candidatesTokenCount": 202,
+      "totalTokenCount": 30518,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28970
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1346,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "BzTSaor9C4Kez7IP0_PDoA0"
+  },
+  "duracao_segundos": 12.767721100000927,
+  "usage_metadata": {
+    "promptTokenCount": 28970,
+    "candidatesTokenCount": 202,
+    "totalTokenCount": 30518,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28970
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1346,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0325",
+    "tema_central_id": "5473",
+    "extras_ids": [
+      "4688",
+      "4704"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão mistura proposições independentes sobre temas distintos, como crimes ambientais, inépcia da denúncia, litispendência, justa causa e Lei Maria da Penha, sem um conhecimento central estritamente dominante, embora haja preponderância de normas relativas à denúncia e ação penal.",
+    "evidencia": "A justa causa é exigência legal para o recebimento da denúncia, instauração e processamento da ação penal",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "34dd11e02492519e43bc8a74ea39e5d7fa49f3345686426a80490a9e135688fe"
+}

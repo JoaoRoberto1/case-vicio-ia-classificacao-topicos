@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0249",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:59:57.803344+00:00",
+  "sha256_prompt": "c80e47a45f976319581ae68ec35012a6566ea60cdd98db7df04178295783c1c8",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5e75368c27192e1fe657b69218131e09a986919a25c5f3c4cd43cde2be90e826",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0249\",\n  \"tema_central_id\": \"5492\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda as hipóteses de impedimento do juiz previstas no Código de Processo Penal, correspondendo ao tema de exceção de suspeição, de impedimento ou de incompatibilidade.\",\n  \"evidencia\": \"O Estatuto Processual Penal prevê que o juiz não poderá exercer jurisdição no processo em que:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28782,
+      "candidatesTokenCount": 162,
+      "totalTokenCount": 29957,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28782
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1013,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "3i3SaqvTL7SFz7IPiNKY4Q8"
+  },
+  "duracao_segundos": 8.63302499999918,
+  "usage_metadata": {
+    "promptTokenCount": 28782,
+    "candidatesTokenCount": 162,
+    "totalTokenCount": 29957,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28782
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1013,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0249",
+    "tema_central_id": "5492",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda as hipóteses de impedimento do juiz previstas no Código de Processo Penal, correspondendo ao tema de exceção de suspeição, de impedimento ou de incompatibilidade.",
+    "evidencia": "O Estatuto Processual Penal prevê que o juiz não poderá exercer jurisdição no processo em que:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "cf912c44bdf12ecc1ad7542150b37f66193d2400656ba37a588b2d7d2a945c56"
+}

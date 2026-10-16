@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "Q0212",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:47:18.974257+00:00",
+  "sha256_prompt": "7026970707ccc43fb2c0f37901103e5dacb908dcd623d82b429560cae5b854a8",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b496afbf8d3bcab75b05aec83a26ed5300ecdd889c724cec367c473b07b6960a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0212\",\n  \"tema_central_id\": \"5488\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a citação por hora certa no âmbito do processo penal, inserindo-se no tema de comunicação dos atos processuais, mas apresenta mistura de institutos ao associar a citação por hora certa (art. 362 do CPP) às consequências de suspensão do processo típicas da citação por edital (art. 366 do CPP), exigindo revisão.\",\n  \"evidencia\": \"Em processo penal, a citação por hora certa do réu que se oculte para não ser citado segue os procedimentos previstos no Código de Processo Civil, de modo que, caso o réu não compareça em juízo nem constitua advogado, ficam suspensos o processo e o curso do prazo prescricional\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 511,
+              "endIndex": 794,
+              "uri": "https://www.aprovaconcursos.com.br/questoes-de-concurso/questoes/disciplina/Direito+Processual+Penal/pagina/8/quantidade-por-pagina/200",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28682,
+      "candidatesTokenCount": 248,
+      "totalTokenCount": 29969,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28682
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1039,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5yrSaoSYOu-lmtkPs8CZwQI"
+  },
+  "duracao_segundos": 8.42271190000065,
+  "usage_metadata": {
+    "promptTokenCount": 28682,
+    "candidatesTokenCount": 248,
+    "totalTokenCount": 29969,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28682
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1039,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0212",
+    "tema_central_id": "5488",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a citação por hora certa no âmbito do processo penal, inserindo-se no tema de comunicação dos atos processuais, mas apresenta mistura de institutos ao associar a citação por hora certa (art. 362 do CPP) às consequências de suspensão do processo típicas da citação por edital (art. 366 do CPP), exigindo revisão.",
+    "evidencia": "Em processo penal, a citação por hora certa do réu que se oculte para não ser citado segue os procedimentos previstos no Código de Processo Civil, de modo que, caso o réu não compareça em juízo nem constitua advogado, ficam suspensos o processo e o curso do prazo prescricional",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "ce96d5812e394cef9ea1cda613fce0032cfcbe937dc5f893bf76d6555fdb481c"
+}

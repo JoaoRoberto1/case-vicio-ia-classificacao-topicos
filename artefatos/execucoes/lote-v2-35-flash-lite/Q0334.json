@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0334",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:29:47.922456+00:00",
+  "sha256_prompt": "205e5e3199099a9ae68098485d672494480d5e03b3518ea6849a892d7ff57991",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "aac575c710fc53936e943d075e0eceadedcc77281a1b026a2813a6bc12cdc849",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0334\",\n  \"tema_central_id\": \"4381\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1,\n  \"motivo\": \"A questão aborda diretamente o objeto de estudo da criminologia, exigindo identificar o que não integra o seu objeto (o 'dever-ser', próprio da dogmática jurídica), o que se enquadra perfeitamente no tema de conceito e objeto da criminologia.\",\n  \"evidencia\": \"Assinale a alternativa que NÃO engloba um objeto de estudo criminológico.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28617,
+      "candidatesTokenCount": 169,
+      "totalTokenCount": 29253,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28617
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 467,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "3DTSauD6Naaez7IP4ZnPyAE"
+  },
+  "duracao_segundos": 12.95234199999868,
+  "usage_metadata": {
+    "promptTokenCount": 28617,
+    "candidatesTokenCount": 169,
+    "totalTokenCount": 29253,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28617
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 467,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0334",
+    "tema_central_id": "4381",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1,
+    "motivo": "A questão aborda diretamente o objeto de estudo da criminologia, exigindo identificar o que não integra o seu objeto (o 'dever-ser', próprio da dogmática jurídica), o que se enquadra perfeitamente no tema de conceito e objeto da criminologia.",
+    "evidencia": "Assinale a alternativa que NÃO engloba um objeto de estudo criminológico.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "38d933e89f630eecdf993b833033bb27dda21a87611809ee387d36cbad173616"
+}

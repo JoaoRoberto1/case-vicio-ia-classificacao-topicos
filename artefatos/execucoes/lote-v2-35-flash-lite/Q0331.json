@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0331",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:28:36.774123+00:00",
+  "sha256_prompt": "148aa1ecdd2d50a1b8368ce8fc93ceaf140b28b6257b3448594774bba2b790de",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c4df02477c35de71ecd14bb3999de89753f1893c21b426a1cd22049f60c76023",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0331\",\n  \"tema_central_id\": \"5477\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda o cabimento, a legitimidade para impetração e os requisitos processuais do Habeas Corpus, matéria central do respectivo instituto.\",\n  \"evidencia\": \"O Habeas Corpus não poderá ser interposto quando houver ameaça de violência ou coação à liberdade de locomoção\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28697,
+      "candidatesTokenCount": 156,
+      "totalTokenCount": 29696,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28697
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 843,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "lTTSaszQI9_wqtsP3_OBoAY"
+  },
+  "duracao_segundos": 12.679543999998714,
+  "usage_metadata": {
+    "promptTokenCount": 28697,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 29696,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28697
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 843,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0331",
+    "tema_central_id": "5477",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda o cabimento, a legitimidade para impetração e os requisitos processuais do Habeas Corpus, matéria central do respectivo instituto.",
+    "evidencia": "O Habeas Corpus não poderá ser interposto quando houver ameaça de violência ou coação à liberdade de locomoção",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "2edd94c8a5063ddb0f38f86572cb134aa55dfec5fc32b9d68ffeda173bc897ca"
+}

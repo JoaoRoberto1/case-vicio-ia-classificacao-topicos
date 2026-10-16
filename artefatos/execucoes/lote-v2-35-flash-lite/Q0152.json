@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "Q0152",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:17:52.177234+00:00",
+  "sha256_prompt": "9321149accc0920c2cd3cb8f9a3051cf8cc0f9812903d096a5c9c25916239a99",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "cecaf590927f850c5bc76e9121d6b7fcc57c694e579ba032667a4b57c20af2a5",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0152",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:16:08.585995+00:00",
+      "sha256_prompt": "9321149accc0920c2cd3cb8f9a3051cf8cc0f9812903d096a5c9c25916239a99",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "cecaf590927f850c5bc76e9121d6b7fcc57c694e579ba032667a4b57c20af2a5",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.014379899999767,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "a87f9439914fa6f18981e1931f3b32b1eb9c318550acfd7efcd3a145111ad088"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0152",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:16:46.405473+00:00",
+      "sha256_prompt": "9321149accc0920c2cd3cb8f9a3051cf8cc0f9812903d096a5c9c25916239a99",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "cecaf590927f850c5bc76e9121d6b7fcc57c694e579ba032667a4b57c20af2a5",
+      "numero_tentativa": 2,
+      "status": "erro",
+      "duracao_segundos": 1.3705899000005957,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "34cfc2166ee3001140950b8f5469e4b226bb67a4fb7fade74280764f809290af"
+    }
+  ],
+  "numero_tentativa": 3,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0152\",\n  \"tema_central_id\": \"5466\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5063\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão versa sobre a ordem de preferência para o exercício do direito de queixa com base no art. 31 do CPP, havendo duplicidade temática direta entre os ramos de Direito Penal e Processo Penal.\",\n  \"evidencia\": \"artigo 31 do Código de Processo Penal\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28701,
+      "candidatesTokenCount": 166,
+      "totalTokenCount": 29743,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28701
+        }
+      ],
+      "thoughtsTokenCount": 876,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ASTSar2cDd-wqtsPrJ2r6A8"
+  },
+  "duracao_segundos": 6.6178806999996596,
+  "usage_metadata": {
+    "promptTokenCount": 28701,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 29743,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28701
+      }
+    ],
+    "thoughtsTokenCount": 876,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0152",
+    "tema_central_id": "5466",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5063"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão versa sobre a ordem de preferência para o exercício do direito de queixa com base no art. 31 do CPP, havendo duplicidade temática direta entre os ramos de Direito Penal e Processo Penal.",
+    "evidencia": "artigo 31 do Código de Processo Penal",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "00ddf11fde3f011eb5a654283f2fc7650093e3e7e1969f6e7c61f7c3454e2c53"
+}

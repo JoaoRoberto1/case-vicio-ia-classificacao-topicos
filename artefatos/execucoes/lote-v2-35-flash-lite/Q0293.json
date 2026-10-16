@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0293",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:13:45.732871+00:00",
+  "sha256_prompt": "963d3e793a05ada2e25a72918ab6389d335c779df2b0113c0866795da23f29c6",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b31e771e5311fea28e7f31dfe4be9ec76be23dace87edd12d37ec7c30c5fda23",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0293\",\n  \"tema_central_id\": \"5185\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5188\",\n    \"5189\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda de forma ampla as regras de prescrição penal, exigindo o conhecimento sobre a incidência, contagem e distinção entre a prescrição da pretensão punitiva e a prescrição da pretensão executória.\",\n  \"evidencia\": \"a pena de Lucas foi atingida pela prescrição da pretensão executória em 2025;\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28952,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 30607,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28952
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1468,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GjHSar2cIaOez7IPrZfCwQ8"
+  },
+  "duracao_segundos": 10.706102199999805,
+  "usage_metadata": {
+    "promptTokenCount": 28952,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 30607,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28952
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1468,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0293",
+    "tema_central_id": "5185",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5188",
+      "5189"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda de forma ampla as regras de prescrição penal, exigindo o conhecimento sobre a incidência, contagem e distinção entre a prescrição da pretensão punitiva e a prescrição da pretensão executória.",
+    "evidencia": "a pena de Lucas foi atingida pela prescrição da pretensão executória em 2025;",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "721b4dc8e0c0958ff20b90bf5112d451b96660aba2cef7b8138f5e36a31ab797"
+}

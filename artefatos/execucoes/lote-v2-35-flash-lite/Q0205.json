@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "Q0205",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:45:02.223556+00:00",
+  "sha256_prompt": "cad9152a55795e0d7792fdf7f92bf01fe7c4154bc1d46e8a7cac08e329901725",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "368d64b502a25c018e506c493b53c89556709f4c115622f3545f406d3a35120a",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0205",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:44:24.861977+00:00",
+      "sha256_prompt": "cad9152a55795e0d7792fdf7f92bf01fe7c4154bc1d46e8a7cac08e329901725",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "368d64b502a25c018e506c493b53c89556709f4c115622f3545f406d3a35120a",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.3374079999994137,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "e7eeb7e299ae1e804cb556d17ac0ecb491c79dd64bd7c2aabdfec053a21ef397"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0205\",\n  \"tema_central_id\": \"5512\",\n  \"extras_ids\": [\n    \"5567\"\n  ],\n  \"temas_alternativos\": [\n    \"5560\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão apresenta proposições independentes que abordam diferentes regras e institutos do sistema recursal penal (como pressupostos, efeitos, interesse recursal e espécies específicas como a carta testemunhável), misturando tópicos da parte geral e de recursos em espécie sem um tema central dominante exclusivo.\",\n  \"evidencia\": \"Dar-se-á carta testemunhável da decisão que denegar o recurso.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28662,
+      "candidatesTokenCount": 198,
+      "totalTokenCount": 30239,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28662
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1379,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "XyrSasKGFr2Ez7IPss3FqQ8"
+  },
+  "duracao_segundos": 8.988024700000096,
+  "usage_metadata": {
+    "promptTokenCount": 28662,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 30239,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28662
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1379,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0205",
+    "tema_central_id": "5512",
+    "extras_ids": [
+      "5567"
+    ],
+    "temas_alternativos": [
+      "5560"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão apresenta proposições independentes que abordam diferentes regras e institutos do sistema recursal penal (como pressupostos, efeitos, interesse recursal e espécies específicas como a carta testemunhável), misturando tópicos da parte geral e de recursos em espécie sem um tema central dominante exclusivo.",
+    "evidencia": "Dar-se-á carta testemunhável da decisão que denegar o recurso.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "8488d2c9ee7f9363cb64f29e3805c60817c1c79b64bcb92f4156358fb2aa946b"
+}

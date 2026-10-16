@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0291",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:13:03.367242+00:00",
+  "sha256_prompt": "e3ceea3c0f92f3e298b621892f4d96064d48dacbc1122fbff8c60ce477ccdb3a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "90b0fcf9644af2bd8e0f5f0a6fec9b6395c7731e65b126f08904ad70e4482f14",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0291\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5498\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda os prazos do inquérito policial no âmbito da Lei de Drogas, gerando duplicidade temática entre Direito Penal - Legislação Especial (Tráfico de Drogas) e Processo Penal (Inquérito Policial).\",\n  \"evidencia\": \"Quando se tratar de crimes relativos ao tráfico de drogas, o prazo para a conclusão do inquérito policial é de 30 dias, se o indiciado estiver preso e de 90 dias, se estiver solto\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28654,
+      "candidatesTokenCount": 208,
+      "totalTokenCount": 30134,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28654
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1272,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "8DDSatPIFpWGz7IP2JyvsA8"
+  },
+  "duracao_segundos": 9.493474500000957,
+  "usage_metadata": {
+    "promptTokenCount": 28654,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 30134,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28654
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1272,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0291",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5498"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda os prazos do inquérito policial no âmbito da Lei de Drogas, gerando duplicidade temática entre Direito Penal - Legislação Especial (Tráfico de Drogas) e Processo Penal (Inquérito Policial).",
+    "evidencia": "Quando se tratar de crimes relativos ao tráfico de drogas, o prazo para a conclusão do inquérito policial é de 30 dias, se o indiciado estiver preso e de 90 dias, se estiver solto",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "109878c95cac7ddc3cdadaa739d3f986206d8a2e3c8437fb64b943e91a7e1691"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0310",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:20:06.202250+00:00",
+  "sha256_prompt": "bf39b486a2de77c46f5b8eaea86f6ac076102f291df5fe13081e50e4727b2b73",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "c7802c793f68ac3fe6852dd21f8aa9ddde60ee91113068ca615e37440295f1b3",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0310\",\n  \"tema_central_id\": \"5505\",\n  \"extras_ids\": [\n    \"5508\"\n  ],\n  \"temas_alternativos\": [\n    \"5507\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda de forma ampla diferentes aspectos da aplicação da lei processual penal (tempo, espaço e interpretação, conforme os arts. 1º a 3º do CPP), misturando proposições de subtemas distintos sem um domínio exclusivo de apenas um ramo específico.\",\n  \"evidencia\": \"Sobre a aplicação da Lei Processual Penal, é correto afirmar que:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "EtYsCtMsAWkUfROuahZoqvdVNfjDiBfZa+4BUFosKbsbwpGjCPTLjfmOcTNR6AeXKc/frx1pPOIUDxIEy0AD3S90H2bRzX5hY0e2OGopOozdK3whxTJGd4OiJbvy9T9zY52lAEHXprH+kXDfgncGXYkgN21cDmDcjHRAcuEZTLsgsIHmlxgSKWw/YvX8I/5dhfvAUS0yVbzHqstHrY3S2Up1zJ6WefpPZmMJf5Nxrm7l97ZMg5GmhSgRgF+I1oLxSidkLJrUtB7Mjlffx5BuUD6N9N7aCTQyX1Kq6whMr1YuZhBFjpUisWtuEZgXDKSrFFd6lJuzgIW78LWy7+WsG4PHazS0GTZ2OOWK7bWR97dY5uTvzR/ZqoNE2AaOeOoKK0Ie2ISD9Maeu/ZZy76ryDd146RgvOJMk8V7W1uBeTLClT84AOXmYDJUbR83Qf7UGcTibGs0epZDG8kMCnSVU2HAlHZgPOaepDx1qA4swnPFSP71zeveD+PWqk+dY4jiCNqjU+N4/0L7klZcvl0ZpIcRKYdqXdxLXNYhd1ILPLKvtjzWS7nD6HIPLOPGpIrxCqqI+oARko5ZxL9ZA8ZbWnzbWiw9/MRe8Tnts2KwM+kS2gQU4ilUjxkHXiAz+ayXvLw2s3FWmhP+jdQT7riyuXegpLhXR7OBcpXKHmWnLGJYJ6CBE17JLZEHUelawEbqPMDUDDurp4AyktKEivsGxxba+l+QVf745pshWOqxW0KoSkWxPaUOMjqk7R3WKq9WTD5sePhRNv0i2nnaMxWSp6dH/UPObM3PUuK9ZGZmow7C4mKv7io8XNst3oghRjxoUAmJ4oRBkfKNYvu+MH0gN3ozHkoKQneUT7ExmRrVNfcb/RyfusartkCQ3hzDpJelMlZGhKIzfdFk7GTuFfDHtoh4U1Uar1P8CJzyVk8Upw1efN8YA7oE0Hu56iHMipMLFrLTL5etEjp/a76fDplYgd8BARwTEp0cGPQsBQtplyYsJtIK0spK8rS+YbQZgTPFJOsN6SXAsi+mRUozS11PfrNX1qNt//UhZkcdzgz00zV4VAyKY+sq5bDRxm4Y7SpaKPDthGt6Dg9JwLEYUPzkRNjE1DG3ELUGEAq/5AMhuk6AoAZWp6uiyK3qSuYQffxjw9aW3o95YvB27ql6QoScMkNmU7W3hNd5W7dxs9LyEYJNTmvOGSzZEdMpT4ZTpMa0fq2D9RewgtA3l4AteaIstmdqOT+M2bNIGZnsLoJg3B/yxJ+AsQlTwj364mrz0lfygslJaOXV/6NNrbctl5nD0jL2/YVed/Sq2mBL48J2Zobul5/4w6rnCdGKvLcIL8COaoZDRZQw9lBNnVDemWOY225pKR+yvzYeHhkv7nYOSQGuJBKbVvYgMfnDSl1B77nJqm5+jc6jTgc0K/ZFz46xzliEh1GLIQb0dJW/9FbCVNg/ce8Xp7NTVYM2qa1ENKfYWtSJpA/5zVYK4EceWl3wCl/OwomPdSe1V+7OBuqNEa6lb7pkcQuhikpXJ+e49G4JROWSCBTM9B2ROhMEdj1Xcs22DWVt0uyq8XolSR3YYb0rbSaF8jmBGiCL2Ckw62fBPC0ieBkbpLkU2JPlOWQTQQsFuqePw6AllgD3Ekzt1to9aHI8nMB8Y4FfkUMIe0Fxw/UFmob26ZYAjW3NlrRShnw3fcvJN0cD5QNdLOnTmjzM6dy+hXCMTm0EAxmT9jmyRUWvPnj0/rb2nSri2VpVH+KpfVs3U5sWJP2uQaA4oHWFwuscj3e7mNogNMW4XzRSqCVTzdfY3xkUac/kF8NwLTZzReSbhpZc401JCc6dAZNDV92WAzWaLBCikNXbOmHYJdwz0HQP5yz1o4mqCXhSzB1ozqxyjLLJXkTjDn/Uu7M0+mAo+ZDHIAPxdVZHJd4VM+2Zbreg+Sq7qYSfdnV6AdcLbPbVcXoEFu5YuJ/t5t4O8BEFBz8W/VOJLju02QCq9OfK+FclHKgZtoQfcpsfCeDIdi3veM4JXRmxsRMJbyQDfRCxkFqzWt4Rh1GnwsSpOHtB72YBpVVI+/30ndZxFOQau2UYIDkBGPOLBc8SZlbAdOUilYGaYIrjkVVAiVmI4FrxjWhzrAkb9xPrrYAQesEzFGBoq9Xt4XEJ33HMkPu30WtGucZkAlJJugLQdc3MoYpZNerWPg/ntWLRuxafbooUZVGSdWRjv+RetZfQdDpa2VbDao/8ZF2Kbw9M6zjOEMoH5Z1mN0p+psXVuerb2JHKKdS4Cjb9xlXrJ+MLemy5DI6Hkza4WmiVNpvV1kXdxkUV2mwFNxagqyYIpIszWhH1/uNGkeWH2EqK41WLqlt13uZxbVyciHbQqsYvep1FJsDmopN3/GjekVOGkyM21uX/bODZLjuG00kt5kU57dkghZcrESGqV904dgemiokpC5+Fvs4WgFeAikhlltuYM4ayYXn5mNpsbWnqFaKr9bEeMnbcT43z93ZbP5EvhMiahoKUHTjSYcmPVTKIv9/VB2Fj8HFoj2a+Ut2Y0Dv0nF1ghh7ECDpY5rqAvaor41qxnao2yQFndYNbQIpWz0zdpqS/eaHIzWtuDU8uLngx4f0b0DxPvGwSzeOHBYrOyPencenDhui9UM1yTY7hbVeOWXDImXx+4RIRcLko1Sl1wkUYxbYGn1bDhc5WJC9f6z1LB3oSPBD3VnGc1mH3RY1cLQR0i4qYrahHO4Cj3mQbZ6p+HmzVUPwc4LQvKKx1/SFjar1/Zog5i88fGbd+vGMfwBXEA+3phrHt+b0O8W/DnPt/DanqbeqSJJeJeHmJV2udkhZ4Z0r4Rp4avlrr18vH4WGzx6Toa8lxplBEZk6Es6on7mHs1PKQlLxQqm6i/wsO2Pmr6rAyYXYFU5F7ppDx76jOkQcYIIibzjefPGcYE0/3H30/N4XU3Fabn+U9kJCW8TPrzhpE/yA+T0akG6zZLo/O3jSQtVtSRsM8Wz/qSPaTX8OVyv3f+2fzWYbU4wks0nXOoaOI5lADB4KNp4mR9tvgbteJphpgqlSBnvyBw8731KAISY7+6tyqyjBv+riafg8AiMtvE/knUTZy4gvSlI3njNvyahM8Srgm6FUflVD0h9Og5B/2A7XBiqp6XT0PeW021MX4X+wmbmi90i7eotKZeR2kdiU45PyNYvgoHISyowJNLLicj2xX/TCaWb8nhLGaQ0JY2zslta5rqS5Xb1nntYa8ZYObHoNw0oW7Vf7ldvkKYqCgNo9Yiq0E7T4ZJxM45gV8m1oo53f9fI7fNUxlDK39zAExAg6SRFPSRpH+NMzd5+VpOjExYg9cPHbxWXkq3XWvBOstZDMeZ5MijKvXey3V/EcgyQQMsTmOsAvm3FxpL4Ee+36dNDiNTzhtbj8RpykUt43LjPQVOxYOhl0R8bdh5eu0/jZh5mMFplV7iL1W+8iOSpYX8EY4ZRmIikQdp5IXusqxPlfJTkY9OuXaaxb8N0RzVYW7DEKOsxjXNdq6VkeCau0VQ5PEU7jMgv9IGmcp2MqiKLlvxjR2URFtl/pO7KGSiDbIN0ynm5BAH0LEQWGPtDkggYTwkOB/3z9QWrDawamKBQhXpx9LVPVfO+07OAY7KzxbJDPq8xHekEdF9XP06Y2bCaewlVZjzN73zsrqVQslsQwrcSCkVVhx3VgMtJGOFoNji6VuDHZzXag5OQs0QpC+o0eF1O3AujFi7j2eKWHLcVXZYhZdR7UbQNXS1d8QMFVhEYZWkEh1b1iWNkTISA162r6lARhbspQzjCqXrPKwQSlAsxka+lX67JeGvBEKwKlIzVSsDx+7Yjab+LYgRw0/6KrOoBpIaevRqRRfRVvR22fBUMn586jB0wQX4tLh9r4qimRauMcy4k68Se6PQdqUiuKT7Aocnsm7Z0I6RFPTwDoGOGZGmHz7o8s3LUlLZ6zwcAaWU30u/QNriXwKskIfA5dpIWp4txdCbUDeplKO7pBWAWrO/JfFK/r8fVyz+ZI+RHABBXAXDqBVH86SD4wCnwgLHVju3jdl/U/TC4GeVU1un5dpnj8k1rmZoQwQBTtggneIk3yI4mVMnGiKqHFXhOtRTxPfC6c2S3bK9ELZrtchRxc9w6CFctAhZvDYIB7LrtOUNFwYvLX3ff8A1FuBNVNSPDA20sQW8vUvGyu8+jBbnsMk0qmUXWSOiQ8KEM+gqYrggaw+rg3/mRIxsiN++ynr7UV7PvMvJKlBT2yMwtxDmhSS9hj6fKLuifx1CQNdWA9+ruHIFlkGoTdQOgHPTrmBRu0M5AUUV/3Pj6QqCZ/4/4xaFlYiCKLzPS4cJfqzo7J3TxU6Nnak9knoULzSFd5KzFeXnNVGMQJ0OSC1wd8fL2xpqUFOnFTzvaz58+qdfhJaeEV3DbLD5Zb/eQ2zSZPTC87pIJF9Nms8MN199H4nNiifsF6c9e05lHuhPS3dTqc9XUaHYkQSV/OOM5ZdJklH/QDcDTgawt1hqL4dHxdfJ8Y1RB3aYvxT+19Jf1oeOwwNTFIECpv4NST5g3AW2Xs9ky6IovdUBhp9aEQMU46jhtD/j0nkLuUdMcse09HfM8Reic0kBQJ6JxakSZJpxvNCDdKZ0R65u6BgVpHLWkG3jRWeRcdujYAuXtw0TE4x0t1iwFAitj5RZjrudVOKjk4RHJFNozECxEgEMocGiBZlgpHRCXfd2iNQKigOO2BHhZkcR/teI9dfQrNHJCuCGHAuIZbwOgKzEPmUca9gY8v3iXMtNptvbEbitEtvIXnJaIvgETe9B5hEDea1sERlSwDwRKwcTvEgPl1Xw64Cms3yLwurpJk2w4cYym11L3LebXSsJHNg1wdATcSWkSBu9I7YpC2J/+G/QIHb6eIpTCgyOAotD0slQnzNCes3G2rgmzKTMvZzhXqpnh5Zes69Z3vPk80Vro7nlUeaRchCjkYRFfRNFnduxj3nv8PZJXXyA8l6n/3tLiefh9h9Q4QLAsqy4Qo6wFNoim/6QgfqTmO1VS2mTYwOKv2dwjlvXWfJXD4Q/9CJiEEQ8xBxsSkbYcTEehYAK5oMWzN7O5gLiHjWZXDZZaLPryS5dG3ZZmWRlmUVyBDAprc19aLtuAd4IzMCUVFVnZntFJVwyFNazvnr7MxDlWL82E6IdsPzKM2zBdZpBnX3oXVvIVMPRkVB93rbtdYZrCMdaqlMbpwLz/SoCc5aqA/T5kFSjQmKcUr/h/Awn/BHITd2ZzoSnf7cSXuYLba6D1YUY4FuX0tGGC7TVu7SnJWG30mamutZyOfHo0qPvYwzY15rQMTVT4hmPNP9eVk3dLL9WuzOyC0c2bMjD2haBtDw5QDM9Sb+S+fXP6k5ZAF2eOBXJsTfgbW9ZShy0P0ySoMSBmdRbJfFvd0SnxegayuxOLh2mXAYPw2Dfwy+HKk4bappwh47iAfQKo1jr6quM86Lky8xpBQa6gBo0fJPZY6qz8nOghABe7pbTSQvrL+AZfdUCDrar5h+VpZnKf46Pr0JvvL+H00HzJiS9aMZDOmBIprWTn+lMWUw09Gy7Typ0QxeffA2tFQd4CH2xOtQDz+eTOcxNjD3NIS2F2EHrwHTXWiLEsxuQzegoB0nohh6NW71eEY39EIJzAwYaapNc1mTxnrEhz6I8Mh//x8LQFarwC+OS3+1EPiAXHy6i9MXqsDNnlJAfCGIWFurO0TyDfNss9VANszDqsC4oOQpFAkUy+NeKyPI8T6mTARcHEjoGjn8oZequ+w9kR/NplfOsAal+kg3+MH3YAZb9uEuZDgPiQloA5qdbfSXX8Qx1rAbzpXidZkCXg6TS0yqRDId5a1Vt1VNYV7oEB3SGWd0ynkUpGTL2z/FPoDYzs+avJ6aQRwDRjXOQLZEIruvUj4JrUtsmVSUMLoIcbvNPgvWkAbORjf0lJ7hzBBm6F80xGrsMialxtpXylTzZYK6ZkLlT5GavEsiTvUQ0amWlLLCnlNuXVOEY2q2cM6eN9oBQYEdp9/DrnWjR/HZ78vBSP9uIzr+DTuPk4j/vEhsjbl+LjIxUaiaj3n6WMf5lELrIwgLSQHGKpx9zE07dcU24zKu0zm02AwyGyIzH8hq5Rd8CrX80cAf+Nwxo+gT3yPwIYWcnYM2UMNB6yDFEQkDdi2RJNso3lNPA2ABJTo7+J4DptjJJHWEbsXdRn4iISHzdDvzuC255a1fGbgKZ2xaq7WB2K8MrHXP1gmGYPP3F5zqC523oKof+n3XM6uoyeynMH2ljvkOxoNH1y4S4ajy4c6lNxfZ35tgdtBxg7kbj/08NiIoBC1nO6aDwIKawb7ezWIdapqRSWGT0cqYbDzWHo2ifFBt/3hONORUcPnDPKI/Mdby7rxeK+kYvCBwiH8+/DURNK+Rmw9toZdr/Fbe/+l0UFeLE+7R2NDKFCUE5UqKVA48gZMubAUa6LWsPzrf3lOs6lTi+Glv3oTMxmV6opExiIVCqJfjSDuYDu436oyjfxzHetyQcXaQhmXWq3zZQXc5rp5QQ1/T1brOtlHbfZcft3HJu8ZK3EDS6Zm1JgPEPMywfvrMKzSJz3zyKOewHa5ckRkEuPtww0v0FVgLGfVFZssY/LsEY1bpRi34jsU9nWY12miANd7lAYq4bW/LurchWSvLiJISIfAPu3dOeo9MwYgsy0f5ub4HWeZCWTt2wT2FTwS+XZzYE0VJCB+mkQRZWnGwuqBUQ0PMy+7fAgFKFgwSDA7wZ0jlJGKY/3tgn1BS3SYZ/PcS5ua67HosP2VgOeveobhhuACrPtcS9e2/muobHphcDaRLZnO5CkJ/fzG/MnuoHhDZOoFy60HrL/j5S5UtAs4LqxisAJ4dXCSO8aOxVM2eQqbvj9nGkiZxvxdYVpTEIBTTYtqJnPFvmMDnpQ5Bb8bjzODqZS2sTcuDeSPDqDwdE0YuUiGY9iXMwgeZ/z1RjmweZdb31ZtyuPGvWGSCaUsF/Zs1OIaZm6CTbVGb4yg9waJsbYSwuoodXY73p4YkZes5EkJTNVTRnLlHvl4TU6S1GIKepfwEYwkaiFuYvVzTP5NPYIsqyx90u18PwU/qNyIb8hsiO/1rlU+DE2tiGHtHgTDQsiGLUHtaxVz2eqdfOgbEYKpuEHF7DZKUG7TbI3uHI2Cx6VHFThBwPqNuGJw0wm9jd98xRJ7B95RhNqCAB8nReepGNlUfAZFbrPbefY78vFx/6iYIJ0VD91u/bXnCB/zArdrdrdDv77dO/ayVtP4WZwvVprNAWnfXmzj2mgmCgr1yH38FzBHkhrvV5A9sIiz+FtzwsDumF4kXin5cuW9q02rTdKRq6r5qsMkqbI7yFFKWpWPUhD6ewpmcH9ufkRiqzb18dZmKy6QbhZajGb5MkGJg8RpoosLQkCAiu43+o6Zwf78LEJyinjDlRXYPNScdVq1Q5KudiqoYQCqZG7Ej0YrdIJLBIWxWYb6swoOxZ7iIiXRgjoPivC0A6D02c9KpM3Yi+Isz00wn9WyStFiusuZV/WVJ1y/uEm6sRQQeRio/k37Eb7S9vkxpKKDlxfLaqirrYop0disMDtWpKIRUEUMbWh9XZUt1ntW91M9GoKnrT2oYbFvys24rUgwt7GitYP3/xTONi737R+gsN74l"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28779,
+      "candidatesTokenCount": 192,
+      "totalTokenCount": 30555,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28779
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1584,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "lzLSavYBzeLPsg_llJj5Aw"
+  },
+  "duracao_segundos": 10.117517200000293,
+  "usage_metadata": {
+    "promptTokenCount": 28779,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 30555,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28779
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1584,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0310",
+    "tema_central_id": "5505",
+    "extras_ids": [
+      "5508"
+    ],
+    "temas_alternativos": [
+      "5507"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda de forma ampla diferentes aspectos da aplicação da lei processual penal (tempo, espaço e interpretação, conforme os arts. 1º a 3º do CPP), misturando proposições de subtemas distintos sem um domínio exclusivo de apenas um ramo específico.",
+    "evidencia": "Sobre a aplicação da Lei Processual Penal, é correto afirmar que:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2be88f60aca7db5d3ca6ad81e6ac1c44344f8e5a8afb2a9d2bc7e0918617d2a8"
+}

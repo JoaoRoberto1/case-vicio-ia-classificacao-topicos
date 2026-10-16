@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0216",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:48:31.351849+00:00",
+  "sha256_prompt": "1c1e545877595ef33f4f7e9f1c488816f4f50844ed97bc1be3a8740d211ee6fc",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "0603e862eee7c3846a37c79b582d1eee6cb0624cf6fb9d6fac135c05d2c4a218",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0216\",\n  \"tema_central_id\": \"5541\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4701\",\n    \"5539\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda institutos da Lei nº 9.099/1995 (transação penal, composição civil e rito dos juizados especiais), gerando concorrência editorial entre os ramos de Direito Penal - Legislação Especial (Juizado Especial Criminal) e Processo Penal (Procedimento Sumaríssimo).\",\n  \"evidencia\": \"Considerando o sistema de juizados especiais criminais, previsto na Lei n.° 9.099/1995, e a jurisprudência do STJ e STF sobre a matéria,\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28831,
+      "candidatesTokenCount": 230,
+      "totalTokenCount": 30438,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28831
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1377,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "MCvSaobQKtzRz7IP4fyhuQE"
+  },
+  "duracao_segundos": 12.006249100000787,
+  "usage_metadata": {
+    "promptTokenCount": 28831,
+    "candidatesTokenCount": 230,
+    "totalTokenCount": 30438,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28831
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1377,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0216",
+    "tema_central_id": "5541",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4701",
+      "5539"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda institutos da Lei nº 9.099/1995 (transação penal, composição civil e rito dos juizados especiais), gerando concorrência editorial entre os ramos de Direito Penal - Legislação Especial (Juizado Especial Criminal) e Processo Penal (Procedimento Sumaríssimo).",
+    "evidencia": "Considerando o sistema de juizados especiais criminais, previsto na Lei n.° 9.099/1995, e a jurisprudência do STJ e STF sobre a matéria,",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "01e58102c4cc63157f85920133be4f6f30bf617219e2dbe5061df3629353113e"
+}

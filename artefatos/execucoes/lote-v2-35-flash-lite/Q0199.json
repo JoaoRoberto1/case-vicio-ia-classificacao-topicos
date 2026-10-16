@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "Q0199",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:42:06.927215+00:00",
+  "sha256_prompt": "dad7b9d11eb9fa86ccb953cbca254632662dae343c8b34b2058a71ba29c105c7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "be04ac39343be03e5d20b7004b62d664f657dc13646a9aa496ef06c70644b570",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0199\",\n  \"tema_central_id\": \"5218\",\n  \"extras_ids\": [\n    \"5230\",\n    \"5174\"\n  ],\n  \"temas_alternativos\": [\n    \"5228\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.6,\n  \"motivo\": \"A questão apresenta proposições independentes que abarcam diferentes tópicos da teoria do crime (conduta, estado de necessidade e classificações dos crimes), sem um tema central dominante único.\",\n  \"evidencia\": \"Assinale a alternativa correta entre as assertivas relacionadas à teoria do crime.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28780,
+      "candidatesTokenCount": 182,
+      "totalTokenCount": 30333,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28780
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1371,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "rynSatXsKd6gz7IP_NDL6A8"
+  },
+  "duracao_segundos": 8.641197100000682,
+  "usage_metadata": {
+    "promptTokenCount": 28780,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 30333,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28780
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1371,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0199",
+    "tema_central_id": "5218",
+    "extras_ids": [
+      "5230",
+      "5174"
+    ],
+    "temas_alternativos": [
+      "5228"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.6,
+    "motivo": "A questão apresenta proposições independentes que abarcam diferentes tópicos da teoria do crime (conduta, estado de necessidade e classificações dos crimes), sem um tema central dominante único.",
+    "evidencia": "Assinale a alternativa correta entre as assertivas relacionadas à teoria do crime.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "90c24f5f115722e95b02ad26c7c965ffc309dabc7f74fa858901635c937b4d3d"
+}

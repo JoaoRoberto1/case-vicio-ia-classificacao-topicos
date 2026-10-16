@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0259",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:03:09.032037+00:00",
+  "sha256_prompt": "d12f55f12487390918a8ede964256908836c432ffa47766dbb4ebc686c06ac35",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "3b105f94d855e793f9eeafc3ac833dad7ed235055a870f2829aea1d1ca658a95",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0259\",\n  \"tema_central_id\": \"5183\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o conflito aparente de normas penais, focando na aplicação do princípio da consunção entre o crime de dano e o furto qualificado pelo rompimento de obstáculo.\",\n  \"evidencia\": \"O crime de dano (CP, art. 163), norma menos grave, funciona como elemento do crime de furto qualificado pelo rompimento de obstáculo à subtração da coisa (CP, art. 155, § 4.º, inciso I).\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28691,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 29482,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28691
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 590,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "nS7SasKoN9-wqtsPrJ2r6A8"
+  },
+  "duracao_segundos": 10.829251200000726,
+  "usage_metadata": {
+    "promptTokenCount": 28691,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 29482,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28691
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 590,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0259",
+    "tema_central_id": "5183",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o conflito aparente de normas penais, focando na aplicação do princípio da consunção entre o crime de dano e o furto qualificado pelo rompimento de obstáculo.",
+    "evidencia": "O crime de dano (CP, art. 163), norma menos grave, funciona como elemento do crime de furto qualificado pelo rompimento de obstáculo à subtração da coisa (CP, art. 155, § 4.º, inciso I).",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "fafe220fe0bde41e50ab74e4eb8a7d9a6a759bce2683894a66208a784c620a08"
+}

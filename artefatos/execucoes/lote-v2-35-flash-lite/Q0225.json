@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0225",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:50:54.085559+00:00",
+  "sha256_prompt": "e07a4e18d912830645a51429d8f39f29e867d95e6f9128bbc9f6d5dc0284a610",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "973b87ce21e4e4862da55997788b8426a4af139a53bead301ab25eea74755602",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0225\",\n  \"tema_central_id\": \"5478\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5480\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente o cabimento e a competência para o julgamento de ação de revisão criminal, gerando interseção entre os temas de Revisão Criminal e Competência, o que justifica a marcação de revisão.\",\n  \"evidencia\": \"é do STJ a competência para processamento e julgamento da ação de revisão criminal com vistas à absolvição de Pedro\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "EsggCsUgAWkUfROaZIJ+byn6UijjtxDnr4urE7vJJ4a+T7P/kPndtWsiZMacjPdlPWgsKIyIVG2YHq5tGpRmZh0quhwVqtcLeaMAUl9BzfQb0Ml1xsRVUVB9cv9BJGTj+hXjUlDQswdZvYGF6Vgui0ykFgi95RUSARRf/nd7e+ZqoFLysy+k2HjTjD3YVGtcQ507NPm7ztv9H0iy1i591WL39Ylcty+Tz8+xvoh1norzaG/jwymebvb6HhF9ib7SsJsQLJpgeoFUuN7E1ehoBdZUrxjTUf+QSPXmxd3jzKdkddJNJLv3adYA8hYsGHUewWMeb0MNCsYTnMHeflSWbgiBMrstn8R1ULpAoyApYovcTNbDTYootfLAoNM+tM9EEcow9j6J+/GhgMhKUYtVBv88+SJh5WOQLaEqxlYvl0AU4HUBfGXQ8kwepfVA9sztf0hHBmP0mNwj3FfKA8TcNZIVEP9cAC2bYJmX5lY6CeiV50+dh8nz/GGClb/z0Dnyu+cV65viqnZLmJXtxkLFz3TbX5ZOZvbtK7Cr1NqHgnWrzw0WPYgn86hXZZsBcfCPYFP5ztjfAXM1532aKWvCGoAH6d8/CEJCK+ZR9Fau3X30MdSbtmK8Of3ZFxeMHGaP0FVeH9wwxJlvIGMOGQXwswiXqhIK/PBte04NrRIMpF41Wv8xnSTWL4Y4pZiwQ1mQndeWSGZPiECi6LTOMbbc4ixXcGZP0R9RnWHYNShx/g0HuoOyGpKd+Lnawx2fFFUnyoTXFPjW0YQleffmklhZSTLs7VNPSiQAI6dLNGOaLLHjp4pmSK7k/qhKe050YFhBPulBQs9nyL/znQfd3mmSHMeduqfrm6sVKy9SBqmlyqo9hDFs7H6cLPruBM8Q042fqFqf2YQBpacbmOd44u9SXHs9n9VFQV5fU1B3fUkKvNvloF1vtjS0xEZdNhaJ43QytHBPiVc6ad8g37tRmMobS3r2h5iQzAKTJaU7bfcFlXcSW4pLmcOq/1Sz0Gw/jStRR9o3UfPh4+WF1YTuT3X7s1IkKWW+kMQP5dvPthekn+gK1vU3CQ9OfCRpeQDtRgDHDKJC6J0PrMDfG+5nYFt+T8J4TuEhHxKSI6/n7cpaDiZBX23EZJBMdDTaWZQiqTTe7IRprwUDgALfkHQUltdFYrSzjHaWKcoP5zMNXqcP2tV+NWoH2ssHZ8LLehJ8ODR/3kXqKkDv1lD0tm8hg+e4DAeHxzMVKhPBAKD2NyBGXgCTeCuXlevgVOYGcpGYn29Bch9IrHZECInGuRs6K2H4yRKQgQwk49nu0bllt6kHiq0Fmbwx5YnSVJrTuf8RuobCFhjhjJLAe+6Ypih4mnbBu2Wq9rGD0CsWahFs4GXyO3ei2BjOY7IPeytD5K67GFg3OFQdLSzo1x5q7MoaZtccvcorRD5dLnJW/b+Zg4jvwD2R05bVFduVc34ZPKB/nlEz8COAsGBXOdOtot4oD1EZEloU0hxhH+B5tNBhz4gt19FZekqiAKEhGNqXonJSLRr57jPozXfF6nakHHz05nKOoo233qBR6CML2iMYaQMbCzSoHpOvPQzR6XJEKa8pygrr7mGS12b/d5k6FqXMx1hYHOt5QgNHkFz9MX63mmCy9NpRaCZgrhoBnLBWygKro0uKQismVqsKgVgspvPU1HKsZaMdzpaOns4lg10+tNex7xpdLmNYJ0GXnNuTNYaOZ+MAPeF3WWJnLbnVi2NXYCu00Leje1GRKY7UtyqHDDXKzK+Ax0OjHtBjE5gha6KpFGAZNkmW54vkx3cu9py2OzSr3JkWqYozqXXytpNC4ihYtTf2Hcn8P2l02NEzzmDbkIHRLf6gzUg60BXL9Odr01lIjraurjg0j1oRpzwpBUBp5hKEVHZPN34zC57Od4xWHpqKOZ8vq8K9PMUUweCVVvgmd7UF9IkXJ547jmr6cuO4a9dyW45qQXc+cDl8Ddyqs6EgvtObVOxvWMKlnlLqg4gEj/il/ZmlRteKIQ9yJ2cckQK8CRnljfxYDUOLTU6lW88/c1mB6hV74FdIlNTP1FNclIxav7h6AsygBaE7PpOC+lx9vpq8faiFSQ+jPJHeuMz+PlbeHZnDm29G0riMAXOGO0027VShmPt6XHB9nAViI20bFUyhyTvrQkV2vbqsSJhvynmdJSSOeTk8qxcaDAUWANVAd8h2x2umUIfmS8vQEicSBZjZl61FKg6PanJX31L6gF8if5Dkq2BH2W/CAhxZ5Ghx/qFCNIWDYuns7beuOYpGst/+FwjMPFuHSpAss4WRBU9lksAZAopO0SPotm9aqRT+egA4waeDnnTRnXiQXDqFiCQhv03E9NwS/nVNQGMGHeeDYkJsDFICBwEkerh/+97cUr+VhJDxlXtNr4KqlaEmKF6BvoF9c7NgVCoz+2FuZ72Y05KOf90cjSjm0Q5sNHBAEGg/bnn8JN5liZulVkGjFeaN1a8QumphxcixjdcO/L5qP/cmbZmFYmVIjEBIvgwjJpW0hMpDkpgiCjaW+BNPq2N7FPP298XkT6R6Whx6L/wVLuaZ2RJobfvvG4aP3nsasFyMRCY04AL4+WFjL1xE3azSk0keTtC95Yi3XLG+WM1vfT24IKxZTuPmENqWiq9QBiEf1H3yuyMPvG0HJbwotPUCBfVipqfbn9l7MVhEO/ndEwVXKMUSjCOf34WN40alVFEV13iVNhLOWPaWMB8dsZwlVya1nfXPiNRTsAwn7SFi1o4iM7ZBka+TusTPt1deedTHScMAZLIZfoONBAWal3F6p/4uOwzrmdKtAIzj/WocBASN933qei7ozSkLH3etGXut7tvKbrrInfI5vYNBSSDNkRYNt+itGfV1nQjJk3p4DM5U9VCBDiM7bloskTbt/B6xWtdM7g4x7vvQcu2GYvqSqu2xaAiUAw0FEz+lxo7T4zbth8WLYBfzWCf8L2S5ZHuBVBjk9b7lHjzbLumpqnrtxJwCMdfG+Tjeb3iR/Yl8hxhnvVIED0ywBpKA0BiO/gu4NVef3+z2fBgtUu5rTFdSHqrr7sV5mEMZ2RHg4fiMzhGtDFdv3S2moPH2t7CuA1B6ze/0TfA6S7Ysgc54cZh/jku9V7QoazC11Yh7hT1PxzkG8SzyACjjbKhRaKW9nMNXRDl1BLv8ImleP0GOr3U1iHbTgDhQwoVr5tMs07764IenqdT9G185cf4le1LS+zBeyyaQoPo+MLxA7aoFSh7JPN1Gx39bk044uQdwK7ytXHalWzYhmGRTiJ59FZOo2iuoxutgstcNacVsQjec2PtcFnRmE0vzuHr3RdVPpTbU6oSEIkERa8mB+YzuBshGHRn1kFEHZzlkWhbWNf4PlvheaMgPKE3QL1oAfzxXtprDKbbV9pqCHJVzhpIZ9ec+cddP+xYU7thhlCgrjJnYS8Ti9lUKF76R1ULfWBhWOAWviwwkR9umH/zmRWHDuObHCMztl9H53UlCkk/ugTTUp8vwnmC/i8vc9v/7kYgSGSc4z8ywyzyOJcrzrWghreoPMLWeNf+UFnCXZxwDeGVPJ4K8mz0c9sie7IrH4KRBqJ1vzjHMv9AChps3GASUUdgRS4MADA4a8dKw4Jkx6jR6bdacD32AJ282voZEz7t+FHzqXKKHDQvmzJucWMVjKWLM2wULJ4tZUBE22wymJ73FGiJpsvpE7R9VPIEDTQdH7joLB2nufSetHExQr21PC40oRj0Hu6FhaosAxX1fgXUEvsT48zuxObwyZUHMwyimjA9geP5BEuUQK0k1HDMOOSzsK4du+rv161IF4c8Wek0c9rW07HrEwwUBSOtN7VvWKNDCJjOqsWMG1za5S2/CY1HAmOMtg6/t+N/m+wwZkV2TifADo71XzYC3jjVsyW2K1q3WVt0WTBM9PrPt1tnOYOBCaZ9N1in3Zu6oUieKg3qa0AW2q+gQiwGQLDiNAfUfPrSDMbyig77pxAzoA6iC9cUOvqMW18GLI9rAjlttubbW8B15GHxqz5L5guVVrcekmHW/hllwOmamb2+w7pWYtxT0kyhdY9oFE/Uh9kGX1Dlc0T9kQ4S6ayEJ6Xw6hb5QUN9YniElFiefrjv/rKLWBTdGqxUJqPznqTVlvn7x9HSFZFrnK0DuMT4Ws/PjsQkKKC/YyRIKzhObjnjLPK4LlJveTk3LQ1c9aXgWru47hXoziYQhkzZfa/KdkYa3IzjWOEJuh3FzegKZUusmetd4vpA4tN2SpSv/scMZk6/A/vufDKcaZNsF2laC6r51dz2v/IcFwHDgbr8X2hRJXNYMhmStdEU2q1K6wfQckskkv1Ahcusax0NOPMYHF1KY//HGtrbvoixtBntUfPPqTg1oOToBuMG7dwpyWGGVlz6eee09KHcfA/8HKymbfJMGqHowbs1yOuK1rbt/IdIeg8J+XybkQbIqbIWesycfKT7rOlBXm5hb8Cg0BqLBCBxaKMy4yKtIQ+oe0a55Jdh2VUvhb6PQ6b5f8wkZlyxP2jF0IAK+5c0hIDpE9/Lxd6b1qO4lXyy8Iu8Yw5rNgLXjpxhkCcwur3hxQW6SwJctCkA6qPTDzXb+0d8Y7WpFoSNRhj+EplvxciIzu/sEd3arAuh4KElmsznQyzOa4h4gtx0v3JOQfcjh1ZtOUaympyBH4iZv7Zmgp2QsZCUHlYHfIRHPhMK+X1wE61bwEy0egA8Hy73bnsRsiOw7dsOUWFnLmIwBt1mJRzr6tvI0ndoVXtYnaoaWJpchp7JU01/ofdoAx4hRpnEPWuI3iujTthgjMb9tgHsDiuvivcnAAWbQyllQpMRhhzOvYGnsF+3IxC4PdlynrINu9XzbBEfwOnq6/5Z7bWa6Gs/MzJSRVA417KNqki9zyCzRDoO7CF4hVTTLAJc9/YqV93iR6LAxhUS72FMRN3uJ0CSEqSFytmxwNMn2txF2DmvS5IFrJI6QURkGHn/Ud1WOTcFaH2rb+hP2X0hCcdef+trbG+Y/14dhBZi4d7ZZFkXO4GfQNH5oZ4JfOOieqFp0kN80ymonoaQE0QDDjU23Zk85LAX9fEfWUSkHRaJ6x2UFSWdrHqE9XyL2T7GBcKJpDRKj8Ws1UHHZwZbnjhpidFSgVERWuaanC+B8o71LHvVAQ9hwg7PQERH0jClQbUl4ViQLZg+2x77eS17xftUr7zn4CrC9Av7ZC7+n7p1HYDdngdqLrzz/dKKMcf2Te65LRWyrm/4kut3nhldcYlMpPJAz+yWH0n3njQ52/h7H/8PelLxs7wV3NjaB2nnx75YlDd5ZrDA6LFlKC6tWjhH0prFLJ0dBd4xNY5ARH4xVdGgP92VbAP0sH90Ch+IzsPxuh2VGohemj2XVpqPMm7oz3e4IVxWPHxOHUz5YZKk+8KZHsvQomPWjQFDzeaufzin5el/pXL9ACcsaNSv7oeSx3b6G1MrRFKFghdNYdqZZ+Vs1g5vckPnhTzmOmxKWN6lHg4oCsnDfFfd5NIpn/tSCLX9j4NxGa/sGAf4bTdLu/8PavmSK+xaYFdUtQTi5BouWdsBz1/Te7w=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28822,
+      "candidatesTokenCount": 182,
+      "totalTokenCount": 30058,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28822
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1054,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "vivSao2tO6CBmtkPiaWQgQc"
+  },
+  "duracao_segundos": 8.350878699999157,
+  "usage_metadata": {
+    "promptTokenCount": 28822,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 30058,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28822
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1054,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0225",
+    "tema_central_id": "5478",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5480"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente o cabimento e a competência para o julgamento de ação de revisão criminal, gerando interseção entre os temas de Revisão Criminal e Competência, o que justifica a marcação de revisão.",
+    "evidencia": "é do STJ a competência para processamento e julgamento da ação de revisão criminal com vistas à absolvição de Pedro",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "71f3585db390823724ffbc2db48f687d4deffb3cbd88da37a8d08f3f2fd50b7c"
+}

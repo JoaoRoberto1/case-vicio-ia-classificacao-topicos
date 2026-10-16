@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "Q0168",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:26:52.846004+00:00",
+  "sha256_prompt": "7cbcf818741bdefabb1afdba462b7207062b5d22a86a6c03b5a38c6fddb2ce8f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "506fafc34176b9744ed5271ea9de0c20deaca89d040be08481c539bca1d78414",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0168",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:26:13.440759+00:00",
+      "sha256_prompt": "7cbcf818741bdefabb1afdba462b7207062b5d22a86a6c03b5a38c6fddb2ce8f",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "506fafc34176b9744ed5271ea9de0c20deaca89d040be08481c539bca1d78414",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.234251700000641,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "868ef6dfc96e7a97b82adbbf7334e6a6842f46271fdd96e0a3fa1250eeb95596"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0168\",\n  \"tema_central_id\": \"\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": true,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda crimes previstos na Lei Geral do Esporte (Lei nº 14.597/2023), matéria que não possui correspondente entre os temas ativos do catálogo.\",\n  \"evidencia\": \"crimes contra a incerteza do resultado esportivo, previstos, respectivamente, nos artigos 198 e 199, da Lei no 14.597/2023.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29019,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 30555,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29019
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1356,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "HibSat3bO5eRmtkPhc-yoAU"
+  },
+  "duracao_segundos": 9.68225589999929,
+  "usage_metadata": {
+    "promptTokenCount": 29019,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 30555,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29019
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1356,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0168",
+    "tema_central_id": "",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": true,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda crimes previstos na Lei Geral do Esporte (Lei nº 14.597/2023), matéria que não possui correspondente entre os temas ativos do catálogo.",
+    "evidencia": "crimes contra a incerteza do resultado esportivo, previstos, respectivamente, nos artigos 198 e 199, da Lei no 14.597/2023.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3f66ea76ddcde2dde23bdf40550edc754aa6bb348ecb0dd0639a808b685967c0"
+}

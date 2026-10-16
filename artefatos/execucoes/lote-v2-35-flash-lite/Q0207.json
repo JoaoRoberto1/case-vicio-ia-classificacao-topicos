@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0207",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:45:40.542381+00:00",
+  "sha256_prompt": "10227c8a912c0140ff70ffa7183eed66d52f4584197fdb4716773a5102cfdefc",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5a9f318ca12c1fe3b93c909ae86c0b801febe0bdb01140830648194497d81904",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0207\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão versa sobre regras da Lei de Execução Penal, abordando faltas disciplinares, isolamento cautelar e sanções. Como o tema está presente em ramos distintos (Direito Penal - Legislação Especial e Processo Penal) sem critério editorial que distingua a disciplina, utiliza-se requer_revisao=true.\",\n  \"evidencia\": \"Caso um preso, em cumprimento de pena privativa de liberdade, tenha sido flagrado, em 10/10/2020, portando consigo um aparelho telefônico apto à comunicação com o ambiente externo,\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28766,
+      "candidatesTokenCount": 225,
+      "totalTokenCount": 30107,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28766
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1116,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "hSrSarmVIeKfz7IPsorgiAI"
+  },
+  "duracao_segundos": 9.045419800000673,
+  "usage_metadata": {
+    "promptTokenCount": 28766,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 30107,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28766
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1116,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0207",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão versa sobre regras da Lei de Execução Penal, abordando faltas disciplinares, isolamento cautelar e sanções. Como o tema está presente em ramos distintos (Direito Penal - Legislação Especial e Processo Penal) sem critério editorial que distingua a disciplina, utiliza-se requer_revisao=true.",
+    "evidencia": "Caso um preso, em cumprimento de pena privativa de liberdade, tenha sido flagrado, em 10/10/2020, portando consigo um aparelho telefônico apto à comunicação com o ambiente externo,",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "165f800ad6973f3c4aada4a394a1eb133f8c52ce4e7ac50fe782b97f45809052"
+}

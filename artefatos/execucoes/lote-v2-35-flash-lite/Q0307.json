@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0307",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:19:27.409278+00:00",
+  "sha256_prompt": "423bb12a2ad1fe42b803ed964ce10c783bc1920a2d423e14908c641b851ac873",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "eda838bae02d69a7f684ca35a95a9dcd4a05a4534054d5e4e27d055bbb4fbdc8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0307\",\n  \"tema_central_id\": \"4707\",\n  \"extras_ids\": [\n    \"5071\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente o crime de tortura regido pela Lei nº 9.455/1997, discutindo a responsabilidade penal e a forma de execução (omissiva vs. comissiva) do agente público que se omite diante da tortura.\",\n  \"evidencia\": \"Considerando a situação hipotética acima e o disposto na Lei Federal n.º 9.455/1997, julgue o item subsequente.\\nO delegado não pode ser considerado coautor ou partícipe da conduta do policial, pois o crime de tortura somente pode ser praticado de forma comissiva.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28822,
+      "candidatesTokenCount": 241,
+      "totalTokenCount": 29941,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28822
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 878,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "cDLSavqGFr--qtsPxaSt0Qc"
+  },
+  "duracao_segundos": 10.4392069000005,
+  "usage_metadata": {
+    "promptTokenCount": 28822,
+    "candidatesTokenCount": 241,
+    "totalTokenCount": 29941,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28822
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 878,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0307",
+    "tema_central_id": "4707",
+    "extras_ids": [
+      "5071"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente o crime de tortura regido pela Lei nº 9.455/1997, discutindo a responsabilidade penal e a forma de execução (omissiva vs. comissiva) do agente público que se omite diante da tortura.",
+    "evidencia": "Considerando a situação hipotética acima e o disposto na Lei Federal n.º 9.455/1997, julgue o item subsequente.\nO delegado não pode ser considerado coautor ou partícipe da conduta do policial, pois o crime de tortura somente pode ser praticado de forma comissiva.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "672df05d096db5c0fe8d4f59b2218b5c51f5cece6ef1f51f121c2b8292a98b66"
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "Q0254",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:07:04.187890+00:00",
+  "sha256_prompt": "3f1d7a624541a5880d8d033a277d9ec5578c7ab8d7fa63d66fcb77dc7b598d4d",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d68c5947fde5b9bdc5de4039010d1c4d1e8c43b6d0342475f04ff07f23510466",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0254",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T14:01:39.156176+00:00",
+      "sha256_prompt": "3f1d7a624541a5880d8d033a277d9ec5578c7ab8d7fa63d66fcb77dc7b598d4d",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "d68c5947fde5b9bdc5de4039010d1c4d1e8c43b6d0342475f04ff07f23510466",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0254\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão versa sobre as medidas protetivas da Lei Maria da Penha (Lei nº 11.340/2006). Há duplicidade de nós no catálogo entre Direito Penal - Legislação Especial e Penal, o que requer revisão editorial.\",\n  \"evidencia\": \"considerando as disposições da Lei nº 11.340/2006\",\n  \"requer_revisao\": true\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28874,
+          "candidatesTokenCount": 186,
+          "totalTokenCount": 29819,
+          "cachedContentTokenCount": 26281,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28874
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26281
+            }
+          ],
+          "thoughtsTokenCount": 759,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "RC7Sauv3A_--qtsPhr6ywAQ"
+      },
+      "duracao_segundos": 7.64363769999909,
+      "usage_metadata": {
+        "promptTokenCount": 28874,
+        "candidatesTokenCount": 186,
+        "totalTokenCount": 29819,
+        "cachedContentTokenCount": 26281,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28874
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26281
+          }
+        ],
+        "thoughtsTokenCount": 759,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "289e61b318d113223bc2af74de566ed33848b19f6cdcab16bc5d166f5249e762"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0254\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão versa sobre as medidas protetivas de urgência previstas na Lei Maria da Penha, matéria duplicada nos ramos de Direito Penal - Legislação Especial e Penal, configurando ambiguidade entre ramos que requer revisão.\",\n  \"evidencia\": \"considerando as disposições da Lei nº 11.340/2016\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28874,
+      "candidatesTokenCount": 177,
+      "totalTokenCount": 29894,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28874
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 843,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "iS_SasFGjNDPsg_phrQR"
+  },
+  "duracao_segundos": 6.179614200000287,
+  "usage_metadata": {
+    "promptTokenCount": 28874,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 29894,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28874
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 843,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0254",
+    "tema_central_id": "4704",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6724"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão versa sobre as medidas protetivas de urgência previstas na Lei Maria da Penha, matéria duplicada nos ramos de Direito Penal - Legislação Especial e Penal, configurando ambiguidade entre ramos que requer revisão.",
+    "evidencia": "considerando as disposições da Lei nº 11.340/2016",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "ec5c45a052a40953a2a820021912ac59711584431d84b81b9b2380deef6a8f05"
+}

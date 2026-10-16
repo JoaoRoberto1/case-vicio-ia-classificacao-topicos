@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0247",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:59:11.179270+00:00",
+  "sha256_prompt": "6b5f6aa176ab981a850d0d1b3b771391c0f12259c0d3492f7cdb4e9d588a654f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d54cb613400a8bf2ed510fdee2f1a1e5db058efe9ed9ad9862597843dcd7604b",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0247\",\n  \"tema_central_id\": \"5502\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão cobra diretamente os requisitos, vedações e aspectos gerais do Acordo de Não Persecução Penal (ANPP), instituto tratado no âmbito do Processo Penal.\",\n  \"evidencia\": \"Com a Lei Anticrime surge o instituto do Acordo de Não Persecução Penal (ANPP), cujo cumprimento integral traduz-se em uma causa de extinção da punibilidade.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28725,
+      "candidatesTokenCount": 171,
+      "totalTokenCount": 30043,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28725
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1147,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "sC3SarZox-Oq2w-2kaaoBA"
+  },
+  "duracao_segundos": 11.581643600000461,
+  "usage_metadata": {
+    "promptTokenCount": 28725,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 30043,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1147,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0247",
+    "tema_central_id": "5502",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão cobra diretamente os requisitos, vedações e aspectos gerais do Acordo de Não Persecução Penal (ANPP), instituto tratado no âmbito do Processo Penal.",
+    "evidencia": "Com a Lei Anticrime surge o instituto do Acordo de Não Persecução Penal (ANPP), cujo cumprimento integral traduz-se em uma causa de extinção da punibilidade.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0db19cae05c74a04c80889b6c6241521998386aad5ca5c159e3cfd3f21ea6ba3"
+}

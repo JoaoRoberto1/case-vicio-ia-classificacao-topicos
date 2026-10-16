@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0300",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:17:04.178746+00:00",
+  "sha256_prompt": "f3408d0d63f8b5c8a773245275ef732be916131baf5b9ba864ce6dedcaaf3df2",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7c2ebd1d3757f267e313dbbf4ae9016d9a48fa8736d58c2c5b689b353e884341",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0300\",\n  \"tema_central_id\": \"5084\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a distinção entre crimes contra a administração da justiça, especificamente exigindo a identificação da tipificação aplicável à conduta de ocultar instrumento de crime anterior (favorecimento real ou pessoal) em detrimento de formas de participação no delito antecedente.\",\n  \"evidencia\": \"Àquele que oculta uma arma de fogo utilizada por terceiro para a prática anterior de um roubo\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28654,
+      "candidatesTokenCount": 177,
+      "totalTokenCount": 29574,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28654
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 743,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "4DHSaqHQOPiwqtsP266_sQE"
+  },
+  "duracao_segundos": 9.556902700000137,
+  "usage_metadata": {
+    "promptTokenCount": 28654,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 29574,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28654
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 743,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0300",
+    "tema_central_id": "5084",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a distinção entre crimes contra a administração da justiça, especificamente exigindo a identificação da tipificação aplicável à conduta de ocultar instrumento de crime anterior (favorecimento real ou pessoal) em detrimento de formas de participação no delito antecedente.",
+    "evidencia": "Àquele que oculta uma arma de fogo utilizada por terceiro para a prática anterior de um roubo",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "318e4cc5acd2c7fe919f20456468a5bded68b0ffc615660101d6313ea5b0d492"
+}

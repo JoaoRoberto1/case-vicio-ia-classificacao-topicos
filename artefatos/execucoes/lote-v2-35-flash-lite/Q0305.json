@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0305",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:18:44.350708+00:00",
+  "sha256_prompt": "06ac1038116f2fb5ee2c840362d849d5cf7b6dafe16f1a591285f8196c3d58e5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1a563104a1876d82d8a345e07e72a8743125e920c3c6f1bd1b08a9ca002e84ee",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0305\",\n  \"tema_central_id\": \"5466\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5063\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda regras e princípios da ação penal pública, abrangendo denúncia, prazos, representação e requisição do Ministro da Justiça. Há duplicidade temática evidente entre os ramos de Penal e Processo Penal para o tema 'Ação Penal', exigindo revisão editorial.\",\n  \"evidencia\": \"A ação penal pública é de iniciativa exclusiva do Ministério Público e tem por objetivo dar concretude ao jus puniendi estatal.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28817,
+      "candidatesTokenCount": 191,
+      "totalTokenCount": 30318,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28817
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1310,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "RTLSarOJJaOez7IPrZfCwQ8"
+  },
+  "duracao_segundos": 10.88231960000121,
+  "usage_metadata": {
+    "promptTokenCount": 28817,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 30318,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28817
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1310,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0305",
+    "tema_central_id": "5466",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5063"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda regras e princípios da ação penal pública, abrangendo denúncia, prazos, representação e requisição do Ministro da Justiça. Há duplicidade temática evidente entre os ramos de Penal e Processo Penal para o tema 'Ação Penal', exigindo revisão editorial.",
+    "evidencia": "A ação penal pública é de iniciativa exclusiva do Ministério Público e tem por objetivo dar concretude ao jus puniendi estatal.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "6c0b3c7fce9e3d3df6a42453c1c4b0923601d1bda182b8964d8a017bfd9e5a71"
+}

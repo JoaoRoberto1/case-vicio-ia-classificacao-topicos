@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0321",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:24:20.138230+00:00",
+  "sha256_prompt": "402a120cb5e6fe37828e0ca52ec8d6cf4737d9ad8c98f1d32e9bb638377f1b0f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "500abf2f0444230b988c6a058f90fdafa38ec134833b7f03682a8fed01606e0e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0321\",\n  \"tema_central_id\": \"5071\",\n  \"extras_ids\": [\n    \"4708\"\n  ],\n  \"temas_alternativos\": [\n    \"5073\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda majoritariamente regras de concurso de pessoas, mas apresenta mistura de proposições independentes ao incluir infração de legislação especial sobre o tráfico de drogas na alternativa D.\",\n  \"evidencia\": \"Na chamada autoria colateral, não há vínculo subjetivo entre os autores.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28677,
+      "candidatesTokenCount": 174,
+      "totalTokenCount": 30210,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28677
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1359,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "lDPSap2UPL6hz7IP4tCu8A4"
+  },
+  "duracao_segundos": 15.620403799999622,
+  "usage_metadata": {
+    "promptTokenCount": 28677,
+    "candidatesTokenCount": 174,
+    "totalTokenCount": 30210,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28677
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1359,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0321",
+    "tema_central_id": "5071",
+    "extras_ids": [
+      "4708"
+    ],
+    "temas_alternativos": [
+      "5073"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda majoritariamente regras de concurso de pessoas, mas apresenta mistura de proposições independentes ao incluir infração de legislação especial sobre o tráfico de drogas na alternativa D.",
+    "evidencia": "Na chamada autoria colateral, não há vínculo subjetivo entre os autores.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2bc906fa8f4fc3ba6ec06a62fab95397fdd83a3ab107825a2b2c43ab01343494"
+}

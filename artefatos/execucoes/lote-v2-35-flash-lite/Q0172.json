@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Q0172",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:27:59.216707+00:00",
+  "sha256_prompt": "04ffb0e2263ae6c65c111e5a01a21f7c4d5488a785453232dc4a7c4c05a11e9a",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "19d1c5fa3b0bff46e2d2be9ecd7e6cba780c0182eb15e9ff41e726b3a36a684e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0172\",\n  \"tema_central_id\": \"5579\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5185\",\n    \"5484\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.5,\n  \"motivo\": \"A questão mistura proposições independentes sobre temas distintos (mutatio libelli, prescrição, prerrogativa de função e crimes contra a honra) sem um conhecimento central dominante, exigindo revisão.\",\n  \"evidencia\": \"O aditamento à denúncia, para imputar infração penal conexa cuja prova surgiu no decorrer da instrução criminal exige a renovação da citação e do interrogatório do acusado, em relação a esse fato novo.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 409,
+              "endIndex": 616,
+              "uri": "https://www.estudegratis.com.br/images/provas/664-mpdft-2004-mpdft-promotor-de-justica-prova.pdf",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28797,
+      "candidatesTokenCount": 205,
+      "totalTokenCount": 30438,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28797
+        }
+      ],
+      "thoughtsTokenCount": 1436,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "YCbSasbBFe6JqtsPy8j56AM"
+  },
+  "duracao_segundos": 14.767691699999887,
+  "usage_metadata": {
+    "promptTokenCount": 28797,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 30438,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28797
+      }
+    ],
+    "thoughtsTokenCount": 1436,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0172",
+    "tema_central_id": "5579",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5185",
+      "5484"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.5,
+    "motivo": "A questão mistura proposições independentes sobre temas distintos (mutatio libelli, prescrição, prerrogativa de função e crimes contra a honra) sem um conhecimento central dominante, exigindo revisão.",
+    "evidencia": "O aditamento à denúncia, para imputar infração penal conexa cuja prova surgiu no decorrer da instrução criminal exige a renovação da citação e do interrogatório do acusado, em relação a esse fato novo.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "97768978c2ac2515af57ff4f111fe084a6648ddec13fc46d48dfbd56bbb9c8f9"
+}

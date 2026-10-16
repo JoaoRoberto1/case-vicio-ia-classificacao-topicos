@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0286",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:11:26.412872+00:00",
+  "sha256_prompt": "ad4ce69f58607cbbefd629d9dd08cd07c0f60743743d9753bd4ed09eff08cebe",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "7bfa5e95fac9c3fa3210457bd1420f6ed06cbd52d0c4d7c05cc82a740b34732f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0286\",\n  \"tema_central_id\": \"5199\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5204\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda regras gerais e a ordem de aplicação no cálculo da pena (dosimetria), envolvendo simultaneamente aspectos da primeira, segunda e terceira fases da dosimetria e concursos de crimes, sem se limitar a uma única fase isolada.\",\n  \"evidencia\": \"No cálculo da pena:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28655,
+      "candidatesTokenCount": 164,
+      "totalTokenCount": 30879,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28655
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 2060,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "jzDSapraFYLrz7IPq6qaCQ"
+  },
+  "duracao_segundos": 12.806339200000366,
+  "usage_metadata": {
+    "promptTokenCount": 28655,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 30879,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28655
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 2060,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0286",
+    "tema_central_id": "5199",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5204"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda regras gerais e a ordem de aplicação no cálculo da pena (dosimetria), envolvendo simultaneamente aspectos da primeira, segunda e terceira fases da dosimetria e concursos de crimes, sem se limitar a uma única fase isolada.",
+    "evidencia": "No cálculo da pena:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "ede33915fe73b5a8a3e6d43aa1a2547abb0a5f2306e8e2528dcf4cb40f1cce0b"
+}

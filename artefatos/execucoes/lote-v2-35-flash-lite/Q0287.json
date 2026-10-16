@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0287",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:11:49.330217+00:00",
+  "sha256_prompt": "83089b4438651b7e970508bacaf990d1a69718974bc6c9532e7717227ce43a52",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e8d947668f9e64f13d31f373ca299064ff27553ef09c079b6c15a3f707db13b2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0287\",\n  \"tema_central_id\": \"5228\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5211\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o conceito e as hipóteses de excludentes de ilicitude em contraste com excludentes de culpabilidade.\",\n  \"evidencia\": \"Segundo o Código Penal, é excludente de ilicitude\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28630,
+      "candidatesTokenCount": 151,
+      "totalTokenCount": 30114,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28630
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1333,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "pjDSaurUBfiwqtsP4a6_sQE"
+  },
+  "duracao_segundos": 8.713769100000718,
+  "usage_metadata": {
+    "promptTokenCount": 28630,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 30114,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28630
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1333,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0287",
+    "tema_central_id": "5228",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5211"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o conceito e as hipóteses de excludentes de ilicitude em contraste com excludentes de culpabilidade.",
+    "evidencia": "Segundo o Código Penal, é excludente de ilicitude",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8ab8be37633be51956567f6c01eec15185c02904f62ed90a0548801bd006e89d"
+}

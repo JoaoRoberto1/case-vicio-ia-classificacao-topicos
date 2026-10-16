@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0326",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:26:37.146537+00:00",
+  "sha256_prompt": "e73943d5b3c431d0578e6b2f16ca455a729f1f2bd92f522570a683fbd6822e44",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f48eb23d21980e419a01533f44e9170aee3803f6659e16ff84d7767402883f03",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0326\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os crimes previstos na Lei de Drogas (Lei nº 11.343/2006). Há duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão devido à sobreposição de nós equivalentes no catálogo.\",\n  \"evidencia\": \"Constitui crime previsto na lei de drogas\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28778,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 29945,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28778
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 987,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "HTTSatfUNq3sz7IPg7HP6QQ"
+  },
+  "duracao_segundos": 14.97423069999968,
+  "usage_metadata": {
+    "promptTokenCount": 28778,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 29945,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28778
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 987,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0326",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os crimes previstos na Lei de Drogas (Lei nº 11.343/2006). Há duplicidade temática entre os ramos de Direito Penal - Legislação Especial e Penal, exigindo revisão devido à sobreposição de nós equivalentes no catálogo.",
+    "evidencia": "Constitui crime previsto na lei de drogas",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "1e683864e33dcc42f473eeb399ff84f875e8442399ef5f408b8f9d1576e56c32"
+}

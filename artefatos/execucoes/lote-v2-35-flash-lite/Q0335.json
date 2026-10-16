@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0335",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:30:10.995373+00:00",
+  "sha256_prompt": "1e8b8fb7a26ce1f9d99eade887e09ec9e7cd49a6b7d25e49a5a3aceea79b4812",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "99b3fa8646a6fff64ddb942af13a9b980c5b9dda332ea43917ef4a07b8cdc3ed",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0335\",\n  \"tema_central_id\": \"5218\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5170\",\n    \"5174\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda múltiplos tópicos independentes da teoria geral do delito (conceito de ação, crimes omissivos, dolo, classificação de crimes) e leis penais em branco, sem um único subtema central dominante.\",\n  \"evidencia\": \"A respeito das leis penais em branco e da teoria geral do delito, assinale a opção correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28867,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30519,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28867
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1466,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "8zTSapfYNa3oz7IP_PykuQ8"
+  },
+  "duracao_segundos": 14.213110799999413,
+  "usage_metadata": {
+    "promptTokenCount": 28867,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30519,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28867
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1466,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0335",
+    "tema_central_id": "5218",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5170",
+      "5174"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda múltiplos tópicos independentes da teoria geral do delito (conceito de ação, crimes omissivos, dolo, classificação de crimes) e leis penais em branco, sem um único subtema central dominante.",
+    "evidencia": "A respeito das leis penais em branco e da teoria geral do delito, assinale a opção correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "9f3bccf6579f3a57b1e2d6a1315dd7c6cc6c4d154d2bbc40a1e4d6d495d0477b"
+}

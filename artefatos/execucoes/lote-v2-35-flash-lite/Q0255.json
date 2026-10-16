@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0255",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:01:56.908063+00:00",
+  "sha256_prompt": "1f0f3bfee9b423810bff4f303eee06cd314df332847d0c2a6a8a8d09ead47921",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ffb7d5c98493f384f74bf797fb540ac76e5c01bf57f7031238a99102fb1b7fe7",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0255\",\n  \"tema_central_id\": \"5213\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente as regras de imputabilidade penal, inimputabilidade por perturbação mental, menoridade, emoção, paixão e embriaguez, correspondendo ao tema de Inimputabilidade.\",\n  \"evidencia\": \"No que diz respeito à imputabilidade penal, assinale a alternativa incorreta.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28824,
+      "candidatesTokenCount": 160,
+      "totalTokenCount": 29611,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28824
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 627,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "VS7Sas7ZLp_sz7IP0dOQqA8"
+  },
+  "duracao_segundos": 6.898323200000959,
+  "usage_metadata": {
+    "promptTokenCount": 28824,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 29611,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28824
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 627,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0255",
+    "tema_central_id": "5213",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente as regras de imputabilidade penal, inimputabilidade por perturbação mental, menoridade, emoção, paixão e embriaguez, correspondendo ao tema de Inimputabilidade.",
+    "evidencia": "No que diz respeito à imputabilidade penal, assinale a alternativa incorreta.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a2c0527d8b14478505b81172ae25d15aee5aac9a713bd7c7a7d1e28e5144358e"
+}

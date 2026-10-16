@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0312",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:20:48.087576+00:00",
+  "sha256_prompt": "5c15374213b5953299bad092754404709bcfbe21c6e8b9f72cfcc39cc6f9a7c0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "99a9ae9daa743c0e7ad92610f2ad0a46b88c95e191a3b124d0c01230150d6910",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0312\",\n  \"tema_central_id\": \"5200\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4384\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda as finalidades da pena segundo Franz von Liszt, matéria que transita entre a Criminologia e o Direito Penal (Teoria da Pena). Como há concorrência entre ramos sem discriminação exclusiva no texto, requer revisão.\",\n  \"evidencia\": \"Para Liszt, o fundamento da pena é orientado às finalidades de:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28634,
+      "candidatesTokenCount": 175,
+      "totalTokenCount": 30044,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28634
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1235,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "wTLSavisKbTqz7IP2Zi2MQ"
+  },
+  "duracao_segundos": 12.695637700000589,
+  "usage_metadata": {
+    "promptTokenCount": 28634,
+    "candidatesTokenCount": 175,
+    "totalTokenCount": 30044,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28634
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1235,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0312",
+    "tema_central_id": "5200",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4384"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda as finalidades da pena segundo Franz von Liszt, matéria que transita entre a Criminologia e o Direito Penal (Teoria da Pena). Como há concorrência entre ramos sem discriminação exclusiva no texto, requer revisão.",
+    "evidencia": "Para Liszt, o fundamento da pena é orientado às finalidades de:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "3787f661f9e1490c1e5fb1cd15d561a6d176776b88098c6bac74e424dd6295ff"
+}

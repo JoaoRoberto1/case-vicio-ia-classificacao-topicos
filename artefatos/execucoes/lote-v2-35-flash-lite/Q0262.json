@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0262",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:04:08.615401+00:00",
+  "sha256_prompt": "320006be9ec18b5126f5adbcac4e2016ffcabf87fb124f025310db985a6a06b8",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8c4aa5fb9dc2a61d0a425ce92084740d9b1587a1c3f3daa7db18c7815924e742",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0262\",\n  \"tema_central_id\": \"4703\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6734\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a superveniência de doença mental na fase de execução da pena. Como o catálogo possui o tema da Lei de Execução Penal em ramos distintos (Legislação Especial e Processo Penal), há duplicidade editorial que exige revisão.\",\n  \"evidencia\": \"Sobre a superveniência de doença mental ao apenado na fase de execução de pena, é\\ncorreto afirmar:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28988,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30254,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28988
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1080,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "2S7Sao_5HYKez7IP0_PDoA0"
+  },
+  "duracao_segundos": 7.7442912999995315,
+  "usage_metadata": {
+    "promptTokenCount": 28988,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30254,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28988
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1080,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0262",
+    "tema_central_id": "4703",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6734"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a superveniência de doença mental na fase de execução da pena. Como o catálogo possui o tema da Lei de Execução Penal em ramos distintos (Legislação Especial e Processo Penal), há duplicidade editorial que exige revisão.",
+    "evidencia": "Sobre a superveniência de doença mental ao apenado na fase de execução de pena, é\ncorreto afirmar:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "55e623814aeb6d1e29f6ae898bd59654cf4ccb249086fd54bc78d67965908f9a"
+}

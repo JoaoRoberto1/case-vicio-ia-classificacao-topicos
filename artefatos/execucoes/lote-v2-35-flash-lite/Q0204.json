@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0204",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:44:07.047947+00:00",
+  "sha256_prompt": "656d80934dafcf666bae4253ad8ebfc41a23edabd68a853664590c0aceaa0dba",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d6a35c073698b4fa4e1fd55cb01ec27fc4817d4359ddb4331b8094958e0aea5a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0204\",\n  \"tema_central_id\": \"5507\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente a aplicação da lei processual penal no tempo e o princípio do efeito imediato (tempus regit actum).\",\n  \"evidencia\": \"Em relação à lei processual penal no tempo, vigora o princípio do efeito imediato, segundo o qual tempus regit actum.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28647,
+      "candidatesTokenCount": 157,
+      "totalTokenCount": 29670,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28647
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 866,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "JyrSaviuMNTsz7IP4I_a8QI"
+  },
+  "duracao_segundos": 7.708909900000435,
+  "usage_metadata": {
+    "promptTokenCount": 28647,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 29670,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28647
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 866,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0204",
+    "tema_central_id": "5507",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente a aplicação da lei processual penal no tempo e o princípio do efeito imediato (tempus regit actum).",
+    "evidencia": "Em relação à lei processual penal no tempo, vigora o princípio do efeito imediato, segundo o qual tempus regit actum.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a62e0086e9b33316e97a3530a0785030846bb40a761212f5ef180c6891df178f"
+}

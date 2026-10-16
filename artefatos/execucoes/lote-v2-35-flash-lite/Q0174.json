@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0174",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:28:45.406885+00:00",
+  "sha256_prompt": "3daa582978531b8f876d33352aa2c012f00433ecec6676d59152295e8af47f99",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8ed09c2c48e15a6201b1cdb57d526352ef16c1f90cf94bb3733cbaebbebf8916",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0174\",\n  \"tema_central_id\": \"5133\",\n  \"extras_ids\": [\n    \"5166\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda múltiplos crimes cibernéticos e informáticos previstos em diplomas distintos (ECA, invasão de dispositivo informático e estelionato por fraude eletrônica), configurando mistura de proposições independentes sem um tema central dominante único, embora haja destaque para os crimes contra a inviolabilidade de segredos/dispositivo informático.\",\n  \"evidencia\": \"Sobre os crimes cibernéticos ou informáticos, é CORRETO afirmar:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28835,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 30706,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28835
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1675,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "jibSauWTMd_rz7IP2cDp-Q8"
+  },
+  "duracao_segundos": 13.70073929999944,
+  "usage_metadata": {
+    "promptTokenCount": 28835,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 30706,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28835
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1675,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0174",
+    "tema_central_id": "5133",
+    "extras_ids": [
+      "5166"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda múltiplos crimes cibernéticos e informáticos previstos em diplomas distintos (ECA, invasão de dispositivo informático e estelionato por fraude eletrônica), configurando mistura de proposições independentes sem um tema central dominante único, embora haja destaque para os crimes contra a inviolabilidade de segredos/dispositivo informático.",
+    "evidencia": "Sobre os crimes cibernéticos ou informáticos, é CORRETO afirmar:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "afa9c1aafd1cec74ea9a3349d5aa48e27cc9c4928618bbe8344a62c45007f909"
+}

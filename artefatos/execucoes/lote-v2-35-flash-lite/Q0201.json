@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0201",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:43:09.308865+00:00",
+  "sha256_prompt": "46a321babddd0418fcd90abaf6175b2eae647428bd17b68f69648d6066215875",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "5c47e4af5a7c2649263e9a9ce7fed0e4d8a2c7376c6c031a8bbb62180ef249a9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0201\",\n  \"tema_central_id\": \"5103\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda diretamente o crime de estupro de vulnerável, testando o entendimento jurisprudencial acerca da irrelevância do consentimento da vítima menor de idade, da sua experiência sexual anterior e da existência de relacionamento amoroso.\",\n  \"evidencia\": \"José, com trinta anos de idade, manteve, entre 2013 e 2015, relacionamento amoroso com uma menor que atualmente tem treze anos de idade.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28914,
+      "candidatesTokenCount": 187,
+      "totalTokenCount": 29620,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28914
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 519,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "7inSar8pz7Oa2Q_fm-zgAw"
+  },
+  "duracao_segundos": 6.451554699999178,
+  "usage_metadata": {
+    "promptTokenCount": 28914,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 29620,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28914
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 519,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0201",
+    "tema_central_id": "5103",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda diretamente o crime de estupro de vulnerável, testando o entendimento jurisprudencial acerca da irrelevância do consentimento da vítima menor de idade, da sua experiência sexual anterior e da existência de relacionamento amoroso.",
+    "evidencia": "José, com trinta anos de idade, manteve, entre 2013 e 2015, relacionamento amoroso com uma menor que atualmente tem treze anos de idade.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "3862f030a52af2f4324da69c4024cabaee9e315207976d27e1f59fa4a5aec1f6"
+}

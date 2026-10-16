@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Q0184",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:37:09.731538+00:00",
+  "sha256_prompt": "ce847b68d9de20716bf3798478a0267b2dcb48afd52a1aa6b73d474a43194c44",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4b49b41051d30418cc3feb04fb6c0ddb09cb2cb50dce82a0c163da433d929fb8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0184\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda disposições relativas à prisão em flagrante no âmbito da Lei de Drogas (Lei n.º 11.343/2006), devendo ser classificada no tema de Tráfico de Drogas da legislação especial, com concorrência do ramo equivalente na disciplina penal.\",\n  \"evidencia\": \"Julgue o item seguinte com base na Lei n.º 11.343/2006.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28673,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 29679,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28673
+        }
+      ],
+      "thoughtsTokenCount": 805,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "hijSarjaH6O_qtsPhdDi0Ak"
+  },
+  "duracao_segundos": 7.551023600000008,
+  "usage_metadata": {
+    "promptTokenCount": 28673,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 29679,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28673
+      }
+    ],
+    "thoughtsTokenCount": 805,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0184",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda disposições relativas à prisão em flagrante no âmbito da Lei de Drogas (Lei n.º 11.343/2006), devendo ser classificada no tema de Tráfico de Drogas da legislação especial, com concorrência do ramo equivalente na disciplina penal.",
+    "evidencia": "Julgue o item seguinte com base na Lei n.º 11.343/2006.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "18b1d1a3c487779302b9a1c6e5dfb0722d3c6dceac67388211352c037758e4c4"
+}

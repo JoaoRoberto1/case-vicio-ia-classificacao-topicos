@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0154",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:18:24.490549+00:00",
+  "sha256_prompt": "5e4f31c7efa7b837c0626e1eb37a5aa973c0d450938d5c3ac40ffb76bc478c94",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "12b25b944352fefe7f3b487205fb3c27bb58140db9c498efbaea0a60d7d72ab4",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0154\",\n  \"tema_central_id\": \"\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": true,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a Lei nº 9.029/95, que trata de práticas discriminatórias e crimes relacionados à gravidez no trabalho (legislação penal especial). Como o catálogo não possui tema específico para esta lei específica, a questão carece de tema ativo adequado.\",\n  \"evidencia\": \"A Lei no 9.029/95, que define práticas discriminatórias relativas à gravidez no trabalho, expressamente considera crime:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28707,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 31038,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28707
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 2145,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ISTSauuDE_unmtkPh66j0AI"
+  },
+  "duracao_segundos": 10.045498899999984,
+  "usage_metadata": {
+    "promptTokenCount": 28707,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 31038,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28707
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 2145,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0154",
+    "tema_central_id": "",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": true,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a Lei nº 9.029/95, que trata de práticas discriminatórias e crimes relacionados à gravidez no trabalho (legislação penal especial). Como o catálogo não possui tema específico para esta lei específica, a questão carece de tema ativo adequado.",
+    "evidencia": "A Lei no 9.029/95, que define práticas discriminatórias relativas à gravidez no trabalho, expressamente considera crime:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "8599de38d5a938a38ba73258337901213ddfb441192ec0ae7c626d561b5070b5"
+}

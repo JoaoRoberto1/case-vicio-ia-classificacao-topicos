@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0203",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:43:48.882623+00:00",
+  "sha256_prompt": "674fc2fd32b77152be449c092de21d4ec946ce824590d9c11803c38b82e68048",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "8b76a57c24a19166abffe7bd1f0eb9b13483ba83abcc9ac10a6c24500b5ae184",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0203\",\n  \"tema_central_id\": \"4702\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6723\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a Lei de Lavagem de Dinheiro (Lei nº 9.613/1998). Como o catálogo apresenta nós idênticos em ramos diferentes (Legislação Especial e Penal), o caso requer revisão editorial devido à duplicação.\",\n  \"evidencia\": \"Lei n.º 9.613/1998, que dispõe sobre lavagem de dinheiro.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28657,
+      "candidatesTokenCount": 191,
+      "totalTokenCount": 29623,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28657
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 775,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "FSrSatK5KIWFz7IP342jqQ8"
+  },
+  "duracao_segundos": 8.089565399999628,
+  "usage_metadata": {
+    "promptTokenCount": 28657,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 29623,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28657
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 775,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0203",
+    "tema_central_id": "4702",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6723"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a Lei de Lavagem de Dinheiro (Lei nº 9.613/1998). Como o catálogo apresenta nós idênticos em ramos diferentes (Legislação Especial e Penal), o caso requer revisão editorial devido à duplicação.",
+    "evidencia": "Lei n.º 9.613/1998, que dispõe sobre lavagem de dinheiro.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b60ba76bfa0bd9c13a282073ea3de3bc69f57a2e7fb67cf5e4fbdaf685334bfb"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0243",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:58:04.995955+00:00",
+  "sha256_prompt": "ebd25b581f9ca48fc91d65241884788bc196f7412c952ced8de69cf95c08246c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f8c1aadce01dd6e6d4683e0f2ffa3616174b21c6c768fc031e585199f353173a",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0243\",\n  \"tema_central_id\": \"5178\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda os requisitos do arrependimento posterior, como a restituição da coisa até o recebimento da denúncia, tema classificado no escopo de desdobramentos do iter criminis e institutos correlatos.\",\n  \"evidencia\": \"antes do seu recebimento, por ato voluntário de Antônio, o automóvel furtado é devolvido à vítima.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28693,
+      "candidatesTokenCount": 170,
+      "totalTokenCount": 29849,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28693
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 986,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "bS3SarCYO83iz7IP5ZSY-QM"
+  },
+  "duracao_segundos": 11.07274099999995,
+  "usage_metadata": {
+    "promptTokenCount": 28693,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 29849,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 986,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0243",
+    "tema_central_id": "5178",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda os requisitos do arrependimento posterior, como a restituição da coisa até o recebimento da denúncia, tema classificado no escopo de desdobramentos do iter criminis e institutos correlatos.",
+    "evidencia": "antes do seu recebimento, por ato voluntário de Antônio, o automóvel furtado é devolvido à vítima.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "9ae5cee323c20e6247eec1bb7b9cba7e26e6213c5a0c01e2d153d443e0c7e15d"
+}

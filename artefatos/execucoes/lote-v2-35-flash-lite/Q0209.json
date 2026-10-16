@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "id": "Q0209",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:51:53.811059+00:00",
+  "sha256_prompt": "b6ce305ccc674ee7e6af6d6b084f8ef0d2e064373214c8fe0181fa0d90b270dd",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f04f3545214aa9216ff9e945c807f3855e0ac5c7c41c6a553b9d02e182a253fa",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0209",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:46:19.728156+00:00",
+      "sha256_prompt": "b6ce305ccc674ee7e6af6d6b084f8ef0d2e064373214c8fe0181fa0d90b270dd",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "f04f3545214aa9216ff9e945c807f3855e0ac5c7c41c6a553b9d02e182a253fa",
+      "numero_tentativa": 1,
+      "resposta_bruta": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "{\n  \"id\": \"Q0209\",\n  \"tema_central_id\": \"5582\",\n  \"extras_ids\": [\n    \"5499\"\n  ],\n  \"temas_alternativos\": [\n    \"5499\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda a repercussão do princípio da presunção de inocência sobre o registro de inquéritos policiais em atestados de antecedentes, misturando conhecimentos de princípios processuais penais e de inquérito policial, o que justifica o uso de requer_revisao.\",\n  \"evidencia\": \"Em razão do princípio constitucional da presunção de inocência, é vedado à autoridade policial mencionar anotações referentes à instauração de inquérito nos atestados de antecedentes que lhe forem solicitados.\",\n  \"requer_revisao\": true\n}",
+                  "thoughtSignature": "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"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0,
+            "citationMetadata": {
+              "citationSources": [
+                {
+                  "startIndex": 476,
+                  "endIndex": 691,
+                  "uri": "https://bisuparaconcurso.blogspot.com/2014/10/questoes-com-gabarito-para-pf-2014.html",
+                  "license": ""
+                }
+              ]
+            }
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 28642,
+          "candidatesTokenCount": 222,
+          "totalTokenCount": 30098,
+          "cachedContentTokenCount": 26279,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 28642
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 26279
+            }
+          ],
+          "thoughtsTokenCount": 1234,
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "rCrSavPfIK3oz7IP_PykuQ8"
+      },
+      "duracao_segundos": 9.392411200000424,
+      "usage_metadata": {
+        "promptTokenCount": 28642,
+        "candidatesTokenCount": 222,
+        "totalTokenCount": 30098,
+        "cachedContentTokenCount": 26279,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28642
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 26279
+          }
+        ],
+        "thoughtsTokenCount": 1234,
+        "serviceTier": "standard"
+      },
+      "status": "erro",
+      "erro": {
+        "tipo": "ErroValidacaoLocal",
+        "mensagem": "Falha ao validar ou processar a resposta localmente; confira o recibo salvo."
+      },
+      "sha256_registro": "525204d6d1a07c458b672a0a3a9c80e6146d984fb29f0b675c93a2bd3b68d56d"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0209\",\n  \"tema_central_id\": \"5498\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5582\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda a vedação de menção a inquéritos em andamento em atestados de antecedentes emitidos pela autoridade policial sob o enfoque da presunção de inocência, gerando concorrência entre o estudo do inquérito policial e os princípios do processo penal.\",\n  \"evidencia\": \"Em razão do princípio constitucional da presunção de inocência, é vedado à autoridade policial mencionar anotações referentes à instauração de inquérito nos atestados de antecedentes que lhe forem solicitados.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "citationMetadata": {
+          "citationSources": [
+            {
+              "startIndex": 456,
+              "endIndex": 671,
+              "uri": "https://bisuparaconcurso.blogspot.com/2014/10/questoes-com-gabarito-para-pf-2014.html",
+              "license": ""
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28642,
+      "candidatesTokenCount": 211,
+      "totalTokenCount": 30456,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28642
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1603,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "-ivSaqSsLviO6dkP49u3wAc"
+  },
+  "duracao_segundos": 9.622174600001017,
+  "usage_metadata": {
+    "promptTokenCount": 28642,
+    "candidatesTokenCount": 211,
+    "totalTokenCount": 30456,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28642
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1603,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0209",
+    "tema_central_id": "5498",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5582"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda a vedação de menção a inquéritos em andamento em atestados de antecedentes emitidos pela autoridade policial sob o enfoque da presunção de inocência, gerando concorrência entre o estudo do inquérito policial e os princípios do processo penal.",
+    "evidencia": "Em razão do princípio constitucional da presunção de inocência, é vedado à autoridade policial mencionar anotações referentes à instauração de inquérito nos atestados de antecedentes que lhe forem solicitados.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "849c64f2683b4e040179deb4c7f4f94dd0a3c23afa2e4ca0273b7bed0215d07a"
+}

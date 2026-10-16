@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0178",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:35:01.618660+00:00",
+  "sha256_prompt": "51d4cb7bf66e82e35726a3fce5b7f001f0b6117774efdd4595174d5f874de31f",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a57987ad747118204dd467c8160e20b376a0baf4f642dc6df74b8779fa725fe6",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0178\",\n  \"tema_central_id\": \"4697\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 1.0,\n  \"motivo\": \"A questão aborda o porte de arma de fogo por servidores do Poder Judiciário integrantes da Polícia Judicial, matéria disciplinada pelo Estatuto do Desarmamento (Lei nº 10.826/2003).\",\n  \"evidencia\": \"A Resolução CNJ nº 467/2022 regulamentou o inciso XI do artigo 6º da Lei nº 10.826/2003 e prevê que o porte de arma de fogo de servidores dos quadros pessoais do Poder Judiciário é:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "ErkKCrYKAWkUfRMmKdGcdGEuexGf7SUC1gYyHvthW31mI0O2nZsrRL8MJLmmbEKhAVGX+o3tYs/N2C1ecPgCPFnytqqpgqLNW9a2jgUGv6ZR9Cl0FcWETY4NiSxTYzuIDv5kHhZ936EVdv4enK0PtfAOX4lGjNw6LmkTfF0PDhtXEsmbBalCZYK/IUPUCHz8A7r16Yg5EBVy5NF7/cIwDFdpoQnzL0uqwf6vmXt1HGYR8vTRaK1SMnrDcnL/9Mn1cfjeAzzmz+F+pufdD5hEY8XZ4g5HXXfQHwUqJR4g94xuzZ9sWGqUgifAe5TjzcRv+0M3GJ3xd12lYiRxO5YNzP1fD6eTgRlfKf1Wu1d5uT50zxtyMSfmA4MNlnIUkGdI6fRzoAQTpjro6A2qYl/tMAh42syFC2X9PcKG+3XZVl+S0r/yZENauAHE54YgiqcZ/IgTzkc5+2Nfw0UN8H4mF7kkDAGvqwXkacTqmuH/xH80//mqhnhTtTCJXUj0NRyatr/IyESJFAOMm4nYYHIEWMFga2w80wnBaFfJ1yhkZGF4EiXgZhQ6AHhf4J6/OWufksvtITdoc5qhXcqEcRmRalSBeDg6rmTUwYKjENeM2nK/YqwrFU3ayoEMzAw+7Mjleq+vwxvUREvjNz743DuZkpK9+sJaCt6sPOVc+Tn6tiZFfTSBKEJ1WSKeiYk1rr/CoZj0RLioMh7XFNGMjwHGbxH9+wCPwYCYH8UOMuM13OEgvYD4nb8ifxr1yLk8ERldPz/SOocf89ZiV3x3Jl/+aVvCGp8QNAKEEfee4uzqXr2GblUEYYcuwLYtAp7vNmxpS1QA3mx5qrhNPXNgOaipK0Ct4oM/Xqin0re6ebiA+MCSFyPZRZZ4YXaWiDcOOf63Ot8XWtd6cuu0TwzbiA/QP28NJVpLCdg8z8K8A1Q0seW7oNzdoznqY9CaDPI6IL/t15okYhaIjbLgFTlzTu1mrrWLG2IYplTXDjRzxu9y7gW6xN+udhX/kWE/VcdIK6woMmgPU/5/ebmJrq7KOL+ZMI0uLoFA8ZXz7TMCewdftJvKQ5nv6360hj0pebQ1ytLxCQGncolYy1O6k5srJSthYIuZ2mJlkcZPFmk5ILsruzz/B0OM31KIfm4yLHcO/HFdUnWY6TDR43jt/UmZvGn2ok620203Ejr8eN48Z/UKpx7jFOxjqkVdzBpdllRdZuHFgqb+9AfTrecXDgibBivE1cgAa6bJM7v9aGCaX4T2ajyZ/RtR05zflVTH0DcMKIGYjelHFszQxM6CpW/KPaQnQZ8BPx+Avi8MNL+6Sn3fLm7lwnEUKjHtS+0zGRq8Ujlhl2XFMPOxpnUXQVPj1ds41cVotiTkLeYygu0bS9Jgp3ZjOscx62J+nMWDMycDEZy6slx9evcBDwYk6HX9sN1lnoaox9WZrn760xXHa+/BfFRBzEXPfJJ8Zo1Dg8jRn4j6FzMPQEfja1pnExoCR69aDWwbWhKhx9ayFWoqvyH5nVCrsrEamxjnZcoE66iOqXo3TH7LCtz3lNIS4wNzYVT57F0RElkQoz4ro3YoD1AsTVovAunDotK+umUX7Kfs9dDbF+wgsQi7JKB7r9dScqRGJu/MMNP8BW5Xvm68FAgqnEXEZ9H0/QIjGYIRLngu3+eFrAp1UFil604jdm80gHFKFrDZZkAV581FenvLNRAVN0vQ/+51G1rBkxRtlG6EBazVanS0wCOLZrsfkNZqpaWCYbx8wgOnhuVdjtmIVCZZicEkkHI9lpmdOYEN96E="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28893,
+      "candidatesTokenCount": 213,
+      "totalTokenCount": 29499,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28893
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 393,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "BijSaom_IMfjqtsPtpGmqAQ"
+  },
+  "duracao_segundos": 7.659084099999745,
+  "usage_metadata": {
+    "promptTokenCount": 28893,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 29499,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28893
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 393,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0178",
+    "tema_central_id": "4697",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 1.0,
+    "motivo": "A questão aborda o porte de arma de fogo por servidores do Poder Judiciário integrantes da Polícia Judicial, matéria disciplinada pelo Estatuto do Desarmamento (Lei nº 10.826/2003).",
+    "evidencia": "A Resolução CNJ nº 467/2022 regulamentou o inciso XI do artigo 6º da Lei nº 10.826/2003 e prevê que o porte de arma de fogo de servidores dos quadros pessoais do Poder Judiciário é:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "78028d7f40fcaacdb6cedf175cc4cdb4ca57ad4218bbabda835c1f0b3b221af2"
+}

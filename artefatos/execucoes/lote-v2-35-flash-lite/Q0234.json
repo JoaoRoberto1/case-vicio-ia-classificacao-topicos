@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0234",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:55:30.394429+00:00",
+  "sha256_prompt": "05c13d4d2bbd84ff47f48ff6e2d54e20a28136f40327afeda1833f1a82ddddb5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "25d245e3b72c85fdb1748004b403b94b8e8fd8eed6594e1dd40c8cfe8cb4e947",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0234\",\n  \"tema_central_id\": \"4381\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4382\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda os saberes que compõem a interdisciplinaridade da Criminologia e suas ciências auxiliares e constitutivas, diferenciando-a da dogmática jurídica, o que se enquadra no estudo do conceito e objeto da Criminologia.\",\n  \"evidencia\": \"A interdisciplinaridade é intrínseca à natureza da criminologia.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28643,
+      "candidatesTokenCount": 178,
+      "totalTokenCount": 29647,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28643
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 826,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "0yzSaq7XDpuP6dkPxc6DwAI"
+  },
+  "duracao_segundos": 7.73565630000121,
+  "usage_metadata": {
+    "promptTokenCount": 28643,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 29647,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28643
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 826,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0234",
+    "tema_central_id": "4381",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4382"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda os saberes que compõem a interdisciplinaridade da Criminologia e suas ciências auxiliares e constitutivas, diferenciando-a da dogmática jurídica, o que se enquadra no estudo do conceito e objeto da Criminologia.",
+    "evidencia": "A interdisciplinaridade é intrínseca à natureza da criminologia.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "dd4f68163f40e66525ea2ecf18cd0b312efb0549f0b7809770ccb1c783d3c37c"
+}

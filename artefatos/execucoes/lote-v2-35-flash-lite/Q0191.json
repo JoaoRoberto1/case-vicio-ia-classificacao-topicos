@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0191",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:39:25.962871+00:00",
+  "sha256_prompt": "95620d4105fa8fb5698fb88d1aa5ff5766b8a16d73c62459a7126610efaaa591",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "919a002472c51dfd1361f8da3e6b522c5d29a309c7ebf871a52ebc5aec7d3382",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0191\",\n  \"tema_central_id\": \"5561\",\n  \"extras_ids\": [\n    \"5567\"\n  ],\n  \"temas_alternativos\": [\n    \"5560\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda simultaneamente dois recursos em espécie distintos previstos no Código de Processo Penal (carta testemunhável e recurso em sentido estrito), exigindo requerimento de revisão devido à mistura de proposições independentes.\",\n  \"evidencia\": \"I. Recurso de caráter subsidiário, cabível de decisão que denegar recurso.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28711,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30535,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28711
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1638,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "DinSasTtLcfQz7IPl-LbsAE"
+  },
+  "duracao_segundos": 11.889200900000105,
+  "usage_metadata": {
+    "promptTokenCount": 28711,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30535,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28711
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1638,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0191",
+    "tema_central_id": "5561",
+    "extras_ids": [
+      "5567"
+    ],
+    "temas_alternativos": [
+      "5560"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda simultaneamente dois recursos em espécie distintos previstos no Código de Processo Penal (carta testemunhável e recurso em sentido estrito), exigindo requerimento de revisão devido à mistura de proposições independentes.",
+    "evidencia": "I. Recurso de caráter subsidiário, cabível de decisão que denegar recurso.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "4b1d43996b0d82cafcb6fc1f86ca67508e2ca4c2295a2e95c272d3b27e467d32"
+}

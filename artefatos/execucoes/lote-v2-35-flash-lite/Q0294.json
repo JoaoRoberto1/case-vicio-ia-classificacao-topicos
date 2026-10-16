@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "id": "Q0294",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:15:18.257417+00:00",
+  "sha256_prompt": "9481cf7876bd0c29aff8789b29fae22ea425ffef2557af4b7f190da647e3996e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "78c0ce96c160aba0197ad14ffdf294b7b189344d3d42b19d1dac93994f6e28ae",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0294",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T14:14:06.497189+00:00",
+      "sha256_prompt": "9481cf7876bd0c29aff8789b29fae22ea425ffef2557af4b7f190da647e3996e",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "78c0ce96c160aba0197ad14ffdf294b7b189344d3d42b19d1dac93994f6e28ae",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.347753100000773,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "c1e8ac2f19add0fbb4e50bb0fd769d8108e9226101554f94027c40305f8f3d6a"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0294",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T14:14:42.427750+00:00",
+      "sha256_prompt": "9481cf7876bd0c29aff8789b29fae22ea425ffef2557af4b7f190da647e3996e",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "78c0ce96c160aba0197ad14ffdf294b7b189344d3d42b19d1dac93994f6e28ae",
+      "numero_tentativa": 2,
+      "status": "erro",
+      "duracao_segundos": 1.4326880000007804,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "9e197190208b336c2e3a7d17ce2984c92faa8026d450c1525e852c2cc29b6fda"
+    }
+  ],
+  "numero_tentativa": 3,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0294\",\n  \"tema_central_id\": \"5211\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5212\",\n    \"5214\",\n    \"5217\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda múltiplos subtemas dentro da teoria da culpabilidade (inimputabilidade, causas supralegais, teoria normativa pura e erro de proibição) nas alternativas, sem um foco central exclusivo em apenas um subtopico, o que justifica a escolha do tema raiz de culpabilidade com necessidade de revisão pela mistura de proposições.\",\n  \"evidencia\": \"A respeito da culpabilidade, assinale a opção correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28898,
+      "candidatesTokenCount": 209,
+      "totalTokenCount": 30566,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28898
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1459,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dzHSarKpC8fQz7IPl-LbsAE"
+  },
+  "duracao_segundos": 13.111086900000373,
+  "usage_metadata": {
+    "promptTokenCount": 28898,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 30566,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28898
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1459,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0294",
+    "tema_central_id": "5211",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5212",
+      "5214",
+      "5217"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda múltiplos subtemas dentro da teoria da culpabilidade (inimputabilidade, causas supralegais, teoria normativa pura e erro de proibição) nas alternativas, sem um foco central exclusivo em apenas um subtopico, o que justifica a escolha do tema raiz de culpabilidade com necessidade de revisão pela mistura de proposições.",
+    "evidencia": "A respeito da culpabilidade, assinale a opção correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "7fa6dad6598196a30a27dd15c2763b30e7edd1de28f6dd6e9a0f35396f2808e3"
+}

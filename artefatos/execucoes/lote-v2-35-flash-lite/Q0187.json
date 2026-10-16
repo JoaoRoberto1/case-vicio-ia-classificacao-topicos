@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0187",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:38:02.866594+00:00",
+  "sha256_prompt": "98b57456cc1d4f385ce73740992b692d0f7f2c47441d74c4d20b61b1490c7783",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9a03f43800e442a7f811bbbda5ffcfb32db43533ed99704da50515ddbe24eb49",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0187\",\n  \"tema_central_id\": \"5209\",\n  \"extras_ids\": [\n    \"5092\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda diretamente os efeitos da condenação penal e extrapenais (perda de cargo, confisco de bens, perda do poder familiar), tema central da Teoria da Pena, tendo como infração de origem a corrupção passiva.\",\n  \"evidencia\": \"condenado por decisão transitada em julgado pela prática do crime de corrupção.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28924,
+      "candidatesTokenCount": 181,
+      "totalTokenCount": 30503,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28924
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1398,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "uyjSavSyNrKJz7IP-_HlKA"
+  },
+  "duracao_segundos": 9.941014299999551,
+  "usage_metadata": {
+    "promptTokenCount": 28924,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 30503,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28924
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1398,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "caixa_e_espacos_normalizados",
+  "sugestao": {
+    "id": "Q0187",
+    "tema_central_id": "5209",
+    "extras_ids": [
+      "5092"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda diretamente os efeitos da condenação penal e extrapenais (perda de cargo, confisco de bens, perda do poder familiar), tema central da Teoria da Pena, tendo como infração de origem a corrupção passiva.",
+    "evidencia": "condenado por decisão transitada em julgado pela prática do crime de corrupção.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "4fcedd4f48a64f8e99c7fbc107ea3276a1f9cd2ff9627e4266cfed5c685b7934"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0257",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:02:30.684228+00:00",
+  "sha256_prompt": "b1107236499f0b959e45c76b53fd02705fe842c86a13fd23dd8d4cc19d542330",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "ec0a67e78a5c857d7ac8d935642fc8098f4fd28e0a9bf7867287176ef13f43a0",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0257\",\n  \"tema_central_id\": \"5227\",\n  \"extras_ids\": [\n    \"5219\"\n  ],\n  \"temas_alternativos\": [\n    \"5220\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda simultaneamente múltiplos tópicos da Teoria do Crime, englobando o conceito de tipicidade, o sujeito ativo e a relação entre tipicidade e ilicitude, sem um único foco estrito que esgote todos os enunciados.\",\n  \"evidencia\": \"II. O autor do crime é a pessoa humana, também designado como sujeito ativo de crime.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28993,
+      "candidatesTokenCount": 196,
+      "totalTokenCount": 31066,
+      "cachedContentTokenCount": 26283,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28993
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26283
+        }
+      ],
+      "thoughtsTokenCount": 1877,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "dy7SarLXK--1qtsPhZmS2QY"
+  },
+  "duracao_segundos": 10.283694900001137,
+  "usage_metadata": {
+    "promptTokenCount": 28993,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 31066,
+    "cachedContentTokenCount": 26283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28993
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26283
+      }
+    ],
+    "thoughtsTokenCount": 1877,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0257",
+    "tema_central_id": "5227",
+    "extras_ids": [
+      "5219"
+    ],
+    "temas_alternativos": [
+      "5220"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda simultaneamente múltiplos tópicos da Teoria do Crime, englobando o conceito de tipicidade, o sujeito ativo e a relação entre tipicidade e ilicitude, sem um único foco estrito que esgote todos os enunciados.",
+    "evidencia": "II. O autor do crime é a pessoa humana, também designado como sujeito ativo de crime.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "8f60934bfdb8371d1d1e585695c641dd67d7e5908c6141bcefb5caf8b34158f9"
+}

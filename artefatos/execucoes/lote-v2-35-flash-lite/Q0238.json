@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0238",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:56:45.760476+00:00",
+  "sha256_prompt": "bc4ed593f93ed4ffced8a72c46208ad75668d0fd08795a576705580a0f4bf20c",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "80b0dbcc48325a8dcf3e1cd24bffaffba96c6d826cff01ae7dcca8316c6cbea2",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0238\",\n  \"tema_central_id\": \"5523\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o reforço da fiança, instituto integrante da disciplina da liberdade provisória e das cautelares reais no âmbito do Código de Processo Penal.\",\n  \"evidencia\": \"Será exigido o reforço da fiança quando for inovada a classificação do delito, nos termos do Código de Processo Penal.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28615,
+      "candidatesTokenCount": 161,
+      "totalTokenCount": 29842,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28615
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 1066,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Hi3SarjiI6LTz7IPibWREQ"
+  },
+  "duracao_segundos": 8.25198839999939,
+  "usage_metadata": {
+    "promptTokenCount": 28615,
+    "candidatesTokenCount": 161,
+    "totalTokenCount": 29842,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28615
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 1066,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0238",
+    "tema_central_id": "5523",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o reforço da fiança, instituto integrante da disciplina da liberdade provisória e das cautelares reais no âmbito do Código de Processo Penal.",
+    "evidencia": "Será exigido o reforço da fiança quando for inovada a classificação do delito, nos termos do Código de Processo Penal.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "d8c9edcf2f8f3fcadf22c6588d49e8919b0fccc65c7970ef95b67e64ccd73eb3"
+}

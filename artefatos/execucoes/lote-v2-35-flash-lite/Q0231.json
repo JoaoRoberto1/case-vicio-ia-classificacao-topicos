@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0231",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:54:32.507850+00:00",
+  "sha256_prompt": "0663d5bd8e6cb879bd5adf1d7af5fe21eac47257132af777aa6a289a11a714d1",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "edb82acb40fe0f874508a2b150094211d6923333b6de311f0637c66f868762ab",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0231\",\n  \"tema_central_id\": \"5224\",\n  \"extras_ids\": [\n    \"4708\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão exige o conhecimento sobre o instituto do erro de tipo essencial, pertencente à Teoria do Crime, embora contextualizado no cenário do tráfico de drogas.\",\n  \"evidencia\": \"erro sobre elemento constitutivo do tipo, ou seja, em hipótese de erro de tipo essencial poderá\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28669,
+      "candidatesTokenCount": 163,
+      "totalTokenCount": 30002,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28669
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1170,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "mSzSavHrH46sz7IP9ZXkgQI"
+  },
+  "duracao_segundos": 8.811960299999555,
+  "usage_metadata": {
+    "promptTokenCount": 28669,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 30002,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28669
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1170,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0231",
+    "tema_central_id": "5224",
+    "extras_ids": [
+      "4708"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão exige o conhecimento sobre o instituto do erro de tipo essencial, pertencente à Teoria do Crime, embora contextualizado no cenário do tráfico de drogas.",
+    "evidencia": "erro sobre elemento constitutivo do tipo, ou seja, em hipótese de erro de tipo essencial poderá",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "bf9708c25155368c57407474b98b84a818f85a3da72ddf63a4e2b55dfb46ae8e"
+}

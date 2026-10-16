@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "Q0163",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:22:53.233662+00:00",
+  "sha256_prompt": "05aa32571551c445d76e8557208646ec6a40a1aaf6753a8700c196ff4ce4602e",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "9ac6f3009aa6b52f119085e2915819fb08a125de6a0c6a41a8c8aa3913a9be76",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0163",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:22:18.547703+00:00",
+      "sha256_prompt": "05aa32571551c445d76e8557208646ec6a40a1aaf6753a8700c196ff4ce4602e",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "9ac6f3009aa6b52f119085e2915819fb08a125de6a0c6a41a8c8aa3913a9be76",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.2494858999998542,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "b4b9311fcbeff7a37a8eee716106d57725afd18e7cf82b06afc534dc2518722f"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0163\",\n  \"tema_central_id\": \"4684\",\n  \"extras_ids\": [\n    \"5133\"\n  ],\n  \"temas_alternativos\": [\n    \"6716\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão aborda a conduta de diretor de presídio ao interceptar e abrir correspondência de preso, discutindo a subsunção do fato à Lei de Abuso de Autoridade e aos crimes contra a inviolabilidade da correspondência no Código Penal. Há duplicidade entre os ramos de Legislação Especial e Penal para o tema de Abuso de Autoridade, o que demanda revisão editorial.\",\n  \"evidencia\": \"intercepta uma carta fechada e destinada ao detento, e, após abri-la, lê o seu conteúdo\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28818,
+      "candidatesTokenCount": 226,
+      "totalTokenCount": 30474,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28818
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1430,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "LiXSav5SrezPsg-Dsc_pBA"
+  },
+  "duracao_segundos": 8.964305100000274,
+  "usage_metadata": {
+    "promptTokenCount": 28818,
+    "candidatesTokenCount": 226,
+    "totalTokenCount": 30474,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28818
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1430,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0163",
+    "tema_central_id": "4684",
+    "extras_ids": [
+      "5133"
+    ],
+    "temas_alternativos": [
+      "6716"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão aborda a conduta de diretor de presídio ao interceptar e abrir correspondência de preso, discutindo a subsunção do fato à Lei de Abuso de Autoridade e aos crimes contra a inviolabilidade da correspondência no Código Penal. Há duplicidade entre os ramos de Legislação Especial e Penal para o tema de Abuso de Autoridade, o que demanda revisão editorial.",
+    "evidencia": "intercepta uma carta fechada e destinada ao detento, e, após abri-la, lê o seu conteúdo",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b3acf4703ae7631f01a9d89421770f638d2ea0e8a68bf508ca6ebc70c91818b6"
+}

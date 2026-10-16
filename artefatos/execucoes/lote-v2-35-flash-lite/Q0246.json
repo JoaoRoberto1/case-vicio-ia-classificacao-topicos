@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0246",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:58:50.988819+00:00",
+  "sha256_prompt": "21bdc06bc93afe50c46f5cefe407e2749da51db896835938c329139dafa22b40",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "4c74afd83d9c25b6269edd0caddd3b79a659ddb4d64a543fd91bdc5c6e4e6e75",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0246\",\n  \"tema_central_id\": \"5527\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a decisão cabível ao término do sumário de culpa no Tribunal do Júri diante de réu semi-imputável, enquadrando-se perfeitamente no tema de pronúncia e absolvição sumária.\",\n  \"evidencia\": \"No procedimento do júri, presentes indícios da autoria e prova da materialidade, se ao término da instrução do sumário de culpa ficar provado tecnicamente que o acusado é semi-imputável, o juiz deverá:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28683,
+      "candidatesTokenCount": 198,
+      "totalTokenCount": 29830,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28683
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 949,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "my3Sat_QN6Oez7IPrZfCwQ8"
+  },
+  "duracao_segundos": 9.912716799999544,
+  "usage_metadata": {
+    "promptTokenCount": 28683,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 29830,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28683
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 949,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0246",
+    "tema_central_id": "5527",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a decisão cabível ao término do sumário de culpa no Tribunal do Júri diante de réu semi-imputável, enquadrando-se perfeitamente no tema de pronúncia e absolvição sumária.",
+    "evidencia": "No procedimento do júri, presentes indícios da autoria e prova da materialidade, se ao término da instrução do sumário de culpa ficar provado tecnicamente que o acusado é semi-imputável, o juiz deverá:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "07e852f1a4279330e090f459e9e29e88ad4cbbbce9c92b5a6977783e398700d6"
+}

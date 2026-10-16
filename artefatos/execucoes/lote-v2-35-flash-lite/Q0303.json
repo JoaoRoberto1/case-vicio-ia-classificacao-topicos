@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0303",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:18:00.120938+00:00",
+  "sha256_prompt": "444db9cc3fea43d5c95a604627a759a28a3caa75a9a0d94b7276f3608761d2ca",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a2045f845d5819b530352ae54bd20096a1aee9bdfd2ce30efd61acee5e8f972f",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0303\",\n  \"tema_central_id\": \"5180\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5181\",\n    \"5182\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda regras gerais sobre a aplicação da lei penal, englobando proposições independentes sobre tempo do crime, lei penal no espaço, extraterritorialidade e contagem de prazos, o que justifica a classificação no tema abrangente com necessidade de revisão pela pluralidade de tópicos.\",\n  \"evidencia\": \"Com relação à aplicação da lei penal, assinale a opção correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28818,
+      "candidatesTokenCount": 193,
+      "totalTokenCount": 30818,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28818
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1807,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "GDLSauDmOfiO6dkP49u3wAc"
+  },
+  "duracao_segundos": 10.598356200000126,
+  "usage_metadata": {
+    "promptTokenCount": 28818,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 30818,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28818
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1807,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0303",
+    "tema_central_id": "5180",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5181",
+      "5182"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda regras gerais sobre a aplicação da lei penal, englobando proposições independentes sobre tempo do crime, lei penal no espaço, extraterritorialidade e contagem de prazos, o que justifica a classificação no tema abrangente com necessidade de revisão pela pluralidade de tópicos.",
+    "evidencia": "Com relação à aplicação da lei penal, assinale a opção correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "3002f9eb1f4965ca322e69222ee887820d070bd935326be208e5aa4a09193b06"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0227",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:52:33.333112+00:00",
+  "sha256_prompt": "07bf42ee8163108b176f74c0f8608285d5dfc9afd6c3767ae53e3186ea72a160",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b321601033d06109635f3cd8bfcceea10cc31ebece7d87c1d49c6fb528000206",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0227\",\n  \"tema_central_id\": \"5103\",\n  \"extras_ids\": [\n    \"5104\"\n  ],\n  \"temas_alternativos\": [\n    \"5102\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão apresenta situações hipotéticas independentes em suas alternativas, cobrando diferentes delitos previstos no capítulo dos crimes contra a dignidade sexual (estupro, estupro de vulnerável e violação sexual mediante fraude), o que justifica o uso de requer_revisao devido à pluralidade de temas abordados.\",\n  \"evidencia\": \"Analise as seguintes situações hipotéticas, e assinale a alternativa correta.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29167,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 31095,
+      "cachedContentTokenCount": 26285,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29167
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26285
+        }
+      ],
+      "thoughtsTokenCount": 1727,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "IizSaorNC8i_qtsPhLCL2AI"
+  },
+  "duracao_segundos": 11.846605999999156,
+  "usage_metadata": {
+    "promptTokenCount": 29167,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 31095,
+    "cachedContentTokenCount": 26285,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29167
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26285
+      }
+    ],
+    "thoughtsTokenCount": 1727,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0227",
+    "tema_central_id": "5103",
+    "extras_ids": [
+      "5104"
+    ],
+    "temas_alternativos": [
+      "5102"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão apresenta situações hipotéticas independentes em suas alternativas, cobrando diferentes delitos previstos no capítulo dos crimes contra a dignidade sexual (estupro, estupro de vulnerável e violação sexual mediante fraude), o que justifica o uso de requer_revisao devido à pluralidade de temas abordados.",
+    "evidencia": "Analise as seguintes situações hipotéticas, e assinale a alternativa correta.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "2e142bfff707ea825edbb8a61c130ad437b20ab762882ab8cc875a62af53557a"
+}

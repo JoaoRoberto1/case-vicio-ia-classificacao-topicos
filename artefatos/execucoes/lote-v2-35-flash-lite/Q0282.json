@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "Q0282",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T14:10:29.997838+00:00",
+  "sha256_prompt": "f7900e11d69cd3c598052320634ed55890157fb284200dfe058b6c7c3eee8881",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "40294b52b694c38562ca15afd1bfb7917b14013da2c6ce7150505da545dd17f9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0282\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [\n    \"4690\",\n    \"4697\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.7,\n  \"motivo\": \"A questão apresenta proposições independentes que cobram múltiplas legislações penais especiais (Lei Maria da Penha, Crimes de Racismo e Estatuto do Desarmamento). Adotou-se a Lei Maria da Penha como tema central por abranger duas alternativas, sendo necessária a revisão devido à mistura de assuntos distintos.\",\n  \"evidencia\": \"Constatada a prática de violência doméstica e familiar contra a mulher, segundo as disposições expressas na Lei n.º 11.340/06\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28906,
+      "candidatesTokenCount": 221,
+      "totalTokenCount": 30660,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28906
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 1533,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "VjDSaqPXMKOez7IPrZfCwQ8"
+  },
+  "duracao_segundos": 10.755894200001421,
+  "usage_metadata": {
+    "promptTokenCount": 28906,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 30660,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28906
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 1533,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0282",
+    "tema_central_id": "4704",
+    "extras_ids": [
+      "4690",
+      "4697"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.7,
+    "motivo": "A questão apresenta proposições independentes que cobram múltiplas legislações penais especiais (Lei Maria da Penha, Crimes de Racismo e Estatuto do Desarmamento). Adotou-se a Lei Maria da Penha como tema central por abranger duas alternativas, sendo necessária a revisão devido à mistura de assuntos distintos.",
+    "evidencia": "Constatada a prática de violência doméstica e familiar contra a mulher, segundo as disposições expressas na Lei n.º 11.340/06",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "129ce16338e0cbf84cc9bb4b20efc2f7e6da48050a0d9491125da80489329991"
+}
