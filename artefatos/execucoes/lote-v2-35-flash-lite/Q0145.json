@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "Q0145",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:02:06.206915+00:00",
+  "sha256_prompt": "7f19b0f12da98134c7d6ca467a632697cd8db7cadf2cf131971413e85a156770",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f1c8ef2609f94abd64fb750892f002b2226cd299645ff108a14d80fd78ed3aeb",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0145",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:00:55.693634+00:00",
+      "sha256_prompt": "7f19b0f12da98134c7d6ca467a632697cd8db7cadf2cf131971413e85a156770",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "f1c8ef2609f94abd64fb750892f002b2226cd299645ff108a14d80fd78ed3aeb",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.702917300000081,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "8738cae772ee5ca4b620b090b986850f8252b9ee41ef72d500faf171e6000621"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0145\",\n  \"tema_central_id\": \"4702\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6723\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda os crimes de lavagem de capitais (Lei nº 9.613/98 alterada pela Lei nº 12.683/12), tema que possui duplicidade de nós em ramos distintos do catálogo (Direito Penal - Legislação Especial e Penal), requerendo revisão para definição de critério editorial.\",\n  \"evidencia\": \"Considerando as alterações provocadas pela Lei nº 12.683, de 09 de julho de 2012, no tocante aos crimes de lavagem de capitais\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29005,
+      "candidatesTokenCount": 225,
+      "totalTokenCount": 30138,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29005
+        }
+      ],
+      "thoughtsTokenCount": 908,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "TyDSaseKBYzQz7IP4O-DqQE"
+  },
+  "duracao_segundos": 10.744853800000783,
+  "usage_metadata": {
+    "promptTokenCount": 29005,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 30138,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29005
+      }
+    ],
+    "thoughtsTokenCount": 908,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0145",
+    "tema_central_id": "4702",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6723"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda os crimes de lavagem de capitais (Lei nº 9.613/98 alterada pela Lei nº 12.683/12), tema que possui duplicidade de nós em ramos distintos do catálogo (Direito Penal - Legislação Especial e Penal), requerendo revisão para definição de critério editorial.",
+    "evidencia": "Considerando as alterações provocadas pela Lei nº 12.683, de 09 de julho de 2012, no tocante aos crimes de lavagem de capitais",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "aec13f3afc02e0ad0baaf135fd17414b0f91b2c32c2ae4c16872ce1f199977f5"
+}

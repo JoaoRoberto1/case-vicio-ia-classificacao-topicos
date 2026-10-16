@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0139",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T12:59:31.124407+00:00",
+  "sha256_prompt": "f8ec38547d1547c673128bf6ad6a5c94a8ee821f6171505fe7fc4d0efe6809ab",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1297e065453278e665e9ece17f01488be953706055ddf02f86308a15f0541987",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0139\",\n  \"tema_central_id\": \"5212\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5217\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda o conceito de coculpabilidade e sua relação com os fundamentos e elementos da culpabilidade no direito penal.\",\n  \"evidencia\": \"há sujeitos que têm uma menor possibilidade de autodeterminação, condicionados dessa maneira por causas sociais\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28669,
+      "candidatesTokenCount": 156,
+      "totalTokenCount": 29932,
+      "cachedContentTokenCount": 26279,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28669
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26279
+        }
+      ],
+      "thoughtsTokenCount": 1107,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "sx_SatCZNpH6qtsPoZ6jmAQ"
+  },
+  "duracao_segundos": 6.27316299999984,
+  "usage_metadata": {
+    "promptTokenCount": 28669,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 29932,
+    "cachedContentTokenCount": 26279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28669
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26279
+      }
+    ],
+    "thoughtsTokenCount": 1107,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0139",
+    "tema_central_id": "5212",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5217"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda o conceito de coculpabilidade e sua relação com os fundamentos e elementos da culpabilidade no direito penal.",
+    "evidencia": "há sujeitos que têm uma menor possibilidade de autodeterminação, condicionados dessa maneira por causas sociais",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "83b580aba82f75790627dd4ae9c334591cd1deb399f369d7225aee08702d5d78"
+}

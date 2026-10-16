@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0146",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:02:26.961892+00:00",
+  "sha256_prompt": "5355461ba93a30c055d30f4e13bbd5a8ec6f4c94d7f1ce05a2dde23918b262dd",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "f9013691936344c786721c19307a77da00855969cfc39f5d44c262ad39485d95",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0146\",\n  \"tema_central_id\": \"5594\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diretamente o regime jurídico das provas ilícitas, sua inadmissibilidade constitucional e as discussões sobre eventuais exceções ou contaminações probatórias.\",\n  \"evidencia\": \"A Constituição Federal de 1988, no artigo 5°, inciso LVI, prevê expressamente a inadmissibilidade da utilização no processo de provas obtidas por meios ilícitos.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EqMaCqAaAWkUfRPhV5WlHzXPhSYY9A8OlMlV5Z3jgU+JmdeEfrYIVIsJUGJ3SsXtu+EiFCIgjH+/OPg6GvD8LdmcNSTwpltPS4yATaMCDvMnS/+UcebdTqfropDiTxgaMYKr8Bwmw3//jKtKOfPsx4n0uFXu0RgjoqnH0dU1BDzPe//2mGO1BIsTlZk0WuJG6LTHinRfw9jfy0YJ0+WU9VW+RfaqRgyj8EoJnNrUiBsexmVZFmzykGpsFj6MxYAsSFvHbuV+ze8jTOuIgyjx3OhQZcyKTkfYEhoXEWTQsfT02sRyCUUKTf1mc8NRG4Mv4sZHzWIPHOQSAAlLMVcmrl9acjHHkQXil/nPIe5amtCxdD7iecjh6Nnk+yImfJ5kUzo8MuhjFhwDqoEiYH37EwpK9j50zUMioMDQkaPDN/QsAcjQUJrnFQU4dU9lLGfJE+cqVMucjUjadsoioxFYXX72vGtsaJygZlqJDPtlknsnWmVEM7kVUl5QCvrwQKdzpL6+Tfffo6LDrAi0QHYYPGgEe3Qr50YJQ53LAYtGF8ZnpGLFYraqsGOX1nbLCWxLQ0hE0ahLJ0Jm6aEUNgfTg6+V40ErXagmLeM5t9mnRoH5lnOI1fbrqUSwN02Ga7k1lSe6F0ozWAydnuzoLyl4e+KomnL+c5YBImgFPzjINDE6AiwZ2PcFvW26Pkd4f4MhrSHPf5QH+Rck+gL5zXdCpLRcISiG8wyDTqAwpCww1l+FiAOw2tSF1M+qVsqwUaBltmRhuncH+3gYUmGs8Ii2kzavjSIBHH+XI+g7JKY796poC1xr1goVp5az07X+pciaWFes3qUfZvZSdUMTDB6yb5mfEEutoPiAd8spPq1QDpBjxrCNbfCk0c8IPzjZB4hAEUJP5ojDc1z9aNS4xj8iaW91aomqZYGPCCMPhNi4eoNCzFEW3k5G9KNau2qUuYdkBWEAOcLKb3HvAhc7xFD0NibUKUQW2Nm+mVrnFWwygCDM1Wo54SB+3F7bLLfxucPUPSGhDjhtS7Mq3cPiG7cal6+Dhyi57zi8i5UbU28i/+Okzx8pfPqyIVz5LDi8Xr2+rV/A9XJmnA4+hR7Bp+m+6zikI5VDCF1ir4r1jjjLkGxi2PcnQMLmIsSf62mM71wsWrixKJEHakbbcPCNVVsuYqBJJFVtvw9A9KRyfZO4A3ekNVTfnSjtsoHiFtAJfYAPrVxJ4ilay2TEPxe182Tjd1NuFNKZNC0kQzUMIR+tdDQy3S3qmwRGx3sQC/Cph3RO6jGKZg7iB94qRLKXMot0kwKzmWtlXQGxx2VQNkLuX4wX9bLjmWhQAtYf7midtjKzTaj7vywuNlvNZlNIzYCvK38/RDW9Kd/LrDq6eaStyiQjWk/be00Y+NZekgYcVwWI9EKIpWFed7Xzp+bz5WhKMwZJJhvV9a6p7dnl1IOGiVXN0+qOQTPRlQ/pN6yk05s7dJH3XBE+jCkcI9lOx+TnL0MJGQx7Qk0LGyRtOJaofLr0u44j235PbH1FrPfxvd6V+75Xl0SHDXnFcSr1O4vec/Z08EbjS1F9lDh/cuZC5aT2JoaoqxC+19sURz1bJ7blnn8uPryuMBoQ71TkkhjwkbAfIDQfCXvDCUGv9dw4NvLQYEyg5nplH/4uiJhHisiaYdYyarbCxE7LBVzCL9k8aHIveU5TwRZn8E6kaGi61Ucq0/j4Gb7zZvvZCvTwfk6+LitgU8adZE2gnuVNEaTI/04Ovaes/3M57DwGmqPuwU3L2iK7FinTNMoE4Zlzb2GrH2D9Yya1Ugra5WlcTjgHLbuF8g11hd2auQpSrdAVaUE3iCU2RQW3X78upOrDtTbwZbz78+xjay0Dv2zLJjRtcsidyHd0+XfODV0k8bh03cNvkXDhGxFUwexA1+giyF9L55T6fO3oflZbpbWx3CKPAEBPf0Sx78OH/HOgOOlrP6Jekx0az1UhPzAi/WpW+R88nsQXUrxVpJNyN8n3WxNlmjhYQdVcV/CvJ0MavVjCTXEkSog6lCdE6iAZ/u91iuqVXxlGej/lLHx1lPQ/qVxNaw4/MXtkDiDOXoINtu1PgrpUszmm6viHrCGY0p5c1YDo77mXginJI2UaqXLXhfiipyY25lgKz5lMPzIxQJ1VNPK4xBfYiB7HFSC+/78XKmsIllCrGSP7fd43qMeRct6Q4S7vswH8Q1piaQZPN6m+GyrsMC6CI44YnsirnA0gQfJkJiLkOdTgDt2REud9Li5k9k/6mvERk07hgTfE+XlvTQztnFO9Jpgm7bpWDS/yTXrYbpRN3H++gVDIevwEiy5CnjEzSpFIbfZ0alphD1dQtqhkHqX2XWPhKOuSxKNkUOQiKVhYWj+jEH+Hx4Z0BXXRxFTOlwTSoWlgiM8z0UpRQoLmWeB5pyo5bCh4QKgufZC8jFowzzCEPPHsaLl8638/iPIiaIOPo9TI7RRxlemeRsgWaPnI6hfs3X6aCUkdxAOZoeSfyCjhT+ZfqXm619ZLCKVXsRIvrEKRPrXgAjBp0jYOmx0oLjTQ0WUlScs6YihPgQU3rjpOg+ioDQyJksjOyzQA4zMpGqsVPmDAQ4WZOIF0uthZDJm7I2rd/N5ueTMwmFZD1XUvWvxUiJvPrqVGfFVhWSryppF667C+G8yKHxW+jHi/9xgdFYE8dBzyyxqveD+iHGcFCj6lg3QRRNUVTsW9o3PY0ckU6+0T8RVaqFgpD5HTz7KqA0wvoLf1NtoIvHK8l37d5JQaw0v0z/7pc4Y8U189IbUSD+JBrGroBp0cER/GjdyA9f8WKVbDlgitN8B47DmHwYloDJ28UurGnSabHraleb3W32JVBb4b2YWTaC1swdz32aocuqIwvCVb7+5HG5OKIEwY7T5Lvk6gGBZIklfq4jm+dWyx3RtoMrWZdbc344i9OFuzE9XfEtjZiH9z1As8ubWuSEKTej/WRgmJIZ2++GhX7/HDtrwrLL4mKyHtnzyxWXN+tAeXFzJzzhnGFHkAROWQN7l5lkCabCJ/19/6eVpQEcGswMRDybdBYz/Z7uHtgH7kMTC4cGcof3Nw2LeUcMoZ9WOdRtXOrJsDWtxXJqKS/VLiwWGifS6HxT/KCaJ+cE1ctXMHHYzihoEm3mJmc3223N0BitBH/wC4y9vfVMSMiSNCHYx8r9dsBE00Lbu9h5QHDlOWkENOycnOBoVLEFZ01lFbS3uFiiLXL2tvlIrGp+cwwbpLz3KWI6qmI4b+vB7R4dfx459rjdxL+lSg1uh8IfSysVl0D40BP2f5rwzH3K5atcfog5MbBxDc7g+f8+e/aKp6C6ngo6k7qXoQnbLTIUa65rpGMInQzCxef2icdNsfdgIgvD6y4bYcZ4Hyikub9CkRD4fVIvHDOk2c3E18Cui5AaA+tlfdcKx4Iaa++EuY8qsVXWzoIkIPa4dR4RmqBS+4XmdKgHAJFE0fy7L2yjaSu6qDQsL5KgoL5mnv5KdwlFcO/R/4tjvuBiTKh7Ooil6iTBhi48PkV7GLug79+ma8rOACLN9FGujlREVxggdZWRoJE5D0BB0J4sKSemryGSHtIvQ/crz2dz+dAT6scS1tFml3ZeV4mKQdehKY6F9a0TzozxsX8izmpUBznq82XBce0jCmSj+NoozdiQjr2vOuwFiqGdmA1lPHquauJsLhF+e7HKS6Lo/1y9QGDlIg8D5CdZTcDegWpU+FkeVGXlvhAJ2HFeNBZDddt0TlX7HNeSuFQBSjegTFB5rbNYwcOf51udACkWUwbYZRBU7V8EKivtxU4ZkXW2rtA9pZHalUtcof9KBRZj/L1UZqKpG5P3z3mOgR+0qV9wBlkP9iBe3ETMQkSEP/sSei0fpgQTNVOyXiRTwZM94ZaEYUoWoRfTE0C43JI6K+9JeRA41XUkxShwOWzxIhBkNsuaDnGH4jUUz5SyjBSGIS4DuBxxRcEsuPHrZ1rmFwVCFh+4+iYvP7HLLKnvqZXgbjq1QHh6uV37AYOYSnJkeVBPCXvFd15H9GQVC2mDEou5OtkhjmJGjbCcKe2DBW1JtjAd5CCDjuHXZ/nVLDjcEHTmjBGOa7MWe7lPBewPy3P/qayf6P0V+0wbkWHmMGuclGk99z6YpVs5wugOMyx4trcucvKEwa8VseG2Yz3BFfY2pfsX3ML2vjA9DGRVGryvSGzwPieQHW0g4Iy5YoHZY4S49OVIoeWY3phmNJBV38bs0jy8QQ2HJcDfdsBcxnIkljotYjAAJKv4NwcfVMmhJEHm5f/KLhbEVEdAM9YpR0lYGOTng+XMyZPxlccVD0Y+ulXW8piPWbbg96mi77my0ZRAAoXG3vCNEDonC+voBVklKwH3ZEvDyy2RyH96/NhxnP1kvQzm5Sn6k2CXyvbNORrjaxPkVe5kXF+g49kFe7qFh0PRK6ct8xlVZ1FRgKDAUvk6n7maFqQ1Jb47MzL3Z0I7QPSTthRZJE0XuJ8za/CxhB"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 29239,
+      "candidatesTokenCount": 175,
+      "totalTokenCount": 30309,
+      "cachedContentTokenCount": 26285,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 29239
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26285
+        }
+      ],
+      "thoughtsTokenCount": 895,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "YyDSasbzK_2VmtkPmvrRoQQ"
+  },
+  "duracao_segundos": 8.330130100000133,
+  "usage_metadata": {
+    "promptTokenCount": 29239,
+    "candidatesTokenCount": 175,
+    "totalTokenCount": 30309,
+    "cachedContentTokenCount": 26285,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29239
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26285
+      }
+    ],
+    "thoughtsTokenCount": 895,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0146",
+    "tema_central_id": "5594",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diretamente o regime jurídico das provas ilícitas, sua inadmissibilidade constitucional e as discussões sobre eventuais exceções ou contaminações probatórias.",
+    "evidencia": "A Constituição Federal de 1988, no artigo 5°, inciso LVI, prevê expressamente a inadmissibilidade da utilização no processo de provas obtidas por meios ilícitos.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "7a8eea890694d92b9bab4430bf6878a46a8817b35f88a83af358d1176952ce52"
+}

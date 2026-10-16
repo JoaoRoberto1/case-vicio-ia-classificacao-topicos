@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "Q0149",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:04:20.264659+00:00",
+  "sha256_prompt": "ea748a651de4b00fcd6c1a08c7e960399219d3bafd6e85b05015d05c971fbba0",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "6ad6e771d450dd90207f519c4f387e48ba56aa84a60a0acb4ce49c874d8dff6f",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0149",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:03:23.505780+00:00",
+      "sha256_prompt": "ea748a651de4b00fcd6c1a08c7e960399219d3bafd6e85b05015d05c971fbba0",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "6ad6e771d450dd90207f519c4f387e48ba56aa84a60a0acb4ce49c874d8dff6f",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.1853373000003558,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "5ece7f312eeff417b8b07df9881adcdea2bb174ceab9980536d991db43ce8c7b"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0149\",\n  \"tema_central_id\": \"5498\",\n  \"extras_ids\": [\n    \"5554\",\n    \"5545\"\n  ],\n  \"temas_alternativos\": [\n    \"5500\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda o inquérito policial e diversas diligências investigativas autônomas nas alternativas, englobando regras de busca domiciliar/pessoal, requisição de dados cadastrais, localização de vítimas e suspeitos no tráfico de pessoas e prioridade em exames periciais, o que configura mistura de assuntos sem um único tópico dominante e exige revisão.\",\n  \"evidencia\": \"Relativamente ao inquérito policial e às diligências neste levadas a efeito, é correto afirmar que:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28885,
+      "candidatesTokenCount": 224,
+      "totalTokenCount": 30180,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28885
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1071,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1SDSaub_BYKez7IP0_PDoA0"
+  },
+  "duracao_segundos": 8.350960099999611,
+  "usage_metadata": {
+    "promptTokenCount": 28885,
+    "candidatesTokenCount": 224,
+    "totalTokenCount": 30180,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28885
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1071,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0149",
+    "tema_central_id": "5498",
+    "extras_ids": [
+      "5554",
+      "5545"
+    ],
+    "temas_alternativos": [
+      "5500"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda o inquérito policial e diversas diligências investigativas autônomas nas alternativas, englobando regras de busca domiciliar/pessoal, requisição de dados cadastrais, localização de vítimas e suspeitos no tráfico de pessoas e prioridade em exames periciais, o que configura mistura de assuntos sem um único tópico dominante e exige revisão.",
+    "evidencia": "Relativamente ao inquérito policial e às diligências neste levadas a efeito, é correto afirmar que:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "dce45229def3f21b224171a3641a4fa5550a217d1a62e4c1659e18d42880a670"
+}

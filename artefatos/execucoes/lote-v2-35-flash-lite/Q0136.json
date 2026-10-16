@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0136",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T12:58:55.457013+00:00",
+  "sha256_prompt": "ce78d5df062e7f8958d38eb62af27345e5c99ae2d1699b3456bf00e5c6459391",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a330eeed7dc3924b14fd032bae76ed0cf119b0738827dfd105674189616a62cc",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0136\",\n  \"tema_central_id\": \"4704\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6724\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda a incidência da Lei Maria da Penha em contexto de violência doméstica e familiar. Como o tema possui nós equivalentes em ramos diferentes do catálogo (Legislação Especial e Penal), a questão requer revisão editorial.\",\n  \"evidencia\": \"Não há configuração de qualquer crime da Lei Maria da\\nPenha, em razão do tempo passado entre o divórcio e o fato.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28971,
+      "candidatesTokenCount": 186,
+      "totalTokenCount": 30134,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28971
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 977,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "kB_SavmMDMucz7IP66i9CQ"
+  },
+  "duracao_segundos": 7.359880799999701,
+  "usage_metadata": {
+    "promptTokenCount": 28971,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 30134,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28971
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 977,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0136",
+    "tema_central_id": "4704",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6724"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda a incidência da Lei Maria da Penha em contexto de violência doméstica e familiar. Como o tema possui nós equivalentes em ramos diferentes do catálogo (Legislação Especial e Penal), a questão requer revisão editorial.",
+    "evidencia": "Não há configuração de qualquer crime da Lei Maria da\nPenha, em razão do tempo passado entre o divórcio e o fato.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "1247f1cec534bae909539c5f462cf6385585c8bceaef435d64406dfb2204b0f7"
+}

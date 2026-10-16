@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Q0140",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T12:59:47.419722+00:00",
+  "sha256_prompt": "6c09622f3e3b4ee4ef9fa8e628f81d48bd0b208f3e8027ea56bbefd2b9cfe8e5",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "d759b70d6b685996dc4d57103b6a039b57c123568fafa7dffaa9ed09673c2c64",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0140\",\n  \"tema_central_id\": \"5159\",\n  \"extras_ids\": [\n    \"5160\"\n  ],\n  \"temas_alternativos\": [\n    \"5157\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.85,\n  \"motivo\": \"A questão aborda predominantemente o crime de furto (alternativas A, B e E), mas também exige conhecimentos sobre o crime de roubo (alternativas C e D), configurando mistura de assuntos distintos dentro dos crimes contra o patrimônio que justifica a revisão.\",\n  \"evidencia\": \"Assinale a opção correta acerca dos crimes de furto e roubo.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28870,
+      "candidatesTokenCount": 192,
+      "totalTokenCount": 30135,
+      "cachedContentTokenCount": 26281,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28870
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26281
+        }
+      ],
+      "thoughtsTokenCount": 1073,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "xB_SauDOGMr1z7IPm-ClqAE"
+  },
+  "duracao_segundos": 7.955547100000331,
+  "usage_metadata": {
+    "promptTokenCount": 28870,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 30135,
+    "cachedContentTokenCount": 26281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28870
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26281
+      }
+    ],
+    "thoughtsTokenCount": 1073,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0140",
+    "tema_central_id": "5159",
+    "extras_ids": [
+      "5160"
+    ],
+    "temas_alternativos": [
+      "5157"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.85,
+    "motivo": "A questão aborda predominantemente o crime de furto (alternativas A, B e E), mas também exige conhecimentos sobre o crime de roubo (alternativas C e D), configurando mistura de assuntos distintos dentro dos crimes contra o patrimônio que justifica a revisão.",
+    "evidencia": "Assinale a opção correta acerca dos crimes de furto e roubo.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "b19590f7fc024da3010ce073007855e71c73f3a929076468a36482cf5f0ef6f1"
+}

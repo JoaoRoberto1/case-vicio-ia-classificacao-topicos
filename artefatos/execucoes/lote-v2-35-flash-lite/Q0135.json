@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "id": "Q0135",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T12:58:38.863696+00:00",
+  "sha256_prompt": "bb58b14a852a35426875014a5ea698da7f4922a2f28ecd1f048e6ee1297147ec",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "1d3a08e8a4f165f5e81bdac64d976dcccb1c88526a48ac79938442c6daa6ebf8",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0135",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T12:55:30.052055+00:00",
+      "sha256_prompt": "bb58b14a852a35426875014a5ea698da7f4922a2f28ecd1f048e6ee1297147ec",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "1d3a08e8a4f165f5e81bdac64d976dcccb1c88526a48ac79938442c6daa6ebf8",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 2.172403500000655,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "02d022099d731a2ff9ce4e05366be0dedbebb943cef1afaa91aecd87f58e6f82"
+    },
+    {
+      "schema_version": 1,
+      "id": "Q0135",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T12:56:53.453524+00:00",
+      "sha256_prompt": "bb58b14a852a35426875014a5ea698da7f4922a2f28ecd1f048e6ee1297147ec",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "1d3a08e8a4f165f5e81bdac64d976dcccb1c88526a48ac79938442c6daa6ebf8",
+      "numero_tentativa": 2,
+      "status": "erro",
+      "duracao_segundos": 5.903163500000119,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "8572a67e6e7849e1718bd9339696c403b2cbfa354147d4c0170b581c3e77019c"
+    }
+  ],
+  "numero_tentativa": 3,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0135\",\n  \"tema_central_id\": \"5169\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda os requisitos, punibilidade e elementares do crime de receptação previsto no Código Penal.\",\n  \"evidencia\": \"Com relação ao crime de receptação, é CORRETO afirmar que:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28661,
+      "candidatesTokenCount": 136,
+      "totalTokenCount": 29289,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28661
+        }
+      ],
+      "thoughtsTokenCount": 492,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "gB_Sar2-FoWFz7IP342jqQ8"
+  },
+  "duracao_segundos": 6.513507599999684,
+  "usage_metadata": {
+    "promptTokenCount": 28661,
+    "candidatesTokenCount": 136,
+    "totalTokenCount": 29289,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28661
+      }
+    ],
+    "thoughtsTokenCount": 492,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0135",
+    "tema_central_id": "5169",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda os requisitos, punibilidade e elementares do crime de receptação previsto no Código Penal.",
+    "evidencia": "Com relação ao crime de receptação, é CORRETO afirmar que:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0f75c8a11d9c7a23b306ac765e48f78c20544b5c75f991e6f2d6785c122eeebd"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Q0143",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:00:22.762385+00:00",
+  "sha256_prompt": "bd097290c446182f2894ac96d4a6f631321b38e4059a0c5db981f33286e2c8a7",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a9b8806031e89ea168f00cfd8057f0fb25fb198b268113f99f3f861f015cc8ec",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0143\",\n  \"tema_central_id\": \"5507\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda a aplicação da lei processual penal no tempo, exigindo o conhecimento sobre o princípio que rege a sua vigência (tempus regit actum em contraponto ao tempus delicti mencionado).\",\n  \"evidencia\": \"No ordenamento jurídico brasileiro, em regra, a lei processual penal será aplicada com fulcro no princípio do tempus delicti.\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "EsMMCsAMAWkUfROW9izrShWG+ENZIlGyWgneiK7Eu0tZretwURmQXPWVPqbXv9YqWLZ6ijeWfylXnWnW9s/HFa6FP+Mv+Bpq9dJSiSdhhKOTAkzVu8N6NMpZVNZePW9yUlhykQ2m5bhl8r2vT8ATF1hJ9qaGwBd7mCkk4c5Nol7MrxQs+DeYYdyEQvLe43AuYeAp8fzE3MzsrKj/7wVGJYfCytlo2mZm+o82rwUzaaC9aWLpJerBJjMi3oC2o2g69JU5LUNawn4QiZrRYCSta1s+NKx/6SUyjggeKKC/jJipPjiRqlGRkCN9h7yFzi4GKXrDydn58il+OnsXnLqHp1ayZaJKbmsSiN5DQcDejXJgL5wfjNsPL7uoheo1ePeLCq8n9VLzDvnNIdZbNNzT8Nad4LIZdTR8aLfjw8b5J06QCuDneYCNXrjEspMhEyHASzTOW0cX/wvEm2TX6/Wvx/nXaB/FuJ1d2V6wdExO6P/PtFAwC6457KEVbZg/vFHhv3FhIwcD2glqKbby8i85cRyS828yH0lJGmhYC+9eywaw76L0msrteZgHnD0KZFejpHwd7R9sE/C3E4Xgt9wsoKZtbLBs0Vk46EhDsvDkx9J7FYq4kAHd5hnYSc/WODZy33yjcgLOKRaW5YcbfmNRLROWjARCgTvG/4jXf+8dNKLx7QUXEvrawZOcN9uhWrSYCKTOGxiMa+CZUpA8FtujSqGR83D/g/9Mv/ii+km9b/VVFQ63yqEu6zl3sYC2+dnBbhaCvn/4KyUCqbZ0VXgaDe6SsWpMDxbOR3E4l90fsk32kpW5guw0wm6+HJFZSsOHCs5l2G7e777rjHnwBkuOJE+w6qRNpfHi3NmMSaOoAoPxpK1Iy8ArTNSqwQEjpadU0/UxwoOptuDfkjKZvuOfH0zJ/4PrmEr1iv4jvxHTPYEQ5Kg/EDH0M1AUYsQm48CtIW3a2b4UXa1qyItuf8LmlbRJcooJxUQNdduwzHrt6Z08ZvzbxxT9vhNJFMLIP5zi7JzdRc0EDUfAtDZdAf2J5LaIAebMDMsghETExGeqghMdWaP/PUvlPTk/kJh7siBPSZyDumI+SJtT4ihwl3tE3WAPEgz9SMVEYGKFvO9EjM8x53jVbE0hb6DigIDDW1NzxP9ckSGcoa6z7eJzN1kGuOwhPqnCIh68DKWo+1GGSLgy7gZK7R97g8gZjkLmrXwMZgsW/L1Ydr8MLvddwmzAFNBzU+gK0K2aADfAY44qFvTA03ZS6X1SVRjfASVnYzx8w1M97DhMrPp8WMvZ5iXl2yx0fWlbHKOWkGoXzfTXy+H0PffjBbSU3oQQtT/VCkxPBdvZ0aq7w6tlnT8E7AkVbvA3Bhzed+eZmaMK9uKo89V/Pgokjb5v8jE4pOGkZbuRaADPn6k9MiBXZfQMHjYpFfbqN+WlsQ6EpM4qUfk0FuziHj2ouvOKUJfJG6fbxi4zXU5EpPwDcw0MjsbUb8qwa6FQJwuyYiySE1S1cmHyo1P9LAeMnBH2XpAmHWowT26x0DJ02Nk80J99WTU0on+86Bvk0eQWqP7aZEg3e+TfaTmvoQokUwYH0j7HgBaWfcFRZWspV7UBG+3eajq7xuUwWa30KeaKG7X8VsED9xZcuJANwVP0RM911yhctGiTw4YC+gbRBDjpx/v8yysqU9SP2kIUwc+fE0ErF/S7E2YO2h+Bo+E+Mqy0Na7GC27/ykbEgwDIyKPjvVwoBpDJJk5SZwrfJ4vXvGT3CkrqzIk5ADrL+OLibrT+8lMT793nr2xwGX5bZXIHMx88xAHC8Ai9k4ZxErhw4i99NQblx1wCabCQhM1BCniq2eVV3XC6e1cjoRfflxUcCdk17V3unj3KMWp8IwtlFlPgAXCyaY8OnvwtUdxck7Bxz/wuUnhotIS2CpDTQU6j8E+UMdmhAGjOnGK3u0qCEP/STQlN+bpsEtQl778lWU/W7BfJ4sfiMZzIHTW+ybqiZI5N8+L1Sd8055IAFVRx5gr/6wnchYi7useKqlyF4mBWhf07wV9QO0Z64GVlwZYrr96ONhuplk3h/ILE+W6phYRhxn65e6q5/jEZuDKa7QBjYs1quEsQuN0kGaWRScfBFfs+PXq5jCFY94NI95baoA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28630,
+      "candidatesTokenCount": 173,
+      "totalTokenCount": 29235,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28630
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 432,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "6B_SapD_FpTrz7IPt5jW-A8"
+  },
+  "duracao_segundos": 5.78852999999981,
+  "usage_metadata": {
+    "promptTokenCount": 28630,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 29235,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28630
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 432,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0143",
+    "tema_central_id": "5507",
+    "extras_ids": [],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda a aplicação da lei processual penal no tempo, exigindo o conhecimento sobre o princípio que rege a sua vigência (tempus regit actum em contraponto ao tempus delicti mencionado).",
+    "evidencia": "No ordenamento jurídico brasileiro, em regra, a lei processual penal será aplicada com fulcro no princípio do tempus delicti.",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "73d7d346c363e460fca66c87944ceff6ff3d67c65266e323ea588168890753eb"
+}

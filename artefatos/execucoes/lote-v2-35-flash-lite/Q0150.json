@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0150",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:04:38.620841+00:00",
+  "sha256_prompt": "1e07b9bbc531b200039fb6220f05a6913983732b70e86f0a285ae71787c18bb8",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "99fa584f477cead037a660e5d6700cd9f2dd1663cbe936a1e5ce835023256d87",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0150\",\n  \"tema_central_id\": \"4708\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"6728\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda disposições da Lei de Drogas (Lei nº 11.343/2006), como causas de aumento e aplicação da lei no tempo. Há duplicidade de nós no catálogo entre Direito Penal - Legislação Especial e Penal, exigindo revisão editorial.\",\n  \"evidencia\": \"I - A majorante do tráfico transnacional de drogas (art. 40, inciso I, da Lei n. 11.343/2006) configura-se com a prova da destinação internacional das drogas, ainda que não consumada a transposição de fronteiras.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28939,
+      "candidatesTokenCount": 234,
+      "totalTokenCount": 30068,
+      "cachedContentTokenCount": 26282,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28939
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26282
+        }
+      ],
+      "thoughtsTokenCount": 895,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "5yDSavHnFceHz7IP-PyjGQ"
+  },
+  "duracao_segundos": 6.831667600000401,
+  "usage_metadata": {
+    "promptTokenCount": 28939,
+    "candidatesTokenCount": 234,
+    "totalTokenCount": 30068,
+    "cachedContentTokenCount": 26282,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28939
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26282
+      }
+    ],
+    "thoughtsTokenCount": 895,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0150",
+    "tema_central_id": "4708",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "6728"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda disposições da Lei de Drogas (Lei nº 11.343/2006), como causas de aumento e aplicação da lei no tempo. Há duplicidade de nós no catálogo entre Direito Penal - Legislação Especial e Penal, exigindo revisão editorial.",
+    "evidencia": "I - A majorante do tráfico transnacional de drogas (art. 40, inciso I, da Lei n. 11.343/2006) configura-se com a prova da destinação internacional das drogas, ainda que não consumada a transposição de fronteiras.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "9beafd51ea277a39f17264006fb143ba57f329410c5f93ea6dfdecc6ed6d76d0"
+}

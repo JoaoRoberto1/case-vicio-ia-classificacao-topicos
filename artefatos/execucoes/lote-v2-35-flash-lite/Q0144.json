@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0144",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:00:38.564477+00:00",
+  "sha256_prompt": "272c6993e3e8d5a95c7574cdfb4ffefc1ea913a90d0e4afa293ffe0d88ef3338",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "b94174334047e7682ae7ca2488610957bdc0df11d441b3ed07a9f435a641b94e",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0144\",\n  \"tema_central_id\": \"5562\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5524\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.95,\n  \"motivo\": \"A questão aborda o cabimento de apelação contra decisões do Tribunal do Júri, especificamente quando a sentença do juiz-presidente for contrária à lei expressa ou à decisão dos jurados, conforme o art. 593, III, 'b', do CPP.\",\n  \"evidencia\": \"quando a sentença do juiz-presidente no Tribunal do Júri for contrária à Lei expressa ou à decisão dos jurados, caberá:\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28630,
+      "candidatesTokenCount": 201,
+      "totalTokenCount": 29743,
+      "cachedContentTokenCount": 26278,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28630
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26278
+        }
+      ],
+      "thoughtsTokenCount": 912,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "9x_SauLBGo-Hz7IPs9bpgA8"
+  },
+  "duracao_segundos": 7.121453900000233,
+  "usage_metadata": {
+    "promptTokenCount": 28630,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 29743,
+    "cachedContentTokenCount": 26278,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28630
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26278
+      }
+    ],
+    "thoughtsTokenCount": 912,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0144",
+    "tema_central_id": "5562",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5524"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.95,
+    "motivo": "A questão aborda o cabimento de apelação contra decisões do Tribunal do Júri, especificamente quando a sentença do juiz-presidente for contrária à lei expressa ou à decisão dos jurados, conforme o art. 593, III, 'b', do CPP.",
+    "evidencia": "quando a sentença do juiz-presidente no Tribunal do Júri for contrária à Lei expressa ou à decisão dos jurados, caberá:",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "a1644771789049e3c160c19bc7c6b8ebcdac91294d126b74b10dac264ba6bd78"
+}

@@ -7,7 +7,7 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
 | 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
-| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Quinto bloco de 15/10 concluído: 147 válidas, nenhuma falha técnica atual pendente, 212 sem recibo; aguarda revisão/commit |
+| 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Bloco de 16/10 concluído: 162 válidas, nenhuma falha técnica atual pendente, 197 sem recibo; aguarda revisão/commit |
 | 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | Política registrada; módulos offline preparados, integração e aplicação real pendentes |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
@@ -97,6 +97,18 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Dos 129 recibos anteriores, 127 permaneceram byte a byte idênticos. Q0103 e Q0104 mantêm integralmente os objetos das primeiras tentativas no histórico, inclusive checksum e consumo. O derivado de Q0005, código, modelo, prompt, política e validadores permanecem iguais.
 - Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. CLI encerrada com código zero, sem processo de API ativo ou lock residual.
 - Registro: `artefatos/checkpoints/bloco_2026-10-15_05.json`. Pronto para revisão e commit; a próxima execução avançará aos IDs sem recibo, começando em Q0135.
+
+### Primeiro bloco do módulo 4 concluído em 16 de outubro de 2026
+
+- Retomada autorizada pelo usuário após o commit `b5b2cb2`; vinte chamadas no total, incluindo as retomadas após indisponibilidade do provedor.
+- Quinze sucessos: Q0135, Q0136, Q0138 a Q0141 e Q0143 a Q0151. Q0137 e Q0142 já estavam no piloto. Cinco falhas HTTP 503 ocorreram em Q0135 (duas), Q0145, Q0149 e Q0151; todas foram superadas nas retomadas e permanecem no histórico.
+- As seis invocações fizeram 1, 1, 9, 5, 3 e 1 chamadas, respeitando o saldo do limite agregado de vinte. Nenhuma falha local de validação neste bloco.
+- Estado acumulado: 162 sugestões tecnicamente válidas, sendo 161 sucessos nos recibos originais e a revalidação anterior de Q0005. Restam 197 questões sem recibo; nenhuma falha técnica atual pendente entre as processadas.
+- Consumo do bloco: 451.328 tokens conhecidos nas quinze respostas válidas. As cinco falhas não informaram uso; somadas às três anteriores, são oito tentativas com consumo desconhecido. O lote acumula 177 tentativas e 5.093.357 tokens informados.
+- Os 147 recibos anteriores e o derivado de Q0005 permaneceram byte a byte idênticos. Código, modelo, prompt, política, validadores e fontes locais permanecem iguais.
+- Identificada diferença preexistente de fins de linha de `temas.csv` entre HEAD e fonte local, embora o arquivo local coincida com o manifesto. Correção do índice validada em ambiente temporário e documentada em `RETOMADA.md` para o commit do usuário; fonte e índice reais não foram alterados.
+- Suíte offline: 213 testes, 212 aprovados e um pulado por limitação de privilégio do Windows. Última CLI encerrada com código zero, sem processo de API ativo ou lock residual.
+- Registro: `artefatos/checkpoints/bloco_2026-10-16_01.json`. Pronto para revisão e commit; a próxima execução avançará aos IDs sem recibo, começando em Q0152.
 
 ## Registro de execução
 

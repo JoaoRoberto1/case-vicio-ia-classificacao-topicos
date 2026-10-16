@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Q0141",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:00:05.426428+00:00",
+  "sha256_prompt": "b703a7d33086520cd18551a1d8ea9112306823e36439cf5c793dfdf5626431e4",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "334a0ce23103c3e15b7963e33bc60881195c61032ce0697c31f8922b343eeeb8",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0141\",\n  \"tema_central_id\": \"4388\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"4387\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda o efeito criminógeno da grande cidade e os conceitos de desorganização urbana, temas estudados no âmbito das teorias criminológicas explicativas da criminalidade e suas espécies.\",\n  \"evidencia\": \"O efeito criminógeno da grande cidade, valendo-se dos conceitos de desorganização e contágio inerentes aos modernos núcleos urbanos\",\n  \"requer_revisao\": false\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28655,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 30020,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28655
+        }
+      ],
+      "thoughtsTokenCount": 1185,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "1h_SauX9EfiwqtsP266_sQE"
+  },
+  "duracao_segundos": 7.287618999999722,
+  "usage_metadata": {
+    "promptTokenCount": 28655,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 30020,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28655
+      }
+    ],
+    "thoughtsTokenCount": 1185,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0141",
+    "tema_central_id": "4388",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "4387"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda o efeito criminógeno da grande cidade e os conceitos de desorganização urbana, temas estudados no âmbito das teorias criminológicas explicativas da criminalidade e suas espécies.",
+    "evidencia": "O efeito criminógeno da grande cidade, valendo-se dos conceitos de desorganização e contágio inerentes aos modernos núcleos urbanos",
+    "requer_revisao": false
+  },
+  "status": "sucesso",
+  "sha256_registro": "0395bbea5e448daf6e336538eb44418b58cf3ee47294b570f56d4f8cf0d6732e"
+}

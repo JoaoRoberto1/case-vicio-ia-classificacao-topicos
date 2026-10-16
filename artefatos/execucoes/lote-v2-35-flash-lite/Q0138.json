@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "Q0138",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T12:59:12.823829+00:00",
+  "sha256_prompt": "c728136c8e5e8ad744bc4db9bc79ad927536539860af8f87d26d5799b0fda312",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "a4f7acd59a231111afc508f5fe7ccacfe4a41051e4438d9c5c988c3ab4d986c9",
+  "numero_tentativa": 1,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0138\",\n  \"tema_central_id\": \"5205\",\n  \"extras_ids\": [\n    \"5207\"\n  ],\n  \"temas_alternativos\": [],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.8,\n  \"motivo\": \"A questão aborda predominantemente as penas restritivas de direitos, mas também exige conhecimentos sobre a suspensão condicional da pena, configurando mistura de assuntos distintos dentro da Teoria da Pena.\",\n  \"evidencia\": \"Sobre a substituição das penas privativas de liberdade por penas restritivas de direitos e suspensão condicional da pena.\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28773,
+      "candidatesTokenCount": 174,
+      "totalTokenCount": 30032,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28773
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1085,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "oR_SaoOsIs7sz7IP8MDOiAc"
+  },
+  "duracao_segundos": 8.294801099999859,
+  "usage_metadata": {
+    "promptTokenCount": 28773,
+    "candidatesTokenCount": 174,
+    "totalTokenCount": 30032,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28773
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1085,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0138",
+    "tema_central_id": "5205",
+    "extras_ids": [
+      "5207"
+    ],
+    "temas_alternativos": [],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.8,
+    "motivo": "A questão aborda predominantemente as penas restritivas de direitos, mas também exige conhecimentos sobre a suspensão condicional da pena, configurando mistura de assuntos distintos dentro da Teoria da Pena.",
+    "evidencia": "Sobre a substituição das penas privativas de liberdade por penas restritivas de direitos e suspensão condicional da pena.",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "cd814b860a663c5201a9b4a33c80643390eeb2fb9f5a9e306e6ab2c3263a6a72"
+}

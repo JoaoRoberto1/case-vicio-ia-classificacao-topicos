@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "Q0151",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp_utc": "2026-10-16T13:06:03.528043+00:00",
+  "sha256_prompt": "1e6b1958d606ae23459b83f397468bbb90e5d868cebc59a2f39b3a386c5c8499",
+  "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+  "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+  "thinking_level": "MEDIUM",
+  "fingerprint": "e305ee8d94386828e1dedf13f3ee93f477a7e555e88d0da308e10f4a558d8277",
+  "tentativas_anteriores": [
+    {
+      "schema_version": 1,
+      "id": "Q0151",
+      "model": "gemini-3.5-flash-lite",
+      "timestamp_utc": "2026-10-16T13:04:55.458390+00:00",
+      "sha256_prompt": "1e6b1958d606ae23459b83f397468bbb90e5d868cebc59a2f39b3a386c5c8499",
+      "sha256_schema": "3986b5fc8c6b83c69d1f22a22d2ff170dcbb02c87c8873dfbaf101051b141084",
+      "sha256_preparacao": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+      "thinking_level": "MEDIUM",
+      "fingerprint": "e305ee8d94386828e1dedf13f3ee93f477a7e555e88d0da308e10f4a558d8277",
+      "numero_tentativa": 1,
+      "status": "erro",
+      "duracao_segundos": 1.1888112000006004,
+      "resposta_bruta": {
+        "erro_http": {
+          "codigo": 503,
+          "status": "UNAVAILABLE",
+          "mensagem": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      },
+      "erro": {
+        "tipo": "ErroGemini",
+        "mensagem": "Modelo Gemini temporariamente indisponível (HTTP 503). Aguarde antes de tentar novamente."
+      },
+      "sha256_registro": "d7dcb5139915f3686ab3da8727d365d5a2eac901988128941f9ebfdb5f68a9dc"
+    }
+  ],
+  "numero_tentativa": 2,
+  "resposta_bruta": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"id\": \"Q0151\",\n  \"tema_central_id\": \"5517\",\n  \"extras_ids\": [],\n  \"temas_alternativos\": [\n    \"5518\",\n    \"5519\",\n    \"5520\",\n    \"5521\",\n    \"5522\"\n  ],\n  \"sem_tema\": false,\n  \"confianca_autodeclarada\": 0.9,\n  \"motivo\": \"A questão aborda diversas espécies de prisões cautelares e medidas cautelares de forma heterogênea nas alternativas (flagrante, temporária, preventiva, domiciliar e fiança), sem um subtema específico dominante. Por envolver a mistura de proposições independentes sobre diferentes institutos, o enquadramento adequado é na categoria geral de prisões em espécie, com recomendação de revisão.\",\n  \"evidencia\": \"No que diz respeito às prisões e medidas cautelares no processo penal, assinale a alternativa CORRETA:\",\n  \"requer_revisao\": true\n}",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 28809,
+      "candidatesTokenCount": 248,
+      "totalTokenCount": 30828,
+      "cachedContentTokenCount": 26280,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28809
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26280
+        }
+      ],
+      "thoughtsTokenCount": 1771,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "PCHSavzbH7Dtz7IPxsGFsQ8"
+  },
+  "duracao_segundos": 11.861850199999935,
+  "usage_metadata": {
+    "promptTokenCount": 28809,
+    "candidatesTokenCount": 248,
+    "totalTokenCount": 30828,
+    "cachedContentTokenCount": 26280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28809
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 26280
+      }
+    ],
+    "thoughtsTokenCount": 1771,
+    "serviceTier": "standard"
+  },
+  "validacao_evidencia": "literal",
+  "sugestao": {
+    "id": "Q0151",
+    "tema_central_id": "5517",
+    "extras_ids": [],
+    "temas_alternativos": [
+      "5518",
+      "5519",
+      "5520",
+      "5521",
+      "5522"
+    ],
+    "sem_tema": false,
+    "confianca_autodeclarada": 0.9,
+    "motivo": "A questão aborda diversas espécies de prisões cautelares e medidas cautelares de forma heterogênea nas alternativas (flagrante, temporária, preventiva, domiciliar e fiança), sem um subtema específico dominante. Por envolver a mistura de proposições independentes sobre diferentes institutos, o enquadramento adequado é na categoria geral de prisões em espécie, com recomendação de revisão.",
+    "evidencia": "No que diz respeito às prisões e medidas cautelares no processo penal, assinale a alternativa CORRETA:",
+    "requer_revisao": true
+  },
+  "status": "sucesso",
+  "sha256_registro": "5f1d04645dda009572a17c6d1f794d3c2548623c14630d8037f6ccbc0f62b07f"
+}
