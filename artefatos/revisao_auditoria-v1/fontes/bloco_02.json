@@ -1,0 +1,592 @@
+{
+  "data": "2026-10-16",
+  "data_hora_utc": "2026-10-16T18:02:17Z",
+  "fuso_referencia": "America/Sao_Paulo",
+  "bloco": "bloco_02",
+  "agente": "Codex — /root/auditoria_cega_02",
+  "responsavel": "Codex - revisor cego do bloco atribuído, sem especialista jurídico.",
+  "tipo_referencia": "IA_sem_especialista",
+  "protocolo": "prompts/revisao_auditoria_v1.txt",
+  "ids": [
+    "Q0201",
+    "Q0314",
+    "Q0082",
+    "Q0089",
+    "Q0233",
+    "Q0056",
+    "Q0075",
+    "Q0021",
+    "Q0302",
+    "Q0069",
+    "Q0009",
+    "Q0204",
+    "Q0320",
+    "Q0088",
+    "Q0285",
+    "Q0307",
+    "Q0300",
+    "Q0065",
+    "Q0180",
+    "Q0178",
+    "Q0186",
+    "Q0143",
+    "Q0351",
+    "Q0226",
+    "Q0349",
+    "Q0357"
+  ],
+  "arquivos_lidos": [
+    {
+      "caminho": "prompts/revisao_auditoria_v1.txt",
+      "sha256": "f5930fb400b835658e5dd2d4f45901079a2ec483562037edd3dc09e58db0a758",
+      "escopo": "Integral"
+    },
+    {
+      "caminho": "artefatos/auditoria-v1/temas_preparados.json",
+      "sha256": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+      "escopo": "377 temas; títulos, descrições, hierarquia, níveis e status integralmente examinados, inclusive inativos e raízes para exclusão"
+    },
+    {
+      "caminho": "artefatos/revisao_auditoria-v1/entradas/bloco_02.jsonl",
+      "sha256": "16a0290820481d28070a3ff01cbe371b3dfdd117f30cbce78520d6582d9dceac",
+      "escopo": "26 questões, com enunciado, comando e todas as alternativas"
+    }
+  ],
+  "declaracoes": {
+    "sugestoes_classificador_consultadas": false,
+    "decisoes_recibos_revisoes_outros_blocos_consultados": false,
+    "arquivo_env_consultado": false,
+    "api_gemini_ou_paga_utilizada": false,
+    "outros_agentes_consultados_para_respostas": false,
+    "cegamento": "As sugestões do classificador não foram consultadas. Não houve comparação com decisões, revisões anteriores ou referências de outros blocos.",
+    "origem": "Referência provisória produzida por IA sem especialista jurídico e sem gabarito oficial.",
+    "taxonomia": "Descrições compostas somente por metadados não foram tratadas como restrições de alcance jurídico. IDs de ramos diferentes permaneceram distintos.",
+    "temporalidade": "As entradas não informam ano de prova. Q0201 situa fatos em 2013–2015, Q0021 remete ao julgamento do juiz das garantias e Q0178 à Resolução de 2022. As fontes históricas foram identificadas quando disponíveis; a classificação não certifica gabarito atual nem aplica alterações recentes retroativamente."
+  },
+  "fontes": [
+    {
+      "id": "CP",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "titulo": "Código Penal — Decreto-Lei 2.848/1940, texto compilado",
+      "natureza": "Legislação oficial",
+      "consulta": "2026-10-16",
+      "observacao": "Consultadas somente as disposições relevantes; alterações posteriores não foram usadas retroativamente para os fatos da questão."
+    },
+    {
+      "id": "CPP",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+      "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941, texto compilado",
+      "natureza": "Legislação oficial",
+      "consulta": "2026-10-16"
+    },
+    {
+      "id": "STJ_TEMA_918",
+      "url": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40CNOT%3D%27015520%27",
+      "titulo": "STJ — Informativo 568, Tema 918: configuração do estupro de vulnerável",
+      "natureza": "Informativo oficial sobre julgamento repetitivo",
+      "consulta": "2026-10-16",
+      "localizacao": "REsp 1.480.881/PI, julgamento de 26/08/2015, DJe 10/09/2015"
+    },
+    {
+      "id": "STF_INSIGNIFICANCIA",
+      "url": "https://noticias.stf.jus.br/postsnoticias/supremo-aplica-principio-da-insignificancia-penal-em-liminar-de-hc/",
+      "titulo": "STF — Supremo aplica princípio da insignificância penal em liminar de HC",
+      "natureza": "Publicação oficial com transcrição dos fundamentos da decisão",
+      "consulta": "2026-10-16",
+      "localizacao": "Trecho sobre fragmentariedade, intervenção mínima e quatro vetores"
+    },
+    {
+      "id": "STJ_MULTA",
+      "url": "https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ITA?CodOrgaoJgdr=&SeqCgrmaSessao=&dt=20180309&formato=HTML&nreg=201400455800&salvar=false&seq=1678235&tipo=0",
+      "titulo": "STJ — Inteiro teor de acórdão, registro 2014/0045580-0, DJe 09/03/2018",
+      "natureza": "Decisão judicial oficial",
+      "consulta": "2026-10-16",
+      "localizacao": "Fundamentação sobre art. 72 do CP e continuidade delitiva"
+    },
+    {
+      "id": "STF_GARANTIAS",
+      "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=512751&tip=UN",
+      "titulo": "STF considera obrigatória implementação do juiz das garantias",
+      "natureza": "Notícia oficial do julgamento das ADIs 6298, 6299, 6300 e 6305",
+      "consulta": "2026-10-16",
+      "localizacao": "Publicação de 23/08/2023, seção Prazo"
+    },
+    {
+      "id": "STJ_INTERPRETACAO",
+      "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=09%2F04%2F2019&num_registro=201803359363",
+      "titulo": "STJ — Inteiro teor de acórdão, registro 2018/0335936-3, DJe 09/04/2019",
+      "natureza": "Decisão judicial oficial",
+      "consulta": "2026-10-16",
+      "localizacao": "Fundamento sobre exemplos seguidos da fórmula qualquer outro expediente"
+    },
+    {
+      "id": "PUC_TESTEMUNHAL",
+      "url": "https://enciclopediajuridica.pucsp.br/verbetes/prova-testemunhal/",
+      "titulo": "Prova testemunhal — Cleber Rogério Masson, Enciclopédia Jurídica da PUC-SP",
+      "natureza": "Verbete doutrinário original de autor identificado; fonte primária da exposição terminológica, não ato normativo",
+      "consulta": "2026-10-16",
+      "localizacao": "Seção 4.6, Testemunha imprópria, instrumentatória ou fedatária"
+    },
+    {
+      "id": "LEI_TORTURA",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm",
+      "titulo": "Lei 9.455/1997 — Define os crimes de tortura",
+      "natureza": "Legislação oficial",
+      "consulta": "2026-10-16",
+      "localizacao": "Art. 1º, I, a, e § 2º"
+    },
+    {
+      "id": "DESARMAMENTO",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm",
+      "titulo": "Lei 10.826/2003 — Estatuto do Desarmamento",
+      "natureza": "Legislação oficial",
+      "consulta": "2026-10-16",
+      "localizacao": "Art. 6º, XI, e art. 7º-A"
+    },
+    {
+      "id": "CNJ_467",
+      "url": "https://atos.cnj.jus.br/atos/detalhar/4650",
+      "titulo": "CNJ — Resolução 467 de 28/06/2022",
+      "natureza": "Registro oficial de ato normativo",
+      "consulta": "2026-10-16",
+      "localizacao": "Identificação, ementa e registro de alteração pela Resolução 566/2024",
+      "observacao": "O resultado indexado oficial foi lido. A tentativa de abertura integral retornou erro interno; não se declara leitura integral de seu art. 2º."
+    },
+    {
+      "id": "STJ_TEMA_1077",
+      "url": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D018223",
+      "titulo": "STJ — Informativo 702, Tema 1077: dosimetria e condenações pretéritas",
+      "natureza": "Informativo oficial sobre julgamento repetitivo",
+      "consulta": "2026-10-16",
+      "localizacao": "REsp 1.794.854/DF, julgamento de 23/06/2021; trecho sobre antecedentes e condenações transitadas no curso da ação"
+    }
+  ],
+  "fontes_por_questao": [
+    {
+      "id": "Q0201",
+      "fontes": [
+        {
+          "fonte_id": "STJ_TEMA_918",
+          "localizacao": "Tese repetitiva e referência ao art. 217-A",
+          "relacao": "Confirma o recorte do consentimento e da experiência sexual na vulnerabilidade etária."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0314",
+      "fontes": [
+        {
+          "fonte_id": "CPP",
+          "localizacao": "Art. 647",
+          "relacao": "Identifica a tutela da liberdade pelo habeas corpus."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0082",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Art. 329",
+          "relacao": "Situa a ameaça ao executor do ato policial."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0089",
+      "fontes": [
+        {
+          "fonte_id": "STF_INSIGNIFICANCIA",
+          "localizacao": "Fundamentação sobre os vetores da insignificância",
+          "relacao": "Confirma que fundamentos e requisitos constituem o instituto central."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0233",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Arts. 15 a 17",
+          "relacao": "Distingue os institutos contrapostos nas alternativas."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0056",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Arts. 69 a 72",
+          "relacao": "Confirma os sistemas comparados na pluralidade delitiva."
+        },
+        {
+          "fonte_id": "STJ_MULTA",
+          "localizacao": "Fundamentação sobre multa e crime continuado",
+          "relacao": "Verifica a ressalva da alternativa sobre multa; o recorte adotado permanece comparativo."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0075",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Art. 108",
+          "relacao": "Localiza a regra geral sobre extinção da punibilidade."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0021",
+      "fontes": [
+        {
+          "fonte_id": "STF_GARANTIAS",
+          "localizacao": "Seção Prazo",
+          "relacao": "Confirma o objeto histórico da decisão e sua vinculação ao juiz das garantias."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0302",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Art. 20",
+          "relacao": "Confirma o instituto referente ao desconhecimento fático."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0069",
+      "fontes": [
+        {
+          "fonte_id": "STJ_INTERPRETACAO",
+          "localizacao": "Fundamentação sobre fórmula genérica precedida de exemplos",
+          "relacao": "Confirma a nomenclatura interpretação analógica."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0009",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Arts. 181 e 183, III; tipo de furto mencionado na questão",
+          "relacao": "Confirma a relevância autônoma de parentesco e idade para a imunidade."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0204",
+      "fontes": [
+        {
+          "fonte_id": "CPP",
+          "localizacao": "Art. 2º",
+          "relacao": "Localiza o regime temporal descrito no item."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0320",
+      "fontes": [
+        {
+          "fonte_id": "PUC_TESTEMUNHAL",
+          "localizacao": "Seção 4.6",
+          "relacao": "Confirma a nomenclatura fedatária como espécie de testemunha."
+        },
+        {
+          "fonte_id": "CPP",
+          "localizacao": "Art. 304, §§ 2º e 3º",
+          "relacao": "Fornece exemplo legal do testemunho de atos formais."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0088",
+      "fontes": [],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "A comparação dos dois objetos científicos está expressamente formulada; não foi necessário resolver a controvérsia sobre autonomia da vitimologia para selecionar os temas."
+    },
+    {
+      "id": "Q0285",
+      "fontes": [],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "A corrente está nomeada no enunciado e tem tema específico; não foi necessário validar a alternativa correta para classificar."
+    },
+    {
+      "id": "Q0307",
+      "fontes": [
+        {
+          "fonte_id": "LEI_TORTURA",
+          "localizacao": "Art. 1º, I, a, e § 2º",
+          "relacao": "Confirma que a questão integra o regime especial de tortura e omissão."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0300",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Arts. 348 e 349",
+          "relacao": "Confirma o grupo de favorecimento contraposto ao concurso no roubo."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0065",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Art. 159 e parágrafos, rubrica Extorsão mediante sequestro",
+          "relacao": "Confirma a espécie patrimonial abrangida por Extorsão."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0180",
+      "fontes": [
+        {
+          "fonte_id": "CPP",
+          "localizacao": "Arts. 157 e 245",
+          "relacao": "Confirma o vínculo entre obtenção domiciliar e ilicitude probatória."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0178",
+      "fontes": [
+        {
+          "fonte_id": "DESARMAMENTO",
+          "localizacao": "Art. 6º, XI, e art. 7º-A",
+          "relacao": "Vincula o porte dos servidores ao Estatuto do Desarmamento."
+        },
+        {
+          "fonte_id": "CNJ_467",
+          "localizacao": "Ementa e identificação oficial indexadas",
+          "relacao": "Confirma a regulamentação da lei e registra a alteração temporal."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0186",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Arts. 59 e 68",
+          "relacao": "Localiza a primeira fase da dosimetria."
+        },
+        {
+          "fonte_id": "STJ_TEMA_1077",
+          "localizacao": "Destaque e informações do inteiro teor",
+          "relacao": "Confirma o recorte entre antecedentes, personalidade e conduta social."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0143",
+      "fontes": [
+        {
+          "fonte_id": "CPP",
+          "localizacao": "Art. 2º",
+          "relacao": "Confirma que o item é de aplicação temporal processual."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0351",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Art. 298, parágrafo único",
+          "relacao": "Confirma o enquadramento documental do cartão."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0226",
+      "fontes": [
+        {
+          "fonte_id": "CPP",
+          "localizacao": "Arts. 158-A a 158-C",
+          "relacao": "Localiza as etapas e a coleta da cadeia de custódia."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0349",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Art. 16",
+          "relacao": "Localiza o arrependimento posterior testado na restituição."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    },
+    {
+      "id": "Q0357",
+      "fontes": [
+        {
+          "fonte_id": "CP",
+          "localizacao": "Art. 198, título IV",
+          "relacao": "Confirma a classificação na organização do trabalho."
+        }
+      ],
+      "base_local": "Texto integral da questão e taxonomia preparada.",
+      "nota": "Consulta orientada a escopo, nomenclatura ou regra necessária à classificação; não equivale a gabarito oficial."
+    }
+  ],
+  "duvidas_e_decisoes": [
+    {
+      "id": "Q0056",
+      "candidatos_rejeitados": [
+        "5070",
+        "5067",
+        "5068",
+        "5069"
+      ],
+      "decisao": "Tema pai 5066 por comparação transversal de sistemas; o fato de a alternativa correta poder ser a de multa não torna os demais regimes simples contexto."
+    },
+    {
+      "id": "Q0075",
+      "candidatos_rejeitados": [
+        "5076",
+        "5185"
+      ],
+      "decisao": "A regra é sobre punibilidade, sem causa extintiva específica e sem concurso de pessoas."
+    },
+    {
+      "id": "Q0009",
+      "escolha_multipla": [
+        "5159",
+        "5158"
+      ],
+      "decisao": "Tipificação do furto e inaplicabilidade da imunidade são operações centrais independentes; idade e parentesco não são detalhes dispensáveis."
+    },
+    {
+      "id": "Q0088",
+      "escolha_multipla": [
+        "4389",
+        "4381"
+      ],
+      "candidatos_rejeitados": [
+        "4390"
+      ],
+      "decisao": "Comparação conceitual de criminologia e vitimologia; nenhum processo de vitimização descrito."
+    },
+    {
+      "id": "Q0065",
+      "candidatos_rejeitados": [
+        "5132",
+        "5157"
+      ],
+      "decisao": "Extorsão é título suficientemente amplo para sua espécie mediante sequestro; a taxonomia não limita o tema ao art. 158."
+    },
+    {
+      "id": "Q0180",
+      "candidatos_rejeitados": [
+        "5554",
+        "5582",
+        "5089"
+      ],
+      "decisao": "A busca é o procedimento narrado, enquanto as alternativas pedem a validade das provas. Não se agregaram temas incidentais de peculato ou princípios gerais."
+    },
+    {
+      "id": "Q0178",
+      "candidatos_rejeitados": [],
+      "decisao": "Tema Estatuto do Desarmamento inclui porte, apesar do ramo Legislação Especial. O acesso parcial à resolução limita afirmações sobre o gabarito, sem gerar dúvida substancial sobre o tema."
+    },
+    {
+      "id": "Q0300",
+      "candidatos_rejeitados": [
+        "5072",
+        "5074",
+        "5160"
+      ],
+      "decisao": "A diferença entre favorecimento pessoal e real não altera o ID conjunto; finalidade do auxílio é pouco detalhada."
+    },
+    {
+      "id": "Q0307",
+      "candidatos_rejeitados": [
+        "5223",
+        "5073"
+      ],
+      "decisao": "O enquadramento especial da omissão em tortura prevalece sobre conceitos gerais incidentes."
+    }
+  ],
+  "limitacoes_de_fontes": [
+    "A primeira tentativa direta de abertura de uma página CNJ com identificador 4570 falhou e não foi utilizada como fonte. A página correta, identificada por busca, é 4650.",
+    "O navegador retornou erro ao abrir integralmente a página 4650 do CNJ. Foram utilizados apenas os trechos oficiais indexados e o texto legislativo do Planalto; não se inventou acesso integral.",
+    "As buscas produziram resultados não oficiais, inclusive página de questões com trecho coincidente de Q0320. Esses resultados não foram usados, abertos nem adotados como gabarito; a nomenclatura foi fundamentada no verbete original e no CPP.",
+    "O verbete PUC-SP é doutrina autoral original e foi identificado como tal, sem atribuir-lhe força normativa.",
+    "Não há revisão jurídica especializada. A ausência de inconclusivos significa suficiência para delimitação temática provisória, não confirmação do mérito de todas as alternativas."
+  ],
+  "validacao": {
+    "resultado": "OK",
+    "ferramenta": "Python stdlib: json, pathlib e hashlib",
+    "registros": 26,
+    "inconclusivos": 0,
+    "sem_tema": 0,
+    "checagens": [
+      "IDs iguais aos da entrada e na mesma ordem",
+      "26 IDs únicos",
+      "Exatos oito campos por registro",
+      "Tipos e enums previstos no protocolo",
+      "Todos os temas são strings, ativos e de nível maior que zero",
+      "Texto UTF-8 sem BOM e com LF, incluindo nova linha final",
+      "Limitações reconhecem ausência de revisão jurídica especializada"
+    ],
+    "referencia": {
+      "caminho": "artefatos/revisao_auditoria-v1/referencias/bloco_02.jsonl",
+      "sha256": "5bbfe54bdba0d9ac85b0dd5717a8e718b827a2c268a42d68d8419bf30d0d1717"
+    },
+    "congelamento": "Referência fechada antes de qualquer comparação com o classificador."
+  }
+}

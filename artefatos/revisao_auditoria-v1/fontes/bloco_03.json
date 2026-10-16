@@ -1,0 +1,132 @@
+{
+  "data_revisao": "2026-10-16",
+  "data_validacao_referencia_utc": "2026-10-16T17:59:52.818057+00:00",
+  "fuso_local": "America/Sao_Paulo",
+  "bloco": "bloco_03",
+  "agente": "/root/auditoria_cega_03",
+  "responsavel": "Codex - revisor cego do bloco atribuído, sem especialista jurídico.",
+  "tipo_referencia": "IA_sem_especialista",
+  "protocolo": "prompts/revisao_auditoria_v1.txt",
+  "ids": ["Q0013", "Q0158", "Q0331", "Q0134", "Q0062", "Q0274", "Q0188", "Q0237", "Q0103", "Q0265", "Q0030", "Q0187", "Q0135", "Q0249", "Q0223", "Q0045", "Q0034", "Q0033", "Q0259", "Q0067", "Q0316", "Q0258", "Q0263", "Q0334", "Q0327", "Q0129"],
+  "arquivos_de_entrada_lidos": [
+    {"caminho": "prompts/revisao_auditoria_v1.txt", "sha256": "f5930fb400b835658e5dd2d4f45901079a2ec483562037edd3dc09e58db0a758"},
+    {"caminho": "artefatos/auditoria-v1/temas_preparados.json", "sha256": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724"},
+    {"caminho": "artefatos/revisao_auditoria-v1/entradas/bloco_03.jsonl", "sha256": "3b1e0767fa4703263ccc433df42142b798824ea39be07334a48151222130fe1b"}
+  ],
+  "referencia_congelada": {
+    "caminho": "artefatos/revisao_auditoria-v1/referencias/bloco_03.jsonl",
+    "sha256": "947f64ce4d2517cd9248c57ceac1242242fa54a3ea211f3edcfc49cc1a3b0962",
+    "total_registros": 26,
+    "provisorios": 26,
+    "inconclusivos": 0,
+    "sem_tema": 0,
+    "registros_com_mais_de_um_tema": 1
+  },
+  "declaracao_cegueira": "Não consultei sugestões do classificador, publicacao.csv, recibos Gemini, trilhas, política, comparações, revisões anteriores, README ou resultados de outros blocos. Não li .env, não usei Gemini ou API paga e não deleguei esta revisão. Os únicos arquivos locais de conteúdo lidos foram protocolo, taxonomia e bloco atribuídos, além da própria saída para validação. Não comparei a referência com o classificador nem com outro revisor.",
+  "metodo": [
+    "Leitura de todas as 26 questões, incluindo comando, enunciado e alternativas, na ordem do bloco.",
+    "Percurso dos 377 temas da taxonomia, considerando caminhos, títulos, hierarquia, status e descrições substantivas. Descrições de metadados não foram tratadas como restrições jurídicas.",
+    "As leituras iniciais por PowerShell exibiram acentuação incorreta; a taxonomia foi relida em Python com UTF-8. Nenhuma alteração foi feita nas entradas.",
+    "Consulta pública por web a legislação oficial, STF, STJ e TJDFT para confirmar escopo jurídico e pontos especializados; resultados secundários eventualmente presentes na busca não fundamentaram a referência.",
+    "Classificação sem gabarito oficial e sem especialista. A data da consulta não foi usada como data de origem da prova; alterações posteriores não foram projetadas sobre as questões.",
+    "Validação com Python stdlib de cobertura e ordem, oito campos exatos, tipos, unicidade, temas ativos e elegíveis com nível superior a zero, UTF-8 sem BOM e finais LF. Escrita realizada por apply_patch."
+  ],
+  "fontes_catalogo": {
+    "CP": {
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "titulo": "Código Penal — Decreto-Lei 2.848/1940, texto compilado",
+      "orgao": "Presidência da República",
+      "natureza": "legislação oficial",
+      "acesso": "2026-10-16",
+      "observacao_temporal": "A página contém alterações até 2026. Foram usados os dispositivos pertinentes ao recorte temático, sem atualizar retroativamente penas ou hipóteses das alternativas."
+    },
+    "CPP": {
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+      "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941, texto compilado",
+      "orgao": "Presidência da República",
+      "natureza": "legislação oficial",
+      "acesso": "2026-10-16",
+      "observacao_temporal": "A consulta identifica institutos e dispositivos. Questões sem data não receberam gabarito atualizado; referências posteriores a 2023 não foram usadas para resolver Q0013."
+    },
+    "TORTURA": {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm",
+      "titulo": "Lei 9.455, de 7 de abril de 1997 — crimes de tortura",
+      "orgao": "Presidência da República",
+      "natureza": "legislação oficial",
+      "acesso": "2026-10-16",
+      "localizacao": "Art. 1º, § 5º"
+    },
+    "STF610": {
+      "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2562",
+      "titulo": "Aplicação das Súmulas no STF — Súmula 610",
+      "orgao": "Supremo Tribunal Federal",
+      "natureza": "enunciado sumular e jurisprudência oficial",
+      "acesso": "2026-10-16",
+      "localizacao": "Enunciado; seção Consumação do crime de latrocínio e dispensa da subtração patrimonial; RHC 107.210, julgamento em 10/09/2013"
+    },
+    "OFENDICULOS": {
+      "url": "https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/a-doutrina-na-pratica/causas-de-exclusao-da-ilicitude/exercicio-regular-de-direito",
+      "titulo": "Exercício regular de direito — A doutrina na prática",
+      "orgao": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+      "natureza": "material institucional que reproduz e contextualiza doutrina; não é precedente vinculante nem autoria original da doutrina citada",
+      "acesso": "2026-10-16",
+      "localizacao": "Seção 3.4.1, A problemática dos ofendículos",
+      "limite": "Usado como apoio terminológico ao art. 23 do CP, fonte normativa primária. O material explicita a distinção entre instalação e funcionamento do aparato."
+    },
+    "STJ_CHIP": {
+      "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/27042021-Para-Quinta-Turma--introducao-de-chip-de-celular-em-presidio-nao-caracteriza-crime.aspx",
+      "titulo": "Para Quinta Turma, introdução de chip de celular em presídio não caracteriza crime",
+      "orgao": "Superior Tribunal de Justiça",
+      "natureza": "comunicação oficial do tribunal sobre decisão de sua Quinta Turma",
+      "data_publicacao": "2021-04-27",
+      "acesso": "2026-10-16",
+      "localizacao": "Parágrafos iniciais, interpretação estrita do art. 349-A do CP",
+      "limite": "Foi consultada a comunicação institucional, não o inteiro teor do processo."
+    }
+  },
+  "fontes_por_questao": [
+    {"id": "Q0013", "fontes": [{"fonte_id": "CPP", "localizacao": "Art. 3º-B, redação inserida pela Lei 13.964/2019", "relacao": "Enumera atribuições do juiz das garantias."}], "observacao": "O tema é estável apesar do debate de implementação referido a junho de 2023."},
+    {"id": "Q0158", "fontes": [{"fonte_id": "TORTURA", "localizacao": "Art. 1º, § 5º", "relacao": "Efeitos funcionais específicos da condenação por tortura."}], "candidato_rejeitado": "5209: menos preciso que a lei especial expressamente cobrada."},
+    {"id": "Q0331", "fontes": [{"fonte_id": "CPP", "localizacao": "Arts. 647 e 654", "relacao": "Cabimento, legitimidade e formalidades do habeas corpus."}], "observacao": "Não se definiu gabarito sobre todos os sujeitos processuais citados."},
+    {"id": "Q0134", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 317, caput e §§ 1º e 2º", "relacao": "Núcleo típico e modalidades da corrupção passiva."}]},
+    {"id": "Q0062", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 7º, I e § 1º", "relacao": "Aplicação espacial da lei penal brasileira."}]},
+    {"id": "Q0274", "fontes": [{"fonte_id": "STF610", "localizacao": "Enunciado da Súmula 610", "relacao": "Consumação do latrocínio sem subtração concluída."}, {"fonte_id": "CP", "localizacao": "Art. 157, § 3º", "relacao": "Posiciona o latrocínio entre as formas de roubo."}], "candidato_rejeitado": "5177: a teoria geral da tentativa é menos específica que a regra própria do latrocínio."},
+    {"id": "Q0188", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 23, II e III", "relacao": "Fundamento normativo das causas justificantes."}, {"fonte_id": "OFENDICULOS", "localizacao": "Seção 3.4.1, A problemática dos ofendículos", "relacao": "Explica modalidades doutrinárias e sua ligação com a ilicitude."}], "duvida_resolvida": "A pergunta distingue componentes do crime; não descreve acionamento que imponha exclusivamente a folha Legítima Defesa."},
+    {"id": "Q0237", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 15", "relacao": "Desistência da execução e impedimento voluntário do resultado."}]},
+    {"id": "Q0103", "fontes": [{"fonte_id": "CPP", "localizacao": "Arts. 621 e 626", "relacao": "Objeto e resultados possíveis da revisão criminal."}]},
+    {"id": "Q0265", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 119", "relacao": "Regra de prescrição individualizada no concurso."}], "granularidade": "5186: regra geral; não há cálculo temporal, causa interruptiva ou escolha entre espécies de concurso."},
+    {"id": "Q0030", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 197, I; Título IV", "relacao": "Tipo especial contra a liberdade de trabalho."}]},
+    {"id": "Q0187", "fontes": [{"fonte_id": "CP", "localizacao": "Arts. 91, 91-A e 92; art. 33, § 4º", "relacao": "Consequências da condenação e requisito para progressão."}], "multiplicidade_justificada": "5209 corresponde ao conjunto de alternativas sobre confisco, perda do cargo e poder familiar. 5201 corresponde à regra autônoma de progressão examinada expressamente. São dois recortes materiais centrais da pergunta aberta, sem inclusão automática de pais ou filhos.", "candidatos_rejeitados": ["5092: corrupção é premissa já estabelecida, sem pedido de tipificação.", "5577: o recorte é de consequências materiais da pena no CP, sem exigência de ato ou procedimento da sentença."]},
+    {"id": "Q0135", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 180, §§ 1º a 4º", "relacao": "Modalidades e autonomia da receptação."}], "observacao_temporal": "As mudanças recentes de pena não foram usadas na classificação."},
+    {"id": "Q0249", "fontes": [{"fonte_id": "CPP", "localizacao": "Arts. 252 e 253", "relacao": "Impedimento e incompatibilidade de magistrados."}], "granularidade": "Preferida a folha específica 5492 a Sujeitos do Processo; o título foi entendido como incluindo as causas materiais de arguição."},
+    {"id": "Q0223", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 349-A; capítulo dos crimes contra a administração da justiça", "relacao": "Tipo penal cujo alcance é testado."}, {"fonte_id": "STJ_CHIP", "localizacao": "Parágrafos iniciais da comunicação oficial", "relacao": "Distingue chip isolado de aparelho de comunicação."}], "granularidade": "5086 é a folha residual específica desse capítulo; 5084 abrange favorecimento pessoal e real, não a questão própria do art. 349-A."},
+    {"id": "Q0045", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 316, §§ 1º e 2º", "relacao": "Excesso de exação e sua forma qualificada."}]},
+    {"id": "Q0034", "fontes": [{"fonte_id": "CPP", "localizacao": "Arts. 647 e 648", "relacao": "Objeto tutelado e hipóteses do habeas corpus."}], "limite": "Não foi necessário decidir a alternativa jurisprudencial correta para identificar o tema."},
+    {"id": "Q0033", "fontes": [{"fonte_id": "CPP", "localizacao": "Arts. 311 a 313 e 366", "relacao": "Regime e requisitos da prisão preventiva."}], "observacao_temporal": "Alterações posteriores eventualmente exibidas no compilado não foram aplicadas para corrigir as alternativas."},
+    {"id": "Q0259", "fontes": [{"fonte_id": "CP", "localizacao": "Arts. 155, § 4º, I, e 163", "relacao": "Tipos usados no exemplo de sobreposição normativa."}], "limite": "A fonte normativa identifica os tipos. Não se adotou conclusão doutrinária sobre qual princípio resolve o exemplo, desnecessária ao tema Conflito Aparente de Normas."},
+    {"id": "Q0067", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 316, caput", "relacao": "Exigência funcional de vantagem indevida."}], "limite": "Não foi feita determinação de competência militar ou do diploma penal aplicável ao agente; a questão delimita a identificação da concussão."},
+    {"id": "Q0316", "fontes": [{"fonte_id": "CP", "localizacao": "Art. 20, § 3º", "relacao": "Erro sobre a pessoa e qualidades da vítima pretendida."}], "granularidade": "5224 acomoda erro acidental sobre a pessoa; infanticídio é a situação usada para aplicar a regra de erro."},
+    {"id": "Q0258", "fontes": [{"fonte_id": "CPP", "localizacao": "Art. 158, caput e parágrafo único", "relacao": "Exame de corpo de delito e prioridade de realização."}]},
+    {"id": "Q0263", "fontes": [{"fonte_id": "CPP", "localizacao": "Arts. 252 e 254", "relacao": "Distingue impedimento e suspeição judicial."}]},
+    {"id": "Q0334", "fontes": [], "fundamento_local": "Comando explícito sobre objeto criminológico e folha 4381 da taxonomia integralmente examinada.", "motivo_sem_consulta_externa": "A identificação temática é textual; não depende de confirmar regra jurídica, precedente ou nomenclatura ausente da taxonomia."},
+    {"id": "Q0327", "fontes": [{"fonte_id": "CP", "localizacao": "Arts. 63 a 68, especialmente art. 65, III, d", "relacao": "Reincidência, confissão e segunda fase da dosimetria."}], "limite": "Não foi emitida conclusão sobre compensação jurisprudencial ou pena final. As datas da narrativa foram preservadas; no dia de hoje não recebeu data presumida."},
+    {"id": "Q0129", "fontes": [{"fonte_id": "CPP", "localizacao": "Arts. 202, 206 e 208", "relacao": "Capacidade, recusa e compromisso de testemunhas parentes."}], "candidatos_rejeitados": ["4704 e 6724: a violência doméstica é contexto, enquanto a regra exigida é testemunhal.", "5535: a audiência é o momento processual, sem discussão do seu rito."]}
+  ],
+  "limitacoes_gerais": [
+    "Referência provisória de IA, sem especialista jurídico e sem gabarito oficial.",
+    "Não foram fornecidas datas de origem completas para as questões. Datas citadas no enunciado foram respeitadas como contexto, sem assumir a data desta revisão como data da prova.",
+    "A taxonomia tem descrições de metadados, folhas genéricas e sobreposições. As decisões de granularidade relevantes estão registradas por questão.",
+    "Não se buscou resolver todas as alternativas quando a identificação temática já era independente do gabarito."
+  ],
+  "validacao": {
+    "ferramenta": "Python stdlib: pathlib, json, hashlib e datetime",
+    "cobertura_26_ids_na_ordem": true,
+    "sem_duplicatas": true,
+    "oito_campos_exatos": true,
+    "tipos_corretos": true,
+    "temas_ativos_e_elegiveis_nivel_maior_zero": true,
+    "utf8_sem_bom_lf": true,
+    "campos_de_provisoriedade_e_responsabilidade": true,
+    "comparacao_com_classificador": false
+  }
+}

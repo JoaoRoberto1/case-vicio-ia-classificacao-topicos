@@ -1,6 +1,6 @@
 # Ponto de retomada do case
 
-**Módulo 5A concluído em 16/10/2026: 359 decisões congeladas, sem pendências de exportação.** São 78 `publicar`, 277 `revisar` e quatro `fora`, com cobertura observada de 21,73%. Este é o ponto de parada para revisão e commit do usuário antes da avaliação real do módulo 5B. A meta de 95% de precisão ainda não foi verificada.
+**Módulo 5B concluído em 16/10/2026: as 78 publicadas foram avaliadas contra referências cegas de IA.** Houve 77 correspondências exatas e uma divergência: 98,72% de concordância condicional. Isso não comprova precisão jurídica de 95%. O CSV permanece com 78 `publicar`, 277 `revisar` e quatro `fora`, cobertura de 21,73%. Este é o ponto de parada para revisão e commit do módulo 5B; recomenda-se depois um experimento 5C para melhorar a cobertura.
 
 ## Estado salvo
 
@@ -10,12 +10,42 @@
 | Módulo 2: protocolo | Definido: política v1, referências por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
 | Módulo 3: integração e pilotos | Concluído: dois pilotos de vinte casos, prompt v2 selecionado |
 | Módulo 4: lote completo | Concluído e commitado: 359 sugestões tecnicamente válidas |
-| Módulo 5A: decisões | Concluído: CLI integrada, oito revisões registradas, CSV e trilha congelados; aguarda commit |
-| Módulo 5B: avaliação | Pendente; preparar pacote cego e avaliar as publicadas |
+| Módulo 5A: decisões | Concluído e commitado: 359 decisões e trilha congeladas |
+| Módulo 5B: avaliação | Concluído: censo de 78, referências congeladas, comparação e diagnóstico; aguarda commit |
+| Módulo 5C: cobertura | Próximo experimento recomendado; não iniciado |
 | Módulo 6: relatório e memo | Pendente |
 | Módulo 7: entrega final e reprodução | Pendente; verificar checkout limpo e pacote completo |
 
-## Conclusão do módulo 5A
+## Conclusão do módulo 5B
+
+A base desta etapa foi o commit `69c512be315cb7502c82391a6298c474bc39ef65`, com repositório limpo. O usuário informou ter feito commit e push do módulo 5A. As fontes e decisões anteriores foram conferidas e preservadas.
+
+O [pacote de auditoria](../artefatos/auditoria-v1/manifesto_auditoria.json) selecionou os cinco publicados do desenvolvimento e os 73 restantes. A regra prévia de `min(80,N)` levou a censo dos dois estratos. Três agentes em contextos separados revisaram 26 questões cada, sem acesso às sugestões Gemini. As 78 referências passaram pelo contrato e foram [congeladas antes da comparação](../artefatos/revisao_auditoria-v1/manifesto_revisoes.json).
+
+| Resultado | Desenvolvimento | Restante | Total |
+| --- | ---: | ---: | ---: |
+| Revisadas | 5 | 73 | 78 |
+| Correspondências exatas | 5 | 72 | 77 |
+| Divergências | 0 | 1 | 1 |
+| Inconclusivas | 0 | 0 | 0 |
+
+A divergência Q0180 contrapõe o central 5554 (Busca e Apreensão) à referência 5594 (Prova Ilegal e Prova Ilícita). O segundo ID aparece como extra do classificador, mas extras não corrigem a métrica do central. Nenhuma decisão foi alterada após a auditoria.
+
+Três referências aceitam dois temas centrais: Q0009, Q0088 e Q0187, com justificativas cegas preservadas. Uma sensibilidade exploratória posterior trata essas três correspondências como não confirmadas, mantendo o denominador: 74/78 = 94,87%. Ela não altera o resultado principal e não é intervalo de confiança. O incidente de exposição incidental a trecho de gabarito de alternativa em uma busca sobre Q0179 está documentado; não houve acesso aos rótulos temáticos reservados ou às sugestões Gemini durante a revisão.
+
+Os cenários conservador e otimista previstos coincidem em 77/78, pois não há inconclusivos. Os intervalos amostrais são degenerados por se tratar de censo; não cobrem erros da referência de IA. Método, limitações, fontes e comandos estão em [AUDITORIA_V1.md](AUDITORIA_V1.md). Os cálculos estão no [relatório de avaliação](../artefatos/avaliacao-v1/relatorio_avaliacao.json) e na [comparação por questão](../artefatos/avaliacao-v1/comparacao_auditoria.csv).
+
+O [diagnóstico de cobertura](COBERTURA_V1.md) explica as 277 revisões: 232 têm temas alternativos, 218 confiança abaixo do limiar, 193 revisão solicitada, 60 ambiguidade mapeada, 32 excesso de extras e quatro correções de `fora`. Os sinais se sobrepõem. Há 41 questões retidas somente por temas alternativos, sete apenas pela confiança e uma somente por ambiguidade; 228 acumulam sinais. Diminuir apenas o limiar não resolve o principal gargalo.
+
+### Verificações do módulo 5B
+
+- Suíte final: 237 testes, 236 aprovados e um pulado por privilégio de link simbólico no Windows, em 139,823 s. A proteção de links também tem teste simulado aprovado.
+- Pacote de auditoria reproduzido com seis arquivos idênticos; avaliação reproduzida em pasta temporária com dois arquivos idênticos, usando as mesmas entradas locais. Diagnóstico repetido sem alterar bytes ou data de modificação.
+- Conferência independente de todas as linhas, hashes, contagens e frações; referências congeladas, CSV 5A, 359 recibos e Q0005 derivado preservados.
+- Nenhuma nova chamada Gemini ou leitura de `.env`. O uso dos agentes Codex não foi medido pelos recibos; permanece desconhecido.
+- Checkpoint: [modulo5b_2026-10-16.json](../artefatos/checkpoints/modulo5b_2026-10-16.json). Nenhum commit ou push realizado pelo assistente.
+
+## Histórico do módulo 5A
 
 A base desta etapa foi o commit `d22435a54c59021f3eeea5dd698aad10d8e32d29`. O [CSV da raiz](../publicacao.csv) é cópia byte a byte do [CSV congelado](../artefatos/decisoes-v1/publicacao.csv). O [manifesto de decisões](../artefatos/decisoes-v1/manifesto_decisoes.json) registra contagens e hashes; a [trilha](../artefatos/decisoes-v1/trilha_decisoes.jsonl) preserva sugestões originais, aplicação da política e intervenções. O arquivo de pendências está vazio.
 
@@ -76,9 +106,9 @@ A última invocação terminou com código zero. O executor encerrou, nenhum pro
 - `.env` e `contexto_local/` continuam ignorados. A conferência final inclui busca de credencial Google nos arquivos versionáveis, links locais da documentação e `git diff --check`.
 - Nenhum commit, push, aplicação da política, auditoria ou exportação final foi realizado nesta continuação.
 
-## Ajuste de reprodução a incluir neste commit
+## Ajuste de reprodução já incluído no commit 5A
 
-O `temas.csv` local usa CRLF e coincide exatamente com o hash do manifesto (`9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc`). O blob no HEAD anterior usa LF (`260c1826a6604a64ce26be0883ddc63e2ba768f1e55dcf88f323db42be36325c`). O texto é idêntico; apenas os fins de linha diferem. No módulo 5A, essa pendência foi corrigida no índice real do Git e ainda precisa entrar no commit.
+O `temas.csv` local usa CRLF e coincide exatamente com o hash do manifesto (`9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc`). O commit 5A incluiu os mesmos bytes no Git; `HEAD:temas.csv`, índice e fonte local foram conferidos como idênticos nesta retomada. A pendência histórica de LF no repositório foi resolvida, sem editar o conteúdo da fonte.
 
 Foi executado `git add --renormalize -- temas.csv`, com o atributo atual `-text`. A fonte local não foi editada; o índice agora contém seus bytes exatos. `git ls-files --eol temas.csv` mostra `i/crlf w/crlf attr/-text`, e a comparação ignorando fins de linha não mostra mudança textual. Os checkpoints históricos registram corretamente a pendência existente quando foram criados e permanecem intactos. O atributo `-text` também foi acrescentado para `publicacao.csv`, para preservar seu hash em outros checkouts.
 
@@ -86,21 +116,20 @@ A regra de whitespace de `temas.csv` reconhece o CRLF preservado como fim de lin
 
 ## Commit deste módulo
 
-Este commit reúne o módulo 5A: exportação e integração CLI, testes, oito revisões, decisões congeladas, CSV da raiz, checkpoint e documentação. `temas.csv` já está preparado no índice. O assistente não fez commit ou push; os demais arquivos devem ser revisados e adicionados pelo usuário.
+Este commit reúne o módulo 5B: pacote de auditoria, protocolo e referências cegas, avaliação, diagnóstico de cobertura, sensibilidade exploratória, testes, checkpoint e documentação. O assistente não fez commit, push ou staging nesta etapa.
 
 Comandos sugeridos, a partir da raiz:
 
 ```powershell
 git status --short
-git ls-files --eol temas.csv
-git diff --cached --ignore-space-at-eol -- temas.csv
-git add .gitattributes README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md docs/DECISOES_V1.md
-git add classificacao_topicos/__main__.py classificacao_topicos/decisoes.py tests/test_cli.py tests/test_cli_decisoes.py tests/test_decisoes.py
-git add prompts/revisao_fora_v1.txt artefatos/revisao_fora-v1 artefatos/decisoes-v1 artefatos/checkpoints/modulo5a_2026-10-16.json publicacao.csv
+git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md docs/AVALIACAO.md docs/DECISOES_V1.md docs/AUDITORIA_V1.md docs/COBERTURA_V1.md
+git add classificacao_topicos/diagnostico_cobertura.py tests/test_diagnostico_cobertura.py prompts/revisao_auditoria_v1.txt
+git add artefatos/auditoria-v1 artefatos/revisao_auditoria-v1 artefatos/avaliacao-v1
+git add artefatos/analises/cobertura-v1.json artefatos/analises/sensibilidade-referencia-v1.json artefatos/checkpoints/modulo5b_2026-10-16.json
 git diff --cached --check
 git diff --cached --stat
 git diff --cached --name-only
-git commit -m "feat: congela decisoes e integra avaliacao"
+git commit -m "eval: registra auditoria cega e diagnostico de cobertura"
 ```
 
 Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` continuam locais e ignorados: repetem o catálogo e são regeneráveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.
@@ -136,14 +165,14 @@ Ao conferir o lote por scripts, selecionar recibos por `Q[0-9]{4}\.json`, pois `
 
 ## Próximos módulos
 
-1. **5B — avaliação:** preparar o pacote cego com censo dos publicados entre os vinte casos de desenvolvimento e amostra sem reposição de `min(80,N)` demais publicados, semente `2026101401`. Como há apenas 78 publicados no total, essa regra levará a revisar todos eles, preservando a distinção entre desenvolvimento e restante. Produzir referências provisórias de IA e calcular os cenários conservador e otimista, condicionados à referência.
-2. **6 — relatório:** preencher `previsao.txt` e produzir relatório de até cinco páginas, incluindo memo de uma página e proposta para 50 mil questões por semana.
-3. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
+1. **5C — experimento de cobertura recomendado:** registrar previamente uma intervenção de desambiguação, começando pelas 41 questões retidas somente por alternativas. Preservar a versão 1, congelar novas decisões antes da avaliação e avaliar os novos publicados. O achado de Q0180 pode orientar a distinção entre contexto e centro cobrado. Não afrouxar regras apenas para aumentar a contagem, nem apresentar avaliação reutilizada como independente de um ajuste guiado por ela.
+2. **6 — relatório:** escolher a versão de entrega, preencher `previsao.txt` e produzir relatório de até cinco páginas, incluindo memo de uma página e proposta para 50 mil questões por semana.
+3. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo. O relatório de avaliação atual inclui caminhos absolutos das fontes; em outro checkout, comparar os hashes dos conteúdos, o CSV e as métricas. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
 
 ## Decisões que devem ser preservadas
 
-O usuário não tem apoio jurídico disponível e não há gabarito oficial. A referência futura será identificada como produzida por IA. Concordância entre IAs não comprova precisão jurídica. O limiar 0,95 é operacional e a confiança é autodeclarada, não calibrada. A política foi registrada antes de inspecionar as novas classificações; não ajustá-la sobre a amostra e depois chamar essa avaliação de independente.
+O usuário não tem apoio jurídico disponível e não há rótulos temáticos oficiais. A referência está identificada como produzida por IA. Concordância entre IAs não comprova precisão jurídica. O limiar 0,95 é operacional e a confiança é autodeclarada, não calibrada. A política foi registrada antes de inspecionar as novas classificações; não ajustá-la sobre a avaliação e depois chamar essa avaliação de independente.
 
 Na avaliação local, igualdade de ID ou relação imediata pai/filho é aceita; irmãos e ancestrais distantes permanecem distintos. Essa interpretação conservadora do case está documentada. A confiança das quatro sugestões corrigidas vem do revisor; a de `fora` é zero como sentinela de não aplicável. O intervalo da cobertura observada será degenerado. As convenções estão em [AVALIACAO.md](AVALIACAO.md).
 
-Para retomar: **“Leia docs/RETOMADA.md e continue somente o módulo 5B; pare ao concluir para eu revisar e commitar.”**
+Para retomar: **“Leia docs/RETOMADA.md e inicie o módulo 5C de melhoria de cobertura; preserve a versão 1 e pare ao concluir para eu revisar e commitar.”**

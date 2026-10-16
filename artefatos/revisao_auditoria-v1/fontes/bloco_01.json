@@ -1,0 +1,517 @@
+{
+  "data": "2026-10-16",
+  "fuso_horario": "America/Sao_Paulo",
+  "bloco": "bloco_01",
+  "agente": "Codex — /root/auditoria_cega_01",
+  "natureza": "Referência provisória produzida por IA sem especialista jurídico; não é gabarito confirmado.",
+  "protocolo": "prompts/revisao_auditoria_v1.txt",
+  "ids": [
+    "Q0014",
+    "Q0099",
+    "Q0169",
+    "Q0179",
+    "Q0218",
+    "Q0231",
+    "Q0022",
+    "Q0255",
+    "Q0002",
+    "Q0054",
+    "Q0246",
+    "Q0041",
+    "Q0079",
+    "Q0035",
+    "Q0243",
+    "Q0176",
+    "Q0270",
+    "Q0095",
+    "Q0098",
+    "Q0019",
+    "Q0301",
+    "Q0160",
+    "Q0283",
+    "Q0157",
+    "Q0042",
+    "Q0308"
+  ],
+  "arquivos_lidos": [
+    {
+      "caminho": "prompts/revisao_auditoria_v1.txt",
+      "sha256": "f5930fb400b835658e5dd2d4f45901079a2ec483562037edd3dc09e58db0a758",
+      "escopo": "Integral"
+    },
+    {
+      "caminho": "artefatos/auditoria-v1/temas_preparados.json",
+      "sha256": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+      "escopo": "Todos os 377 nós, com títulos, descrições, caminhos, níveis e status; leitura em fatias para evitar truncamento."
+    },
+    {
+      "caminho": "artefatos/revisao_auditoria-v1/entradas/bloco_01.jsonl",
+      "sha256": "f9d73be170ef47d37f3546e224a40be8af57c8c4313c14f6fed1a3559947c622",
+      "escopo": "Todas as 26 questões, enunciado, comando e alternativas."
+    }
+  ],
+  "declaracao_cegueira": "As sugestões do classificador, publicacao.csv, recibos, trilhas, política, comparações, revisões anteriores e de outros blocos, README e .env não foram consultados. Não foram chamadas APIs Gemini ou outras APIs pagas. Não houve delegação ou intercâmbio de referências com outros revisores.",
+  "metodo": "Leitura semântica do comando e das alternativas à luz de toda a taxonomia. Cada lista contém apenas o tema julgado central mais específico; raízes e nós inativos foram excluídos. Não se buscou concordância com qualquer classificação externa. Consultas públicas confirmaram regras ou nomenclaturas quando úteis à escolha.",
+  "recorte_temporal": "O bloco não informa ano de prova. Textos compilados e precedentes foram usados para identificar institutos e vocabulário; não se presume que reformas posteriores regiam uma prova histórica. Não foi produzido gabarito das alternativas.",
+  "fontes_por_questao": [
+    {
+      "id": "Q0014",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Art. 647",
+          "relacao": "Delimita habeas corpus como tutela da liberdade de locomoção.",
+          "data_consulta": "2026-10-16"
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/2a-turma-afasta-internacao-de-adolescente-aplicada-em-desacordo-com-o-eca/",
+          "titulo": "STF — 2ª Turma afasta internação de adolescente aplicada em desacordo com o ECA",
+          "localizacao": "Notícia institucional sobre concessão de habeas corpus de ofício",
+          "relacao": "Confirma que a internação determinada por vara da infância pode ser examinada pela via discutida; consultado o trecho público indexado.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "O excerto não fornece os fatos anteriores relativos a Pedro, mas isso não impede identificar a discussão sobre habeas corpus. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0099",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 329, caput e §§ 1º e 2º; arts. 23 e 25",
+          "relacao": "Permite separar resistência, sua qualificação, as consequências da violência e a reação lícita dos agentes.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "As alternativas também exigem reconhecer a licitude da reação dos fiscais e a punição da violência, mas o eixo diferenciador predominante é a resistência. Não adicionei temas de lesões e excludentes apenas por conexão. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0169",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Arts. 252 a 256, especialmente art. 255",
+          "relacao": "Identifica o bloco normativo de impedimento e suspeição judicial.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "O comando versa sobre causas, não sobre o rito da exceção; o título de 5492 foi interpretado abrangendo seus pressupostos materiais. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0179",
+      "fontes": [
+        {
+          "url": "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf",
+          "titulo": "Criminologia — Thais Bandeira e Daniela Portugal, UFBA, Tecnologia em Segurança Pública",
+          "localizacao": "Página impressa 68, seção Prevenção secundária; PDF página de índice 68",
+          "relacao": "Documento institucional original consultado que situa intervenções em grupos e no espaço urbano entre as modalidades preventivas. O livro cita Molina e Calhau; não foi acessada a obra originária de cada proposição.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A nomenclatura foi conferida em material institucional de Criminologia da UFBA, que remete a doutrina. Não é classificação de reação ao delito já ocorrido. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0218",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Arts. 301 e 302",
+          "relacao": "Confirma o tema da prisão em flagrante.",
+          "data_consulta": "2026-10-16"
+        },
+        {
+          "url": "https://www.stj.jus.br/websecstj/cgi/revista/REJ.exe/ITA?CodOrgaoJgdr=&SeqCgrmaSessao=&dt=20181031&formato=PDF&nreg=201001003762&salvar=false&seq=1767175&tipo=0",
+          "titulo": "STJ — AgRg no RE nos EDcl no REsp 1.196.136/RO",
+          "localizacao": "Inteiro teor, trecho indexado da página 11; DJe 31/10/2018",
+          "relacao": "Distingue flagrante provocado e esperado por induzimento, confirmando a nomenclatura central, sem transportar a solução daquele caso para este.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A tipificação da fraude não é necessária para fixar o assunto. A ação controlada aparece como alternativa e não como técnica efetivamente descrita. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0231",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 20, caput",
+          "relacao": "Identifica o erro sobre elemento constitutivo como erro de tipo e seu efeito sobre o dolo.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Não foram agregados os temas de tráfico nem erro de proibição, pois o comando delimita o erro de tipo essencial. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0022",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 312, § 2º",
+          "relacao": "A previsão expressa de peculato culposo resolve a escolha temática específica entre os delitos listados.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A escolha temática depende de identificar a previsão legal dentre os delitos apresentados; ela foi conferida no Código Penal. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0255",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Arts. 26 a 28",
+          "relacao": "Confirma o agrupamento de inimputabilidade, capacidade diminuída, menoridade e embriaguez.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "O título inclui a fronteira entre inimputabilidade e capacidade diminuída, embora o comando use a expressão mais ampla imputabilidade penal. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0002",
+      "fontes": [
+        {
+          "url": "https://jornal.ufg.br/n/96688-o-sistema-penal-e-uma-forma-de-violencia",
+          "titulo": "O sistema penal é uma forma de violência — entrevista com Vera Regina Pereira de Andrade, Jornal UFG",
+          "localizacao": "Resposta sobre seletividade estrutural, linhas 29 a 32 da página consultada",
+          "relacao": "Fala original da autora relaciona vulnerabilidade de classes baixas à criminalização desigual; fundamenta o recorte em criminalização secundária.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Há relação com criminologia crítica e teorias sociológicas, mas o ponto perguntado é o processo seletivo de criminalização, não uma comparação de escolas. A entrevista original da autora corrobora esse recorte. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0054",
+      "fontes": [
+        {
+          "url": "https://processo.stj.jus.br/processo/julgamento/eletronico/documento/?documento_sequencial=213613156&documento_tipo=integra&publicacao_data=20231020&registro_numero=202200194820",
+          "titulo": "STJ — REsp 1.982.304/SP",
+          "localizacao": "Inteiro teor, trecho indexado de distinção entre crimes materiais, formais, de mera conduta e de atividade; publicação 20/10/2023",
+          "relacao": "Confirma que a nomenclatura utilizada pertence às classificações dos crimes. Não foi usada como gabarito da sequência de alternativas.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Os tipos penais citados são exemplos para a classificação; não é necessário resolver toda a sequência de alternativas para identificar o tema. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0246",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Arts. 413 a 415",
+          "relacao": "Localiza as decisões ao final da primeira fase do júri.",
+          "data_consulta": "2026-10-16"
+        },
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 26, parágrafo único",
+          "relacao": "Distingue capacidade diminuída de inimputabilidade para interpretar o pressuposto do comando.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A semi-imputabilidade é pressuposto da decisão procedimental, não o objeto autônomo da pergunta. A data da prova não foi fornecida. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0041",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Título VI, arts. 96 e 97",
+          "relacao": "Delimita espécies e imposição de medida de segurança, suficientes para confirmar o instituto do conjunto.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A classificação não valida todas as proposições sobre política antimanicomial ou legislação da pessoa com deficiência; essas controvérsias não alteram o instituto central. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0079",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Art. 3º-A, redação da Lei 13.964/2019",
+          "relacao": "Confirma nomenclatura acusatória e separação das funções. Usado como referência terminológica atual, sem pressupor a data da questão ou retroatividade.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A referência normativa atual foi usada apenas para confirmar a nomenclatura e a separação de funções, sem atribuir retroatividade ao art. 3º-A do CPP. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0035",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13260.htm",
+          "titulo": "Lei 13.260/2016 — Lei Antiterrorismo",
+          "localizacao": "Arts. 1º, 2º, 3º, 5º e 11",
+          "relacao": "Reúne definição, organização, preparação e investigação que as alternativas confrontam.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A presença de competência federal em uma alternativa não transforma o conjunto em questão geral de competência. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0243",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Arts. 15 e 16",
+          "relacao": "Distingue arrependimento posterior das demais formas de abandono ou neutralização do crime.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "O furto qualificado é a situação de aplicação; o marco da restituição é a informação decisiva para o instituto perguntado. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0176",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 342",
+          "relacao": "Situa a questão no tipo penal de falso testemunho, e não apenas no meio de prova testemunhal.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Não se confirmou a resposta de todas as alternativas, pois a distinção entre delito material e meio de prova já é inequívoca no comando. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0270",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 316, caput",
+          "relacao": "Relaciona a exigência de vantagem em razão da função ao tipo de concussão.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A classificação usa a exigência funcional narrada; não se confundem o contexto de trânsito e os delitos oferecidos como distratores. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0095",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Arts. 107, IX; 121, § 5º; 129, § 8º",
+          "relacao": "Confirma o instituto comum aos dois exemplos: perdão judicial em hipóteses culposas.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Lesão corporal e homicídio são hipóteses concretas de aplicação, não dois temas adicionais necessários. A intensidade das consequências deve ser apreciada no caso concreto. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0098",
+      "fontes": [
+        {
+          "url": "https://processo.stj.jus.br/docs_internet/informativos/PDF/Inf0761.pdf",
+          "titulo": "STJ — Informativo de Jurisprudência 761",
+          "localizacao": "Trecho indexado que cita HC 350.956/SC, DJe 15/8/2016, e define confissão qualificada",
+          "relacao": "Confirma a nomenclatura de admissão dos fatos acompanhada de alegação defensiva. A jurisprudência sobre atenuação não foi objeto da classificação.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A incidência da atenuante não é perguntada, embora apareça em precedentes consultados para confirmar a nomenclatura. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0019",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Título IV, arts. 63 a 68",
+          "relacao": "Delimita ação civil decorrente do delito e relações com decisões ou arquivamento na esfera penal; não resolve isoladamente toda a discussão constitucional da alternativa A.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Não foi necessário decidir as teses constitucionais sobre legitimidade do Ministério Público para fixar o tema. A data da questão não consta do bloco. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0301",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 107, IX",
+          "relacao": "Confirma a categoria geral de perdão judicial previsto em lei. A classificação decorre do comando expresso; não se aferiu o cabimento de todas as hipóteses oferecidas.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Não se exige enquadrar cada crime em tema próprio nem reconstruir o gabarito para identificar o benefício comparado. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0160",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 44, especialmente § 3º",
+          "relacao": "Confirma que reincidência é requisito de substituição por pena restritiva de direitos no item.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A reincidência é examinada como requisito de substituição, não como agravante na segunda fase da dosimetria. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0283",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Arts. 134, 135, § 6º, e 143",
+          "relacao": "Situa a hipoteca legal e a caução substitutiva entre as medidas de garantia patrimonial.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A origem lícita do imóvel diferencia os pressupostos de hipoteca e sequestro, sem tornar o caso tema de direito sucessório. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0157",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8072compilada.htm",
+          "titulo": "Lei 8.072/1990 — Crimes Hediondos (texto oficial compilado)",
+          "localizacao": "Art. 1º, VII, e art. 2º, § 4º",
+          "relacao": "Confirma o pressuposto da regra especial de prazo; o objeto perguntado permanece a prisão temporária.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A hediondez é pressuposto da regra especial de prazo; não acrescentei automaticamente Crimes Hediondos ou Crimes contra a Saúde Pública. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0042",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "titulo": "Código Penal — Decreto-Lei 2.848/1940 (texto oficial compilado)",
+          "localizacao": "Art. 18, I e II",
+          "relacao": "Confirma o contraste entre vontade de resultado, assunção de risco e culpa.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "Conduta é tema vizinho mais amplo; o comando isola o dolo e suas diferenças em relação à culpa. Sem revisão jurídica especializada."
+    },
+    {
+      "id": "Q0308",
+      "fontes": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+          "titulo": "Código de Processo Penal — Decreto-Lei 3.689/1941 (texto oficial compilado)",
+          "localizacao": "Art. 18",
+          "relacao": "Situa os efeitos do arquivamento por falta de base probatória.",
+          "data_consulta": "2026-10-16"
+        },
+        {
+          "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2015/2015-07-03_07-31_Nova-qualificacao-dos-fatos-nao-basta-para-justificar-reabertura-de-investigacao.aspx",
+          "titulo": "STJ — Nova qualificação dos fatos não basta para justificar reabertura de investigação",
+          "localizacao": "Notícia institucional de 03/07/2015, distinção entre reinterpretação jurídica e prova nova",
+          "relacao": "Confirma o recorte específico dos efeitos do arquivamento por insuficiência informativa, sem aplicar retrospectivamente regras atuais de atribuição para arquivar.",
+          "data_consulta": "2026-10-16"
+        }
+      ],
+      "duvidas_e_limites": "A justa causa é a razão do arquivamento e oferece uma leitura próxima a condições da ação; prevalece o instituto explicitamente submetido ao exame. Não se presume a data do regime de arquivamento. Sem revisão jurídica especializada."
+    }
+  ],
+  "granularidade_e_candidatos_rejeitados": [
+    {
+      "id": "Q0099",
+      "considerados": [
+        "5100",
+        "5077",
+        "5231",
+        "5232"
+      ],
+      "decisao": "Oposição violenta ao ato e distinções de resistência dominam o caso. Lesões e reação lícita dos agentes são aspectos complementares; não foi formada uma lista de todos os institutos envolvidos."
+    },
+    {
+      "id": "Q0169",
+      "considerados": [
+        "5492",
+        "5583"
+      ],
+      "decisao": "5492 é mais específico para causas de suspeição e impedimento; Sujeitos do Processo é amplo."
+    },
+    {
+      "id": "Q0002",
+      "considerados": [
+        "4378",
+        "4387",
+        "4373"
+      ],
+      "decisao": "Selecionar pessoas para criminalização é o núcleo concreto; a escola teórica da autora não substitui o objeto perguntado."
+    },
+    {
+      "id": "Q0022",
+      "considerados": [
+        "5089",
+        "5222",
+        "5088"
+      ],
+      "decisao": "A identificação da modalidade culposa é própria do tipo de peculato listado, não de uma discussão geral sobre a estrutura da culpa."
+    },
+    {
+      "id": "Q0246",
+      "considerados": [
+        "5527",
+        "5213",
+        "5526"
+      ],
+      "decisao": "A semi-imputabilidade constitui dado para decidir a primeira fase do júri; o tema específico das decisões prevalece sobre condição pessoal e procedimento geral."
+    },
+    {
+      "id": "Q0157",
+      "considerados": [
+        "5520",
+        "4693",
+        "5145"
+      ],
+      "decisao": "O prazo da prisão temporária é o pedido; natureza hedionda e epidemia são pressupostos."
+    },
+    {
+      "id": "Q0308",
+      "considerados": [
+        "5501",
+        "5467"
+      ],
+      "decisao": "Justa causa é a qualificação do fundamento, mas o enunciado submete os efeitos do arquivamento do inquérito ao exame."
+    }
+  ],
+  "incidentes_de_procedencia": [
+    {
+      "tipo": "exposicao_acidental_em_resultado_de_busca",
+      "questao": "Q0179",
+      "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/delegado-de-policia-federal-2012/28%20Justificativas.PDF",
+      "titulo": "DPF_DELEGADO_Justificativas_de_alterações_de_gabarito",
+      "momento": "2026-10-16, primeira consulta web deste revisor, após leitura da taxonomia e do bloco e antes da redação da referência. O horário exato dessa consulta não foi registrado; a busca continha a expressão prevenção secundária do delito e termos relativos aos exemplos narrados.",
+      "natureza_trecho": "O resultado de busca apresentou explicação doutrinária de prevenção secundária e parte de tabela de gabarito de alternativas da prova de delegado da Polícia Federal de 2012. Trata-se de gabarito de resposta ao item, não dos rótulos temáticos reservados desta organização.",
+      "descricao": "Houve exposição incidental ao trecho automaticamente retornado. O documento PDF não foi aberto nem adotado como fonte de fundamentação. A referência usa o comando expresso e a publicação institucional da UFBA, mas isso não demonstra ausência de influência da exposição. O item foi mantido e o julgamento não foi mudado apenas em razão do incidente. Não houve consulta às sugestões Gemini ou a outros rótulos temáticos reservados."
+    },
+    {
+      "tipo": "falhas_temporarias_de_acesso",
+      "descricao": "A primeira abertura do PDF eduCAPES e da entrevista UFG retornou erro interno; novas aberturas tiveram sucesso. Não foram inventadas informações para suprir o erro."
+    }
+  ],
+  "contagens": {
+    "registros": 26,
+    "provisorios": 26,
+    "inconclusivos": 0,
+    "sem_tema": 0
+  },
+  "validacao": {
+    "status": "ok",
+    "ferramenta": "Python stdlib, execução local sem site-packages",
+    "data_utc": "2026-10-16T18:03:09.442566+00:00",
+    "checagens": "26 IDs, cobertura e ordem exatas, ausência de duplicatas, oito campos exatos, tipos, situação e tipo de referência, temas ativos e nível maior que zero, consistência de sem_tema, fontes por questão, hashes das entradas, UTF-8 sem BOM e finais LF.",
+    "sha256_referencia_congelada": "20643456f95b2efe3462751802bb3aa44bf50ec037ceee911489859870fffdff"
+  },
+  "congelamento": "Referência congelada após validação estrutural, antes de qualquer comparação com sugestões do classificador. O único ajuste posterior foi registrar o resultado da validação neste dossiê."
+}

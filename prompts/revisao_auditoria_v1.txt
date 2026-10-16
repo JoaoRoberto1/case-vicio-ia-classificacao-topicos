@@ -1,0 +1,25 @@
+Você fará uma referência provisória de classificação temática, em português, sem acesso às sugestões do classificador. Não há especialista jurídico ou gabarito oficial disponível. O objetivo é identificar o assunto central de cada questão do seu bloco, com rigor e incertezas explícitas.
+
+Leia integralmente este protocolo, todas as questões do bloco atribuído e a taxonomia preparada em artefatos/auditoria-v1/temas_preparados.json. Examine o enunciado, comando e alternativas em conjunto. Use títulos, descrições e hierarquia de todos os temas. Descrições que apenas repetem metadados não definem restrições jurídicas adicionais. IDs repetidos em títulos de ramos diferentes continuam distintos. Não use temas inativos nem raízes de disciplina para resolver dúvidas.
+
+Fontes locais permitidas para a revisão: este arquivo, o bloco de entradas_cegas atribuído e a taxonomia indicada. Não leia publicacao.csv, recibos Gemini, trilhas, política, comparações, revisões anteriores, README ou outros documentos com resultados. Não acesse .env e não chame Gemini ou outra API paga. Não peça a outros agentes respostas nem compartilhe referências entre blocos antes do fechamento.
+
+Para cada questão, identifique o conceito efetivamente cobrado; o contexto narrativo pode diferir do assunto pedido. Escolha o tema ativo mais específico que o texto sustenta. Não é necessário escolher a alternativa correta para classificar, salvo quando a distinção temática depender dela. Um tema pai só é aceitável com justificativa semântica. Não inclua pais ou filhos automaticamente na lista para aumentar a chance de coincidir com outra classificação.
+
+temas_centrais_aceitaveis deve conter o melhor ID, ou mais de um apenas quando cada um representa um enquadramento central defensável de forma independente. Justifique escolhas múltiplas, conflitos de ramo e dúvidas de granularidade. Não inclua temas apenas incidentais. Use situacao inconclusivo quando a dúvida substancial não puder ser resolvida; não esconda incerteza na lista de IDs. Ausência de tema exige examinar a árvore inteira e não decorre de confiança baixa.
+
+Consulte fontes primárias públicas quando precisar confirmar regra jurídica, jurisprudência, escopo ou nomenclatura especializada. Prefira legislação oficial, tribunais e documentos originais. Respeite a data da questão quando ela for relevante e não projete alterações posteriores retroativamente. Registre URL, título, localização/artigo e a relação da fonte com a classificação, sem inventar fontes. Se não conseguir resolver a dúvida, registre a limitação. Classificar uma questão não equivale a dar aconselhamento jurídico.
+
+Produza um JSONL UTF-8 com exatamente estes campos por questão:
+id: ID da questão.
+temas_centrais_aceitaveis: lista de IDs ativos como strings.
+sem_tema: false se há tema, true se não há tema ou null se a presença é indeterminada.
+situacao: provisorio ou inconclusivo. provisorio significa referência de IA fundamentada, nunca gabarito confirmado.
+justificativa: explique o centro da questão e por que o ID escolhido o representa; mencione o conteúdo concreto, sem fórmulas genéricas repetidas.
+limitacoes: dúvidas específicas e limitações da análise; sempre reconheça ausência de revisão jurídica especializada.
+tipo_referencia: IA_sem_especialista.
+responsavel: Codex - revisor cego do bloco atribuído, sem especialista jurídico.
+
+Não acrescente campos ao JSONL. O resultado deve cobrir todos e somente os IDs do bloco, sem duplicatas e na mesma ordem. Grave separadamente um JSON de fontes e procedência, com data, bloco, IDs, hashes dos arquivos lidos, protocolo, fontes por questão e declaração de que as sugestões do classificador não foram consultadas. Esse arquivo pode incluir evidências e candidatos rejeitados, preservando incertezas. Não modifique entradas, fontes ou arquivos de outros blocos.
+
+Antes de finalizar, confira cobertura dos IDs, campos exatos, tipos, IDs ativos e nível maior que zero. Não compare com o classificador. Relate ao coordenador apenas os caminhos produzidos, contagens e problemas; o resultado tem de ser congelado antes da comparação.

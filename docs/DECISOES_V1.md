@@ -107,16 +107,16 @@ A suíte completa executou 233 testes em 71,644 segundos: **232 aprovados e um p
 
 Na verificação dos artefatos reais, repetir a CLI preservou bytes e datas de modificação dos quatro produtos. A reprodução de `preparar_decisoes` em pasta temporária gerou os mesmos quatro arquivos, byte a byte, e a cópia de `publicacao.csv` na raiz foi conferida. Essa verificação reutilizou as entradas locais; a reprodução completa a partir de um novo checkout fica no módulo 7.
 
-A auditoria real ainda não foi iniciada. Após a revisão e o commit do módulo 5A, o módulo 5B usará os comandos abaixo, com caminhos explícitos:
+Na conclusão do módulo 5A, a auditoria real ainda não havia sido iniciada. Ela foi executada depois do commit do usuário; os resultados e limites estão em [AUDITORIA_V1.md](AUDITORIA_V1.md). Os comandos abaixo documentam as interfaces; a preparação de auditoria exige uma pasta nova, pois `artefatos/auditoria-v1` agora está congelada:
 
 ```powershell
-python -m classificacao_topicos preparar-auditoria --preparacao artefatos/preparacao --lote artefatos/lote-v2 --decisoes artefatos/decisoes-v1 --politica config/politica_v1.json --saida artefatos/auditoria-v1
+python -m classificacao_topicos preparar-auditoria --preparacao artefatos/preparacao --lote artefatos/lote-v2 --decisoes artefatos/decisoes-v1 --politica config/politica_v1.json --saida artefatos/auditoria-v1-reproduzida
 ```
 
 Esse comando prepara a seleção e o pacote para revisão cega. As referências precisam ser produzidas antes da avaliação:
 
 ```powershell
-python -m classificacao_topicos avaliar-auditoria --preparacao artefatos/preparacao --auditoria artefatos/auditoria-v1 --decisoes artefatos/decisoes-v1 --revisoes artefatos/revisao_auditoria-v1 --saida artefatos/avaliacao-v1
+python -m classificacao_topicos avaliar-auditoria --preparacao artefatos/preparacao --auditoria artefatos/auditoria-v1 --decisoes artefatos/decisoes-v1 --revisoes artefatos/revisao_auditoria-v1/referencias --saida artefatos/avaliacao-v1-reproduzida
 ```
 
 O plano registrado separa o censo dos publicados do desenvolvimento e `min(80, N)` demais publicados. Nesta versão, há cinco publicados no desenvolvimento e 73 no restante: a regra resulta em **censo das 78 decisões `publicar`**, sem necessidade de amostragem parcial. A avaliação mantém o caráter provisório da referência por IA e não autoriza mudanças retroativas nesta versão. A previsão e o relatório final dependem dessa etapa. Os comandos de commit e o estado operacional estão no [ponto de retomada](RETOMADA.md).

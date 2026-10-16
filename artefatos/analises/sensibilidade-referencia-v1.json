@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "procedimento": "sensibilidade-exploratoria-referencia-v1",
+  "momento_metodologico": "Analise adicional definida apos observar a avaliacao principal; nao pre-registrada.",
+  "hipotese": "Tratar como nao confirmadas as tres questoes cuja referencia aceita mais de um tema central; manter todas as 78 no denominador.",
+  "ids_multiplos_centrais_aceitaveis": [
+    "Q0009",
+    "Q0088",
+    "Q0187"
+  ],
+  "total_publicadas": 78,
+  "concordancias_principais": 77,
+  "concordancias_sob_hipotese": 74,
+  "principal": {
+    "fracao": "77/78",
+    "valor": 0.9871794871794872
+  },
+  "sob_hipotese": {
+    "fracao": "37/39",
+    "valor": 0.9487179487179487
+  },
+  "altera_referencias": false,
+  "altera_decisoes": false,
+  "altera_resultado_principal": false,
+  "fontes_sha256": {
+    "artefatos/avaliacao-v1/comparacao_auditoria.csv": "8fe471c9d8ae85a7eb273fbf83103c2a7b70b770032816808d458059a24ecc63",
+    "artefatos/revisao_auditoria-v1/manifesto_revisoes.json": "3c7819728329a6104345e50726eae721ad0b9cd2e427e19cda2eae22cf1acd76"
+  },
+  "limites": [
+    "Os tres casos possuem justificativas cegas para cada enquadramento; pluralidade nao comprova erro.",
+    "A hipotese adicional ilustra dependencia da referencia; nao e intervalo de confianca nem limite validado para precisao juridica.",
+    "O resultado principal permanece 77/78 conforme o protocolo original.",
+    "Nao exclui itens do denominador e nao substitui a avaliacao reservada pela organizacao."
+  ]
+}

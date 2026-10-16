@@ -1,6 +1,6 @@
 # Protocolo de avaliação
 
-Este protocolo orienta o desenvolvimento e a auditoria. Não existem rótulos oficiais disponíveis nem apoio de especialista jurídico para a revisão local. Os dois pilotos já têm comparações com referências provisórias de IA; a precisão das publicadas ainda não foi estimada. Os requisitos oficiais estão no [enunciado](../case-ia-classificacao-de-topicos.pdf) e no [LEIA-ME](../LEIA-ME.md).
+Este protocolo orienta o desenvolvimento e a auditoria. Não existem rótulos oficiais disponíveis nem apoio de especialista jurídico para a revisão local. A auditoria da versão 1 foi concluída em 16/10/2026, por censo das 78 publicadas e com referência provisória de IA: 77 coincidências exatas e uma divergência. Os critérios registrados abaixo foram preservados; a execução e suas limitações estão documentadas ao final e em [AUDITORIA_V1.md](AUDITORIA_V1.md). Os requisitos oficiais estão no [enunciado](../case-ia-classificacao-de-topicos.pdf) e no [LEIA-ME](../LEIA-ME.md).
 
 ## Populações e métricas
 
@@ -64,3 +64,35 @@ O cenário principal conta julgamentos inconclusivos como não confirmados; o ce
 ## Critérios para a autoavaliação final
 
 `previsao.txt` somente será preenchido após definir a versão avaliada, a referência local, a amostra, o tratamento dos inconclusivos e o método dos intervalos. Estimativas devem permanecer distinguíveis de resultados oficiais. Não há garantia prévia de alcançar a meta.
+
+## Execução da versão 1 em 16 de outubro de 2026
+
+O [manifesto de auditoria](../artefatos/auditoria-v1/manifesto_auditoria.json) aplicou a regra registrada de censo do desenvolvimento e `min(80,N)` demais publicados. Como havia cinco publicados de desenvolvimento e 73 restantes, ambos os estratos foram censitados. A seleção abrangeu todos os 78 publicados, mantendo as 359 decisões congeladas: 78 `publicar`, 277 `revisar` e quatro `fora`.
+
+Três agentes produziram referências para 26 questões cada, a partir das entradas cegas e da taxonomia, sem consultar sugestões Gemini. Os registros e fontes foram identificados por bloco e as referências foram [congeladas antes da comparação](../artefatos/revisao_auditoria-v1/manifesto_revisoes.json). São revisões por IA, não revisões de especialistas independentes. Esta etapa não realizou novas chamadas Gemini.
+
+| Comparação do tema central | Desenvolvimento | Restante | Total |
+| --- | ---: | ---: | ---: |
+| ID exato entre os aceitos pela referência | 5 | 72 | 77 |
+| Apenas pai ou filho imediato | 0 | 0 | 0 |
+| Divergência | 0 | 1 | 1 |
+| Inconclusivo | 0 | 0 | 0 |
+| Total revisado | 5 | 73 | 78 |
+
+A divergência é Q0180. O [relatório de avaliação](../artefatos/avaliacao-v1/relatorio_avaliacao.json) registra **77/78 = 98,7179% de concordância condicional à referência de IA**. Os cenários principal e otimista coincidem porque não há julgamentos inconclusivos. O campo técnico `precisao_condicional` tem esse alcance; não representa precisão jurídica validada.
+
+O intervalo condicional é degenerado, `[77/78, 77/78]`, porque não existe incerteza de amostragem em um censo. Ele não mede o possível erro das referências, erros compartilhados entre as IAs ou desempenho em futuras importações. A cobertura observada permanece `78/359 = 21,7270%`, com intervalo `[78/359, 78/359]` relativo somente a este lote. O resultado não comprova a meta jurídica de 95%.
+
+### Limitações e sensibilidade posterior
+
+O [dossiê do bloco 01](../artefatos/revisao_auditoria-v1/fontes/bloco_01.json) registra exposição incidental, em Q0179, a um trecho de gabarito de alternativas retornado por uma busca. Esse gabarito não contém os rótulos temáticos reservados da organização, e o documento não foi aberto nem adotado como fonte. Ainda assim, não é possível excluir influência do trecho. A questão foi mantida no denominador, sem alterar seu julgamento por causa do incidente.
+
+Três referências admitem mais de um tema central: Q0009, Q0088 e Q0187. O contrato prévio permite conjuntos de temas aceitáveis e as três contaram como coincidências exatas. Uma [análise exploratória posterior](../artefatos/analises/sensibilidade-referencia-v1.json) considera essas três referências como não confirmadas, preservando as 78 questões no denominador: o indicador passa a `74/78 = 94,87%`.
+
+Essa sensibilidade não estava fixada antes da comparação, não substitui o resultado principal e não altera os arquivos de referência ou as decisões. Ela explicita quanto a conclusão depende da aceitação dos julgamentos de IA. Nenhum dos dois números equivale à avaliação jurídica reservada pela organização.
+
+### Próximo experimento
+
+O [diagnóstico da cobertura](COBERTURA_V1.md) identifica 41 questões com temas alternativos como único sinal de revisão. O submódulo 5C recomendado investigará a desambiguação desse grupo em uma nova versão, com intervenção registrada antes da execução e avaliação dos novos publicados. As referências da auditoria v1 já foram vistas: podem orientar desenvolvimento, mas não serão reapresentadas como avaliação independente de ajustes posteriores.
+
+O módulo 5B está pronto para revisão e commit; o 5C ainda não foi iniciado. `previsao.txt` e o relatório final serão preparados após a decisão sobre a versão de entrega, mantendo identificáveis os resultados da versão 1.

@@ -39,7 +39,7 @@ Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `en
 
 O módulo de preparação dos dados e da árvore está implementado e verificado. Ele preserva as fontes, prepara as 359 questões, valida os 377 registros da árvore e gera um diagnóstico reproduzível.
 
-**Módulo 5A concluído em 16/10/2026: 359 decisões, sem pendências técnicas ou de confirmação de `fora`.** O CSV e sua trilha estão congelados em [artefatos/decisoes-v1](artefatos/decisoes-v1/manifesto_decisoes.json). Consulte [Decisões da versão 1](docs/DECISOES_V1.md) para as regras e a reprodução offline, e [Ponto de retomada](docs/RETOMADA.md) para o checkpoint e os comandos de commit.
+**Módulo 5B concluído em 16/10/2026: as 78 decisões `publicar` foram avaliadas por censo, com referência provisória de IA.** Houve 77 coincidências exatas e uma divergência, em Q0180: **77/78 = 98,72% de concordância condicional à referência**, sem comprovar precisão jurídica de 95%. O [CSV e sua trilha](artefatos/decisoes-v1/manifesto_decisoes.json) permaneceram congelados com as mesmas 359 decisões:
 
 | Decisão | Quantidade |
 | --- | ---: |
@@ -48,23 +48,29 @@ O módulo de preparação dos dados e da árvore está implementado e verificado
 | `fora` | 4 |
 | Total | 359 |
 
-A cobertura observada é **78/359 = 21,73%**. A precisão das decisões `publicar` ainda não foi medida; confiança autodeclarada e validação técnica não comprovam a meta de 95%.
+A cobertura observada é **78/359 = 21,73%**. Como todos os publicados foram revistos, não há incerteza de amostragem nessa contagem de concordâncias. Permanece a incerteza da referência de IA, que os intervalos calculados não medem. A auditoria não avalia a qualidade dos extras nem das decisões `revisar` e `fora`.
 
 Dois pilotos reais com os mesmos 20 casos estão concluídos. O prompt v2 reconheceu melhor condições de revisão e foi escolhido para o lote de 359 questões com Gemini 3.5 Flash-Lite no plano gratuito. O lote completo contém 358 recibos com sucesso e a recuperação offline anterior de Q0005, totalizando 359 sugestões válidas, sem falhas técnicas pendentes. Os vinte sucessos do segundo piloto estão incluídos nesse total, sem novas chamadas.
 
 A continuação final concluiu as 197 questões restantes em 227 chamadas: 197 sucessos, vinte falhas HTTP 503 e dez respostas rejeitadas pela validação local, todas recuperadas nas novas tentativas. As 29 invocações internas avançaram automaticamente conforme autorizado pelo usuário. Os 162 recibos anteriores, o derivado de Q0005 e os históricos foram preservados. Modelo, prompt, política e validadores permaneceram iguais. O lote acumula 404 tentativas, incluindo as do piloto v2 reutilizado; revalidação offline não conta como chamada.
 
-O módulo 5A aplicou a política registrada sem alterar modelo, prompt ou seus parâmetros. A revisão separada por IA dos oito candidatos a `fora` confirmou quatro e encaminhou outros quatro a `revisar`, com temas sugeridos e justificativas rastreáveis. Foram reutilizados todos os recibos; esta etapa fez **zero chamadas Gemini**. A suíte local executou 233 testes: 232 aprovados e um pulado por limitação de permissão de symlink no Windows.
+O módulo 5A aplicou a política registrada sem alterar modelo, prompt ou seus parâmetros. A revisão separada por IA dos oito candidatos a `fora` confirmou quatro e encaminhou outros quatro a `revisar`, com temas sugeridos e justificativas rastreáveis. Foram reutilizados todos os recibos; esta etapa fez **zero chamadas Gemini**.
 
-O projeto está no ponto de revisão e commit do módulo 5A. O próximo módulo é o 5B: preparar a auditoria, produzir referências e avaliar as classificações. Pela regra registrada, serão revisadas todas as 78 decisões `publicar`: cinco do desenvolvimento e 73 restantes. A auditoria real, a previsão de precisão e o relatório final ainda estão pendentes.
+No módulo 5B, três agentes revisaram 26 questões cada, sem acesso às sugestões Gemini, e as referências foram congeladas antes da comparação. O censo abrangeu cinco publicados do desenvolvimento e 73 restantes, sem julgamentos inconclusivos ou correspondências apenas por parentesco. A exposição incidental de Q0179 a um trecho de gabarito de alternativas foi registrada; não houve acesso aos rótulos temáticos reservados. Método, resultado e limites estão em [Auditoria da versão 1](docs/AUDITORIA_V1.md).
 
-Sem revisor jurídico disponível, a referência local será produzida por IA e identificada dessa forma. Concordância entre modelos e intervalos amostrais condicionados a essa referência não comprovam a meta de precisão jurídica. A política operacional foi registrada antes da inspeção dos novos resultados; o pacote de auditoria será preparado a partir das decisões congeladas, seguindo o protocolo registrado.
+Uma sensibilidade exploratória posterior trata as três referências com vários temas aceitáveis como não confirmadas, preservando o denominador: o resultado seria 74/78 = 94,87%. Isso não altera o resultado principal nem as referências e mostra a dependência do indicador em relação ao julgamento de IA. Consulte a [análise de sensibilidade](artefatos/analises/sensibilidade-referencia-v1.json).
+
+O projeto está no ponto de revisão e commit do módulo 5B. O [diagnóstico da cobertura](docs/COBERTURA_V1.md) identifica 41 questões retidas apenas por temas alternativos. O próximo passo recomendado é o **submódulo 5C**, um experimento controlado de desambiguação nesse grupo, com nova versão e avaliação dos novos publicados. Ele ainda não foi iniciado; depois dele vêm a previsão e o relatório, no módulo 6, e a verificação final de reprodução, no módulo 7.
+
+O módulo 5B fez **zero chamadas Gemini**. A suíte final executou 237 testes: 236 aprovados e um pulado por limitação de permissão de symlink no Windows. A política original e o CSV não foram ajustados a partir dos resultados da auditoria.
 
 - [Plano e acompanhamento dos módulos](docs/PLANO_EXECUCAO.md)
 - [Protocolo de avaliação e ambiguidades](docs/AVALIACAO.md)
 - [Configuração da API gratuita para o piloto](docs/CONFIGURACAO_API.md)
 - [Experimentos dos pilotos e resultados observados](docs/PILOTO_V1.md)
 - [Decisões congeladas e revisão dos candidatos fora](docs/DECISOES_V1.md)
+- [Auditoria da versão 1 e limitações da referência](docs/AUDITORIA_V1.md)
+- [Diagnóstico reproduzível da cobertura](docs/COBERTURA_V1.md)
 - [Política operacional registrada](config/politica_v1.json)
 
 ```mermaid
@@ -160,7 +166,16 @@ Esse comando não lê `.env` nem acessa a API. Ele revalida as fontes e as suges
 
 A execução repetida preservou bytes e datas de modificação dos produtos. Uma reprodução de decisões em pasta temporária gerou os mesmos quatro arquivos, byte a byte. O [publicacao.csv da raiz](publicacao.csv) é idêntico à cópia congelada. A reprodução completa em um novo checkout será verificada no módulo 7.
 
-Os comandos `preparar-auditoria` e `avaliar-auditoria` também estão integrados e testados com dados sintéticos. Seu uso na população real pertence ao módulo 5B. Os argumentos e os contratos dos arquivos estão em [Decisões da versão 1](docs/DECISOES_V1.md).
+### Avaliação e diagnóstico sem API
+
+O pacote da auditoria e as referências da versão 1 estão salvos. Para reproduzir a comparação com as referências congeladas e o diagnóstico de cobertura:
+
+```powershell
+python -B -m classificacao_topicos avaliar-auditoria --preparacao artefatos/preparacao --auditoria artefatos/auditoria-v1 --decisoes artefatos/decisoes-v1 --revisoes artefatos/revisao_auditoria-v1/referencias --saida artefatos/avaliacao-v1-reproduzida
+python -B -m classificacao_topicos.diagnostico_cobertura --decisoes artefatos/decisoes-v1 --saida artefatos/analises/cobertura-v1.json
+```
+
+A avaliação revalida os hashes da seleção, das decisões e das referências e grava métricas e comparação por questão. O diagnóstico conta sinais e suas sobreposições, sem reclassificar questões. Ambos são offline e não carregam credenciais. Para preparar outra seleção, `preparar-auditoria` exige uma nova pasta vazia; preserve o pacote da versão 1. Os contratos e limites estão em [Protocolo de avaliação](docs/AVALIACAO.md) e [Auditoria da versão 1](docs/AUDITORIA_V1.md).
 
 ### Revalidação de uma resposta já salva
 
@@ -179,10 +194,10 @@ O executor do lote e o módulo de decisões verificam esse arquivo derivado ante
 - **CSV de decisões concluído e congelado**: [publicacao.csv](publicacao.csv), com uma decisão para cada uma das 359 questões, seguindo o formato definido no `LEIA-ME.md` e acompanhado de trilha e manifesto em `artefatos/decisoes-v1`.
 - **`previsao.txt` pendente**: previsão de precisão nas publicadas e de cobertura, cada uma com seu intervalo e uma explicação da metodologia, antes de conhecer o resultado da avaliação da organização.
 - **Relatório de até 5 páginas pendente, em PDF ou Markdown**: raciocínio, hipóteses e experimentos; diagnóstico dos dados e temas; proposta de produção; e memo para o professor, especialista em Direito. A proposta de produção deverá abordar 50 mil questões por semana e novas importações, técnicas de IA, custo por questão, medição contínua da qualidade e integração com importação, revisão e reportes dos alunos.
-- **Código, prompts, regras de decisão e instruções disponíveis até o módulo 5A**: as interfaces de auditoria e avaliação estão testadas, mas seus resultados reais e a documentação final dependem do módulo 5B.
+- **Código, prompts, regras, auditoria e diagnóstico disponíveis até o módulo 5B**: resultados e referências versionados; o experimento de cobertura 5C, a previsão e a documentação final ainda estão pendentes.
 
 O enunciado solicita um memo de uma página, cobrindo achados, mudanças recomendadas nos temas e apoio necessário do especialista. Como proposta de organização da entrega, será reservada uma das cinco páginas do relatório para esse memo.
 
 ## Rastreabilidade
 
-Os recibos preservam cada tentativa e o uso informado pelo provedor. As revisões dos candidatos a `fora` registram responsável, justificativa, fonte consultada e sugestão original. A trilha de decisões vincula esses elementos aos produtos por SHA-256. A avaliação acrescentará suas referências e métricas sem alterar retroativamente esta versão congelada.
+Os recibos preservam cada tentativa e o uso informado pelo provedor. As revisões dos candidatos a `fora` registram responsável, justificativa, fonte consultada e sugestão original. A trilha de decisões vincula esses elementos aos produtos por SHA-256. A auditoria acrescenta referências congeladas, fontes, incidentes e métricas, preservando as decisões da versão 1.

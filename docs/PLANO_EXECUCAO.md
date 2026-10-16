@@ -5,18 +5,18 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | Módulo | Esforço previsto | Entrega e critério de conclusão | Estado |
 | --- | --- | --- | --- |
 | 1. Dados e árvore | 2 h | Preparação reproduzível das 359 questões e dos 377 registros, originais preservados, verificações de conteúdo e hierarquia | Concluído |
-| 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido; referência por IA, censo do desenvolvimento e amostra de até 80 demais publicados |
+| 2. Protocolo de avaliação | 1,5 h | Piloto, critérios de revisão, cálculo de métricas e registro das ambiguidades | Definido e aplicado na v1; a regra de até 80 restantes resultou em censo dos 78 publicados |
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
 | 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Concluído e commitado: 359 válidas, zero pendências técnicas |
-| 5. Auditoria e decisão | 5 h | Revisões registradas, política de publicação e previsão fundamentada | 5A concluído: CSV congelado com 359 decisões; 5B pendente |
+| 5. Auditoria, decisão e cobertura | 5 h | Revisões registradas, decisões congeladas, avaliação e experimento controlado de cobertura | 5A e 5B concluídos; 5C recomendado, ainda não iniciado |
 | 6. Relatório e produção | 3 h | Até cinco páginas, com diagnóstico, raciocínio, proposta de escala e memo | Pendente |
 | 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
 
-O esforço previsto não representa tempo já gasto. Limites de API e achados da avaliação podem exigir ajustes. A conclusão de um módulo depende de seus artefatos e verificações.
+O esforço previsto não representa tempo já gasto. O submódulo 5C faz parte das cinco horas previstas para o módulo 5; não acrescenta uma estimativa de tempo executado. Limites de API e achados da avaliação podem exigir ajustes. A conclusão de um módulo depende de seus artefatos e verificações.
 
 ## Pontos de parada e commits
 
-O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O usuário autorizou concluir de uma vez as 197 questões restantes do módulo 4, substituindo as pausas a cada vinte chamadas. Essa continuação terminou com 359 sugestões válidas e foi commitada. O módulo 5A também terminou: 78 decisões `publicar`, 277 `revisar` e quatro `fora`, com CSV e trilha congelados. Avançar uma etapa por vez e informar quando ela estiver pronta para revisão e commit. A avaliação real do módulo 5B ainda não foi iniciada.
+O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O usuário autorizou concluir de uma vez as 197 questões restantes do módulo 4, substituindo as pausas a cada vinte chamadas. Essa continuação terminou com 359 sugestões válidas e foi commitada. O módulo 5A congelou 78 decisões `publicar`, 277 `revisar` e quatro `fora`. O módulo 5B concluiu o censo dos 78 publicados: 77 coincidências exatas e uma divergência frente à referência provisória de IA. Está pronto para revisão e commit, preservando o CSV. Avançar uma etapa por vez e informar seus pontos de parada; o experimento 5C ainda não foi iniciado.
 
 | Etapa de retomada | Tamanho do bloco | Ponto de parada | Commit sugerido |
 | --- | --- | --- | --- |
@@ -24,11 +24,20 @@ O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O usuário autor
 | Módulo 4, blocos anteriores | Até 20 novas chamadas por continuação, incluindo retomadas | Histórico preservado nos checkpoints anteriores | `data: registra progresso do lote de classificacao` |
 | Módulo 4 concluído | Continuação final de 197 questões, com invocações internas de até 20 chamadas | 359 sugestões tecnicamente válidas, incluindo Q0005 revalidada; zero pendências | `data: conclui lote de classificacao v2` |
 | Módulo 5A concluído | CLI, política e revisão separada dos oito candidatos fora | CSV com 359 decisões e trilha congelados; pronto para commit antes da avaliação | `feat: congela decisoes e integra avaliacao` |
-| Módulo 5B | Revisar amostra e calcular estimativa | Referências e métricas rastreáveis, limitações explícitas | `eval: registra auditoria e previsao` |
+| Módulo 5B concluído | Censo de 78 publicados e diagnóstico das 277 revisões | Referências congeladas, concordância condicional e limitações registradas; pronto para commit | `eval: conclui auditoria e diagnostica cobertura` |
+| Módulo 5C recomendado | Experimento controlado nos 41 casos retidos apenas por alternativas | Nova versão preservando a v1, com intervenção registrada e avaliação dos novos publicados | `feat: avalia desambiguacao para ampliar cobertura` |
 | Módulo 6 | Relatório de até cinco páginas e memo | Texto e números revisados | `docs: adiciona relatorio do case` |
 | Módulo 7 | Reprodução em checkout limpo | Entrega final verificada | `chore: valida entrega reproduzivel` |
 
-Os commits são sugestões para o usuário; nenhum foi criado pelo assistente. Os módulos de decisão, auditoria e estatística já escritos pertencem à base de software, mas sua implementação não significa conclusão da avaliação real.
+Os commits são sugestões para o usuário; nenhum foi criado pelo assistente. A avaliação real da versão 1 já tem artefatos próprios. Sua conclusão não representa validação por especialista nem autorização para alterar retroativamente política, decisões ou referências congeladas.
+
+## Próxima etapa recomendada
+
+O diagnóstico das 277 revisões encontra 41 casos retidos somente por temas alternativos, sete somente por confiança e um somente por ambiguidade da árvore. Os demais 228 acumulam sinais. Isso orienta o submódulo 5C para um grupo delimitado de desambiguação, sem reduzir automaticamente o limiar de confiança ou promover questões por ausência de outros sinais.
+
+Antes de executar o experimento, registrar a intervenção, os IDs, as regras de aceitação e o método de avaliação dos novos publicados. Gerar uma nova versão e manter as decisões e a auditoria v1 como referência histórica. Resultados já vistos podem ser usados no desenvolvimento, mas não em uma alegação de avaliação independente da política ajustada.
+
+Ao concluir o 5C, comparar cobertura e evidências de qualidade, documentar os limites e parar para revisão e commit. Depois seguem o módulo 6, com previsão, relatório e memo, e o módulo 7, com reprodução completa em novo checkout e conferência da entrega. Não há execução do 5C registrada nesta etapa.
 
 ## Decisões iniciais
 
@@ -133,6 +142,17 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Os 359 recibos, Q0005 revalidada, fontes, prompt e política permaneceram íntegros. Ajuste de fins de linha de `temas.csv` aplicado ao índice real, preservando a fonte local; precisa entrar neste commit. Acrescentado `-text` para o CSV da raiz.
 - Registros: [decisões e método](DECISOES_V1.md), [checkpoint 5A](../artefatos/checkpoints/modulo5a_2026-10-16.json), `artefatos/decisoes-v1/` e `artefatos/revisao_fora-v1/`. Pronto para revisão e commit do usuário.
 - Próximo módulo: avaliação dos publicados. Há cinco publicados no desenvolvimento e 73 no restante; o protocolo de censo mais `min(80,N)` levará a revisar todos os 78. A referência continuará sendo provisória e produzida por IA, sem equivaler a validação jurídica.
+
+### Módulo 5B concluído em 16 de outubro de 2026
+
+- A regra registrada produziu censo das 78 decisões `publicar`: cinco do desenvolvimento e 73 restantes. Três agentes revisaram 26 questões cada sem consultar sugestões Gemini; referências e fontes foram congeladas antes da comparação. Nenhuma nova chamada Gemini.
+- Resultado: 77 coincidências exatas, uma divergência em Q0180, zero correspondências apenas pai/filho e zero inconclusivos. Concordância condicional de `77/78 = 98,7179%` frente à referência de IA, sem comprovação de precisão jurídica de 95%.
+- O intervalo condicional `[77/78,77/78]` reflete censo, sem incerteza amostral. Não inclui erro da referência de IA, desempenho futuro ou qualidade dos extras e das decisões `revisar` e `fora`.
+- Sensibilidade exploratória posterior: tratar as referências com múltiplos temas de Q0009, Q0088 e Q0187 como não confirmadas produz `74/78 = 94,87%`, mantendo o denominador. Resultado principal, referências e CSV preservados.
+- Incidente de Q0179 registrado no dossiê do bloco 01: exposição incidental a trecho de gabarito de alternativas em busca, não aos rótulos temáticos reservados. Não é possível excluir influência; a questão permanece no denominador.
+- Diagnóstico reproduzível de cobertura: 277 revisões, com sinais sobrepostos de alternativas (232), baixa confiança (218), revisão solicitada (193), tema ambíguo (60), extras acima do limite (32) e correção de `fora` (4). Grupos exclusivos: 41 só alternativas, sete só baixa confiança e um só ambiguidade; 228 têm múltiplos sinais.
+- Suíte final: 237 testes, 236 aprovados e um pulado por privilégio de symlink no Windows, em 139,823 s. Modelo, prompt, política e CSV de 359 decisões preservados; cobertura mantida em 78/359 = 21,73%.
+- Registros: [auditoria e limites](AUDITORIA_V1.md), [diagnóstico de cobertura](COBERTURA_V1.md), [avaliação](../artefatos/avaliacao-v1/relatorio_avaliacao.json), [referências congeladas](../artefatos/revisao_auditoria-v1/manifesto_revisoes.json) e [checkpoint 5B](../artefatos/checkpoints/modulo5b_2026-10-16.json). Pronto para revisão e commit do usuário; próxima etapa recomendada é o experimento 5C, ainda não iniciado.
 
 ## Registro de execução
 

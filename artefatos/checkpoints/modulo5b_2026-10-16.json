@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "procedimento": "conclusao-modulo5b-v1",
+  "estado": "modulo5b_concluido_aguardando_revisao_e_commit_do_usuario",
+  "registrado_utc": "2026-10-16T18:10:50.557483+00:00",
+  "base_git_commit": "69c512be315cb7502c82391a6298c474bc39ef65",
+  "checkpoint_anterior": "artefatos/checkpoints/modulo5a_2026-10-16.json",
+  "checkpoint_anterior_sha256": "361b78d2edb33c57107654b119c5df8ae54730e60e889ab06079e2f23626c17f",
+  "csv_avaliado": "artefatos/decisoes-v1/publicacao.csv",
+  "csv_sha256": "fd6d504169d86c4002ed27ac892a5080f16c4533c27e4bf80daf6de501dd9ca3",
+  "csv_e_politica_alterados": false,
+  "total_questoes": 359,
+  "decisoes": {
+    "publicar": 78,
+    "revisar": 277,
+    "fora": 4
+  },
+  "cobertura": {
+    "explicacao": "A cobertura é uma contagem conhecida desta população congelada; o intervalo degenerado não estima cobertura futura.",
+    "inferencia_futura": false,
+    "intervalo": [
+      0.21727019498607242,
+      0.21727019498607242
+    ],
+    "observada": 0.21727019498607242,
+    "observada_exata": "78/359",
+    "publicadas": 78,
+    "tipo": "contagem_da_populacao_observada",
+    "total_questoes": 359
+  },
+  "auditoria": {
+    "procedimento": "Censo do desenvolvimento e min(80,N) restante conforme protocolo previo; nesta versao, censo integral.",
+    "semente": 2026101401,
+    "total_revisadas": 78,
+    "desenvolvimento": {
+      "N": 5,
+      "n": 5,
+      "acertos_condicionais": 5
+    },
+    "restante": {
+      "N": 73,
+      "n": 73,
+      "acertos_condicionais": 72
+    },
+    "referencia_tipo": "IA_sem_especialista",
+    "agentes_revisores": 3,
+    "questoes_por_agente": 26,
+    "congelamento_antes_da_comparacao": "artefatos/revisao_auditoria-v1/manifesto_revisoes.json",
+    "congelamento_sha256": "3c7819728329a6104345e50726eae721ad0b9cd2e427e19cda2eae22cf1acd76",
+    "data_congelamento_utc": "2026-10-16T18:04:51.638880+00:00",
+    "comparacao": {
+      "divergencia": 1,
+      "exata": 77,
+      "inconclusivo": 0,
+      "pai_filho_direto": 0
+    },
+    "ids_divergencias": [
+      "Q0180"
+    ]
+  },
+  "precisao_condicional": {
+    "cenarios": {
+      "conservador": {
+        "erros_D": 0,
+        "erros_amostra": 1,
+        "intervalo": [
+          0.9871794871794872,
+          0.9871794871794872
+        ],
+        "intervalo_erros_restante": [
+          1,
+          1
+        ],
+        "intervalo_exato": [
+          "77/78",
+          "77/78"
+        ],
+        "ponto": 0.9871794871794872,
+        "ponto_exato": "77/78",
+        "tratamento_inconclusivos": "erro"
+      },
+      "otimista": {
+        "erros_D": 0,
+        "erros_amostra": 1,
+        "intervalo": [
+          0.9871794871794872,
+          0.9871794871794872
+        ],
+        "intervalo_erros_restante": [
+          1,
+          1
+        ],
+        "intervalo_exato": [
+          "77/78",
+          "77/78"
+        ],
+        "ponto": 0.9871794871794872,
+        "ponto_exato": "77/78",
+        "tratamento_inconclusivos": "acerto"
+      }
+    },
+    "contagens": {
+      "D": 5,
+      "N": 73,
+      "erros_D": 0,
+      "erros_amostra": 1,
+      "inconclusivos_D": 0,
+      "inconclusivos_amostra": 0,
+      "n": 73
+    },
+    "inclui_incerteza_referencia": false,
+    "intervalos_condicionais_referencia": true,
+    "limites": [
+      "Inferência condicional à referência local; não inclui erro dessa referência nem constitui avaliação oficial.",
+      "O estrato D foi censitado; somente a amostra aleatória simples sem reposição do estrato N é extrapolada.",
+      "A validade amostral exige tamanho definido previamente e população e política congeladas durante a auditoria.",
+      "Conservador e otimista mantêm inconclusivos no denominador; são cenários distintos, não calibração da referência.",
+      "Se N > 0 e n = 0, seu total de erros permanece entre 0 e N e não há estimativa pontual.",
+      "Sem publicados, a precisão e seu intervalo são indefinidos."
+    ],
+    "metodo": "inversao_exata_hipergeometrica_caudas_inclusivas",
+    "nivel_confianca": 0.95,
+    "nivel_confianca_exato": "19/20",
+    "status": "censo",
+    "total_publicadas": 78
+  },
+  "sensibilidade_exploratoria": {
+    "arquivo": "artefatos/analises/sensibilidade-referencia-v1.json",
+    "definida_apos_resultados": true,
+    "ids_multiplos_centrais": [
+      "Q0009",
+      "Q0088",
+      "Q0187"
+    ],
+    "hipotese": "Tratar como nao confirmadas as tres questoes cuja referencia aceita mais de um tema central; manter todas as 78 no denominador.",
+    "ponto_exato": "37/39",
+    "ponto": 0.9487179487179487,
+    "altera_resultado_principal": false,
+    "intervalo_de_confianca": false
+  },
+  "incidentes_referencia": [
+    {
+      "id": "Q0179",
+      "tipo": "Trecho de gabarito de alternativa retornado incidentalmente por busca publica; documento nao aberto; possivel influencia nao descartada.",
+      "registro": "artefatos/revisao_auditoria-v1/fontes/bloco_01.json",
+      "rotulos_tematicos_reservados_consultados": false
+    }
+  ],
+  "diagnostico_cobertura": {
+    "arquivo": "artefatos/analises/cobertura-v1.json",
+    "sinais_sobrepostos": {
+      "confianca_abaixo_limiar": 218,
+      "excesso_extras": 32,
+      "fora_rejeitado_por_revisao": 4,
+      "revisao_solicitada": 193,
+      "tema_ambiguo": 60,
+      "temas_alternativos": 232
+    },
+    "sinais_exclusivos": {
+      "confianca_abaixo_limiar": 7,
+      "tema_ambiguo": 1,
+      "temas_alternativos": 41
+    },
+    "questoes_com_multiplos_sinais": 228,
+    "altera_decisoes": false
+  },
+  "chamadas_gemini_novas": 0,
+  "tokens_gemini_novos": 0,
+  "tokens_revisores_codex": null,
+  "consumo_observacao": "Revisores e consultas publicas fora dos recibos Gemini; tokens nao medidos.",
+  "recibos_preservados": 359,
+  "revalidacoes_preservadas": 1,
+  "fontes_preservadas_sha256": {
+    "questoes.jsonl": "6815aad02f1577fb7f3c68bb76cd56b3b23df5a0bf951d3422a5ce7d5e492573",
+    "temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+    "LEIA-ME.md": "d7bbbd1e5a91554bf54a64272ace7afc50bfa9a06b14bfc7704d6ca09e047bfc",
+    "case-ia-classificacao-de-topicos.pdf": "d0a025985c10318d6728c4b7f1625c8f253972b6ee002a59155956d20d2aabfc",
+    "artefatos/preparacao/manifesto.json": "8cb547c2b837f3316a2040ec8f508dec948147d9f93158adb274d80fac1b0f77",
+    "artefatos/lote-v2/manifesto_lote.json": "d9188a28adb767cfc47fc29bba3f9d2238f99be7ee12b82478f6e9749caf4a5b",
+    "prompts/classificacao_v2.txt": "9c9d176bf99d2f5babdd0c95a4ac6d52f6ffa9cc7d907c79942ff4fb93c73909",
+    "config/politica_v1.json": "552fba1739577cebeff845cf8cbab889e95f6931164b623e11e7128f87bc0dd8",
+    "artefatos/revisao_taxonomia/ambiguidades.json": "6d069bfb8f34dff9b9d9a978f7440ac64890b58634b8569d5061636b76faba4e"
+  },
+  "produtos_e_protocolo_sha256": {
+    "artefatos/auditoria-v1/entradas_cegas.jsonl": "ce3804fcf37e8784e8962af0bcdf4f5550da6b27558d6e8b7286b29f21803b03",
+    "artefatos/auditoria-v1/manifesto_auditoria.json": "42084d9a6a87f3e3b1f21673f8a1d0568caa0b48a4f83bab14adc2dd7e4f9f26",
+    "artefatos/auditoria-v1/manifesto_decisoes.json": "859731d56ea635b9c3d3d60865344a9b858c558784328e5436112732c34fd0dc",
+    "artefatos/auditoria-v1/manifesto_lote.json": "d9188a28adb767cfc47fc29bba3f9d2238f99be7ee12b82478f6e9749caf4a5b",
+    "artefatos/auditoria-v1/politica.json": "552fba1739577cebeff845cf8cbab889e95f6931164b623e11e7128f87bc0dd8",
+    "artefatos/auditoria-v1/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "artefatos/avaliacao-v1/comparacao_auditoria.csv": "8fe471c9d8ae85a7eb273fbf83103c2a7b70b770032816808d458059a24ecc63",
+    "artefatos/avaliacao-v1/relatorio_avaliacao.json": "ef9459a615a171140ba51df07f8066017c71ebc02fd282473dc7ef8509b78032",
+    "artefatos/revisao_auditoria-v1/distribuicao.json": "13dde642dfb06ee1c14aa29ceeb536077d1b0376ebac932e2fc08d937189f06d",
+    "artefatos/revisao_auditoria-v1/entradas/bloco_01.jsonl": "f9d73be170ef47d37f3546e224a40be8af57c8c4313c14f6fed1a3559947c622",
+    "artefatos/revisao_auditoria-v1/entradas/bloco_02.jsonl": "16a0290820481d28070a3ff01cbe371b3dfdd117f30cbce78520d6582d9dceac",
+    "artefatos/revisao_auditoria-v1/entradas/bloco_03.jsonl": "3b1e0767fa4703263ccc433df42142b798824ea39be07334a48151222130fe1b",
+    "artefatos/revisao_auditoria-v1/fontes/bloco_01.json": "2642bb999f039ce1a53be2145d1fde6751026fab73cf08f08adc2e58b559e015",
+    "artefatos/revisao_auditoria-v1/fontes/bloco_02.json": "f930e9b72b66f21184ac25a13aebad3773feec7f76cdcb7691574463a83737fc",
+    "artefatos/revisao_auditoria-v1/fontes/bloco_03.json": "2e0359a10f54c7e4affc49afddb8627b3ef8455648c847de1b636bf96bf0c1ac",
+    "artefatos/revisao_auditoria-v1/manifesto_revisoes.json": "3c7819728329a6104345e50726eae721ad0b9cd2e427e19cda2eae22cf1acd76",
+    "artefatos/revisao_auditoria-v1/referencias/bloco_01.jsonl": "20643456f95b2efe3462751802bb3aa44bf50ec037ceee911489859870fffdff",
+    "artefatos/revisao_auditoria-v1/referencias/bloco_02.jsonl": "5bbfe54bdba0d9ac85b0dd5717a8e718b827a2c268a42d68d8419bf30d0d1717",
+    "artefatos/revisao_auditoria-v1/referencias/bloco_03.jsonl": "947f64ce4d2517cd9248c57ceac1242242fa54a3ea211f3edcfc49cc1a3b0962",
+    "artefatos/analises/cobertura-v1.json": "0477979e812716041e377973ac4a304a17eea57b29ea071f17bdf7401a42fef9",
+    "artefatos/analises/sensibilidade-referencia-v1.json": "b5f564c9adcfa0e44fe5178cf11fcf0558df0c160ac1e89c757e06fb8f271b53",
+    "prompts/revisao_auditoria_v1.txt": "f5930fb400b835658e5dd2d4f45901079a2ec483562037edd3dc09e58db0a758"
+  },
+  "codigo_e_testes_hash_normalizacao": "SHA-256 com CRLF convertido para LF.",
+  "codigo_e_testes_sha256": {
+    "classificacao_topicos/diagnostico_cobertura.py": "e7c818bfeaa954838d3b6e148e7f7342389d57aa255d8b2e2859e62c74558015",
+    "tests/test_diagnostico_cobertura.py": "043cef3816ff9b697a1ae2e81ba0e308a3a6d7d2a27e9ffb9275f2796fefb878"
+  },
+  "verificacao_software": {
+    "comando": "python -B -m unittest discover -s tests -q",
+    "total": 237,
+    "aprovados": 236,
+    "pulados": 1,
+    "falhas": 0,
+    "duracao_segundos": 139.823,
+    "motivo_pulado": "Windows sem privilegio de link simbolico real; protecao tambem coberta por teste simulado."
+  },
+  "validacoes": {
+    "auditoria_reproduzida_byte_a_byte": true,
+    "avaliacao_reproduzida_byte_a_byte_mesmas_entradas_locais": true,
+    "diagnostico_idempotente": true,
+    "conferencia_independente_linha_a_linha_e_fracoes": true,
+    "referencias_congeladas_preservadas": true,
+    "baseline_5a_e_recibos_preservados": true,
+    "temas_csv_corrigido_no_commit_5a": true,
+    "checkout_limpo_realizado": false
+  },
+  "proxima_etapa": {
+    "modulo": "5C",
+    "estado": "Recomendado; nao iniciado.",
+    "escopo": "Experimento controlado para aumentar cobertura, com foco inicial nas 41 revisoes retidas apenas por temas alternativos; preservar v1, registrar intervencao e avaliar novos publicados apos congelamento.",
+    "avaliacao_reutilizada": "Nao descrever referencias ja vistas como validacao independente de ajuste guiado por elas."
+  },
+  "limites": [
+    "98,72% e concordancia condicional com referencia de IA, nao precisao juridica comprovada.",
+    "Intervalos degenerados resultam de censo e nao incluem erro da referencia ou inferencia para novas importacoes.",
+    "Tres referencias possuem multiplos temas centrais aceitaveis, com justificativas cegas preservadas.",
+    "A sensibilidade 74/78 e exploratoria posterior e nao e intervalo estatistico.",
+    "O relatorio de avaliacao registra caminhos absolutos das fontes; em outro checkout os caminhos podem mudar, mantendo CSV e metricas.",
+    "Nenhuma decisao, referencia ou politica foi corrigida apos comparar para elevar a metrica.",
+    "Sem novas chamadas Gemini, faturamento, staging, commit, push ou envio externo.",
+    "Previsao final, relatorio e reproducao completa em checkout limpo permanecem pendentes."
+  ]
+}
