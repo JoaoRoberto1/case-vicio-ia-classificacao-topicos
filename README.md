@@ -6,6 +6,8 @@ Solução para o processo seletivo de IA da Vício (Método VDE), voltada à cla
 
 Entregas para leitura: [publicacao.csv](publicacao.csv), [previsao.txt](previsao.txt), [relatório PDF de cinco páginas](relatorio.pdf) e [mesmo relatório em Markdown](relatorio.md). O memo ao professor ocupa a quinta página do PDF. Os cálculos e suas fontes estão em [evidencias.json](artefatos/entrega-v2/evidencias.json).
 
+Preparação para a defesa: [roteiro de cinco minutos e oito perguntas com respostas](docs/APRESENTACAO.md).
+
 ## Comece pela reprodução offline
 
 Requisitos: **Git e Python 3.11+**. A reprodução usa os recibos e julgamentos salvos. A API e uma chave não são necessárias. Em uma cópia do repositório, na raiz:
@@ -26,7 +28,7 @@ python -m venv .venv
 .venv/Scripts/python.exe -B scripts/verificar_entrega.py --pdf --testes
 ```
 
-Em Linux/macOS, o executável é `.venv/bin/python`. Apenas o PDF exige essas dependências. O verificador retorna código zero se todas as comparações passarem; `--registro caminho/novo.json` salva um registro sem substituir um anterior. Consulte [validação final](docs/VALIDACAO_FINAL.md) para o escopo e a evidência do checkout limpo, e [apresentação e defesa](docs/APRESENTACAO.md) para um roteiro de cinco minutos.
+Em Linux/macOS, o executável é `.venv/bin/python`. Apenas o PDF exige essas dependências. O verificador retorna código zero se todas as comparações passarem; `--registro caminho/novo.json` salva um registro sem substituir um anterior. Consulte [validação final](docs/VALIDACAO_FINAL.md) para o escopo e a evidência do checkout limpo.
 
 ## Objetivo
 
@@ -214,7 +216,7 @@ Com `--limite 20`, cada invocação faz no máximo vinte novas chamadas; sucesso
 
 A opção de continuar salva falhas locais de validação e avança para outros IDs. Falhas do provedor, autenticação ou cota continuam interrompendo cada invocação. Falhas nunca viram `fora`. O retorno da CLI é diferente de zero se restarem respostas inválidas ou se a execução parar em erro. A evidência precisa existir em um campo da questão; são toleradas apenas diferenças de caixa e espaços, sem corrigir palavras, acentos, pontuação ou OCR. Com o lote completo e os arquivos íntegros, a repetição do comando reutiliza os 359 resultados e não faz novas chamadas.
 
-Os prompts expandidos `entradas.jsonl` são ignorados pelo Git para evitar aproximadamente 39 MB de catálogo repetido. Em um novo checkout, execute a preparação e os comandos `preparar-piloto`/`preparar-lote` antes de ler os recibos; os arquivos são reconstruídos com os mesmos hashes. `.gitattributes` preserva os bytes dos dados, prompts, configurações e artefatos assinados, inclusive no Windows.
+Os quatro arquivos de prompts expandidos `entradas.jsonl` são ignorados pelo Git para evitar aproximadamente 74,6 MB de catálogo repetido. Em um novo checkout, execute a preparação e os comandos `preparar-piloto`/`preparar-lote` antes de ler os recibos; os arquivos são reconstruídos com os mesmos hashes. Os recibos de execução e os artefatos de referência ficam versionados para permitir a auditoria e a reprodução offline. `.gitattributes` preserva os bytes dos dados, prompts, configurações e artefatos assinados, inclusive no Windows.
 
 ### Decisões v1 sem API
 
