@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "procedimento": "modulo7-reproducao-conferencia-entrega",
+  "data_local": "2026-10-16",
+  "registrado_utc": "2026-10-17T02:11:53.890379+00:00",
+  "estado": "concluido_pronto_para_revisao_commit_e_envio_pelo_usuario",
+  "base_git_commit": "b1e8539021f2417fd3f2513681745d2c50c6a0dc",
+  "reproducao": {
+    "registro": "artefatos/verificacao-final/reproducao-checkout-limpo.json",
+    "origem": "Clone local novo de b1e8539, sem .env, ambiente virtual ou prompts expandidos; somente verificador e teste novos copiados antes da execucao.",
+    "ambiente_pdf": "venv criado no clone; requirements-relatorio.txt instalado com sucesso antes da verificacao offline.",
+    "python": "3.14.7",
+    "plataforma": "win32",
+    "passos_aprovados": 14,
+    "comparacoes": 36,
+    "comparacoes_byte_a_byte": 35,
+    "avaliacao_v1": "JSON integral apos normalizar somente prefixos locais nas chaves de fontes_sha256; valores e hashes preservados.",
+    "inventario": {
+      "arquivos_versionados": 28,
+      "prompts_expandidos": 4,
+      "arquivos_gerados": 32,
+      "sem_ausencias_ou_extras": true
+    },
+    "duracao_segundos": 359.501,
+    "fontes_preservadas": true,
+    "escopo_rede": "Eventos usuais de rede e leitura do .env bloqueados nos subprocessos Python; nao e sandbox de sistema operacional.",
+    "escopo": "Recibos, referencias, revisoes, analises historicas e sensibilidade sao entradas preservadas; nao refaz julgamentos ou chamadas de modelo."
+  },
+  "testes": {
+    "total": 282,
+    "aprovados": 281,
+    "pulados": 1,
+    "duracao_suite_segundos": 183.9,
+    "motivo_skip": "Permissao de symlink real no Windows; protecao tambem coberta por teste simulado."
+  },
+  "auditoria_pacote": {
+    "questoes": 359,
+    "ids_unicos": 359,
+    "publicar": 77,
+    "revisar": 278,
+    "fora": 4,
+    "associacoes_extras_ativas": 149,
+    "colunas_oficiais": 6,
+    "pdf_paginas": 5,
+    "memo_pagina": 5,
+    "nome_completo": "João Roberto de Oliveira Felix",
+    "pdf_identico_ao_ajuste_inspecionado": true
+  },
+  "auditoria_historico_inicial": {
+    "arquivos_rastreados": 608,
+    "commits_alcancaveis": 17,
+    "objetos_caminhos_examinados": 818,
+    "caminhos_privados_detectados": 0,
+    "padroes_conhecidos_google_ou_pem_detectados": 0
+  },
+  "conferencia_final": {
+    "arquivos_versionaveis": 614,
+    "markdown_examinados": 17,
+    "links_locais_validos": 236,
+    "links_externos_reconsultados": false,
+    "padroes_conhecidos_google_ou_pem_detectados": 0,
+    "git_diff_check": "aprovado",
+    "indice_git_sem_alteracoes": true,
+    "git_diff_check_arquivos_novos": "aprovado; seis arquivos novos conferidos, com remocao de espacos finais no rascunho de email"
+  },
+  "fontes_originais_sha256": {
+    "case-ia-classificacao-de-topicos.pdf": "d0a025985c10318d6728c4b7f1625c8f253972b6ee002a59155956d20d2aabfc",
+    "LEIA-ME.md": "d7bbbd1e5a91554bf54a64272ace7afc50bfa9a06b14bfc7704d6ca09e047bfc",
+    "questoes.jsonl": "6815aad02f1577fb7f3c68bb76cd56b3b23df5a0bf951d3422a5ce7d5e492573",
+    "temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76"
+  },
+  "entregas_sha256": {
+    "publicacao.csv": "2f9ca44feef9998810c18bfb49933737470b758bcde7697b0c8673c531d6d53e",
+    "previsao.txt": "8e09fdbb7ab8415dea337ae282987f160adbbd588f70d4e2b0f9b07c44461c82",
+    "relatorio.md": "7c5d14b2c161c888503de371b738c61573dfd3e893539916345aec1601e98c30",
+    "relatorio.pdf": "bc7d759e27c35869471022c9d8b964615913ef6525991470deae1438b118a4bc",
+    "artefatos/entrega-v2/evidencias.json": "24b96ac768418c0e5cdb06fa1c9a1e11be62e1833ea7f96aedadb60af65d079a"
+  },
+  "arquivos_modulo_sha256": {
+    "README.md": "cfb2ddab36935438962f7d3185ac6d7003ced16947103cf3abaf9818327224d2",
+    "artefatos/verificacao-final/reproducao-checkout-limpo.json": "10c55e220ae4a8114adc046d0f9047002c4d3d09d08cf98cfe72a54b99b85b50",
+    "docs/APRESENTACAO.md": "d94bdd2abaed3379a42134db61f3583b41202dd495eb852b4b544fe8eb13d7e9",
+    "docs/PLANO_EXECUCAO.md": "13aaa823a7bfa50777b3db6cac2d915f699c3eb46407a5103142eb3555762979",
+    "docs/RETOMADA.md": "00101244205cb75db8fecfd24cac727efd306558119cc9cf1a0dd029834a95c0",
+    "docs/VALIDACAO_FINAL.md": "097494df3d6977e1e37957d2d8677bcae8095caeb513fb07c492b58e2c342f69",
+    "scripts/verificar_entrega.py": "c756c1e4a920a2644f95c431ba4e0f47418efb544a8e68af926478e5d2a4fcb0",
+    "tests/test_verificar_entrega.py": "9be5f32c59d8eafb38e51adfc382ca5ecc58f5ffcf859f242e1f8b327cc5e954"
+  },
+  "normalizacao_hashes_modulo": "LF para Markdown e Python; bytes exatos para JSON. O registro da reproducao preserva hashes exatos da copia executada, inclusive documentacao anterior ao fechamento.",
+  "revisao_codigo": [
+    "Inventario reconstruido completo conferido contra os produtos versionados e quatro prompts regeneraveis.",
+    "Normalizacao limitada aos prefixos locais da avaliacao; colisoes e alteracoes de conteudo detectadas.",
+    "Estado inicial do Git, versao do verificador e hashes das fontes registrados."
+  ],
+  "chamadas_gemini_novas": 0,
+  "consumo_codex": "desconhecido",
+  "limitacoes": [
+    "Precisao juridica de 95% nao demonstrada; referencia provisoria de IA.",
+    "Previsao subjetiva e cenarios sem calibracao ou nivel de confianca.",
+    "Aceitacao executada no Windows com Python 3.14.7; outras plataformas nao exercitadas.",
+    "Acesso publico ao repositorio e envio externo ainda devem ser conferidos pelo usuario."
+  ],
+  "proximo_passo": "Revisar, commitar e fazer push; conferir acesso publico; ensaiar roteiro; enviar o link ao contato do case.",
+  "acoes_nao_realizadas": [
+    "ler .env",
+    "alterar classificacoes",
+    "ativar faturamento",
+    "staging",
+    "commit",
+    "push",
+    "alterar visibilidade do repositorio",
+    "enviar email"
+  ],
+  "limpeza_temporaria": "A revisao automatica bloqueou a remocao do clone temporario, sem razao especifica; copia de verificacao mantida fora do repositorio."
+}

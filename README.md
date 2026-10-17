@@ -2,9 +2,31 @@
 
 ## Visão geral
 
-Solução para o processo seletivo de IA da Vício (Método VDE), voltada à classificação de questões de concursos jurídicos por tópico. A entrega documental está concluída; falta a conferência final em checkout limpo, prevista no módulo 7.
+Solução para o processo seletivo de IA da Vício (Método VDE), voltada à classificação de questões de concursos jurídicos por tópico. Autor: **João Roberto de Oliveira Felix**.
 
 Entregas para leitura: [publicacao.csv](publicacao.csv), [previsao.txt](previsao.txt), [relatório PDF de cinco páginas](relatorio.pdf) e [mesmo relatório em Markdown](relatorio.md). O memo ao professor ocupa a quinta página do PDF. Os cálculos e suas fontes estão em [evidencias.json](artefatos/entrega-v2/evidencias.json).
+
+## Comece pela reprodução offline
+
+Requisitos: **Git e Python 3.11+**. A reprodução usa os recibos e julgamentos salvos. A API e uma chave não são necessárias. Em uma cópia do repositório, na raiz:
+
+```sh
+python -B scripts/verificar_entrega.py --testes
+```
+
+O verificador copia as fontes versionadas para uma pasta temporária, reconstrói preparação, prompts, decisões v1, pacote de auditoria, propostas do segundo passe e decisões v2. Compara os resultados com os arquivos entregues, confere previsão/Markdown/evidências e executa os testes. A pasta temporária é removida ao terminar; os arquivos da cópia de origem ficam preservados. Rede Python e leitura do `.env` da cópia são bloqueadas durante as etapas.
+
+O CSV final é gerado por `classificacao_topicos.experimento_cobertura concluir`, que reaplica a seleção da v2 às decisões e evidências salvas. O verificador exige que esse resultado seja idêntico a `publicacao.csv` da raiz. Isso reproduz a entrega registrada; uma nova chamada de IA pode gerar outro julgamento.
+
+Para conferir também o PDF, instale as dependências opcionais e use:
+
+```powershell
+python -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements-relatorio.txt
+.venv/Scripts/python.exe -B scripts/verificar_entrega.py --pdf --testes
+```
+
+Em Linux/macOS, o executável é `.venv/bin/python`. Apenas o PDF exige essas dependências. O verificador retorna código zero se todas as comparações passarem; `--registro caminho/novo.json` salva um registro sem substituir um anterior. Consulte [validação final](docs/VALIDACAO_FINAL.md) para o escopo e a evidência do checkout limpo, e [apresentação e defesa](docs/APRESENTACAO.md) para um roteiro de cinco minutos.
 
 ## Objetivo
 
@@ -39,9 +61,9 @@ Os requisitos são definidos pelo PDF oficial e pelo `LEIA-ME.md`. O arquivo `en
 
 ## Estado atual
 
-**Módulo 6 concluído, pronto para revisão e commit.** A previsão subjetiva de precisão é **94,8052%**, com cenários de **89,6104% a 100%**, sem nível de confiança ou calibração empírica. A reserva de quatro erros possíveis é julgamento editorial, não quatro erros observados; o cenário de oito erros não é um teto garantido. A cobertura é a contagem conhecida **77/359 = 21,4485%**. O [método documental](docs/ENTREGA_DOCUMENTAL.md) explica as hipóteses e como reproduzir os arquivos. O CSV e os artefatos anteriores não foram alterados nesta etapa.
+**Sete módulos concluídos; pacote validado para entrega.** A previsão subjetiva de precisão é **94,8052%**, com cenários de **89,6104% a 100%**, sem nível de confiança ou calibração empírica. A reserva de quatro erros possíveis é julgamento editorial, não quatro erros observados; o cenário de oito erros não é um teto garantido. A cobertura é a contagem conhecida **77/359 = 21,4485%**. O [método documental](docs/ENTREGA_DOCUMENTAL.md) explica as hipóteses e como reproduzir os arquivos.
 
-Verificação final: **278 testes, 277 aprovados e um pulado** pela permissão de symlink no Windows, em 108,497 s. Os quatro produtos documentais foram reproduzidos byte a byte em pasta temporária com rede e acesso a `.env` bloqueados. As cinco páginas do PDF foram renderizadas e inspecionadas visualmente.
+Verificação final do módulo 7: **282 testes, 281 aprovados e um pulado** pela permissão de symlink no Windows; suíte em 183,900 s. Em um clone novo da base commitada, com apenas o verificador e seu teste adicionados antes do commit, passaram **14 etapas e 36 comparações**: 35 byte a byte e uma comparação integral de JSON normalizando somente prefixos locais das fontes. O PDF coincidiu com a versão já inspecionada nas cinco páginas. Nenhuma nova chamada de API. A execução completa levou 359,501 s; escopo, ambiente e [registro verificável](artefatos/verificacao-final/reproducao-checkout-limpo.json) estão explicados em [VALIDACAO_FINAL.md](docs/VALIDACAO_FINAL.md).
 
 O módulo de preparação dos dados e da árvore está implementado e verificado. Ele preserva as fontes, prepara as 359 questões, valida os 377 registros da árvore e gera um diagnóstico reproduzível.
 
@@ -70,7 +92,7 @@ Uma sensibilidade exploratória posterior trata as três referências com vário
 
 O [experimento 5C](docs/EXPERIMENTO_COBERTURA_V2.md) classificou novamente os 41 casos retidos apenas por alternativas, em 50 chamadas Gemini: 37 sucessos técnicos e quatro falhas com tentativas esgotadas, em Q0086, Q0119, Q0194 e Q0322. Foram observados 1.134.040 tokens; doze tentativas não informaram uso, e o consumo dos agentes Codex não está incluído. As propostas foram congeladas antes da comparação com as referências cegas. A escolha da versão usa essa avaliação e constitui desenvolvimento, sem validação independente posterior à escolha.
 
-O módulo 5C foi commitado pelo usuário. Sua suíte final executou 270 testes: 269 aprovados e um pulado por limitação de permissão de symlink no Windows, em 116,632 s. O módulo 6 acrescenta previsão, relatório, memo e projeções de produção para 50 mil questões por semana. A reprodução completa em novo checkout e a conferência final da entrega ficam no módulo 7.
+O módulo 5C foi commitado pelo usuário. Sua suíte final executou 270 testes: 269 aprovados e um pulado por limitação de permissão de symlink no Windows, em 116,632 s. O módulo 6 acrescentou previsão, relatório, memo e projeções de produção para 50 mil questões por semana. O módulo 7 reúne o verificador de reprodução, a conferência do pacote e o roteiro de apresentação.
 
 - [Plano e acompanhamento dos módulos](docs/PLANO_EXECUCAO.md)
 - [Protocolo de avaliação e ambiguidades](docs/AVALIACAO.md)
@@ -153,7 +175,9 @@ python -m classificacao_topicos preparar-piloto
 
 Isso grava `artefatos/piloto/entradas.jsonl` e `manifesto_piloto.json`. São dez casos deliberados e dez selecionados por diversidade estrutural, com semente fixa. O catálogo contém todos os 375 temas ativos, mantendo os IDs e os ramos distintos. Os campos de origem não entram no prompt. Essa seleção serve ao desenvolvimento e não constitui amostra representativa para medir precisão.
 
-Depois de seguir a [configuração gratuita](docs/CONFIGURACAO_API.md), confirmar o Free Tier e conferir as cotas, valide a integração com uma chamada sintética curta. O modelo que funcionou neste ambiente foi selecionado assim no PowerShell:
+### Novas chamadas de IA, opcionais
+
+Os comandos `verificar-api`, `executar-piloto` e `executar-lote` podem acessar o provedor; os comandos de preparação e os testes são offline. Os exemplos abaixo registram a execução histórica e apontam para suas pastas de artefatos. Para um novo experimento, siga a [configuração da API](docs/CONFIGURACAO_API.md), confira o Free Tier e as cotas do seu projeto e adapte `--saida` dos comandos de execução para um diretório novo, preservando os recibos existentes. O modelo que funcionou neste ambiente foi selecionado assim no PowerShell:
 
 ```powershell
 $env:GEMINI_MODEL = 'gemini-3.5-flash-lite'
@@ -202,7 +226,7 @@ python -m classificacao_topicos preparar-decisoes --lote artefatos/lote-v2 --pre
 
 Esse comando não lê `.env` nem acessa a API. Ele revalida as fontes e as sugestões, aplica a política e usa as oito revisões registradas. Uma saída completa idêntica é reutilizada sem regravar arquivos; mudanças exigem uma nova pasta, preservando a versão congelada. Sem todas as revisões necessárias, grava a trilha e as pendências, não gera o CSV e retorna código 1. Entradas inválidas retornam código 2.
 
-A execução repetida preservou bytes e datas de modificação dos produtos. Uma reprodução de decisões em pasta temporária gerou os mesmos quatro arquivos, byte a byte. Essa pasta preserva a versão 1; o [publicacao.csv da raiz](publicacao.csv) agora corresponde à versão 2 descrita abaixo. A reprodução completa em um novo checkout será verificada no módulo 7.
+A execução repetida preservou bytes e datas de modificação dos produtos. Uma reprodução de decisões em pasta temporária gerou os mesmos quatro arquivos, byte a byte. Essa pasta preserva a versão 1; o [publicacao.csv da raiz](publicacao.csv) corresponde à versão 2 descrita abaixo. O verificador do módulo 7 também reconstrói essas decisões em uma pasta inicialmente vazia.
 
 ### Avaliação e diagnóstico sem API
 
@@ -244,11 +268,11 @@ O executor do lote e o módulo de decisões verificam esse arquivo derivado ante
 ## Entregas
 
 - **CSV de decisões v2 concluído e congelado**: [publicacao.csv](publicacao.csv), com 77 `publicar`, 278 `revisar` e quatro `fora`, seguindo o formato definido no `LEIA-ME.md` e acompanhado de trilha e manifesto em `artefatos/decisoes-v2`. A versão 1 permanece em sua pasta original.
-- **`previsao.txt` pendente**: previsão de precisão nas publicadas e de cobertura, cada uma com seu intervalo e uma explicação da metodologia, antes de conhecer o resultado da avaliação da organização.
-- **Relatório de até 5 páginas pendente, em PDF ou Markdown**: raciocínio, hipóteses e experimentos; diagnóstico dos dados e temas; proposta de produção; e memo para o professor, especialista em Direito. A proposta de produção deverá abordar 50 mil questões por semana e novas importações, técnicas de IA, custo por questão, medição contínua da qualidade e integração com importação, revisão e reportes dos alunos.
-- **Código, prompts, regras, auditoria e experimento disponíveis até o módulo 5C**: resultado negativo, propostas, referências e decisões v2 registrados; a previsão e a documentação final permanecem pendentes.
+- **Previsão concluída**: [previsao.txt](previsao.txt), com ponto e intervalo para precisão e cobertura, antes de conhecer a avaliação da organização. A precisão é uma previsão subjetiva por cenários; a cobertura é contada.
+- **Relatório concluído em cinco páginas**: [PDF](relatorio.pdf) e [Markdown](relatorio.md), com raciocínio, hipóteses e experimentos, diagnóstico, produção para 50 mil questões por semana e memo ao professor. Inclui custos, qualidade contínua e integração com importação, revisão e reportes.
+- **Código e evidências disponíveis**: preparação, prompts, API, recibos, regras, revisões, auditoria, experimento negativo de cobertura, decisões v2, cálculo da previsão e geradores documentais. [Verificador offline](scripts/verificar_entrega.py) e [roteiro de apresentação](docs/APRESENTACAO.md) complementam a entrega.
 
-O enunciado solicita um memo de uma página, cobrindo achados, mudanças recomendadas nos temas e apoio necessário do especialista. Como proposta de organização da entrega, será reservada uma das cinco páginas do relatório para esse memo.
+O memo ocupa a quinta página do PDF, com achados, mudanças recomendadas nos temas e apoio necessário do especialista.
 
 ## Rastreabilidade
 

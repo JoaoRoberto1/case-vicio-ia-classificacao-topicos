@@ -9,14 +9,14 @@ O trabalho está organizado em sete módulos, com 18 horas estimadas de esforço
 | 3. Primeira versão e piloto | 3 h | Classificador simples, respostas estruturadas e análise de erros do piloto | Dois pilotos reais concluídos; v2 selecionada |
 | 4. Execução completa | 1,5 h | Resultados persistidos para as 359 questões, sem perdas e com retomada | Concluído e commitado: 359 válidas, zero pendências técnicas |
 | 5. Auditoria, decisão e cobertura | 5 h | Revisões registradas, decisões congeladas, avaliação e experimento controlado de cobertura | 5A, 5B e 5C concluídos e commitados; experimento negativo, v2 com 77 publicados |
-| 6. Relatório e produção | 3 h | Previsão, até cinco páginas com diagnóstico, raciocínio, proposta para 50 mil questões por semana e memo | Concluído; pronto para revisão e commit |
-| 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Pendente |
+| 6. Relatório e produção | 3 h | Previsão, até cinco páginas com diagnóstico, raciocínio, proposta para 50 mil questões por semana e memo | Concluído e commitado; autoria e acentos conferidos |
+| 7. Reprodução e entrega | 2 h | Arquivos finais verificados, README executável e preparação para defesa | Concluído; pronto para revisão, commit e envio pelo usuário |
 
 O esforço previsto não representa tempo já gasto. O submódulo 5C faz parte das cinco horas previstas para o módulo 5; não acrescenta uma estimativa de tempo executado. Limites de API e achados da avaliação podem exigir ajustes. A conclusão de um módulo depende de seus artefatos e verificações.
 
 ## Pontos de parada e commits
 
-O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O módulo 4 terminou com 359 sugestões válidas e foi commitado. O módulo 5A congelou 78 decisões `publicar`, 277 `revisar` e quatro `fora`; o 5B registrou 77/78 coincidências no censo dos publicados, frente à referência provisória de IA. O 5C terminou sem adotar nenhuma das 23 propostas: os critérios registrados de coincidência estrita e ausência de divergências não foram satisfeitos. A versão 2 contém 77 `publicar`, 278 `revisar` e quatro `fora`, após reter separadamente Q0180 por achado conhecido. A v1 permanece preservada. O ponto de parada atual é a revisão e o commit do módulo 6, com previsão e relatório completos, antes de iniciar a conferência final.
+O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O módulo 4 terminou com 359 sugestões válidas e foi commitado. O módulo 5A congelou 78 decisões `publicar`, 277 `revisar` e quatro `fora`; o 5B registrou 77/78 coincidências no censo dos publicados, frente à referência provisória de IA. O 5C terminou sem adotar nenhuma das 23 propostas: os critérios registrados de coincidência estrita e ausência de divergências não foram satisfeitos. A versão 2 contém 77 `publicar`, 278 `revisar` e quatro `fora`, após reter separadamente Q0180 por achado conhecido. A v1 permanece preservada. O módulo 6 e o ajuste posterior de autoria foram commitados. O ponto de parada atual é a revisão e o commit do módulo 7, antes de conferir o acesso público e enviar o link.
 
 | Etapa de retomada | Tamanho do bloco | Ponto de parada | Commit sugerido |
 | --- | --- | --- | --- |
@@ -27,17 +27,17 @@ O estado completo da pausa está em [RETOMADA.md](RETOMADA.md). O módulo 4 term
 | Módulo 5B concluído | Censo de 78 publicados e diagnóstico das 277 revisões | Referências congeladas, concordância condicional e limitações registradas; pronto para commit | `eval: conclui auditoria e diagnostica cobertura` |
 | Módulo 5C concluído | Segundo passe nos 41 casos, 23 propostas congeladas e avaliação por referência de IA | Resultado negativo, nenhuma promoção; v2 com Q0180 em revisão e v1 preservada; pronto para revisão e commit | `eval: registra experimento de desambiguacao e decisoes v2` |
 | Módulo 6 concluído | `previsao.txt`, relatório PDF/Markdown de cinco páginas, memo e cálculos | Texto, números e layout revisados, com proposta para 50 mil questões por semana | `docs: adiciona previsao relatorio e proposta de producao` |
-| Módulo 7 | Reprodução em checkout limpo | Entrega final verificada | `chore: valida entrega reproduzivel` |
+| Módulo 7 concluído | Reprodução em clone novo, verificador, conferência do pacote e roteiro de defesa | 14 etapas e 36 comparações aprovadas; 282 testes, com um skip de plataforma | `chore: valida entrega reproduzivel` |
 
 Os commits são sugestões para o usuário; nenhum foi criado pelo assistente. A avaliação real da versão 1 já tem artefatos próprios. Sua conclusão não representa validação por especialista nem autorização para alterar retroativamente política, decisões ou referências congeladas.
 
 ## Próxima etapa
 
-O [módulo 6](ENTREGA_DOCUMENTAL.md) está concluído e aguarda revisão e commit do usuário. A previsão subjetiva é 94,8052%, com cenários de 89,6104% a 100%, e cobertura conhecida de 21,4485%. O relatório de cinco páginas inclui o memo na última e distingue implementação, evidência observada e proposta de produção.
+As entregas do [módulo 6](ENTREGA_DOCUMENTAL.md) estão concluídas e commitadas. A previsão subjetiva é 94,8052%, com cenários de 89,6104% a 100%, e cobertura conhecida de 21,4485%. O relatório de cinco páginas inclui o memo na última e distingue implementação, evidência observada e proposta de produção.
 
 O CSV foi preservado. A retirada anterior de Q0180 é tratamento de achado conhecido, não um novo acerto validado. O uso da avaliação para escolher a versão impede descrevê-la como validação independente posterior à escolha. A faixa da previsão não é intervalo estatístico ou limite garantido; não há comprovação da meta jurídica de 95%.
 
-O módulo 7 fará a reprodução completa em novo checkout e a conferência das entregas. Os cálculos offline do 5C já podem ser repetidos em pastas novas com os comandos `propor` e `concluir`, conforme o [README](../README.md#experimento-5c-e-decisões-v2-sem-api), sem novas chamadas ou mudanças nos artefatos congelados.
+O módulo 7 reúne a [validação final](VALIDACAO_FINAL.md) e o [roteiro de apresentação](APRESENTACAO.md). O comando `python -B scripts/verificar_entrega.py --testes` reconstrói e compara os produtos em pasta temporária. Depois da revisão e do commit/push, resta conferir o acesso público ao repositório e enviar o link ao contato do case. Não são necessárias novas chamadas de classificação.
 
 ## Decisões iniciais
 
@@ -174,6 +174,15 @@ O histórico de experimentos deve distinguir versão automática e intervençõe
 - Gerador offline com conferência dos IDs esperados e históricos de recibos; PDF opcional com dependências isoladas. Suíte final: 278 testes, 277 aprovados e um pulado por permissão de symlink no Windows, em 108,497 s.
 - Quatro produtos documentais reproduzidos byte a byte em pasta temporária com rede e `.env` bloqueados. PDF final renderizado e revisado nas cinco páginas. A revisão independente confirmou requisitos e métricas e identificou a proteção adicional contra recibos faltantes, já corrigida e testada.
 - Registro: [método documental](ENTREGA_DOCUMENTAL.md) e [checkpoint 6](../artefatos/checkpoints/modulo6_2026-10-16.json). Nenhuma chamada Gemini, commit, push ou envio externo. Próxima etapa após revisão e commit: módulo 7, reprodução completa em checkout limpo e conferência final.
+
+### Módulo 7 concluído em 16 de outubro de 2026
+
+- Base: commit `b1e8539021f2417fd3f2513681745d2c50c6a0dc`, inicialmente limpo. Clone novo sem credenciais, ambiente virtual ou prompts expandidos; recebeu somente o verificador e seu teste novos, identificados no registro antes do commit. O ambiente de PDF foi criado no clone.
+- Verificação offline em 14 etapas e 36 comparações: 35 byte a byte, incluindo PDF, e uma comparação integral do JSON de avaliação normalizando somente prefixos locais das fontes. Inventário reconstruído com 28 produtos versionados e quatro prompts expandidos, sem ausências ou extras.
+- Suíte final: 282 testes, 281 aprovados e um pulado por permissão de symlink real no Windows, em 183,900 s. Tempo total da reprodução: 359,501 s. Os quatro testes novos verificam a integridade da normalização e do inventário. Ambiente exercitado: Windows com Python 3.14.7.
+- Fontes, recibos, decisões, CSV, previsão, relatório e referências anteriores preservados. Nenhuma chamada Gemini ou leitura de `.env`. Revisão do pacote e do histórico Git concluída, sem padrões conhecidos de credenciais nos arquivos examinados.
+- README corrigido e comando único de reprodução documentado. Guia de entrega com rascunho de e-mail e roteiro de cinco minutos com oito perguntas de defesa preparados. A meta de precisão jurídica continua sem comprovação por especialista.
+- Registros: [validação e envio](VALIDACAO_FINAL.md), [apresentação](APRESENTACAO.md), [execução](../artefatos/verificacao-final/reproducao-checkout-limpo.json) e [checkpoint 7](../artefatos/checkpoints/modulo7_2026-10-16.json). Ponto de parada: usuário revisa, commita, faz push, confere acesso público e envia o link; o assistente não realizou essas ações.
 
 ## Registro de execução
 

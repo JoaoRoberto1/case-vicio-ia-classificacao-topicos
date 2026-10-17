@@ -1,6 +1,8 @@
 # Ponto de retomada do case
 
-**Módulo 6 concluído em 16/10/2026, pronto para revisão e commit.** Entregas: [previsao.txt](../previsao.txt), [relatório PDF de cinco páginas](../relatorio.pdf), [Markdown equivalente](../relatorio.md), com memo na quinta página, e [cálculos rastreáveis](../artefatos/entrega-v2/evidencias.json). A previsão de precisão é subjetiva: **94,8052%**, cenários de **89,6104% a 100%**, sem nível de confiança ou calibração. A cobertura conhecida continua **77/359 = 21,4485%**. CSV, decisões e referências anteriores foram preservados. Próximo passo: módulo 7, reprodução completa em checkout limpo e conferência do pacote.
+**Módulo 7 concluído em 16/10/2026, pronto para revisão e commit.** Os sete módulos técnicos estão encerrados. A reprodução em clone novo passou em 14 etapas e 36 comparações, incluindo o PDF; suíte com 282 testes, 281 aprovados e um pulado. [Validação final](VALIDACAO_FINAL.md), [roteiro de apresentação](APRESENTACAO.md) e [checkpoint](../artefatos/checkpoints/modulo7_2026-10-16.json) estão prontos. Próximos passos do usuário: revisar, commitar, fazer push, conferir acesso público e enviar o link.
+
+Entregas preservadas: [CSV final](../publicacao.csv), [previsao.txt](../previsao.txt), [relatório PDF de cinco páginas](../relatorio.pdf), [Markdown equivalente](../relatorio.md), com memo na quinta página, e [cálculos rastreáveis](../artefatos/entrega-v2/evidencias.json). A previsão de precisão é subjetiva: **94,8052%**, cenários de **89,6104% a 100%**, sem nível de confiança ou calibração. A cobertura conhecida continua **77/359 = 21,4485%**. A reprodução não comprova precisão jurídica.
 
 **Ajuste posterior ao commit do módulo 6:** o relatório foi reconstruído após uma edição direta do PDF ter deixado caracteres acentuados corrompidos. O início do documento e os metadados agora usam **João Roberto de Oliveira Felix**, conforme solicitado. As cinco páginas foram renderizadas e revisadas; a geração determinística foi conferida. O texto restante, a previsão e as classificações foram preservados. Registro: [ajuste de autoria e recuperação do PDF](../artefatos/checkpoints/ajuste_relatorio_nome_2026-10-16.json). Para futuras edições, alterar `docs/modelo_relatorio.md` e regenerar com `scripts/gerar_relatorio.py --pdf`; o checkpoint original do módulo 6 permanece como histórico.
 
@@ -15,10 +17,22 @@
 | Módulo 5A: decisões | Concluído e commitado: 359 decisões e trilha congeladas |
 | Módulo 5B: avaliação | Concluído e commitado: censo de 78, referências congeladas, comparação e diagnóstico |
 | Módulo 5C: cobertura | Concluído e commitado: experimento não adotado, v2 congelada |
-| Módulo 6: relatório e memo | Concluído; ponto de revisão e commit do usuário |
-| Módulo 7: entrega final e reprodução | Pendente; verificar checkout limpo e pacote completo |
+| Módulo 6: relatório e memo | Concluído e commitado; autoria e caracteres corrigidos |
+| Módulo 7: entrega final e reprodução | Concluído; pronto para revisão e commit do usuário |
 
-## Conclusão do módulo 6
+## Conclusão do módulo 7
+
+Base: commit `b1e8539021f2417fd3f2513681745d2c50c6a0dc`, com repositório limpo no início. Um clone local novo, inicialmente sem `.env`, ambiente virtual ou prompts expandidos, recebeu somente o verificador e seu teste novos. O ambiente de PDF foi criado nesse clone. O registro identifica essas duas adições antes do commit e contém os hashes dos 610 arquivos de entrada; a documentação de fechamento foi atualizada posteriormente e consta no checkpoint.
+
+A execução final usou `scripts/verificar_entrega.py --pdf --testes`: 14 etapas, 35 comparações byte a byte e uma comparação integral de JSON normalizando apenas os prefixos locais das fontes. Os nove diretórios reconstruídos contêm os 28 produtos versionados e quatro prompts regeneráveis esperados. Todas as fontes de entrada foram preservadas. O PDF reproduzido é idêntico ao arquivo corrigido e inspecionado no ajuste de autoria.
+
+Suíte: **282 testes, 281 aprovados e um pulado**, em 183,900 s; o skip é a permissão de symlink real no Windows, com proteção também testada por simulação. Reprodução completa: **359,501 s**, Windows e Python 3.14.7. Os quatro testes novos cobrem normalização dos caminhos, preservação de métricas/hashes, rejeição de colisões e inventário incompleto ou excedente. Não foi testada uma matriz de sistemas operacionais.
+
+A revisão do pacote conferiu CSV, previsão, relatório, requisitos, links locais e ausência de padrões conhecidos de credenciais nos arquivos examinados e no histórico Git. O novo guia explica o escopo da reprodução, distingue as entradas históricas dos produtos reconstruídos e traz um rascunho de e-mail. O roteiro inclui cinco minutos de apresentação e oito perguntas de defesa. Nenhuma chamada Gemini, leitura de `.env`, staging, commit, push ou envio externo foi realizado.
+
+Registros: [execução completa](../artefatos/verificacao-final/reproducao-checkout-limpo.json), [checkpoint 7](../artefatos/checkpoints/modulo7_2026-10-16.json) e [guia de validação e envio](VALIDACAO_FINAL.md).
+
+## Histórico do módulo 6
 
 Base: commit `94066155ae648f11aacfcceabdff0223c4a9c2d2`, com repositório limpo. O relatório cobre raciocínio, tentativas rejeitadas, diagnóstico, avaliação, consumo/tempo, produção para 50 mil questões por semana e memo sem jargão de IA. A previsão usa reserva editorial de quatro erros possíveis (73/77), com cenários de zero a oito (69/77 a 77/77); não são erros observados ou limite garantido. O [método](ENTREGA_DOCUMENTAL.md) explica as escolhas, as limitações da referência e as fontes.
 
@@ -169,20 +183,19 @@ A regra de whitespace de `temas.csv` reconhece o CRLF preservado como fim de lin
 
 ## Commit deste módulo
 
-Este commit reúne o módulo 6: previsão, relatório, memo, proposta de produção, gerador offline, evidências, testes, checkpoint e documentação. O assistente não fez commit, push ou staging nesta etapa.
+Este commit reúne o módulo 7: verificador de reprodução, testes de integridade, registro da execução em checkout separado, conferência das entregas, roteiro de apresentação e documentação. O assistente não fez commit, push ou staging nesta etapa.
 
 Comandos sugeridos, a partir da raiz:
 
 ```powershell
 git status --short
-git add .gitattributes .gitignore README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md
-git add docs/ENTREGA_DOCUMENTAL.md docs/modelo_relatorio.md config/previsao_v2.json
-git add previsao.txt relatorio.md relatorio.pdf requirements-relatorio.txt scripts/gerar_relatorio.py tests/test_relatorio_documental.py
-git add artefatos/entrega-v2/evidencias.json artefatos/checkpoints/modulo6_2026-10-16.json
+git add README.md docs/RETOMADA.md docs/PLANO_EXECUCAO.md docs/VALIDACAO_FINAL.md docs/APRESENTACAO.md
+git add scripts/verificar_entrega.py tests/test_verificar_entrega.py
+git add artefatos/verificacao-final/reproducao-checkout-limpo.json artefatos/checkpoints/modulo7_2026-10-16.json
 git diff --cached --check
 git diff --cached --stat
 git diff --cached --name-only
-git commit -m "docs: adiciona previsao relatorio e proposta de producao"
+git commit -m "chore: valida entrega reproduzivel"
 ```
 
 Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entradas.jsonl` e `artefatos/lote-v2/entradas.jsonl` continuam locais e ignorados: repetem o catálogo e são regeneráveis. Não usar `git add -f` para incluir `.env`, contexto privado ou prompts expandidos.
@@ -191,7 +204,13 @@ Os arquivos grandes `artefatos/piloto/entradas.jsonl`, `artefatos/piloto-v2/entr
 
 Na mesma pasta, ler este registro e conferir `git status --short`. O módulo 4 está completo: não é necessário executar novas chamadas de classificação. As cotas informadas pelo usuário para o modelo eram 15 RPM, 250 mil TPM e 500 RPD; uma futura etapa com API precisa considerar o uso do dia. Nenhum gasto ou ativação de faturamento foi autorizado.
 
-Em outro checkout, usar o commit que inclua os bytes corretos de `temas.csv`, conforme acima. Os prompts expandidos não estarão no Git; reconstruí-los antes de validar recibos ou decisões:
+Em outro checkout, o comando recomendado reproduz os produtos em uma pasta temporária e confere os resultados sem credenciais:
+
+```powershell
+python -B scripts/verificar_entrega.py --testes
+```
+
+Para incluir o PDF e salvar um registro, seguir [VALIDACAO_FINAL.md](VALIDACAO_FINAL.md). A sequência abaixo permite reconstruir individualmente os produtos locais; os prompts expandidos não estarão no Git e precisam ser preparados antes de validar recibos ou decisões:
 
 ```powershell
 python -B -m classificacao_topicos preparar
@@ -219,9 +238,13 @@ O comando é offline e idempotente quando o derivado existente é válido. O exe
 
 Ao conferir o lote por scripts, selecionar recibos por `Q[0-9]{4}\.json`, pois `Q*.json` inclui também o derivado. Separar status original e status efetivo. A função `carregar_revalidacao` verifica a origem e a seleção antes de `status_efetivo` ou `sugestao_efetiva`.
 
-## Próximos módulos
+## Próximos passos do usuário
 
-1. **7 — entrega:** verificar arquivos finais e reprodução em checkout limpo, incluindo previsão, Markdown e PDF. O relatório de avaliação v1 inclui caminhos absolutos das fontes; em outro checkout, comparar os hashes dos conteúdos, o CSV e as métricas. Os produtos 5C e as novas fontes documentais usam caminhos relativos. Não são necessárias novas chamadas de classificação. Conferir requisitos, caminhos públicos, ausência de arquivos privados e preparar apresentação das escolhas e limites. Publicação do repositório e envio dos materiais dependem de instrução do usuário.
+1. Revisar as alterações deste módulo e fazer o commit com os comandos acima; em seguida, fazer o push para o repositório remoto.
+2. Abrir o repositório sem estar autenticado e confirmar acesso ao CSV, à previsão, ao PDF e às instruções. A acessibilidade pública não foi verificada nesta execução local.
+3. Ensaiar com [APRESENTACAO.md](APRESENTACAO.md) e usar o rascunho de e-mail em [VALIDACAO_FINAL.md](VALIDACAO_FINAL.md) para enviar o link até 18/10/2026.
+
+Não são necessárias novas chamadas de classificação. A reprodução valida a integridade dos cálculos salvos; a precisão jurídica permanece sem avaliação por especialista.
 
 ## Decisões que devem ser preservadas
 
@@ -229,4 +252,4 @@ O usuário não tem apoio jurídico disponível e não há rótulos temáticos o
 
 Na avaliação local, igualdade de ID ou relação imediata pai/filho é aceita; irmãos e ancestrais distantes permanecem distintos. Essa interpretação conservadora do case está documentada. A confiança das quatro sugestões corrigidas vem do revisor; a de `fora` é zero como sentinela de não aplicável. O intervalo da cobertura observada será degenerado. As convenções estão em [AVALIACAO.md](AVALIACAO.md).
 
-Para retomar: **“Leia docs/RETOMADA.md e inicie o módulo 7: reprodução em checkout limpo e conferência final; preserve as versões, não faça novas chamadas de classificação e pare para eu revisar.”**
+Para retomar: **“Leia docs/RETOMADA.md e docs/APRESENTACAO.md e me ajude a ensaiar a defesa do case; preserve as entregas e não faça novas chamadas de classificação.”**
