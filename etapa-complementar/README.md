@@ -4,7 +4,7 @@
 
 Implementação da etapa complementar do case de IA da Vício. O objetivo é classificar 659 questões jurídicas, estimar a chance de acerto e decidir entre `publicar`, `revisar` e `fora`, buscando pelo menos 95% de precisão nas publicadas e a maior cobertura compatível com essa meta.
 
-**Estado atual: módulo 2 concluído, pronto para revisão e commit.** O primeiro classificador local usa texto, catálogo de temas e referências humanas, sem chamadas a modelos. A primeira comparação acertou 31/80 referências de desenvolvimento (38,75% pelo critério do case). É uma base de comparação ainda insuficiente para publicação automática; calibração, `publicacao.csv`, previsão e relatório final pertencem aos próximos módulos.
+**Estado atual: módulo 3 concluído, pronto para revisão e commit.** A comparação de sete receitas selecionou a combinação de busca lexical e embeddings do catálogo, com 37/80 acertos de desenvolvimento (46,25% pelo critério do case), contra 31/80 no módulo 2. O modelo semântico participa somente da preparação; a classificação usa vetores persistidos e código local. As 20 referências finais continuam reservadas. Calibração, `publicacao.csv`, previsão e relatório final pertencem aos próximos módulos.
 
 ## Executar o módulo 1
 
@@ -59,6 +59,31 @@ O módulo deixa dois modelos em JSON, 160 predições internas e 559 sugestões 
 
 A verificação reconstruiu os sete arquivos com os mesmos bytes em 83,159 segundos, com conexões de rede e leitura de `.env` bloqueadas. O [checkpoint do módulo 2](artefatos/checkpoints/modulo2.json) registra ambiente, validações e hashes. A reprodução byte a byte foi conferida em CPython 3.14.7 no Windows; outras plataformas ainda não foram testadas.
 
+## Executar o módulo 3
+
+Na pasta `etapa-complementar`, usando o cache versionado:
+
+```console
+python -B -m classificacao_experimentos experimentar --saida artefatos/melhorias-v1
+python -B -m classificacao_experimentos verificar --saida artefatos/melhorias-v1
+```
+
+Esses comandos usam somente a biblioteca padrão do Python. Não precisam de chave, rede, bibliotecas de IA ou pesos do codificador. Para outra saída, use `--saida tmp/reproducao-m3`. Arquivos divergentes são recusados; execute somente um processo por diretório.
+
+| Comparação de desenvolvimento | Lexical M2 | Híbrido selecionado |
+|---|---:|---:|
+| Acerto do primeiro tema, critério do case | 31/80 (38,75%) | 37/80 (46,25%) |
+| Acerto exato, incluindo extras humanos | 18/80 (22,50%) | 24/80 (30,00%) |
+| Tema aceitável entre cinco sugestões | 57/80 (71,25%) | 54/80 (67,50%) |
+
+A diferença de seis acertos é exploratória: as mesmas 80 referências orientaram a escolha. O catálogo lexical sem exemplos acertou 34/80, enquanto embeddings sozinhos acertaram 21/80. A tabela completa, os resultados negativos e o desempate estão na [documentação do módulo 3](docs/MODULO3_EXPERIMENTOS.md). Esses valores não são precisão entre publicadas nem demonstram a meta de 95%.
+
+A preparação local com `intfloat/multilingual-e5-small` gerou 639 vetores de questões e 371 de temas, sem vetor para a reserva de 20. O [cache e seu manifesto](artefatos/embeddings-e5-v1/manifesto.json) registram modelo, revisão, hashes, parâmetros e dependências. Os comandos para regenerá-lo estão na documentação; pesos e ambiente virtual ficam ignorados pelo Git.
+
+O [experimento](artefatos/melhorias-v1/manifesto.json) preserva 560 predições de desenvolvimento, 559 sugestões intermediárias e o modelo selecionado. A [receita congelada](artefatos/melhorias-v1/receita_congelada.json) será a base da calibração. O [checkpoint do módulo 3](artefatos/checkpoints/modulo3.json) registra execução e validações.
+
+Os 50 novos testes passaram. A verificação integral reconstruiu os sete produtos com bytes idênticos em 353,387 segundos, com rede, `.env`, pesos e importação das dependências do codificador bloqueados. Preparação e primeiro experimento levaram 316,514 e 274,690 segundos, respectivamente. A reprodução foi conferida em CPython 3.14.7 no Windows; os tempos não são um benchmark de produção.
+
 ## Dados e regra desta etapa
 
 As fontes estão preservadas em [anexos](anexos/LEIA-ME.md), no [enunciado](<case-ia-classificacao-de-topicos (2).pdf>) e no [README do case](README-do-case.md). Correspondem à [atualização oficial de 19/10/2026](https://github.com/viciod/case-vicio-ia/commit/0264e4ca2afd7afebdd45f542784e6079ee804ca).
@@ -76,6 +101,6 @@ A [origem dos insumos](config/fontes_oficiais.json) e o [reaproveitamento de có
 
 ## Módulos e próxima parada
 
-O [plano de execução](docs/PLANO_EXECUCAO.md) define cinco módulos e os critérios de conclusão. A próxima etapa é o **módulo 3, experimentos de melhoria**: comparar representações e sinais nas mesmas 80 referências, preservando a reserva de 20. Cada módulo termina em um ponto de revisão e commit pelo autor.
+O [plano de execução](docs/PLANO_EXECUCAO.md) define cinco módulos e os critérios de conclusão. A próxima etapa é o **módulo 4, calibração e decisões**: estimar a chance de acerto e definir a política usando as 80 referências de desenvolvimento; só depois do congelamento completo, avaliar uma vez nas 20 reservadas. Cada módulo termina em um ponto de revisão e commit pelo autor.
 
 O prazo comunicado pela recrutadora é **22/10/2026, às 14h, no horário de São Paulo**; o PDF mantém o prazo “a combinar”.

@@ -1,0 +1,40 @@
+{
+  "versao": 1,
+  "modelo": "intfloat/multilingual-e5-small",
+  "revisao": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "licenca": "MIT",
+  "origem": "https://huggingface.co/intfloat/multilingual-e5-small",
+  "arquivos": {
+    "modelo.onnx": {
+      "caminho_remoto": "onnx/model.onnx",
+      "bytes": 470268510,
+      "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665"
+    },
+    "tokenizer.json": {
+      "caminho_remoto": "onnx/tokenizer.json",
+      "bytes": 17082730,
+      "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    }
+  },
+  "preparacao": {
+    "dimensoes": 384,
+    "max_tokens": 512,
+    "janela_tokens": 480,
+    "sobreposicao_tokens": 32,
+    "batch_size": 8,
+    "threads": 4,
+    "casas_decimais": 8
+  },
+  "papel_questoes": "query",
+  "papel_temas": "passage",
+  "pooling": "Media de tokens com attention_mask, normalizacao L2 por janela, media de janelas e L2, arredondamento final.",
+  "entradas": "Enunciado, comando e textos das alternativas ordenados; titulo, caminho e descricao oficiais. Sem repeticao de campos, IDs, metadados de origem ou rotulos.",
+  "reserva": "As 20 referencias reservadas nao sao vetorizadas neste modulo.",
+  "dependencias_preparacao": {
+    "onnxruntime": "1.31.0",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.4"
+  },
+  "inferencias_api": 0,
+  "custo_api": 0
+}

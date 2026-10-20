@@ -1,0 +1,47 @@
+{
+  "baselines_m2_reproduzidos": true,
+  "cache_vetores_sha256": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25",
+  "entradas_e_implementacao_sha256": {
+    "artefatos/embeddings-e5-v1/manifesto.json": "b625893488a262b2bdb298103eee8b793a3995b8b2f68e81f651a2af5030a368",
+    "artefatos/embeddings-e5-v1/vetores.json": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25",
+    "artefatos/lexical-v1/manifesto.json": "11eb270ec070e2cd77af590fc5e3d06af66ee6f3a0c369bb4d2fb2b5872d8a0e",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+    "classificacao_experimentos/__init__.py": "7d618b8e2227d2269652f16399f33f86f2558fde3f828fe64a03d62d7440b8df",
+    "classificacao_experimentos/__main__.py": "96ca54a5a0c2908835177fa4ec604f7865fc90bf87175d4085d4d0149f18e417",
+    "classificacao_experimentos/contexto.py": "c4303c61c840dfa945adf47e209ced1e3a2787e7359b9ce248dadf38bcea2842",
+    "classificacao_experimentos/download_modelo.py": "7586279ec9cd54165f9249448dd2b4742eb15033ab8f9918f317fd2c441da43c",
+    "classificacao_experimentos/entradas.py": "84126f632a0019dacb51a52fd88929e21fa538eca8088c307476c8f014958681",
+    "classificacao_experimentos/experimento.py": "27bc2cd7dded5e7323f535fce63695f4443929a8284f8d3ae41ad65e181a3eed",
+    "classificacao_experimentos/motor.py": "c73c6164afd19152bf9d3dff9173577832e4316305c5b43907e2c20ee1fdbb8f",
+    "classificacao_experimentos/preparacao_embeddings.py": "3155f5b7740e7b8524c1bd7e8fc59f055fcc73e2a5981fc601d318f2c00a4ddf",
+    "classificacao_experimentos/preparar.py": "5f7217560b47a04decab01dfbd2f13b198be23914488939c80fae43bf670ce06",
+    "config/modulo3/embeddings.json": "ec7ec8c8770f2ea68f34ecf6fea76a9a431587a520c3933709b8ba7c229ca49f",
+    "config/modulo3/experimento.json": "a3b39664b1499c9267a545ff23877d865d1ce39043cb272bf864dab31a7ff1f3",
+    "config/modulo3/fontes.json": "f6216beedf8ee1ec4ac8046dedddef829ffa458a4e431887b7a85a1622206f90"
+  },
+  "fontes_fixadas": {
+    "regra": "Modulos 1 e 2 preservados; mesmas 80 referencias de desenvolvimento e 20 reservadas.",
+    "sha256": {
+      "artefatos/lexical-v1/manifesto.json": "11eb270ec070e2cd77af590fc5e3d06af66ee6f3a0c369bb4d2fb2b5872d8a0e",
+      "artefatos/lexical-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+      "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93"
+    },
+    "versao": 1
+  },
+  "modelo_linguagem_na_classificacao": false,
+  "modelo_linguagem_na_preparacao": "intfloat/multilingual-e5-small",
+  "origem_rotulos": "anexos/folha_verdade.csv",
+  "procedimento": "comparacao-lexical-semantica-v1",
+  "produtos_sha256": {
+    "metricas_desenvolvimento.json": "58984c06384e4c9385c0ed757022c2a3de3023283cdc68ac9dfabd8d43dc142e",
+    "modelo_selecionado.json": "717d47f6b8e20c8113c390ef8da3c0b1ed9ace238e220abba9b0011882ab3f7a",
+    "predicoes_desenvolvimento.jsonl": "be070df904fbdb3182eb1991bc5a9f56f1e77b693cd624e85acff1f9a0aece93",
+    "protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "receita_congelada.json": "dc5c3d09c6155a05aa6ab6449363b5c79af79aeddd29245f5e8e1cd469e09ef2",
+    "sugestoes_avaliacao.jsonl": "a0f7d61e56b48f584d9083a637bb2546703fefdae90665f613798b764e4e099e"
+  },
+  "receita_selecionada": "hibrido_catalogo",
+  "rede_necessaria_na_classificacao": false,
+  "reserva_vetorizada_ou_avaliada": false,
+  "versao": 1
+}

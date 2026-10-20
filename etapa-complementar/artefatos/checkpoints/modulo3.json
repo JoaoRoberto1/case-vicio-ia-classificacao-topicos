@@ -1,0 +1,273 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "implementacao": "CPython",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "artefatos_sha256": {
+    "manifesto.json": "aff41fcc4b2fdf1c5f2d2e696f87f8c7f30cb6510e99883364b31f5f0867f310",
+    "metricas_desenvolvimento.json": "58984c06384e4c9385c0ed757022c2a3de3023283cdc68ac9dfabd8d43dc142e",
+    "modelo_selecionado.json": "717d47f6b8e20c8113c390ef8da3c0b1ed9ace238e220abba9b0011882ab3f7a",
+    "predicoes_desenvolvimento.jsonl": "be070df904fbdb3182eb1991bc5a9f56f1e77b693cd624e85acff1f9a0aece93",
+    "protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "receita_congelada.json": "dc5c3d09c6155a05aa6ab6449363b5c79af79aeddd29245f5e8e1cd469e09ef2",
+    "sugestoes_avaliacao.jsonl": "a0f7d61e56b48f584d9083a637bb2546703fefdae90665f613798b764e4e099e"
+  },
+  "auditoria_estrutural": {
+    "assinaturas_conferidas": 36,
+    "candidatos_conferidos": 5595,
+    "metodo": "Conferencia programatica de IDs, particoes, elegibilidade, campos e SHA-256, sem julgamento de temas individuais.",
+    "vizinhos_conferidos": 3117
+  },
+  "cache_sha256": {
+    "manifesto.json": "b625893488a262b2bdb298103eee8b793a3995b8b2f68e81f651a2af5030a368",
+    "vetores.json": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25"
+  },
+  "calibrador_e_politica_congelados": false,
+  "chamadas_api": 0,
+  "classificador_congelado": true,
+  "cli": {
+    "experimento": {
+      "comando": "python -B -m classificacao_experimentos experimentar --saida artefatos/melhorias-v1",
+      "exit_code": 0,
+      "rede_env_pesos_imports_encoder_bloqueados_por_audit_hook": true,
+      "segundos": 274.69
+    },
+    "preparacao": {
+      "comando": ".venv/Scripts/python.exe -B -m classificacao_experimentos preparar-embeddings --saida artefatos/embeddings-e5-v1",
+      "exit_code": 0,
+      "rede_e_leitura_env_bloqueadas_por_audit_hook": true,
+      "segundos": 316.514
+    },
+    "verificacao": {
+      "arquivos_reconstruidos_identicos": 7,
+      "comando": "python -B -m classificacao_experimentos verificar --saida artefatos/melhorias-v1",
+      "exit_code": 0,
+      "rede_env_pesos_imports_encoder_bloqueados_por_audit_hook": true,
+      "segundos": 353.387
+    }
+  },
+  "commit_ou_push_executado": false,
+  "contagens": {
+    "avaliacao": 559,
+    "desenvolvimento": 80,
+    "particoes_internas": 3,
+    "predicoes_desenvolvimento": 560,
+    "questoes_cache": 639,
+    "receitas": 7,
+    "reserva": 20,
+    "sugestoes_avaliacao": 559,
+    "temas_cache": 371
+  },
+  "controles_artefatos": {
+    "baselines_m2_reproduzidos": true,
+    "candidatos_ativos_abaixo_raiz": true,
+    "cobertura_oof_uma_por_receita": true,
+    "modelo_final_treino_80": true,
+    "modulos_anteriores_sem_alteracao_git": true,
+    "reserva_sem_vetor_ou_inferencia": true,
+    "sem_confianca_ou_decisao_final": true,
+    "sem_ressubstituicao": true,
+    "vizinhos_restritos_ao_treino": true
+  },
+  "custo_api": 0,
+  "data": "2026-10-20",
+  "estado": "concluido",
+  "limites": [
+    "Selecao exploratoria nas mesmas 80 referencias; nao comprova ganho em dados novos ou precisao de publicacao.",
+    "Escore nao e probabilidade calibrada; meta de 95% nao demonstrada.",
+    "Reserva de 20 permanece sem vetorizacao, inferencia ou avaliacao.",
+    "Nao ha referencia humana nas 300 questoes recentes.",
+    "Reproducao byte a byte validada no ambiente registrado a partir do cache; regeneracao de embeddings em outro hardware pode divergir.",
+    "Tempos observados em ambiente local, sem benchmark isolado de capacidade de producao.",
+    "Um processo por diretorio de saida; nao alterar fontes assinadas de modulos concluidos."
+  ],
+  "modelo_linguagem_na_classificacao": false,
+  "modelo_linguagem_na_preparacao": "intfloat/multilingual-e5-small",
+  "modulo": 3,
+  "preparacao": {
+    "arquivos_download_bytes": 487351240,
+    "dependencias": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "diagnostico": {
+      "batch_size": 8,
+      "casas_decimais": 8,
+      "dimensoes": 384,
+      "janelas_total": 1032,
+      "max_tokens_corpo": 992,
+      "max_tokens_janela": 485,
+      "provedor": "CPUExecutionProvider",
+      "questoes_total": 639,
+      "registros_multiplas_janelas": 21,
+      "registros_total": 1010,
+      "temas_total": 371,
+      "threads": 4,
+      "tokens_corpo_total": 151972,
+      "truncados": 0,
+      "versoes_dependencias": {
+        "numpy": "2.5.4",
+        "onnxruntime": "1.31.0",
+        "tokenizers": "0.23.3"
+      }
+    },
+    "modelo_revisao": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "pesos_e_ambiente_ignorados_git": true
+  },
+  "proxima_etapa": "Modulo 4: calibrar e fixar politica usando desenvolvimento; congelar procedimento completo antes de avaliar uma vez a reserva.",
+  "receita_selecionada": "hibrido_catalogo",
+  "resultados_exploratorios": {
+    "hibrido_catalogo": {
+      "acertos": {
+        "exato": 24,
+        "imediato": 37,
+        "ramo": 37
+      },
+      "acertos_top_k_ramo": 54,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.3,
+        "imediato": 0.4625,
+        "ramo": 0.4625
+      },
+      "total": 80
+    },
+    "hibrido_exemplos_lexicais": {
+      "acertos": {
+        "exato": 24,
+        "imediato": 36,
+        "ramo": 36
+      },
+      "acertos_top_k_ramo": 59,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.7375,
+      "taxas_acerto": {
+        "exato": 0.3,
+        "imediato": 0.45,
+        "ramo": 0.45
+      },
+      "total": 80
+    },
+    "hibrido_exemplos_semanticos": {
+      "acertos": {
+        "exato": 24,
+        "imediato": 37,
+        "ramo": 37
+      },
+      "acertos_top_k_ramo": 54,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.3,
+        "imediato": 0.4625,
+        "ramo": 0.4625
+      },
+      "total": 80
+    },
+    "lexical_catalogo": {
+      "acertos": {
+        "exato": 18,
+        "imediato": 34,
+        "ramo": 34
+      },
+      "acertos_top_k_ramo": 56,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.7,
+      "taxas_acerto": {
+        "exato": 0.225,
+        "imediato": 0.425,
+        "ramo": 0.425
+      },
+      "total": 80
+    },
+    "lexical_leis_m2": {
+      "acertos": {
+        "exato": 18,
+        "imediato": 31,
+        "ramo": 31
+      },
+      "acertos_top_k_ramo": 54,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.225,
+        "imediato": 0.3875,
+        "ramo": 0.3875
+      },
+      "total": 80
+    },
+    "lexical_m2": {
+      "acertos": {
+        "exato": 18,
+        "imediato": 31,
+        "ramo": 31
+      },
+      "acertos_top_k_ramo": 57,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.7125,
+      "taxas_acerto": {
+        "exato": 0.225,
+        "imediato": 0.3875,
+        "ramo": 0.3875
+      },
+      "total": 80
+    },
+    "semantico_catalogo": {
+      "acertos": {
+        "exato": 16,
+        "imediato": 21,
+        "ramo": 21
+      },
+      "acertos_top_k_ramo": 34,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.425,
+      "taxas_acerto": {
+        "exato": 0.2,
+        "imediato": 0.2625,
+        "ramo": 0.2625
+      },
+      "total": 80
+    }
+  },
+  "smoke_encoder_real_sintetico": {
+    "dimensoes": 384,
+    "janelas": 7,
+    "rede_bloqueada": true,
+    "repeticoes_identicas": 2,
+    "textos_ficticios": 3,
+    "truncados": 0
+  },
+  "testes": {
+    "execucoes": [
+      {
+        "comando": "python -B -m unittest discover -s tests -p test_preparacao_embeddings.py -v",
+        "segundos": 0.04,
+        "testes": 13
+      },
+      {
+        "comando": "python -B -m unittest discover -s tests -p test_motor_m3.py -v",
+        "segundos": 0.128,
+        "testes": 17
+      },
+      {
+        "comando": "python -B -m unittest discover -s tests -p test_experimento_m3.py -v",
+        "segundos": 4.834,
+        "testes": 15
+      },
+      {
+        "comando": "python -B -m unittest discover -s tests -p test_cache_m3.py -v",
+        "segundos": 0.372,
+        "testes": 5
+      }
+    ],
+    "falhas": 0,
+    "modulos_anteriores_testes_registrados": 87,
+    "pulados": 0,
+    "suite_anterior_nao_reexecutada_integralmente_neste_modulo": true,
+    "total_novos_sem_repeticao": 50
+  }
+}

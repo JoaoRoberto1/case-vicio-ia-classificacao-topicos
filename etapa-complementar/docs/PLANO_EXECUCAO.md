@@ -2,7 +2,7 @@
 
 O projeto terá cinco módulos, cada um com resultados verificáveis e uma parada para revisão e commit. A meta é entregar um classificador local reproduzível e uma estimativa de qualidade sustentada pelas 100 referências humanas, respeitando a proibição de LLMs escolherem ou validarem temas.
 
-**Estado atual: módulos 1 e 2 concluídos; módulo 2 pronto para revisão e commit em 20/10/2026.** Os módulos 3 a 5 ainda não foram executados. Antes da primeira medição, o protocolo foi revisado para preservar 20 referências para o teste final e usar somente as outras 80 no desenvolvimento. O prazo informado pela recrutadora é 22/10/2026 às 14h, no horário de São Paulo. A extensão mencionada na mensagem não foi solicitada nem concedida.
+**Estado atual: módulos 1, 2 e 3 concluídos em 20/10/2026.** Os módulos 4 e 5 ainda não foram executados. Antes da primeira medição, o protocolo foi revisado para preservar 20 referências para o teste final e usar somente as outras 80 no desenvolvimento. O prazo informado pela recrutadora é 22/10/2026 às 14h, no horário de São Paulo. A extensão mencionada na mensagem não foi solicitada nem concedida.
 
 ## Módulo 1 Dados e protocolo de avaliação
 
@@ -45,15 +45,23 @@ Obter cedo uma referência mensurável para orientar os próximos experimentos.
 
 Comparar poucas alternativas com o mesmo protocolo e preservar tanto os resultados positivos quanto os negativos.
 
-- [ ] Comparar até três famílias: lexical, lexical com leis e recuperação híbrida com embeddings previamente calculados.
-- [ ] Medir a contribuição dos exemplos humanos semelhantes, já incluídos no módulo 2, retirando ou variando esse sinal somente nas partições de desenvolvimento.
-- [ ] Se houver preparação com modelos, versionar origem, versão, instruções, parâmetros, custos conhecidos e artefatos gerados.
-- [ ] Medir a contribuição dos sinais e respeitar a seleção de receita na validação interna.
-- [ ] Registrar todas as mudanças orientadas pelas métricas das 80 referências como desenvolvimento exploratório, sem consultar as 20 reservadas.
+O [pré-registro do módulo 3](MODULO3_EXPERIMENTOS.md) fixa sete receitas dentro das três famílias previstas, o modelo de embeddings e o critério de seleção antes da primeira medição deste módulo. Os embeddings são preparados localmente, sem API, e ficam em cache para a classificação numérica independente do codificador.
+
+- [x] Comparar até três famílias: lexical, lexical com leis e recuperação híbrida com embeddings previamente calculados.
+- [x] Medir a contribuição dos exemplos humanos semelhantes, já incluídos no módulo 2, retirando ou variando esse sinal somente nas partições de desenvolvimento.
+- [x] Se houver preparação com modelos, versionar origem, versão, instruções, parâmetros, custos conhecidos e artefatos gerados.
+- [x] Medir a contribuição dos sinais e respeitar a seleção de receita na validação interna.
+- [x] Registrar todas as mudanças orientadas pelas métricas das 80 referências como desenvolvimento exploratório, sem consultar as 20 reservadas.
 
 **Critério de conclusão:** seleção rastreável nas 80 referências, preservando as 20 reservadas para avaliar a receita completa no módulo 4.
 
 **Parada:** revisar comparação, custo e complexidade; congelar a receita para calibração e commit.
+
+**Resultado:** sete receitas comparadas; `hibrido_catalogo` selecionado com 37/80 acertos por ramo e 24/80 exatos. O módulo 2 tinha 31/80 e 18/80, respectivamente. O top5 caiu de 57/80 para 54/80; o semântico isolado teve 21/80 no primeiro candidato. Esses resultados positivos e negativos permanecem registrados, sem mudar a grade após a medição. O cache local tem 639 questões e 371 temas; foram geradas 560 predições internas e 559 sugestões intermediárias. As 20 referências reservadas continuam sem vetorização ou inferência.
+
+**Validação realizada:** 50 novos testes aprovados e sete produtos reconstruídos com bytes idênticos em 353,387 segundos, com rede, `.env`, pesos e dependências do codificador bloqueados. Preparação local em 316,514 segundos; primeiro experimento em 274,690 segundos. Zero chamadas de API de inferência. Os módulos 1 e 2 foram preservados. Evidências: [documentação](MODULO3_EXPERIMENTOS.md), [métricas](../artefatos/melhorias-v1/metricas_desenvolvimento.json) e [checkpoint](../artefatos/checkpoints/modulo3.json).
+
+**Retomada:** iniciar o módulo 4 com a [receita congelada](../artefatos/melhorias-v1/receita_congelada.json), preservando código, configurações e produtos assinados deste módulo. Calibrador, política e procedimento de reajuste devem ser definidos usando somente o desenvolvimento antes de abrir a reserva. Sugestão de mensagem de commit: `Compara classificadores locais e seleciona recuperação híbrida`.
 
 ## Módulo 4 Calibração e decisões
 

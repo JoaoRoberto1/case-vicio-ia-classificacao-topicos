@@ -8,3 +8,5 @@
 /config/** -text
 /classificacao_topicos/** -text
 /classificacao_local/** -text
+/classificacao_experimentos/** -text
+/requirements-preparacao*.txt -text

@@ -14,6 +14,7 @@ __pycache__/
 
 # Reprodução exploratória e arquivos transitórios
 /tmp/
+/.cache-modelos/
 .produto-*.tmp
 .DS_Store
 Thumbs.db

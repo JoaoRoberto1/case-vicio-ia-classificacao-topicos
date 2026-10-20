@@ -1,0 +1,49 @@
+{
+  "versao": 1,
+  "registrado_em": "2026-10-20",
+  "momento": "Grade fixada antes da primeira metrica do modulo 3; orientada apenas pelos resultados agregados do modulo 2.",
+  "top_k": 5,
+  "rrf_k": 20,
+  "peso_semantico": 0.5,
+  "criterio_selecao": ["acertos_ramo_decrescente", "acertos_exato_decrescente", "prioridade_crescente", "receita_id_crescente"],
+  "limiares_diagnosticos_score": [0.0, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 0.95],
+  "lexical_base": {
+    "peso_catalogo": 0.7, "peso_exemplos": 0.3, "peso_leis": 0.0,
+    "k_vizinhos": 3,
+    "peso_enunciado": 2, "peso_comando": 2, "peso_alternativas": 1,
+    "peso_titulo": 3, "peso_caminho": 1, "peso_descricao": 1
+  },
+  "receitas": {
+    "lexical_catalogo": {
+      "prioridade": 0, "modo": "lexical", "peso_exemplos": 0.0, "peso_leis": 0.0,
+      "vizinhos": "lexicais",
+      "lexical_pesos": {"peso_catalogo": 1.0, "peso_exemplos": 0.0, "peso_leis": 0.0}
+    },
+    "lexical_m2": {
+      "prioridade": 1, "modo": "lexical", "peso_exemplos": 0.3, "peso_leis": 0.0,
+      "vizinhos": "lexicais",
+      "lexical_pesos": {"peso_catalogo": 0.7, "peso_exemplos": 0.3, "peso_leis": 0.0}
+    },
+    "lexical_leis_m2": {
+      "prioridade": 2, "modo": "lexical", "peso_exemplos": 0.3, "peso_leis": 0.1,
+      "vizinhos": "lexicais",
+      "lexical_pesos": {"peso_catalogo": 0.6, "peso_exemplos": 0.3, "peso_leis": 0.1}
+    },
+    "semantico_catalogo": {
+      "prioridade": 3, "modo": "semantico", "peso_exemplos": 0.0, "peso_leis": 0.0,
+      "vizinhos": "lexicais"
+    },
+    "hibrido_catalogo": {
+      "prioridade": 4, "modo": "hibrido", "peso_exemplos": 0.0, "peso_leis": 0.0,
+      "vizinhos": "lexicais"
+    },
+    "hibrido_exemplos_lexicais": {
+      "prioridade": 5, "modo": "hibrido", "peso_exemplos": 0.3, "peso_leis": 0.0,
+      "vizinhos": "lexicais"
+    },
+    "hibrido_exemplos_semanticos": {
+      "prioridade": 6, "modo": "hibrido", "peso_exemplos": 0.3, "peso_leis": 0.0,
+      "vizinhos": "semanticos"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "regra": "Modulos 1 e 2 preservados; mesmas 80 referencias de desenvolvimento e 20 reservadas.",
+  "sha256": {
+    "artefatos/lexical-v1/manifesto.json": "11eb270ec070e2cd77af590fc5e3d06af66ee6f3a0c369bb4d2fb2b5872d8a0e",
+    "artefatos/lexical-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93"
+  },
+  "versao": 1
+}

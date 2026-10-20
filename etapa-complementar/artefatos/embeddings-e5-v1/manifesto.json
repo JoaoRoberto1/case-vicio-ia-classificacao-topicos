@@ -1,0 +1,104 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "dependencias": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "chamadas_api": 0,
+  "configuracao": {
+    "arquivos": {
+      "modelo.onnx": {
+        "bytes": 470268510,
+        "caminho_remoto": "onnx/model.onnx",
+        "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665"
+      },
+      "tokenizer.json": {
+        "bytes": 17082730,
+        "caminho_remoto": "onnx/tokenizer.json",
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      }
+    },
+    "custo_api": 0,
+    "dependencias_preparacao": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "entradas": "Enunciado, comando e textos das alternativas ordenados; titulo, caminho e descricao oficiais. Sem repeticao de campos, IDs, metadados de origem ou rotulos.",
+    "inferencias_api": 0,
+    "licenca": "MIT",
+    "modelo": "intfloat/multilingual-e5-small",
+    "origem": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "papel_questoes": "query",
+    "papel_temas": "passage",
+    "pooling": "Media de tokens com attention_mask, normalizacao L2 por janela, media de janelas e L2, arredondamento final.",
+    "preparacao": {
+      "batch_size": 8,
+      "casas_decimais": 8,
+      "dimensoes": 384,
+      "janela_tokens": 480,
+      "max_tokens": 512,
+      "sobreposicao_tokens": 32,
+      "threads": 4
+    },
+    "reserva": "As 20 referencias reservadas nao sao vetorizadas neste modulo.",
+    "revisao": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "versao": 1
+  },
+  "custo_api": 0,
+  "diagnostico": {
+    "batch_size": 8,
+    "casas_decimais": 8,
+    "dimensoes": 384,
+    "janelas_total": 1032,
+    "max_tokens_corpo": 992,
+    "max_tokens_janela": 485,
+    "provedor": "CPUExecutionProvider",
+    "questoes_total": 639,
+    "registros_multiplas_janelas": 21,
+    "registros_total": 1010,
+    "temas_total": 371,
+    "threads": 4,
+    "tokens_corpo_total": 151972,
+    "truncados": 0,
+    "versoes_dependencias": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    }
+  },
+  "fontes_fixadas": {
+    "regra": "Modulos 1 e 2 preservados; mesmas 80 referencias de desenvolvimento e 20 reservadas.",
+    "sha256": {
+      "artefatos/lexical-v1/manifesto.json": "11eb270ec070e2cd77af590fc5e3d06af66ee6f3a0c369bb4d2fb2b5872d8a0e",
+      "artefatos/lexical-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+      "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93"
+    },
+    "versao": 1
+  },
+  "fontes_preparacao_sha256": {
+    "artefatos/lexical-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+    "classificacao_experimentos/contexto.py": "c4303c61c840dfa945adf47e209ced1e3a2787e7359b9ce248dadf38bcea2842",
+    "classificacao_experimentos/entradas.py": "84126f632a0019dacb51a52fd88929e21fa538eca8088c307476c8f014958681",
+    "classificacao_experimentos/preparacao_embeddings.py": "3155f5b7740e7b8524c1bd7e8fc59f055fcc73e2a5981fc601d318f2c00a4ddf",
+    "classificacao_experimentos/preparar.py": "5f7217560b47a04decab01dfbd2f13b198be23914488939c80fae43bf670ce06",
+    "config/modulo3/embeddings.json": "ec7ec8c8770f2ea68f34ecf6fea76a9a431587a520c3933709b8ba7c229ca49f",
+    "config/modulo3/fontes.json": "f6216beedf8ee1ec4ac8046dedddef829ffa458a4e431887b7a85a1622206f90",
+    "requirements-preparacao.lock.txt": "32a3e9296106cc4b4823f5793e78373516a5a31a8babfc2e263d6e1929804733",
+    "requirements-preparacao.txt": "a8b0d8b2c1368af0d5b9a060cb8bedd756d459797f21ddabd2b69630194d08a6"
+  },
+  "modelo_escolheu_temas": false,
+  "procedimento": "preparacao-e5-small-fp32-v1",
+  "produtos_sha256": {
+    "vetores.json": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25"
+  },
+  "reserva_vetorizada": false,
+  "rotulos_fornecidos_ao_codificador": false,
+  "versao": 1
+}
