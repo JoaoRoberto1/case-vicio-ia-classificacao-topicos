@@ -1,0 +1,15 @@
+precisao_prevista: 0.00000000
+precisao_intervalo: 0.00000000-1.00000000
+cobertura_prevista: 0.00000000
+cobertura_intervalo: 0.00000000-0.00000000
+
+A previsão considera apenas as 559 questões fora da folha-verdade; as 100 referências humanas foram excluídas dos denominadores.
+Foram publicadas 0 de 559 questões. A cobertura é uma contagem exata.
+
+Não há questões publicadas. Portanto, a precisão entre publicadas é matematicamente indefinida (denominador zero). O valor 0.00000000 na primeira linha é apenas uma sentinela para manter o formato numérico exigido; não significa previsão de 0% de acerto. O JSON de evidências registra null.
+O intervalo 0.00000000-1.00000000 representa ausência de informação sobre precisão entre publicadas; não é um intervalo de confiança calculado. Cobertura zero não demonstra o atendimento da meta de precisão.
+
+As 80 referências de desenvolvimento orientaram a escolha do classificador, a calibração e a política. As 20 reservadas foram avaliadas após o congelamento; seus resultados não alteraram os componentes ou os limiares.
+O classificador final foi reajustado com os textos das 100 referências, mantendo a receita e o calibrador ajustado nas 80 predições fora da amostra. Esse reajuste altera o IDF lexical e não recebeu outro teste independente. Os rótulos dos vizinhos não contribuem para o escore da receita selecionada.
+As referências humanas são do banco anterior. As 300 questões recentes não têm rótulos disponíveis; mudanças de distribuição e efeitos do reajuste não são quantificados pelo intervalo. A meta de 95% não é declarada comprovada.
+Questões incertas são encaminhadas à revisão. A decisão fora não foi automatizada com o suporte disponível; baixa confiança não demonstra ausência de tema adequado.

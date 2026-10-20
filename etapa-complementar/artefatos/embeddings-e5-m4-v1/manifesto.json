@@ -1,0 +1,125 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "dependencias": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "cache_m3_sha256": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25",
+  "chamadas_api": 0,
+  "configuracao": {
+    "arquivos": {
+      "modelo.onnx": {
+        "bytes": 470268510,
+        "caminho_remoto": "onnx/model.onnx",
+        "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665"
+      },
+      "tokenizer.json": {
+        "bytes": 17082730,
+        "caminho_remoto": "onnx/tokenizer.json",
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      }
+    },
+    "custo_api": 0,
+    "dependencias_preparacao": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "entradas": "Enunciado, comando e textos das alternativas ordenados; titulo, caminho e descricao oficiais. Sem repeticao de campos, IDs, metadados de origem ou rotulos.",
+    "inferencias_api": 0,
+    "licenca": "MIT",
+    "modelo": "intfloat/multilingual-e5-small",
+    "origem": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "papel_questoes": "query",
+    "papel_temas": "passage",
+    "pooling": "Media de tokens com attention_mask, normalizacao L2 por janela, media de janelas e L2, arredondamento final.",
+    "preparacao": {
+      "batch_size": 8,
+      "casas_decimais": 8,
+      "dimensoes": 384,
+      "janela_tokens": 480,
+      "max_tokens": 512,
+      "sobreposicao_tokens": 32,
+      "threads": 4
+    },
+    "reserva": "As 20 referencias reservadas nao sao vetorizadas neste modulo.",
+    "revisao": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "versao": 1
+  },
+  "congelamento_arquivo": "artefatos/calibracao-v1/congelamento.json",
+  "congelamento_sha256": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+  "congelamento_validado_antes_da_reserva": true,
+  "custo_api": 0,
+  "diagnostico_somente_reserva": {
+    "batch_size": 8,
+    "casas_decimais": 8,
+    "dimensoes": 384,
+    "janelas_total": 21,
+    "max_tokens_corpo": 484,
+    "max_tokens_janela": 485,
+    "provedor": "CPUExecutionProvider",
+    "questoes_total": 20,
+    "registros_multiplas_janelas": 1,
+    "registros_total": 20,
+    "temas_total": 0,
+    "threads": 4,
+    "tokens_corpo_total": 3885,
+    "truncados": 0,
+    "versoes_dependencias": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    }
+  },
+  "fontes_preparacao_sha256": {
+    "artefatos/calibracao-v1/calibrador.json": "42441c4be3f60fd4dfce5f880783f05d755c278a999742a250a0ea1694449d5a",
+    "artefatos/calibracao-v1/congelamento.json": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+    "artefatos/calibracao-v1/metricas_desenvolvimento.json": "0bc3cbf9762549541cdf5e3cd3c1ced89048e6c8f37836cdd2d89a60e2619ad0",
+    "artefatos/calibracao-v1/politica.json": "8ce03c30c1ff086d3b77addd898220058f143b3f1f5dc20a692f09775ed87329",
+    "artefatos/calibracao-v1/predicoes_calibradas.jsonl": "fc6012d3dd89e8204f62c384c093f8b9a1855738f9072788cfc0bd07abe405dc",
+    "artefatos/embeddings-e5-v1/manifesto.json": "b625893488a262b2bdb298103eee8b793a3995b8b2f68e81f651a2af5030a368",
+    "artefatos/embeddings-e5-v1/vetores.json": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25",
+    "artefatos/lexical-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "artefatos/melhorias-v1/manifesto.json": "aff41fcc4b2fdf1c5f2d2e696f87f8c7f30cb6510e99883364b31f5f0867f310",
+    "artefatos/melhorias-v1/modelo_selecionado.json": "717d47f6b8e20c8113c390ef8da3c0b1ed9ace238e220abba9b0011882ab3f7a",
+    "artefatos/melhorias-v1/predicoes_desenvolvimento.jsonl": "be070df904fbdb3182eb1991bc5a9f56f1e77b693cd624e85acff1f9a0aece93",
+    "artefatos/melhorias-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "artefatos/melhorias-v1/receita_congelada.json": "dc5c3d09c6155a05aa6ab6449363b5c79af79aeddd29245f5e8e1cd469e09ef2",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+    "classificacao_decisao/__init__.py": "e1bb0e4600a5c7426b38b9ec8572ec36c0dfa71a8bea1fe5517fbd55c11386b7",
+    "classificacao_decisao/__main__.py": "d93b788899ab23786554b24efac6868cafe9cae0c9a9a7b1d72813bfe705cc2f",
+    "classificacao_decisao/cache.py": "4fd350d0ac902e38db7c60ec69a1e3f11b9068052214d8d2f1638721f9ef58ea",
+    "classificacao_decisao/calibracao.py": "45136008c64bc74fef189094c9b1b27b256d93955f6dbfb67121de2d8b94c965",
+    "classificacao_decisao/desenvolvimento.py": "c87cc6d7e06cb089b65df6ae8f9b2987b2c472d8cfc200e7970b1518ce15a4f4",
+    "classificacao_decisao/entrega.py": "af5a623cf9be6c1f2d4279e3bbb077fb4a16f1e1c11a997a8b138328e324258d",
+    "classificacao_decisao/execucao.py": "535eca26984f8f4b9cd1cce673b14f032f0e304fffc9b61958f89777bb6de8e3",
+    "classificacao_decisao/politica.py": "370912f406861af20d4d3ea54104161a0e25860969c5edebad5941bf4aad60e5",
+    "classificacao_experimentos/contexto.py": "c4303c61c840dfa945adf47e209ced1e3a2787e7359b9ce248dadf38bcea2842",
+    "classificacao_experimentos/entradas.py": "84126f632a0019dacb51a52fd88929e21fa538eca8088c307476c8f014958681",
+    "classificacao_experimentos/preparacao_embeddings.py": "3155f5b7740e7b8524c1bd7e8fc59f055fcc73e2a5981fc601d318f2c00a4ddf",
+    "classificacao_experimentos/preparar.py": "5f7217560b47a04decab01dfbd2f13b198be23914488939c80fae43bf670ce06",
+    "config/modulo3/embeddings.json": "ec7ec8c8770f2ea68f34ecf6fea76a9a431587a520c3933709b8ba7c229ca49f",
+    "config/modulo3/fontes.json": "f6216beedf8ee1ec4ac8046dedddef829ffa458a4e431887b7a85a1622206f90",
+    "config/modulo4/fontes.json": "b3249916b96538177c8070250dfe7413d77396a87212dbe6646be794a47f4a39",
+    "config/modulo4/protocolo.json": "23c707aa191cc3358b8d542c4b90032aa18738df0f824952de067cc4ff9bd749",
+    "requirements-preparacao.lock.txt": "32a3e9296106cc4b4823f5793e78373516a5a31a8babfc2e263d6e1929804733",
+    "requirements-preparacao.txt": "a8b0d8b2c1368af0d5b9a060cb8bedd756d459797f21ddabd2b69630194d08a6"
+  },
+  "modelo_escolheu_temas": false,
+  "procedimento": "extensao-e5-small-apos-congelamento-v1",
+  "produtos_sha256": {
+    "vetores.json": "7811c55345d7789daa1da00842d1a2680eaa52f2bd399781e488d288049a8c81"
+  },
+  "questoes_reserva_preparadas": 20,
+  "questoes_reutilizadas": 639,
+  "reserva_vetorizada": true,
+  "rotulos_fornecidos_ao_codificador": false,
+  "schema": "embeddings_reserva_m4_v1",
+  "temas_reutilizados": 371,
+  "versao": 1
+}

@@ -1,6 +1,6 @@
 # Case Vício — Classificação de tópicos
 
-**Trabalho atual: etapa complementar, com 659 questões e 100 referências humanas.** A preparação, o classificador local e os experimentos estão em [etapa-complementar](etapa-complementar/README.md), dentro deste repositório. O [módulo 3](etapa-complementar/docs/MODULO3_EXPERIMENTOS.md) compara sete receitas e seleciona a combinação de busca lexical e embeddings previamente calculados: 37/80 acertos de desenvolvimento pelo critério do case. Calibração e entrega são as próximas etapas.
+**Trabalho atual: etapa complementar, com 659 questões e 100 referências humanas.** Código e resultados estão em [etapa-complementar](etapa-complementar/README.md). O [módulo 4](etapa-complementar/docs/MODULO4_CALIBRACAO_DECISOES.md) calibra a confiança e testa a receita congelada: 6/20 acertos no teste reservado. Nenhum limiar sustentou publicação automática; a política encaminha as questões para revisão. A meta de precisão e cobertura do case ainda não foi alcançada. O módulo 5 fechará o relatório, a reprodução em ambiente limpo e a defesa.
 
 O [plano dos cinco módulos](etapa-complementar/docs/PLANO_EXECUCAO.md) e o [protocolo de avaliação](etapa-complementar/docs/PROTOCOLO_AVALIACAO.md) orientam a continuação. A [folha-verdade](etapa-complementar/anexos/folha_verdade.csv), as [659 questões](etapa-complementar/anexos/questoes.jsonl), o [novo enunciado](<etapa-complementar/case-ia-classificacao-de-topicos (2).pdf>) e os demais anexos foram importados junto com o módulo 1 já validado.
 
@@ -11,6 +11,7 @@ cd etapa-complementar
 python -B -m classificacao_topicos verificar
 python -B -m classificacao_local verificar --saida artefatos/lexical-v1
 python -B -m classificacao_experimentos verificar --saida artefatos/melhorias-v1
+python -B -m classificacao_decisao verificar
 python -B -m unittest discover -s tests -v
 ```
 

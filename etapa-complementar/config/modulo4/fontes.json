@@ -1,0 +1,13 @@
+{
+  "sha256": {
+    "artefatos/embeddings-e5-v1/manifesto.json": "b625893488a262b2bdb298103eee8b793a3995b8b2f68e81f651a2af5030a368",
+    "artefatos/embeddings-e5-v1/vetores.json": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25",
+    "artefatos/melhorias-v1/manifesto.json": "aff41fcc4b2fdf1c5f2d2e696f87f8c7f30cb6510e99883364b31f5f0867f310",
+    "artefatos/melhorias-v1/modelo_selecionado.json": "717d47f6b8e20c8113c390ef8da3c0b1ed9ace238e220abba9b0011882ab3f7a",
+    "artefatos/melhorias-v1/predicoes_desenvolvimento.jsonl": "be070df904fbdb3182eb1991bc5a9f56f1e77b693cd624e85acff1f9a0aece93",
+    "artefatos/melhorias-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "artefatos/melhorias-v1/receita_congelada.json": "dc5c3d09c6155a05aa6ab6449363b5c79af79aeddd29245f5e8e1cd469e09ef2",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93"
+  },
+  "versao": 1
+}

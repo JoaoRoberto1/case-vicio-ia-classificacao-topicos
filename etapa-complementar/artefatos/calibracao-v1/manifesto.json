@@ -1,0 +1,32 @@
+{
+  "entradas_e_implementacao_sha256": {
+    "artefatos/embeddings-e5-v1/manifesto.json": "b625893488a262b2bdb298103eee8b793a3995b8b2f68e81f651a2af5030a368",
+    "artefatos/embeddings-e5-v1/vetores.json": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25",
+    "artefatos/melhorias-v1/manifesto.json": "aff41fcc4b2fdf1c5f2d2e696f87f8c7f30cb6510e99883364b31f5f0867f310",
+    "artefatos/melhorias-v1/modelo_selecionado.json": "717d47f6b8e20c8113c390ef8da3c0b1ed9ace238e220abba9b0011882ab3f7a",
+    "artefatos/melhorias-v1/predicoes_desenvolvimento.jsonl": "be070df904fbdb3182eb1991bc5a9f56f1e77b693cd624e85acff1f9a0aece93",
+    "artefatos/melhorias-v1/protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "artefatos/melhorias-v1/receita_congelada.json": "dc5c3d09c6155a05aa6ab6449363b5c79af79aeddd29245f5e8e1cd469e09ef2",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+    "classificacao_decisao/__init__.py": "e1bb0e4600a5c7426b38b9ec8572ec36c0dfa71a8bea1fe5517fbd55c11386b7",
+    "classificacao_decisao/__main__.py": "d93b788899ab23786554b24efac6868cafe9cae0c9a9a7b1d72813bfe705cc2f",
+    "classificacao_decisao/cache.py": "4fd350d0ac902e38db7c60ec69a1e3f11b9068052214d8d2f1638721f9ef58ea",
+    "classificacao_decisao/calibracao.py": "45136008c64bc74fef189094c9b1b27b256d93955f6dbfb67121de2d8b94c965",
+    "classificacao_decisao/desenvolvimento.py": "c87cc6d7e06cb089b65df6ae8f9b2987b2c472d8cfc200e7970b1518ce15a4f4",
+    "classificacao_decisao/entrega.py": "af5a623cf9be6c1f2d4279e3bbb077fb4a16f1e1c11a997a8b138328e324258d",
+    "classificacao_decisao/execucao.py": "535eca26984f8f4b9cd1cce673b14f032f0e304fffc9b61958f89777bb6de8e3",
+    "classificacao_decisao/politica.py": "370912f406861af20d4d3ea54104161a0e25860969c5edebad5941bf4aad60e5",
+    "config/modulo4/fontes.json": "b3249916b96538177c8070250dfe7413d77396a87212dbe6646be794a47f4a39",
+    "config/modulo4/protocolo.json": "23c707aa191cc3358b8d542c4b90032aa18738df0f824952de067cc4ff9bd749"
+  },
+  "modelo_linguagem_na_decisao": false,
+  "produtos_sha256": {
+    "calibrador.json": "42441c4be3f60fd4dfce5f880783f05d755c278a999742a250a0ea1694449d5a",
+    "congelamento.json": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+    "metricas_desenvolvimento.json": "0bc3cbf9762549541cdf5e3cd3c1ced89048e6c8f37836cdd2d89a60e2619ad0",
+    "politica.json": "8ce03c30c1ff086d3b77addd898220058f143b3f1f5dc20a692f09775ed87329",
+    "predicoes_calibradas.jsonl": "fc6012d3dd89e8204f62c384c093f8b9a1855738f9072788cfc0bd07abe405dc"
+  },
+  "reserva_consultada": false,
+  "schema": "manifesto_calibracao_m4_v1"
+}

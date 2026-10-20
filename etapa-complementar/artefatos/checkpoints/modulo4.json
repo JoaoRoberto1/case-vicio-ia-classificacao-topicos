@@ -1,0 +1,375 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "implementacao": "CPython",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "artefatos_sha256": {
+    "artefatos/calibracao-v1/calibrador.json": "42441c4be3f60fd4dfce5f880783f05d755c278a999742a250a0ea1694449d5a",
+    "artefatos/calibracao-v1/congelamento.json": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+    "artefatos/calibracao-v1/manifesto.json": "fc2c2580b8925770893dc22d2c05f3e4090e2d381e0be18b7a1a6c956b7878ae",
+    "artefatos/calibracao-v1/metricas_desenvolvimento.json": "0bc3cbf9762549541cdf5e3cd3c1ced89048e6c8f37836cdd2d89a60e2619ad0",
+    "artefatos/calibracao-v1/politica.json": "8ce03c30c1ff086d3b77addd898220058f143b3f1f5dc20a692f09775ed87329",
+    "artefatos/calibracao-v1/predicoes_calibradas.jsonl": "fc6012d3dd89e8204f62c384c093f8b9a1855738f9072788cfc0bd07abe405dc",
+    "artefatos/decisoes-v1/decisoes.jsonl": "aca05055550648bcc985575fb19ca3ca4f7f8a310380716a4a11a0320e55418f",
+    "artefatos/decisoes-v1/manifesto.json": "c09c93e38b0b178e3da084c991724531fe23dee557c9207468e2a283cf69ada9",
+    "artefatos/decisoes-v1/modelo_final.json": "025515147d6058b1be99dc449ca320275ce37f94448e9ed05284cd771c53ae07",
+    "artefatos/decisoes-v1/previsao.json": "3ba2c30d4d19041861441ee9d610dcd346b10d1fc1e943bd98395a52f6978168",
+    "artefatos/decisoes-v1/previsao.txt": "28d37a501811358b6ec2806e797336b0086c9395a4db59193583508302803f23",
+    "artefatos/decisoes-v1/publicacao.csv": "28b00d22029fb6d163293f3ae76990521fdc5a3d3c176bdbaa7683cbe50d0b7e",
+    "artefatos/embeddings-e5-m4-v1/manifesto.json": "fcf655401303ae76e599a96029b1c712ad4648bdd6e1245bc0d5469f4d6f13dd",
+    "artefatos/embeddings-e5-m4-v1/vetores.json": "7811c55345d7789daa1da00842d1a2680eaa52f2bd399781e488d288049a8c81",
+    "artefatos/reserva-v1/manifesto.json": "601ee7f13d3860ba05c85a68bf8ebf01eb5dc22e2e510fa5497ced1bc531167b",
+    "artefatos/reserva-v1/metricas_reserva.json": "759cafe44c59788714d33cd69daf96920d5f95d75278ac470d3c1e1e61e7afb8",
+    "artefatos/reserva-v1/predicoes_reserva.jsonl": "0ddb572126dcd032a551a6f4062fd1ab979fa6d689ba892e80e84e3dc73a4bb5",
+    "previsao.txt": "28d37a501811358b6ec2806e797336b0086c9395a4db59193583508302803f23",
+    "publicacao.csv": "28b00d22029fb6d163293f3ae76990521fdc5a3d3c176bdbaa7683cbe50d0b7e"
+  },
+  "auditoria_estrutural": {
+    "avaliacao_final_somente_559_sem_rotulo": true,
+    "cache_m3_itens_anteriores_preservados": true,
+    "calibrador_final_continua_treino_80": true,
+    "csv_seis_colunas_ids_unicos_e_roundtrip_json": true,
+    "desenvolvimento_preserva_tema_oof_e_confianca_crossfit": true,
+    "exportacoes_raiz_identicas": true,
+    "hashes_e_congelamento_validos": true,
+    "metodo": "Conferência programática de IDs, partições, confiança, domínio, decisões, esquema, procedência e hashes; sem julgamento de temas individuais.",
+    "modelo_final_mesma_configuracao_m3_treino_100": true,
+    "modulos_anteriores_sem_alteracao_git": true,
+    "rede_env_encoder_pesos_bloqueados": true,
+    "reserva_preserva_predicoes_congeladas": true,
+    "reserva_vinculo_modelo_altera_somente_hash_cache": true,
+    "resultado": "aprovado",
+    "script_local_ignorado": "tmp/auditoria_m4.py",
+    "sem_reserva_na_calibracao": true
+  },
+  "avaliacoes_estatisticas_independentes_da_reserva": 1,
+  "calibrador_selecionado": "constante",
+  "chamadas_api": 0,
+  "classificador_calibrador_politica_congelados_antes_da_reserva": true,
+  "cli": {
+    "avaliacao_reserva": {
+      "comando": "python -B -m classificacao_decisao avaliar-reserva",
+      "exit_code": 0,
+      "rede_env_pesos_imports_encoder_bloqueados_pela_cli": true,
+      "segundos": 11.474
+    },
+    "calibracao": {
+      "comando": "python -B -m classificacao_decisao calibrar",
+      "exit_code": 0,
+      "rede_env_pesos_imports_encoder_bloqueados_pela_cli": true,
+      "segundos": 1.946
+    },
+    "preparacao_reserva": {
+      "comando": ".venv/Scripts/python.exe -B -m classificacao_decisao preparar-reserva",
+      "encoder_local_permitido": true,
+      "exit_code": 0,
+      "rede_e_env_bloqueados_pela_cli": true,
+      "segundos": 21.248
+    },
+    "regeneracao": {
+      "comando": "python -B -m classificacao_decisao regenerar",
+      "exit_code": 0,
+      "rede_env_pesos_imports_encoder_bloqueados_pela_cli": true,
+      "segundos": 306.27
+    },
+    "verificacao_calibracao": {
+      "comando": "python -B -m classificacao_decisao verificar-calibracao",
+      "exit_code": 0,
+      "produtos_reconstruidos_identicos": 6,
+      "rede_env_pesos_imports_encoder_bloqueados_pela_cli": true,
+      "segundos": 1.377
+    },
+    "verificacao_integral": {
+      "comando": "python -B -m classificacao_decisao verificar",
+      "entregas_raiz_identicas": 2,
+      "exit_code": 0,
+      "produtos_reconstruidos_identicos": 15,
+      "rede_env_pesos_imports_encoder_bloqueados_pela_cli": true,
+      "segundos": 268.722
+    }
+  },
+  "commit_ou_push_executado": false,
+  "componentes_alterados_apos_observar_reserva": false,
+  "congelamento_sha256": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+  "contagens": {
+    "calibradores_comparados": 3,
+    "linhas_csv": 659,
+    "novos_vetores_questoes": 20,
+    "predicoes_calibradas_crossfit": 240,
+    "questoes_avaliacao_oficial": 559,
+    "questoes_cache": 659,
+    "referencias_ajuste_final": 100,
+    "referencias_desenvolvimento": 80,
+    "referencias_excluidas_da_previsao": 100,
+    "referencias_reservadas": 20,
+    "temas_cache": 371
+  },
+  "custo_api": 0,
+  "data": "2026-10-20",
+  "estado": "concluido",
+  "limites": [
+    "Resultado negativo para publicação automática: todas as 659 sugestões vão para revisão; cobertura oficial 0/559.",
+    "Precisão entre publicadas indefinida: JSON null, TXT usa zero somente como sentinela numérica explicada.",
+    "Intervalo 0-1 da previsão é domínio sem informação, não intervalo de confiança estimado.",
+    "Calibrador constante estima taxa global; não discrimina risco individual. ECE baixo no desenvolvimento não prova confiabilidade em dados novos.",
+    "Reserva pequena: 6/20 acertos por ramo. Novos ajustes orientados por esse resultado são exploratórios e precisam de novas referências para avaliação independente.",
+    "Reajuste final com textos de 100 referências não recebeu teste independente; calibrador preservado das 80.",
+    "Não há rótulos humanos para as 300 questões recentes; mudança de distribuição não quantificada.",
+    "Fora não automatizado com suporte de seis casos no desenvolvimento; extras previstos vazios.",
+    "Reprodução byte a byte conferida no ambiente registrado usando os caches. Tempos locais não são benchmark isolado de produção."
+  ],
+  "meta_operacional_95_com_cobertura_atingida": false,
+  "modelo_linguagem_na_classificacao": false,
+  "modelo_linguagem_na_preparacao": "intfloat/multilingual-e5-small",
+  "modulo": 4,
+  "preparacao_adicional": {
+    "cache_completo_bytes": 8245364,
+    "diagnostico": {
+      "batch_size": 8,
+      "casas_decimais": 8,
+      "dimensoes": 384,
+      "janelas_total": 21,
+      "max_tokens_corpo": 484,
+      "max_tokens_janela": 485,
+      "provedor": "CPUExecutionProvider",
+      "questoes_total": 20,
+      "registros_multiplas_janelas": 1,
+      "registros_total": 20,
+      "temas_total": 0,
+      "threads": 4,
+      "tokens_corpo_total": 3885,
+      "truncados": 0,
+      "versoes_dependencias": {
+        "numpy": "2.5.4",
+        "onnxruntime": "1.31.0",
+        "tokenizers": "0.23.3"
+      }
+    },
+    "modelo_revisao": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "pesos_e_ambiente_ignorados_git": true,
+    "questoes_reutilizadas": 639,
+    "temas_reutilizados": 371
+  },
+  "previsao_avaliacao_oficial": {
+    "ajuste_final_testado_independentemente": false,
+    "avaliacao_total": 559,
+    "cobertura_intervalo": {
+      "inferior": 0.0,
+      "superior": 0.0
+    },
+    "cobertura_metodo": "Contagem conhecida; não é estimativa amostral.",
+    "cobertura_prevista": 0.0,
+    "decisoes_avaliacao": {
+      "fora": 0,
+      "publicar": 0,
+      "revisar": 559
+    },
+    "decisoes_por_coorte_somente_diagnostico": {
+      "antigas_sem_referencia": {
+        "decisoes": {
+          "fora": 0,
+          "publicar": 0,
+          "revisar": 259
+        },
+        "total": 259
+      },
+      "recentes_sem_referencia": {
+        "decisoes": {
+          "fora": 0,
+          "publicar": 0,
+          "revisar": 300
+        },
+        "total": 300
+      }
+    },
+    "meta_95_comprovada": false,
+    "precisao_intervalo": {
+      "inferior": 0.0,
+      "superior": 1.0
+    },
+    "precisao_intervalo_natureza": "Domínio sem informação; não é um intervalo de confiança estimado.",
+    "precisao_intervalo_nivel": null,
+    "precisao_metodo": "Média das probabilidades calibradas nas publicadas; indefinida se não há publicadas.",
+    "precisao_prevista": null,
+    "precisao_txt_sentinela_zero": true,
+    "procedencias_csv": {
+      "avaliacao559_modelo100_calibrador80": 559,
+      "desenvolvimento80_oof_modelo_e_crossfit_calibrador": 80,
+      "reserva20_modelo80_calibrador80": 20
+    },
+    "publicadas": 0,
+    "referencia_reserva": {
+      "acertos": 0,
+      "cobertura": 0.0,
+      "erros": 0,
+      "intervalo_wilson_95": null,
+      "n": 0,
+      "precisao": null
+    },
+    "referencias_excluidas": 100,
+    "schema": "previsao_m4_v1"
+  },
+  "proxima_etapa": "Módulo 5: relatório de até quatro páginas, reprodução em ambiente limpo, revisão pública e roteiro de defesa, com resultado negativo explícito.",
+  "reproducao_da_reserva_nao_e_novo_teste_independente": true,
+  "reserva_avaliada": true,
+  "resultado_reserva": {
+    "calibracao": {
+      "acertos": 6,
+      "brier": 0.23655692729766803,
+      "ece": 0.16296296296296298,
+      "epsilon_logloss": 1e-15,
+      "faixas": [
+        {
+          "inclui_superior": false,
+          "inferior": 0.0,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.2,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.2,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.4,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.4,
+          "intervalo_wilson_95": {
+            "inferior": 0.1454772448676043,
+            "superior": 0.5189728183535234
+          },
+          "n": 20,
+          "probabilidade_media": 0.46296296296296297,
+          "superior": 0.6,
+          "taxa_acerto": 0.3
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.6,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.8,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": true,
+          "inferior": 0.8,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 1.0,
+          "taxa_acerto": null
+        }
+      ],
+      "intervalo_wilson_95": {
+        "inferior": 0.1454772448676043,
+        "superior": 0.5189728183535234
+      },
+      "logloss": 0.6662142181132824,
+      "n": 20,
+      "taxa_acerto": 0.3
+    },
+    "classificacao": {
+      "acertos": {
+        "exato": 3,
+        "imediato": 6,
+        "ramo": 6
+      },
+      "acertos_top5_ramo": 12
+    },
+    "decisoes": {
+      "fora": 0,
+      "publicar": 0,
+      "revisar": 20
+    },
+    "fora": {
+      "acertos": 0,
+      "chamadas": 0,
+      "precisao": null,
+      "recall": 0.0,
+      "referencias": 2
+    },
+    "motivos_revisao": {
+      "Publicação automática sem suporte na validação; revisar sugestão.": 16,
+      "Tema com descendentes ativos; revisar a especificidade.": 4
+    },
+    "publicacao": {
+      "acertos": 0,
+      "cobertura": 0.0,
+      "erros": 0,
+      "intervalo_wilson_95": null,
+      "n": 0,
+      "precisao": null
+    },
+    "total": 20
+  },
+  "resultados_desenvolvimento": {
+    "constante": {
+      "acertos": 37,
+      "brier": 0.24948769895928988,
+      "ece": 0.0003409090909091139,
+      "fora_dominio": 0,
+      "logloss": 0.6921277441060332,
+      "n": 80,
+      "probabilidade_maxima": 0.4818181818181818,
+      "probabilidade_minima": 0.4537037037037038
+    },
+    "logistica_score": {
+      "acertos": 37,
+      "brier": 0.2579783707319241,
+      "ece": 0.0647973272469152,
+      "fora_dominio": 3,
+      "logloss": 0.7222239575672108,
+      "n": 80,
+      "probabilidade_maxima": 0.7316666664992668,
+      "probabilidade_minima": 0.09466662267133875
+    },
+    "logistica_score_margem": {
+      "acertos": 37,
+      "brier": 0.2566838106146104,
+      "ece": 0.05319366209089917,
+      "fora_dominio": 6,
+      "logloss": 0.7223448160850124,
+      "n": 80,
+      "probabilidade_maxima": 0.8021618191520404,
+      "probabilidade_minima": 0.0817806850976081
+    }
+  },
+  "testes": {
+    "erros": 0,
+    "execucoes": [
+      {
+        "comando": "python -B -m unittest discover -s tests -p '*m4.py' -v",
+        "observacao": "Antes da inclusão dos dois testes de bloqueios da CLI.",
+        "segundos": 21.657,
+        "testes": 79
+      },
+      {
+        "comando": "python -B -m unittest tests.test_execucao_m4.TestBloqueiosCliM4 -v",
+        "segundos": 4.922,
+        "testes": 2
+      }
+    ],
+    "falhas": 0,
+    "modulos_anteriores_testes_registrados": 137,
+    "por_arquivo": {
+      "test_cache_m4.py": 13,
+      "test_calibracao_m4.py": 20,
+      "test_desenvolvimento_m4.py": 15,
+      "test_entrega_m4.py": 21,
+      "test_execucao_m4.py": 12
+    },
+    "pulados": 0,
+    "suite_anterior_nao_reexecutada_integralmente_neste_modulo": true,
+    "total_novos_sem_repeticao": 81
+  }
+}

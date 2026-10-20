@@ -2,7 +2,7 @@
 
 O projeto terá cinco módulos, cada um com resultados verificáveis e uma parada para revisão e commit. A meta é entregar um classificador local reproduzível e uma estimativa de qualidade sustentada pelas 100 referências humanas, respeitando a proibição de LLMs escolherem ou validarem temas.
 
-**Estado atual: módulos 1, 2 e 3 concluídos em 20/10/2026.** Os módulos 4 e 5 ainda não foram executados. Antes da primeira medição, o protocolo foi revisado para preservar 20 referências para o teste final e usar somente as outras 80 no desenvolvimento. O prazo informado pela recrutadora é 22/10/2026 às 14h, no horário de São Paulo. A extensão mencionada na mensagem não foi solicitada nem concedida.
+**Estado atual: módulos 1 a 4 concluídos em 20/10/2026; módulo 5 pendente.** O teste reservado já foi executado após o congelamento dos componentes e acertou 6/20 sugestões. Nenhuma publicação automática foi sustentada pela calibração; a meta de 95% com cobertura não foi atingida. Antes da primeira medição, o protocolo foi revisado para preservar 20 referências para o teste final e usar somente as outras 80 no desenvolvimento. O prazo informado pela recrutadora é 22/10/2026 às 14h, no horário de São Paulo. A extensão mencionada na mensagem não foi solicitada nem concedida.
 
 ## Módulo 1 Dados e protocolo de avaliação
 
@@ -67,17 +67,23 @@ O [pré-registro do módulo 3](MODULO3_EXPERIMENTOS.md) fixa sete receitas dentr
 
 Transformar a saída do classificador em uma política de publicação, revisão e identificação de questões fora da taxonomia.
 
-- [ ] Calibrar a chance de acerto e selecionar o limiar usando somente as 80 referências de desenvolvimento, com predições fora da amostra e as limitações da seleção explicitadas.
-- [ ] Congelar classificador, calibrador e política; avaliar uma única vez nas 20 referências reservadas, sem alterar os componentes após observar os resultados.
-- [ ] Medir precisão, cobertura, quantidade publicada e incerteza sobre a precisão.
-- [ ] Impedir que disciplinas ou temas genéricos sejam usados para ampliar artificialmente a publicação.
-- [ ] Tratar `fora` como ausência de tema adequado, com evidência própria; baixa confiança deve levar a revisão.
-- [ ] Após o teste final, reajustar a receita congelada com as 100 referências para as 559 questões sem rótulo; documentar que esse reajuste não recebe outro teste independente. Definir o tratamento rastreável das 100 referências no CSV de 659 linhas, sem medir ressubstituição como desempenho.
-- [ ] Calcular a previsão e a cobertura somente sobre as 559 questões avaliadas oficialmente.
+- [x] Calibrar a chance de acerto e selecionar o limiar usando somente as 80 referências de desenvolvimento, com predições fora da amostra e as limitações da seleção explicitadas.
+- [x] Congelar classificador, calibrador e política; avaliar uma única vez nas 20 referências reservadas, sem alterar os componentes após observar os resultados.
+- [x] Medir precisão, cobertura, quantidade publicada e incerteza sobre a precisão.
+- [x] Impedir que disciplinas ou temas genéricos sejam usados para ampliar artificialmente a publicação.
+- [x] Tratar `fora` como ausência de tema adequado, com evidência própria; baixa confiança deve levar a revisão.
+- [x] Após o teste final, reajustar a receita congelada com as 100 referências para as 559 questões sem rótulo; documentar que esse reajuste não recebe outro teste independente. Definir o tratamento rastreável das 100 referências no CSV de 659 linhas, sem medir ressubstituição como desempenho.
+- [x] Calcular a previsão e a cobertura somente sobre as 559 questões avaliadas oficialmente.
 
 **Critério de conclusão:** `publicacao.csv` tecnicamente válido e previsão com método, suporte e limitações explícitos. A meta de 95% não será declarada atingida sem evidência suficiente.
 
 **Parada:** revisar a política, a previsão e os casos limítrofes por critérios técnicos, sem pedir a LLMs julgamentos jurídicos; preparar commit.
+
+**Resultado:** o calibrador constante teve o menor Brier no desenvolvimento, mas estima somente uma taxa global. Nenhum dos três calibradores chegou à probabilidade mínima de 0,95. A política congelada não autoriza publicação automática e não identifica `fora` automaticamente. Na reserva, foram 6/20 acertos por ramo, 3/20 exatos e 12/20 com tema aceitável entre cinco sugestões. A precisão entre publicadas é indefinida, pois a quantidade publicada é zero. Esse resultado não atende à meta operacional do case.
+
+**Validação realizada:** 81 novos testes aprovados. A geração real produziu 659 linhas válidas em 306,270 segundos; a verificação reconstruiu 15 produtos e conferiu duas entregas na raiz com bytes idênticos em 268,722 segundos, sem rede, `.env`, pesos ou dependências do codificador. A auditoria estrutural confirmou as procedências 80/20/559 e a preservação dos vetores anteriores. As 559 questões avaliadas oficialmente foram encaminhadas à revisão. Evidências: [documentação](MODULO4_CALIBRACAO_DECISOES.md), [previsão estruturada](../artefatos/decisoes-v1/previsao.json) e [checkpoint](../artefatos/checkpoints/modulo4.json).
+
+**Retomada:** concluir o módulo 5 com relatório, reprodução em ambiente limpo e defesa que expliquem também o resultado negativo. A reserva já foi utilizada; qualquer melhoria orientada por seus resultados será exploratória e exigirá novas referências para avaliação independente. Sugestão de mensagem de commit: `Calibra confiança e registra avaliação reservada e decisões`.
 
 ## Módulo 5 Entrega e defesa
 

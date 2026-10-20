@@ -1,0 +1,649 @@
+{
+  "classificador_reajustado_100_avaliado": false,
+  "curva_diagnostica_sem_selecao": [
+    {
+      "acertos": 0,
+      "cobertura": 0.0,
+      "erros": 0,
+      "intervalo_wilson_95": null,
+      "limiar": 0.95,
+      "n": 0,
+      "precisao": null
+    },
+    {
+      "acertos": 0,
+      "cobertura": 0.0,
+      "erros": 0,
+      "intervalo_wilson_95": null,
+      "limiar": 0.975,
+      "n": 0,
+      "precisao": null
+    },
+    {
+      "acertos": 0,
+      "cobertura": 0.0,
+      "erros": 0,
+      "intervalo_wilson_95": null,
+      "limiar": 0.99,
+      "n": 0,
+      "precisao": null
+    }
+  ],
+  "geral": {
+    "calibracao": {
+      "acertos": 6,
+      "brier": 0.23655692729766803,
+      "ece": 0.16296296296296298,
+      "epsilon_logloss": 1e-15,
+      "faixas": [
+        {
+          "inclui_superior": false,
+          "inferior": 0.0,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.2,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.2,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.4,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.4,
+          "intervalo_wilson_95": {
+            "inferior": 0.1454772448676043,
+            "superior": 0.5189728183535234
+          },
+          "n": 20,
+          "probabilidade_media": 0.46296296296296297,
+          "superior": 0.6,
+          "taxa_acerto": 0.3
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.6,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.8,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": true,
+          "inferior": 0.8,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 1.0,
+          "taxa_acerto": null
+        }
+      ],
+      "intervalo_wilson_95": {
+        "inferior": 0.1454772448676043,
+        "superior": 0.5189728183535234
+      },
+      "logloss": 0.6662142181132824,
+      "n": 20,
+      "taxa_acerto": 0.3
+    },
+    "classificacao": {
+      "acertos": {
+        "exato": 3,
+        "imediato": 6,
+        "ramo": 6
+      },
+      "acertos_top5_ramo": 12
+    },
+    "decisoes": {
+      "fora": 0,
+      "publicar": 0,
+      "revisar": 20
+    },
+    "fora": {
+      "acertos": 0,
+      "chamadas": 0,
+      "precisao": null,
+      "recall": 0.0,
+      "referencias": 2
+    },
+    "motivos_revisao": {
+      "Publicação automática sem suporte na validação; revisar sugestão.": 16,
+      "Tema com descendentes ativos; revisar a especificidade.": 4
+    },
+    "publicacao": {
+      "acertos": 0,
+      "cobertura": 0.0,
+      "erros": 0,
+      "intervalo_wilson_95": null,
+      "n": 0,
+      "precisao": null
+    },
+    "total": 20
+  },
+  "natureza": "Teste reservado da receita completa congelada; nenhuma seleção usa este resultado.",
+  "politica_congelada": {
+    "calibrador": "constante",
+    "elegibilidade": {
+      "expressoes_titulo_generico": [
+        "aspectos gerais",
+        "consideracoes gerais",
+        "disposicoes gerais",
+        "introducao",
+        "nocoes gerais",
+        "principios gerais"
+      ],
+      "nivel_minimo": 1,
+      "sem_descendente_ativo": true,
+      "status": "active"
+    },
+    "exigir_dominio_calibrador": true,
+    "extras_previstos": [],
+    "fora_automatico": false,
+    "limiar": null,
+    "motivo_selecao": "Nenhum limiar atingiu suporte e precisão exigidos.",
+    "precisao_minima_desenvolvimento": 0.95,
+    "publicacao_habilitada": false,
+    "schema": "politica_m4_v1",
+    "selecao": null,
+    "suporte_minimo": 10
+  },
+  "por_disciplina": {
+    "Criminologia": {
+      "calibracao": {
+        "acertos": 0,
+        "brier": 0.21433470507544583,
+        "ece": 0.46296296296296297,
+        "epsilon_logloss": 1e-15,
+        "faixas": [
+          {
+            "inclui_superior": false,
+            "inferior": 0.0,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.2,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.2,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.4,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.4,
+            "intervalo_wilson_95": {
+              "inferior": 0.0,
+              "superior": 0.6576197724933468
+            },
+            "n": 2,
+            "probabilidade_media": 0.46296296296296297,
+            "superior": 0.6,
+            "taxa_acerto": 0.0
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.6,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.8,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": true,
+            "inferior": 0.8,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 1.0,
+            "taxa_acerto": null
+          }
+        ],
+        "intervalo_wilson_95": {
+          "inferior": 0.0,
+          "superior": 0.6576197724933468
+        },
+        "logloss": 0.6216882165778004,
+        "n": 2,
+        "taxa_acerto": 0.0
+      },
+      "classificacao": {
+        "acertos": {
+          "exato": 0,
+          "imediato": 0,
+          "ramo": 0
+        },
+        "acertos_top5_ramo": 2
+      },
+      "decisoes": {
+        "fora": 0,
+        "publicar": 0,
+        "revisar": 2
+      },
+      "fora": {
+        "acertos": 0,
+        "chamadas": 0,
+        "precisao": null,
+        "recall": null,
+        "referencias": 0
+      },
+      "motivos_revisao": {
+        "Publicação automática sem suporte na validação; revisar sugestão.": 2
+      },
+      "publicacao": {
+        "acertos": 0,
+        "cobertura": 0.0,
+        "erros": 0,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "precisao": null
+      },
+      "total": 2
+    },
+    "Direito Penal - Legislação Especial": {
+      "calibracao": {
+        "acertos": 0,
+        "brier": 0.21433470507544583,
+        "ece": 0.46296296296296297,
+        "epsilon_logloss": 1e-15,
+        "faixas": [
+          {
+            "inclui_superior": false,
+            "inferior": 0.0,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.2,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.2,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.4,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.4,
+            "intervalo_wilson_95": {
+              "inferior": 0.0,
+              "superior": 0.6576197724933468
+            },
+            "n": 2,
+            "probabilidade_media": 0.46296296296296297,
+            "superior": 0.6,
+            "taxa_acerto": 0.0
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.6,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.8,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": true,
+            "inferior": 0.8,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 1.0,
+            "taxa_acerto": null
+          }
+        ],
+        "intervalo_wilson_95": {
+          "inferior": 0.0,
+          "superior": 0.6576197724933468
+        },
+        "logloss": 0.6216882165778004,
+        "n": 2,
+        "taxa_acerto": 0.0
+      },
+      "classificacao": {
+        "acertos": {
+          "exato": 0,
+          "imediato": 0,
+          "ramo": 0
+        },
+        "acertos_top5_ramo": 0
+      },
+      "decisoes": {
+        "fora": 0,
+        "publicar": 0,
+        "revisar": 2
+      },
+      "fora": {
+        "acertos": 0,
+        "chamadas": 0,
+        "precisao": null,
+        "recall": null,
+        "referencias": 0
+      },
+      "motivos_revisao": {
+        "Publicação automática sem suporte na validação; revisar sugestão.": 1,
+        "Tema com descendentes ativos; revisar a especificidade.": 1
+      },
+      "publicacao": {
+        "acertos": 0,
+        "cobertura": 0.0,
+        "erros": 0,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "precisao": null
+      },
+      "total": 2
+    },
+    "Penal": {
+      "calibracao": {
+        "acertos": 3,
+        "brier": 0.2421124828532236,
+        "ece": 0.08796296296296297,
+        "epsilon_logloss": 1e-15,
+        "faixas": [
+          {
+            "inclui_superior": false,
+            "inferior": 0.0,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.2,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.2,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.4,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.4,
+            "intervalo_wilson_95": {
+              "inferior": 0.13684428582359742,
+              "superior": 0.6942576053973726
+            },
+            "n": 8,
+            "probabilidade_media": 0.46296296296296297,
+            "superior": 0.6,
+            "taxa_acerto": 0.375
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.6,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.8,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": true,
+            "inferior": 0.8,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 1.0,
+            "taxa_acerto": null
+          }
+        ],
+        "intervalo_wilson_95": {
+          "inferior": 0.13684428582359742,
+          "superior": 0.6942576053973726
+        },
+        "logloss": 0.6773457184971529,
+        "n": 8,
+        "taxa_acerto": 0.375
+      },
+      "classificacao": {
+        "acertos": {
+          "exato": 1,
+          "imediato": 3,
+          "ramo": 3
+        },
+        "acertos_top5_ramo": 6
+      },
+      "decisoes": {
+        "fora": 0,
+        "publicar": 0,
+        "revisar": 8
+      },
+      "fora": {
+        "acertos": 0,
+        "chamadas": 0,
+        "precisao": null,
+        "recall": null,
+        "referencias": 0
+      },
+      "motivos_revisao": {
+        "Publicação automática sem suporte na validação; revisar sugestão.": 6,
+        "Tema com descendentes ativos; revisar a especificidade.": 2
+      },
+      "publicacao": {
+        "acertos": 0,
+        "cobertura": 0.0,
+        "erros": 0,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "precisao": null
+      },
+      "total": 8
+    },
+    "Processo Penal": {
+      "calibracao": {
+        "acertos": 3,
+        "brier": 0.25137174211248287,
+        "ece": 0.037037037037037035,
+        "epsilon_logloss": 1e-15,
+        "faixas": [
+          {
+            "inclui_superior": false,
+            "inferior": 0.0,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.2,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.2,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.4,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.4,
+            "intervalo_wilson_95": {
+              "inferior": 0.18761630648265054,
+              "superior": 0.8123836935173494
+            },
+            "n": 6,
+            "probabilidade_media": 0.46296296296296297,
+            "superior": 0.6,
+            "taxa_acerto": 0.5
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.6,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.8,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": true,
+            "inferior": 0.8,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 1.0,
+            "taxa_acerto": null
+          }
+        ],
+        "intervalo_wilson_95": {
+          "inferior": 0.18761630648265054,
+          "superior": 0.8123836935173494
+        },
+        "logloss": 0.6958982191369371,
+        "n": 6,
+        "taxa_acerto": 0.5
+      },
+      "classificacao": {
+        "acertos": {
+          "exato": 2,
+          "imediato": 3,
+          "ramo": 3
+        },
+        "acertos_top5_ramo": 4
+      },
+      "decisoes": {
+        "fora": 0,
+        "publicar": 0,
+        "revisar": 6
+      },
+      "fora": {
+        "acertos": 0,
+        "chamadas": 0,
+        "precisao": null,
+        "recall": null,
+        "referencias": 0
+      },
+      "motivos_revisao": {
+        "Publicação automática sem suporte na validação; revisar sugestão.": 5,
+        "Tema com descendentes ativos; revisar a especificidade.": 1
+      },
+      "publicacao": {
+        "acertos": 0,
+        "cobertura": 0.0,
+        "erros": 0,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "precisao": null
+      },
+      "total": 6
+    },
+    "fora": {
+      "calibracao": {
+        "acertos": 0,
+        "brier": 0.21433470507544583,
+        "ece": 0.46296296296296297,
+        "epsilon_logloss": 1e-15,
+        "faixas": [
+          {
+            "inclui_superior": false,
+            "inferior": 0.0,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.2,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.2,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.4,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.4,
+            "intervalo_wilson_95": {
+              "inferior": 0.0,
+              "superior": 0.6576197724933468
+            },
+            "n": 2,
+            "probabilidade_media": 0.46296296296296297,
+            "superior": 0.6,
+            "taxa_acerto": 0.0
+          },
+          {
+            "inclui_superior": false,
+            "inferior": 0.6,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 0.8,
+            "taxa_acerto": null
+          },
+          {
+            "inclui_superior": true,
+            "inferior": 0.8,
+            "intervalo_wilson_95": null,
+            "n": 0,
+            "probabilidade_media": null,
+            "superior": 1.0,
+            "taxa_acerto": null
+          }
+        ],
+        "intervalo_wilson_95": {
+          "inferior": 0.0,
+          "superior": 0.6576197724933468
+        },
+        "logloss": 0.6216882165778004,
+        "n": 2,
+        "taxa_acerto": 0.0
+      },
+      "classificacao": {
+        "acertos": {
+          "exato": 0,
+          "imediato": 0,
+          "ramo": 0
+        },
+        "acertos_top5_ramo": 0
+      },
+      "decisoes": {
+        "fora": 0,
+        "publicar": 0,
+        "revisar": 2
+      },
+      "fora": {
+        "acertos": 0,
+        "chamadas": 0,
+        "precisao": null,
+        "recall": 0.0,
+        "referencias": 2
+      },
+      "motivos_revisao": {
+        "Publicação automática sem suporte na validação; revisar sugestão.": 2
+      },
+      "publicacao": {
+        "acertos": 0,
+        "cobertura": 0.0,
+        "erros": 0,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "precisao": null
+      },
+      "total": 2
+    }
+  },
+  "receita_alterada_apos_teste": false,
+  "schema": "avaliacao_reserva_m4_v1"
+}

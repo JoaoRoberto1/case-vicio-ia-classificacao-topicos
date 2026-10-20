@@ -4,7 +4,7 @@
 
 Implementação da etapa complementar do case de IA da Vício. O objetivo é classificar 659 questões jurídicas, estimar a chance de acerto e decidir entre `publicar`, `revisar` e `fora`, buscando pelo menos 95% de precisão nas publicadas e a maior cobertura compatível com essa meta.
 
-**Estado atual: módulo 3 concluído, pronto para revisão e commit.** A comparação de sete receitas selecionou a combinação de busca lexical e embeddings do catálogo, com 37/80 acertos de desenvolvimento (46,25% pelo critério do case), contra 31/80 no módulo 2. O modelo semântico participa somente da preparação; a classificação usa vetores persistidos e código local. As 20 referências finais continuam reservadas. Calibração, `publicacao.csv`, previsão e relatório final pertencem aos próximos módulos.
+**Estado atual: módulo 4 concluído em 20/10/2026.** O teste da receita congelada acertou 6/20 sugestões pelo critério do case. A calibração não sustentou publicação automática: a política envia as questões para revisão. O sistema está implementado, mas ainda não alcançou a meta de precisão com cobertura. O modelo semântico participa somente da preparação; a decisão usa vetores persistidos e código local. O relatório e a defesa pertencem ao módulo 5.
 
 ## Executar o módulo 1
 
@@ -84,6 +84,34 @@ O [experimento](artefatos/melhorias-v1/manifesto.json) preserva 560 predições 
 
 Os 50 novos testes passaram. A verificação integral reconstruiu os sete produtos com bytes idênticos em 353,387 segundos, com rede, `.env`, pesos e importação das dependências do codificador bloqueados. Preparação e primeiro experimento levaram 316,514 e 274,690 segundos, respectivamente. A reprodução foi conferida em CPython 3.14.7 no Windows; os tempos não são um benchmark de produção.
 
+## Executar o módulo 4
+
+Na pasta `etapa-complementar`, a entrega é regenerada sem instalar bibliotecas de IA, fornecer chave ou chamar um codificador:
+
+```console
+python -B -m classificacao_decisao regenerar
+python -B -m classificacao_decisao verificar
+```
+
+O primeiro comando refaz o ajuste final e produz [publicacao.csv](publicacao.csv) e [previsao.txt](previsao.txt). Reutiliza o cache, o calibrador, a política e os registros congelados. O segundo reconstrói a calibração, o congelamento, a avaliação reservada e a entrega, comparando os bytes. Ambos bloqueiam rede Python, leitura de `.env`, acesso aos pesos e importação das dependências do codificador. Arquivos divergentes são recusados; use uma cópia limpa para reproduzir, preservando resultados anteriores.
+
+| Medição | Desenvolvimento | Teste reservado |
+|---|---:|---:|
+| Acerto por ramo | 37/80 (46,25%) | 6/20 (30,00%) |
+| Acerto exato | 24/80 (30,00%) | 3/20 (15,00%) |
+| Tema aceitável entre cinco sugestões | 54/80 (67,50%) | 12/20 (60,00%) |
+| Publicações da política | 0 | 0 |
+
+O calibrador constante teve o menor Brier entre as três alternativas no desenvolvimento. Ele estima uma taxa global, sem diferenciar o risco das questões. Os calibradores de escore e de escore com margem não melhoraram essa métrica nem atingiram probabilidades de 0,95. A política foi congelada antes do teste de 20 referências e não foi alterada após seu resultado.
+
+A entrega contém 659 linhas; as 100 referências ficam excluídas da autoavaliação oficial. Nas 559 restantes, a cobertura automática é **0/559** e a precisão entre publicadas é **indefinida**, pois não há publicações. O `0.00000000` exigido no campo numérico da previsão é uma sentinela explicada no próprio arquivo; o [JSON de evidências](artefatos/decisoes-v1/previsao.json) registra `null`. O intervalo `0–1` indica ausência de informação, sem representar um intervalo de confiança estimado.
+
+As 80 linhas de desenvolvimento usam temas OOF e probabilidades crossfit; as 20 da reserva mantêm as previsões do teste congelado. As 559 sem referência usam o classificador reajustado nos textos das 100 referências e o calibrador preservado das 80. Esse reajuste final não recebeu teste independente. `Fora` não foi automatizado com o suporte disponível.
+
+Método, custos e limitações estão no [módulo 4](docs/MODULO4_CALIBRACAO_DECISOES.md). O [congelamento](artefatos/calibracao-v1/congelamento.json), o [teste reservado](artefatos/reserva-v1/metricas_reserva.json) e o [checkpoint](artefatos/checkpoints/modulo4.json) registram a ordem das etapas e suas validações. Os módulos 1 a 3 permanecem preservados.
+
+Os **81 novos testes** passaram. A geração real levou 306,270 segundos; a verificação integral reconstruiu 15 produtos e conferiu as duas entregas da raiz com bytes idênticos em 268,722 segundos, com os bloqueios da CLI ativos. A auditoria estrutural confirmou o esquema, os hashes, o isolamento dos conjuntos e a procedência 80/20/559. Esses tempos foram medidos em CPython 3.14.7 no Windows e não são um benchmark de produção.
+
 ## Dados e regra desta etapa
 
 As fontes estão preservadas em [anexos](anexos/LEIA-ME.md), no [enunciado](<case-ia-classificacao-de-topicos (2).pdf>) e no [README do case](README-do-case.md). Correspondem à [atualização oficial de 19/10/2026](https://github.com/viciod/case-vicio-ia/commit/0264e4ca2afd7afebdd45f542784e6079ee804ca).
@@ -101,6 +129,6 @@ A [origem dos insumos](config/fontes_oficiais.json) e o [reaproveitamento de có
 
 ## Módulos e próxima parada
 
-O [plano de execução](docs/PLANO_EXECUCAO.md) define cinco módulos e os critérios de conclusão. A próxima etapa é o **módulo 4, calibração e decisões**: estimar a chance de acerto e definir a política usando as 80 referências de desenvolvimento; só depois do congelamento completo, avaliar uma vez nas 20 reservadas. Cada módulo termina em um ponto de revisão e commit pelo autor.
+O [plano de execução](docs/PLANO_EXECUCAO.md) define cinco módulos e os critérios de conclusão. A próxima etapa é o **módulo 5, entrega e defesa**: fechar relatório, reprodução em ambiente limpo e apresentação dos resultados, incluindo o resultado negativo para publicação automática. A reserva já foi avaliada; novos ajustes orientados por esse resultado serão desenvolvimento exploratório e precisarão de outras referências para avaliação independente. Cada módulo termina em um ponto de revisão e commit pelo autor.
 
 O prazo comunicado pela recrutadora é **22/10/2026, às 14h, no horário de São Paulo**; o PDF mantém o prazo “a combinar”.

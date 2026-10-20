@@ -1,0 +1,59 @@
+{
+  "ajuste_final_testado_independentemente": false,
+  "avaliacao_total": 559,
+  "cobertura_intervalo": {
+    "inferior": 0.0,
+    "superior": 0.0
+  },
+  "cobertura_metodo": "Contagem conhecida; não é estimativa amostral.",
+  "cobertura_prevista": 0.0,
+  "decisoes_avaliacao": {
+    "fora": 0,
+    "publicar": 0,
+    "revisar": 559
+  },
+  "decisoes_por_coorte_somente_diagnostico": {
+    "antigas_sem_referencia": {
+      "decisoes": {
+        "fora": 0,
+        "publicar": 0,
+        "revisar": 259
+      },
+      "total": 259
+    },
+    "recentes_sem_referencia": {
+      "decisoes": {
+        "fora": 0,
+        "publicar": 0,
+        "revisar": 300
+      },
+      "total": 300
+    }
+  },
+  "meta_95_comprovada": false,
+  "precisao_intervalo": {
+    "inferior": 0.0,
+    "superior": 1.0
+  },
+  "precisao_intervalo_natureza": "Domínio sem informação; não é um intervalo de confiança estimado.",
+  "precisao_intervalo_nivel": null,
+  "precisao_metodo": "Média das probabilidades calibradas nas publicadas; indefinida se não há publicadas.",
+  "precisao_prevista": null,
+  "precisao_txt_sentinela_zero": true,
+  "procedencias_csv": {
+    "avaliacao559_modelo100_calibrador80": 559,
+    "desenvolvimento80_oof_modelo_e_crossfit_calibrador": 80,
+    "reserva20_modelo80_calibrador80": 20
+  },
+  "publicadas": 0,
+  "referencia_reserva": {
+    "acertos": 0,
+    "cobertura": 0.0,
+    "erros": 0,
+    "intervalo_wilson_95": null,
+    "n": 0,
+    "precisao": null
+  },
+  "referencias_excluidas": 100,
+  "schema": "previsao_m4_v1"
+}

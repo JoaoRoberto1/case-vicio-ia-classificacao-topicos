@@ -1,0 +1,22 @@
+{
+  "chamadas_api": 0,
+  "congelamento_sha256": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+  "entradas_sha256": {
+    "artefatos/calibracao-v1/congelamento.json": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+    "artefatos/calibracao-v1/manifesto.json": "fc2c2580b8925770893dc22d2c05f3e4090e2d381e0be18b7a1a6c956b7878ae",
+    "artefatos/embeddings-e5-m4-v1/manifesto.json": "fcf655401303ae76e599a96029b1c712ad4648bdd6e1245bc0d5469f4d6f13dd",
+    "artefatos/embeddings-e5-m4-v1/vetores.json": "7811c55345d7789daa1da00842d1a2680eaa52f2bd399781e488d288049a8c81",
+    "artefatos/reserva-v1/manifesto.json": "601ee7f13d3860ba05c85a68bf8ebf01eb5dc22e2e510fa5497ced1bc531167b",
+    "artefatos/reserva-v1/metricas_reserva.json": "759cafe44c59788714d33cd69daf96920d5f95d75278ac470d3c1e1e61e7afb8",
+    "artefatos/reserva-v1/predicoes_reserva.jsonl": "0ddb572126dcd032a551a6f4062fd1ab979fa6d689ba892e80e84e3dc73a4bb5"
+  },
+  "modelo_linguagem_na_decisao": false,
+  "produtos_sha256": {
+    "decisoes.jsonl": "aca05055550648bcc985575fb19ca3ca4f7f8a310380716a4a11a0320e55418f",
+    "modelo_final.json": "025515147d6058b1be99dc449ca320275ce37f94448e9ed05284cd771c53ae07",
+    "previsao.json": "3ba2c30d4d19041861441ee9d610dcd346b10d1fc1e943bd98395a52f6978168",
+    "previsao.txt": "28d37a501811358b6ec2806e797336b0086c9395a4db59193583508302803f23",
+    "publicacao.csv": "28b00d22029fb6d163293f3ae76990521fdc5a3d3c176bdbaa7683cbe50d0b7e"
+  },
+  "schema": "manifesto_entrega_m4_v1"
+}

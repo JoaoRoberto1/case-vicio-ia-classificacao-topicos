@@ -1,0 +1,16 @@
+{
+  "chamadas_api": 0,
+  "congelamento_sha256": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+  "entradas_sha256": {
+    "artefatos/calibracao-v1/congelamento.json": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40",
+    "artefatos/calibracao-v1/manifesto.json": "fc2c2580b8925770893dc22d2c05f3e4090e2d381e0be18b7a1a6c956b7878ae",
+    "artefatos/embeddings-e5-m4-v1/manifesto.json": "fcf655401303ae76e599a96029b1c712ad4648bdd6e1245bc0d5469f4d6f13dd",
+    "artefatos/embeddings-e5-m4-v1/vetores.json": "7811c55345d7789daa1da00842d1a2680eaa52f2bd399781e488d288049a8c81"
+  },
+  "modelo_linguagem_na_decisao": false,
+  "produtos_sha256": {
+    "metricas_reserva.json": "759cafe44c59788714d33cd69daf96920d5f95d75278ac470d3c1e1e61e7afb8",
+    "predicoes_reserva.jsonl": "0ddb572126dcd032a551a6f4062fd1ab979fa6d689ba892e80e84e3dc73a4bb5"
+  },
+  "schema": "manifesto_reserva_m4_v1"
+}

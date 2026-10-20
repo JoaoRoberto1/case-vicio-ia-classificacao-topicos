@@ -1,0 +1,42 @@
+{
+  "versao": 1,
+  "receita_classificador": "hibrido_catalogo",
+  "alvo": "acerto_ramo",
+  "calibradores": {
+    "constante": {"atributos": [], "prioridade": 0},
+    "logistica_score": {"atributos": ["score"], "prioridade": 1},
+    "logistica_score_margem": {"atributos": ["score", "margem"], "prioridade": 2}
+  },
+  "regularizacao": 1.0,
+  "criterio_calibrador": ["brier", "logloss", "prioridade", "nome"],
+  "limiares_publicacao": [0.95, 0.975, 0.99],
+  "precisao_minima_desenvolvimento": 0.95,
+  "suporte_minimo_publicacao": 10,
+  "criterio_limiar": ["maior_quantidade_publicada", "menor_limiar"],
+  "exigir_dominio_calibrador": true,
+  "elegibilidade": {
+    "status": "active",
+    "nivel_minimo": 1,
+    "sem_descendente_ativo": true,
+    "expressoes_titulo_generico": [
+      "aspectos gerais",
+      "consideracoes gerais",
+      "disposicoes gerais",
+      "introducao",
+      "nocoes gerais",
+      "principios gerais"
+    ]
+  },
+  "fora_automatico": false,
+  "extras_previstos": [],
+  "intervalo_proporcoes": {"metodo": "wilson_bilateral", "confianca": 0.95},
+  "incerteza_previsao": "Wilson das publicadas da reserva como referencia transportada sob hipoteses; sem suporte, dominio [0,1]. Nao quantifica mudanca de distribuicao nem reajuste.",
+  "reajuste_final": {
+    "classificador": "100_referencias_mesmos_parametros",
+    "calibrador": "manter_ajustado_nas_80_predicoes_oof",
+    "politica": "manter_congelada",
+    "refs_desenvolvimento_csv": "temas_oof_m3_e_probabilidades_crossfit_m4",
+    "refs_reserva_csv": "predicoes_do_teste_congelado",
+    "avaliacao_csv": "559_predicoes_do_ajuste100"
+  }
+}

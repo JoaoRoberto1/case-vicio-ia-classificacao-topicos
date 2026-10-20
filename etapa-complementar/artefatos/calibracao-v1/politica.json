@@ -1,0 +1,26 @@
+{
+  "calibrador": "constante",
+  "elegibilidade": {
+    "expressoes_titulo_generico": [
+      "aspectos gerais",
+      "consideracoes gerais",
+      "disposicoes gerais",
+      "introducao",
+      "nocoes gerais",
+      "principios gerais"
+    ],
+    "nivel_minimo": 1,
+    "sem_descendente_ativo": true,
+    "status": "active"
+  },
+  "exigir_dominio_calibrador": true,
+  "extras_previstos": [],
+  "fora_automatico": false,
+  "limiar": null,
+  "motivo_selecao": "Nenhum limiar atingiu suporte e precisão exigidos.",
+  "precisao_minima_desenvolvimento": 0.95,
+  "publicacao_habilitada": false,
+  "schema": "politica_m4_v1",
+  "selecao": null,
+  "suporte_minimo": 10
+}

@@ -1,0 +1,464 @@
+{
+  "calibrador_selecionado": "constante",
+  "calibradores": {
+    "constante": {
+      "acertos": 37,
+      "brier": 0.24948769895928988,
+      "ece": 0.0003409090909091139,
+      "epsilon_logloss": 1e-15,
+      "faixas": [
+        {
+          "inclui_superior": false,
+          "inferior": 0.0,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.2,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.2,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.4,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.4,
+          "intervalo_wilson_95": {
+            "inferior": 0.3574799356278526,
+            "superior": 0.5709564240873121
+          },
+          "n": 80,
+          "probabilidade_media": 0.46284090909090914,
+          "superior": 0.6,
+          "taxa_acerto": 0.4625
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.6,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.8,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": true,
+          "inferior": 0.8,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 1.0,
+          "taxa_acerto": null
+        }
+      ],
+      "fora_dominio": 0,
+      "intervalo_wilson_95": {
+        "inferior": 0.3574799356278526,
+        "superior": 0.5709564240873121
+      },
+      "logloss": 0.6921277441060332,
+      "n": 80,
+      "probabilidade_maxima": 0.4818181818181818,
+      "probabilidade_minima": 0.4537037037037038,
+      "taxa_acerto": 0.4625
+    },
+    "logistica_score": {
+      "acertos": 37,
+      "brier": 0.2579783707319241,
+      "ece": 0.0647973272469152,
+      "epsilon_logloss": 1e-15,
+      "faixas": [
+        {
+          "inclui_superior": false,
+          "inferior": 0.0,
+          "intervalo_wilson_95": {
+            "inferior": 0.300641842582402,
+            "superior": 0.9544127391902995
+          },
+          "n": 4,
+          "probabilidade_media": 0.127546255402499,
+          "superior": 0.2,
+          "taxa_acerto": 0.75
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.2,
+          "intervalo_wilson_95": {
+            "inferior": 0.12680703655710515,
+            "superior": 0.5763065681945096
+          },
+          "n": 13,
+          "probabilidade_media": 0.32252570852266327,
+          "superior": 0.4,
+          "taxa_acerto": 0.3076923076923077
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.4,
+          "intervalo_wilson_95": {
+            "inferior": 0.30950396559750304,
+            "superior": 0.5673464857239271
+          },
+          "n": 53,
+          "probabilidade_media": 0.4766298714889055,
+          "superior": 0.6,
+          "taxa_acerto": 0.4339622641509434
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.6,
+          "intervalo_wilson_95": {
+            "inferior": 0.39677814746114537,
+            "superior": 0.8922087325936989
+          },
+          "n": 10,
+          "probabilidade_media": 0.6760246198343401,
+          "superior": 0.8,
+          "taxa_acerto": 0.7
+        },
+        {
+          "inclui_superior": true,
+          "inferior": 0.8,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 1.0,
+          "taxa_acerto": null
+        }
+      ],
+      "fora_dominio": 3,
+      "intervalo_wilson_95": {
+        "inferior": 0.3574799356278526,
+        "superior": 0.5709564240873121
+      },
+      "logloss": 0.7222239575672108,
+      "n": 80,
+      "probabilidade_maxima": 0.7316666664992668,
+      "probabilidade_minima": 0.09466662267133875,
+      "taxa_acerto": 0.4625
+    },
+    "logistica_score_margem": {
+      "acertos": 37,
+      "brier": 0.2566838106146104,
+      "ece": 0.05319366209089917,
+      "epsilon_logloss": 1e-15,
+      "faixas": [
+        {
+          "inclui_superior": false,
+          "inferior": 0.0,
+          "intervalo_wilson_95": {
+            "inferior": 0.3423802275066532,
+            "superior": 1.0
+          },
+          "n": 2,
+          "probabilidade_media": 0.10145736972548203,
+          "superior": 0.2,
+          "taxa_acerto": 1.0
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.2,
+          "intervalo_wilson_95": {
+            "inferior": 0.18643261498715652,
+            "superior": 0.5217523949267993
+          },
+          "n": 27,
+          "probabilidade_media": 0.33041713674275114,
+          "superior": 0.4,
+          "taxa_acerto": 0.3333333333333333
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.4,
+          "intervalo_wilson_95": {
+            "inferior": 0.3103856980437304,
+            "superior": 0.6161595310782051
+          },
+          "n": 37,
+          "probabilidade_media": 0.4978819513506261,
+          "superior": 0.6,
+          "taxa_acerto": 0.4594594594594595
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.6,
+          "intervalo_wilson_95": {
+            "inferior": 0.355228915126657,
+            "superior": 0.8229029220223743
+          },
+          "n": 13,
+          "probabilidade_media": 0.6738615398427735,
+          "superior": 0.8,
+          "taxa_acerto": 0.6153846153846154
+        },
+        {
+          "inclui_superior": true,
+          "inferior": 0.8,
+          "intervalo_wilson_95": {
+            "inferior": 0.20654931437723745,
+            "superior": 1.0
+          },
+          "n": 1,
+          "probabilidade_media": 0.8021618191520404,
+          "superior": 1.0,
+          "taxa_acerto": 1.0
+        }
+      ],
+      "fora_dominio": 6,
+      "intervalo_wilson_95": {
+        "inferior": 0.3574799356278526,
+        "superior": 0.5709564240873121
+      },
+      "logloss": 0.7223448160850124,
+      "n": 80,
+      "probabilidade_maxima": 0.8021618191520404,
+      "probabilidade_minima": 0.0817806850976081,
+      "taxa_acerto": 0.4625
+    }
+  },
+  "curva_limiares": [
+    {
+      "acertos": 0,
+      "atende_criterios": false,
+      "cobertura": 0.0,
+      "intervalo_wilson_95": null,
+      "limiar": 0.95,
+      "precisao": null,
+      "publicadas": 0
+    },
+    {
+      "acertos": 0,
+      "atende_criterios": false,
+      "cobertura": 0.0,
+      "intervalo_wilson_95": null,
+      "limiar": 0.975,
+      "precisao": null,
+      "publicadas": 0
+    },
+    {
+      "acertos": 0,
+      "atende_criterios": false,
+      "cobertura": 0.0,
+      "intervalo_wilson_95": null,
+      "limiar": 0.99,
+      "precisao": null,
+      "publicadas": 0
+    }
+  ],
+  "decisoes_crossfit": {
+    "calibracao": {
+      "acertos": 37,
+      "brier": 0.24948769895928988,
+      "ece": 0.0003409090909091139,
+      "epsilon_logloss": 1e-15,
+      "faixas": [
+        {
+          "inclui_superior": false,
+          "inferior": 0.0,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.2,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.2,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.4,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.4,
+          "intervalo_wilson_95": {
+            "inferior": 0.3574799356278526,
+            "superior": 0.5709564240873121
+          },
+          "n": 80,
+          "probabilidade_media": 0.46284090909090914,
+          "superior": 0.6,
+          "taxa_acerto": 0.4625
+        },
+        {
+          "inclui_superior": false,
+          "inferior": 0.6,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 0.8,
+          "taxa_acerto": null
+        },
+        {
+          "inclui_superior": true,
+          "inferior": 0.8,
+          "intervalo_wilson_95": null,
+          "n": 0,
+          "probabilidade_media": null,
+          "superior": 1.0,
+          "taxa_acerto": null
+        }
+      ],
+      "intervalo_wilson_95": {
+        "inferior": 0.3574799356278526,
+        "superior": 0.5709564240873121
+      },
+      "logloss": 0.6921277441060332,
+      "n": 80,
+      "taxa_acerto": 0.4625
+    },
+    "classificacao": {
+      "acertos": {
+        "exato": 24,
+        "imediato": 37,
+        "ramo": 37
+      },
+      "acertos_top5_ramo": 54
+    },
+    "decisoes": {
+      "fora": 0,
+      "publicar": 0,
+      "revisar": 80
+    },
+    "fora": {
+      "acertos": 0,
+      "chamadas": 0,
+      "precisao": null,
+      "recall": 0.0,
+      "referencias": 6
+    },
+    "motivos_revisao": {
+      "Publicação automática sem suporte na validação; revisar sugestão.": 66,
+      "Tema com descendentes ativos; revisar a especificidade.": 14
+    },
+    "publicacao": {
+      "acertos": 0,
+      "cobertura": 0.0,
+      "erros": 0,
+      "intervalo_wilson_95": null,
+      "n": 0,
+      "precisao": null
+    },
+    "total": 80
+  },
+  "elegibilidade_catalogo": {
+    "bloqueios": {
+      "Disciplina não é elegível para publicação.": 4,
+      "Tema com descendentes ativos; revisar a especificidade.": 51,
+      "Tema inativo.": 2,
+      "Título genérico sinalizado pela regra; revisar a especificidade.": 4
+    },
+    "elegiveis": 316,
+    "total": 377
+  },
+  "natureza": "Exploratória: escolha de receita M3 e calibrador/política M4 nas mesmas referências.",
+  "politica": {
+    "calibrador": "constante",
+    "elegibilidade": {
+      "expressoes_titulo_generico": [
+        "aspectos gerais",
+        "consideracoes gerais",
+        "disposicoes gerais",
+        "introducao",
+        "nocoes gerais",
+        "principios gerais"
+      ],
+      "nivel_minimo": 1,
+      "sem_descendente_ativo": true,
+      "status": "active"
+    },
+    "exigir_dominio_calibrador": true,
+    "extras_previstos": [],
+    "fora_automatico": false,
+    "limiar": null,
+    "motivo_selecao": "Nenhum limiar atingiu suporte e precisão exigidos.",
+    "precisao_minima_desenvolvimento": 0.95,
+    "publicacao_habilitada": false,
+    "schema": "politica_m4_v1",
+    "selecao": null,
+    "suporte_minimo": 10
+  },
+  "reajuste_final": {
+    "avaliacao_csv": "559_predicoes_do_ajuste100",
+    "calibrador": "manter_ajustado_nas_80_predicoes_oof",
+    "classificador": "100_referencias_mesmos_parametros",
+    "politica": "manter_congelada",
+    "refs_desenvolvimento_csv": "temas_oof_m3_e_probabilidades_crossfit_m4",
+    "refs_reserva_csv": "predicoes_do_teste_congelado"
+  },
+  "reserva_consultada": false,
+  "schema": "metricas_desenvolvimento_m4_v1",
+  "score_bruto_como_probabilidade_diagnostico": {
+    "acertos": 37,
+    "brier": 0.41586103434704197,
+    "ece": 0.4256391442705477,
+    "epsilon_logloss": 1e-15,
+    "faixas": [
+      {
+        "inclui_superior": false,
+        "inferior": 0.0,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "probabilidade_media": null,
+        "superior": 0.2,
+        "taxa_acerto": null
+      },
+      {
+        "inclui_superior": false,
+        "inferior": 0.2,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "probabilidade_media": null,
+        "superior": 0.4,
+        "taxa_acerto": null
+      },
+      {
+        "inclui_superior": false,
+        "inferior": 0.4,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "probabilidade_media": null,
+        "superior": 0.6,
+        "taxa_acerto": null
+      },
+      {
+        "inclui_superior": false,
+        "inferior": 0.6,
+        "intervalo_wilson_95": {
+          "inferior": 0.17709707797762575,
+          "superior": 0.644771084873343
+        },
+        "n": 13,
+        "probabilidade_media": 0.73688153342482,
+        "superior": 0.8,
+        "taxa_acerto": 0.38461538461538464
+      },
+      {
+        "inclui_superior": true,
+        "inferior": 0.8,
+        "intervalo_wilson_95": {
+          "inferior": 0.3625038659495963,
+          "superior": 0.5951480507395664
+        },
+        "n": 67,
+        "probabilidade_media": 0.9174876359271815,
+        "superior": 1.0,
+        "taxa_acerto": 0.47761194029850745
+      }
+    ],
+    "intervalo_wilson_95": {
+      "inferior": 0.3574799356278526,
+      "superior": 0.5709564240873121
+    },
+    "logloss": 2.400792741598562,
+    "n": 80,
+    "taxa_acerto": 0.4625
+  }
+}
