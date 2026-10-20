@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "versao": "protocolo-estrutural-v1",
+  "semente": 20261020,
+  "dobras_externas": 5,
+  "dobras_internas": 3,
+  "duplicatas": {
+    "limiar_jaccard": 0.85,
+    "tamanho_shingle": 5,
+    "minimo_tokens": 12
+  },
+  "contrato_dados": {
+    "questoes": 659,
+    "temas": 377,
+    "temas_ativos": 375,
+    "rotulos": 100,
+    "avaliacao_oficial": 559,
+    "rotulos_historicos": 100,
+    "rotulos_recentes": 0
+  },
+  "regra_acerto": {
+    "principal": "central ou extra, ou ancestral ou descendente no mesmo ramo",
+    "sensibilidade": ["exato", "imediato"],
+    "irmaos_aceitos": false
+  },
+  "escopo": "Partições e regras estruturais congeladas antes de qualquer medição de desempenho. Grades e calibrador serão registrados antes da primeira avaliação externa.",
+  "familias_planejadas": [
+    "busca lexical nas descrições dos temas e nos exemplos humanos de treino",
+    "busca lexical com sinais de leis e artigos",
+    "busca híbrida com embeddings previamente calculados e versionados"
+  ],
+  "restricoes": [
+    "Somente a folha-verdade da equipe fornece supervisão.",
+    "Rótulos e revisões de IA da primeira etapa não entram no sistema.",
+    "Modelo de linguagem não escolhe, vota, julga ou valida temas.",
+    "Todos os ajustes, calibração e limiar pertencem ao treino da dobra externa.",
+    "Resultados externos não podem orientar novas regras sem declarar uso exploratório.",
+    "Similaridade não é probabilidade e baixa confiança não implica fora da taxonomia."
+  ]
+}

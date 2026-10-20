@@ -1,0 +1,32 @@
+{
+  "arquivos": [
+    {
+      "destino": "classificacao_topicos/texto.py",
+      "escopo": "modulo estrutural completo",
+      "origem": "classificacao_topicos/texto.py",
+      "sha256_origem": "973b71caecaf039b0440f037b8f55ba08781ab41939e73664f9d19b229c33e0e",
+      "tipo": "copia_identica"
+    },
+    {
+      "destino": "classificacao_topicos/taxonomia.py",
+      "escopo": "modulo estrutural completo",
+      "origem": "classificacao_topicos/taxonomia.py",
+      "sha256_origem": "f409f4585d193c162ed0414d388103c5b75c0c13973208267debd24addf15eb3",
+      "tipo": "copia_identica"
+    },
+    {
+      "destino": "classificacao_topicos/dados.py",
+      "escopo": "carregar_questoes e preparar_questao; novos contratos e validacao da folha-verdade",
+      "origem": "classificacao_topicos/preparacao.py",
+      "sha256_origem": "79ce6c9ade6b1796ab0de97a9d61a53c75941530f802b929ab98cef737a75a47",
+      "tipo": "adaptacao_parcial"
+    }
+  ],
+  "commit_origem": "d7b27ce5d3cd319df522cbefbe7eb2e401444378",
+  "exclusoes": [
+    "Nenhum recibo ou rotulo produzido por IA foi importado.",
+    "Politica antiga, auditoria de IA, predicoes e modelos da primeira etapa nao foram importados."
+  ],
+  "repositorio_origem": "https://github.com/JoaoRoberto1/case-vicio-ia-classificacao-topicos",
+  "schema_version": 1
+}

@@ -1,0 +1,118 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "chamadas_modelos": 0,
+  "commit_push_executados": false,
+  "data": "2026-10-20",
+  "escopo": "Preparacao e protocolo estrutural; sem classificacao nem estimativa de precisao.",
+  "etapas": [
+    {
+      "codigo_saida": 0,
+      "comando": "python -B -m classificacao_topicos preparar",
+      "duracao_segundos": 1.333,
+      "resultado": {
+        "contagens": {
+          "avaliacao_oficial": 559,
+          "questoes": 659,
+          "rotulos": 100,
+          "rotulos_historicos": 100,
+          "rotulos_recentes": 0,
+          "temas": 377,
+          "temas_ativos": 375
+        },
+        "operacao": "preparar",
+        "status": "ok"
+      }
+    },
+    {
+      "codigo_saida": 0,
+      "comando": "python -B -m classificacao_topicos verificar",
+      "duracao_segundos": 1.587,
+      "resultado": {
+        "contagens": {
+          "avaliacao_oficial": 559,
+          "questoes": 659,
+          "rotulos": 100,
+          "rotulos_historicos": 100,
+          "rotulos_recentes": 0,
+          "temas": 377,
+          "temas_ativos": 375
+        },
+        "operacao": "verificar",
+        "status": "ok"
+      }
+    }
+  ],
+  "modulo": 1,
+  "particoes": {
+    "avisos": [
+      "Coorte 'recentes' sem rótulos conhecidos; as partições não medem diretamente seu desempenho nem sua calibração."
+    ],
+    "dobras_externas": [
+      {
+        "dobras_internas": 3,
+        "fora_no_teste": 2,
+        "indice": 1,
+        "teste": 20,
+        "treino": 80
+      },
+      {
+        "dobras_internas": 3,
+        "fora_no_teste": 1,
+        "indice": 2,
+        "teste": 20,
+        "treino": 80
+      },
+      {
+        "dobras_internas": 3,
+        "fora_no_teste": 1,
+        "indice": 3,
+        "teste": 20,
+        "treino": 80
+      },
+      {
+        "dobras_internas": 3,
+        "fora_no_teste": 2,
+        "indice": 4,
+        "teste": 20,
+        "treino": 80
+      },
+      {
+        "dobras_internas": 3,
+        "fora_no_teste": 2,
+        "indice": 5,
+        "teste": 20,
+        "treino": 80
+      }
+    ],
+    "grupos": 659,
+    "grupos_duplicados": []
+  },
+  "produtos_sha256": {
+    "artefatos/preparacao/diagnostico.json": "eb58f8268df276c097140567bef9fab4ac964c471dc84e2524ae2f06c97056f6",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+    "artefatos/preparacao/particoes.json": "9d744eb93612f132959b30806fcd8875c4f1100f6036e1d21336e3793437600c",
+    "artefatos/preparacao/questoes_preparadas.jsonl": "2675cce95e184952acfc8e17acc9cef7bd7eb8dc9bf229fff47dbc654b144329",
+    "artefatos/preparacao/rotulos_referencia.jsonl": "c08783afe6c144d5bca99c438bb7eae2326240e7110bb07e4e894eeaa1e029dc",
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724"
+  },
+  "schema_version": 1,
+  "status": "concluido",
+  "suite": {
+    "comando": "python -B -X utf8 -m unittest discover -s tests -v",
+    "duracao_segundos": 28.02,
+    "erros": 0,
+    "falhas": 0,
+    "origem": "Resultado observado na execucao completa anterior a este registro.",
+    "pulados": 0,
+    "testes": 33
+  },
+  "testes_sha256": {
+    "tests/test_dados.py": "34882102d559b978f3125c81045b57cb22e4cddbd8f0f9349bfdc9fdd7ce213c",
+    "tests/test_pipeline.py": "40cafa3f745cc5143a510701f5f60387ed02ec3735bb5b8463619f37e5130745",
+    "tests/test_protocolo.py": "84c4e45e723982a455e3e6c61f9684c729fb1eb61276e75b3f373fbe0a160716"
+  }
+}

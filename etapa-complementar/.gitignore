@@ -1,0 +1,19 @@
+# Credenciais e contexto pessoal
+.env
+.env.*
+!.env.example
+/contexto_local/
+
+# Ambientes e caches locais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Reprodução exploratória e arquivos transitórios
+/tmp/
+.produto-*.tmp
+.DS_Store
+Thumbs.db

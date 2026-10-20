@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Fontes e arquivos assinados preservam os mesmos bytes em todo checkout.
+/anexos/** -text
+/README-do-case.md -text
+*.pdf -text
+/artefatos/** -text
+/config/** -text
+/classificacao_topicos/** -text

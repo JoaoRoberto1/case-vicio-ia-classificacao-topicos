@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "repositorio": "https://github.com/viciod/case-vicio-ia",
+  "commit": "0264e4ca2afd7afebdd45f542784e6079ee804ca",
+  "conferencia_em": "2026-10-20",
+  "metodo": "Comparação byte a byte do PDF, README e cinco membros do ZIP publicado com os arquivos locais.",
+  "arquivos": {
+    "README-do-case.md": {
+      "sha256": "86d547b3cbe645299e9d61ed95248d04754e8cc3004110b22281c0031adc81fe",
+      "bytes": 3034
+    },
+    "case-ia-classificacao-de-topicos (2).pdf": {
+      "sha256": "c0637dfc4d6f97763f7927fe4e11b40974e91be2518df0780b6a5f3fb6036f06",
+      "bytes": 176354
+    },
+    "anexos/LEIA-ME.md": {
+      "sha256": "ba8cda8a3b53cfe12f82558e7645f0b0f6d40f71796ba21f22d120ff641c7ab7",
+      "bytes": 2846
+    },
+    "anexos/questoes.jsonl": {
+      "sha256": "318f1fea970633a4d84eb5a4dd071b2ae76ad3e49288a073ab381f61a09da3f3",
+      "bytes": 841310
+    },
+    "anexos/temas.csv": {
+      "sha256": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+      "bytes": 121406
+    },
+    "anexos/folha_verdade.csv": {
+      "sha256": "c1412ce8d336ae248a2f0e46d8e34cbc07dd33c78af9ce6bbe1337c516ee8e3b",
+      "bytes": 7141
+    },
+    "anexos/entrega_modelo.csv": {
+      "sha256": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+      "bytes": 165
+    }
+  }
+}

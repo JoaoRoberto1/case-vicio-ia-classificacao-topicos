@@ -1,0 +1,36 @@
+{
+  "fontes_sha256": {
+    "README-do-case.md": "86d547b3cbe645299e9d61ed95248d04754e8cc3004110b22281c0031adc81fe",
+    "anexos/LEIA-ME.md": "ba8cda8a3b53cfe12f82558e7645f0b0f6d40f71796ba21f22d120ff641c7ab7",
+    "anexos/entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+    "anexos/folha_verdade.csv": "c1412ce8d336ae248a2f0e46d8e34cbc07dd33c78af9ce6bbe1337c516ee8e3b",
+    "anexos/questoes.jsonl": "318f1fea970633a4d84eb5a4dd071b2ae76ad3e49288a073ab381f61a09da3f3",
+    "anexos/temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "case-ia-classificacao-de-topicos (2).pdf": "c0637dfc4d6f97763f7927fe4e11b40974e91be2518df0780b6a5f3fb6036f06"
+  },
+  "implementacao_sha256": {
+    "classificacao_topicos/__init__.py": "68417cf2762743db73640322b2bd5bde605e32770a8c7093eb60909ec793755f",
+    "classificacao_topicos/__main__.py": "fb518d66b85a27b69b80be7b391b9cb08b467ac2ba8c80cd8ce1f9a016a212e7",
+    "classificacao_topicos/avaliacao.py": "f372dc133ebfc277ededa18da5a8b3e0eb9cc21dffd2a1567ccbb6d98aaac9cf",
+    "classificacao_topicos/dados.py": "688cba1a744596cd764ad51d50f3d9d5bdbc8b5d88402f6329213acc048ea908",
+    "classificacao_topicos/pipeline.py": "38a48342310c9fb8d2de5050125e6171b7a3254510ad7bfe4d016bd77ed4671e",
+    "classificacao_topicos/protocolo.py": "fa3894d0156065974c73db30e1b615196898858c6ed9698c43cf86437b2a0d35",
+    "classificacao_topicos/taxonomia.py": "f409f4585d193c162ed0414d388103c5b75c0c13973208267debd24addf15eb3",
+    "classificacao_topicos/texto.py": "973b71caecaf039b0440f037b8f55ba08781ab41939e73664f9d19b229c33e0e",
+    "config/fontes_oficiais.json": "858232c528174d9a36e24c6af1dd45ca853340ab49aa40ad0475f2dcbafa24a5",
+    "config/protocolo_avaliacao.json": "7dc8400592e7774725781e0596069ab7c7daac6953214aae9c5e4f009122bffc",
+    "config/reuso_codigo.json": "8c7b9e8d4986ddf6adec0fa61838d04327665d56eded106c6c45c73ca483fc17"
+  },
+  "modelo_de_linguagem_utilizado": false,
+  "origem_rotulos": "anexos/folha_verdade.csv",
+  "procedimento": "preparacao-etapa2-v1",
+  "produtos_sha256": {
+    "diagnostico.json": "eb58f8268df276c097140567bef9fab4ac964c471dc84e2524ae2f06c97056f6",
+    "particoes.json": "9d744eb93612f132959b30806fcd8875c4f1100f6036e1d21336e3793437600c",
+    "questoes_preparadas.jsonl": "2675cce95e184952acfc8e17acc9cef7bd7eb8dc9bf229fff47dbc654b144329",
+    "rotulos_referencia.jsonl": "c08783afe6c144d5bca99c438bb7eae2326240e7110bb07e4e894eeaa1e029dc",
+    "temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724"
+  },
+  "schema_version": 1,
+  "upstream_commit": "0264e4ca2afd7afebdd45f542784e6079ee804ca"
+}

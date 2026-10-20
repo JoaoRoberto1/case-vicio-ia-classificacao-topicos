@@ -1,5 +1,19 @@
 # Case Vício — Classificação de tópicos
 
+**Trabalho atual: etapa complementar, com 659 questões e 100 referências humanas.** O módulo 1 e todos os materiais atualizados estão em [etapa-complementar](etapa-complementar/README.md), dentro deste repositório.
+
+O [plano dos cinco módulos](etapa-complementar/docs/PLANO_EXECUCAO.md) e o [protocolo de avaliação](etapa-complementar/docs/PROTOCOLO_AVALIACAO.md) orientam a continuação. A [folha-verdade](etapa-complementar/anexos/folha_verdade.csv), as [659 questões](etapa-complementar/anexos/questoes.jsonl), o [novo enunciado](<etapa-complementar/case-ia-classificacao-de-topicos (2).pdf>) e os demais anexos foram importados junto com o módulo 1 já validado.
+
+Para executar a etapa complementar, entre na pasta correspondente:
+
+```console
+cd etapa-complementar
+python -B -m classificacao_topicos verificar
+python -B -m unittest discover -s tests -v
+```
+
+Os arquivos e resultados apresentados abaixo pertencem à **primeira entrega, com 359 questões**. Eles foram preservados. O [registro de importação](docs/IMPORTACAO_ETAPA_COMPLEMENTAR.json) identifica o commit de origem e os hashes dos 33 arquivos trazidos.
+
 ## Visão geral
 
 Solução para o processo seletivo de IA da Vício (Método VDE), voltada à classificação de questões de concursos jurídicos por tópico. Autor: **João Roberto de Oliveira Felix**.

@@ -1,0 +1,71 @@
+{
+  "adaptacoes": [
+    {
+      "arquivo": "README.md",
+      "motivo": "Esclarecer que os comandos devem ser executados em etapa-complementar/, pois a raiz continua contendo a primeira entrega.",
+      "sha256_destino": "71e1169b24d6c807e8fcc5a04198180e3a49da65a330ac19b135d5d25f754537",
+      "sha256_origem": "86238c9d432680f5662c7998ad69ec712aa9c804359df57cec19249e46c85b62"
+    }
+  ],
+  "arquivos_sha256": {
+    ".gitattributes": "aa6baf2186122ae2a027d75d196cd4b2a7b18e2c1767039b6604146038290bed",
+    ".gitignore": "1ac500826b56bb21e1190c708f231b29e385174a0b08bcd5fff0f1301582e301",
+    "README-do-case.md": "86d547b3cbe645299e9d61ed95248d04754e8cc3004110b22281c0031adc81fe",
+    "README.md": "86238c9d432680f5662c7998ad69ec712aa9c804359df57cec19249e46c85b62",
+    "anexos/LEIA-ME.md": "ba8cda8a3b53cfe12f82558e7645f0b0f6d40f71796ba21f22d120ff641c7ab7",
+    "anexos/entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+    "anexos/folha_verdade.csv": "c1412ce8d336ae248a2f0e46d8e34cbc07dd33c78af9ce6bbe1337c516ee8e3b",
+    "anexos/questoes.jsonl": "318f1fea970633a4d84eb5a4dd071b2ae76ad3e49288a073ab381f61a09da3f3",
+    "anexos/temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "artefatos/checkpoints/modulo1.json": "16b02a4651e23589b17457d3e41527cc18530bb47b75a7df4e05547c4f3451fb",
+    "artefatos/preparacao/diagnostico.json": "eb58f8268df276c097140567bef9fab4ac964c471dc84e2524ae2f06c97056f6",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+    "artefatos/preparacao/particoes.json": "9d744eb93612f132959b30806fcd8875c4f1100f6036e1d21336e3793437600c",
+    "artefatos/preparacao/questoes_preparadas.jsonl": "2675cce95e184952acfc8e17acc9cef7bd7eb8dc9bf229fff47dbc654b144329",
+    "artefatos/preparacao/rotulos_referencia.jsonl": "c08783afe6c144d5bca99c438bb7eae2326240e7110bb07e4e894eeaa1e029dc",
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "case-ia-classificacao-de-topicos (2).pdf": "c0637dfc4d6f97763f7927fe4e11b40974e91be2518df0780b6a5f3fb6036f06",
+    "classificacao_topicos/__init__.py": "68417cf2762743db73640322b2bd5bde605e32770a8c7093eb60909ec793755f",
+    "classificacao_topicos/__main__.py": "fb518d66b85a27b69b80be7b391b9cb08b467ac2ba8c80cd8ce1f9a016a212e7",
+    "classificacao_topicos/avaliacao.py": "f372dc133ebfc277ededa18da5a8b3e0eb9cc21dffd2a1567ccbb6d98aaac9cf",
+    "classificacao_topicos/dados.py": "688cba1a744596cd764ad51d50f3d9d5bdbc8b5d88402f6329213acc048ea908",
+    "classificacao_topicos/pipeline.py": "38a48342310c9fb8d2de5050125e6171b7a3254510ad7bfe4d016bd77ed4671e",
+    "classificacao_topicos/protocolo.py": "fa3894d0156065974c73db30e1b615196898858c6ed9698c43cf86437b2a0d35",
+    "classificacao_topicos/taxonomia.py": "f409f4585d193c162ed0414d388103c5b75c0c13973208267debd24addf15eb3",
+    "classificacao_topicos/texto.py": "973b71caecaf039b0440f037b8f55ba08781ab41939e73664f9d19b229c33e0e",
+    "config/fontes_oficiais.json": "858232c528174d9a36e24c6af1dd45ca853340ab49aa40ad0475f2dcbafa24a5",
+    "config/protocolo_avaliacao.json": "7dc8400592e7774725781e0596069ab7c7daac6953214aae9c5e4f009122bffc",
+    "config/reuso_codigo.json": "8c7b9e8d4986ddf6adec0fa61838d04327665d56eded106c6c45c73ca483fc17",
+    "docs/PLANO_EXECUCAO.md": "f7cc13e91afc17de06c2e0d55d012ef22e0aaf8a749976ed3873ad3675998a87",
+    "docs/PROTOCOLO_AVALIACAO.md": "1d220cde299295565cc5278e40f12124e1c7422b63aa747ec55384a0a43facd6",
+    "tests/test_dados.py": "34882102d559b978f3125c81045b57cb22e4cddbd8f0f9349bfdc9fdd7ce213c",
+    "tests/test_pipeline.py": "40cafa3f745cc5143a510701f5f60387ed02ec3735bb5b8463619f37e5130745",
+    "tests/test_protocolo.py": "84c4e45e723982a455e3e6c61f9684c729fb1eb61276e75b3f373fbe0a160716"
+  },
+  "arquivos_sha256_descricao": "Hashes dos 33 arquivos originais no momento da copia; adaptacoes posteriores estao listadas separadamente.",
+  "data": "2026-10-20",
+  "destino_relativo": "etapa-complementar",
+  "metodo": "Copia byte a byte dos arquivos versionados, sem metadados Git ou arquivos locais.",
+  "origem_commit": "03a6df601b8330fa9102c6347b06102b2f43840d",
+  "origem_repositorio_local": "case-vicio-ia-classificacao-topicos-v2",
+  "schema_version": 1,
+  "validacao_destino": {
+    "diretorio_execucao": "etapa-complementar",
+    "gitattributes": "Dados, codigo e manifestos assinados da subpasta preservam bytes.",
+    "gitignore": "Credenciais, ambiente virtual e temporarios da subpasta permanecem ignorados.",
+    "integridade": "32 arquivos permanecem identicos a origem; o README recebeu apenas a adaptacao de diretorio de execucao registrada acima.",
+    "testes": {
+      "comando": "python -B -X utf8 -m unittest discover -s tests -v",
+      "duracao_segundos": 138.339,
+      "erros": 0,
+      "falhas": 0,
+      "total": 33
+    },
+    "verificacao": {
+      "codigo_saida": 0,
+      "comando": "python -B -X utf8 -m classificacao_topicos verificar",
+      "questoes": 659,
+      "rotulos": 100
+    }
+  }
+}
