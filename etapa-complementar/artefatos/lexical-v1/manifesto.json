@@ -1,0 +1,44 @@
+{
+  "entradas_e_implementacao_sha256": {
+    "artefatos/preparacao/diagnostico.json": "eb58f8268df276c097140567bef9fab4ac964c471dc84e2524ae2f06c97056f6",
+    "artefatos/preparacao/manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+    "artefatos/preparacao/particoes.json": "9d744eb93612f132959b30806fcd8875c4f1100f6036e1d21336e3793437600c",
+    "artefatos/preparacao/questoes_preparadas.jsonl": "2675cce95e184952acfc8e17acc9cef7bd7eb8dc9bf229fff47dbc654b144329",
+    "artefatos/preparacao/rotulos_referencia.jsonl": "c08783afe6c144d5bca99c438bb7eae2326240e7110bb07e4e894eeaa1e029dc",
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "classificacao_local/__init__.py": "0255a30961885c94ffc75cb999c0dccd3e34f579c3e6f67f9aee81a50267ae08",
+    "classificacao_local/__main__.py": "d72456574550fc4311230ce760ecb1d3f4c0f59405bd8097119c80058f886ab2",
+    "classificacao_local/citacoes.py": "ccdcdd40de9e5e91bcaa341f0eee09fabd460b793873b232f8857f9f18762833",
+    "classificacao_local/classificador.py": "7ef510c18484a731e5dcb268ba62167a80891ff84747864c6ddfc6a47efd5447",
+    "classificacao_local/experimento.py": "9bee5bf6d554647f8d9986226ab4a2460db2d54a90a0e2f07781a31683a87224",
+    "classificacao_local/lexical.py": "0a2cccc59d4813a9ec38886ebca2f846f5a1c8d88d3eac02e86ac3c4d35b6ab6",
+    "config/modulo2/experimento_lexical.json": "af39cab5ffa547e78d9a82a24dbc87e03821fc0ea3e8018f226a5fdea6b4b004",
+    "config/modulo2/protocolo_desenvolvimento.json": "9c2f045888dd931024e0d9f2a8cc9c667716f216bbf0663e717fafdf017ced90"
+  },
+  "fontes_sha256": {
+    "README-do-case.md": "86d547b3cbe645299e9d61ed95248d04754e8cc3004110b22281c0031adc81fe",
+    "anexos/LEIA-ME.md": "ba8cda8a3b53cfe12f82558e7645f0b0f6d40f71796ba21f22d120ff641c7ab7",
+    "anexos/entrega_modelo.csv": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76",
+    "anexos/folha_verdade.csv": "c1412ce8d336ae248a2f0e46d8e34cbc07dd33c78af9ce6bbe1337c516ee8e3b",
+    "anexos/questoes.jsonl": "318f1fea970633a4d84eb5a4dd071b2ae76ad3e49288a073ab381f61a09da3f3",
+    "anexos/temas.csv": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc",
+    "case-ia-classificacao-de-topicos (2).pdf": "c0637dfc4d6f97763f7927fe4e11b40974e91be2518df0780b6a5f3fb6036f06"
+  },
+  "modelo_de_linguagem_utilizado": false,
+  "origem_rotulos": "anexos/folha_verdade.csv",
+  "preparacao_manifesto_sha256": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+  "procedimento": "desenvolvimento-lexical-v1",
+  "produtos_sha256": {
+    "metricas_desenvolvimento.json": "cb85494745bbeb01d69cac4fc2e57c4f2e5df9b7df1edb48a680643bc4065d4c",
+    "modelo_lexical.json": "39b60110211f49f840432e2fb49e050b26871cfcc8586b4c770405f01576dbc7",
+    "modelo_lexical_leis.json": "97e52d8b929689fa16e951d9a5ed2d0dda0246068088f9644ab829d1ade9fad1",
+    "predicoes_desenvolvimento.jsonl": "fd5679016489a59bc71c2bb6949426b3abdb101640e79336416c13b654e2b1a5",
+    "protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "sugestoes_avaliacao.jsonl": "02ecabecfceb49cb9e485893e24d84ad2675656536cb2165bb117ed58ebc179a"
+  },
+  "receita_selecionada": "lexical",
+  "rede_necessaria": false,
+  "reserva_inferida_ou_avaliada": false,
+  "upstream_commit": "0264e4ca2afd7afebdd45f542784e6079ee804ca",
+  "versao": 1
+}

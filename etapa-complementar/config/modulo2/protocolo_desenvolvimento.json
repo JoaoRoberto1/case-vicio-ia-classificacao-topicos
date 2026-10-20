@@ -1,0 +1,19 @@
+{
+  "versao": 2,
+  "registrado_em": "2026-10-20",
+  "momento": "Antes de executar a primeira medição do classificador local.",
+  "particao_externa_reservada": 1,
+  "contagens": {
+    "desenvolvimento": 80,
+    "reserva": 20,
+    "avaliacao": 559,
+    "particoes_internas": 3
+  },
+  "preparacao_sha256": {
+    "particoes.json": "9d744eb93612f132959b30806fcd8875c4f1100f6036e1d21336e3793437600c",
+    "manifesto.json": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93"
+  },
+  "uso_reserva": "Somente validação estrutural neste módulo. Sem treino, inferência, seleção ou avaliação; abrir uma vez no módulo 4, após congelar a receita completa.",
+  "uso_desenvolvimento": "Medições fora da amostra nas três partições internas; estimativas exploratórias sujeitas a viés de seleção.",
+  "uso_avaliacao": "Sugestões intermediárias para as 559 questões sem rótulo, sem decisão de publicação."
+}

@@ -1,0 +1,32 @@
+{
+  "versao": 1,
+  "top_k": 5,
+  "criterio_selecao": ["acertos_ramo_decrescente", "acertos_exato_decrescente", "receita_id_crescente"],
+  "limiares_diagnosticos_score": [0.0, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75],
+  "receitas": {
+    "lexical": {
+      "peso_catalogo": 0.7,
+      "peso_exemplos": 0.3,
+      "peso_leis": 0.0,
+      "k_vizinhos": 3,
+      "peso_enunciado": 2,
+      "peso_comando": 2,
+      "peso_alternativas": 1,
+      "peso_titulo": 3,
+      "peso_caminho": 1,
+      "peso_descricao": 1
+    },
+    "lexical_leis": {
+      "peso_catalogo": 0.6,
+      "peso_exemplos": 0.3,
+      "peso_leis": 0.1,
+      "k_vizinhos": 3,
+      "peso_enunciado": 2,
+      "peso_comando": 2,
+      "peso_alternativas": 1,
+      "peso_titulo": 3,
+      "peso_caminho": 1,
+      "peso_descricao": 1
+    }
+  }
+}

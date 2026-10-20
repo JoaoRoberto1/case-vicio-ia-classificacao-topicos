@@ -1,0 +1,642 @@
+{
+  "criterio_selecao": [
+    "acertos_ramo_decrescente",
+    "acertos_exato_decrescente",
+    "receita_id_crescente"
+  ],
+  "curva_define_publicacao": false,
+  "natureza": "Exploratória. A seleção usa estas mesmas métricas; não é teste final.",
+  "questoes_avaliacao_sem_rotulo": 559,
+  "receita_selecionada": "lexical",
+  "receitas": {
+    "lexical": {
+      "central_nao_visto_treino_dentro_taxonomia": {
+        "acertos": {
+          "exato": 6,
+          "imediato": 14,
+          "ramo": 14
+        },
+        "acertos_top_k_ramo": 32,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.6808510638297872,
+        "taxas_acerto": {
+          "exato": 0.1276595744680851,
+          "imediato": 0.2978723404255319,
+          "ramo": 0.2978723404255319
+        },
+        "total": 47
+      },
+      "central_visto_treino": {
+        "acertos": {
+          "exato": 12,
+          "imediato": 17,
+          "ramo": 17
+        },
+        "acertos_top_k_ramo": 25,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.9259259259259259,
+        "taxas_acerto": {
+          "exato": 0.4444444444444444,
+          "imediato": 0.6296296296296297,
+          "ramo": 0.6296296296296297
+        },
+        "total": 27
+      },
+      "curva_diagnostica_score": [
+        {
+          "acertos": {
+            "exato": 18,
+            "imediato": 31,
+            "ramo": 31
+          },
+          "acertos_top_k_ramo": 57,
+          "fracao_retida": 1.0,
+          "limiar": 0.0,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.7125,
+          "taxas_acerto": {
+            "exato": 0.225,
+            "imediato": 0.3875,
+            "ramo": 0.3875
+          },
+          "total": 80
+        },
+        {
+          "acertos": {
+            "exato": 17,
+            "imediato": 28,
+            "ramo": 28
+          },
+          "acertos_top_k_ramo": 38,
+          "fracao_retida": 0.6125,
+          "limiar": 0.15,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.7755102040816326,
+          "taxas_acerto": {
+            "exato": 0.3469387755102041,
+            "imediato": 0.5714285714285714,
+            "ramo": 0.5714285714285714
+          },
+          "total": 49
+        },
+        {
+          "acertos": {
+            "exato": 8,
+            "imediato": 12,
+            "ramo": 12
+          },
+          "acertos_top_k_ramo": 13,
+          "fracao_retida": 0.2125,
+          "limiar": 0.25,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.7647058823529411,
+          "taxas_acerto": {
+            "exato": 0.47058823529411764,
+            "imediato": 0.7058823529411765,
+            "ramo": 0.7058823529411765
+          },
+          "total": 17
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 1,
+            "ramo": 1
+          },
+          "acertos_top_k_ramo": 1,
+          "fracao_retida": 0.0125,
+          "limiar": 0.35,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 1.0,
+          "taxas_acerto": {
+            "exato": 0.0,
+            "imediato": 1.0,
+            "ramo": 1.0
+          },
+          "total": 1
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.45,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.55,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.65,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.75,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        }
+      ],
+      "dentro_taxonomia": {
+        "acertos": {
+          "exato": 18,
+          "imediato": 31,
+          "ramo": 31
+        },
+        "acertos_top_k_ramo": 57,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.7702702702702703,
+        "taxas_acerto": {
+          "exato": 0.24324324324324326,
+          "imediato": 0.4189189189189189,
+          "ramo": 0.4189189189189189
+        },
+        "total": 74
+      },
+      "fora_taxonomia": {
+        "acertos": {
+          "exato": 0,
+          "imediato": 0,
+          "ramo": 0
+        },
+        "acertos_top_k_ramo": 0,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.0,
+        "taxas_acerto": {
+          "exato": 0.0,
+          "imediato": 0.0,
+          "ramo": 0.0
+        },
+        "total": 6
+      },
+      "geral": {
+        "acertos": {
+          "exato": 18,
+          "imediato": 31,
+          "ramo": 31
+        },
+        "acertos_top_k_ramo": 57,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.7125,
+        "taxas_acerto": {
+          "exato": 0.225,
+          "imediato": 0.3875,
+          "ramo": 0.3875
+        },
+        "total": 80
+      },
+      "por_disciplina": {
+        "Criminologia": {
+          "acertos": {
+            "exato": 0,
+            "imediato": 1,
+            "ramo": 1
+          },
+          "acertos_top_k_ramo": 6,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.75,
+          "taxas_acerto": {
+            "exato": 0.0,
+            "imediato": 0.125,
+            "ramo": 0.125
+          },
+          "total": 8
+        },
+        "Direito Penal - Legislação Especial": {
+          "acertos": {
+            "exato": 4,
+            "imediato": 5,
+            "ramo": 5
+          },
+          "acertos_top_k_ramo": 9,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.9,
+          "taxas_acerto": {
+            "exato": 0.4,
+            "imediato": 0.5,
+            "ramo": 0.5
+          },
+          "total": 10
+        },
+        "Penal": {
+          "acertos": {
+            "exato": 6,
+            "imediato": 15,
+            "ramo": 15
+          },
+          "acertos_top_k_ramo": 24,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.75,
+          "taxas_acerto": {
+            "exato": 0.1875,
+            "imediato": 0.46875,
+            "ramo": 0.46875
+          },
+          "total": 32
+        },
+        "Processo Penal": {
+          "acertos": {
+            "exato": 8,
+            "imediato": 10,
+            "ramo": 10
+          },
+          "acertos_top_k_ramo": 18,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.75,
+          "taxas_acerto": {
+            "exato": 0.3333333333333333,
+            "imediato": 0.4166666666666667,
+            "ramo": 0.4166666666666667
+          },
+          "total": 24
+        },
+        "fora": {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.0,
+          "taxas_acerto": {
+            "exato": 0.0,
+            "imediato": 0.0,
+            "ramo": 0.0
+          },
+          "total": 6
+        }
+      }
+    },
+    "lexical_leis": {
+      "central_nao_visto_treino_dentro_taxonomia": {
+        "acertos": {
+          "exato": 6,
+          "imediato": 14,
+          "ramo": 14
+        },
+        "acertos_top_k_ramo": 29,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.6170212765957447,
+        "taxas_acerto": {
+          "exato": 0.1276595744680851,
+          "imediato": 0.2978723404255319,
+          "ramo": 0.2978723404255319
+        },
+        "total": 47
+      },
+      "central_visto_treino": {
+        "acertos": {
+          "exato": 12,
+          "imediato": 17,
+          "ramo": 17
+        },
+        "acertos_top_k_ramo": 25,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.9259259259259259,
+        "taxas_acerto": {
+          "exato": 0.4444444444444444,
+          "imediato": 0.6296296296296297,
+          "ramo": 0.6296296296296297
+        },
+        "total": 27
+      },
+      "curva_diagnostica_score": [
+        {
+          "acertos": {
+            "exato": 18,
+            "imediato": 31,
+            "ramo": 31
+          },
+          "acertos_top_k_ramo": 54,
+          "fracao_retida": 1.0,
+          "limiar": 0.0,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.675,
+          "taxas_acerto": {
+            "exato": 0.225,
+            "imediato": 0.3875,
+            "ramo": 0.3875
+          },
+          "total": 80
+        },
+        {
+          "acertos": {
+            "exato": 16,
+            "imediato": 26,
+            "ramo": 26
+          },
+          "acertos_top_k_ramo": 33,
+          "fracao_retida": 0.55,
+          "limiar": 0.15,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.75,
+          "taxas_acerto": {
+            "exato": 0.36363636363636365,
+            "imediato": 0.5909090909090909,
+            "ramo": 0.5909090909090909
+          },
+          "total": 44
+        },
+        {
+          "acertos": {
+            "exato": 8,
+            "imediato": 10,
+            "ramo": 10
+          },
+          "acertos_top_k_ramo": 11,
+          "fracao_retida": 0.1875,
+          "limiar": 0.25,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.7333333333333333,
+          "taxas_acerto": {
+            "exato": 0.5333333333333333,
+            "imediato": 0.6666666666666666,
+            "ramo": 0.6666666666666666
+          },
+          "total": 15
+        },
+        {
+          "acertos": {
+            "exato": 1,
+            "imediato": 1,
+            "ramo": 1
+          },
+          "acertos_top_k_ramo": 1,
+          "fracao_retida": 0.0125,
+          "limiar": 0.35,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 1.0,
+          "taxas_acerto": {
+            "exato": 1.0,
+            "imediato": 1.0,
+            "ramo": 1.0
+          },
+          "total": 1
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.45,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.55,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.65,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        },
+        {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "fracao_retida": 0.0,
+          "limiar": 0.75,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": null,
+          "taxas_acerto": {
+            "exato": null,
+            "imediato": null,
+            "ramo": null
+          },
+          "total": 0
+        }
+      ],
+      "dentro_taxonomia": {
+        "acertos": {
+          "exato": 18,
+          "imediato": 31,
+          "ramo": 31
+        },
+        "acertos_top_k_ramo": 54,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.7297297297297297,
+        "taxas_acerto": {
+          "exato": 0.24324324324324326,
+          "imediato": 0.4189189189189189,
+          "ramo": 0.4189189189189189
+        },
+        "total": 74
+      },
+      "fora_taxonomia": {
+        "acertos": {
+          "exato": 0,
+          "imediato": 0,
+          "ramo": 0
+        },
+        "acertos_top_k_ramo": 0,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.0,
+        "taxas_acerto": {
+          "exato": 0.0,
+          "imediato": 0.0,
+          "ramo": 0.0
+        },
+        "total": 6
+      },
+      "geral": {
+        "acertos": {
+          "exato": 18,
+          "imediato": 31,
+          "ramo": 31
+        },
+        "acertos_top_k_ramo": 54,
+        "sem_evidencia": 0,
+        "taxa_top_k_ramo": 0.675,
+        "taxas_acerto": {
+          "exato": 0.225,
+          "imediato": 0.3875,
+          "ramo": 0.3875
+        },
+        "total": 80
+      },
+      "por_disciplina": {
+        "Criminologia": {
+          "acertos": {
+            "exato": 0,
+            "imediato": 1,
+            "ramo": 1
+          },
+          "acertos_top_k_ramo": 5,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.625,
+          "taxas_acerto": {
+            "exato": 0.0,
+            "imediato": 0.125,
+            "ramo": 0.125
+          },
+          "total": 8
+        },
+        "Direito Penal - Legislação Especial": {
+          "acertos": {
+            "exato": 4,
+            "imediato": 5,
+            "ramo": 5
+          },
+          "acertos_top_k_ramo": 8,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.8,
+          "taxas_acerto": {
+            "exato": 0.4,
+            "imediato": 0.5,
+            "ramo": 0.5
+          },
+          "total": 10
+        },
+        "Penal": {
+          "acertos": {
+            "exato": 6,
+            "imediato": 15,
+            "ramo": 15
+          },
+          "acertos_top_k_ramo": 23,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.71875,
+          "taxas_acerto": {
+            "exato": 0.1875,
+            "imediato": 0.46875,
+            "ramo": 0.46875
+          },
+          "total": 32
+        },
+        "Processo Penal": {
+          "acertos": {
+            "exato": 8,
+            "imediato": 10,
+            "ramo": 10
+          },
+          "acertos_top_k_ramo": 18,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.75,
+          "taxas_acerto": {
+            "exato": 0.3333333333333333,
+            "imediato": 0.4166666666666667,
+            "ramo": 0.4166666666666667
+          },
+          "total": 24
+        },
+        "fora": {
+          "acertos": {
+            "exato": 0,
+            "imediato": 0,
+            "ramo": 0
+          },
+          "acertos_top_k_ramo": 0,
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.0,
+          "taxas_acerto": {
+            "exato": 0.0,
+            "imediato": 0.0,
+            "ramo": 0.0
+          },
+          "total": 6
+        }
+      }
+    }
+  },
+  "referencias_desenvolvimento": {
+    "centrais_distintos": 55,
+    "fora": 6,
+    "total": 80
+  },
+  "reservados_sem_predicao": 20,
+  "score_e_probabilidade": false,
+  "top_k": 5,
+  "versao": 1
+}

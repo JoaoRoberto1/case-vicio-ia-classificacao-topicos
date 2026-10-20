@@ -1,6 +1,6 @@
 # Case Vício — Classificação de tópicos
 
-**Trabalho atual: etapa complementar, com 659 questões e 100 referências humanas.** O módulo 1 e todos os materiais atualizados estão em [etapa-complementar](etapa-complementar/README.md), dentro deste repositório.
+**Trabalho atual: etapa complementar, com 659 questões e 100 referências humanas.** A preparação e o primeiro classificador local estão em [etapa-complementar](etapa-complementar/README.md), dentro deste repositório. O [módulo 2](etapa-complementar/docs/MODULO2_CLASSIFICADOR.md) registra a comparação inicial; as próximas etapas tratam de melhorias, calibração e entrega.
 
 O [plano dos cinco módulos](etapa-complementar/docs/PLANO_EXECUCAO.md) e o [protocolo de avaliação](etapa-complementar/docs/PROTOCOLO_AVALIACAO.md) orientam a continuação. A [folha-verdade](etapa-complementar/anexos/folha_verdade.csv), as [659 questões](etapa-complementar/anexos/questoes.jsonl), o [novo enunciado](<etapa-complementar/case-ia-classificacao-de-topicos (2).pdf>) e os demais anexos foram importados junto com o módulo 1 já validado.
 
@@ -9,6 +9,7 @@ Para executar a etapa complementar, entre na pasta correspondente:
 ```console
 cd etapa-complementar
 python -B -m classificacao_topicos verificar
+python -B -m classificacao_local verificar --saida artefatos/lexical-v1
 python -B -m unittest discover -s tests -v
 ```
 

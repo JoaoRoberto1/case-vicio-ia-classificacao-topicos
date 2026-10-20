@@ -7,3 +7,4 @@
 /artefatos/** -text
 /config/** -text
 /classificacao_topicos/** -text
+/classificacao_local/** -text

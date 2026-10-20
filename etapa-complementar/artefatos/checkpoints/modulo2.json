@@ -1,0 +1,126 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "implementacao": "CPython",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "artefatos_sha256": {
+    "manifesto.json": "11eb270ec070e2cd77af590fc5e3d06af66ee6f3a0c369bb4d2fb2b5872d8a0e",
+    "metricas_desenvolvimento.json": "cb85494745bbeb01d69cac4fc2e57c4f2e5df9b7df1edb48a680643bc4065d4c",
+    "modelo_lexical.json": "39b60110211f49f840432e2fb49e050b26871cfcc8586b4c770405f01576dbc7",
+    "modelo_lexical_leis.json": "97e52d8b929689fa16e951d9a5ed2d0dda0246068088f9644ab829d1ade9fad1",
+    "predicoes_desenvolvimento.jsonl": "fd5679016489a59bc71c2bb6949426b3abdb101640e79336416c13b654e2b1a5",
+    "protocolo.json": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4",
+    "sugestoes_avaliacao.jsonl": "02ecabecfceb49cb9e485893e24d84ad2675656536cb2165bb117ed58ebc179a"
+  },
+  "chamadas_api": 0,
+  "cli": {
+    "experimento": {
+      "comando": "python -B -m classificacao_local experimentar --saida artefatos/lexical-v1",
+      "exit_code": 0,
+      "motivo_tempo_nulo": "Primeira execucao nao instrumentada.",
+      "segundos": null
+    },
+    "verificacao": {
+      "arquivos_reconstruidos_identicos": 7,
+      "comando": "python -B -m classificacao_local verificar --saida artefatos/lexical-v1",
+      "exit_code": 0,
+      "rede_e_leitura_env_bloqueadas_por_audit_hook": true,
+      "segundos": 83.159
+    }
+  },
+  "commit_ou_push_executado": false,
+  "contagens": {
+    "avaliacao": 559,
+    "desenvolvimento": 80,
+    "particoes_internas": 3,
+    "predicoes_desenvolvimento": 160,
+    "reserva": 20,
+    "sugestoes_avaliacao": 559
+  },
+  "controles_artefatos": {
+    "candidatos_ativos_abaixo_raiz": true,
+    "cobertura_oof_uma_por_receita": true,
+    "modelos_treinados_somente_desenvolvimento": true,
+    "reserva_sem_inferencia": true,
+    "sem_confianca_ou_decisao_final": true,
+    "sem_ressubstituicao": true,
+    "vizinhos_restritos_ao_treino": true
+  },
+  "data": "2026-10-20",
+  "estado": "concluido",
+  "limites": [
+    "Metricas de desenvolvimento exploratorias; nao estimam publicacao final.",
+    "Reserva de 20 ainda sem inferencia ou avaliacao.",
+    "Nao ha rotulos nas 300 questoes recentes.",
+    "Calibracao, politica de publicacao e entrega final pendentes.",
+    "Reproducao byte a byte validada no ambiente registrado; outras plataformas ainda nao testadas.",
+    "Usar um processo por diretorio de saida."
+  ],
+  "modelo_de_linguagem_utilizado": false,
+  "modulo": 2,
+  "preparacao_manifesto_sha256": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93",
+  "proxima_etapa": "Modulo 3: experimentos de melhoria nas 80 referencias, preservando a reserva.",
+  "receita_selecionada": "lexical",
+  "resultados_exploratorios": {
+    "lexical": {
+      "acertos": {
+        "exato": 18,
+        "imediato": 31,
+        "ramo": 31
+      },
+      "acertos_top_k_ramo": 57,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.7125,
+      "taxas_acerto": {
+        "exato": 0.225,
+        "imediato": 0.3875,
+        "ramo": 0.3875
+      },
+      "total": 80
+    },
+    "lexical_leis": {
+      "acertos": {
+        "exato": 18,
+        "imediato": 31,
+        "ramo": 31
+      },
+      "acertos_top_k_ramo": 54,
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.225,
+        "imediato": 0.3875,
+        "ramo": 0.3875
+      },
+      "total": 80
+    }
+  },
+  "revisao_sintetica_adicional": {
+    "json_roundtrip_identico": true,
+    "permutacoes_ordem": 40,
+    "sementes_hash": [
+      1,
+      987654
+    ]
+  },
+  "testes": {
+    "execucoes": [
+      {
+        "comando": "python -B -m unittest discover -s tests -v",
+        "observacao": "Executado antes da inclusao de test_experimento.py; inclui 33 testes M1, 16 de citacoes e 23 do motor.",
+        "segundos": 210.714,
+        "testes": 72
+      },
+      {
+        "comando": "python -B -m unittest discover -s tests -p test_experimento.py -v",
+        "segundos": 0.599,
+        "testes": 15
+      }
+    ],
+    "falhas": 0,
+    "pulados": 0,
+    "total_sem_repeticao": 87
+  }
+}
