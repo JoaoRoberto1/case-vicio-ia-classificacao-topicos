@@ -1,0 +1,3095 @@
+{
+  "schema": "enriquecimento_catalogo_m7_v1",
+  "disciplina": "Penal",
+  "procedimento": "LLM_preparacao_somente_taxonomia",
+  "questoes_ou_rotulos_consultados": false,
+  "registros": [
+    {
+      "tema_id": "6716",
+      "descricao": "Abuso do poder atribuído ao agente público no exercício da função ou a pretexto de exercê-la. Abrange os tipos específicos de abuso de autoridade e suas finalidades, sem equiparar mera divergência interpretativa a crime.",
+      "termos": [
+        "abuso de autoridade",
+        "agente público",
+        "finalidade específica",
+        "capricho",
+        "satisfação pessoal",
+        "abuso de poder",
+        "ilegalidade funcional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5063",
+      "descricao": "Titularidade e condições de exercício da pretensão punitiva mediante ação penal pública ou privada. O título é compartilhado com a disciplina processual e não estabelece sozinho uma fronteira temática exclusiva.",
+      "termos": [
+        "titular da ação",
+        "ação pública",
+        "ação privada",
+        "representação",
+        "requisição",
+        "queixa",
+        "denúncia"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5065",
+      "descricao": "Iniciativa da persecução penal atribuída ao ofendido ou a seu representante mediante queixa. Inclui renúncia, perdão e iniciativa subsidiária, sem presumir recorte diverso do tema homônimo processual.",
+      "termos": [
+        "queixa-crime",
+        "querelante",
+        "ofendido",
+        "ação privada",
+        "renúncia",
+        "perdão",
+        "ação subsidiária"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5064",
+      "descricao": "Ação penal cuja titularidade pertence ao Ministério Público, com modalidade incondicionada ou dependente de condição legal. O título não define separação exclusiva em relação ao tema processual homônimo.",
+      "termos": [
+        "Ministério Público",
+        "denúncia",
+        "representação do ofendido",
+        "requisição",
+        "ação incondicionada",
+        "ação condicionada"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5066",
+      "descricao": "Tratamento da pluralidade de infrações praticadas pelo agente e de suas consequências na aplicação das penas. Compreende concurso material, concurso formal e continuidade delitiva.",
+      "termos": [
+        "pluralidade de crimes",
+        "concurso material",
+        "concurso formal",
+        "crime continuado",
+        "cumulação de penas",
+        "exasperação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5068",
+      "descricao": "Pluralidade de crimes decorrente de uma só ação ou omissão, com tratamento distinto conforme a autonomia dos desígnios. Examina a unidade de conduta e o cálculo da sanção.",
+      "termos": [
+        "uma só ação",
+        "uma só omissão",
+        "concurso formal próprio",
+        "concurso formal impróprio",
+        "desígnios autônomos",
+        "exasperação",
+        "concurso material benéfico"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5067",
+      "descricao": "Pluralidade de crimes produzida por mais de uma ação ou omissão, submetida à aplicação cumulativa das penas. Examina a soma das sanções relativas aos delitos concorrentes.",
+      "termos": [
+        "mais de uma ação",
+        "pluralidade de condutas",
+        "cumulação de penas",
+        "soma das penas",
+        "concurso homogêneo",
+        "concurso heterogêneo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5069",
+      "descricao": "Tratamento unitário para fins de pena de crimes da mesma espécie ligados pelas condições legais de continuidade. Compreende a relação entre modo de execução, tempo, lugar e continuidade delitiva.",
+      "termos": [
+        "continuidade delitiva",
+        "crimes da mesma espécie",
+        "condições de tempo",
+        "condições de lugar",
+        "modo de execução",
+        "crime continuado específico",
+        "exasperação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5070",
+      "descricao": "Incidência das multas quando há pluralidade de infrações e relação entre cumulação pecuniária e regimes de concurso. O objeto é o cálculo da multa no concurso, não a pena pecuniária isoladamente.",
+      "termos": [
+        "multas distintas",
+        "multa no concurso",
+        "cumulação pecuniária",
+        "concurso material",
+        "concurso formal",
+        "continuidade delitiva"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5071",
+      "descricao": "Responsabilidade de várias pessoas que contribuem para a mesma infração, segundo a contribuição e culpabilidade de cada uma. Abrange vínculo subjetivo, autoria, participação e circunstâncias pessoais.",
+      "termos": [
+        "concurso de agentes",
+        "liame subjetivo",
+        "coautoria",
+        "participação",
+        "contribuição causal",
+        "teoria monista",
+        "culpabilidade individual"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&from=feed&livre=0681.cod."
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5072",
+      "descricao": "Distinção entre realização autoral da infração e contribuição acessória para o fato alheio. Examina os critérios de autoria e de participação sem presumir responsabilidade pela mera posição hierárquica.",
+      "termos": [
+        "autor",
+        "partícipe",
+        "executor",
+        "domínio do fato",
+        "auxílio material",
+        "induzimento",
+        "instigação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&from=feed&livre=0681.cod."
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5073",
+      "descricao": "Formas de autoria que envolvem atuação por intermédio de outra pessoa, execução conjunta ou atuações paralelas sem acordo subjetivo. Examina a estrutura da contribuição de cada agente.",
+      "termos": [
+        "autoria mediata",
+        "autor imediato",
+        "coautoria",
+        "autoria colateral",
+        "divisão de tarefas",
+        "domínio da vontade",
+        "domínio funcional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&from=feed&livre=0681.cod."
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5076",
+      "descricao": "Possibilidade de repercussão entre concorrentes das circunstâncias do fato, condições pessoais e elementos constitutivos do delito. Distingue dado pessoal de elementar do tipo.",
+      "termos": [
+        "comunicabilidade",
+        "incomunicabilidade",
+        "circunstância pessoal",
+        "elementar do crime",
+        "condição pessoal",
+        "concurso de agentes",
+        "circunstância objetiva"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5075",
+      "descricao": "Responsabilidade do concorrente cuja vontade se dirige a infração menos grave que a praticada por outro agente. Examina o desvio subjetivo e a previsibilidade do resultado mais grave.",
+      "termos": [
+        "cooperação dolosamente distinta",
+        "desvio subjetivo",
+        "crime menos grave",
+        "resultado previsível",
+        "excesso do comparsa",
+        "concurso de pessoas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5074",
+      "descricao": "Contribuição para infração de outro agente por induzimento, instigação ou auxílio. Abrange acessoriedade e participação de menor importância.",
+      "termos": [
+        "induzimento",
+        "instigação",
+        "cumplicidade",
+        "auxílio material",
+        "acessoriedade",
+        "participação de menor importância",
+        "partícipe"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&from=feed&livre=0681.cod."
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6717",
+      "descricao": "Infrações penais que atingem fauna, flora, qualidade ambiental, ordenamento urbano ou administração ambiental. Abrange responsabilidade de pessoas físicas e jurídicas e sanções previstas na legislação ambiental.",
+      "termos": [
+        "crimes ambientais",
+        "fauna",
+        "flora",
+        "poluição",
+        "licenciamento ambiental",
+        "responsabilidade da pessoa jurídica",
+        "Lei 9.605",
+        "dano ambiental"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5077",
+      "descricao": "Ofensa à integridade corporal ou à saúde de outra pessoa, com modalidades diferenciadas pela gravidade, resultado e contexto. Inclui lesão dolosa, culposa e em situação de violência doméstica.",
+      "termos": [
+        "lesão corporal",
+        "integridade física",
+        "saúde da vítima",
+        "lesão grave",
+        "lesão gravíssima",
+        "lesão seguida de morte",
+        "lesão culposa",
+        "violência doméstica"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5079",
+      "descricao": "Infrações que prejudicam a atuação da Justiça, a autenticidade da prova, a execução de decisões ou a persecução penal. Abrange falsidades na comunicação de delitos e interferências indevidas no processo.",
+      "termos": [
+        "administração da justiça",
+        "denunciação caluniosa",
+        "falso testemunho",
+        "fraude processual",
+        "favorecimento pessoal",
+        "coação no processo",
+        "fuga de preso"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5080",
+      "descricao": "Falsidades que provocam atuação estatal contra pessoa sabidamente inocente, comunicam infração inexistente ou atribuem falsamente crime ao próprio declarante. Distinguem-se pelo conteúdo e destinatário da falsa imputação.",
+      "termos": [
+        "denunciação caluniosa",
+        "comunicação falsa",
+        "autoacusação falsa",
+        "inocência conhecida",
+        "provocação da autoridade",
+        "crime inexistente"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5082",
+      "descricao": "Realização de justiça pelas próprias mãos para satisfazer pretensão, ainda que legítima, fora das hipóteses permitidas. O núcleo é substituir indevidamente a tutela estatal por autotutela.",
+      "termos": [
+        "justiça pelas próprias mãos",
+        "autotutela",
+        "pretensão legítima",
+        "exercício arbitrário",
+        "próprias razões",
+        "satisfação de pretensão"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5085",
+      "descricao": "Título histórico ligado ao exercício arbitrário ou abuso de poder na administração da Justiça. O dispositivo correspondente do Código Penal foi revogado pela Lei de Abuso de Autoridade, de modo que o título não fornece recorte vigente inequívoco.",
+      "termos": [
+        "exercício arbitrário",
+        "abuso de poder",
+        "abuso de autoridade",
+        "administração da justiça",
+        "tipo revogado",
+        "constrangimento ilegal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5081",
+      "descricao": "Alteração deliberada da verdade por testemunha, perito, tradutor ou intérprete e oferta de vantagem para obter essa falsidade. Examina a veracidade do depoimento, da perícia e a corrupção de quem produz a prova.",
+      "termos": [
+        "falso testemunho",
+        "falsa perícia",
+        "afirmação falsa",
+        "calar a verdade",
+        "perito",
+        "testemunha",
+        "corrupção de testemunha",
+        "tradutor"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5084",
+      "descricao": "Auxílio posterior ao crime dirigido à fuga do autor da ação da autoridade ou à segurança do proveito da infração. Distingue proteção da pessoa do criminoso de proteção do produto do crime.",
+      "termos": [
+        "favorecimento pessoal",
+        "favorecimento real",
+        "auxílio posterior",
+        "subtrair à autoridade",
+        "proveito do crime",
+        "proteção do criminoso"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5083",
+      "descricao": "Inovação artificial de situação relevante para processo com propósito de induzir juiz ou perito em erro. Abrange alteração de lugar, coisa ou pessoa relacionada à prova.",
+      "termos": [
+        "fraude processual",
+        "inovação artificiosa",
+        "induzir juiz em erro",
+        "induzir perito em erro",
+        "alteração do local",
+        "manipulação da prova"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5086",
+      "descricao": "Categoria residual de infrações contra a administração da Justiça, incluindo interferência no processo, fuga, patrocínio infiel e descumprimentos específicos. O título não permite delimitar exaustivamente quais espécies ficaram fora dos demais nós.",
+      "termos": [
+        "administração da justiça",
+        "coação no curso do processo",
+        "fuga de preso",
+        "patrocínio infiel",
+        "arrebatamento de preso",
+        "exploração de prestígio"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5087",
+      "descricao": "Proteção penal da probidade e do funcionamento da administração pública diante de condutas de funcionários e particulares. Inclui desvios patrimoniais, vantagens indevidas e afrontas à atividade administrativa.",
+      "termos": [
+        "funcionário público",
+        "peculato",
+        "concussão",
+        "corrupção",
+        "prevaricação",
+        "desobediência",
+        "probidade administrativa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6718",
+      "descricao": "Proteção penal da probidade e do funcionamento da administração pública, abrangendo condutas de funcionários e particulares. A indicação Parte 1 não revela uma divisão material verificável em relação à Parte 2.",
+      "termos": [
+        "funcionário público",
+        "peculato",
+        "concussão",
+        "corrupção",
+        "prevaricação",
+        "desobediência",
+        "probidade administrativa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5097",
+      "descricao": "Patrocínio de interesse privado perante a administração pública por funcionário que se vale dessa qualidade. Examina a utilização da função para defender interesse particular.",
+      "termos": [
+        "advocacia administrativa",
+        "patrocinar interesse privado",
+        "qualidade de funcionário",
+        "interesse ilegítimo",
+        "administração pública",
+        "intermediação funcional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5091",
+      "descricao": "Exigência de vantagem indevida em razão da função e exigência ou cobrança abusiva de tributo ou contribuição. Distingue imposição de vantagem funcional de excesso na exação tributária.",
+      "termos": [
+        "concussão",
+        "excesso de exação",
+        "exigir vantagem",
+        "tributo indevido",
+        "contribuição social",
+        "meio vexatório",
+        "cobrança gravosa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5096",
+      "descricao": "Indulgência funcional perante infração de subordinado, mediante falta de responsabilização ou de comunicação à autoridade competente. O foco está na omissão de fiscalização motivada por tolerância indevida.",
+      "termos": [
+        "condescendência criminosa",
+        "indulgência",
+        "infração do subordinado",
+        "responsabilização funcional",
+        "comunicação à autoridade",
+        "dever de apurar"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5094",
+      "descricao": "Infrações relativas à entrada ou saída de mercadorias proibidas ou à evasão de tributos no comércio exterior. Distingue a proibição da mercadoria da frustração do pagamento de direitos aduaneiros.",
+      "termos": [
+        "contrabando",
+        "descaminho",
+        "mercadoria proibida",
+        "importação",
+        "exportação",
+        "tributos aduaneiros",
+        "direitos alfandegários"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5093",
+      "descricao": "Oferta ou promessa de vantagem indevida ao funcionário público para determinar ato funcional. Examina a conduta de quem corrompe o agente público.",
+      "termos": [
+        "corrupção ativa",
+        "oferecer vantagem",
+        "prometer vantagem",
+        "ato de ofício",
+        "vantagem indevida",
+        "particular corruptor"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5092",
+      "descricao": "Solicitação, recebimento ou aceitação de promessa de vantagem indevida em razão da função pública. Examina a relação entre a vantagem e a atividade funcional do agente.",
+      "termos": [
+        "corrupção passiva",
+        "solicitar vantagem",
+        "receber vantagem",
+        "aceitar promessa",
+        "função pública",
+        "vantagem indevida",
+        "ato funcional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5090",
+      "descricao": "Destinação de verbas ou rendas públicas diferente daquela estabelecida em lei. O foco é a aplicação irregular dos recursos, sem confundir automaticamente com apropriação em proveito privado.",
+      "termos": [
+        "verbas públicas",
+        "rendas públicas",
+        "destinação legal",
+        "aplicação diversa",
+        "emprego irregular",
+        "recursos públicos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5088",
+      "descricao": "Conceitos comuns dos delitos contra a administração, como funcionário público para fins penais, equiparação funcional e relação entre cargo e conduta. Trata do enquadramento geral, sem delimitar uma única espécie criminosa.",
+      "termos": [
+        "funcionário público para fins penais",
+        "equiparação",
+        "função pública",
+        "crime funcional",
+        "administração direta",
+        "administração indireta",
+        "elementar funcional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5089",
+      "descricao": "Apropriação, desvio ou subtração de bens em contexto funcional e apropriação de valores recebidos por erro de outra pessoa. Compreende modalidades dolosas e culposas do peculato previstas em lei.",
+      "termos": [
+        "peculato-apropriação",
+        "peculato-desvio",
+        "peculato-furto",
+        "peculato culposo",
+        "erro de outrem",
+        "posse em razão do cargo",
+        "bem público"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5095",
+      "descricao": "Retardo, omissão ou prática indevida de ato funcional para satisfazer interesse ou sentimento pessoal. O elemento distintivo é a finalidade pessoal na violação do dever de ofício.",
+      "termos": [
+        "prevaricação",
+        "interesse pessoal",
+        "sentimento pessoal",
+        "retardar ato de ofício",
+        "deixar de praticar",
+        "dever funcional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5100",
+      "descricao": "Oposição à execução de ato legal mediante violência ou ameaça, descumprimento de ordem legal e ofensa a funcionário em contexto funcional. Distingue resistência, desobediência e desacato pelos meios e objeto da conduta.",
+      "termos": [
+        "resistência",
+        "desobediência",
+        "desacato",
+        "ordem legal",
+        "ato legal",
+        "funcionário público",
+        "violência ou ameaça"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5101",
+      "descricao": "Obtenção ou solicitação de vantagem a pretexto de influir em ato de funcionário público. O foco recai sobre a negociação de influência alegada sobre terceiro agente estatal.",
+      "termos": [
+        "tráfico de influência",
+        "influência alegada",
+        "solicitar vantagem",
+        "cobrar vantagem",
+        "ato de funcionário",
+        "intermediário"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5099",
+      "descricao": "Exercício indevido de função pública por quem não possui legitimidade para exercê-la. A conduta envolve assumir atividade funcional, e não apenas alegar possuir um cargo.",
+      "termos": [
+        "usurpação de função",
+        "exercer função pública",
+        "falso funcionário",
+        "atividade funcional",
+        "investidura",
+        "vantagem na usurpação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5098",
+      "descricao": "Emprego de violência por funcionário no exercício da função ou a pretexto de exercê-la, sob a figura prevista no Código Penal. Pode coexistir com discussão de limites frente à legislação de abuso de autoridade.",
+      "termos": [
+        "violência arbitrária",
+        "violência funcional",
+        "funcionário público",
+        "exercício da função",
+        "abuso de poder",
+        "violência física"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5102",
+      "descricao": "Proteção da liberdade sexual, do consentimento e da dignidade de pessoas vulneráveis contra coerção, fraude, exploração e atos sexuais não autorizados. Abrange os delitos sexuais e suas disposições comuns.",
+      "termos": [
+        "liberdade sexual",
+        "consentimento",
+        "ato libidinoso",
+        "vulnerável",
+        "estupro",
+        "assédio sexual",
+        "exploração sexual"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5106",
+      "descricao": "Constrangimento dirigido à obtenção de vantagem ou favorecimento sexual com aproveitamento da superioridade hierárquica ou ascendência funcional. O vínculo de poder é elemento central do tema.",
+      "termos": [
+        "assédio sexual",
+        "superior hierárquico",
+        "ascendência funcional",
+        "favorecimento sexual",
+        "vantagem sexual",
+        "relação de trabalho"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5108",
+      "descricao": "Indução de pessoa menor à satisfação da lascívia de outra no âmbito dos crimes contra a dignidade sexual. O recorte do caminho é sexual, sem se confundir com a corrupção de menores para a prática de infração penal prevista em legislação especial.",
+      "termos": [
+        "corrupção sexual de menores",
+        "indução de menor",
+        "lascívia de outrem",
+        "dignidade sexual",
+        "vítima menor",
+        "satisfação sexual"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5110",
+      "descricao": "Regras compartilhadas por delitos contra a dignidade sexual, incluindo ação penal, efeitos específicos e causas de aumento. O título agrupa disposições comuns sem indicar um único comportamento típico.",
+      "termos": [
+        "ação penal sexual",
+        "majorantes sexuais",
+        "disposições comuns",
+        "relação de autoridade",
+        "dignidade sexual",
+        "consequências do crime"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5103",
+      "descricao": "Coação à prática de conjunção carnal ou de outro ato libidinoso e proteção sexual especial de pessoas em situação de vulnerabilidade. Distingue violência ou grave ameaça da vulnerabilidade juridicamente relevante.",
+      "termos": [
+        "estupro",
+        "estupro de vulnerável",
+        "conjunção carnal",
+        "ato libidinoso",
+        "grave ameaça",
+        "violência sexual",
+        "vulnerabilidade",
+        "discernimento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5105",
+      "descricao": "Prática de ato libidinoso contra alguém sem sua anuência para satisfação da lascívia. O consentimento ausente é central ao enquadramento da importunação sexual.",
+      "termos": [
+        "importunação sexual",
+        "ato libidinoso",
+        "sem anuência",
+        "ausência de consentimento",
+        "lascívia própria",
+        "lascívia de terceiro"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5109",
+      "descricao": "Categoria residual de delitos sexuais que pode incluir favorecimento da exploração sexual, mediação para lascívia e divulgação de cena íntima. O título não determina fronteiras exaustivas com as espécies já nomeadas na taxonomia.",
+      "termos": [
+        "exploração sexual",
+        "favorecimento da prostituição",
+        "rufianismo",
+        "mediação para lascívia",
+        "divulgação de cena íntima",
+        "ato obsceno"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5107",
+      "descricao": "Produção ou registro de conteúdo íntimo de nudez ou ato sexual sem autorização dos participantes. Abrange captação não consentida e montagem de conteúdo íntimo nos termos legais.",
+      "termos": [
+        "registro íntimo",
+        "captação sem autorização",
+        "filmagem íntima",
+        "fotografia íntima",
+        "nudez",
+        "montagem sexual",
+        "intimidade sexual"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5104",
+      "descricao": "Obtenção de prática sexual mediante fraude ou meio que prejudique a livre manifestação de vontade da vítima. O tema centra-se na vontade viciada e no engano sexualmente relevante.",
+      "termos": [
+        "violação sexual mediante fraude",
+        "fraude sexual",
+        "vontade viciada",
+        "livre manifestação",
+        "conjunção carnal",
+        "ato libidinoso"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5116",
+      "descricao": "Proteção da confiança coletiva na autenticidade de moeda, sinais, documentos e declarações juridicamente relevantes. Abrange falsificações materiais, ideológicas e outras falsidades.",
+      "termos": [
+        "fé pública",
+        "falsificação",
+        "documento falso",
+        "moeda falsa",
+        "falsidade ideológica",
+        "autenticidade",
+        "confiança pública"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5118",
+      "descricao": "Falsificação ou alteração material de documento, inserção de declaração falsa e uso ou supressão documental nas hipóteses penais. Distingue falsidade do suporte e falsidade do conteúdo.",
+      "termos": [
+        "falsidade material",
+        "falsidade ideológica",
+        "documento público",
+        "documento particular",
+        "uso de documento falso",
+        "supressão de documento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5119",
+      "descricao": "Falsidades diversas das documentais específicas, como falsa identidade e adulteração de sinal identificador de veículo. A categoria reúne modalidades heterogêneas de proteção da confiança pública.",
+      "termos": [
+        "falsa identidade",
+        "adulteração de sinal",
+        "identificação veicular",
+        "identidade alheia",
+        "fraude de identificação",
+        "fé pública"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5117",
+      "descricao": "Delitos que afetam a autenticidade de instrumentos socialmente confiáveis, como moeda, papéis públicos, selos e sinais. O título é amplo e parcialmente sobreposto ao nó superior que também menciona falsidade documental.",
+      "termos": [
+        "moeda falsa",
+        "papéis públicos",
+        "selo público",
+        "sinal público",
+        "petrechos de falsificação",
+        "autenticidade monetária",
+        "fé pública"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5120",
+      "descricao": "Infrações que atingem a reputação social ou a dignidade e o decoro da pessoa mediante imputações ou ofensas. Compreende calúnia, difamação, injúria e suas regras comuns.",
+      "termos": [
+        "honra objetiva",
+        "honra subjetiva",
+        "calúnia",
+        "difamação",
+        "injúria",
+        "reputação",
+        "decoro"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5122",
+      "descricao": "Imputação falsa de fato definido como crime a outra pessoa. Examina a falsidade da atribuição criminosa e suas regras específicas, como exceção da verdade e retratação.",
+      "termos": [
+        "calúnia",
+        "imputação de crime",
+        "falsidade da imputação",
+        "fato criminoso",
+        "exceção da verdade",
+        "retratação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5123",
+      "descricao": "Imputação de fato ofensivo à reputação de alguém. A tutela recai sobre a consideração social da pessoa perante terceiros.",
+      "termos": [
+        "difamação",
+        "reputação",
+        "honra objetiva",
+        "fato ofensivo",
+        "consideração social",
+        "imputação desonrosa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5121",
+      "descricao": "Regras comuns aos crimes contra a honra, incluindo causas de aumento, exclusões legais, retratação e ação penal. Reúne aspectos transversais às modalidades de ofensa.",
+      "termos": [
+        "crimes contra a honra",
+        "retratação",
+        "exclusão do crime",
+        "causas de aumento",
+        "ação penal",
+        "pedido de explicações"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5124",
+      "descricao": "Ofensa à dignidade ou ao decoro pessoal, com tutela da honra subjetiva. Abrange modalidades qualificadas ou reais previstas na legislação aplicável, sem confundir todo preconceito com o mesmo tipo penal.",
+      "termos": [
+        "injúria",
+        "dignidade",
+        "decoro",
+        "honra subjetiva",
+        "xingamento",
+        "injúria real",
+        "ofensa pessoal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5125",
+      "descricao": "Infrações que geram risco à segurança coletiva, ao transporte, aos serviços ou à saúde pública. O bem protegido ultrapassa o perigo dirigido exclusivamente a pessoa determinada.",
+      "termos": [
+        "incolumidade pública",
+        "perigo coletivo",
+        "incêndio",
+        "explosão",
+        "segurança dos transportes",
+        "serviços públicos",
+        "saúde pública"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5127",
+      "descricao": "Ataques à segurança de meios de transporte, comunicação e serviços de utilidade pública. Abrange riscos de desastre, interrupções e condutas que comprometem sua operação segura.",
+      "termos": [
+        "segurança ferroviária",
+        "transporte marítimo",
+        "transporte aéreo",
+        "desastre",
+        "interrupção de serviço",
+        "comunicação pública",
+        "serviço de utilidade pública"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5126",
+      "descricao": "Condutas capazes de expor uma coletividade a perigo por incêndio, explosão, inundação, desabamento e situações semelhantes. O foco é a propagação de risco comum.",
+      "termos": [
+        "perigo comum",
+        "incêndio",
+        "explosão",
+        "inundação",
+        "desabamento",
+        "substância tóxica",
+        "perigo coletivo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5128",
+      "descricao": "Proteção da autodeterminação, liberdade de locomoção e esfera privada contra constrangimentos, ameaças e privação indevida. Inclui modalidades específicas de perseguição e violência psicológica.",
+      "termos": [
+        "liberdade pessoal",
+        "constrangimento ilegal",
+        "ameaça",
+        "perseguição",
+        "sequestro",
+        "cárcere privado",
+        "tráfico de pessoas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5130",
+      "descricao": "Promessa de mal injusto e grave e perseguição reiterada que invade ou perturba a liberdade ou a privacidade. Distingue ameaça da dinâmica repetitiva do stalking.",
+      "termos": [
+        "ameaça",
+        "mal injusto e grave",
+        "perseguição reiterada",
+        "stalking",
+        "liberdade da vítima",
+        "privacidade",
+        "integridade psicológica"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5133",
+      "descricao": "Violações da casa, da correspondência e de informações reservadas, incluindo segredos e acesso indevido a dispositivos informáticos. Agrupa tutelas distintas da intimidade e da esfera privada.",
+      "termos": [
+        "violação de domicílio",
+        "correspondência",
+        "segredo profissional",
+        "divulgação de segredo",
+        "invasão de dispositivo",
+        "privacidade",
+        "intimidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5129",
+      "descricao": "Intimidação intencional e repetitiva por violência física ou psicológica, inclusive mediante recursos digitais. Abrange bullying e cyberbullying como formas de humilhação ou discriminação sistemática.",
+      "termos": [
+        "bullying",
+        "cyberbullying",
+        "intimidação sistemática",
+        "humilhação repetitiva",
+        "violência psicológica",
+        "discriminação",
+        "ambiente virtual"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5132",
+      "descricao": "Privação da liberdade, sujeição a condições análogas à escravidão e recrutamento ou deslocamento de pessoas para exploração. Agrupa delitos cujos núcleos envolvem restrição da autonomia e exploração humana.",
+      "termos": [
+        "sequestro",
+        "cárcere privado",
+        "condição análoga à escravidão",
+        "jornada exaustiva",
+        "trabalho forçado",
+        "condições degradantes",
+        "tráfico de pessoas",
+        "exploração"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5131",
+      "descricao": "Causação de dano emocional à mulher mediante formas de controle, humilhação, ameaça ou manipulação que prejudiquem sua autodeterminação. O foco é a lesão psicológica e a restrição de decisões pessoais.",
+      "termos": [
+        "violência psicológica contra a mulher",
+        "dano emocional",
+        "humilhação",
+        "manipulação",
+        "controle de decisões",
+        "autodeterminação",
+        "isolamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5138",
+      "descricao": "Condutas que expõem a perigo a vida ou a saúde individual, como abandono, omissão de socorro, contágio e maus-tratos. A tutela se concentra no risco à pessoa, ainda que não ocorra lesão consumada.",
+      "termos": [
+        "periclitação",
+        "perigo individual",
+        "abandono de incapaz",
+        "omissão de socorro",
+        "contágio",
+        "maus-tratos",
+        "vida e saúde"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5141",
+      "descricao": "Abandono de pessoa incapaz de se proteger dos riscos decorrentes da situação e exposição ou abandono de recém-nascido na figura específica do Código Penal. Examina o dever de cuidado e a vulnerabilidade da vítima.",
+      "termos": [
+        "abandono de incapaz",
+        "abandono de recém-nascido",
+        "exposição de recém-nascido",
+        "dever de cuidado",
+        "incapacidade de defesa",
+        "perigo do abandono"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5143",
+      "descricao": "Exposição a perigo de pessoa sob autoridade, guarda ou vigilância por privação de cuidado, trabalho excessivo ou abuso de correção. O vínculo de proteção diferencia o delito de agressões genéricas.",
+      "termos": [
+        "maus-tratos",
+        "guarda",
+        "vigilância",
+        "privação de alimentação",
+        "trabalho excessivo",
+        "abuso de correção",
+        "dever de cuidado"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5142",
+      "descricao": "Falta de assistência possível sem risco pessoal a pessoa em situação legal de desamparo ou perigo, ou falta de pedido de socorro à autoridade. O núcleo é a omissão diante de necessidade de ajuda.",
+      "termos": [
+        "omissão de socorro",
+        "assistência à vítima",
+        "risco pessoal",
+        "desamparo",
+        "pedido de socorro",
+        "perigo grave e iminente"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5139",
+      "descricao": "Exposição de outra pessoa a contágio de doença venérea ou prática de ato capaz de transmitir moléstia grave nas condições previstas em lei. O tema distingue modalidades de perigo de transmissão.",
+      "termos": [
+        "contágio venéreo",
+        "moléstia grave",
+        "transmissão de doença",
+        "ato capaz de transmitir",
+        "perigo de contágio",
+        "exposição ao contágio"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5140",
+      "descricao": "Exposição da vida ou saúde alheia a perigo direto e iminente. O foco é o risco individual concreto sem necessidade de consumação de lesão.",
+      "termos": [
+        "perigo direto",
+        "perigo iminente",
+        "vida de outrem",
+        "saúde de outrem",
+        "exposição a perigo",
+        "perigo concreto"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5144",
+      "descricao": "Agrupa delitos de risco à saúde coletiva e delitos que perturbam a paz pública. Inclui infrações sanitárias e condutas de incitação, apologia ou associação criminosa.",
+      "termos": [
+        "saúde coletiva",
+        "epidemia",
+        "infração sanitária",
+        "incitação ao crime",
+        "apologia",
+        "associação criminosa",
+        "paz pública"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5146",
+      "descricao": "Infrações que atingem a tranquilidade coletiva por estímulo público à criminalidade ou associação destinada a delitos. Abrange incitação, apologia, associação criminosa e milícia privada.",
+      "termos": [
+        "paz pública",
+        "incitação ao crime",
+        "apologia de crime",
+        "associação criminosa",
+        "milícia privada",
+        "tranquilidade coletiva"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5145",
+      "descricao": "Delitos que ameaçam a saúde da coletividade por propagação de doenças, adulteração de produtos e violações sanitárias. Inclui exercício ilegal da medicina, charlatanismo e curandeirismo.",
+      "termos": [
+        "saúde pública",
+        "epidemia",
+        "infração de medida sanitária",
+        "omissão de notificação",
+        "adulteração de medicamento",
+        "charlatanismo",
+        "curandeirismo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5149",
+      "descricao": "Proteção penal da vida humana diante de homicídio, feminicídio, infanticídio, aborto e condutas de indução ou auxílio ao suicídio. Examina a espécie de conduta, o contexto e o objeto da tutela.",
+      "termos": [
+        "vida humana",
+        "homicídio",
+        "feminicídio",
+        "infanticídio",
+        "aborto",
+        "suicídio",
+        "automutilação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5154",
+      "descricao": "Interrupção da gestação com morte do produto da concepção, praticada pela gestante ou por terceiro, com distinções relativas ao consentimento e às hipóteses legais de não punição.",
+      "termos": [
+        "aborto",
+        "gestante",
+        "consentimento da gestante",
+        "autoaborto",
+        "aborto por terceiro",
+        "interrupção da gestação",
+        "aborto necessário"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5151",
+      "descricao": "Morte de mulher por razões da condição do sexo feminino, incluindo contextos legais de violência doméstica ou discriminação. O foco é a motivação ou contexto de gênero que caracteriza o feminicídio.",
+      "termos": [
+        "feminicídio",
+        "razões da condição feminina",
+        "violência de gênero",
+        "menosprezo à mulher",
+        "discriminação",
+        "violência doméstica",
+        "morte de mulher"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5150",
+      "descricao": "Causação da morte de outra pessoa nas modalidades dolosa ou culposa e nas formas qualificadas ou privilegiadas. Examina elementos do homicídio e circunstâncias específicas de sua realização.",
+      "termos": [
+        "homicídio",
+        "matar alguém",
+        "animus necandi",
+        "homicídio culposo",
+        "homicídio qualificado",
+        "homicídio privilegiado",
+        "dolo de matar"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5152",
+      "descricao": "Indução, instigação ou auxílio material para que outra pessoa pratique suicídio ou automutilação. Distingue participação na autolesão da execução direta da conduta letal contra terceiro.",
+      "termos": [
+        "induzimento ao suicídio",
+        "instigação ao suicídio",
+        "auxílio material",
+        "automutilação",
+        "participação em suicídio",
+        "autolesão"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5153",
+      "descricao": "Morte do próprio filho pela mãe sob influência do estado puerperal, durante o parto ou logo após. O tema exige distinguir a condição especial do infanticídio do homicídio comum.",
+      "termos": [
+        "infanticídio",
+        "estado puerperal",
+        "parturiente",
+        "próprio filho",
+        "durante o parto",
+        "logo após o parto"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5157",
+      "descricao": "Proteção penal da posse, propriedade e interesses econômicos contra subtração, constrangimento, fraude, apropriação e destruição. Agrupa os crimes patrimoniais e suas disposições comuns.",
+      "termos": [
+        "patrimônio",
+        "furto",
+        "roubo",
+        "extorsão",
+        "estelionato",
+        "apropriação indébita",
+        "dano",
+        "receptação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6720",
+      "descricao": "Proteção penal da posse, propriedade e interesses econômicos diante de subtração, fraude, constrangimento e apropriação. A indicação Parte 1 não informa uma divisão material verificável em relação à Parte 2.",
+      "termos": [
+        "patrimônio",
+        "furto",
+        "roubo",
+        "extorsão",
+        "estelionato",
+        "apropriação indébita",
+        "dano",
+        "receptação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5158",
+      "descricao": "Regras comuns aos crimes patrimoniais, especialmente relações familiares, imunidades e suas exceções. O numeral inicial do título não altera o conteúdo material identificável.",
+      "termos": [
+        "imunidade patrimonial",
+        "escusa absolutória",
+        "parentesco",
+        "cônjuge",
+        "ascendente",
+        "descendente",
+        "exceções às imunidades"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5167",
+      "descricao": "Exploração da necessidade, paixão, inexperiência ou condição mental de pessoa vulnerável para induzi-la a ato com efeito jurídico prejudicial. O foco é a obtenção de proveito econômico mediante abuso da incapacidade.",
+      "termos": [
+        "abuso de incapazes",
+        "inexperiência do menor",
+        "necessidade da vítima",
+        "ato jurídico prejudicial",
+        "debilidade mental",
+        "proveito próprio"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5165",
+      "descricao": "Apropriação de coisa alheia móvel que já se encontra na posse ou detenção do agente. Abrange modalidades especiais de apropriação previstas no capítulo respectivo.",
+      "termos": [
+        "apropriação indébita",
+        "posse anterior",
+        "detenção da coisa",
+        "inversão da posse",
+        "coisa alheia móvel",
+        "apropriação previdenciária"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5164",
+      "descricao": "Destruição, inutilização ou deterioração de coisa alheia, com formas simples e qualificadas. O foco é a lesão à integridade do bem patrimonial.",
+      "termos": [
+        "dano",
+        "destruir coisa",
+        "inutilizar coisa",
+        "deteriorar coisa",
+        "bem alheio",
+        "dano qualificado"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5162",
+      "descricao": "Invasão de terreno ou edifício alheio com finalidade de esbulho, nas circunstâncias legais de violência, ameaça ou concurso de pessoas. Protege a posse imobiliária contra desapossamento.",
+      "termos": [
+        "esbulho possessório",
+        "invasão de terreno",
+        "edifício alheio",
+        "posse imobiliária",
+        "desapossamento",
+        "violência na invasão"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5166",
+      "descricao": "Obtenção de vantagem ilícita em prejuízo alheio mediante fraude que induz ou mantém alguém em erro. Abrange modalidades especiais e fraudes eletrônicas legalmente previstas.",
+      "termos": [
+        "estelionato",
+        "vantagem ilícita",
+        "prejuízo alheio",
+        "induzir em erro",
+        "ardil",
+        "artifício",
+        "fraude eletrônica"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5161",
+      "descricao": "Constrangimento da vítima por violência ou grave ameaça para obter vantagem econômica indevida, mediante fazer, tolerar ou deixar de fazer algo. Abrange extorsão e extorsão mediante sequestro.",
+      "termos": [
+        "extorsão",
+        "vantagem econômica",
+        "constrangimento",
+        "grave ameaça",
+        "colaboração da vítima",
+        "resgate",
+        "extorsão mediante sequestro"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5168",
+      "descricao": "Fraude praticada mediante atos sobre o patrimônio para frustrar execução judicial. O tema envolve alienação, desvio, destruição ou simulação destinados a comprometer a satisfação do credor.",
+      "termos": [
+        "fraude à execução",
+        "execução judicial",
+        "alienação de bens",
+        "desvio patrimonial",
+        "simulação de dívidas",
+        "frustração do credor"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5159",
+      "descricao": "Subtração de coisa alheia móvel sem o elemento de violência ou grave ameaça característico do roubo. Abrange furto simples, qualificado, privilegiado e modalidades específicas.",
+      "termos": [
+        "furto",
+        "subtração",
+        "coisa alheia móvel",
+        "furto qualificado",
+        "furto privilegiado",
+        "rompimento de obstáculo",
+        "destreza",
+        "chave falsa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5169",
+      "descricao": "Aquisição, recebimento, transporte, condução ou ocultação de coisa proveniente de crime, bem como influência para aquisição por terceiro. Examina formas dolosa, culposa e qualificada.",
+      "termos": [
+        "receptação",
+        "produto de crime",
+        "coisa proveniente de crime",
+        "adquirir",
+        "ocultar",
+        "receptação culposa",
+        "receptação qualificada"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5160",
+      "descricao": "Subtração de coisa alheia móvel mediante violência, grave ameaça ou redução da capacidade de resistência da vítima. Inclui roubo próprio, impróprio e resultados mais graves, como latrocínio.",
+      "termos": [
+        "roubo",
+        "violência",
+        "grave ameaça",
+        "roubo impróprio",
+        "latrocínio",
+        "arma de fogo",
+        "subtração violenta"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5163",
+      "descricao": "Apropriação indevida de utilidades ou direitos imobiliários mediante alteração de limites, desvio de águas ou invasão possessória nas figuras legais. O foco é a usurpação patrimonial, não o exercício de função pública.",
+      "termos": [
+        "usurpação patrimonial",
+        "alteração de limites",
+        "usurpação de águas",
+        "desvio de águas",
+        "marco divisório",
+        "esbulho possessório"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6719",
+      "descricao": "Proteção penal da probidade e do funcionamento da administração pública, abrangendo condutas de funcionários e particulares. A indicação Parte 2 não revela uma divisão material verificável em relação à Parte 1.",
+      "termos": [
+        "funcionário público",
+        "peculato",
+        "concussão",
+        "corrupção",
+        "prevaricação",
+        "desobediência",
+        "probidade administrativa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5111",
+      "descricao": "Proteção penal do casamento, estado de filiação, assistência familiar e relações de guarda, tutela ou curatela. Agrupa infrações que atingem vínculos e deveres familiares.",
+      "termos": [
+        "família",
+        "casamento",
+        "filiação",
+        "abandono material",
+        "abandono intelectual",
+        "tutela",
+        "curatela"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5114",
+      "descricao": "Descumprimento de deveres de subsistência, educação e cuidado familiar nas hipóteses legais. Abrange abandono material, intelectual e outras formas de desassistência tipificadas.",
+      "termos": [
+        "assistência familiar",
+        "abandono material",
+        "abandono intelectual",
+        "subsistência",
+        "educação do filho",
+        "pensão alimentícia",
+        "dever familiar"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5112",
+      "descricao": "Infrações relacionadas à celebração e validade do casamento, incluindo bigamia, ocultação de impedimento e simulação. A proteção recai sobre a instituição matrimonial.",
+      "termos": [
+        "bigamia",
+        "impedimento matrimonial",
+        "simulação de casamento",
+        "induzimento a erro",
+        "autoridade para casamento",
+        "vínculo matrimonial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5113",
+      "descricao": "Alterações fraudulentas do estado de filiação e da identidade familiar, incluindo registro indevido e substituição de recém-nascido. O foco é a autenticidade da filiação e do registro.",
+      "termos": [
+        "estado de filiação",
+        "parto suposto",
+        "registro de filho alheio",
+        "substituição de recém-nascido",
+        "ocultação de recém-nascido",
+        "registro de nascimento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5115",
+      "descricao": "Violações da autoridade familiar, tutela ou curatela por subtração, entrega irregular ou indução à fuga de pessoa protegida. O título usa denominação histórica de pátrio poder, hoje usualmente referida como poder familiar.",
+      "termos": [
+        "poder familiar",
+        "pátrio poder",
+        "tutela",
+        "curatela",
+        "subtração de incapazes",
+        "entrega de menor",
+        "induzimento à fuga"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5134",
+      "descricao": "Agrupa proteção penal das relações de trabalho, dos direitos intelectuais e do exercício religioso ou respeito aos mortos. O título é heterogêneo e abrange bens jurídicos distintos.",
+      "termos": [
+        "organização do trabalho",
+        "direitos autorais",
+        "propriedade imaterial",
+        "liberdade de culto",
+        "sentimento religioso",
+        "respeito aos mortos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5135",
+      "descricao": "Infrações que restringem a liberdade de trabalho ou frustram direitos trabalhistas e a organização laboral. Inclui coação, aliciamento e paralisações nas figuras tipificadas.",
+      "termos": [
+        "liberdade de trabalho",
+        "frustração de direito trabalhista",
+        "aliciamento de trabalhadores",
+        "liberdade de associação",
+        "organização do trabalho",
+        "paralisação de trabalho"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5137",
+      "descricao": "Ofensas ao exercício de culto ou crença e violações de cerimônias funerárias, sepulturas ou cadáveres. Agrupa proteção da liberdade religiosa e do respeito devido aos mortos.",
+      "termos": [
+        "ultraje a culto",
+        "sentimento religioso",
+        "perturbação de cerimônia",
+        "violação de sepultura",
+        "vilipêndio a cadáver",
+        "ocultação de cadáver"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5136",
+      "descricao": "Proteção penal de direitos sobre criações intelectuais, especialmente direitos de autor e obras protegidas. Abrange reprodução ou distribuição não autorizada nas hipóteses criminais pertinentes.",
+      "termos": [
+        "direito autoral",
+        "obra intelectual",
+        "propriedade imaterial",
+        "reprodução não autorizada",
+        "distribuição de obra",
+        "violação de direitos de autor"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5147",
+      "descricao": "Infrações relativas à gestão fiscal, ao endividamento e à realização de despesas públicas em desacordo com requisitos legais. O foco é a regularidade das finanças e compromissos do poder público.",
+      "termos": [
+        "finanças públicas",
+        "operação de crédito",
+        "restos a pagar",
+        "despesa não autorizada",
+        "garantia pública",
+        "dívida pública",
+        "assunção de obrigação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5148",
+      "descricao": "Ataques violentos ou mediante grave ameaça ao funcionamento dos poderes e à ordem democrática, como abolição violenta do Estado Democrático e golpe de Estado. O tema integra o conjunto mais amplo de crimes contra o Estado Democrático de Direito.",
+      "termos": [
+        "instituições democráticas",
+        "golpe de Estado",
+        "abolição violenta",
+        "exercício dos poderes",
+        "poderes constitucionais",
+        "ordem democrática"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5155",
+      "descricao": "Proteção penal da soberania, das instituições democráticas, do processo eleitoral e de serviços essenciais contra condutas tipificadas no título correspondente. É categoria ampla que contém subgrupos específicos também presentes na taxonomia.",
+      "termos": [
+        "Estado Democrático de Direito",
+        "soberania nacional",
+        "instituições democráticas",
+        "processo eleitoral",
+        "golpe de Estado",
+        "sabotagem",
+        "violência política"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5156",
+      "descricao": "Ataque a instalações ou serviços essenciais com finalidade específica de abalar a ordem democrática, no contexto de sabotagem previsto no Código Penal. O recorte distingue a finalidade política da simples interrupção de serviço público.",
+      "termos": [
+        "sabotagem",
+        "serviços essenciais",
+        "instalações essenciais",
+        "ordem democrática",
+        "meios de comunicação",
+        "abolição do Estado Democrático"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6721",
+      "descricao": "Proteção penal da posse, propriedade e interesses econômicos diante de subtração, fraude, constrangimento e apropriação. A indicação Parte 2 não informa uma divisão material verificável em relação à Parte 1.",
+      "termos": [
+        "patrimônio",
+        "furto",
+        "roubo",
+        "extorsão",
+        "estelionato",
+        "apropriação indébita",
+        "dano",
+        "receptação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "6722",
+      "descricao": "Infrações da legislação protetiva da pessoa idosa relacionadas à discriminação, abandono, exposição a perigo e apropriação de seus bens ou rendimentos. O foco são os tipos penais específicos do estatuto.",
+      "termos": [
+        "Estatuto da Pessoa Idosa",
+        "Estatuto do Idoso",
+        "discriminação do idoso",
+        "abandono de idoso",
+        "apropriação de proventos",
+        "retenção de cartão",
+        "Lei 10.741"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5170",
+      "descricao": "Fundamentos do direito penal como disciplina que define infrações e sanções, seus princípios, fontes e técnicas de interpretação. Inclui classificações gerais dos delitos.",
+      "termos": [
+        "direito penal objetivo",
+        "direito de punir",
+        "princípios penais",
+        "fontes penais",
+        "norma penal",
+        "classificação dos delitos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5174",
+      "descricao": "Categorias de infrações conforme sujeito, conduta, resultado, duração, estrutura e forma de execução. O tema é a tipologia abstrata dos crimes, não a escolha de um crime específico.",
+      "termos": [
+        "crime material",
+        "crime formal",
+        "mera conduta",
+        "crime próprio",
+        "crime comum",
+        "crime permanente",
+        "crime instantâneo",
+        "crime de mão própria"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5171",
+      "descricao": "Noções de direito penal e de origem das normas que definem crimes e sanções. Abrange relação entre lei, Constituição e poder estatal de punir.",
+      "termos": [
+        "conceito de direito penal",
+        "direito de punir",
+        "fonte formal",
+        "fonte material",
+        "lei penal",
+        "Constituição",
+        "reserva legal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5173",
+      "descricao": "Determinação do sentido e alcance da lei penal, com atenção à legalidade e aos limites de extensão da incriminação. Abrange métodos interpretativos e distinção entre interpretação e analogia.",
+      "termos": [
+        "interpretação literal",
+        "interpretação sistemática",
+        "interpretação teleológica",
+        "interpretação extensiva",
+        "analogia",
+        "norma penal em branco",
+        "limites da incriminação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5172",
+      "descricao": "Garantias que limitam o poder punitivo, como legalidade, anterioridade, responsabilidade pessoal e individualização da pena. Inclui proporcionalidade e proteção de bens jurídicos como parâmetros de intervenção penal.",
+      "termos": [
+        "legalidade",
+        "anterioridade",
+        "reserva legal",
+        "individualização da pena",
+        "pessoalidade",
+        "intervenção mínima",
+        "proporcionalidade",
+        "humanidade das penas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5175",
+      "descricao": "Percurso da realização do delito desde a cogitação até consumação e exaurimento, com consequências da interrupção da execução. Abrange tentativa e formas de desistência ou arrependimento.",
+      "termos": [
+        "iter criminis",
+        "cogitação",
+        "preparação",
+        "execução",
+        "consumação",
+        "exaurimento",
+        "tentativa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5177",
+      "descricao": "Consumação quando se reúnem os elementos do tipo e tentativa quando a execução se inicia sem consumação por circunstâncias alheias à vontade. Examina a passagem dos atos preparatórios aos executórios.",
+      "termos": [
+        "crime consumado",
+        "tentativa",
+        "início da execução",
+        "circunstâncias alheias",
+        "consumação",
+        "tentativa acabada",
+        "tentativa inacabada"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5179",
+      "descricao": "Impossibilidade de consumação por ineficácia absoluta do meio ou impropriedade absoluta do objeto. Examina a distinção entre tentativa punível e tentativa inidônea.",
+      "termos": [
+        "crime impossível",
+        "tentativa inidônea",
+        "meio absolutamente ineficaz",
+        "objeto absolutamente impróprio",
+        "delito putativo",
+        "impossibilidade de consumação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5178",
+      "descricao": "Interrupção voluntária da execução, impedimento eficaz do resultado e reparação posterior nas hipóteses legais. Distingue o momento e o efeito de cada conduta de desistência ou arrependimento.",
+      "termos": [
+        "desistência voluntária",
+        "arrependimento eficaz",
+        "arrependimento posterior",
+        "impedir o resultado",
+        "reparação do dano",
+        "restituição da coisa",
+        "voluntariedade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5176",
+      "descricao": "Etapas do desenvolvimento do delito, distinguindo intenção, preparação, execução, consumação e eventual exaurimento. O foco é identificar a posição dos atos no percurso criminoso.",
+      "termos": [
+        "cogitação",
+        "atos preparatórios",
+        "atos executórios",
+        "consumação",
+        "exaurimento",
+        "início da execução"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6723",
+      "descricao": "Ocultação ou dissimulação de bens, direitos ou valores provenientes de infração penal e mecanismos legais de prevenção à lavagem. Abrange a autonomia do delito e o controle de movimentações financeiras suspeitas.",
+      "termos": [
+        "lavagem de dinheiro",
+        "ocultação de bens",
+        "dissimulação",
+        "infração antecedente",
+        "COAF",
+        "bens direitos e valores",
+        "Lei 9.613"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6724",
+      "descricao": "Regime de prevenção e enfrentamento da violência doméstica e familiar contra a mulher, suas formas e medidas de proteção. Abrange medidas protetivas e o delito de seu descumprimento.",
+      "termos": [
+        "Lei Maria da Penha",
+        "violência doméstica",
+        "violência familiar",
+        "medida protetiva",
+        "violência patrimonial",
+        "relação íntima de afeto",
+        "descumprimento de medida",
+        "Lei 11.340"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5180",
+      "descricao": "Critérios que delimitam a aplicação da lei penal segundo o tempo e o território, incluindo sucessão normativa e fatos no exterior. Abrange conflitos aparentes de normas como recorte presente na taxonomia.",
+      "termos": [
+        "lei penal no tempo",
+        "lei penal no espaço",
+        "retroatividade",
+        "territorialidade",
+        "extraterritorialidade",
+        "conflito aparente"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5183",
+      "descricao": "Incidência aparentemente concorrente de normas sobre um mesmo fato, solucionada por critérios que afastam duplicidade indevida. Inclui especialidade, subsidiariedade, consunção e alternatividade.",
+      "termos": [
+        "conflito aparente",
+        "especialidade",
+        "subsidiariedade",
+        "consunção",
+        "alternatividade",
+        "crime-meio",
+        "crime-fim"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.tjdft.jus.br/consultas/jurisprudencia/revistas/doutrina-juridica/revista-v-107-n-1",
+        "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/correg/arquivos/publicacoes/manual-teorico-de-processo-administrativo-disciplinar.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5182",
+      "descricao": "Aplicação territorial e extraterritorial da lei penal brasileira, extensão do território e definição do lugar do crime. Inclui fatos cometidos no exterior e embarcações ou aeronaves.",
+      "termos": [
+        "territorialidade",
+        "extraterritorialidade",
+        "território por extensão",
+        "lugar do crime",
+        "teoria da ubiquidade",
+        "crime no estrangeiro",
+        "aeronave",
+        "embarcação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5181",
+      "descricao": "Sucessão de leis penais e efeitos sobre fatos anteriores ou posteriores, incluindo retroatividade benéfica e leis temporárias. Examina o tempo do crime e a continuidade ou eliminação da incriminação.",
+      "termos": [
+        "retroatividade benéfica",
+        "irretroatividade",
+        "novatio legis",
+        "abolitio criminis",
+        "lei temporária",
+        "lei excepcional",
+        "ultratividade",
+        "tempo do crime"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5184",
+      "descricao": "Resposta penal de caráter preventivo dirigida às situações legais de inimputabilidade ou semi-imputabilidade, com internação ou tratamento ambulatorial. Abrange periculosidade, cessação e substituições previstas em lei.",
+      "termos": [
+        "medida de segurança",
+        "internação",
+        "tratamento ambulatorial",
+        "periculosidade",
+        "inimputável",
+        "semi-imputável",
+        "cessação de periculosidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6725",
+      "descricao": "Estrutura associativa ordenada com divisão de tarefas para obtenção de vantagem mediante infrações abrangidas pela lei. Inclui participação na organização e instrumentos legais de investigação, como colaboração e infiltração.",
+      "termos": [
+        "organização criminosa",
+        "divisão de tarefas",
+        "estrutura ordenada",
+        "colaboração premiada",
+        "ação controlada",
+        "infiltração de agentes",
+        "Lei 12.850"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5185",
+      "descricao": "Perda da pretensão estatal de punir ou executar a pena pelo decurso do tempo nos termos legais. Abrange cálculo, marcos de contagem e causas que alteram o curso prescricional.",
+      "termos": [
+        "prescrição",
+        "pretensão punitiva",
+        "pretensão executória",
+        "prazo prescricional",
+        "interrupção",
+        "suspensão",
+        "termo inicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5186",
+      "descricao": "Fundamentos e regras gerais da extinção da pretensão penal pelo decurso do tempo. Distingue prescrição da pretensão punitiva e executória e critérios de definição do prazo.",
+      "termos": [
+        "fundamento da prescrição",
+        "decurso do tempo",
+        "pretensão estatal",
+        "pena em abstrato",
+        "pena em concreto",
+        "prazo prescricional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5187",
+      "descricao": "Definição dos marcos inicial e final da contagem e eventos que suspendem ou interrompem o prazo prescricional. Examina continuidade, paralisação e reinício do prazo.",
+      "termos": [
+        "termo inicial",
+        "causa interruptiva",
+        "causa suspensiva",
+        "recebimento da denúncia",
+        "publicação de sentença",
+        "reinício do prazo",
+        "contagem prescricional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5190",
+      "descricao": "Categoria residual para modalidades ou situações prescricionais não individualizadas pelos demais títulos. Pode abranger prescrição da multa e efeitos em situações especiais, sem fronteira exaustiva definida.",
+      "termos": [
+        "prescrição da multa",
+        "prescrições especiais",
+        "pena pecuniária",
+        "concurso de crimes",
+        "redução do prazo",
+        "extinção da punibilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5189",
+      "descricao": "Perda da possibilidade estatal de executar sanção penal em razão do transcurso do prazo aplicável. O foco está na execução da condenação e seus marcos prescricionais.",
+      "termos": [
+        "prescrição executória",
+        "execução da pena",
+        "pena concretizada",
+        "condenação definitiva",
+        "início do cumprimento",
+        "interrupção da execução",
+        "pretensão de executar"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5188",
+      "descricao": "Perda da possibilidade de obter ou manter condenação punitiva pelo decurso do prazo, com modalidades em abstrato e fundadas na pena concreta. Abrange prescrição retroativa e superveniente.",
+      "termos": [
+        "prescrição punitiva",
+        "pena máxima em abstrato",
+        "prescrição retroativa",
+        "prescrição superveniente",
+        "prescrição intercorrente",
+        "pena concreta"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5191",
+      "descricao": "Possibilidade jurídica de aplicação da sanção e fatos que a extinguem, como morte, clemência estatal, prescrição e renúncia nas hipóteses legais. Reúne causas de extinção da punibilidade.",
+      "termos": [
+        "punibilidade",
+        "extinção da punibilidade",
+        "morte do agente",
+        "anistia",
+        "indulto",
+        "prescrição",
+        "decadência",
+        "perdão judicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5194",
+      "descricao": "Supressão do caráter criminoso de uma conduta por lei posterior, com repercussão retroativa sobre a punição. Distingue descriminalização de simples mudança da sanção.",
+      "termos": [
+        "abolitio criminis",
+        "descriminalização",
+        "lei posterior benéfica",
+        "extinção da punibilidade",
+        "cessação da execução",
+        "efeitos penais"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5193",
+      "descricao": "Formas de clemência estatal que atingem a punibilidade ou a execução da sanção conforme seus regimes próprios. Distingue anistia legislativa, graça e indulto.",
+      "termos": [
+        "anistia",
+        "graça",
+        "indulto",
+        "clemência estatal",
+        "indulto individual",
+        "indulto coletivo",
+        "comutação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5198",
+      "descricao": "Perda do direito de queixa ou representação pelo decurso do prazo legal sem exercício. O foco é a inércia do titular e a extinção da possibilidade de iniciativa condicionante.",
+      "termos": [
+        "decadência",
+        "direito de queixa",
+        "direito de representação",
+        "prazo decadencial",
+        "conhecimento da autoria",
+        "inércia do ofendido"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5192",
+      "descricao": "Extinção da punibilidade pela morte da pessoa a quem se atribui o fato criminoso. Relaciona-se à pessoalidade da responsabilidade penal.",
+      "termos": [
+        "morte do agente",
+        "falecimento do acusado",
+        "extinção da punibilidade",
+        "pessoalidade da pena",
+        "certidão de óbito",
+        "responsabilidade pessoal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5197",
+      "descricao": "Dispensa judicial da pena em hipóteses legalmente autorizadas. Distingue a clemência do juiz do perdão oferecido pela vítima e dos atos de clemência estatal.",
+      "termos": [
+        "perdão judicial",
+        "dispensa de pena",
+        "hipótese legal",
+        "extinção da punibilidade",
+        "consequências do fato",
+        "sentença concessiva"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5195",
+      "descricao": "Extinção da punibilidade decorrente de comportamentos de abandono ou negligência processual do querelante nas hipóteses legais. O foco é a condução da ação penal privada após seu início.",
+      "termos": [
+        "perempção",
+        "querelante",
+        "abandono da ação",
+        "ação penal privada",
+        "inércia processual",
+        "extinção da punibilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5196",
+      "descricao": "Atos do ofendido ou do autor que afastam a punição nas hipóteses legais: renúncia à queixa, perdão aceito e retratação. Distingue momento, iniciativa e necessidade de aceitação.",
+      "termos": [
+        "renúncia ao direito de queixa",
+        "perdão do ofendido",
+        "aceitação do perdão",
+        "retratação",
+        "ação privada",
+        "extinção da punibilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5199",
+      "descricao": "Fundamentos, modalidades, individualização e efeitos da sanção penal, incluindo benefícios e reabilitação. Abrange penas privativas, restritivas e multa, bem como dosimetria.",
+      "termos": [
+        "teoria da pena",
+        "sanção penal",
+        "dosimetria",
+        "pena privativa",
+        "pena restritiva",
+        "multa",
+        "sursis",
+        "livramento condicional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6726",
+      "descricao": "Fundamentos, modalidades, individualização e efeitos da pena, incluindo dosimetria e benefícios penais. A divisão em Parte 1 e Parte 2 não possui fronteira material informada no título.",
+      "termos": [
+        "teoria da pena",
+        "sanção penal",
+        "dosimetria",
+        "pena privativa",
+        "pena restritiva",
+        "multa",
+        "sursis",
+        "livramento condicional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "6727",
+      "descricao": "Fundamentos, modalidades, individualização e efeitos da pena, incluindo dosimetria e benefícios penais. A divisão em Parte 1 e Parte 2 não possui fronteira material informada no título.",
+      "termos": [
+        "teoria da pena",
+        "sanção penal",
+        "dosimetria",
+        "pena privativa",
+        "pena restritiva",
+        "multa",
+        "sursis",
+        "livramento condicional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5209",
+      "descricao": "Consequências penais e extrapenais da condenação, como reparação, perda de bens e efeitos sobre função ou direitos nas hipóteses legais. Distingue efeitos gerais e específicos da sentença.",
+      "termos": [
+        "efeitos da condenação",
+        "reparação do dano",
+        "perda de bens",
+        "perda de cargo",
+        "efeitos penais",
+        "efeitos extrapenais",
+        "confisco"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5208",
+      "descricao": "Liberação condicionada durante o cumprimento da pena privativa de liberdade, subordinada aos requisitos e obrigações legais. Abrange concessão, suspensão, revogação e extinção.",
+      "termos": [
+        "livramento condicional",
+        "liberado condicional",
+        "período de prova",
+        "condições do livramento",
+        "revogação",
+        "cumprimento de pena"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5206",
+      "descricao": "Sanção pecuniária calculada em dias-multa e vinculada aos parâmetros legais de quantidade e valor. Abrange pagamento, atualização e execução da multa penal.",
+      "termos": [
+        "pena de multa",
+        "dias-multa",
+        "valor do dia-multa",
+        "situação econômica",
+        "pagamento",
+        "execução da multa",
+        "sanção pecuniária"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5201",
+      "descricao": "Penas de reclusão e detenção e formas de cumprimento em regimes fechado, semiaberto ou aberto. Inclui critérios de regime, detração e individualização da privação da liberdade.",
+      "termos": [
+        "reclusão",
+        "detenção",
+        "regime fechado",
+        "regime semiaberto",
+        "regime aberto",
+        "detração",
+        "progressão de regime"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5205",
+      "descricao": "Sanções que restringem direitos e podem substituir a privação de liberdade nos casos legais. Abrange prestação de serviços, prestação pecuniária, interdições e limitação de fim de semana.",
+      "termos": [
+        "penas alternativas",
+        "restrição de direitos",
+        "prestação de serviços",
+        "prestação pecuniária",
+        "interdição temporária",
+        "limitação de fim de semana",
+        "substituição da pena"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5202",
+      "descricao": "Fixação da pena-base mediante exame das circunstâncias judiciais previstas no Código Penal. Avalia culpabilidade, antecedentes, conduta social, personalidade, motivos e circunstâncias do fato.",
+      "termos": [
+        "pena-base",
+        "circunstâncias judiciais",
+        "antecedentes",
+        "conduta social",
+        "personalidade",
+        "motivos do crime",
+        "consequências",
+        "comportamento da vítima"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5210",
+      "descricao": "Instituto voltado ao sigilo dos registros e aos efeitos da condenação nas condições legais. Abrange requisitos e consequências da reabilitação criminal.",
+      "termos": [
+        "reabilitação",
+        "sigilo dos registros",
+        "condenação anterior",
+        "reparação do dano",
+        "efeitos da condenação",
+        "reabilitado"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5200",
+      "descricao": "Noção de sanção penal e suas finalidades de reprovação e prevenção, com distinção entre modalidades de pena e medida de segurança. Trata dos fundamentos da resposta estatal ao delito.",
+      "termos": [
+        "sanção penal",
+        "reprovação",
+        "prevenção geral",
+        "prevenção especial",
+        "pena",
+        "medida de segurança",
+        "individualização"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5203",
+      "descricao": "Ajuste da pena intermediária mediante circunstâncias agravantes e atenuantes, após a pena-base. Inclui reincidência, confissão e circunstâncias pessoais ou do fato previstas em lei.",
+      "termos": [
+        "pena intermediária",
+        "agravantes",
+        "atenuantes",
+        "reincidência",
+        "confissão espontânea",
+        "menoridade relativa",
+        "circunstância preponderante"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5207",
+      "descricao": "Suspensão da execução da pena privativa de liberdade mediante condições e período de prova. O sursis penal distingue-se da suspensão condicional do processo.",
+      "termos": [
+        "sursis penal",
+        "suspensão da pena",
+        "período de prova",
+        "condições judiciais",
+        "revogação do sursis",
+        "sursis etário",
+        "sursis humanitário"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5204",
+      "descricao": "Aplicação de causas de aumento e diminuição sobre a pena nas etapas finais da dosimetria. Distingue majorantes e minorantes de agravantes e atenuantes.",
+      "termos": [
+        "pena definitiva",
+        "majorante",
+        "minorante",
+        "causa de aumento",
+        "causa de diminuição",
+        "fração de aumento",
+        "fração de redução",
+        "concurso de causas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5211",
+      "descricao": "Juízo de reprovação pessoal relativo à imputabilidade, consciência potencial da ilicitude e exigibilidade de conduta diversa. Abrange causas legais e discussões supralegais de exclusão.",
+      "termos": [
+        "culpabilidade",
+        "imputabilidade",
+        "consciência da ilicitude",
+        "exigibilidade",
+        "erro de proibição",
+        "coação irresistível",
+        "obediência hierárquica"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5217",
+      "descricao": "Discussão de exclusão da reprovação pessoal por inexigibilidade de conduta diversa fora das hipóteses expressamente tipificadas. O reconhecimento depende das circunstâncias e não é uma autorização genérica para descumprir a lei.",
+      "termos": [
+        "inexigibilidade de conduta diversa",
+        "causa supralegal",
+        "exculpação",
+        "culpabilidade",
+        "reprovação pessoal",
+        "situação excepcional"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&from=feed&livre=0272.cod."
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5215",
+      "descricao": "Pressão moral irresistível que retira a exigibilidade de comportamento diverso do coagido. Distingue coação moral de força física que elimina a própria ação voluntária.",
+      "termos": [
+        "coação moral irresistível",
+        "vis compulsiva",
+        "coator",
+        "coagido",
+        "ameaça irresistível",
+        "inexigibilidade de conduta diversa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5212",
+      "descricao": "Estrutura da culpabilidade como censura pessoal ao fato, formada por capacidade de responsabilização, possibilidade de consciência da ilicitude e exigibilidade. Distingue o juízo de culpabilidade da mera causação do resultado.",
+      "termos": [
+        "imputabilidade",
+        "potencial consciência da ilicitude",
+        "exigibilidade de conduta diversa",
+        "juízo de reprovação",
+        "culpabilidade normativa",
+        "censurabilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5214",
+      "descricao": "Erro sobre a ilicitude do fato, com consequências diferentes conforme sua evitabilidade. Distingue desconhecimento da proibição do erro sobre elementos do tipo.",
+      "termos": [
+        "erro de proibição",
+        "consciência da ilicitude",
+        "erro inevitável",
+        "erro evitável",
+        "proibição da conduta",
+        "desconhecimento da lei"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5213",
+      "descricao": "Falta ou redução da capacidade de entender a ilicitude ou determinar-se conforme esse entendimento nas hipóteses legais. Inclui condições mentais, menoridade e situações específicas de embriaguez.",
+      "termos": [
+        "inimputabilidade",
+        "semi-imputabilidade",
+        "doença mental",
+        "desenvolvimento mental",
+        "menoridade penal",
+        "embriaguez fortuita",
+        "capacidade de entendimento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5216",
+      "descricao": "Cumprimento de ordem de superior hierárquico não manifestamente ilegal e seus efeitos sobre a responsabilidade de quem a executa. O foco é a relação entre dever de obediência e ilicitude perceptível.",
+      "termos": [
+        "obediência hierárquica",
+        "ordem superior",
+        "ordem não manifestamente ilegal",
+        "subordinado",
+        "superior hierárquico",
+        "exclusão de culpabilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5218",
+      "descricao": "Elementos que ligam uma conduta humana à descrição de infração: comportamento, resultado quando exigido, nexo causal e tipicidade. Abrange dolo, culpa, omissão e erro de tipo.",
+      "termos": [
+        "fato típico",
+        "conduta",
+        "resultado",
+        "nexo causal",
+        "tipicidade",
+        "dolo",
+        "culpa",
+        "erro de tipo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5219",
+      "descricao": "Conceitos de infração penal, autor, vítima, objeto material e bem jurídico protegido. Distingue as pessoas envolvidas do objeto sobre o qual recai a conduta.",
+      "termos": [
+        "sujeito ativo",
+        "sujeito passivo",
+        "objeto material",
+        "objeto jurídico",
+        "bem jurídico",
+        "conceito de crime",
+        "vítima"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5221",
+      "descricao": "Comportamento humano por ação ou omissão juridicamente relevante para a infração. Examina voluntariedade e distinções entre atuação consciente e ausência de conduta.",
+      "termos": [
+        "conduta",
+        "ação",
+        "omissão",
+        "voluntariedade",
+        "movimento reflexo",
+        "força física irresistível",
+        "comportamento humano"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5222",
+      "descricao": "Diferença entre querer ou assumir o risco do resultado e produzi-lo por violação do dever de cuidado. Inclui dolo direto ou eventual, culpa consciente ou inconsciente e resultado agravador.",
+      "termos": [
+        "dolo direto",
+        "dolo eventual",
+        "culpa consciente",
+        "culpa inconsciente",
+        "imprudência",
+        "negligência",
+        "imperícia",
+        "preterdolo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5223",
+      "descricao": "Realização do tipo por ação ou por omissão, inclusive responsabilidade de quem tinha dever jurídico de impedir o resultado. Distingue omissão própria da comissão por omissão.",
+      "termos": [
+        "crime comissivo",
+        "crime omissivo próprio",
+        "omissão imprópria",
+        "comissão por omissão",
+        "garantidor",
+        "dever de agir",
+        "dever de impedir"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5224",
+      "descricao": "Erro sobre elemento constitutivo do tipo penal ou sobre situação fática relevante, com efeitos sobre dolo e eventual responsabilização culposa. Inclui erro sobre pessoa e descriminantes putativas em seus aspectos fáticos.",
+      "termos": [
+        "erro de tipo",
+        "elemento do tipo",
+        "exclusão do dolo",
+        "erro essencial",
+        "erro acidental",
+        "erro sobre pessoa",
+        "descriminante putativa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5220",
+      "descricao": "Estrutura objetiva e subjetiva da adequação de um acontecimento à descrição penal. Examina a combinação de conduta, resultado, causalidade e tipicidade.",
+      "termos": [
+        "fato típico",
+        "estrutura do crime",
+        "conduta típica",
+        "resultado naturalístico",
+        "relação causal",
+        "adequação típica"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5226",
+      "descricao": "Relação entre conduta e resultado e critérios normativos de atribuição de um risco proibido ao agente. Abrange causalidade, causas supervenientes e imputação objetiva.",
+      "termos": [
+        "nexo causal",
+        "equivalência dos antecedentes",
+        "causa superveniente",
+        "concausa",
+        "risco não permitido",
+        "imputação objetiva",
+        "princípio da confiança"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D020454"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5225",
+      "descricao": "Consequência naturalística ou lesão jurídica vinculada à conduta, conforme a estrutura da infração. Examina a relação entre produção do resultado e consumação do delito.",
+      "termos": [
+        "resultado naturalístico",
+        "resultado jurídico",
+        "evento lesivo",
+        "consumação",
+        "crime material",
+        "crime formal",
+        "mera conduta"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5227",
+      "descricao": "Adequação do fato à descrição legal e análise de sua relevância jurídico-penal. Abrange tipicidade formal e material e limites da incriminação.",
+      "termos": [
+        "tipicidade formal",
+        "tipicidade material",
+        "subsunção",
+        "adequação típica",
+        "atipicidade",
+        "tipo penal",
+        "lesividade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5228",
+      "descricao": "Contrariedade do fato típico ao ordenamento e situações justificantes que a afastam. Abrange estado de necessidade, legítima defesa, dever legal e exercício regular de direito.",
+      "termos": [
+        "ilicitude",
+        "antijuridicidade",
+        "justificante",
+        "estado de necessidade",
+        "legítima defesa",
+        "dever legal",
+        "exercício regular de direito"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5233",
+      "descricao": "Discussão de justificações não expressamente enumeradas no Código Penal, especialmente consentimento juridicamente relevante do titular do bem. Seu alcance depende da disponibilidade do bem e da construção jurídica adotada.",
+      "termos": [
+        "causa supralegal",
+        "consentimento do ofendido",
+        "bem disponível",
+        "justificação",
+        "antijuridicidade",
+        "consentimento válido"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/a-doutrina-na-pratica/causas-de-exclusao-da-ilicitude/exercicio-regular-de-direito"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5229",
+      "descricao": "Juízo de contrariedade ao ordenamento e papel das causas de justificação. Distingue a realização formal do tipo da existência de uma autorização jurídica para a conduta.",
+      "termos": [
+        "ilicitude",
+        "antijuridicidade",
+        "contrariedade ao direito",
+        "causa de justificação",
+        "excludente de ilicitude",
+        "excesso punível"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5230",
+      "descricao": "Prática de fato para salvar direito próprio ou alheio de perigo atual nas condições legais, diante da inexigibilidade do sacrifício do direito ameaçado. Examina colisão de bens, perigo e necessidade da atuação.",
+      "termos": [
+        "estado de necessidade",
+        "perigo atual",
+        "direito próprio",
+        "direito alheio",
+        "sacrifício do bem",
+        "dever de enfrentar o perigo",
+        "salvamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5232",
+      "descricao": "Conduta realizada dentro dos limites de um dever imposto por lei, afastando a ilicitude. Distingue atuação funcional autorizada de excesso doloso ou culposo.",
+      "termos": [
+        "estrito cumprimento",
+        "dever legal",
+        "atuação funcional",
+        "limites legais",
+        "excludente de ilicitude",
+        "excesso doloso",
+        "excesso culposo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5231",
+      "descricao": "Reação necessária e moderada contra agressão injusta atual ou iminente a direito próprio ou de terceiro. Examina agressão, meios utilizados e eventual excesso.",
+      "termos": [
+        "legítima defesa",
+        "agressão injusta",
+        "agressão atual",
+        "agressão iminente",
+        "meios necessários",
+        "moderação",
+        "defesa de terceiro",
+        "excesso"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6728",
+      "descricao": "Produção, comércio, transporte, guarda e outras condutas ilícitas envolvendo drogas, além de delitos conexos e causas especiais previstas na lei. Distingue o tráfico das hipóteses legais relacionadas a consumo pessoal.",
+      "termos": [
+        "tráfico de drogas",
+        "entorpecentes",
+        "Lei 11.343",
+        "associação para o tráfico",
+        "tráfico privilegiado",
+        "guardar droga",
+        "transportar droga",
+        "consumo pessoal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm"
+      ],
+      "ambiguo": false
+    }
+  ]
+}

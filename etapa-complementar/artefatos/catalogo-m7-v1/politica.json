@@ -1,0 +1,555 @@
+{
+  "corte": null,
+  "diagnosticos": [
+    {
+      "corte": 0.21792518860894167,
+      "habilitada": false,
+      "k": 31,
+      "n": 41,
+      "precisao_empirica": 0.7560975609756098,
+      "probabilidade_condicional": 0.75,
+      "receita": "enriquecido_lexical",
+      "regra": "score_q50"
+    },
+    {
+      "corte": 0.2680951605158435,
+      "habilitada": false,
+      "k": 24,
+      "n": 29,
+      "precisao_empirica": 0.8275862068965517,
+      "probabilidade_condicional": 0.8166666666666667,
+      "receita": "enriquecido_lexical",
+      "regra": "score_q65"
+    },
+    {
+      "corte": 0.3136114592144375,
+      "habilitada": false,
+      "k": 15,
+      "n": 17,
+      "precisao_empirica": 0.8823529411764706,
+      "probabilidade_condicional": 0.8611111111111112,
+      "receita": "enriquecido_lexical",
+      "regra": "score_q80"
+    },
+    {
+      "corte": 0.3652378702752931,
+      "habilitada": false,
+      "k": 8,
+      "n": 9,
+      "precisao_empirica": 0.8888888888888888,
+      "probabilidade_condicional": 0.85,
+      "receita": "enriquecido_lexical",
+      "regra": "score_q90"
+    },
+    {
+      "corte": 0.03848164947940924,
+      "habilitada": false,
+      "k": 28,
+      "n": 41,
+      "precisao_empirica": 0.6829268292682927,
+      "probabilidade_condicional": 0.6785714285714286,
+      "receita": "enriquecido_lexical",
+      "regra": "margem_q50"
+    },
+    {
+      "corte": 0.09033019204817622,
+      "habilitada": false,
+      "k": 22,
+      "n": 29,
+      "precisao_empirica": 0.7586206896551724,
+      "probabilidade_condicional": 0.75,
+      "receita": "enriquecido_lexical",
+      "regra": "margem_q65"
+    },
+    {
+      "corte": 0.14009000389713006,
+      "habilitada": false,
+      "k": 12,
+      "n": 17,
+      "precisao_empirica": 0.7058823529411765,
+      "probabilidade_condicional": 0.6944444444444444,
+      "receita": "enriquecido_lexical",
+      "regra": "margem_q80"
+    },
+    {
+      "corte": 0.20384625925374067,
+      "habilitada": false,
+      "k": 7,
+      "n": 9,
+      "precisao_empirica": 0.7777777777777778,
+      "probabilidade_condicional": 0.75,
+      "receita": "enriquecido_lexical",
+      "regra": "margem_q90"
+    },
+    {
+      "corte": null,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_lexical",
+      "regra": "consenso"
+    },
+    {
+      "corte": 0.8758198422983813,
+      "habilitada": false,
+      "k": 29,
+      "n": 41,
+      "precisao_empirica": 0.7073170731707317,
+      "probabilidade_condicional": 0.7023809523809523,
+      "receita": "enriquecido_semantico",
+      "regra": "score_q50"
+    },
+    {
+      "corte": 0.8788770546299601,
+      "habilitada": false,
+      "k": 20,
+      "n": 29,
+      "precisao_empirica": 0.6896551724137931,
+      "probabilidade_condicional": 0.6833333333333333,
+      "receita": "enriquecido_semantico",
+      "regra": "score_q65"
+    },
+    {
+      "corte": 0.8840871654966288,
+      "habilitada": false,
+      "k": 10,
+      "n": 17,
+      "precisao_empirica": 0.5882352941176471,
+      "probabilidade_condicional": 0.5833333333333334,
+      "receita": "enriquecido_semantico",
+      "regra": "score_q80"
+    },
+    {
+      "corte": 0.8922899965790395,
+      "habilitada": false,
+      "k": 7,
+      "n": 9,
+      "precisao_empirica": 0.7777777777777778,
+      "probabilidade_condicional": 0.75,
+      "receita": "enriquecido_semantico",
+      "regra": "score_q90"
+    },
+    {
+      "corte": 0.004461460338839429,
+      "habilitada": false,
+      "k": 29,
+      "n": 41,
+      "precisao_empirica": 0.7073170731707317,
+      "probabilidade_condicional": 0.7023809523809523,
+      "receita": "enriquecido_semantico",
+      "regra": "margem_q50"
+    },
+    {
+      "corte": 0.006192682747782952,
+      "habilitada": false,
+      "k": 22,
+      "n": 29,
+      "precisao_empirica": 0.7586206896551724,
+      "probabilidade_condicional": 0.75,
+      "receita": "enriquecido_semantico",
+      "regra": "margem_q65"
+    },
+    {
+      "corte": 0.009835944985210787,
+      "habilitada": false,
+      "k": 14,
+      "n": 17,
+      "precisao_empirica": 0.8235294117647058,
+      "probabilidade_condicional": 0.8055555555555556,
+      "receita": "enriquecido_semantico",
+      "regra": "margem_q80"
+    },
+    {
+      "corte": 0.01777550598361244,
+      "habilitada": false,
+      "k": 8,
+      "n": 9,
+      "precisao_empirica": 0.8888888888888888,
+      "probabilidade_condicional": 0.85,
+      "receita": "enriquecido_semantico",
+      "regra": "margem_q90"
+    },
+    {
+      "corte": null,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_semantico",
+      "regra": "consenso"
+    },
+    {
+      "corte": 0.9285714285714286,
+      "habilitada": false,
+      "k": 41,
+      "n": 52,
+      "precisao_empirica": 0.7884615384615384,
+      "probabilidade_condicional": 0.7830188679245284,
+      "receita": "enriquecido_rrf5",
+      "regra": "score_q50"
+    },
+    {
+      "corte": 1.0,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf5",
+      "regra": "score_q65"
+    },
+    {
+      "corte": 1.0,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf5",
+      "regra": "score_q80"
+    },
+    {
+      "corte": 1.0,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf5",
+      "regra": "score_q90"
+    },
+    {
+      "corte": 0.1428571428571429,
+      "habilitada": false,
+      "k": 35,
+      "n": 45,
+      "precisao_empirica": 0.7777777777777778,
+      "probabilidade_condicional": 0.7717391304347826,
+      "receita": "enriquecido_rrf5",
+      "regra": "margem_q50"
+    },
+    {
+      "corte": 0.19047619047619047,
+      "habilitada": false,
+      "k": 22,
+      "n": 29,
+      "precisao_empirica": 0.7586206896551724,
+      "probabilidade_condicional": 0.75,
+      "receita": "enriquecido_rrf5",
+      "regra": "margem_q65"
+    },
+    {
+      "corte": 0.23809523809523814,
+      "habilitada": false,
+      "k": 13,
+      "n": 17,
+      "precisao_empirica": 0.7647058823529411,
+      "probabilidade_condicional": 0.75,
+      "receita": "enriquecido_rrf5",
+      "regra": "margem_q80"
+    },
+    {
+      "corte": 0.2964285714285715,
+      "habilitada": false,
+      "k": 6,
+      "n": 9,
+      "precisao_empirica": 0.6666666666666666,
+      "probabilidade_condicional": 0.65,
+      "receita": "enriquecido_rrf5",
+      "regra": "margem_q90"
+    },
+    {
+      "corte": null,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf5",
+      "regra": "consenso"
+    },
+    {
+      "corte": 0.9772727272727273,
+      "habilitada": false,
+      "k": 41,
+      "n": 52,
+      "precisao_empirica": 0.7884615384615384,
+      "probabilidade_condicional": 0.7830188679245284,
+      "receita": "enriquecido_rrf20",
+      "regra": "score_q50"
+    },
+    {
+      "corte": 1.0,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf20",
+      "regra": "score_q65"
+    },
+    {
+      "corte": 1.0,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf20",
+      "regra": "score_q80"
+    },
+    {
+      "corte": 1.0,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf20",
+      "regra": "score_q90"
+    },
+    {
+      "corte": 0.045454545454545414,
+      "habilitada": false,
+      "k": 37,
+      "n": 54,
+      "precisao_empirica": 0.6851851851851852,
+      "probabilidade_condicional": 0.6818181818181818,
+      "receita": "enriquecido_rrf20",
+      "regra": "margem_q50"
+    },
+    {
+      "corte": 0.0662055335968379,
+      "habilitada": false,
+      "k": 24,
+      "n": 35,
+      "precisao_empirica": 0.6857142857142857,
+      "probabilidade_condicional": 0.6805555555555556,
+      "receita": "enriquecido_rrf20",
+      "regra": "margem_q65"
+    },
+    {
+      "corte": 0.10272727272727278,
+      "habilitada": false,
+      "k": 12,
+      "n": 17,
+      "precisao_empirica": 0.7058823529411765,
+      "probabilidade_condicional": 0.6944444444444444,
+      "receita": "enriquecido_rrf20",
+      "regra": "margem_q80"
+    },
+    {
+      "corte": 0.13383838383838387,
+      "habilitada": false,
+      "k": 5,
+      "n": 9,
+      "precisao_empirica": 0.5555555555555556,
+      "probabilidade_condicional": 0.55,
+      "receita": "enriquecido_rrf20",
+      "regra": "margem_q90"
+    },
+    {
+      "corte": null,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "enriquecido_rrf20",
+      "regra": "consenso"
+    },
+    {
+      "corte": 3.3089536842278777,
+      "habilitada": false,
+      "k": 32,
+      "n": 41,
+      "precisao_empirica": 0.7804878048780488,
+      "probabilidade_condicional": 0.7738095238095238,
+      "receita": "aprendido",
+      "regra": "score_q50"
+    },
+    {
+      "corte": 3.6841520543341213,
+      "habilitada": false,
+      "k": 24,
+      "n": 29,
+      "precisao_empirica": 0.8275862068965517,
+      "probabilidade_condicional": 0.8166666666666667,
+      "receita": "aprendido",
+      "regra": "score_q65"
+    },
+    {
+      "corte": 4.306557205666445,
+      "habilitada": false,
+      "k": 15,
+      "n": 17,
+      "precisao_empirica": 0.8823529411764706,
+      "probabilidade_condicional": 0.8611111111111112,
+      "receita": "aprendido",
+      "regra": "score_q80"
+    },
+    {
+      "corte": 4.6543702107104705,
+      "habilitada": false,
+      "k": 7,
+      "n": 9,
+      "precisao_empirica": 0.7777777777777778,
+      "probabilidade_condicional": 0.75,
+      "receita": "aprendido",
+      "regra": "score_q90"
+    },
+    {
+      "corte": 0.6056557101565558,
+      "habilitada": false,
+      "k": 29,
+      "n": 41,
+      "precisao_empirica": 0.7073170731707317,
+      "probabilidade_condicional": 0.7023809523809523,
+      "receita": "aprendido",
+      "regra": "margem_q50"
+    },
+    {
+      "corte": 0.8690036457147583,
+      "habilitada": false,
+      "k": 21,
+      "n": 29,
+      "precisao_empirica": 0.7241379310344828,
+      "probabilidade_condicional": 0.7166666666666667,
+      "receita": "aprendido",
+      "regra": "margem_q65"
+    },
+    {
+      "corte": 1.5152201389690503,
+      "habilitada": false,
+      "k": 13,
+      "n": 17,
+      "precisao_empirica": 0.7647058823529411,
+      "probabilidade_condicional": 0.75,
+      "receita": "aprendido",
+      "regra": "margem_q80"
+    },
+    {
+      "corte": 2.1782381845082197,
+      "habilitada": false,
+      "k": 7,
+      "n": 9,
+      "precisao_empirica": 0.7777777777777778,
+      "probabilidade_condicional": 0.75,
+      "receita": "aprendido",
+      "regra": "margem_q90"
+    },
+    {
+      "corte": null,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "aprendido",
+      "regra": "consenso"
+    },
+    {
+      "corte": 3.3089536842278777,
+      "habilitada": false,
+      "k": 32,
+      "n": 41,
+      "precisao_empirica": 0.7804878048780488,
+      "probabilidade_condicional": 0.7738095238095238,
+      "receita": "aprendido_hierarquico",
+      "regra": "score_q50"
+    },
+    {
+      "corte": 3.6841520543341213,
+      "habilitada": false,
+      "k": 24,
+      "n": 29,
+      "precisao_empirica": 0.8275862068965517,
+      "probabilidade_condicional": 0.8166666666666667,
+      "receita": "aprendido_hierarquico",
+      "regra": "score_q65"
+    },
+    {
+      "corte": 4.306557205666445,
+      "habilitada": false,
+      "k": 15,
+      "n": 17,
+      "precisao_empirica": 0.8823529411764706,
+      "probabilidade_condicional": 0.8611111111111112,
+      "receita": "aprendido_hierarquico",
+      "regra": "score_q80"
+    },
+    {
+      "corte": 4.6543702107104705,
+      "habilitada": false,
+      "k": 7,
+      "n": 9,
+      "precisao_empirica": 0.7777777777777778,
+      "probabilidade_condicional": 0.75,
+      "receita": "aprendido_hierarquico",
+      "regra": "score_q90"
+    },
+    {
+      "corte": 0.6056557101565558,
+      "habilitada": false,
+      "k": 29,
+      "n": 41,
+      "precisao_empirica": 0.7073170731707317,
+      "probabilidade_condicional": 0.7023809523809523,
+      "receita": "aprendido_hierarquico",
+      "regra": "margem_q50"
+    },
+    {
+      "corte": 0.8690036457147583,
+      "habilitada": false,
+      "k": 21,
+      "n": 29,
+      "precisao_empirica": 0.7241379310344828,
+      "probabilidade_condicional": 0.7166666666666667,
+      "receita": "aprendido_hierarquico",
+      "regra": "margem_q65"
+    },
+    {
+      "corte": 1.5152201389690503,
+      "habilitada": false,
+      "k": 13,
+      "n": 17,
+      "precisao_empirica": 0.7647058823529411,
+      "probabilidade_condicional": 0.75,
+      "receita": "aprendido_hierarquico",
+      "regra": "margem_q80"
+    },
+    {
+      "corte": 2.1782381845082197,
+      "habilitada": false,
+      "k": 7,
+      "n": 9,
+      "precisao_empirica": 0.7777777777777778,
+      "probabilidade_condicional": 0.75,
+      "receita": "aprendido_hierarquico",
+      "regra": "margem_q90"
+    },
+    {
+      "corte": null,
+      "habilitada": false,
+      "k": 30,
+      "n": 37,
+      "precisao_empirica": 0.8108108108108109,
+      "probabilidade_condicional": 0.8026315789473685,
+      "receita": "aprendido_hierarquico",
+      "regra": "consenso"
+    }
+  ],
+  "garantia_populacional_95": false,
+  "habilitada": false,
+  "k": 0,
+  "n": 0,
+  "passou_validacao_aninhada": false,
+  "precisao_empirica": null,
+  "probabilidade_condicional": null,
+  "probabilidade_e_do_grupo_na_selecao": true,
+  "receita": "aprendido_hierarquico",
+  "regra": null
+}

@@ -1,0 +1,385 @@
+{
+  "schema": "enriquecimento_catalogo_m7_v1",
+  "disciplina": "Criminologia",
+  "procedimento": "LLM_preparacao_somente_taxonomia",
+  "questoes_ou_rotulos_consultados": false,
+  "registros": [
+    {
+      "tema_id": "4366",
+      "descricao": "Tipologias históricas das vítimas propostas por autores da vitimologia.",
+      "termos": [
+        "classificação das vítimas",
+        "tipologia vitimal",
+        "Mendelsohn",
+        "vítima inocente",
+        "vítima provocadora"
+      ],
+      "fontes": [
+        "https://bibliotecaweb.unicesumar.edu.br/pergamumweb/download/563CF630-8EC7-4F7D-80DC-7C1FA6972543.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4367",
+      "descricao": "Tipologias históricas do delinquente segundo diferentes escolas criminológicas.",
+      "termos": [
+        "classificação dos criminosos",
+        "delinquente",
+        "tipologia criminal",
+        "Lombroso",
+        "positivismo"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=108876"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4368",
+      "descricao": "Estudo do controle social e da criminalidade em relação às garantias democráticas.",
+      "termos": [
+        "Estado democrático",
+        "controle social",
+        "direitos fundamentais",
+        "garantias",
+        "política pública"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=DPM0116&verdis=1"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4370",
+      "descricao": "Formas de resposta ao delito, incluindo punição, reparação e integração social.",
+      "termos": [
+        "reação ao delito",
+        "justiça restaurativa",
+        "reparação",
+        "punição",
+        "ressocialização"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4369",
+      "descricao": "Prevenção primária, secundária e terciária, com intervenções sociais e situacionais.",
+      "termos": [
+        "prevenção primária",
+        "prevenção secundária",
+        "prevenção terciária",
+        "prevenção situacional",
+        "reincidência"
+      ],
+      "fontes": [
+        "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/especiais/55a-legislatura/lei-organica-de-seguranca-publica/documentos/outros-documentos/relatorio-final-aprovado-em-30-11-2016"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4371",
+      "descricao": "Desenvolvimento histórico da criminologia e suas escolas de pensamento.",
+      "termos": [
+        "história da criminologia",
+        "escola clássica",
+        "escola positivista",
+        "período pré científico",
+        "pensamento criminológico"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=108876"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "4373",
+      "descricao": "Escolas criminológicas e seus diferentes pressupostos explicativos.",
+      "termos": [
+        "escola clássica",
+        "escola positiva",
+        "livre arbítrio",
+        "determinismo",
+        "positivismo criminológico"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=108876"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4372",
+      "descricao": "Antecedentes do pensamento criminológico nas etapas históricas anteriores à criminologia científica.",
+      "termos": [
+        "Antiguidade",
+        "Idade Média",
+        "Idade Moderna",
+        "história do crime",
+        "etapa pré científica"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=DPM0116&verdis=1"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4374",
+      "descricao": "Escolhas e estratégias públicas para prevenção e enfrentamento da criminalidade.",
+      "termos": [
+        "política criminal",
+        "prevenção do crime",
+        "controle penal",
+        "segurança pública",
+        "resposta estatal"
+      ],
+      "fontes": [
+        "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/especiais/55a-legislatura/lei-organica-de-seguranca-publica/documentos/outros-documentos/relatorio-final-aprovado-em-30-11-2016"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4375",
+      "descricao": "Orientações político-criminais sobre expansão, redução ou transformação da intervenção penal.",
+      "termos": [
+        "abolicionismo penal",
+        "minimalismo penal",
+        "punitivismo",
+        "garantismo",
+        "política criminal"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4376",
+      "descricao": "Debate político-criminal sobre a distinção entre cidadão e inimigo na resposta punitiva.",
+      "termos": [
+        "Direito Penal do Inimigo",
+        "inimigo",
+        "cidadão",
+        "antecipação da tutela",
+        "garantias penais"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4377",
+      "descricao": "Seleção legislativa e institucional de condutas e pessoas, associada à visibilidade estatística dos delitos.",
+      "termos": [
+        "criminalização",
+        "seletividade penal",
+        "criminalidade registrada",
+        "subnotificação",
+        "cifras criminais"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=DPM0116&verdis=1"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4379",
+      "descricao": "Diferença entre criminalidade ocorrida, comunicada e registrada nas estatísticas oficiais.",
+      "termos": [
+        "cifra negra",
+        "criminalidade oculta",
+        "subnotificação",
+        "registro criminal",
+        "estatística criminal"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=DPM0116&verdis=1"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4378",
+      "descricao": "Criação de normas incriminadoras e sua aplicação pelas agências do sistema penal.",
+      "termos": [
+        "criminalização primária",
+        "criminalização secundária",
+        "legislador",
+        "agências penais",
+        "seletividade"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=DPM0116&verdis=1"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4380",
+      "descricao": "Fundamentos do estudo empírico e interdisciplinar do fenômeno criminal.",
+      "termos": [
+        "teoria criminológica",
+        "ciência empírica",
+        "interdisciplinaridade",
+        "fenômeno criminal",
+        "controle social"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "4381",
+      "descricao": "Delimitação da criminologia e de seus objetos: crime, autor, vítima e controle social.",
+      "termos": [
+        "conceito de criminologia",
+        "objeto da criminologia",
+        "crime",
+        "delinquente",
+        "vítima",
+        "controle social"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4382",
+      "descricao": "Métodos de investigação e funções explicativas e preventivas da criminologia.",
+      "termos": [
+        "método empírico",
+        "interdisciplinaridade",
+        "investigação criminológica",
+        "observação",
+        "função preventiva"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4384",
+      "descricao": "Justificações da pena por retribuição, prevenção geral e prevenção especial.",
+      "termos": [
+        "teoria absoluta",
+        "teoria relativa",
+        "teoria mista",
+        "retribuição",
+        "prevenção geral",
+        "prevenção especial"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4385",
+      "descricao": "Explicações da criminalidade baseadas em processos sociais, consenso e conflito.",
+      "termos": [
+        "teoria sociológica",
+        "consenso",
+        "conflito",
+        "estrutura social",
+        "desvio"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=108876"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4388",
+      "descricao": "Estudo de teorias criminológicas particulares e seus mecanismos explicativos.",
+      "termos": [
+        "teoria da anomia",
+        "associação diferencial",
+        "subcultura delinquente",
+        "etiquetamento",
+        "Escola de Chicago"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=108876"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "4386",
+      "descricao": "Explicações do comportamento criminal centradas em características e processos individuais.",
+      "termos": [
+        "teoria individual",
+        "psicologia criminal",
+        "biologia criminal",
+        "personalidade",
+        "comportamento individual"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=108876"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4387",
+      "descricao": "Explicações do delito pelo ambiente, aprendizado, estrutura social e reação social.",
+      "termos": [
+        "anomia",
+        "aprendizagem social",
+        "desorganização social",
+        "rotulação",
+        "teoria do conflito"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=108876"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4383",
+      "descricao": "Abordagens criminológicas centradas na experiência e nas reações da vítima.",
+      "termos": [
+        "teoria vitimológica",
+        "síndrome vitimal",
+        "experiência da vítima",
+        "reação da vítima",
+        "vitimologia"
+      ],
+      "fontes": [
+        "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=DPM0116&verdis=1"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "4389",
+      "descricao": "Estudo da vítima, suas relações com o delito e sua proteção.",
+      "termos": [
+        "vitimologia",
+        "vítima",
+        "proteção da vítima",
+        "relação autor vítima",
+        "assistência"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4390",
+      "descricao": "Danos do delito e revitimização por instituições e relações sociais.",
+      "termos": [
+        "vitimização primária",
+        "vitimização secundária",
+        "vitimização terciária",
+        "revitimização",
+        "sobrevitimização"
+      ],
+      "fontes": [
+        "https://educapes.capes.gov.br/bitstream/capes/174993/4/eBook_Criminologia-Tecnologia_em_Seguranca_Publica_UFBA.pdf"
+      ],
+      "ambiguo": false
+    }
+  ]
+}

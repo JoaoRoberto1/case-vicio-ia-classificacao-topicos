@@ -1,0 +1,162 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "artefatos_sha256": {
+    "artefatos/catalogo-m7-embeddings/manifesto.json": "f529802bd36a9cbe29f571857be533e8b9af2becfed990cd36d2c3e18cef9e05",
+    "artefatos/catalogo-m7-embeddings/vetores.json": "486ec4d5d918e67a321b418ae2c8bd11bc06a3b1e4b8a0214877304f79821a2b",
+    "artefatos/catalogo-m7-v1/diagnostico_reserva_conhecida.json": "446ce2903dbca72ca0609ca1a628811638e99842fd4dffb813f0cfd5f3fc3623",
+    "artefatos/catalogo-m7-v1/manifesto.json": "151d902a394c60f39fd9eae246228db43d9cd4a2f3adb49ccce44251db691d7e",
+    "artefatos/catalogo-m7-v1/metricas.json": "a110a5d3d10dcfdb7b386c45694bc198dea2902b165adeb9b6f43c3183d13b96",
+    "artefatos/catalogo-m7-v1/modelo100.json": "c3ec515f59e0091ef75b6031dfd537bb097cef7ffcde2a45573dad17e1a3befc",
+    "artefatos/catalogo-m7-v1/modelo80.json": "d1e59736570ced22ca2a793a4262ce5a8c7b119904920453e69f27e067424720",
+    "artefatos/catalogo-m7-v1/particoes_aninhadas.json": "c1d49f56a2b5bef293fab657789ca0b7fd4c4499996409409bf5a08552888c2e",
+    "artefatos/catalogo-m7-v1/politica.json": "4382f92334f6b45ebcf2521d5226be8f3d910f477d39b478363ee2c778e46f2e",
+    "artefatos/catalogo-m7-v1/predicoes_aninhadas.jsonl": "c145f2a49fd49006a79b0ba7566a6835b578a190c2b03e9e832c6004c8587843",
+    "artefatos/catalogo-m7-v1/predicoes_desenvolvimento.jsonl": "00a848402387ad826e21f35f0acca3d83ae046eb5cf3d0bee5446f3b981317ab",
+    "artefatos/catalogo-m7-v1/predicoes_reserva_conhecida.jsonl": "3fb6b12abfa8dd990c478ef22da3b9c05812de78f3cca8bf05f879a094e9ca49",
+    "artefatos/catalogo-m7-v1/sugestoes_avaliacao.jsonl": "5905462e9c8e593d950fe296e4ff960301e1f270c03cc9effd970514cae825ad",
+    "artefatos/checkpoints/reproducao_modulo7.json": "bc53c10f3dc6f31099f8570980b6a661780537291610669bc528983ea1b5a534",
+    "classificacao_catalogo/.gitattributes": "ce0955d5f19e3fe4913c1e6d2d500642d05ef90554f0cf9aab57a00b99c8b4e2",
+    "classificacao_catalogo/__init__.py": "ee6920a8fa74d89ca847446e835405fe7f6b193e4edbd26a180089892f4ad1d9",
+    "classificacao_catalogo/__main__.py": "892f694d77d8343a03bd763ef78f39eb5b415bd035d8c0c838d038071f0b36bb",
+    "classificacao_catalogo/catalogo.py": "43e15fb5d26191449479af40357d8b832ac08f304f6323e2f52e7c9e6600971d",
+    "classificacao_catalogo/experimento.py": "79240918ea2b6610eac51fc2919d13fcfffaedae7ff8e6f8ab6a2793e6bea1e0",
+    "classificacao_catalogo/motor.py": "690dce1c2b868be906600193c7b7acc4bd6d902547caa3d9ca7a500a52bbe341",
+    "classificacao_catalogo/preparar.py": "b3fcc59806bd488061bd3df0da01699223129c6ac53bf57de0241cb4e1e9a397",
+    "classificacao_catalogo/ranking.py": "16af314957c81663b7f86301ab346f4f33626483ecec0c375af1895245ce3792",
+    "classificacao_catalogo/selecao.py": "4911bca0dac0386b1e8caf863e1fba4f421967f3aa19dfc1a77e20ba0ff697e8",
+    "config/modulo7/catalogo_criminologia.json": "372d940764d81c91af33ec376d65be7ea570752b1650ef6097bc2af107f0cd1a",
+    "config/modulo7/catalogo_especial.json": "05fa8282674adfa3e5f8488e6cc148f6c380f8214ac4631e2a7d583fab2891ea",
+    "config/modulo7/catalogo_penal.json": "ce7b927e08d535737a418718547415d01cec895a7bf226bf1002cf83ba8f42db",
+    "config/modulo7/catalogo_processo.json": "7ca57c0f001814258775d4f08b26af24db3c05fc0a50c6e7d11674fcaea7e86c",
+    "config/modulo7/preparacao_catalogo.json": "d5fe588b8e41fa22ece3a0bde0792217fb809c482025742c18d0a96c55f49e2a",
+    "config/modulo7/protocolo.json": "77448049ed4c668ed550735530df81e4cfaa584d2121181d81415e2bd30c0ea1",
+    "docs/MODULO7_CATALOGO.md": "bbe52f22a411d26e6e995e14c8cb6f8f7d50d79eb22ddc49bf083262ae31aec2",
+    "scripts/verificar_catalogo.py": "04aa8138a8c499fb07cc723bc17d1d56a359a1bda33c7b281e3f4d61f7401fad",
+    "tests/test_catalogo_enriquecido.py": "1243df0651e8a4ba32b8b4dd9e7d441b27fe3407aab845a8dbf6497d09f1da33",
+    "tests/test_motor_catalogo.py": "caea48e9e4c36a090d8a2805711bb5f55385285e080fb0729b5410d4d73b47fc",
+    "tests/test_ranking_catalogo.py": "aadbe689845bc4ebe7a06652475b68a08e6e1a7c9b970e7a5eca5d5a7359fa10",
+    "tests/test_selecao_catalogo.py": "72e81a856d30760c57c6ffeac110a5777fe4c401fa70686b8c7ebc1cb18bd082"
+  },
+  "autor": "Jo?o Roberto de Oliveira Felix",
+  "avaliacao559": {
+    "motivo": "Sem rótulos humanos oficiais disponíveis.",
+    "precisao_observada": null,
+    "publicaria": 0,
+    "total": 559
+  },
+  "catalogo": {
+    "LLM_somente_preparacao": true,
+    "candidatos_enriquecidos": 371,
+    "questoes_classificadas_ou_validadas_por_LLM": 0,
+    "revisao_juridica_humana": false
+  },
+  "chamadas_api": 0,
+  "concluido_em_utc": "2026-10-21T18:26:26.959271+00:00",
+  "desenvolvimento80": {
+    "acertos": {
+      "exato": 42,
+      "imediato": 54,
+      "ramo": 54
+    },
+    "acertos_top_k_ramo": 66,
+    "niveis_sugeridos": {
+      "1": 38,
+      "2": 42
+    },
+    "recuos_hierarquicos": 13,
+    "sem_evidencia": 0,
+    "taxa_top_k_ramo": 0.825,
+    "taxas_acerto": {
+      "exato": 0.525,
+      "imediato": 0.675,
+      "ramo": 0.675
+    },
+    "total": 80
+  },
+  "encoder_na_decisao": false,
+  "entrega_M5_substituida": false,
+  "estado": "experimento_concluido_nao_promovido_a_entrega_M5",
+  "meta95_com_cobertura_atingida": false,
+  "modulos_anteriores": {
+    "modulo5": {
+      "arquivos_conferidos": 13,
+      "checkpoint_sha256": "4cb587f723e2c6d4003b1a845b986739f754140b1404dc526c3391aa51c8c3eb",
+      "todos_inalterados": true
+    },
+    "modulo6": {
+      "arquivos_conferidos": 23,
+      "checkpoint_sha256": "45ad60765337b0712058ed9e068694d484b62f12737c2bd007829743a30e616d",
+      "todos_inalterados": true
+    }
+  },
+  "protocolo_sha256": "77448049ed4c668ed550735530df81e4cfaa584d2121181d81415e2bd30c0ea1",
+  "publicacao_aninhada80": {
+    "count": 80,
+    "coverage": 0.0,
+    "k": 0,
+    "n": 0,
+    "precision": null,
+    "wilson95": null
+  },
+  "receita_selecionada": "aprendido_hierarquico",
+  "reproducao": {
+    "arquivos_copiados": 162,
+    "bytes_copiados": 41691659,
+    "produtos_identicos": 11,
+    "rede_credenciais_encoder_bloqueados": true,
+    "segundos": 170.719,
+    "status": "aprovado"
+  },
+  "reserva20_conhecida_exploratoria": {
+    "acertos": {
+      "exato": 11,
+      "imediato": 12,
+      "ramo": 12
+    },
+    "acertos_top_k_ramo": 17,
+    "niveis_sugeridos": {
+      "1": 9,
+      "2": 11
+    },
+    "recuos_hierarquicos": 3,
+    "sem_evidencia": 0,
+    "taxa_top_k_ramo": 0.85,
+    "taxas_acerto": {
+      "exato": 0.55,
+      "imediato": 0.6,
+      "ramo": 0.6
+    },
+    "total": 20
+  },
+  "schema": "checkpoint_modulo7_v1",
+  "selecao_aninhada80": {
+    "acertos": {
+      "exato": 37,
+      "imediato": 53,
+      "ramo": 53
+    },
+    "acertos_top_k_ramo": 68,
+    "niveis_sugeridos": {
+      "1": 34,
+      "2": 46
+    },
+    "recuos_hierarquicos": 6,
+    "sem_evidencia": 0,
+    "taxa_top_k_ramo": 0.85,
+    "taxas_acerto": {
+      "exato": 0.4625,
+      "imediato": 0.6625,
+      "ramo": 0.6625
+    },
+    "total": 80
+  },
+  "testes_novos": {
+    "aprovados": 66,
+    "comando": "python -E -X utf8 -B -S -m unittest discover -s tests -p 'test_*catalogo*.py'",
+    "executados": 66
+  }
+}

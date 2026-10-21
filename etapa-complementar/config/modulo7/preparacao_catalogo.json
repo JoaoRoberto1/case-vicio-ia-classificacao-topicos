@@ -1,0 +1,17 @@
+{
+  "schema": "procedencia_enriquecimento_m7_v1",
+  "data": "2026-10-21",
+  "ferramenta": "Codex",
+  "familia_informada": "GPT-6",
+  "identificador_exato_snapshot": null,
+  "observacao_modelo": "A sessão não expõe identificador de snapshot. Não houve chamada a API Gemini nem uso da chave local.",
+  "procedimento": "Preparação assistida por LLM, distribuída por disciplina. Somente títulos, caminhos, hierarquia e status da taxonomia foram usados para escrever os descritores; fontes oficiais e acadêmicas forneceram referências conceituais.",
+  "instrucao_utilizada_sintese": "Para cada tema ativo não raiz, escrever descrição conceitual, 5–12 termos e fontes primárias. Não consultar questões, rótulos, predições nem métricas individuais. Não decidir, votar ou validar classificações. Preservar IDs, status e hierarquia; indicar ambiguidade em recortes Parte1/2 e duplicações. Não inventar fronteiras ou regras jurídicas atuais. Não copiar longos trechos de fontes.",
+  "fontes_por_registro": "catalogo_penal.json, catalogo_processo.json, catalogo_especial.json, catalogo_criminologia.json",
+  "saida_congelada_antes_da_primeira_metrica_m7": true,
+  "revisao": "Validação estrutural automática e inspeção do catálogo por assistentes; não houve revisão jurídica humana. As descrições são representações temáticas, não pareceres jurídicos.",
+  "restricoes": "Nenhuma classificação ou validação semântica das questões por LLM. Nenhum rótulo de IA anterior/concorrente usado. Dados de avaliação não entram na redação dos descritores.",
+  "encoder": "intfloat/multilingual-e5-small, revisão e hashes fixados em config/modulo3/embeddings.json",
+  "vetores": "Somente os371 temas foram novamente codificados. Os659 vetores de questões do M4 são reutilizados; durante a decisão não se executa encoder.",
+  "protocolo_sha256": "77448049ed4c668ed550735530df81e4cfaa584d2121181d81415e2bd30c0ea1"
+}

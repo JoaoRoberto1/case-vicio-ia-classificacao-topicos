@@ -1,0 +1,2458 @@
+{
+  "schema": "enriquecimento_catalogo_m7_v1",
+  "disciplina": "Processo Penal",
+  "procedimento": "LLM_preparacao_somente_taxonomia",
+  "questoes_ou_rotulos_consultados": false,
+  "registros": [
+    {
+      "tema_id": "5466",
+      "descricao": "Exercício da pretensão acusatória perante o Judiciário, abrangendo titularidade, condições de exercício e formas de provocação da jurisdição criminal.",
+      "termos": [
+        "persecução penal",
+        "pretensão acusatória",
+        "legitimidade ativa",
+        "Ministério Público",
+        "denúncia",
+        "queixa-crime",
+        "condições da ação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5475",
+      "descricao": "Reparação dos danos decorrentes de infração penal e relações entre o julgamento criminal e a pretensão indenizatória civil.",
+      "termos": [
+        "ação civil ex delicto",
+        "reparação do dano",
+        "indenização civil",
+        "ofendido",
+        "responsável civil",
+        "sentença penal condenatória",
+        "execução civil"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5471",
+      "descricao": "Acusação pública cujo exercício depende de manifestação de vontade ou autorização legalmente exigida, como representação do ofendido ou requisição.",
+      "termos": [
+        "representação do ofendido",
+        "requisição do Ministro da Justiça",
+        "condição de procedibilidade",
+        "retratação da representação",
+        "ação pública condicionada",
+        "Ministério Público",
+        "vítima"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5470",
+      "descricao": "Acusação promovida pelo Ministério Público independentemente de representação da vítima, observadas as condições gerais para exercício da ação.",
+      "termos": [
+        "ação pública incondicionada",
+        "titularidade ministerial",
+        "denúncia",
+        "Ministério Público",
+        "iniciativa pública",
+        "persecução oficial",
+        "obrigatoriedade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5472",
+      "descricao": "Acusação de iniciativa do ofendido ou de quem legalmente o representa, com regimes próprios de disponibilidade e extinção.",
+      "termos": [
+        "ação penal privada",
+        "querelante",
+        "querelado",
+        "queixa-crime",
+        "renúncia",
+        "perdão do ofendido",
+        "perempção",
+        "ação privada subsidiária"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5467",
+      "descricao": "Condições e atributos do exercício da pretensão acusatória, incluindo legitimidade, interesse e suporte mínimo para instaurar processo criminal.",
+      "termos": [
+        "condições da ação",
+        "justa causa",
+        "legitimidade",
+        "interesse de agir",
+        "condição de procedibilidade",
+        "suporte probatório mínimo",
+        "pretensão acusatória"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5468",
+      "descricao": "Distinção entre ação pública incondicionada, ação pública condicionada e ação de iniciativa privada conforme o titular e os requisitos de iniciativa.",
+      "termos": [
+        "espécies de ação penal",
+        "ação pública",
+        "ação privada",
+        "ação condicionada",
+        "ação incondicionada",
+        "iniciativa acusatória",
+        "ação subsidiária"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5473",
+      "descricao": "Peça acusatória apresentada pelo Ministério Público, com narrativa do fato imputado e identificação do acusado, submetida ao controle judicial de admissibilidade.",
+      "termos": [
+        "denúncia",
+        "peça acusatória",
+        "imputação",
+        "exposição do fato",
+        "qualificação do acusado",
+        "aditamento",
+        "Ministério Público",
+        "inépcia"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5469",
+      "descricao": "Diretrizes que disciplinam iniciativa, extensão e disponibilidade da acusação nas modalidades pública e privada.",
+      "termos": [
+        "obrigatoriedade",
+        "indisponibilidade",
+        "divisibilidade",
+        "indivisibilidade",
+        "oportunidade",
+        "oficialidade",
+        "intranscendência",
+        "disponibilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5474",
+      "descricao": "Peça que veicula acusação de iniciativa privada, com requisitos próprios de representação e exercício do direito de queixa.",
+      "termos": [
+        "queixa-crime",
+        "querelante",
+        "querelado",
+        "procuração com poderes especiais",
+        "direito de queixa",
+        "decadência",
+        "ação privada",
+        "aditamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5476",
+      "descricao": "Instrumentos que instauram relação processual própria para enfrentar constrangimentos, ilegalidades ou condenações, distintos da continuação recursal.",
+      "termos": [
+        "ações autônomas",
+        "impugnação",
+        "habeas corpus",
+        "revisão criminal",
+        "mandado de segurança",
+        "constrangimento ilegal",
+        "desconstituição da condenação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5477",
+      "descricao": "Proteção judicial da liberdade de locomoção contra coação ilegal ou ameaça, por meio de pedido preventivo ou liberatório.",
+      "termos": [
+        "habeas corpus",
+        "liberdade de locomoção",
+        "coação ilegal",
+        "paciente",
+        "impetrante",
+        "autoridade coatora",
+        "salvo-conduto",
+        "ordem liberatória"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5479",
+      "descricao": "Tutela de direito líquido e certo mediante ação constitucional contra ilegalidade ou abuso de autoridade, respeitados os limites de cabimento.",
+      "termos": [
+        "mandado de segurança",
+        "direito líquido e certo",
+        "autoridade coatora",
+        "prova pré-constituída",
+        "impetrante",
+        "liminar",
+        "abuso de poder"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5478",
+      "descricao": "Desconstituição ou alteração de condenação criminal definitiva por fundamentos próprios de revisão, como erro demonstrado ou prova nova favorável.",
+      "termos": [
+        "revisão criminal",
+        "condenação definitiva",
+        "erro judiciário",
+        "prova nova",
+        "processo findo",
+        "absolvição",
+        "desconstituição",
+        "condenado"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5480",
+      "descricao": "Distribuição da atribuição jurisdicional para processar e julgar infrações, segundo critérios materiais, territoriais, funcionais e de conexão.",
+      "termos": [
+        "competência criminal",
+        "juiz natural",
+        "foro competente",
+        "conexão",
+        "continência",
+        "prevenção",
+        "distribuição",
+        "prerrogativa de função"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "6732",
+      "descricao": "Distribuição da atribuição jurisdicional criminal por matéria, território, função e vínculos entre processos. O título não delimita o conteúdo da Parte 1.",
+      "termos": [
+        "competência criminal",
+        "competência territorial",
+        "matéria",
+        "prerrogativa de função",
+        "conexão",
+        "continência",
+        "prevenção",
+        "juiz natural"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "6733",
+      "descricao": "Distribuição da atribuição jurisdicional criminal por matéria, território, função e vínculos entre processos. O título não delimita o conteúdo da Parte 2.",
+      "termos": [
+        "competência criminal",
+        "competência territorial",
+        "matéria",
+        "prerrogativa de função",
+        "conexão",
+        "continência",
+        "prevenção",
+        "juiz natural"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5483",
+      "descricao": "Determinação do foro territorial da persecução criminal a partir do lugar da infração e de critérios territoriais subsidiários.",
+      "termos": [
+        "competência territorial",
+        "lugar da infração",
+        "foro do delito",
+        "domicílio do réu",
+        "residência do réu",
+        "território",
+        "limite territorial",
+        "consumação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5485",
+      "descricao": "Distribuição de feitos entre órgãos judiciais com atribuição na mesma estrutura jurisdicional, incluindo organização de varas, distribuição e prevenção.",
+      "termos": [
+        "competência de juízo",
+        "vara criminal",
+        "organização judiciária",
+        "distribuição",
+        "prevenção",
+        "juízo competente",
+        "especialização de varas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5482",
+      "descricao": "Atribuição jurisdicional determinada pela natureza da infração ou matéria, incluindo distinção entre justiças e competência do júri.",
+      "termos": [
+        "competência material",
+        "natureza da infração",
+        "Justiça Federal",
+        "Justiça Estadual",
+        "Justiça Eleitoral",
+        "Justiça Militar",
+        "Tribunal do Júri"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5484",
+      "descricao": "Competência criminal vinculada ao exercício de determinadas funções públicas e aos órgãos de julgamento previstos no ordenamento.",
+      "termos": [
+        "prerrogativa de função",
+        "foro por função",
+        "competência originária",
+        "autoridade pública",
+        "tribunais",
+        "cargo público",
+        "foro especial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5481",
+      "descricao": "Critérios de determinação do órgão competente e distinções estruturais entre competências absoluta, relativa, material, territorial e funcional.",
+      "termos": [
+        "fixação de competência",
+        "competência absoluta",
+        "competência relativa",
+        "competência funcional",
+        "competência material",
+        "competência territorial",
+        "juiz natural"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5486",
+      "descricao": "Alteração ou manutenção da competência por causas processuais, como conexão, continência, prevenção e separação de processos.",
+      "termos": [
+        "prorrogação de competência",
+        "perpetuação da competência",
+        "modificação de competência",
+        "conexão",
+        "continência",
+        "prevenção",
+        "separação de processos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5487",
+      "descricao": "Atos que dão ciência da acusação e das decisões aos participantes do processo, permitindo defesa e cumprimento de determinações.",
+      "termos": [
+        "comunicação processual",
+        "citação",
+        "intimação",
+        "notificação",
+        "mandado",
+        "carta precatória",
+        "edital",
+        "prazos processuais"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5488",
+      "descricao": "Chamamento do acusado para integrar o processo e exercer defesa, com suas formas de realização e contagem dos prazos correlatos.",
+      "termos": [
+        "citação pessoal",
+        "citação por edital",
+        "citação por hora certa",
+        "mandado de citação",
+        "carta precatória",
+        "réu citado",
+        "prazo processual",
+        "termo inicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5489",
+      "descricao": "Ciência dos atos processuais aos sujeitos interessados, incluindo formas de intimação e identificação do início e término dos prazos.",
+      "termos": [
+        "intimação",
+        "publicação",
+        "ciência da decisão",
+        "intimação pessoal",
+        "defensor",
+        "prazo processual",
+        "termo inicial",
+        "contagem de prazos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5490",
+      "descricao": "Controvérsias e procedimentos acessórios durante a persecução penal, relativos à regularidade processual, bens e condições pessoais.",
+      "termos": [
+        "incidente processual",
+        "questão prejudicial",
+        "exceções",
+        "medidas assecuratórias",
+        "restituição",
+        "falsidade",
+        "insanidade mental"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5493",
+      "descricao": "Incidentes para discutir a atribuição do juízo ou a legitimidade de quem atua no processo penal.",
+      "termos": [
+        "exceção de incompetência",
+        "exceção de ilegitimidade",
+        "juízo incompetente",
+        "legitimidade de parte",
+        "declínio de competência",
+        "excipiente",
+        "exceção processual"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5494",
+      "descricao": "Incidentes que impedem repetição de persecuções idênticas simultâneas ou de matéria já decidida definitivamente.",
+      "termos": [
+        "litispendência",
+        "coisa julgada",
+        "duplicidade de processos",
+        "identidade da imputação",
+        "trânsito em julgado",
+        "exceção",
+        "ne bis in idem"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5492",
+      "descricao": "Instrumentos destinados a afastar atuação de sujeito processual cuja imparcialidade ou aptidão seja comprometida por vínculos e situações previstos em lei.",
+      "termos": [
+        "suspeição",
+        "impedimento",
+        "incompatibilidade",
+        "imparcialidade",
+        "exceção de suspeição",
+        "arguição",
+        "juiz impedido",
+        "relações pessoais"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5497",
+      "descricao": "Procedimentos acessórios para verificar autenticidade de documento ou condição mental do acusado quando surgem dúvidas relevantes à persecução.",
+      "termos": [
+        "incidente de falsidade",
+        "autenticidade documental",
+        "documento falso",
+        "incidente de insanidade mental",
+        "exame médico-legal",
+        "capacidade mental",
+        "perícia",
+        "curador"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5496",
+      "descricao": "Constrições patrimoniais cautelares destinadas a preservar bens e garantir efeitos econômicos do processo criminal.",
+      "termos": [
+        "sequestro de bens",
+        "hipoteca legal",
+        "arresto",
+        "medidas assecuratórias",
+        "constrição patrimonial",
+        "reparação do dano",
+        "indisponibilidade",
+        "embargos de terceiro"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5491",
+      "descricao": "Controvérsias antecedentes ao julgamento principal, envolvendo pressupostos processuais ou relações jurídicas cuja solução influencia a decisão penal.",
+      "termos": [
+        "questão prejudicial",
+        "questão preliminar",
+        "suspensão do processo",
+        "estado civil",
+        "pressuposto processual",
+        "mérito penal",
+        "prejudicialidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5495",
+      "descricao": "Devolução de objetos retidos durante a persecução, após exame do interesse probatório, titularidade e destinação legal.",
+      "termos": [
+        "restituição de coisas apreendidas",
+        "objeto apreendido",
+        "propriedade",
+        "terceiro de boa-fé",
+        "interesse processual",
+        "destinação de bens",
+        "pedido de restituição"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5498",
+      "descricao": "Investigação preliminar conduzida pela polícia judiciária para apurar infração e autoria e reunir elementos informativos para a persecução.",
+      "termos": [
+        "inquérito policial",
+        "polícia judiciária",
+        "delegado",
+        "investigação preliminar",
+        "autoria",
+        "materialidade",
+        "elementos informativos",
+        "indiciamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5502",
+      "descricao": "Mecanismo negocial anterior à persecução judicial, com condições pactuadas entre Ministério Público e investigado e controle de homologação.",
+      "termos": [
+        "acordo de não persecução penal",
+        "ANPP",
+        "Ministério Público",
+        "investigado",
+        "confissão",
+        "condições ajustadas",
+        "homologação",
+        "descumprimento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5499",
+      "descricao": "Natureza administrativa e finalidade informativa da investigação policial, com características próprias em relação ao processo judicial.",
+      "termos": [
+        "investigação preliminar",
+        "procedimento administrativo",
+        "dispensabilidade",
+        "sigilo",
+        "forma escrita",
+        "polícia judiciária",
+        "elementos de informação",
+        "inquirição"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5501",
+      "descricao": "Encerramento da investigação, elaboração de relatório e encaminhamento dos autos, bem como decisão de não prosseguir e seus mecanismos de controle.",
+      "termos": [
+        "relatório final",
+        "arquivamento do inquérito",
+        "conclusão da investigação",
+        "Ministério Público",
+        "remessa dos autos",
+        "reabertura",
+        "novas provas",
+        "controle do arquivamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5504",
+      "descricao": "Investigação extrajudicial do Ministério Público voltada à tutela de interesses coletivos e à apuração de elementos para ação civil pública.",
+      "termos": [
+        "inquérito civil",
+        "Ministério Público",
+        "interesses difusos",
+        "interesses coletivos",
+        "ação civil pública",
+        "investigação extrajudicial",
+        "requisição de documentos",
+        "arquivamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l7347orig.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5503",
+      "descricao": "Função judicial de controle da legalidade da investigação e proteção dos direitos individuais sujeitos à reserva de jurisdição.",
+      "termos": [
+        "juiz das garantias",
+        "controle da investigação",
+        "reserva de jurisdição",
+        "direitos individuais",
+        "legalidade investigatória",
+        "separação de funções",
+        "fase investigatória"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5500",
+      "descricao": "Formas de instauração, diligências e atos de condução da investigação policial até seu encaminhamento às autoridades competentes.",
+      "termos": [
+        "instauração do inquérito",
+        "portaria",
+        "notícia-crime",
+        "requisição",
+        "requerimento do ofendido",
+        "diligências",
+        "indiciamento",
+        "relatório policial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5505",
+      "descricao": "Aplicação das normas processuais penais diante da sucessão de leis e do âmbito territorial, incluindo técnicas de interpretação e integração.",
+      "termos": [
+        "lei processual penal",
+        "aplicação imediata",
+        "tempus regit actum",
+        "territorialidade",
+        "direito intertemporal",
+        "interpretação extensiva",
+        "analogia"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5508",
+      "descricao": "Técnicas para compreender e integrar a norma processual penal, considerando sentido do texto, finalidade, analogia e princípios.",
+      "termos": [
+        "interpretação extensiva",
+        "interpretação literal",
+        "interpretação sistemática",
+        "analogia",
+        "integração",
+        "princípios gerais",
+        "lei processual penal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5506",
+      "descricao": "Âmbito territorial de incidência da lei processual brasileira e relações com tratados e regras especiais de jurisdição.",
+      "termos": [
+        "territorialidade",
+        "lei processual no espaço",
+        "território brasileiro",
+        "tratados internacionais",
+        "cooperação jurídica",
+        "jurisdição",
+        "norma processual brasileira"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5507",
+      "descricao": "Efeitos da sucessão de normas processuais sobre atos pendentes e já praticados, distinguindo aplicação imediata e validade dos atos anteriores.",
+      "termos": [
+        "lei processual no tempo",
+        "tempus regit actum",
+        "aplicação imediata",
+        "ato processual",
+        "lei nova",
+        "direito intertemporal",
+        "validade dos atos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6734",
+      "descricao": "Cumprimento das decisões penais, assistência à pessoa presa e disciplina dos regimes, direitos, deveres e incidentes da execução.",
+      "termos": [
+        "execução penal",
+        "LEP",
+        "progressão de regime",
+        "remição",
+        "trabalho do preso",
+        "assistência",
+        "falta disciplinar",
+        "livramento condicional",
+        "juízo da execução"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5509",
+      "descricao": "Invalidade de atos processuais por defeitos juridicamente relevantes, com exame de prejuízo, oportunidade de arguição e efeitos sobre atos dependentes.",
+      "termos": [
+        "nulidade processual",
+        "prejuízo",
+        "convalidação",
+        "arguição",
+        "renovação do ato",
+        "defeito processual",
+        "instrumentalidade das formas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5510",
+      "descricao": "Distinção entre regimes de invalidade processual conforme a garantia atingida, a possibilidade de saneamento e a forma de arguição.",
+      "termos": [
+        "nulidade absoluta",
+        "nulidade relativa",
+        "prejuízo",
+        "convalidação",
+        "preclusão",
+        "arguição oportuna",
+        "garantia processual",
+        "ato inválido"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5511",
+      "descricao": "Hipóteses específicas de vício dos atos processuais e consequências para a validade da persecução e dos atos subsequentes.",
+      "termos": [
+        "nulidades em espécie",
+        "falta de defesa",
+        "citação defeituosa",
+        "incompetência",
+        "suspeição",
+        "ausência de intimação",
+        "formalidade essencial",
+        "ato dependente"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5512",
+      "descricao": "Regras comuns de impugnação das decisões judiciais, envolvendo admissibilidade, legitimidade, efeitos e limites da revisão pelo órgão julgador.",
+      "termos": [
+        "teoria dos recursos",
+        "admissibilidade",
+        "legitimidade recursal",
+        "interesse recursal",
+        "efeito devolutivo",
+        "efeito suspensivo",
+        "voluntariedade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5516",
+      "descricao": "Agrupamento dos recursos segundo finalidade, extensão, fundamentação, órgão julgador e natureza da decisão impugnada.",
+      "termos": [
+        "classificação recursal",
+        "recurso ordinário",
+        "recurso extraordinário",
+        "fundamentação vinculada",
+        "recurso total",
+        "recurso parcial",
+        "voluntariedade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5515",
+      "descricao": "Consequências da interposição de recurso sobre exame da matéria, eficácia da decisão, retratação e extensão a outros acusados.",
+      "termos": [
+        "efeito devolutivo",
+        "efeito suspensivo",
+        "efeito regressivo",
+        "efeito extensivo",
+        "retratação",
+        "execução da decisão",
+        "matéria impugnada"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5514",
+      "descricao": "Requisitos para conhecimento de recurso, relativos ao instrumento, momento de interposição, legitimidade e interesse de quem recorre.",
+      "termos": [
+        "cabimento",
+        "tempestividade",
+        "regularidade formal",
+        "legitimidade recursal",
+        "interesse recursal",
+        "sucumbência",
+        "admissibilidade",
+        "conhecimento do recurso"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5513",
+      "descricao": "Diretrizes dos recursos penais, incluindo voluntariedade, adequação, aproveitamento do recurso e limites ao agravamento da situação do recorrente.",
+      "termos": [
+        "voluntariedade",
+        "fungibilidade",
+        "unirrecorribilidade",
+        "taxatividade",
+        "non reformatio in pejus",
+        "duplo grau",
+        "dialeticidade",
+        "proibição de reforma prejudicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5517",
+      "descricao": "Modalidades de restrição cautelar da liberdade e alternativas legais, com finalidades e regimes distintos.",
+      "termos": [
+        "prisão cautelar",
+        "prisão preventiva",
+        "prisão temporária",
+        "prisão em flagrante",
+        "prisão domiciliar",
+        "liberdade provisória",
+        "cautelares diversas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5523",
+      "descricao": "Permanência ou restituição da liberdade durante a persecução, com ou sem fiança e eventualmente vinculada a obrigações cautelares.",
+      "termos": [
+        "liberdade provisória",
+        "fiança",
+        "soltura",
+        "vínculo processual",
+        "medidas cautelares",
+        "comparecimento",
+        "obrigações do acusado",
+        "revogação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5522",
+      "descricao": "Restrições cautelares alternativas ao encarceramento, destinadas a atender necessidades do processo de modo adequado e proporcional.",
+      "termos": [
+        "cautelares diversas",
+        "comparecimento periódico",
+        "proibição de contato",
+        "proibição de acesso",
+        "recolhimento domiciliar",
+        "monitoramento eletrônico",
+        "fiança",
+        "suspensão de função"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5521",
+      "descricao": "Recolhimento do acusado em residência como forma de restrição cautelar, conforme hipóteses legais de substituição da prisão preventiva.",
+      "termos": [
+        "prisão domiciliar",
+        "recolhimento residencial",
+        "substituição da preventiva",
+        "residência",
+        "cuidados familiares",
+        "condição de saúde",
+        "autorização judicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5519",
+      "descricao": "Custódia cautelar decretada judicialmente para atender fundamentos legalmente previstos, exigindo motivação e avaliação de necessidade.",
+      "termos": [
+        "prisão preventiva",
+        "garantia da ordem pública",
+        "instrução criminal",
+        "aplicação da lei penal",
+        "fundamentação",
+        "contemporaneidade",
+        "revogação",
+        "necessidade cautelar"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5520",
+      "descricao": "Custódia cautelar vinculada à investigação criminal e submetida ao regime específico da lei de prisão temporária.",
+      "termos": [
+        "prisão temporária",
+        "investigação criminal",
+        "inquérito policial",
+        "representação policial",
+        "requerimento ministerial",
+        "decretação judicial",
+        "prazo legal",
+        "imprescindibilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5518",
+      "descricao": "Captura de pessoa em situação de flagrância, formalização do auto e controle judicial das consequências da prisão.",
+      "termos": [
+        "flagrante delito",
+        "auto de prisão em flagrante",
+        "captura",
+        "condutor",
+        "nota de culpa",
+        "flagrante próprio",
+        "flagrante impróprio",
+        "flagrante presumido"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5530",
+      "descricao": "Rito comum ordinário de persecução judicial, estruturado pela acusação, defesa, instrução, debates e sentença.",
+      "termos": [
+        "procedimento ordinário",
+        "rito comum",
+        "recebimento da denúncia",
+        "resposta à acusação",
+        "instrução",
+        "alegações finais",
+        "sentença",
+        "absolvição sumária"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5531",
+      "descricao": "Apresentação da denúncia ou queixa e controle judicial inicial de seus requisitos, incluindo inadmissibilidade e recebimento da acusação.",
+      "termos": [
+        "oferecimento da denúncia",
+        "rejeição da denúncia",
+        "recebimento da denúncia",
+        "inépcia",
+        "justa causa",
+        "condição da ação",
+        "peça acusatória"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5534",
+      "descricao": "Julgamento absolutório antecipado após a resposta defensiva, diante de causas legais que dispensam prosseguimento da instrução no rito comum.",
+      "termos": [
+        "absolvição sumária",
+        "resposta à acusação",
+        "excludente de ilicitude",
+        "excludente de culpabilidade",
+        "atipicidade",
+        "extinção da punibilidade",
+        "procedimento comum"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5536",
+      "descricao": "Manifestações finais de acusação e defesa ao término da produção probatória, com discussão dos fatos e pedidos antes do julgamento.",
+      "termos": [
+        "alegações orais",
+        "alegações finais",
+        "debates orais",
+        "memoriais",
+        "acusação",
+        "defesa",
+        "encerramento da instrução"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5535",
+      "descricao": "Ato concentrado de produção de prova e manifestações processuais, abrangendo oitiva de pessoas, esclarecimentos e interrogatório.",
+      "termos": [
+        "audiência de instrução e julgamento",
+        "oitiva de testemunhas",
+        "interrogatório",
+        "esclarecimentos periciais",
+        "reconhecimento",
+        "debates",
+        "ordem dos atos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5532",
+      "descricao": "Distinção entre ritos comuns e especiais e entre procedimentos ordinário, sumário e sumaríssimo, conforme critérios legais de adoção.",
+      "termos": [
+        "rito comum",
+        "rito especial",
+        "procedimento ordinário",
+        "procedimento sumário",
+        "procedimento sumaríssimo",
+        "classificação dos ritos",
+        "procedimento penal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5533",
+      "descricao": "Manifestação defensiva inicial perante a acusação no procedimento comum, com preliminares, documentos, argumentos e requerimentos de prova.",
+      "termos": [
+        "resposta à acusação",
+        "defesa preliminar",
+        "defesa escrita",
+        "preliminares",
+        "rol de testemunhas",
+        "requerimento de provas",
+        "argumentos defensivos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5537",
+      "descricao": "Decisão de mérito ao final do rito ordinário, que enfrenta acusação, defesa e prova para absolver ou condenar.",
+      "termos": [
+        "sentença no rito ordinário",
+        "julgamento de mérito",
+        "fundamentação",
+        "dispositivo",
+        "absolvição",
+        "condenação",
+        "relatório"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5539",
+      "descricao": "Rito dos juizados especiais criminais, com simplificação procedimental, fase preliminar e instrumentos consensuais próprios.",
+      "termos": [
+        "procedimento sumaríssimo",
+        "juizado especial criminal",
+        "JECRIM",
+        "termo circunstanciado",
+        "audiência preliminar",
+        "composição civil",
+        "transação penal",
+        "oralidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5540",
+      "descricao": "Delimitação dos fatos e matérias atribuídos aos juizados especiais criminais e das consequências processuais do reconhecimento de competência.",
+      "termos": [
+        "competência do JECRIM",
+        "infrações de menor potencial ofensivo",
+        "juizado especial criminal",
+        "contravenção penal",
+        "conexão",
+        "continência",
+        "declínio de competência"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5542",
+      "descricao": "Suspensão do processo por período de prova e cumprimento de condições previstas em proposta legalmente cabível.",
+      "termos": [
+        "suspensão condicional do processo",
+        "sursis processual",
+        "período de prova",
+        "condições",
+        "revogação",
+        "extinção da punibilidade",
+        "proposta ministerial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5541",
+      "descricao": "Solução consensual nos juizados criminais mediante proposta de aplicação imediata de medida legalmente prevista e aceitação assistida.",
+      "termos": [
+        "transação penal",
+        "proposta do Ministério Público",
+        "pena restritiva de direitos",
+        "multa",
+        "aceitação",
+        "homologação",
+        "juizado especial criminal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5538",
+      "descricao": "Rito comum sumário, com organização concentrada dos atos de defesa, prova e julgamento nas hipóteses legais correspondentes.",
+      "termos": [
+        "procedimento sumário",
+        "rito sumário",
+        "procedimento comum",
+        "audiência",
+        "instrução criminal",
+        "defesa",
+        "alegações finais",
+        "sentença"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5524",
+      "descricao": "Procedimento de julgamento dos crimes atribuídos ao júri, com fase de formação da acusação e posterior julgamento em plenário.",
+      "termos": [
+        "Tribunal do Júri",
+        "crimes dolosos contra a vida",
+        "pronúncia",
+        "plenário",
+        "conselho de sentença",
+        "jurados",
+        "quesitação",
+        "juiz presidente"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5527",
+      "descricao": "Decisões de encerramento da primeira fase do júri, que encaminham a acusação ao plenário, afastam seu prosseguimento ou alteram a competência.",
+      "termos": [
+        "pronúncia",
+        "impronúncia",
+        "absolvição sumária no júri",
+        "desclassificação",
+        "materialidade",
+        "indícios de autoria",
+        "judicium accusationis"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5528",
+      "descricao": "Composição do tribunal popular e sequência dos atos em plenário, incluindo formação do conselho, debates e votação dos quesitos.",
+      "termos": [
+        "alistamento de jurados",
+        "sorteio",
+        "conselho de sentença",
+        "recusa de jurado",
+        "desaforamento",
+        "debates em plenário",
+        "quesitação",
+        "votação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5525",
+      "descricao": "Garantias constitucionais específicas do tribunal popular e seu papel no julgamento das infrações que lhe são atribuídas.",
+      "termos": [
+        "plenitude de defesa",
+        "sigilo das votações",
+        "soberania dos veredictos",
+        "crimes dolosos contra a vida",
+        "garantias do júri",
+        "jurados",
+        "tribunal popular"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5526",
+      "descricao": "Estrutura em duas fases do júri, com controle inicial da admissibilidade da acusação e subsequente preparação e realização do julgamento popular.",
+      "termos": [
+        "procedimento bifásico",
+        "judicium accusationis",
+        "judicium causae",
+        "primeira fase",
+        "segunda fase",
+        "pronúncia",
+        "preparação do plenário",
+        "julgamento popular"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5529",
+      "descricao": "Decisão proferida pelo juiz presidente a partir das respostas dos jurados, formalizando consequências absolutórias ou condenatórias do veredicto.",
+      "termos": [
+        "sentença do júri",
+        "juiz presidente",
+        "veredicto",
+        "respostas aos quesitos",
+        "condenação",
+        "absolvição",
+        "dosimetria",
+        "conselho de sentença"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6735",
+      "descricao": "Meios concretos de produção e obtenção de elementos de convicção, como perícia, depoimentos, documentos e reconhecimento. O título amplo se sobrepõe a outros nós do catálogo.",
+      "termos": [
+        "meios de prova",
+        "perícia",
+        "testemunha",
+        "documento",
+        "confissão",
+        "reconhecimento",
+        "busca e apreensão",
+        "interrogatório"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5543",
+      "descricao": "Meios concretos de produção e obtenção de elementos de convicção, como perícia, depoimentos, documentos e reconhecimento. O título amplo se sobrepõe a outros nós do catálogo.",
+      "termos": [
+        "meios de prova",
+        "perícia",
+        "testemunha",
+        "documento",
+        "confissão",
+        "reconhecimento",
+        "busca e apreensão",
+        "interrogatório"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5552",
+      "descricao": "Confrontação de declarações divergentes prestadas por pessoas ouvidas, para esclarecer contradições sobre fatos relevantes.",
+      "termos": [
+        "acareação",
+        "divergência de declarações",
+        "contradição",
+        "acusados",
+        "testemunhas",
+        "ofendido",
+        "esclarecimento de depoimentos"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5558",
+      "descricao": "Técnica investigativa de retardamento da intervenção policial para acompanhar atividade ilícita e obter elementos probatórios mais amplos.",
+      "termos": [
+        "ação controlada",
+        "retardamento da intervenção",
+        "acompanhamento policial",
+        "organização criminosa",
+        "investigação",
+        "observação",
+        "meio de obtenção de prova"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5554",
+      "descricao": "Diligência destinada a localizar pessoas ou coisas relevantes e realizar sua apreensão, com regimes próprios para busca pessoal e domiciliar.",
+      "termos": [
+        "busca e apreensão",
+        "busca pessoal",
+        "busca domiciliar",
+        "mandado",
+        "fundada suspeita",
+        "domicílio",
+        "objetos",
+        "apreensão"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5544",
+      "descricao": "Rastreabilidade e preservação dos vestígios ao longo de reconhecimento, coleta, acondicionamento, transporte, análise e armazenamento.",
+      "termos": [
+        "cadeia de custódia",
+        "vestígio",
+        "integridade",
+        "rastreabilidade",
+        "coleta",
+        "acondicionamento",
+        "lacre",
+        "central de custódia",
+        "manuseio"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5556",
+      "descricao": "Registro ambiental de sinais acústicos, ópticos ou eletromagnéticos para investigação, conforme o regime legal do meio de obtenção de prova.",
+      "termos": [
+        "captação ambiental",
+        "registro acústico",
+        "registro óptico",
+        "sinais eletromagnéticos",
+        "gravação ambiental",
+        "meio de obtenção de prova",
+        "autorização judicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5557",
+      "descricao": "Instrumento negocial de cooperação com a investigação e o processo, envolvendo declarações úteis, compromissos e controle do acordo.",
+      "termos": [
+        "colaboração premiada",
+        "acordo de colaboração",
+        "colaborador",
+        "negociação",
+        "homologação",
+        "voluntariedade",
+        "corroboração",
+        "meio de obtenção de prova"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5548",
+      "descricao": "Admissão pelo acusado de fatos a ele imputados, cuja valoração exige exame em conjunto com os demais elementos do processo.",
+      "termos": [
+        "confissão",
+        "admissão dos fatos",
+        "confissão judicial",
+        "confissão extrajudicial",
+        "retratabilidade",
+        "divisibilidade",
+        "valor probatório",
+        "acusado"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5549",
+      "descricao": "Relato prestado pela vítima sobre os fatos e circunstâncias da infração, com regras próprias de participação e proteção.",
+      "termos": [
+        "declarações do ofendido",
+        "palavra da vítima",
+        "oitiva da vítima",
+        "ofendido",
+        "relato dos fatos",
+        "proteção da vítima",
+        "circunstâncias da infração"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5545",
+      "descricao": "Exame técnico dos vestígios materiais da infração, voltado à demonstração da materialidade e à documentação dos achados.",
+      "termos": [
+        "corpo de delito",
+        "vestígios",
+        "materialidade",
+        "exame direto",
+        "exame indireto",
+        "laudo pericial",
+        "infração que deixa vestígios",
+        "perito"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5559",
+      "descricao": "Inserção autorizada de agentes em ambiente criminoso para obter informações e provas, sujeita a limites e mecanismos de controle.",
+      "termos": [
+        "infiltração de agentes",
+        "agente infiltrado",
+        "organização criminosa",
+        "infiltração virtual",
+        "autorização judicial",
+        "identidade protegida",
+        "investigação sigilosa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5555",
+      "descricao": "Obtenção de comunicações telefônicas e de registros relacionados às comunicações, distinguindo conteúdo interceptado e dados de tráfego ou cadastro.",
+      "termos": [
+        "interceptação telefônica",
+        "sigilo telefônico",
+        "dados telefônicos",
+        "registros de chamadas",
+        "comunicação em curso",
+        "ordem judicial",
+        "fluxo telemático",
+        "degravação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5547",
+      "descricao": "Ato judicial de oitiva do acusado sobre sua identidade e os fatos imputados, integrado ao exercício de autodefesa e ao direito ao silêncio.",
+      "termos": [
+        "interrogatório judicial",
+        "acusado",
+        "autodefesa",
+        "direito ao silêncio",
+        "qualificação",
+        "defensor",
+        "videoconferência",
+        "perguntas ao réu"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5546",
+      "descricao": "Atividade técnico-científica para esclarecer fatos relevantes ao processo, envolvendo profissionais especializados, quesitos e apresentação de laudo.",
+      "termos": [
+        "perícia",
+        "perito oficial",
+        "assistente técnico",
+        "quesitos",
+        "laudo",
+        "exame pericial",
+        "conhecimento científico",
+        "esclarecimentos periciais"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5553",
+      "descricao": "Utilização de escritos e registros documentais para demonstrar fatos, com controle de autenticidade, juntada e possibilidade de manifestação das partes.",
+      "termos": [
+        "prova documental",
+        "documento",
+        "escrito",
+        "instrumento público",
+        "instrumento particular",
+        "juntada",
+        "autenticidade",
+        "tradução"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5550",
+      "descricao": "Depoimento de pessoas sobre fatos relevantes à persecução, com regras de convocação, inquirição, compromisso e contradita.",
+      "termos": [
+        "testemunha",
+        "depoimento",
+        "inquirição",
+        "compromisso",
+        "contradita",
+        "testemunha referida",
+        "perguntas diretas",
+        "oitiva"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5551",
+      "descricao": "Procedimento de identificação de pessoa ou objeto por quem afirma tê-lo percebido, com documentação do ato e controle de confiabilidade.",
+      "termos": [
+        "reconhecimento de pessoas",
+        "reconhecimento de coisas",
+        "descrição prévia",
+        "alinhamento",
+        "identificação",
+        "auto de reconhecimento",
+        "reconhecedor",
+        "reconhecimento fotográfico"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "6736",
+      "descricao": "Instrumentos recursais específicos para impugnar decisões no processo penal. O título não permite delimitar quais espécies pertencem à Parte 03.",
+      "termos": [
+        "apelação",
+        "recurso em sentido estrito",
+        "embargos de declaração",
+        "embargos infringentes",
+        "agravo em execução",
+        "recurso especial",
+        "recurso extraordinário"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5560",
+      "descricao": "Instrumentos recursais específicos de impugnação das decisões criminais, cada qual com hipóteses próprias de cabimento e processamento.",
+      "termos": [
+        "apelação",
+        "recurso em sentido estrito",
+        "embargos de declaração",
+        "embargos infringentes",
+        "agravo em execução",
+        "recurso especial",
+        "recurso extraordinário"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5566",
+      "descricao": "Recurso dirigido contra decisões do juízo da execução penal, relativo aos incidentes e direitos discutidos no cumprimento da pena.",
+      "termos": [
+        "agravo em execução",
+        "juízo da execução",
+        "decisão executória",
+        "execução penal",
+        "agravante",
+        "agravado",
+        "incidente da execução"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5562",
+      "descricao": "Recurso para impugnar sentenças e outras decisões legalmente previstas, submetendo matéria penal ao reexame do tribunal.",
+      "termos": [
+        "apelação criminal",
+        "sentença",
+        "apelante",
+        "apelado",
+        "razões de apelação",
+        "contrarrazões",
+        "tribunal",
+        "devolução da matéria"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5567",
+      "descricao": "Instrumento para provocar o controle do indeferimento ou obstáculo ao processamento de recurso nas hipóteses legais próprias.",
+      "termos": [
+        "carta testemunhável",
+        "denegação de recurso",
+        "obstrução do recurso",
+        "testemunhante",
+        "testemunhado",
+        "extração de peças",
+        "processamento recursal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5568",
+      "descricao": "Instrumento previsto em normas de organização judiciária para corrigir desordem procedimental relevante quando não há recurso próprio, conforme o regime aplicável.",
+      "termos": [
+        "correição parcial",
+        "erro de procedimento",
+        "inversão tumultuária",
+        "paralisação indevida",
+        "abuso processual",
+        "organização judiciária",
+        "corregedoria"
+      ],
+      "fontes": [
+        "https://portal.tjpr.jus.br/jurisprudencia/j/4100000036738931/Ac%C3%B3rd%C3%A3o-0006733-53.2026.8.16.0000"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5564",
+      "descricao": "Recurso ligado à divergência em julgamento colegiado criminal desfavorável ao acusado, delimitado pela matéria objeto do desacordo.",
+      "termos": [
+        "embargos infringentes",
+        "embargos de nulidade",
+        "decisão não unânime",
+        "voto vencido",
+        "divergência",
+        "acórdão",
+        "segunda instância"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5565",
+      "descricao": "Recurso de integração ou esclarecimento da decisão diante de omissão, contradição, obscuridade ou ambiguidade.",
+      "termos": [
+        "embargos de declaração",
+        "omissão",
+        "contradição",
+        "obscuridade",
+        "ambiguidade",
+        "esclarecimento",
+        "integração do julgado"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5563",
+      "descricao": "Instituto histórico que permitia provocar outro julgamento pelo júri em hipóteses legais, revogado pela reforma de 2008.",
+      "termos": [
+        "protesto por novo júri",
+        "novo julgamento",
+        "instituto revogado",
+        "reforma do júri",
+        "Lei 11.689 de 2008",
+        "direito intertemporal",
+        "recurso histórico"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11689.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5571",
+      "descricao": "Recurso constitucional dirigido ao STJ para controvérsias enquadradas em suas hipóteses de controle da legislação federal.",
+      "termos": [
+        "recurso especial",
+        "STJ",
+        "lei federal",
+        "dissídio jurisprudencial",
+        "interpretação de lei federal",
+        "admissibilidade",
+        "prequestionamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5570",
+      "descricao": "Recurso constitucional dirigido ao STF para controvérsias constitucionais que se enquadrem nas hipóteses de cabimento.",
+      "termos": [
+        "recurso extraordinário",
+        "STF",
+        "questão constitucional",
+        "repercussão geral",
+        "violação da Constituição",
+        "prequestionamento",
+        "admissibilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5561",
+      "descricao": "Recurso penal de cabimento legal específico, empregado contra decisões enumeradas no CPP e dotado de processamento próprio.",
+      "termos": [
+        "recurso em sentido estrito",
+        "RESE",
+        "pronúncia",
+        "rejeição da denúncia",
+        "juízo de retratação",
+        "razões recursais",
+        "decisão recorrida"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5569",
+      "descricao": "Meios de impugnação próprios do juizado criminal, com julgamento por turma recursal e disciplina simplificada.",
+      "termos": [
+        "recursos do JECRIM",
+        "turma recursal",
+        "apelação no juizado",
+        "embargos de declaração",
+        "juizado especial criminal",
+        "sentença",
+        "oralidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5572",
+      "descricao": "Pronunciamento jurisdicional sobre a pretensão penal, com fundamentação e dispositivo absolutório ou condenatório e efeitos correspondentes.",
+      "termos": [
+        "sentença penal",
+        "relatório",
+        "fundamentação",
+        "dispositivo",
+        "absolvição",
+        "condenação",
+        "correlação",
+        "efeitos da sentença"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "6737",
+      "descricao": "Pronunciamento jurisdicional sobre a pretensão penal, com seus requisitos, modalidades e efeitos. O título não delimita o conteúdo da Parte 1.",
+      "termos": [
+        "sentença penal",
+        "relatório",
+        "fundamentação",
+        "dispositivo",
+        "absolvição",
+        "condenação",
+        "correlação",
+        "efeitos da sentença"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "6738",
+      "descricao": "Pronunciamento jurisdicional sobre a pretensão penal, com seus requisitos, modalidades e efeitos. O título não delimita o conteúdo da Parte 2.",
+      "termos": [
+        "sentença penal",
+        "relatório",
+        "fundamentação",
+        "dispositivo",
+        "absolvição",
+        "condenação",
+        "correlação",
+        "efeitos da sentença"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5573",
+      "descricao": "Distinção entre pronunciamentos judiciais conforme função e conteúdo, incluindo decisões interlocutórias, despachos e sentenças.",
+      "termos": [
+        "provimento judicial",
+        "despacho",
+        "decisão interlocutória",
+        "sentença",
+        "decisão definitiva",
+        "decisão terminativa",
+        "conteúdo decisório"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5577",
+      "descricao": "Consequências jurídicas da condenação além da imposição imediata da sanção, incluindo reparação, efeitos patrimoniais e reflexos legalmente previstos.",
+      "termos": [
+        "efeitos da condenação",
+        "reparação do dano",
+        "efeitos patrimoniais",
+        "perda de bens",
+        "título executivo",
+        "condenação penal",
+        "consequências jurídicas"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5579",
+      "descricao": "Adequação jurídica da imputação na sentença e alteração decorrente de fatos novos revelados pela prova, com tratamento próprio da defesa.",
+      "termos": [
+        "emendatio libelli",
+        "mutatio libelli",
+        "nova definição jurídica",
+        "aditamento da denúncia",
+        "fato novo",
+        "imputação",
+        "correlação",
+        "defesa"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5576",
+      "descricao": "Individualização judicial da sanção na condenação e definição de seu regime inicial, mediante fundamentação das circunstâncias pertinentes.",
+      "termos": [
+        "dosimetria",
+        "pena-base",
+        "circunstâncias judiciais",
+        "agravantes",
+        "atenuantes",
+        "causas de aumento",
+        "causas de diminuição",
+        "regime inicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5578",
+      "descricao": "Vinculação do julgamento aos fatos submetidos à defesa pela acusação, com limites às alterações da imputação ao sentenciar.",
+      "termos": [
+        "correlação",
+        "congruência",
+        "acusação e sentença",
+        "fatos imputados",
+        "princípio acusatório",
+        "contraditório",
+        "aditamento",
+        "limites da sentença"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5574",
+      "descricao": "Decisão que afasta a pretensão condenatória por fundamentos legais de absolvição, com efeitos e consequências próprias.",
+      "termos": [
+        "sentença absolutória",
+        "absolvição",
+        "insuficiência de prova",
+        "inexistência do fato",
+        "negativa de autoria",
+        "atipicidade",
+        "excludente",
+        "fundamento absolutório"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5575",
+      "descricao": "Decisão que reconhece a responsabilidade penal e estabelece a sanção, com motivação e providências legalmente necessárias.",
+      "termos": [
+        "sentença condenatória",
+        "condenação",
+        "responsabilidade penal",
+        "dosimetria",
+        "regime inicial",
+        "reparação mínima",
+        "fundamentação",
+        "dispositivo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5580",
+      "descricao": "Organização das funções de acusar, defender e julgar e garantias fundamentais que orientam a persecução criminal.",
+      "termos": [
+        "sistema acusatório",
+        "sistema inquisitório",
+        "contraditório",
+        "ampla defesa",
+        "presunção de inocência",
+        "juiz natural",
+        "imparcialidade",
+        "devido processo legal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5582",
+      "descricao": "Garantias constitucionais e diretrizes que limitam a persecução criminal e asseguram participação, imparcialidade e tratamento do acusado.",
+      "termos": [
+        "presunção de inocência",
+        "contraditório",
+        "ampla defesa",
+        "devido processo legal",
+        "juiz natural",
+        "publicidade",
+        "motivação",
+        "não autoincriminação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5581",
+      "descricao": "Modelos de organização processual definidos pela distribuição das funções investigativa, acusatória e de julgamento e pela posição dos sujeitos.",
+      "termos": [
+        "sistema acusatório",
+        "sistema inquisitório",
+        "sistema misto",
+        "separação de funções",
+        "iniciativa probatória",
+        "imparcialidade",
+        "acusação",
+        "julgamento"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5583",
+      "descricao": "Participantes da relação processual criminal e suas atribuições, prerrogativas, deveres e formas de intervenção.",
+      "termos": [
+        "juiz",
+        "Ministério Público",
+        "acusado",
+        "defensor",
+        "assistente de acusação",
+        "ofendido",
+        "perito",
+        "intérprete",
+        "auxiliares da justiça"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5584",
+      "descricao": "Fundamentos e regimes da privação de liberdade no processo penal, abrangendo legalidade, garantias e controle judicial da custódia.",
+      "termos": [
+        "prisão",
+        "privação de liberdade",
+        "custódia",
+        "mandado de prisão",
+        "garantias do preso",
+        "prisão cautelar",
+        "legalidade",
+        "controle judicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5589",
+      "descricao": "Apresentação da pessoa presa ao juízo para controle da legalidade e necessidade da custódia e apuração de eventual violência.",
+      "termos": [
+        "audiência de custódia",
+        "apresentação do preso",
+        "controle judicial",
+        "maus-tratos",
+        "tortura",
+        "legalidade da prisão",
+        "necessidade cautelar",
+        "integridade física"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5585",
+      "descricao": "Conceituação da privação de liberdade e diferenciação entre prisão cautelar, prisão decorrente de condenação e outras modalidades legalmente previstas.",
+      "termos": [
+        "conceito de prisão",
+        "prisão cautelar",
+        "prisão-pena",
+        "prisão processual",
+        "custódia",
+        "privação da liberdade",
+        "espécies de prisão"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5587",
+      "descricao": "Proteções da pessoa presa relativas a comunicação, assistência, integridade, silêncio e controle da legalidade da privação de liberdade.",
+      "termos": [
+        "direitos do preso",
+        "direito ao silêncio",
+        "assistência de advogado",
+        "comunicação à família",
+        "integridade física",
+        "identificação dos responsáveis",
+        "legalidade",
+        "dignidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5586",
+      "descricao": "Regimes diferenciados de custódia e restrições à prisão relacionados a funções ou condições pessoais previstas em normas próprias.",
+      "termos": [
+        "imunidade prisional",
+        "prisão especial",
+        "prerrogativas",
+        "custódia diferenciada",
+        "imunidade parlamentar",
+        "local de recolhimento",
+        "condição pessoal"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5588",
+      "descricao": "Cessação judicial de prisão ilegal em razão de vício na captura, formalização ou manutenção da restrição de liberdade.",
+      "termos": [
+        "relaxamento da prisão",
+        "prisão ilegal",
+        "controle de legalidade",
+        "vício do flagrante",
+        "soltura",
+        "constrangimento ilegal",
+        "liberdade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5590",
+      "descricao": "Conceitos, funções e regras comuns à obtenção, produção e apreciação de elementos de convicção no processo criminal.",
+      "termos": [
+        "teoria da prova",
+        "objeto da prova",
+        "ônus da prova",
+        "contraditório",
+        "valoração",
+        "admissibilidade",
+        "prova ilícita",
+        "convencimento judicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    },
+    {
+      "tema_id": "5591",
+      "descricao": "Função dos elementos probatórios na demonstração dos fatos, participantes da atividade probatória e distribuição dos encargos de provar.",
+      "termos": [
+        "finalidade da prova",
+        "ônus probatório",
+        "objeto da prova",
+        "sujeitos da prova",
+        "acusação",
+        "defesa",
+        "fato controvertido",
+        "encargo probatório"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5595",
+      "descricao": "Garantias e diretrizes da atividade probatória, incluindo participação das partes, licitude, defesa e apreciação fundamentada.",
+      "termos": [
+        "contraditório",
+        "ampla defesa",
+        "comunhão da prova",
+        "liberdade probatória",
+        "não autoincriminação",
+        "licitude",
+        "imediatidade",
+        "motivação"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5593",
+      "descricao": "Aproveitamento, em um processo, de elemento produzido em outro, com atenção às condições de contraditório e à sua valoração.",
+      "termos": [
+        "prova emprestada",
+        "compartilhamento de prova",
+        "traslado",
+        "processo de origem",
+        "processo destinatário",
+        "contraditório",
+        "valoração"
+      ],
+      "fontes": [
+        "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/A-prova-emprestada-e-a-garantia-do-principio-do-contraditorio-segundo-o-STJ.aspx"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5594",
+      "descricao": "Limites de admissibilidade de elementos obtidos com violação de normas e garantias, incluindo provas derivadas e seu tratamento processual.",
+      "termos": [
+        "prova ilícita",
+        "prova ilegítima",
+        "ilicitude por derivação",
+        "frutos da árvore envenenada",
+        "fonte independente",
+        "nexo causal",
+        "desentranhamento",
+        "inadmissibilidade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "5592",
+      "descricao": "Modelos de atribuição de valor aos elementos probatórios, distinguindo regras legais de prova, convicção íntima e apreciação racional motivada.",
+      "termos": [
+        "prova tarifada",
+        "íntima convicção",
+        "livre convencimento motivado",
+        "persuasão racional",
+        "valoração da prova",
+        "motivação",
+        "apreciação judicial"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      ],
+      "ambiguo": true
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "geral": {
+    "acertos": {
+      "exato": 11,
+      "imediato": 12,
+      "ramo": 12
+    },
+    "acertos_top_k_ramo": 17,
+    "niveis_sugeridos": {
+      "1": 9,
+      "2": 11
+    },
+    "recuos_hierarquicos": 3,
+    "sem_evidencia": 0,
+    "taxa_top_k_ramo": 0.85,
+    "taxas_acerto": {
+      "exato": 0.55,
+      "imediato": 0.6,
+      "ramo": 0.6
+    },
+    "total": 20
+  },
+  "pareado_baseline": {
+    "exato": {
+      "ambos_corretos": 2,
+      "ambos_errados": 8,
+      "ganho_liquido": 8,
+      "melhorou": 9,
+      "piorou": 1
+    },
+    "imediato": {
+      "ambos_corretos": 5,
+      "ambos_errados": 7,
+      "ganho_liquido": 6,
+      "melhorou": 7,
+      "piorou": 1
+    },
+    "ramo": {
+      "ambos_corretos": 5,
+      "ambos_errados": 7,
+      "ganho_liquido": 6,
+      "melhorou": 7,
+      "piorou": 1
+    }
+  },
+  "publicacao": {
+    "count": 20,
+    "coverage": 0.0,
+    "k": 0,
+    "n": 0,
+    "precision": null,
+    "wilson95": null
+  },
+  "teste_independente": false,
+  "usada_para_selecao": false
+}

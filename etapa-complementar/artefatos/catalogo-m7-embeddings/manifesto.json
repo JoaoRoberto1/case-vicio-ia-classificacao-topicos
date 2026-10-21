@@ -1,0 +1,82 @@
+{
+  "configuracao_encoder": {
+    "arquivos": {
+      "modelo.onnx": {
+        "bytes": 470268510,
+        "caminho_remoto": "onnx/model.onnx",
+        "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665"
+      },
+      "tokenizer.json": {
+        "bytes": 17082730,
+        "caminho_remoto": "onnx/tokenizer.json",
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      }
+    },
+    "custo_api": 0,
+    "dependencias_preparacao": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "entradas": "Enunciado, comando e textos das alternativas ordenados; titulo, caminho e descricao oficiais. Sem repeticao de campos, IDs, metadados de origem ou rotulos.",
+    "inferencias_api": 0,
+    "licenca": "MIT",
+    "modelo": "intfloat/multilingual-e5-small",
+    "origem": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "papel_questoes": "query",
+    "papel_temas": "passage",
+    "pooling": "Media de tokens com attention_mask, normalizacao L2 por janela, media de janelas e L2, arredondamento final.",
+    "preparacao": {
+      "batch_size": 8,
+      "casas_decimais": 8,
+      "dimensoes": 384,
+      "janela_tokens": 480,
+      "max_tokens": 512,
+      "sobreposicao_tokens": 32,
+      "threads": 4
+    },
+    "reserva": "As 20 referencias reservadas nao sao vetorizadas neste modulo.",
+    "revisao": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "versao": 1
+  },
+  "diagnostico": {
+    "batch_size": 8,
+    "casas_decimais": 8,
+    "dimensoes": 384,
+    "janelas_total": 371,
+    "max_tokens_corpo": 163,
+    "max_tokens_janela": 167,
+    "provedor": "CPUExecutionProvider",
+    "questoes_total": 0,
+    "registros_multiplas_janelas": 0,
+    "registros_total": 371,
+    "temas_total": 371,
+    "threads": 4,
+    "tokens_corpo_total": 34478,
+    "truncados": 0,
+    "versoes_dependencias": {
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    }
+  },
+  "fontes_sha256": {
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "classificacao_catalogo/catalogo.py": "43e15fb5d26191449479af40357d8b832ac08f304f6323e2f52e7c9e6600971d",
+    "classificacao_catalogo/preparar.py": "b3fcc59806bd488061bd3df0da01699223129c6ac53bf57de0241cb4e1e9a397",
+    "classificacao_experimentos/entradas.py": "84126f632a0019dacb51a52fd88929e21fa538eca8088c307476c8f014958681",
+    "classificacao_experimentos/preparacao_embeddings.py": "3155f5b7740e7b8524c1bd7e8fc59f055fcc73e2a5981fc601d318f2c00a4ddf",
+    "config/modulo3/embeddings.json": "ec7ec8c8770f2ea68f34ecf6fea76a9a431587a520c3933709b8ba7c229ca49f",
+    "config/modulo7/catalogo_criminologia.json": "372d940764d81c91af33ec376d65be7ea570752b1650ef6097bc2af107f0cd1a",
+    "config/modulo7/catalogo_especial.json": "05fa8282674adfa3e5f8488e6cc148f6c380f8214ac4631e2a7d583fab2891ea",
+    "config/modulo7/catalogo_penal.json": "ce7b927e08d535737a418718547415d01cec895a7bf226bf1002cf83ba8f42db",
+    "config/modulo7/catalogo_processo.json": "7ca57c0f001814258775d4f08b26af24db3c05fc0a50c6e7d11674fcaea7e86c",
+    "config/modulo7/protocolo.json": "77448049ed4c668ed550735530df81e4cfaa584d2121181d81415e2bd30c0ea1"
+  },
+  "llm_decide_classificacoes": false,
+  "produtos_sha256": {
+    "vetores.json": "486ec4d5d918e67a321b418ae2c8bd11bc06a3b1e4b8a0214877304f79821a2b"
+  },
+  "questoes_novas_vetorizadas": 0,
+  "schema": "cache_catalogo_m7_v1"
+}

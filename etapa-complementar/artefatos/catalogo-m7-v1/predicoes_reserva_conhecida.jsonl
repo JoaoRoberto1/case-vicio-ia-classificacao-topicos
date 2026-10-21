@@ -1,0 +1,842 @@
+[
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": false,
+    "consenso": false,
+    "disciplina_referencia": "Penal",
+    "id": "Q0005",
+    "margem": 0.4767963531350272,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.0033722715003477,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5576",
+    "top_candidatos": [
+      {
+        "score": 3.0033722715003477,
+        "tema_id": "5576"
+      },
+      {
+        "score": 2.5265759183653205,
+        "tema_id": "5208"
+      },
+      {
+        "score": 2.503111249814982,
+        "tema_id": "5201"
+      },
+      {
+        "score": 2.0055448425025215,
+        "tema_id": "5542"
+      },
+      {
+        "score": 1.4361411464292821,
+        "tema_id": "5203"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": true,
+    "consenso": true,
+    "disciplina_referencia": "Processo Penal",
+    "id": "Q0012",
+    "margem": 1.1631941539810011,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 4.109153582960438,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5561",
+    "top_candidatos": [
+      {
+        "score": 4.109153582960438,
+        "tema_id": "5561"
+      },
+      {
+        "score": 2.945959428979437,
+        "tema_id": "5560"
+      },
+      {
+        "score": 2.558750246840829,
+        "tema_id": "6736"
+      },
+      {
+        "score": 2.1805343494413876,
+        "tema_id": "5568"
+      },
+      {
+        "score": 1.6664148121269347,
+        "tema_id": "5562"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": true,
+    "consenso": false,
+    "disciplina_referencia": "Processo Penal",
+    "id": "Q0034",
+    "margem": 1.025165279721452,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.798426778791356,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5477",
+    "top_candidatos": [
+      {
+        "score": 3.798426778791356,
+        "tema_id": "5477"
+      },
+      {
+        "score": 2.773261499069904,
+        "tema_id": "5476"
+      },
+      {
+        "score": 2.5358657659769923,
+        "tema_id": "5501"
+      },
+      {
+        "score": 2.485409987485044,
+        "tema_id": "5495"
+      },
+      {
+        "score": 1.9385001324615427,
+        "tema_id": "5500"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": false,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": false,
+    "consenso": false,
+    "disciplina_referencia": "fora",
+    "id": "Q0039",
+    "margem": 0.6304232634975127,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": true,
+    "score": 3.2080098517701816,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "4687",
+    "top_candidatos": [
+      {
+        "score": 3.2080098517701816,
+        "tema_id": "4687"
+      },
+      {
+        "score": 2.577586588272669,
+        "tema_id": "4694"
+      },
+      {
+        "score": 1.4221597722720323,
+        "tema_id": "5134"
+      },
+      {
+        "score": 1.0879808954143493,
+        "tema_id": "5169"
+      },
+      {
+        "score": 1.0781720625111912,
+        "tema_id": "5578"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": false,
+    "consenso": true,
+    "disciplina_referencia": "Penal",
+    "id": "Q0041",
+    "margem": 1.5381908410570588,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.8007934104532253,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5184",
+    "top_candidatos": [
+      {
+        "score": 3.8007934104532253,
+        "tema_id": "5184"
+      },
+      {
+        "score": 2.2626025693961664,
+        "tema_id": "4703"
+      },
+      {
+        "score": 1.6728462466627818,
+        "tema_id": "5213"
+      },
+      {
+        "score": 1.4695360949499965,
+        "tema_id": "6722"
+      },
+      {
+        "score": 1.21060736418057,
+        "tema_id": "5200"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": false,
+    "consenso": true,
+    "disciplina_referencia": "Penal",
+    "id": "Q0057",
+    "margem": 0.8188430996796772,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": true,
+    "referencia_fora": false,
+    "score": 5.697011614671565,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5175",
+    "top_candidatos": [
+      {
+        "score": 5.697011614671565,
+        "tema_id": "5176"
+      },
+      {
+        "score": 4.878168514991888,
+        "tema_id": "5175"
+      },
+      {
+        "score": 2.7954577647182006,
+        "tema_id": "5177"
+      },
+      {
+        "score": 1.4662414311570449,
+        "tema_id": "5487"
+      },
+      {
+        "score": 1.1969197503649665,
+        "tema_id": "5225"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": true,
+    "consenso": true,
+    "disciplina_referencia": "Criminologia",
+    "id": "Q0066",
+    "margem": 1.2917510091809952,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.8318308655800237,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "4373",
+    "top_candidatos": [
+      {
+        "score": 3.8318308655800237,
+        "tema_id": "4373"
+      },
+      {
+        "score": 2.5400798563990286,
+        "tema_id": "4371"
+      },
+      {
+        "score": 1.6182741803428358,
+        "tema_id": "4380"
+      },
+      {
+        "score": 1.3654698602241002,
+        "tema_id": "4382"
+      },
+      {
+        "score": 1.288403789535994,
+        "tema_id": "4383"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": true,
+    "consenso": false,
+    "disciplina_referencia": "Direito Penal - Legislação Especial",
+    "id": "Q0091",
+    "margem": 0.8245164221491215,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.376896259063236,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5201",
+    "top_candidatos": [
+      {
+        "score": 3.376896259063236,
+        "tema_id": "5201"
+      },
+      {
+        "score": 2.5523798369141146,
+        "tema_id": "4703"
+      },
+      {
+        "score": 2.3351723555375914,
+        "tema_id": "6734"
+      },
+      {
+        "score": 2.0248026029550736,
+        "tema_id": "5576"
+      },
+      {
+        "score": 1.9527749510599202,
+        "tema_id": "5208"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": true,
+    "consenso": true,
+    "disciplina_referencia": "Criminologia",
+    "id": "Q0124",
+    "margem": 1.8041571822821532,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.46632680030775,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "4384",
+    "top_candidatos": [
+      {
+        "score": 3.46632680030775,
+        "tema_id": "4384"
+      },
+      {
+        "score": 1.6621696180255967,
+        "tema_id": "4388"
+      },
+      {
+        "score": 1.5905982924975925,
+        "tema_id": "6726"
+      },
+      {
+        "score": 1.444268888619862,
+        "tema_id": "6727"
+      },
+      {
+        "score": 1.4082021334678205,
+        "tema_id": "5200"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": false,
+    "consenso": true,
+    "disciplina_referencia": "Processo Penal",
+    "id": "Q0169",
+    "margem": 1.7101801435369655,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.2265010371730685,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5492",
+    "top_candidatos": [
+      {
+        "score": 3.2265010371730685,
+        "tema_id": "5492"
+      },
+      {
+        "score": 1.516320893636103,
+        "tema_id": "6737"
+      },
+      {
+        "score": 1.4255301840331882,
+        "tema_id": "6738"
+      },
+      {
+        "score": 1.339256451347674,
+        "tema_id": "5503"
+      },
+      {
+        "score": 1.2291546590542437,
+        "tema_id": "5112"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": false,
+    "consenso": false,
+    "disciplina_referencia": "Penal",
+    "id": "Q0221",
+    "margem": 0.3020412441230147,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": true,
+    "referencia_fora": false,
+    "score": 3.7442030671535362,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5199",
+    "top_candidatos": [
+      {
+        "score": 3.7442030671535362,
+        "tema_id": "5205"
+      },
+      {
+        "score": 3.4421618230305215,
+        "tema_id": "5201"
+      },
+      {
+        "score": 2.975932074439193,
+        "tema_id": "5203"
+      },
+      {
+        "score": 2.5985072238006666,
+        "tema_id": "5184"
+      },
+      {
+        "score": 1.9573593451533735,
+        "tema_id": "5172"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": true,
+    "consenso": false,
+    "disciplina_referencia": "Processo Penal",
+    "id": "Q0240",
+    "margem": 0.15584782188557833,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 1.80977503415072,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5520",
+    "top_candidatos": [
+      {
+        "score": 1.80977503415072,
+        "tema_id": "5520"
+      },
+      {
+        "score": 1.6539272122651416,
+        "tema_id": "5500"
+      },
+      {
+        "score": 1.4401675552519084,
+        "tema_id": "5531"
+      },
+      {
+        "score": 1.425193215047499,
+        "tema_id": "5501"
+      },
+      {
+        "score": 1.4249729465666028,
+        "tema_id": "5488"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": true,
+    "consenso": true,
+    "disciplina_referencia": "Penal",
+    "id": "Q0244",
+    "margem": 0.23977064294753525,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": true,
+    "referencia_fora": false,
+    "score": 4.216037546054822,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5087",
+    "top_candidatos": [
+      {
+        "score": 4.216037546054822,
+        "tema_id": "5092"
+      },
+      {
+        "score": 3.9762669031072866,
+        "tema_id": "5093"
+      },
+      {
+        "score": 2.636123040593953,
+        "tema_id": "5091"
+      },
+      {
+        "score": 2.1547694324103297,
+        "tema_id": "5089"
+      },
+      {
+        "score": 1.6762753792048246,
+        "tema_id": "5081"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": false,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": false,
+    "consenso": false,
+    "disciplina_referencia": "Processo Penal",
+    "id": "Q0249",
+    "margem": 0.37017627014498844,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 2.456210465892162,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5583",
+    "top_candidatos": [
+      {
+        "score": 2.456210465892162,
+        "tema_id": "5583"
+      },
+      {
+        "score": 2.0860341957471737,
+        "tema_id": "5503"
+      },
+      {
+        "score": 1.3554562547516875,
+        "tema_id": "6733"
+      },
+      {
+        "score": 1.3441776417983058,
+        "tema_id": "6732"
+      },
+      {
+        "score": 1.2581820935570216,
+        "tema_id": "5466"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": true,
+    "consenso": false,
+    "disciplina_referencia": "Penal",
+    "id": "Q0265",
+    "margem": 0.1387882662965545,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 2.9550105613222937,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5066",
+    "top_candidatos": [
+      {
+        "score": 2.9550105613222937,
+        "tema_id": "5066"
+      },
+      {
+        "score": 2.816222295025739,
+        "tema_id": "5191"
+      },
+      {
+        "score": 2.7916840660004514,
+        "tema_id": "5070"
+      },
+      {
+        "score": 2.7381677710022836,
+        "tema_id": "5190"
+      },
+      {
+        "score": 2.0632603816641235,
+        "tema_id": "5188"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": false,
+    "consenso": true,
+    "disciplina_referencia": "Processo Penal",
+    "id": "Q0276",
+    "margem": 0.7637207805543786,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.635663127558098,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5554",
+    "top_candidatos": [
+      {
+        "score": 3.635663127558098,
+        "tema_id": "5554"
+      },
+      {
+        "score": 2.8719423470037193,
+        "tema_id": "5545"
+      },
+      {
+        "score": 2.244056505580846,
+        "tema_id": "6735"
+      },
+      {
+        "score": 2.0232500793256345,
+        "tema_id": "5547"
+      },
+      {
+        "score": 2.013003989306771,
+        "tema_id": "5543"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": true,
+    "consenso": false,
+    "disciplina_referencia": "Direito Penal - Legislação Especial",
+    "id": "Q0290",
+    "margem": 0.23666024503208583,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 3.016344784686277,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5470",
+    "top_candidatos": [
+      {
+        "score": 3.016344784686277,
+        "tema_id": "5470"
+      },
+      {
+        "score": 2.779684539654191,
+        "tema_id": "5471"
+      },
+      {
+        "score": 2.4470892037050698,
+        "tema_id": "4701"
+      },
+      {
+        "score": 2.443132531141087,
+        "tema_id": "5540"
+      },
+      {
+        "score": 2.2887895066655193,
+        "tema_id": "5535"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": false,
+    "acertos": {
+      "exato": false,
+      "imediato": false,
+      "ramo": false
+    },
+    "central_visto_treino": false,
+    "consenso": false,
+    "disciplina_referencia": "fora",
+    "id": "Q0291",
+    "margem": 0.19739883909490574,
+    "nivel_sugerido": 1,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": true,
+    "score": 3.865364020749927,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5498",
+    "top_candidatos": [
+      {
+        "score": 3.865364020749927,
+        "tema_id": "5498"
+      },
+      {
+        "score": 3.6679651816550214,
+        "tema_id": "4708"
+      },
+      {
+        "score": 3.318629349289607,
+        "tema_id": "5501"
+      },
+      {
+        "score": 2.852842167752384,
+        "tema_id": "5499"
+      },
+      {
+        "score": 2.8517929102433692,
+        "tema_id": "6728"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": false,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": true,
+    "consenso": false,
+    "disciplina_referencia": "Penal",
+    "id": "Q0315",
+    "margem": 0.24165882618251566,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 1.7870218948368046,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5188",
+    "top_candidatos": [
+      {
+        "score": 1.7870218948368046,
+        "tema_id": "5188"
+      },
+      {
+        "score": 1.545363068654289,
+        "tema_id": "5189"
+      },
+      {
+        "score": 1.4538207584014715,
+        "tema_id": "6738"
+      },
+      {
+        "score": 1.4527772172806313,
+        "tema_id": "5185"
+      },
+      {
+        "score": 1.3237751935291493,
+        "tema_id": "5530"
+      }
+    ]
+  },
+  {
+    "acerto_top_k_ramo": true,
+    "acertos": {
+      "exato": true,
+      "imediato": true,
+      "ramo": true
+    },
+    "central_visto_treino": false,
+    "consenso": false,
+    "disciplina_referencia": "Penal",
+    "id": "Q0345",
+    "margem": 0.34003274205180434,
+    "nivel_sugerido": 2,
+    "receita": "aprendido_hierarquico",
+    "recuou_na_hierarquia": false,
+    "referencia_fora": false,
+    "score": 2.528148865012816,
+    "sem_evidencia": false,
+    "tema_sugerido_id": "5103",
+    "top_candidatos": [
+      {
+        "score": 2.528148865012816,
+        "tema_id": "5103"
+      },
+      {
+        "score": 2.1881161229610115,
+        "tema_id": "5105"
+      },
+      {
+        "score": 1.7842105718801369,
+        "tema_id": "5177"
+      },
+      {
+        "score": 1.6395311078624335,
+        "tema_id": "5204"
+      },
+      {
+        "score": 1.4951272757755532,
+        "tema_id": "5110"
+      }
+    ]
+  }
+]

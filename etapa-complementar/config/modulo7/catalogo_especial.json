@@ -1,0 +1,426 @@
+{
+  "schema": "enriquecimento_catalogo_m7_v1",
+  "disciplina": "Direito Penal - Legislação Especial",
+  "procedimento": "LLM_preparacao_somente_taxonomia",
+  "questoes_ou_rotulos_consultados": false,
+  "registros": [
+    {
+      "tema_id": "4684",
+      "descricao": "Crimes praticados por agente público mediante abuso das atribuições, com as finalidades especiais previstas na lei.",
+      "termos": [
+        "abuso de autoridade",
+        "agente público",
+        "abuso de poder",
+        "finalidade específica",
+        "constrangimento",
+        "arbitrariedade"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4685",
+      "descricao": "Segurança e controle de atividades com organismos geneticamente modificados e seus derivados, incluindo ilícitos de biossegurança.",
+      "termos": [
+        "biossegurança",
+        "OGM",
+        "engenharia genética",
+        "clonagem humana",
+        "embrião humano",
+        "CTNBio"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4686",
+      "descricao": "Infrações previstas na Lei das Contravenções Penais e suas regras gerais, distintas dos crimes em sentido estrito.",
+      "termos": [
+        "contravenção penal",
+        "prisão simples",
+        "vias de fato",
+        "perturbação do sossego",
+        "jogo de azar",
+        "decreto lei 3688"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3688.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4692",
+      "descricao": "Infrações penais relativas à organização das eleições, ao voto e à autenticidade do processo eleitoral.",
+      "termos": [
+        "crime eleitoral",
+        "Código Eleitoral",
+        "corrupção eleitoral",
+        "voto",
+        "alistamento eleitoral",
+        "fraude eleitoral"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l4737.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4693",
+      "descricao": "Enquadramento legal de crimes hediondos e tratamento dos delitos equiparados, com suas consequências penais.",
+      "termos": [
+        "hediondez",
+        "crime hediondo",
+        "delito equiparado",
+        "rol legal",
+        "anistia",
+        "graça",
+        "indulto"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l8072.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4695",
+      "descricao": "Infrações contra a ordem tributária, como supressão ou redução de tributo mediante condutas descritas em lei.",
+      "termos": [
+        "ordem tributária",
+        "sonegação fiscal",
+        "tributo",
+        "fraude fiscal",
+        "documento fiscal",
+        "Lei 8137"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l8137.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4687",
+      "descricao": "Infrações que atingem a economia popular e o abastecimento, incluindo fraudes comerciais e usura previstas em lei.",
+      "termos": [
+        "economia popular",
+        "usura",
+        "ganhos ilícitos",
+        "fraude comercial",
+        "mercadoria",
+        "Lei 1521"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l1521.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4689",
+      "descricao": "Crimes ligados a instituições financeiras, gestão fraudulenta e operações que afetam o sistema financeiro nacional.",
+      "termos": [
+        "sistema financeiro nacional",
+        "instituição financeira",
+        "gestão fraudulenta",
+        "gestão temerária",
+        "evasão de divisas",
+        "Lei 7492"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l7492.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4688",
+      "descricao": "Infrações ambientais relativas à fauna, flora, poluição e proteção do meio ambiente, com responsabilização penal pertinente.",
+      "termos": [
+        "crime ambiental",
+        "fauna",
+        "flora",
+        "poluição",
+        "pessoa jurídica",
+        "proteção ambiental"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4690",
+      "descricao": "Crimes de discriminação ou preconceito e tutela penal da igualdade nos termos da legislação antirracista.",
+      "termos": [
+        "racismo",
+        "discriminação",
+        "preconceito racial",
+        "injúria racial",
+        "etnia",
+        "religião"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l7716.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4691",
+      "descricao": "Infrações penais cometidas na direção de veículo automotor e regras penais do Código de Trânsito Brasileiro.",
+      "termos": [
+        "crime de trânsito",
+        "veículo automotor",
+        "embriaguez ao volante",
+        "homicídio culposo na direção",
+        "lesão corporal no trânsito",
+        "racha"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4694",
+      "descricao": "Tutela penal das relações de consumo, incluindo informação, publicidade e segurança de produtos e serviços.",
+      "termos": [
+        "crime contra consumidor",
+        "CDC",
+        "publicidade enganosa",
+        "publicidade abusiva",
+        "produto perigoso",
+        "relação de consumo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4696",
+      "descricao": "Crimes do Estatuto da Pessoa Idosa, como discriminação, abandono e apropriação de bens da pessoa protegida.",
+      "termos": [
+        "pessoa idosa",
+        "Estatuto do Idoso",
+        "abandono",
+        "discriminação do idoso",
+        "apropriação de proventos",
+        "retenção de cartão"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4697",
+      "descricao": "Controle e crimes relativos a armas de fogo, acessórios e munições, incluindo posse, porte e comércio.",
+      "termos": [
+        "Estatuto do Desarmamento",
+        "arma de fogo",
+        "porte ilegal",
+        "posse irregular",
+        "munição",
+        "Sinarm"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4698",
+      "descricao": "Atos voltados à destruição total ou parcial de grupo nacional, étnico, racial ou religioso enquanto tal.",
+      "termos": [
+        "genocídio",
+        "destruição de grupo",
+        "grupo nacional",
+        "grupo étnico",
+        "grupo racial",
+        "grupo religioso"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l2889.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4699",
+      "descricao": "Identificação criminal e suas relações com identificação civil, registros datiloscópicos, fotográficos e perfis genéticos.",
+      "termos": [
+        "identificação criminal",
+        "identificação civil",
+        "datiloscopia",
+        "fotografia",
+        "perfil genético",
+        "Lei 12037"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12037.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4700",
+      "descricao": "Obtenção e controle judicial de comunicações interceptadas para investigação e instrução criminal, sob proteção do sigilo.",
+      "termos": [
+        "interceptação telefônica",
+        "sigilo das comunicações",
+        "ordem judicial",
+        "comunicação telemática",
+        "captação ambiental",
+        "Lei 9296"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4701",
+      "descricao": "Procedimentos e soluções consensuais dos Juizados Especiais Criminais para infrações de menor potencial ofensivo.",
+      "termos": [
+        "JECRIM",
+        "menor potencial ofensivo",
+        "termo circunstanciado",
+        "composição civil",
+        "transação penal",
+        "suspensão condicional do processo"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4702",
+      "descricao": "Ocultação ou dissimulação de bens, direitos e valores provenientes de infração penal e mecanismos de prevenção.",
+      "termos": [
+        "lavagem de dinheiro",
+        "ocultação de bens",
+        "dissimulação de valores",
+        "infração antecedente",
+        "COAF",
+        "Lei 9613"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4704",
+      "descricao": "Proteção da mulher contra violência doméstica e familiar, suas formas e medidas protetivas.",
+      "termos": [
+        "Lei Maria da Penha",
+        "violência doméstica",
+        "violência familiar",
+        "mulher",
+        "medida protetiva",
+        "violência psicológica"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4703",
+      "descricao": "Cumprimento da pena e da medida de segurança, direitos do preso e institutos de execução penal.",
+      "termos": [
+        "execução penal",
+        "LEP",
+        "progressão de regime",
+        "remição",
+        "falta disciplinar",
+        "assistência ao preso"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4705",
+      "descricao": "Organização criminosa e meios de investigação previstos em lei, como colaboração premiada, ação controlada e infiltração.",
+      "termos": [
+        "organização criminosa",
+        "estrutura ordenada",
+        "divisão de tarefas",
+        "colaboração premiada",
+        "ação controlada",
+        "infiltração de agentes"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4706",
+      "descricao": "Definição legal de terrorismo, atos preparatórios e financiamento, com elementos próprios da legislação especial.",
+      "termos": [
+        "terrorismo",
+        "terror social",
+        "ato terrorista",
+        "financiamento do terrorismo",
+        "atos preparatórios",
+        "Lei 13260"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13260.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4707",
+      "descricao": "Crimes de tortura e suas modalidades, envolvendo sofrimento físico ou mental nas hipóteses legais.",
+      "termos": [
+        "tortura",
+        "sofrimento físico",
+        "sofrimento mental",
+        "tortura prova",
+        "tortura castigo",
+        "Lei 9455"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4708",
+      "descricao": "Legislação de drogas, distinguindo condutas relacionadas ao consumo e à produção ou circulação ilícita.",
+      "termos": [
+        "tráfico de drogas",
+        "Lei de Drogas",
+        "Sisnad",
+        "entorpecentes",
+        "porte para consumo",
+        "associação para o tráfico"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm"
+      ],
+      "ambiguo": false
+    },
+    {
+      "tema_id": "4709",
+      "descricao": "Proteção de crianças e adolescentes vítimas ou testemunhas de violência, incluindo escuta especializada e proteção doméstica.",
+      "termos": [
+        "violência contra criança",
+        "violência contra adolescente",
+        "escuta especializada",
+        "depoimento especial",
+        "Lei Henry Borel",
+        "medida protetiva"
+      ],
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13431.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14344.htm"
+      ],
+      "ambiguo": false
+    }
+  ]
+}

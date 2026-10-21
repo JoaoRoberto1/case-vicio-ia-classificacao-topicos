@@ -1,0 +1,83 @@
+{
+  "schema": "protocolo_catalogo_m7_v1",
+  "registrado_antes_das_metricas": true,
+  "registrado_em_utc": "2026-10-21 18:15:05 UTC",
+  "objetivo": "Maximizar cobertura seletiva com precisao empirica >=0.95; validar a selecao fora das particoes internas.",
+  "receitas": [
+    "enriquecido_lexical",
+    "enriquecido_semantico",
+    "enriquecido_rrf5",
+    "enriquecido_rrf20",
+    "aprendido",
+    "aprendido_hierarquico"
+  ],
+  "representacao": {
+    "catalogo": "titulo peso3, caminho peso1, descricao enriquecida+termos peso1",
+    "idf": "somente catalogo enriquecido; nenhum texto de avaliacao no ajuste",
+    "questao": "enunciado e comando peso2; alternativas peso1, sem metadados",
+    "embeddings": "E5-small fixado M3; novos vetores somente temas; vetores659questoes reutilizados",
+    "atributos_pares": [
+      "cos_lexical",
+      "cos_semantico_enriquecido",
+      "cos_semantico_original",
+      "rrf_lex_k20",
+      "rrf_sem_k20",
+      "produto_cos_lex_sem",
+      "min_rrf_lex_sem",
+      "nivel_dividido_6"
+    ]
+  },
+  "aprendizado": {
+    "metodo": "pairwise_logistic_L2",
+    "regularizacao": 1,
+    "passos": 300,
+    "passo": 0.1,
+    "max_positivos": 5,
+    "max_negativos": 20,
+    "positivos": "central e extras EXATOS humanos de treino; fora_taxonomia nao possui positivo",
+    "peso": "igual por questao com pares"
+  },
+  "hierarquia": {
+    "regra": "LCA dos3 primeiros; apenas ancestral ativo nao raiz, sem titulos genericos; profundidade>=1; registra granularidade",
+    "excluir": [
+      "aspectos gerais",
+      "consideracoes gerais",
+      "disposicoes gerais",
+      "introducao",
+      "nocoes gerais",
+      "principios gerais"
+    ]
+  },
+  "selecao": {
+    "objetivo": "cobertura primeiro entre candidatos com n>=10 e precisao>=.95; fallback acerto ramo/exato",
+    "quantis": [
+      0.5,
+      0.65,
+      0.8,
+      0.9
+    ],
+    "atributos": [
+      "score",
+      "margem"
+    ],
+    "consenso": true,
+    "suporte_minimo": 10,
+    "precisao_minima": 0.95
+  },
+  "validacao": {
+    "externa": "3 folds M2 das80desenvolvimento",
+    "interna": {
+      "particoes_internas": 3,
+      "salt": "m7-catalogo-seletivo-v1"
+    },
+    "reserva20": "ja conhecida; apenas diagnostico exploratorio apos selecao",
+    "ativacao": "somente se previsoes publicadas na validacao externa aninhada atingirem suporte10 e precisao>=.95; nunca garantia populacional"
+  },
+  "restricoes": {
+    "chamadas_modelo_na_decisao": 0,
+    "LLM_classifica_ou_valida_questoes": false,
+    "usar_rotulos_IA": false,
+    "alterar_M1_M6": false
+  },
+  "status_entrega": "experimento separado; exportacoes M5 congeladas"
+}
