@@ -1,0 +1,835 @@
+{
+  "baseline_m3_reproduzida_exatamente": true,
+  "calibracao_nova": false,
+  "natureza": "Exploratória. Não existe novo teste independente.",
+  "nested": {
+    "geral": {
+      "acertos": {
+        "exato": 21,
+        "imediato": 33,
+        "ramo": 33
+      },
+      "acertos_top_k_ramo": 54,
+      "folhas_ativas_sugeridas": 64,
+      "niveis_sugeridos": {
+        "1": 30,
+        "2": 50
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.2625,
+        "imediato": 0.4125,
+        "ramo": 0.4125
+      },
+      "total": 80
+    },
+    "natureza": "Processo de seleção das8 receitas dentro de cada treino externo; dados historicamente reutilizados, sem independência de toda a pesquisa.",
+    "pareado_baseline": {
+      "exato": {
+        "ambos_corretos": 19,
+        "ambos_errados": 54,
+        "ganho_liquido": -3,
+        "melhorou": 2,
+        "piorou": 5
+      },
+      "imediato": {
+        "ambos_corretos": 32,
+        "ambos_errados": 42,
+        "ganho_liquido": -4,
+        "melhorou": 1,
+        "piorou": 5
+      },
+      "ramo": {
+        "ambos_corretos": 32,
+        "ambos_errados": 42,
+        "ganho_liquido": -4,
+        "melhorou": 1,
+        "piorou": 5
+      }
+    },
+    "particoes": [
+      {
+        "indice_externo": 1,
+        "metricas_internas": {
+          "baseline_m3": {
+            "acertos": {
+              "exato": 14,
+              "imediato": 23,
+              "ramo": 23
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 45,
+            "niveis_sugeridos": {
+              "1": 15,
+              "2": 38
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6792452830188679,
+            "taxas_acerto": {
+              "exato": 0.2641509433962264,
+              "imediato": 0.4339622641509434,
+              "ramo": 0.4339622641509434
+            },
+            "total": 53
+          },
+          "campos_mistos_k20": {
+            "acertos": {
+              "exato": 10,
+              "imediato": 18,
+              "ramo": 18
+            },
+            "acertos_top_k_ramo": 34,
+            "folhas_ativas_sugeridas": 45,
+            "niveis_sugeridos": {
+              "1": 15,
+              "2": 38
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6415094339622641,
+            "taxas_acerto": {
+              "exato": 0.18867924528301888,
+              "imediato": 0.33962264150943394,
+              "ramo": 0.33962264150943394
+            },
+            "total": 53
+          },
+          "campos_mistos_k5": {
+            "acertos": {
+              "exato": 11,
+              "imediato": 19,
+              "ramo": 19
+            },
+            "acertos_top_k_ramo": 34,
+            "folhas_ativas_sugeridas": 45,
+            "niveis_sugeridos": {
+              "1": 18,
+              "2": 35
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6415094339622641,
+            "taxas_acerto": {
+              "exato": 0.20754716981132076,
+              "imediato": 0.3584905660377358,
+              "ramo": 0.3584905660377358
+            },
+            "total": 53
+          },
+          "campos_mistos_lexical": {
+            "acertos": {
+              "exato": 14,
+              "imediato": 21,
+              "ramo": 21
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 47,
+            "niveis_sugeridos": {
+              "1": 15,
+              "2": 38
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6792452830188679,
+            "taxas_acerto": {
+              "exato": 0.2641509433962264,
+              "imediato": 0.39622641509433965,
+              "ramo": 0.39622641509433965
+            },
+            "total": 53
+          },
+          "campos_mistos_prior_k20": {
+            "acertos": {
+              "exato": 9,
+              "imediato": 18,
+              "ramo": 18
+            },
+            "acertos_top_k_ramo": 35,
+            "folhas_ativas_sugeridas": 46,
+            "niveis_sugeridos": {
+              "1": 15,
+              "2": 38
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.660377358490566,
+            "taxas_acerto": {
+              "exato": 0.16981132075471697,
+              "imediato": 0.33962264150943394,
+              "ramo": 0.33962264150943394
+            },
+            "total": 53
+          },
+          "campos_mistos_prior_k5": {
+            "acertos": {
+              "exato": 11,
+              "imediato": 19,
+              "ramo": 19
+            },
+            "acertos_top_k_ramo": 34,
+            "folhas_ativas_sugeridas": 45,
+            "niveis_sugeridos": {
+              "1": 17,
+              "2": 36
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6415094339622641,
+            "taxas_acerto": {
+              "exato": 0.20754716981132076,
+              "imediato": 0.3584905660377358,
+              "ramo": 0.3584905660377358
+            },
+            "total": 53
+          },
+          "campos_palavras_k20": {
+            "acertos": {
+              "exato": 12,
+              "imediato": 20,
+              "ramo": 20
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 45,
+            "niveis_sugeridos": {
+              "1": 18,
+              "2": 35
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6792452830188679,
+            "taxas_acerto": {
+              "exato": 0.22641509433962265,
+              "imediato": 0.37735849056603776,
+              "ramo": 0.37735849056603776
+            },
+            "total": 53
+          },
+          "campos_palavras_k5": {
+            "acertos": {
+              "exato": 14,
+              "imediato": 21,
+              "ramo": 21
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 48,
+            "niveis_sugeridos": {
+              "1": 16,
+              "2": 37
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6792452830188679,
+            "taxas_acerto": {
+              "exato": 0.2641509433962264,
+              "imediato": 0.39622641509433965,
+              "ramo": 0.39622641509433965
+            },
+            "total": 53
+          }
+        },
+        "receita": "baseline_m3",
+        "validacao_externa": {
+          "acertos": {
+            "exato": 9,
+            "imediato": 13,
+            "ramo": 13
+          },
+          "acertos_top_k_ramo": 17,
+          "folhas_ativas_sugeridas": 19,
+          "niveis_sugeridos": {
+            "1": 12,
+            "2": 15
+          },
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.6296296296296297,
+          "taxas_acerto": {
+            "exato": 0.3333333333333333,
+            "imediato": 0.48148148148148145,
+            "ramo": 0.48148148148148145
+          },
+          "total": 27
+        }
+      },
+      {
+        "indice_externo": 2,
+        "metricas_internas": {
+          "baseline_m3": {
+            "acertos": {
+              "exato": 18,
+              "imediato": 24,
+              "ramo": 24
+            },
+            "acertos_top_k_ramo": 34,
+            "folhas_ativas_sugeridas": 43,
+            "niveis_sugeridos": {
+              "1": 15,
+              "2": 38
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6415094339622641,
+            "taxas_acerto": {
+              "exato": 0.33962264150943394,
+              "imediato": 0.4528301886792453,
+              "ramo": 0.4528301886792453
+            },
+            "total": 53
+          },
+          "campos_mistos_k20": {
+            "acertos": {
+              "exato": 15,
+              "imediato": 19,
+              "ramo": 19
+            },
+            "acertos_top_k_ramo": 32,
+            "folhas_ativas_sugeridas": 41,
+            "niveis_sugeridos": {
+              "1": 19,
+              "2": 34
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6037735849056604,
+            "taxas_acerto": {
+              "exato": 0.2830188679245283,
+              "imediato": 0.3584905660377358,
+              "ramo": 0.3584905660377358
+            },
+            "total": 53
+          },
+          "campos_mistos_k5": {
+            "acertos": {
+              "exato": 14,
+              "imediato": 19,
+              "ramo": 19
+            },
+            "acertos_top_k_ramo": 32,
+            "folhas_ativas_sugeridas": 40,
+            "niveis_sugeridos": {
+              "1": 23,
+              "2": 30
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6037735849056604,
+            "taxas_acerto": {
+              "exato": 0.2641509433962264,
+              "imediato": 0.3584905660377358,
+              "ramo": 0.3584905660377358
+            },
+            "total": 53
+          },
+          "campos_mistos_lexical": {
+            "acertos": {
+              "exato": 11,
+              "imediato": 22,
+              "ramo": 22
+            },
+            "acertos_top_k_ramo": 35,
+            "folhas_ativas_sugeridas": 45,
+            "niveis_sugeridos": {
+              "1": 16,
+              "2": 37
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.660377358490566,
+            "taxas_acerto": {
+              "exato": 0.20754716981132076,
+              "imediato": 0.41509433962264153,
+              "ramo": 0.41509433962264153
+            },
+            "total": 53
+          },
+          "campos_mistos_prior_k20": {
+            "acertos": {
+              "exato": 15,
+              "imediato": 19,
+              "ramo": 19
+            },
+            "acertos_top_k_ramo": 32,
+            "folhas_ativas_sugeridas": 41,
+            "niveis_sugeridos": {
+              "1": 19,
+              "2": 34
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6037735849056604,
+            "taxas_acerto": {
+              "exato": 0.2830188679245283,
+              "imediato": 0.3584905660377358,
+              "ramo": 0.3584905660377358
+            },
+            "total": 53
+          },
+          "campos_mistos_prior_k5": {
+            "acertos": {
+              "exato": 14,
+              "imediato": 19,
+              "ramo": 19
+            },
+            "acertos_top_k_ramo": 32,
+            "folhas_ativas_sugeridas": 40,
+            "niveis_sugeridos": {
+              "1": 23,
+              "2": 30
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6037735849056604,
+            "taxas_acerto": {
+              "exato": 0.2641509433962264,
+              "imediato": 0.3584905660377358,
+              "ramo": 0.3584905660377358
+            },
+            "total": 53
+          },
+          "campos_palavras_k20": {
+            "acertos": {
+              "exato": 14,
+              "imediato": 19,
+              "ramo": 19
+            },
+            "acertos_top_k_ramo": 31,
+            "folhas_ativas_sugeridas": 41,
+            "niveis_sugeridos": {
+              "1": 20,
+              "2": 33
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.5849056603773585,
+            "taxas_acerto": {
+              "exato": 0.2641509433962264,
+              "imediato": 0.3584905660377358,
+              "ramo": 0.3584905660377358
+            },
+            "total": 53
+          },
+          "campos_palavras_k5": {
+            "acertos": {
+              "exato": 13,
+              "imediato": 18,
+              "ramo": 18
+            },
+            "acertos_top_k_ramo": 34,
+            "folhas_ativas_sugeridas": 42,
+            "niveis_sugeridos": {
+              "1": 21,
+              "2": 32
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6415094339622641,
+            "taxas_acerto": {
+              "exato": 0.24528301886792453,
+              "imediato": 0.33962264150943394,
+              "ramo": 0.33962264150943394
+            },
+            "total": 53
+          }
+        },
+        "receita": "baseline_m3",
+        "validacao_externa": {
+          "acertos": {
+            "exato": 7,
+            "imediato": 13,
+            "ramo": 13
+          },
+          "acertos_top_k_ramo": 21,
+          "folhas_ativas_sugeridas": 22,
+          "niveis_sugeridos": {
+            "1": 10,
+            "2": 17
+          },
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.7777777777777778,
+          "taxas_acerto": {
+            "exato": 0.25925925925925924,
+            "imediato": 0.48148148148148145,
+            "ramo": 0.48148148148148145
+          },
+          "total": 27
+        }
+      },
+      {
+        "indice_externo": 3,
+        "metricas_internas": {
+          "baseline_m3": {
+            "acertos": {
+              "exato": 15,
+              "imediato": 25,
+              "ramo": 25
+            },
+            "acertos_top_k_ramo": 37,
+            "folhas_ativas_sugeridas": 39,
+            "niveis_sugeridos": {
+              "1": 24,
+              "2": 30
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6851851851851852,
+            "taxas_acerto": {
+              "exato": 0.2777777777777778,
+              "imediato": 0.46296296296296297,
+              "ramo": 0.46296296296296297
+            },
+            "total": 54
+          },
+          "campos_mistos_k20": {
+            "acertos": {
+              "exato": 15,
+              "imediato": 24,
+              "ramo": 24
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 39,
+            "niveis_sugeridos": {
+              "1": 24,
+              "2": 30
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6666666666666666,
+            "taxas_acerto": {
+              "exato": 0.2777777777777778,
+              "imediato": 0.4444444444444444,
+              "ramo": 0.4444444444444444
+            },
+            "total": 54
+          },
+          "campos_mistos_k5": {
+            "acertos": {
+              "exato": 16,
+              "imediato": 26,
+              "ramo": 26
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 40,
+            "niveis_sugeridos": {
+              "1": 24,
+              "2": 30
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6666666666666666,
+            "taxas_acerto": {
+              "exato": 0.2962962962962963,
+              "imediato": 0.48148148148148145,
+              "ramo": 0.48148148148148145
+            },
+            "total": 54
+          },
+          "campos_mistos_lexical": {
+            "acertos": {
+              "exato": 14,
+              "imediato": 28,
+              "ramo": 28
+            },
+            "acertos_top_k_ramo": 40,
+            "folhas_ativas_sugeridas": 45,
+            "niveis_sugeridos": {
+              "1": 16,
+              "2": 38
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.7407407407407407,
+            "taxas_acerto": {
+              "exato": 0.25925925925925924,
+              "imediato": 0.5185185185185185,
+              "ramo": 0.5185185185185185
+            },
+            "total": 54
+          },
+          "campos_mistos_prior_k20": {
+            "acertos": {
+              "exato": 15,
+              "imediato": 24,
+              "ramo": 24
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 39,
+            "niveis_sugeridos": {
+              "1": 24,
+              "2": 30
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6666666666666666,
+            "taxas_acerto": {
+              "exato": 0.2777777777777778,
+              "imediato": 0.4444444444444444,
+              "ramo": 0.4444444444444444
+            },
+            "total": 54
+          },
+          "campos_mistos_prior_k5": {
+            "acertos": {
+              "exato": 16,
+              "imediato": 26,
+              "ramo": 26
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 40,
+            "niveis_sugeridos": {
+              "1": 22,
+              "2": 32
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6666666666666666,
+            "taxas_acerto": {
+              "exato": 0.2962962962962963,
+              "imediato": 0.48148148148148145,
+              "ramo": 0.48148148148148145
+            },
+            "total": 54
+          },
+          "campos_palavras_k20": {
+            "acertos": {
+              "exato": 15,
+              "imediato": 24,
+              "ramo": 24
+            },
+            "acertos_top_k_ramo": 36,
+            "folhas_ativas_sugeridas": 41,
+            "niveis_sugeridos": {
+              "1": 25,
+              "2": 29
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6666666666666666,
+            "taxas_acerto": {
+              "exato": 0.2777777777777778,
+              "imediato": 0.4444444444444444,
+              "ramo": 0.4444444444444444
+            },
+            "total": 54
+          },
+          "campos_palavras_k5": {
+            "acertos": {
+              "exato": 17,
+              "imediato": 26,
+              "ramo": 26
+            },
+            "acertos_top_k_ramo": 37,
+            "folhas_ativas_sugeridas": 42,
+            "niveis_sugeridos": {
+              "1": 22,
+              "2": 32
+            },
+            "sem_evidencia": 0,
+            "taxa_top_k_ramo": 0.6851851851851852,
+            "taxas_acerto": {
+              "exato": 0.3148148148148148,
+              "imediato": 0.48148148148148145,
+              "ramo": 0.48148148148148145
+            },
+            "total": 54
+          }
+        },
+        "receita": "campos_mistos_lexical",
+        "validacao_externa": {
+          "acertos": {
+            "exato": 5,
+            "imediato": 7,
+            "ramo": 7
+          },
+          "acertos_top_k_ramo": 16,
+          "folhas_ativas_sugeridas": 23,
+          "niveis_sugeridos": {
+            "1": 8,
+            "2": 18
+          },
+          "sem_evidencia": 0,
+          "taxa_top_k_ramo": 0.6153846153846154,
+          "taxas_acerto": {
+            "exato": 0.19230769230769232,
+            "imediato": 0.2692307692307692,
+            "ramo": 0.2692307692307692
+          },
+          "total": 26
+        }
+      }
+    ]
+  },
+  "pareado_oof_selecao": {
+    "exato": {
+      "ambos_corretos": 24,
+      "ambos_errados": 56,
+      "ganho_liquido": 0,
+      "melhorou": 0,
+      "piorou": 0
+    },
+    "imediato": {
+      "ambos_corretos": 37,
+      "ambos_errados": 43,
+      "ganho_liquido": 0,
+      "melhorou": 0,
+      "piorou": 0
+    },
+    "ramo": {
+      "ambos_corretos": 37,
+      "ambos_errados": 43,
+      "ganho_liquido": 0,
+      "melhorou": 0,
+      "piorou": 0
+    }
+  },
+  "politica_publicacao_alterada": false,
+  "receita_selecionada": "baseline_m3",
+  "receitas_oof_selecao": {
+    "baseline_m3": {
+      "acertos": {
+        "exato": 24,
+        "imediato": 37,
+        "ramo": 37
+      },
+      "acertos_top_k_ramo": 54,
+      "folhas_ativas_sugeridas": 66,
+      "niveis_sugeridos": {
+        "1": 25,
+        "2": 55
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.3,
+        "imediato": 0.4625,
+        "ramo": 0.4625
+      },
+      "total": 80
+    },
+    "campos_mistos_k20": {
+      "acertos": {
+        "exato": 20,
+        "imediato": 30,
+        "ramo": 30
+      },
+      "acertos_top_k_ramo": 51,
+      "folhas_ativas_sugeridas": 64,
+      "niveis_sugeridos": {
+        "1": 29,
+        "2": 51
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.6375,
+      "taxas_acerto": {
+        "exato": 0.25,
+        "imediato": 0.375,
+        "ramo": 0.375
+      },
+      "total": 80
+    },
+    "campos_mistos_k5": {
+      "acertos": {
+        "exato": 20,
+        "imediato": 33,
+        "ramo": 33
+      },
+      "acertos_top_k_ramo": 50,
+      "folhas_ativas_sugeridas": 63,
+      "niveis_sugeridos": {
+        "1": 31,
+        "2": 49
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.625,
+      "taxas_acerto": {
+        "exato": 0.25,
+        "imediato": 0.4125,
+        "ramo": 0.4125
+      },
+      "total": 80
+    },
+    "campos_mistos_lexical": {
+      "acertos": {
+        "exato": 19,
+        "imediato": 34,
+        "ramo": 34
+      },
+      "acertos_top_k_ramo": 56,
+      "folhas_ativas_sugeridas": 67,
+      "niveis_sugeridos": {
+        "1": 25,
+        "2": 55
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.7,
+      "taxas_acerto": {
+        "exato": 0.2375,
+        "imediato": 0.425,
+        "ramo": 0.425
+      },
+      "total": 80
+    },
+    "campos_mistos_prior_k20": {
+      "acertos": {
+        "exato": 20,
+        "imediato": 30,
+        "ramo": 30
+      },
+      "acertos_top_k_ramo": 51,
+      "folhas_ativas_sugeridas": 64,
+      "niveis_sugeridos": {
+        "1": 29,
+        "2": 51
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.6375,
+      "taxas_acerto": {
+        "exato": 0.25,
+        "imediato": 0.375,
+        "ramo": 0.375
+      },
+      "total": 80
+    },
+    "campos_mistos_prior_k5": {
+      "acertos": {
+        "exato": 20,
+        "imediato": 33,
+        "ramo": 33
+      },
+      "acertos_top_k_ramo": 50,
+      "folhas_ativas_sugeridas": 63,
+      "niveis_sugeridos": {
+        "1": 30,
+        "2": 50
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.625,
+      "taxas_acerto": {
+        "exato": 0.25,
+        "imediato": 0.4125,
+        "ramo": 0.4125
+      },
+      "total": 80
+    },
+    "campos_palavras_k20": {
+      "acertos": {
+        "exato": 22,
+        "imediato": 33,
+        "ramo": 33
+      },
+      "acertos_top_k_ramo": 52,
+      "folhas_ativas_sugeridas": 66,
+      "niveis_sugeridos": {
+        "1": 28,
+        "2": 52
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.65,
+      "taxas_acerto": {
+        "exato": 0.275,
+        "imediato": 0.4125,
+        "ramo": 0.4125
+      },
+      "total": 80
+    },
+    "campos_palavras_k5": {
+      "acertos": {
+        "exato": 22,
+        "imediato": 32,
+        "ramo": 32
+      },
+      "acertos_top_k_ramo": 55,
+      "folhas_ativas_sugeridas": 68,
+      "niveis_sugeridos": {
+        "1": 28,
+        "2": 52
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.6875,
+      "taxas_acerto": {
+        "exato": 0.275,
+        "imediato": 0.4,
+        "ramo": 0.4
+      },
+      "total": 80
+    }
+  },
+  "schema": "desenvolvimento_refinamento_m6_v1"
+}

@@ -4,6 +4,10 @@
 
 Arquivos atuais: [CSV de 659 questões](etapa-complementar/publicacao.csv), [previsão](etapa-complementar/previsao.txt), [relatório de quatro páginas](etapa-complementar/relatorio.pdf), [relatório em Markdown](etapa-complementar/relatorio.md), [defesa técnica](etapa-complementar/docs/DEFESA_TECNICA.md) e [guia de entrega](etapa-complementar/docs/ENTREGA.md). Os arquivos de mesmo nome na raiz pertencem à primeira entrega.
 
+A [rodada extra de refinamento](etapa-complementar/docs/MODULO6_REFINAMENTO.md) comparou oito receitas de ranking. Nenhuma variação superou os 37/80 acertos do classificador anterior, que permanece selecionado. A entrega acima foi preservada; os resultados novos são exploratórios, pois as referências já foram utilizadas no desenvolvimento e na avaliação anteriores.
+
+O [módulo 7 de catálogo enriquecido](etapa-complementar/docs/MODULO7_CATALOGO.md) melhorou as sugestões para **54/80 acertos por ramo (67,5%)**, com 53/80 na seleção aninhada. Nas 20 referências já conhecidas, passou de 6 para 12 acertos. A cobertura com precisão de 95% continua sem sustentação; os novos resultados são experimentais e os arquivos da entrega M5 acima permanecem congelados.
+
 O [plano dos cinco módulos](etapa-complementar/docs/PLANO_EXECUCAO.md) e o [protocolo de avaliação](etapa-complementar/docs/PROTOCOLO_AVALIACAO.md) orientam a continuação. A [folha-verdade](etapa-complementar/anexos/folha_verdade.csv), as [659 questões](etapa-complementar/anexos/questoes.jsonl), o [novo enunciado](<etapa-complementar/case-ia-classificacao-de-topicos (2).pdf>) e os demais anexos foram importados junto com o módulo 1 já validado.
 
 Para executar a etapa complementar, entre na pasta correspondente:

@@ -1,0 +1,154 @@
+{
+  "ablacao_prior": {
+    "ganho_acertos_ramo_ambos": 0,
+    "mudancas_top1_k20": 0,
+    "mudancas_top1_k5": 2
+  },
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "artefatos_sha256": {
+    ".gitattributes": "1500fd00b70e3103b9458959214686fb4e69b1e5344371c1361824c0253a4c81",
+    "artefatos/checkpoints/reproducao_modulo6.json": "75cdd28f673af8370d2a225592e4a8b5e5bf1c54b4a0bb7b55efcf170aa8e9af",
+    "artefatos/refinamento-v1/diagnostico_reserva_conhecida.json": "816138aec306b9f1a2be97bafabed208fd4d05b09866992527f92390e1f1afec",
+    "artefatos/refinamento-v1/manifesto.json": "c64b5360591532948dced10c9f8517e5c59ddda8213cad5067ad974c90427a83",
+    "artefatos/refinamento-v1/metricas_desenvolvimento.json": "02e3c1c57bf5252a27c3c9715006f88e6e350a9271931af22d741ad5007e99da",
+    "artefatos/refinamento-v1/modelo_reconstruivel.json": "e677299f2687626bb9b25e335c656e80ed0ddc0629e5dd523b201cd5ae70d31a",
+    "artefatos/refinamento-v1/particoes_nested.json": "2b10a710c84e7c5f9e77fd7313071bcf77501137b7be5f3cb8ba53350d80cbc3",
+    "artefatos/refinamento-v1/predicoes_nested.jsonl": "6f9e75379b5b728d3692a9816cc042ffaec143c9c0b70a9d791c279a559e5242",
+    "artefatos/refinamento-v1/predicoes_oof.jsonl": "0542d40f8d17094315ca31b8ca692d003b1f331af7ef22a76c3daedf27df0840",
+    "artefatos/refinamento-v1/predicoes_reserva_conhecida.jsonl": "f6b91fcf3b688c65dcef4f0ab467939b69e0ff63c8b5e797b314b7da0190a9b8",
+    "artefatos/refinamento-v1/receita_selecionada.json": "f7cdcfee16e03d77c68c13fdb8b4a5cb563c441030a599e18394d3d2b96dbf88",
+    "artefatos/refinamento-v1/sugestoes_avaliacao.jsonl": "61ee0f73c1e54e7ab844f1cb5e8dc18e2d1d716a0282f2278c479def72a8190d",
+    "classificacao_refinamento/__init__.py": "724a6c5ef1bf325afa619edf2fd688049fffcbe39bf2c6e9d1d311089d2dd781",
+    "classificacao_refinamento/__main__.py": "69f72662d5802c90279eedcf9de322d125bcdec3557dc31b117d01d1db9302eb",
+    "classificacao_refinamento/experimento.py": "253b68926371a1650b92a87c0f032a817de5f627968af4cb285774f185db1f83",
+    "classificacao_refinamento/motor.py": "0dc00932e61093c20d911fad096bc35975ef40bb7e2a6385f40fb8cf542829cb",
+    "config/modulo6/fontes.json": "52e3226bc7651148334a958c459609113d6c229e6d1f3bbf209fdc774be92d3d",
+    "config/modulo6/protocolo.json": "7f8bcafa1c823215ba76598722e985011880e3f65d99ae1772708f9a8e36d26f",
+    "docs/MODULO6_REFINAMENTO.md": "79f168c0d1af53c188f363892349e6df73a39b718d386c04c620d62078dc2f3c",
+    "scripts/verificar_refinamento.py": "a70d714e9ade27ad5c40c169b8c5e49ffe93e24bb7d350a39c77675336b5b918",
+    "tests/test_experimento_refinamento.py": "720bcd846310da681cd75b3435c0fa2deea8e1ae2f0aebdca16f22b290947dbe",
+    "tests/test_motor_refinamento.py": "63fdf0343a94e98eeb6313d4de8b56a1f65443d848110ef13c1eae5243c30269",
+    "tests/test_verificador_refinamento.py": "9843e288cd6155f2328b8f59e31b917f61488cba027f07a18917bf6ada6e4aa2"
+  },
+  "chamadas_api_inferencia": 0,
+  "checkpoint_m5_conferido": {
+    "arquivo": "artefatos/checkpoints/modulo5.json",
+    "artefatos_preservados": 13,
+    "divergencias": [],
+    "sha256": "4cb587f723e2c6d4003b1a845b986739f754140b1404dc526c3391aa51c8c3eb"
+  },
+  "commit_baseline": "4a4a3e6b54fab5861bb9e2906b0fa913496a84a5",
+  "commit_ou_push_executado": false,
+  "comparacao_559": {
+    "baseline": "artefatos/decisoes-v1/decisoes.jsonl",
+    "mesmos_ids_temas_scores_margens": 559,
+    "total": 559
+  },
+  "concluido_em_utc": "2026-10-21T18:00:50.358263+00:00",
+  "decisao": "Nenhuma receita nova supera a baseline; manter classificador e politica M4/M5.",
+  "execucao_inicial_segundos": 610.677,
+  "mensagem_commit_sugerida": "Compara receitas de refinamento e mantem o classificador anterior",
+  "modelo_linguagem_na_decisao": false,
+  "natureza": "Exploratoria, sem novo teste independente. Reserva20 ja conhecida.",
+  "protocolo_sha256": "7f8bcafa1c823215ba76598722e985011880e3f65d99ae1772708f9a8e36d26f",
+  "proxima_hipotese": "Enriquecimento versionado do catalogo sem acesso a questoes avaliadas; nova comparacao e calibracao propria, com novas referencias humanas para teste independente.",
+  "reproducao": {
+    "arquivos_copiados": 118,
+    "bytes_copiados": 37373850,
+    "copia_final_identica": true,
+    "fontes_originais_preservadas": true,
+    "produtos_m6_reconstruidos_identicos": 10,
+    "segundos": 536.856,
+    "status": "aprovado"
+  },
+  "resumo": {
+    "nested": {
+      "acertos": {
+        "exato": 21,
+        "imediato": 33,
+        "ramo": 33
+      },
+      "acertos_top_k_ramo": 54,
+      "folhas_ativas_sugeridas": 64,
+      "niveis_sugeridos": {
+        "1": 30,
+        "2": 50
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.2625,
+        "imediato": 0.4125,
+        "ramo": 0.4125
+      },
+      "total": 80
+    },
+    "oof": {
+      "acertos": {
+        "exato": 24,
+        "imediato": 37,
+        "ramo": 37
+      },
+      "acertos_top_k_ramo": 54,
+      "folhas_ativas_sugeridas": 66,
+      "niveis_sugeridos": {
+        "1": 25,
+        "2": 55
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.675,
+      "taxas_acerto": {
+        "exato": 0.3,
+        "imediato": 0.4625,
+        "ramo": 0.4625
+      },
+      "total": 80
+    },
+    "receita_selecionada": "baseline_m3",
+    "reserva_conhecida": {
+      "acertos": {
+        "exato": 3,
+        "imediato": 6,
+        "ramo": 6
+      },
+      "acertos_top_k_ramo": 12,
+      "folhas_ativas_sugeridas": 16,
+      "niveis_sugeridos": {
+        "1": 6,
+        "2": 14
+      },
+      "sem_evidencia": 0,
+      "taxa_top_k_ramo": 0.6,
+      "taxas_acerto": {
+        "exato": 0.15,
+        "imediato": 0.3,
+        "ramo": 0.3
+      },
+      "total": 20
+    },
+    "sugestoes_experimentais": 559
+  },
+  "rotulos_externos_incorporados": false,
+  "schema": "checkpoint_modulo6_v1",
+  "status": "concluido_sem_promocao_de_nova_receita",
+  "testes": {
+    "novos_nesta_rodada": 38,
+    "suite_completa": {
+      "comando": "python -X utf8 -B -S -m unittest discover -s tests -v",
+      "quantidade": 270,
+      "segundos": 60.274,
+      "status": "aprovada"
+    },
+    "total_aprovados": 276,
+    "verificador_adicionado_depois": {
+      "comando": "python -X utf8 -B -S -m unittest discover -s tests -p test_verificador_refinamento.py -v",
+      "quantidade": 6,
+      "segundos": 2.511,
+      "status": "aprovado"
+    }
+  }
+}

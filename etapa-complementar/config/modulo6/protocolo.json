@@ -1,0 +1,32 @@
+{
+  "schema": "protocolo_refinamento_m6_v1",
+  "registrado_em_utc": "2026-10-21T17:37:52Z",
+  "momento": "Grade fixada antes da primeira execução M6; M2 a M5 e resultados agregados da reserva já conhecidos.",
+  "natureza": "Exploratória. Não existe novo teste independente.",
+  "origem_rotulos": "Somente folha_verdade.csv oficial; nenhum rótulo de IA ou de outro participante.",
+  "criterio_selecao": ["acertos_ramo_decrescente", "acertos_exato_decrescente", "prioridade_crescente", "receita_id_crescente"],
+  "top_k": 5,
+  "desenvolvimento": "Mesmas 80 referências e três partições do M2; única fonte de seleção.",
+  "nested": {"particoes_internas": 3, "salt": "vicio-m6-v1", "agrupamento": "Grupos M1 indivisíveis, ordenados por SHA256 de salt, índice externo e IDs; distribuição gulosa pelo menor número de questões."},
+  "reserva": "20 referências já avaliadas no M4: somente diagnóstico da receita escolhida nas80, sem retuning ou promoção automática.",
+  "campos": {"corpo": 0.75, "alternativas": 0.25, "fallback": "Renormalizar pesos sobre vetores não vazios, separadamente por espaço."},
+  "catalogo": {"titulo": 3, "caminho": 1, "descricao": 1},
+  "idf": "Catálogo ponderado mais corpo e alternativas de cada questão de treino como documentos separados; vazios omitidos. Nunca ajustar em consulta, validação, reserva ou lote559.",
+  "caracteres": {"ngramas": [3, 4, 5], "normalizacao": "NFKD, casefold, remover acentos, tokens [a-z0-9]+, um espaço em cada borda; não cruzar tokens."},
+  "prior_disciplina": {"temperatura": 0.05, "origem": "Média L2 dos E5 humanos treino dentro da taxonomia, agrupados pela disciplina do central. Fallback: centróide do catálogo daquela disciplina. Softmax dos cossenos sem recorte; sinal suave, sem excluir temas."},
+  "baseline": "Reexecutar M3 hibrido_catalogo e conferir temas, scores, margens e top5 com os80 resultados congelados antes de interpretar comparações.",
+  "publicacao_automatica": false,
+  "recalibrar": false,
+  "promover_entrega_m5": false,
+  "sugestoes559": "Receita selecionada reajustada nos100 humanos; somente sugestões experimentais sem confiança probabilística, decisão ou alegação de teste independente.",
+  "receitas": {
+    "baseline_m3": {"prioridade": 0, "parametros": {"modo": "baseline_m3"}},
+    "campos_palavras_k20": {"prioridade": 1, "parametros": {"modo": "campos", "peso_char": 0.0, "peso_semantico": 0.5, "rrf_k": 20, "peso_prior": 0.0}},
+    "campos_mistos_k20": {"prioridade": 2, "parametros": {"modo": "campos", "peso_char": 0.3, "peso_semantico": 0.5, "rrf_k": 20, "peso_prior": 0.0}},
+    "campos_palavras_k5": {"prioridade": 3, "parametros": {"modo": "campos", "peso_char": 0.0, "peso_semantico": 0.5, "rrf_k": 5, "peso_prior": 0.0}},
+    "campos_mistos_k5": {"prioridade": 4, "parametros": {"modo": "campos", "peso_char": 0.3, "peso_semantico": 0.5, "rrf_k": 5, "peso_prior": 0.0}},
+    "campos_mistos_lexical": {"prioridade": 5, "parametros": {"modo": "campos", "peso_char": 0.3, "peso_semantico": 0.0, "rrf_k": 20, "peso_prior": 0.0}},
+    "campos_mistos_prior_k5": {"prioridade": 6, "parametros": {"modo": "campos", "peso_char": 0.3, "peso_semantico": 0.5, "rrf_k": 5, "peso_prior": 0.15}},
+    "campos_mistos_prior_k20": {"prioridade": 7, "parametros": {"modo": "campos", "peso_char": 0.3, "peso_semantico": 0.5, "rrf_k": 20, "peso_prior": 0.15}}
+  }
+}

@@ -10,4 +10,5 @@
 /classificacao_local/** -text
 /classificacao_experimentos/** -text
 /classificacao_decisao/** -text
+/classificacao_refinamento/** -text
 /requirements-preparacao*.txt -text

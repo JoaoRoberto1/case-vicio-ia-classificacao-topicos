@@ -1,0 +1,50 @@
+{
+  "geral": {
+    "acertos": {
+      "exato": 3,
+      "imediato": 6,
+      "ramo": 6
+    },
+    "acertos_top_k_ramo": 12,
+    "folhas_ativas_sugeridas": 16,
+    "niveis_sugeridos": {
+      "1": 6,
+      "2": 14
+    },
+    "sem_evidencia": 0,
+    "taxa_top_k_ramo": 0.6,
+    "taxas_acerto": {
+      "exato": 0.15,
+      "imediato": 0.3,
+      "ramo": 0.3
+    },
+    "total": 20
+  },
+  "natureza": "20 referências já avaliadas no M4: somente diagnóstico da receita escolhida nas80, sem retuning ou promoção automática.",
+  "pareado_baseline": {
+    "exato": {
+      "ambos_corretos": 3,
+      "ambos_errados": 17,
+      "ganho_liquido": 0,
+      "melhorou": 0,
+      "piorou": 0
+    },
+    "imediato": {
+      "ambos_corretos": 6,
+      "ambos_errados": 14,
+      "ganho_liquido": 0,
+      "melhorou": 0,
+      "piorou": 0
+    },
+    "ramo": {
+      "ambos_corretos": 6,
+      "ambos_errados": 14,
+      "ganho_liquido": 0,
+      "melhorou": 0,
+      "piorou": 0
+    }
+  },
+  "schema": "diagnostico_reserva_conhecida_m6_v1",
+  "teste_independente": false,
+  "usada_para_selecionar_receita": false
+}
