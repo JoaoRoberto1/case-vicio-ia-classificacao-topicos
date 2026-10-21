@@ -1,0 +1,479 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "implementacao": "CPython",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "arquivos_copiados": 92,
+  "bytes_copiados": 33954493,
+  "copia_final_identica": true,
+  "credenciais_ambiente_herdadas": false,
+  "dependencias_instaladas": 0,
+  "encoder_executado": false,
+  "execucoes": [
+    {
+      "argumentos_python": [
+        "-B",
+        "-S",
+        "-E",
+        "-X",
+        "utf8",
+        "-c"
+      ],
+      "bootstrap_sha256": "fdc7c9af5577b10478cfe420b238b85cc1b55e8ced578d93a3dcc384c10a9a3f",
+      "exit_code": 0,
+      "isolamento": {
+        "dont_write_bytecode": true,
+        "ignore_environment": true,
+        "no_site": true,
+        "rede_env_encoder_pesos_bloqueados": true,
+        "site_packages_no_path": true
+      },
+      "modulo": "classificacao_topicos",
+      "operacao": "verificar",
+      "resumo": {
+        "contagens": {
+          "avaliacao_oficial": 559,
+          "questoes": 659,
+          "rotulos": 100,
+          "rotulos_historicos": 100,
+          "rotulos_recentes": 0,
+          "temas": 377,
+          "temas_ativos": 375
+        },
+        "operacao": "verificar",
+        "status": "ok"
+      },
+      "segundos": 2.284,
+      "stderr": "",
+      "stdout": "AMBIENTE_M5={\"dont_write_bytecode\": true, \"ignore_environment\": true, \"no_site\": true, \"rede_env_encoder_pesos_bloqueados\": true, \"site_packages_no_path\": true}\n{\n  \"operacao\": \"verificar\",\n  \"status\": \"ok\",\n  \"contagens\": {\n    \"questoes\": 659,\n    \"temas\": 377,\n    \"temas_ativos\": 375,\n    \"rotulos\": 100,\n    \"avaliacao_oficial\": 559,\n    \"rotulos_historicos\": 100,\n    \"rotulos_recentes\": 0\n  }\n}\n"
+    },
+    {
+      "argumentos_python": [
+        "-B",
+        "-S",
+        "-E",
+        "-X",
+        "utf8",
+        "-c"
+      ],
+      "bootstrap_sha256": "fdc7c9af5577b10478cfe420b238b85cc1b55e8ced578d93a3dcc384c10a9a3f",
+      "exit_code": 0,
+      "isolamento": {
+        "dont_write_bytecode": true,
+        "ignore_environment": true,
+        "no_site": true,
+        "rede_env_encoder_pesos_bloqueados": true,
+        "site_packages_no_path": true
+      },
+      "modulo": "classificacao_decisao",
+      "operacao": "verificar",
+      "resumo": {
+        "ajuste_final_testado_independentemente": false,
+        "avaliacao": 559,
+        "cobertura_avaliacao": 0.0,
+        "comando": "verificar",
+        "decisoes": {
+          "revisar": 659
+        },
+        "entregas_raiz_identicas": 2,
+        "linhas": 659,
+        "precisao_prevista": null,
+        "produtos_reconstruidos_identicos": 15,
+        "publicadas_avaliacao": 0,
+        "segundos": 493.957
+      },
+      "segundos": 495.185,
+      "stderr": "",
+      "stdout": "AMBIENTE_M5={\"dont_write_bytecode\": true, \"ignore_environment\": true, \"no_site\": true, \"rede_env_encoder_pesos_bloqueados\": true, \"site_packages_no_path\": true}\nCalibração e congelamento reproduzidos.\nAvaliação reservada reproduzida sem alterar a política.\n{\"ajuste_final_testado_independentemente\": false, \"avaliacao\": 559, \"cobertura_avaliacao\": 0.0, \"comando\": \"verificar\", \"decisoes\": {\"revisar\": 659}, \"entregas_raiz_identicas\": 2, \"linhas\": 659, \"precisao_prevista\": null, \"produtos_reconstruidos_identicos\": 15, \"publicadas_avaliacao\": 0, \"segundos\": 493.957}\n"
+    }
+  ],
+  "exportacoes_raiz_identicas": 2,
+  "fontes_originais_preservadas": true,
+  "fontes_sha256_e_bytes": {
+    "README-do-case.md": {
+      "bytes": 3034,
+      "sha256": "86d547b3cbe645299e9d61ed95248d04754e8cc3004110b22281c0031adc81fe"
+    },
+    "anexos/LEIA-ME.md": {
+      "bytes": 2846,
+      "sha256": "ba8cda8a3b53cfe12f82558e7645f0b0f6d40f71796ba21f22d120ff641c7ab7"
+    },
+    "anexos/entrega_modelo.csv": {
+      "bytes": 165,
+      "sha256": "6778f7ffd32e467321a590829bb05796f967b5e703938c0dc2d4c2a43ac12c76"
+    },
+    "anexos/folha_verdade.csv": {
+      "bytes": 7141,
+      "sha256": "c1412ce8d336ae248a2f0e46d8e34cbc07dd33c78af9ce6bbe1337c516ee8e3b"
+    },
+    "anexos/questoes.jsonl": {
+      "bytes": 841310,
+      "sha256": "318f1fea970633a4d84eb5a4dd071b2ae76ad3e49288a073ab381f61a09da3f3"
+    },
+    "anexos/temas.csv": {
+      "bytes": 121406,
+      "sha256": "9c6e98a6cd568816671c0fa14e2449b152cee10e20cb1327b3b097c1c5ce4cbc"
+    },
+    "artefatos/calibracao-v1/calibrador.json": {
+      "bytes": 1810,
+      "sha256": "42441c4be3f60fd4dfce5f880783f05d755c278a999742a250a0ea1694449d5a"
+    },
+    "artefatos/calibracao-v1/congelamento.json": {
+      "bytes": 12070,
+      "sha256": "c40b3b66cac5bfb1ae7b741c2abdbb5a022eef04e039789bd9a45789e5142b40"
+    },
+    "artefatos/calibracao-v1/manifesto.json": {
+      "bytes": 2692,
+      "sha256": "fc2c2580b8925770893dc22d2c05f3e4090e2d381e0be18b7a1a6c956b7878ae"
+    },
+    "artefatos/calibracao-v1/metricas_desenvolvimento.json": {
+      "bytes": 12643,
+      "sha256": "0bc3cbf9762549541cdf5e3cd3c1ced89048e6c8f37836cdd2d89a60e2619ad0"
+    },
+    "artefatos/calibracao-v1/politica.json": {
+      "bytes": 668,
+      "sha256": "8ce03c30c1ff086d3b77addd898220058f143b3f1f5dc20a692f09775ed87329"
+    },
+    "artefatos/calibracao-v1/predicoes_calibradas.jsonl": {
+      "bytes": 685529,
+      "sha256": "fc6012d3dd89e8204f62c384c093f8b9a1855738f9072788cfc0bd07abe405dc"
+    },
+    "artefatos/decisoes-v1/decisoes.jsonl": {
+      "bytes": 1864206,
+      "sha256": "aca05055550648bcc985575fb19ca3ca4f7f8a310380716a4a11a0320e55418f"
+    },
+    "artefatos/decisoes-v1/manifesto.json": {
+      "bytes": 1518,
+      "sha256": "c09c93e38b0b178e3da084c991724531fe23dee557c9207468e2a283cf69ada9"
+    },
+    "artefatos/decisoes-v1/modelo_final.json": {
+      "bytes": 2032517,
+      "sha256": "025515147d6058b1be99dc449ca320275ce37f94448e9ed05284cd771c53ae07"
+    },
+    "artefatos/decisoes-v1/previsao.json": {
+      "bytes": 1538,
+      "sha256": "3ba2c30d4d19041861441ee9d610dcd346b10d1fc1e943bd98395a52f6978168"
+    },
+    "artefatos/decisoes-v1/previsao.txt": {
+      "bytes": 1819,
+      "sha256": "28d37a501811358b6ec2806e797336b0086c9395a4db59193583508302803f23"
+    },
+    "artefatos/decisoes-v1/publicacao.csv": {
+      "bytes": 66050,
+      "sha256": "28b00d22029fb6d163293f3ae76990521fdc5a3d3c176bdbaa7683cbe50d0b7e"
+    },
+    "artefatos/embeddings-e5-m4-v1/manifesto.json": {
+      "bytes": 6661,
+      "sha256": "fcf655401303ae76e599a96029b1c712ad4648bdd6e1245bc0d5469f4d6f13dd"
+    },
+    "artefatos/embeddings-e5-m4-v1/vetores.json": {
+      "bytes": 8245364,
+      "sha256": "7811c55345d7789daa1da00842d1a2680eaa52f2bd399781e488d288049a8c81"
+    },
+    "artefatos/embeddings-e5-v1/manifesto.json": {
+      "bytes": 4194,
+      "sha256": "b625893488a262b2bdb298103eee8b793a3995b8b2f68e81f651a2af5030a368"
+    },
+    "artefatos/embeddings-e5-v1/vetores.json": {
+      "bytes": 8085275,
+      "sha256": "f9af14c27c91d4a2fbb29cc913935828d38988b64a80e275636cd8cc531e7b25"
+    },
+    "artefatos/lexical-v1/manifesto.json": {
+      "bytes": 3393,
+      "sha256": "11eb270ec070e2cd77af590fc5e3d06af66ee6f3a0c369bb4d2fb2b5872d8a0e"
+    },
+    "artefatos/lexical-v1/metricas_desenvolvimento.json": {
+      "bytes": 15987,
+      "sha256": "cb85494745bbeb01d69cac4fc2e57c4f2e5df9b7df1edb48a680643bc4065d4c"
+    },
+    "artefatos/lexical-v1/modelo_lexical.json": {
+      "bytes": 1645421,
+      "sha256": "39b60110211f49f840432e2fb49e050b26871cfcc8586b4c770405f01576dbc7"
+    },
+    "artefatos/lexical-v1/modelo_lexical_leis.json": {
+      "bytes": 1645421,
+      "sha256": "97e52d8b929689fa16e951d9a5ed2d0dda0246068088f9644ab829d1ade9fad1"
+    },
+    "artefatos/lexical-v1/predicoes_desenvolvimento.jsonl": {
+      "bytes": 307621,
+      "sha256": "fd5679016489a59bc71c2bb6949426b3abdb101640e79336416c13b654e2b1a5"
+    },
+    "artefatos/lexical-v1/protocolo.json": {
+      "bytes": 13514,
+      "sha256": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4"
+    },
+    "artefatos/lexical-v1/sugestoes_avaliacao.jsonl": {
+      "bytes": 972854,
+      "sha256": "02ecabecfceb49cb9e485893e24d84ad2675656536cb2165bb117ed58ebc179a"
+    },
+    "artefatos/melhorias-v1/manifesto.json": {
+      "bytes": 3489,
+      "sha256": "aff41fcc4b2fdf1c5f2d2e696f87f8c7f30cb6510e99883364b31f5f0867f310"
+    },
+    "artefatos/melhorias-v1/metricas_desenvolvimento.json": {
+      "bytes": 70309,
+      "sha256": "58984c06384e4c9385c0ed757022c2a3de3023283cdc68ac9dfabd8d43dc142e"
+    },
+    "artefatos/melhorias-v1/modelo_selecionado.json": {
+      "bytes": 1822137,
+      "sha256": "717d47f6b8e20c8113c390ef8da3c0b1ed9ace238e220abba9b0011882ab3f7a"
+    },
+    "artefatos/melhorias-v1/predicoes_desenvolvimento.jsonl": {
+      "bytes": 1339372,
+      "sha256": "be070df904fbdb3182eb1991bc5a9f56f1e77b693cd624e85acff1f9a0aece93"
+    },
+    "artefatos/melhorias-v1/protocolo.json": {
+      "bytes": 13514,
+      "sha256": "e069a4cb597a7d22e2704325c6ff20706eadb521df38864e3b6e6c0b7a7acde4"
+    },
+    "artefatos/melhorias-v1/receita_congelada.json": {
+      "bytes": 2277,
+      "sha256": "dc5c3d09c6155a05aa6ab6449363b5c79af79aeddd29245f5e8e1cd469e09ef2"
+    },
+    "artefatos/melhorias-v1/sugestoes_avaliacao.jsonl": {
+      "bytes": 1414298,
+      "sha256": "a0f7d61e56b48f584d9083a637bb2546703fefdae90665f613798b764e4e099e"
+    },
+    "artefatos/preparacao/diagnostico.json": {
+      "bytes": 13641,
+      "sha256": "eb58f8268df276c097140567bef9fab4ac964c471dc84e2524ae2f06c97056f6"
+    },
+    "artefatos/preparacao/manifesto.json": {
+      "bytes": 2658,
+      "sha256": "16fa07ac7d9ca0903f3714e23817b4e2db3bef2c50fb32217a2b95ea34bbfe93"
+    },
+    "artefatos/preparacao/particoes.json": {
+      "bytes": 272914,
+      "sha256": "9d744eb93612f132959b30806fcd8875c4f1100f6036e1d21336e3793437600c"
+    },
+    "artefatos/preparacao/questoes_preparadas.jsonl": {
+      "bytes": 1516877,
+      "sha256": "2675cce95e184952acfc8e17acc9cef7bd7eb8dc9bf229fff47dbc654b144329"
+    },
+    "artefatos/preparacao/rotulos_referencia.jsonl": {
+      "bytes": 20288,
+      "sha256": "c08783afe6c144d5bca99c438bb7eae2326240e7110bb07e4e894eeaa1e029dc"
+    },
+    "artefatos/preparacao/temas_preparados.json": {
+      "bytes": 276977,
+      "sha256": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724"
+    },
+    "artefatos/reserva-v1/manifesto.json": {
+      "bytes": 915,
+      "sha256": "601ee7f13d3860ba05c85a68bf8ebf01eb5dc22e2e510fa5497ced1bc531167b"
+    },
+    "artefatos/reserva-v1/metricas_reserva.json": {
+      "bytes": 16773,
+      "sha256": "759cafe44c59788714d33cd69daf96920d5f95d75278ac470d3c1e1e61e7afb8"
+    },
+    "artefatos/reserva-v1/predicoes_reserva.jsonl": {
+      "bytes": 59132,
+      "sha256": "0ddb572126dcd032a551a6f4062fd1ab979fa6d689ba892e80e84e3dc73a4bb5"
+    },
+    "case-ia-classificacao-de-topicos (2).pdf": {
+      "bytes": 176354,
+      "sha256": "c0637dfc4d6f97763f7927fe4e11b40974e91be2518df0780b6a5f3fb6036f06"
+    },
+    "classificacao_decisao/__init__.py": {
+      "bytes": 92,
+      "sha256": "e1bb0e4600a5c7426b38b9ec8572ec36c0dfa71a8bea1fe5517fbd55c11386b7"
+    },
+    "classificacao_decisao/__main__.py": {
+      "bytes": 3170,
+      "sha256": "d93b788899ab23786554b24efac6868cafe9cae0c9a9a7b1d72813bfe705cc2f"
+    },
+    "classificacao_decisao/cache.py": {
+      "bytes": 15435,
+      "sha256": "4fd350d0ac902e38db7c60ec69a1e3f11b9068052214d8d2f1638721f9ef58ea"
+    },
+    "classificacao_decisao/calibracao.py": {
+      "bytes": 16726,
+      "sha256": "45136008c64bc74fef189094c9b1b27b256d93955f6dbfb67121de2d8b94c965"
+    },
+    "classificacao_decisao/desenvolvimento.py": {
+      "bytes": 12873,
+      "sha256": "c87cc6d7e06cb089b65df6ae8f9b2987b2c472d8cfc200e7970b1518ce15a4f4"
+    },
+    "classificacao_decisao/entrega.py": {
+      "bytes": 9321,
+      "sha256": "af5a623cf9be6c1f2d4279e3bbb077fb4a16f1e1c11a997a8b138328e324258d"
+    },
+    "classificacao_decisao/execucao.py": {
+      "bytes": 13931,
+      "sha256": "535eca26984f8f4b9cd1cce673b14f032f0e304fffc9b61958f89777bb6de8e3"
+    },
+    "classificacao_decisao/politica.py": {
+      "bytes": 7446,
+      "sha256": "370912f406861af20d4d3ea54104161a0e25860969c5edebad5941bf4aad60e5"
+    },
+    "classificacao_experimentos/__init__.py": {
+      "bytes": 96,
+      "sha256": "7d618b8e2227d2269652f16399f33f86f2558fde3f828fe64a03d62d7440b8df"
+    },
+    "classificacao_experimentos/__main__.py": {
+      "bytes": 2080,
+      "sha256": "96ca54a5a0c2908835177fa4ec604f7865fc90bf87175d4085d4d0149f18e417"
+    },
+    "classificacao_experimentos/contexto.py": {
+      "bytes": 2371,
+      "sha256": "c4303c61c840dfa945adf47e209ced1e3a2787e7359b9ce248dadf38bcea2842"
+    },
+    "classificacao_experimentos/download_modelo.py": {
+      "bytes": 2330,
+      "sha256": "7586279ec9cd54165f9249448dd2b4742eb15033ab8f9918f317fd2c441da43c"
+    },
+    "classificacao_experimentos/entradas.py": {
+      "bytes": 4434,
+      "sha256": "84126f632a0019dacb51a52fd88929e21fa538eca8088c307476c8f014958681"
+    },
+    "classificacao_experimentos/experimento.py": {
+      "bytes": 13538,
+      "sha256": "27bc2cd7dded5e7323f535fce63695f4443929a8284f8d3ae41ad65e181a3eed"
+    },
+    "classificacao_experimentos/motor.py": {
+      "bytes": 16069,
+      "sha256": "c73c6164afd19152bf9d3dff9173577832e4316305c5b43907e2c20ee1fdbb8f"
+    },
+    "classificacao_experimentos/preparacao_embeddings.py": {
+      "bytes": 11781,
+      "sha256": "3155f5b7740e7b8524c1bd7e8fc59f055fcc73e2a5981fc601d318f2c00a4ddf"
+    },
+    "classificacao_experimentos/preparar.py": {
+      "bytes": 4044,
+      "sha256": "5f7217560b47a04decab01dfbd2f13b198be23914488939c80fae43bf670ce06"
+    },
+    "classificacao_local/__init__.py": {
+      "bytes": 107,
+      "sha256": "0255a30961885c94ffc75cb999c0dccd3e34f579c3e6f67f9aee81a50267ae08"
+    },
+    "classificacao_local/__main__.py": {
+      "bytes": 946,
+      "sha256": "d72456574550fc4311230ce760ecb1d3f4c0f59405bd8097119c80058f886ab2"
+    },
+    "classificacao_local/citacoes.py": {
+      "bytes": 5578,
+      "sha256": "ccdcdd40de9e5e91bcaa341f0eee09fabd460b793873b232f8857f9f18762833"
+    },
+    "classificacao_local/classificador.py": {
+      "bytes": 17199,
+      "sha256": "7ef510c18484a731e5dcb268ba62167a80891ff84747864c6ddfc6a47efd5447"
+    },
+    "classificacao_local/experimento.py": {
+      "bytes": 16986,
+      "sha256": "9bee5bf6d554647f8d9986226ab4a2460db2d54a90a0e2f07781a31683a87224"
+    },
+    "classificacao_local/lexical.py": {
+      "bytes": 3167,
+      "sha256": "0a2cccc59d4813a9ec38886ebca2f846f5a1c8d88d3eac02e86ac3c4d35b6ab6"
+    },
+    "classificacao_topicos/__init__.py": {
+      "bytes": 85,
+      "sha256": "68417cf2762743db73640322b2bd5bde605e32770a8c7093eb60909ec793755f"
+    },
+    "classificacao_topicos/__main__.py": {
+      "bytes": 1281,
+      "sha256": "fb518d66b85a27b69b80be7b391b9cb08b467ac2ba8c80cd8ce1f9a016a212e7"
+    },
+    "classificacao_topicos/avaliacao.py": {
+      "bytes": 1681,
+      "sha256": "f372dc133ebfc277ededa18da5a8b3e0eb9cc21dffd2a1567ccbb6d98aaac9cf"
+    },
+    "classificacao_topicos/dados.py": {
+      "bytes": 13130,
+      "sha256": "688cba1a744596cd764ad51d50f3d9d5bdbc8b5d88402f6329213acc048ea908"
+    },
+    "classificacao_topicos/pipeline.py": {
+      "bytes": 8048,
+      "sha256": "38a48342310c9fb8d2de5050125e6171b7a3254510ad7bfe4d016bd77ed4671e"
+    },
+    "classificacao_topicos/protocolo.py": {
+      "bytes": 12859,
+      "sha256": "fa3894d0156065974c73db30e1b615196898858c6ed9698c43cf86437b2a0d35"
+    },
+    "classificacao_topicos/taxonomia.py": {
+      "bytes": 9987,
+      "sha256": "f409f4585d193c162ed0414d388103c5b75c0c13973208267debd24addf15eb3"
+    },
+    "classificacao_topicos/texto.py": {
+      "bytes": 5649,
+      "sha256": "973b71caecaf039b0440f037b8f55ba08781ab41939e73664f9d19b229c33e0e"
+    },
+    "config/fontes_oficiais.json": {
+      "bytes": 1320,
+      "sha256": "858232c528174d9a36e24c6af1dd45ca853340ab49aa40ad0475f2dcbafa24a5"
+    },
+    "config/modulo2/experimento_lexical.json": {
+      "bytes": 812,
+      "sha256": "af39cab5ffa547e78d9a82a24dbc87e03821fc0ea3e8018f226a5fdea6b4b004"
+    },
+    "config/modulo2/protocolo_desenvolvimento.json": {
+      "bytes": 931,
+      "sha256": "9c2f045888dd931024e0d9f2a8cc9c667716f216bbf0663e717fafdf017ced90"
+    },
+    "config/modulo3/embeddings.json": {
+      "bytes": 1374,
+      "sha256": "ec7ec8c8770f2ea68f34ecf6fea76a9a431587a520c3933709b8ba7c229ca49f"
+    },
+    "config/modulo3/experimento.json": {
+      "bytes": 2002,
+      "sha256": "a3b39664b1499c9267a545ff23877d865d1ce39043cb272bf864dab31a7ff1f3"
+    },
+    "config/modulo3/fontes.json": {
+      "bytes": 468,
+      "sha256": "f6216beedf8ee1ec4ac8046dedddef829ffa458a4e431887b7a85a1622206f90"
+    },
+    "config/modulo4/fontes.json": {
+      "bytes": 978,
+      "sha256": "b3249916b96538177c8070250dfe7413d77396a87212dbe6646be794a47f4a39"
+    },
+    "config/modulo4/protocolo.json": {
+      "bytes": 1619,
+      "sha256": "23c707aa191cc3358b8d542c4b90032aa18738df0f824952de067cc4ff9bd749"
+    },
+    "config/protocolo_avaliacao.json": {
+      "bytes": 1528,
+      "sha256": "7dc8400592e7774725781e0596069ab7c7daac6953214aae9c5e4f009122bffc"
+    },
+    "config/reuso_codigo.json": {
+      "bytes": 1307,
+      "sha256": "8c7b9e8d4986ddf6adec0fa61838d04327665d56eded106c6c45c73ca483fc17"
+    },
+    "previsao.txt": {
+      "bytes": 1819,
+      "sha256": "28d37a501811358b6ec2806e797336b0086c9395a4db59193583508302803f23"
+    },
+    "publicacao.csv": {
+      "bytes": 66050,
+      "sha256": "28b00d22029fb6d163293f3ae76990521fdc5a3d3c176bdbaa7683cbe50d0b7e"
+    },
+    "requirements-preparacao.lock.txt": {
+      "bytes": 425,
+      "sha256": "32a3e9296106cc4b4823f5793e78373516a5a31a8babfc2e263d6e1929804733"
+    },
+    "requirements-preparacao.txt": {
+      "bytes": 205,
+      "sha256": "a8b0d8b2c1368af0d5b9a060cb8bedd756d459797f21ddabd2b69630194d08a6"
+    },
+    "scripts/verificar_entrega.py": {
+      "bytes": 14623,
+      "sha256": "899df1806aa79356e862800be6efa4b5c317bc48d661b7d174005346441a8816"
+    }
+  },
+  "inicio_utc": "2026-10-21T17:09:28.573318+00:00",
+  "limites": [
+    "Reutiliza o interpretador instalado e sua biblioteca padrão.",
+    "Recebe caches numéricos versionados; não reproduz os embeddings.",
+    "M2/M3 têm hashes conferidos; seus experimentos não são refeitos aqui.",
+    "Não valida documentos editoriais, PDF, acesso remoto ou estado do Git.",
+    "Reproduzir a reserva não constitui nova avaliação estatística independente."
+  ],
+  "materializacao": "Cópia temporária por lista permitida; não é clone Git ou VM.",
+  "produtos_m1_reconstruidos_identicos": 6,
+  "produtos_m4_reconstruidos_identicos": 15,
+  "rede_env_encoder_pesos_bloqueados": true,
+  "schema": "reproducao_entrega_m5_v1",
+  "segundos": 508.921,
+  "status": "aprovado"
+}

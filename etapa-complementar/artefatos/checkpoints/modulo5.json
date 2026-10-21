@@ -1,0 +1,154 @@
+{
+  "ambiente": {
+    "arquitetura": "AMD64",
+    "implementacao": "CPython",
+    "python": "3.14.7",
+    "sistema": "Windows"
+  },
+  "artefatos_sha256": {
+    "README.md": "d404d95598ef96bf963559d8296fca108474bb0df0745b12ef5126e214a1f329",
+    "artefatos/checkpoints/reproducao_modulo5.json": "1e005f1c923f12a37eac0b9177ad05b5a39f6c7bebe89c147bc2071047cae981",
+    "artefatos/entrega-m5-v1/diagnostico.json": "b484974e732f076b4014364572743ad4c9cc2e2df4f36b985841e0659493e431",
+    "docs/DEFESA_TECNICA.md": "0e1ec251af43d2bf47f35117dc3e5f3e95a2d0d4df8db220e830bcd3dc5f686e",
+    "docs/ENTREGA.md": "51acc58061224a7f15751a334535722682df962e44ffa1c28822bb94e2256a1a",
+    "docs/PLANO_EXECUCAO.md": "64ccffa2be191ca1f52b807112293881162e3fb857f8ac3806d7c09df27f6c61",
+    "relatorio.md": "21e78b16c76647720619a3d407e14a26c65c34118027056c559938775a9bf44b",
+    "relatorio.pdf": "9825d37d333058c534c73b63da4189862037ef154a88c6c1798f48e5a91fad97",
+    "requirements-relatorio.txt": "ca9820cddaf17f65a805b4ea6ba7fa6a6f223cf7d8438e4a2ea46e7107f9b01c",
+    "scripts/diagnosticar_entrega.py": "5e66de72a960e6a21a4c1a23ba679b32601e6bfa19aad63ae4bf1b3fa7097788",
+    "scripts/gerar_relatorio.py": "6b6a374c44fbb821b0ccf294ae2b6c9e57d331fd580acb342a5d52c908e5a2bb",
+    "scripts/verificar_entrega.py": "899df1806aa79356e862800be6efa4b5c317bc48d661b7d174005346441a8816",
+    "tests/test_entrega_m5.py": "d54e8f49c7d9fb8d751ef526577f54e79dd0eca39afbceba95e83a6cb9c830fe"
+  },
+  "autor": "João Roberto de Oliveira Felix",
+  "chamadas_api_inferencia": 0,
+  "commit_push_ou_envio_executado": false,
+  "custo_api": 0,
+  "data": "2026-10-21",
+  "diagnostico": {
+    "desenvolvimento_acertos_ramo": 37,
+    "desenvolvimento_total": 80,
+    "exit_code": 0,
+    "geracao_idempotente_segundos": 0.827,
+    "reserva_acertos_ramo": 6,
+    "reserva_total": 20,
+    "sem_julgamento_juridico_ou_casos_individuais_por_llm": true,
+    "verificacao_segundos": 0.722
+  },
+  "estado": "concluido",
+  "limites": [
+    "Meta operacional não atingida: zero publicações e 559 revisões na avaliação oficial.",
+    "Precisão entre publicadas indefinida; sentinela zero no TXT não é previsão de 0% de acerto.",
+    "As 20 referências reservadas já foram avaliadas. Melhorias orientadas por elas exigem nova avaliação independente.",
+    "Reajuste final nas 100 referências não recebeu novo teste; não há rótulos nas 300 questões recentes.",
+    "Tempos medidos durante trabalho concorrente; não são benchmark isolado ou garantia de vazão.",
+    "Contas de 50 mil questões são cenários aritméticos; revisão humana, infraestrutura e tarifas não foram medidas."
+  ],
+  "meta_95_com_cobertura_atingida": false,
+  "modulo": 5,
+  "modulos_concluidos": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "proxima_acao_do_autor": "Revisar relatório e defesa, fazer commit e push e enviar o link público da etapa complementar com o hash do commit; envio não realizado pelo agente.",
+  "relatorio": {
+    "blocos_e_celulas_conferidos_por_pagina": [
+      20,
+      33,
+      24,
+      13
+    ],
+    "dependencias": {
+      "charset-normalizer": "3.5.2",
+      "pillow": "12.3.0",
+      "pypdf": "6.21.0",
+      "reportlab": "5.0.1"
+    },
+    "fontes_sha256": {
+      "relatorio.md": "21e78b16c76647720619a3d407e14a26c65c34118027056c559938775a9bf44b",
+      "relatorio.pdf": "9825d37d333058c534c73b63da4189862037ef154a88c6c1798f48e5a91fad97"
+    },
+    "fontes_tipograficas": "Bitstream Vera normal e negrito embutidas; fornecidas pelo reportlab.",
+    "memo_na_pagina": 4,
+    "metodo_texto": "Cada parágrafo e célula do Markdown deve aparecer na mesma página do PDF, após normalizar espaços, pontuação e marcação; não substitui revisão visual.",
+    "nome_completo_na_primeira_pagina": true,
+    "paginas": 4,
+    "pdf_reproduzido_byte_a_byte": true,
+    "renderizacao_scale": 1.5,
+    "renderizador": "pypdfium2 5.14.0",
+    "revisao_visual_adicional_poppler": {
+      "dpi": 105,
+      "origem": "https://github.com/oschwartz10612/poppler-windows/releases/tag/v26.09.0-0",
+      "paginas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sha256_pacote_windows": "7a6f256a0ddf7536182246a5733331bf4677cbcc34f4663774947ad34556c8d0",
+      "versao": "26.09.0"
+    },
+    "revisao_visual_paginas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "schema": "validacao_documental_m5_v1",
+    "sem_caractere_substituto": true,
+    "sobreposicao_corte_glifos_ausentes_observados": false
+  },
+  "reproducao": {
+    "ambiente": {
+      "arquitetura": "AMD64",
+      "implementacao": "CPython",
+      "python": "3.14.7",
+      "sistema": "Windows"
+    },
+    "arquivos_copiados": 92,
+    "bytes_copiados": 33954493,
+    "comando": "python -X utf8 -B -S scripts/verificar_entrega.py --evidencia artefatos/checkpoints/reproducao_modulo5.json",
+    "evidencia": "artefatos/checkpoints/reproducao_modulo5.json",
+    "exportacoes_identicas": 2,
+    "fontes_originais_preservadas": true,
+    "limites": [
+      "Reutiliza o interpretador instalado e sua biblioteca padrão.",
+      "Recebe caches numéricos versionados; não reproduz os embeddings.",
+      "M2/M3 têm hashes conferidos; seus experimentos não são refeitos aqui.",
+      "Não valida documentos editoriais, PDF, acesso remoto ou estado do Git.",
+      "Reproduzir a reserva não constitui nova avaliação estatística independente."
+    ],
+    "metodo": "Cópia temporária por lista permitida; não é clone Git ou VM.",
+    "produtos_m1_identicos": 6,
+    "produtos_m4_identicos": 15,
+    "segundos": 508.921
+  },
+  "revisao_publica": {
+    "caches_assinados_mantidos": true,
+    "conteudo_remoto_verificado_apos_push": false,
+    "env_pesos_venv_contexto_temporarios_ignorados": true,
+    "git_diff_check_aprovado": true,
+    "gitignore_alterado": false,
+    "metodo": "Conferência de nomes, tamanhos, regras de ignore, links e distinção entre etapas; não é auditoria de segredos do conteúdo ou do histórico.",
+    "modulos_1_a_4_e_primeira_entrega_preservados": true
+  },
+  "testes": {
+    "comando": "python -X utf8 -B -S -m unittest discover -s tests -v",
+    "erros": 0,
+    "execucao_previa_novos_m5": {
+      "exit_code": 0,
+      "segundos": 32.961,
+      "testes": 20
+    },
+    "exit_code": 0,
+    "falhas": 0,
+    "log_local_ignorado": "tmp/testes_modulo5.log",
+    "novos_m5": 20,
+    "pulados": 0,
+    "segundos": 69.292,
+    "total": 238
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "contas_50_mil": {
+    "geracao_m4": {
+      "projecao_horas": 7.609570661896243,
+      "questoes_oficiais_observadas": 559,
+      "segundos_observados": 306.27
+    },
+    "premissas": [
+      "Extrapolações aritméticas por fase a partir de execuções únicas; não são benchmark, garantia nem intervalo estatístico.",
+      "M3 mistura questões e temas. M4 prepara só vinte questões e incorpora carga fixa do codificador; tokens e janelas variam.",
+      "Regenerar inclui verificações, ajuste final, inferência e gravação; não mede isoladamente latência de inferência.",
+      "Cache pronto dispensa preparação. CPU e energia não foram precificados. Zero chamadas API não implica custo total zero.",
+      "Revisão humana usa premissas de cenário, sem duração real medida ou tarifa cotada."
+    ],
+    "preparacao_m3": {
+      "projecao_horas": 4.352502750275027,
+      "registros_observados": 1010,
+      "segundos_observados": 316.514
+    },
+    "preparacao_m4": {
+      "projecao_horas": 14.755555555555556,
+      "registros_observados": 20,
+      "segundos_observados": 21.248
+    },
+    "quantidade_cenario": 50000,
+    "revisao": {
+      "custo_reais_cenario": 83333.33333333334,
+      "horas": 1666.6666666666667,
+      "minutos_por_questao_assumidos": 2,
+      "reais_por_hora_assumidos": 50
+    }
+  },
+  "desenvolvimento": {
+    "central_nao_visto_no_treino_dentro_taxonomia": {
+      "acertos_exato": 18,
+      "acertos_ramo": 26,
+      "acertos_top5": 37,
+      "n": 47
+    },
+    "central_visto_no_treino_dentro_taxonomia": {
+      "acertos_exato": 6,
+      "acertos_ramo": 11,
+      "acertos_top5": 17,
+      "n": 27
+    },
+    "fora": {
+      "acertos_exato": 0,
+      "acertos_ramo": 0,
+      "acertos_top5": 0,
+      "n": 6
+    },
+    "geral": {
+      "acertos_exato": 24,
+      "acertos_ramo": 37,
+      "acertos_top5": 54,
+      "n": 80
+    },
+    "relacoes_com_central_ou_extras": {
+      "ancestral_de_referencia_aceito": 1,
+      "descendente_de_referencia_aceito": 12,
+      "exato_central_ou_extra": 24,
+      "irmao_de_referencia_erro": 6,
+      "outra_disciplina_erro": 17,
+      "outro_ramo_mesma_disciplina_erro": 14,
+      "referencia_fora": 6
+    }
+  },
+  "fontes_sha256": {
+    "anexos/questoes.jsonl": "318f1fea970633a4d84eb5a4dd071b2ae76ad3e49288a073ab381f61a09da3f3",
+    "artefatos/checkpoints/modulo3.json": "b7ee8f21a9fbe86bf9648438de38d8400e7ccdbd010335c3981ad7c5811cee2b",
+    "artefatos/checkpoints/modulo4.json": "af62fb06a349cbece6a11cc824baf6d304e34eaefb8f9bc9caa37c708d1fe0aa",
+    "artefatos/melhorias-v1/predicoes_desenvolvimento.jsonl": "be070df904fbdb3182eb1991bc5a9f56f1e77b693cd624e85acff1f9a0aece93",
+    "artefatos/melhorias-v1/receita_congelada.json": "dc5c3d09c6155a05aa6ab6449363b5c79af79aeddd29245f5e8e1cd469e09ef2",
+    "artefatos/preparacao/diagnostico.json": "eb58f8268df276c097140567bef9fab4ac964c471dc84e2524ae2f06c97056f6",
+    "artefatos/preparacao/rotulos_referencia.jsonl": "c08783afe6c144d5bca99c438bb7eae2326240e7110bb07e4e894eeaa1e029dc",
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "artefatos/reserva-v1/predicoes_reserva.jsonl": "0ddb572126dcd032a551a6f4062fd1ab979fa6d689ba892e80e84e3dc73a4bb5",
+    "classificacao_topicos/__init__.py": "68417cf2762743db73640322b2bd5bde605e32770a8c7093eb60909ec793755f",
+    "classificacao_topicos/texto.py": "973b71caecaf039b0440f037b8f55ba08781ab41939e73664f9d19b229c33e0e"
+  },
+  "gerador": "scripts/diagnosticar_entrega.py",
+  "gerador_sha256": "5e66de72a960e6a21a4c1a23ba679b32601e6bfa19aad63ae4bf1b3fa7097788",
+  "limites": [
+    "Categorias estruturais de erro não demonstram causas jurídicas ou textuais.",
+    "Desenvolvimento orientou escolha entre receitas; não é avaliação independente após seleção.",
+    "Reserva pequena e utilizada uma vez após congelamento; análises posteriores não autorizam ajustar e reutilizar esse teste como independente.",
+    "Não há rótulos das questões recentes; reajuste final com cem referências não recebeu avaliação independente.",
+    "Todos os temas estavam no catálogo; central não visto no treino não significa ausência completa de informação sobre o tema.",
+    "HTML e campos vazios são sinais estruturais, não comprovação de questão inutilizável."
+  ],
+  "metodo": "Agregação estrutural das predições congeladas; sem inferência, julgamento semântico ou modificação de classificações.",
+  "prioridade_relacoes": [
+    "exato",
+    "ancestral",
+    "descendente",
+    "irmao",
+    "mesma_disciplina",
+    "outra_disciplina"
+  ],
+  "questoes": {
+    "comando_com_html": 10,
+    "comando_vazio_preparado": 401,
+    "enunciado_com_html": 305,
+    "enunciado_curto_aviso": 134,
+    "n": 659,
+    "questoes_com_html_em_alternativas": 85,
+    "questoes_com_html_em_qualquer_campo": 344
+  },
+  "reserva": {
+    "central_nao_visto_no_treino_dentro_taxonomia": {
+      "acertos_exato": 1,
+      "acertos_ramo": 3,
+      "acertos_top5": 5,
+      "n": 8
+    },
+    "central_visto_no_treino_dentro_taxonomia": {
+      "acertos_exato": 2,
+      "acertos_ramo": 3,
+      "acertos_top5": 7,
+      "n": 10
+    },
+    "fora": {
+      "acertos_exato": 0,
+      "acertos_ramo": 0,
+      "acertos_top5": 0,
+      "n": 2
+    },
+    "geral": {
+      "acertos_exato": 3,
+      "acertos_ramo": 6,
+      "acertos_top5": 12,
+      "n": 20
+    },
+    "relacoes_com_central_ou_extras": {
+      "descendente_de_referencia_aceito": 3,
+      "exato_central_ou_extra": 3,
+      "irmao_de_referencia_erro": 1,
+      "outra_disciplina_erro": 9,
+      "outro_ramo_mesma_disciplina_erro": 2,
+      "referencia_fora": 2
+    }
+  },
+  "schema": "diagnostico_entrega_m5_v1",
+  "suporte": {
+    "centrais_distintos": 61,
+    "referencias_com_extras": 39,
+    "referencias_fora": 8,
+    "rotulos": 100,
+    "rotulos_recentes": 0
+  },
+  "taxonomia": {
+    "ativos": 375,
+    "descricoes": {
+      "metadados": 337,
+      "outras": 20,
+      "vazias": 20
+    },
+    "grupos_titulos_repetidos": 8,
+    "inativos": 2,
+    "total": 377
+  }
+}

@@ -4,7 +4,51 @@
 
 Implementação da etapa complementar do case de IA da Vício. O objetivo é classificar 659 questões jurídicas, estimar a chance de acerto e decidir entre `publicar`, `revisar` e `fora`, buscando pelo menos 95% de precisão nas publicadas e a maior cobertura compatível com essa meta.
 
-**Estado atual: módulo 4 concluído em 20/10/2026.** O teste da receita congelada acertou 6/20 sugestões pelo critério do case. A calibração não sustentou publicação automática: a política envia as questões para revisão. O sistema está implementado, mas ainda não alcançou a meta de precisão com cobertura. O modelo semântico participa somente da preparação; a decisão usa vetores persistidos e código local. O relatório e a defesa pertencem ao módulo 5.
+**Estado atual: cinco módulos concluídos; entrega local validada em 21/10/2026.** O teste da receita congelada acertou 6/20 sugestões pelo critério do case. A calibração não sustentou publicação automática: a política envia as questões para revisão. O sistema está implementado, mas ainda não alcançou a meta de precisão com cobertura. O modelo semântico participa somente da preparação; a decisão usa vetores persistidos e código local.
+
+## Entrega e execução rápida
+
+| Arquivo | Conteúdo |
+|---|---|
+| [publicacao.csv](publicacao.csv) | 659 linhas; as 100 referências estão excluídas da cobertura oficial |
+| [previsao.txt](previsao.txt) | Cobertura 0/559 e precisão indefinida, com sentinela numérica explicada |
+| [Relatório PDF](relatorio.pdf) e [Markdown](relatorio.md) | Quatro páginas, incluindo o memo de uma página ao professor |
+| [Defesa técnica](docs/DEFESA_TECNICA.md) | Roteiro de seis minutos, demonstração e perguntas técnicas |
+| [Guia de entrega](docs/ENTREGA.md) | Revisão pública e orientação para commit, push e envio pelo autor |
+
+Na pasta `etapa-complementar/`, com Python 3.11 ou superior:
+
+```console
+python -B -m classificacao_decisao regenerar
+python -B -S scripts/verificar_entrega.py
+```
+
+Não é necessário instalar pacotes, fornecer `.env` ou baixar pesos para esses comandos. O primeiro refaz o CSV e a previsão a partir dos insumos e caches versionados; recusará arquivos existentes divergentes. O segundo copia apenas os arquivos necessários para uma pasta temporária e reconstrói os seis produtos M1, os quinze M4 e as duas entregas da pasta, comparando bytes. Os experimentos M2/M3 têm hashes conferidos, mas não são reexecutados por esse comando.
+
+A cópia usa o Python instalado, com `-B -S -E`, sem pacotes externos, variáveis de credenciais, pesos ou conteúdo da primeira entrega. Rede Python e leitura de `.env` ficam bloqueadas. Isso é uma reprodução isolada por lista de arquivos, não um clone Git, contêiner ou teste em outro sistema operacional. Os caches são entradas; gerar embeddings é uma operação separada. A conferência editorial do PDF e do conteúdo público também é separada.
+
+Cada execução sem argumentos grava uma nova evidência em `tmp/`. Para guardar uma evidência em outro caminho permitido e ainda inexistente, use `--evidencia tmp/minha-reproducao.json`. O comando recusa sobrescrever evidências.
+
+A [reprodução registrada](artefatos/checkpoints/reproducao_modulo5.json) copiou 92 arquivos (33.954.493 bytes) e confirmou os 6 + 15 produtos e as duas entregas em **508,921 segundos**, cerca de oito minutos e meio. Os originais permaneceram idênticos. A suíte completa de **238 testes passou em 69,292 segundos**, com `python -X utf8 -B -S -m unittest discover -s tests -v`. O ambiente foi CPython 3.14.7 no Windows; houve outras tarefas concorrentes, portanto os tempos não são benchmark isolado. A geração M4 registrada levou 306,270 segundos. O [checkpoint M5](artefatos/checkpoints/modulo5.json) reúne as validações, os hashes e os limites.
+
+## Relatório e diagnóstico reproduzíveis
+
+O relatório começa com o nome completo do autor, contém quatro páginas e reserva a última ao memo. O Markdown é sua fonte editorial; o PDF incorpora a fonte tipográfica e pode ser reconstruído de forma determinística com as dependências documentais fixadas. A classificação não depende dessas bibliotecas.
+
+Para regenerar e conferir o PDF em um ambiente separado no Windows:
+
+```console
+python -m venv tmp/venv-relatorio
+tmp/venv-relatorio/Scripts/python.exe -m pip install -r requirements-relatorio.txt
+tmp/venv-relatorio/Scripts/python.exe -B scripts/gerar_relatorio.py
+tmp/venv-relatorio/Scripts/python.exe -B scripts/gerar_relatorio.py --verificar
+```
+
+A instalação das dependências documentais usa rede; a geração do PDF não usa modelo ou API. O gerador exige quatro páginas, confere o nome e a posição do memo; a revisão visual das páginas é registrada no checkpoint M5. Em outros sistemas, adapte o caminho do Python do ambiente virtual.
+
+O [diagnóstico agregado](artefatos/entrega-m5-v1/diagnostico.json) reconcilia erros por relação na árvore e contas de escala sem reexecutar o classificador ou julgar questões com LLM. Para conferir seus bytes, use `python -B -S scripts/diagnosticar_entrega.py --verificar`. Os hashes vinculam as contagens às fontes congeladas.
+
+Os módulos abaixo preservam a trajetória dos experimentos. Resultados e expressões no futuro nas seções históricas referem-se ao estado registrado ao encerrar cada módulo.
 
 ## Executar o módulo 1
 
@@ -129,6 +173,6 @@ A [origem dos insumos](config/fontes_oficiais.json) e o [reaproveitamento de có
 
 ## Módulos e próxima parada
 
-O [plano de execução](docs/PLANO_EXECUCAO.md) define cinco módulos e os critérios de conclusão. A próxima etapa é o **módulo 5, entrega e defesa**: fechar relatório, reprodução em ambiente limpo e apresentação dos resultados, incluindo o resultado negativo para publicação automática. A reserva já foi avaliada; novos ajustes orientados por esse resultado serão desenvolvimento exploratório e precisarão de outras referências para avaliação independente. Cada módulo termina em um ponto de revisão e commit pelo autor.
+O [plano de execução](docs/PLANO_EXECUCAO.md) define cinco módulos e os critérios de conclusão. O módulo 5 fecha relatório, reprodução e defesa, incluindo o resultado negativo para publicação automática. A próxima parada é a revisão da entrega e o commit pelo autor. A reserva já foi avaliada; novos ajustes orientados por esse resultado serão desenvolvimento exploratório e precisarão de outras referências para avaliação independente.
 
 O prazo comunicado pela recrutadora é **22/10/2026, às 14h, no horário de São Paulo**; o PDF mantém o prazo “a combinar”.

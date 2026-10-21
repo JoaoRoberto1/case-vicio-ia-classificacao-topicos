@@ -1,6 +1,8 @@
 # Case Vício — Classificação de tópicos
 
-**Trabalho atual: etapa complementar, com 659 questões e 100 referências humanas.** Código e resultados estão em [etapa-complementar](etapa-complementar/README.md). O [módulo 4](etapa-complementar/docs/MODULO4_CALIBRACAO_DECISOES.md) calibra a confiança e testa a receita congelada: 6/20 acertos no teste reservado. Nenhum limiar sustentou publicação automática; a política encaminha as questões para revisão. A meta de precisão e cobertura do case ainda não foi alcançada. O módulo 5 fechará o relatório, a reprodução em ambiente limpo e a defesa.
+**Entrega atual: etapa complementar, com 659 questões e 100 referências humanas.** Abra a pasta [etapa-complementar](etapa-complementar/README.md) para executar e avaliar esta versão. O teste reservado teve 6/20 acertos; a política encaminha todas as questões para revisão. A meta de precisão de 95% com cobertura não foi atingida. O relatório preserva esse resultado e explica os próximos experimentos.
+
+Arquivos atuais: [CSV de 659 questões](etapa-complementar/publicacao.csv), [previsão](etapa-complementar/previsao.txt), [relatório de quatro páginas](etapa-complementar/relatorio.pdf), [relatório em Markdown](etapa-complementar/relatorio.md), [defesa técnica](etapa-complementar/docs/DEFESA_TECNICA.md) e [guia de entrega](etapa-complementar/docs/ENTREGA.md). Os arquivos de mesmo nome na raiz pertencem à primeira entrega.
 
 O [plano dos cinco módulos](etapa-complementar/docs/PLANO_EXECUCAO.md) e o [protocolo de avaliação](etapa-complementar/docs/PROTOCOLO_AVALIACAO.md) orientam a continuação. A [folha-verdade](etapa-complementar/anexos/folha_verdade.csv), as [659 questões](etapa-complementar/anexos/questoes.jsonl), o [novo enunciado](<etapa-complementar/case-ia-classificacao-de-topicos (2).pdf>) e os demais anexos foram importados junto com o módulo 1 já validado.
 
@@ -8,14 +10,13 @@ Para executar a etapa complementar, entre na pasta correspondente:
 
 ```console
 cd etapa-complementar
-python -B -m classificacao_topicos verificar
-python -B -m classificacao_local verificar --saida artefatos/lexical-v1
-python -B -m classificacao_experimentos verificar --saida artefatos/melhorias-v1
-python -B -m classificacao_decisao verificar
-python -B -m unittest discover -s tests -v
+python -B -m classificacao_decisao regenerar
+python -B -S scripts/verificar_entrega.py
 ```
 
-Os arquivos e resultados apresentados abaixo pertencem à **primeira entrega, com 359 questões**. Eles foram preservados. O [registro de importação](docs/IMPORTACAO_ETAPA_COMPLEMENTAR.json) identifica o commit de origem e os hashes dos 33 arquivos trazidos.
+O segundo comando reproduz preparação e decisões em uma cópia temporária, usando somente Python e artefatos versionados. Não precisa de chave ou pesos de modelos. A [documentação atual](etapa-complementar/README.md) separa essa verificação da reconstrução de embeddings e da geração do PDF.
+
+Os arquivos e resultados apresentados abaixo pertencem à **primeira entrega, com 359 questões**. Eles foram preservados e não representam a etapa complementar. O [registro de importação](docs/IMPORTACAO_ETAPA_COMPLEMENTAR.json) identifica o commit de origem e os hashes dos 33 arquivos trazidos.
 
 ## Visão geral
 

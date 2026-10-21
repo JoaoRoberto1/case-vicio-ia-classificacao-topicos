@@ -1,0 +1,5 @@
+# Somente para gerar e verificar o PDF; classificação usa biblioteca padrão.
+reportlab==5.0.1
+pypdf==6.21.0
+pillow==12.3.0
+charset-normalizer==3.5.2

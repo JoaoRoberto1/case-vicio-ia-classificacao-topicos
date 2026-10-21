@@ -2,7 +2,7 @@
 
 O projeto terá cinco módulos, cada um com resultados verificáveis e uma parada para revisão e commit. A meta é entregar um classificador local reproduzível e uma estimativa de qualidade sustentada pelas 100 referências humanas, respeitando a proibição de LLMs escolherem ou validarem temas.
 
-**Estado atual: módulos 1 a 4 concluídos em 20/10/2026; módulo 5 pendente.** O teste reservado já foi executado após o congelamento dos componentes e acertou 6/20 sugestões. Nenhuma publicação automática foi sustentada pela calibração; a meta de 95% com cobertura não foi atingida. Antes da primeira medição, o protocolo foi revisado para preservar 20 referências para o teste final e usar somente as outras 80 no desenvolvimento. O prazo informado pela recrutadora é 22/10/2026 às 14h, no horário de São Paulo. A extensão mencionada na mensagem não foi solicitada nem concedida.
+**Estado atual: cinco módulos concluídos; módulo 5 validado em 21/10/2026.** O teste reservado já foi executado após o congelamento dos componentes e acertou 6/20 sugestões. Nenhuma publicação automática foi sustentada pela calibração; a meta de 95% com cobertura não foi atingida. Antes da primeira medição, o protocolo foi revisado para preservar 20 referências para o teste final e usar somente as outras 80 no desenvolvimento. O prazo informado pela recrutadora é 22/10/2026 às 14h, no horário de São Paulo. A extensão mencionada na mensagem não foi solicitada nem concedida.
 
 ## Módulo 1 Dados e protocolo de avaliação
 
@@ -89,16 +89,22 @@ Transformar a saída do classificador em uma política de publicação, revisão
 
 Fechar o pacote público, verificar a reprodução e preparar a explicação das escolhas.
 
-- [ ] Disponibilizar um comando que regenere o CSV a partir dos anexos e artefatos versionados, sem chamadas a modelos de linguagem.
-- [ ] Produzir relatório de até quatro páginas, acomodando o memo de uma página, conforme o enunciado.
-- [ ] Explicar diagnóstico, experimentos, calibração, custos, tempo e operação para 50 mil questões por semana.
-- [ ] Verificar os arquivos obrigatórios e a reprodução em um ambiente limpo.
-- [ ] Preparar roteiro de defesa com resultados, limitações e alternativas descartadas.
-- [ ] Revisar o conteúdo público e orientar o envio do link à recrutadora.
+- [x] Disponibilizar um comando que regenere o CSV a partir dos anexos e artefatos versionados, sem chamadas a modelos de linguagem.
+- [x] Produzir relatório de até quatro páginas, acomodando o memo de uma página, conforme o enunciado.
+- [x] Explicar diagnóstico, experimentos, calibração, custos, tempo e operação para 50 mil questões por semana.
+- [x] Verificar os arquivos obrigatórios e a reprodução em um ambiente limpo.
+- [x] Preparar roteiro de defesa com resultados, limitações e alternativas descartadas.
+- [x] Revisar o conteúdo público e orientar o envio do link à recrutadora.
 
 **Critério de conclusão:** CSV, previsão, relatório, código e artefatos necessários completos e coerentes, com validação registrada.
 
 **Parada:** revisão final e commit pelo autor. O envio do repositório à recrutadora é uma ação separada.
+
+**Validação realizada:** 238 testes aprovados em 69,292 segundos, incluindo 20 novos testes M5. A reprodução em cópia temporária por lista permitida, com 92 arquivos e sem pacotes externos ou credenciais, reconstruiu seis produtos M1, quinze M4 e duas exportações idênticas em 508,921 segundos. Ela usa o Python instalado e caches versionados; não é clone Git, VM ou regeneração de embeddings. O PDF foi reconstruído com bytes idênticos; suas quatro páginas foram renderizadas e inspecionadas, com 90 parágrafos/células conferidos contra o Markdown. O nome completo aparece no início, e o memo ocupa a quarta página.
+
+**Entregas:** [relatório PDF](../relatorio.pdf), [Markdown](../relatorio.md), [defesa técnica](DEFESA_TECNICA.md), [guia de entrega](ENTREGA.md), [diagnóstico agregado](../artefatos/entrega-m5-v1/diagnostico.json), [prova de reprodução](../artefatos/checkpoints/reproducao_modulo5.json) e [checkpoint M5](../artefatos/checkpoints/modulo5.json). A primeira entrega e os componentes congelados dos módulos 1 a 4 permanecem preservados. Não foi necessário alterar o `.gitignore`.
+
+**Próxima ação:** revisão do autor, commit, push e envio do link da pasta `etapa-complementar/`, acompanhado do hash do commit. Nenhuma dessas ações externas foi executada neste módulo. A implementação e a documentação estão completas dentro do plano; melhorias de qualidade exigem novos experimentos e avaliação independente. Sugestão de mensagem de commit: `Conclui relatório, reprodução e defesa da etapa complementar`.
 
 ## Limites de reaproveitamento
 
