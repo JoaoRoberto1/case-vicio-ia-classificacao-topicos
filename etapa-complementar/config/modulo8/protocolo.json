@@ -1,0 +1,104 @@
+{
+  "schema": "protocolo_precisao_m8_v1",
+  "registrado_em_utc": "2026-10-21 19:13:16 UTC",
+  "registrado_antes_das_metricas": true,
+  "objetivo": "Melhorar ordenacao e publicacao seletiva, comparando sinais especificos e E5-large INT8 sem modelos na decisao.",
+  "receitas": [
+    "baseline_m7",
+    "sinais_small",
+    "sinais_small_hierarquico",
+    "large_rrf20",
+    "sinais_large",
+    "sinais_large_hierarquico"
+  ],
+  "encoder_opcional": {
+    "modelo": "intfloat/multilingual-e5-large",
+    "variante": "ONNX INT8 oficial disponivel, detalhes na configuracao de embeddings",
+    "papel": "somente preparacao antecipada",
+    "ausente": "rodar somente tres receitas small sem alterar grade; diagnostico parcial e completar a comparacao quando o cache estiver pronto"
+  },
+  "representacao": {
+    "base": "8 atributos M7 congelados; na variante large os atributos semanticos enriquecidos e seus ranks usam large, cosseno original continua small.",
+    "sinais": [
+      "instrumento_jaccard_corpo",
+      "artigo_instrumento_jaccard_corpo",
+      "cobertura_termos_distintivos_corpo",
+      "cobertura_termos_distintivos_alternativas",
+      "fracao_termos_titulo_corpo",
+      "evidencia_normativa_exclusiva"
+    ],
+    "fontes_sinais": "Catalogo enriquecido M7, aliases oficiais e88ancoras para87temas preparadas somente a partir da taxonomia e fontes primarias; nenhuma questao ou rotulo foi consultado.",
+    "aprendizado": "Mesmo ranker pairwise M7: 300passos, passo0.1, perda media porquestao+L2=1, normalizacao somente treino; acrescimo dos6sinais para14atributos.",
+    "hierarquia": "Mesma regra LCA3 M7, sem raiz ou genericos; registrar profundidade e efeito sobre exato/ramo.",
+    "confianca_atributos": [
+      "score",
+      "margem",
+      "cos_lex",
+      "cos_sem",
+      "consenso",
+      "evidencia_especifica",
+      "acordo_ramo_top5",
+      "margem_lex",
+      "margem_sem"
+    ],
+    "evidencia_especifica": "max(instrumento_jaccard_corpo,artigo_instrumento_jaccard_corpo,cobertura_termos_distintivos_corpo,fracao_termos_titulo_corpo) do tema escolhido",
+    "ancoras_arquivo": "config/modulo8/ancoras_normativas.json",
+    "ancoras_sha256": "4883460f6f524e8bcec66009ba5f8904b2403ed15d992694fb640597f9b5271e",
+    "ancoras_procedimento": "Instrumentos e artigos claros; nunca herdar recortes ambiguos de Parte1/2. Cada registro possui fonte e nota, antes de qualquer metrica M8."
+  },
+  "calibracao": {
+    "metodo": "regressao_logistica_L2_soma_logloss",
+    "regularizacao": 1,
+    "pseudocontagens": [
+      0.5,
+      0.5
+    ],
+    "otimizador": "Newton Armijo do kernel numerico M4; padronizacao somente no treino",
+    "validacao": "calibracao crossfit por particao das previsoes OOF; modelo de confianca final ajustado apenas nas OOF internas ao treino externo. Rotulos externos nunca chegam ao calibrador.",
+    "comparacao_constante": "somente diagnostico Brier; nao selecionar calibrador constante pela media global se impedir seletividade validada",
+    "limite_crossfit_interno": "OOF de segundo estagio compartilha treinos dos rankers; nao e teste independente. Somente a avaliacao externa completa exclui seus rotulos de todos os ajustes e escolhas desta grade."
+  },
+  "selecao": {
+    "regras": "9regrasM7 +6cortesconfiancaOOF +3conjuncoesfixas",
+    "cortes_confianca": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "conjuncoes": [
+      "consenso e margem>=quantil50",
+      "evidencia_especifica>=.5 e margem>=quantil50",
+      "consenso e evidencia_especifica>=.25"
+    ],
+    "suporte_minimo": 10,
+    "precisao_minima": 0.95,
+    "criterio": "max cobertura, precisao, acerto global ramo/exato, prioridade fixa; fallback somente sugestoes revisao"
+  },
+  "validacao": {
+    "externa": "3foldsM2 nas80desenvolvimento",
+    "interna": {
+      "particoes_internas": 3,
+      "salt": "m8-sinais-confianca-v1"
+    },
+    "reserva20": "Conhecida, diagnostico somente apos escolha; nao escolher receita a partir dela.",
+    "gate_publicacao": "n>=10 e precisao>=.95 nas publicacoes externas aninhadas; meta observada nao equivale garantia populacional.",
+    "selecao_adaptativa": "M1–M7 conhecidos; toda nova validacao permanece exploratoria."
+  },
+  "entrega": {
+    "referencias80": "previsoes externas aninhadas, sem ressubstituicao",
+    "referencias20": "modelo80+calibradorOOF80 aposselecao",
+    "avaliacao559": "modelo100+calibradorOOF80; nãotesteindependente",
+    "extras": [],
+    "fora": "nao automatizar por baixa confianca",
+    "pacote": "Nova pasta entrega-final-v2; preservar bytes M1–M7 e apontar README raiz para versao final."
+  },
+  "restricoes": {
+    "LLM_classifica_ou_valida_questoes": false,
+    "rotulos_IA": false,
+    "API_paga": false,
+    "modelos_na_decisao": 0
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "pausa_modulo8_v1",
+  "estado": "pausado_a_pedido_do_usuario",
+  "registrado_em_utc": "2026-10-21T19:49:58.910780+00:00",
+  "retomar_somente_apos_solicitacao_do_usuario": true,
+  "modulo_concluido": false,
+  "entrega_pronta": false,
+  "processamento_encoder_ativo": false,
+  "verificacao_processos": "CIM: nenhum Python preparar_large ativo; sessao 89155 encerrada",
+  "checkpoint_encoder": {
+    "caminho": ".cache-modelos/e5-large/checkpoint-completo/indice.json",
+    "indice_sha256": "507d36b0f1ff93a1db64abfaf3f845be508abd7331624208023ee281aa1d6cad",
+    "registros_autenticados": 594,
+    "questoes": 594,
+    "temas": 0,
+    "meta_registros": 1030,
+    "faltam_questoes": 65,
+    "faltam_temas": 371,
+    "arquivos_temporarios_ou_orfaos": 0,
+    "cache_final_criado": false,
+    "retomada_direta_bloqueada": true,
+    "divergencias_fontes": {
+      "config/modulo8/protocolo.json": {
+        "indice": "dd178b70592028c3c03351a6d6f478d3a91b04dc4a91cdcfde810115ecf88e99",
+        "atual": "4ac9d655cf825b98bfc5b2151466e618637fd7d906deeaf0de6e3cd5730ba115"
+      }
+    },
+    "entradas_configuracao_e_demais_fontes_identicas": true,
+    "migracao_metadados_realizada": false
+  },
+  "modulos_anteriores": {
+    "5": {
+      "checkpoint_sha256": "4cb587f723e2c6d4003b1a845b986739f754140b1404dc526c3391aa51c8c3eb",
+      "artefatos_conferidos": 13,
+      "divergencias": []
+    },
+    "6": {
+      "checkpoint_sha256": "45ad60765337b0712058ed9e068694d484b62f12737c2bd007829743a30e616d",
+      "artefatos_conferidos": 23,
+      "divergencias": []
+    },
+    "7": {
+      "checkpoint_sha256": "43a67985d0e7182b073e10102c01092257e994bda248e747a5130ad491035f0e",
+      "artefatos_conferidos": 35,
+      "divergencias": []
+    }
+  },
+  "comparacao_small": {
+    "manifesto_sha256": "aacf17dc113a90d7d0369b08751dfb321ed0757f9a845dcb9b412db07832ae63",
+    "entradas_e_produtos_conferidos": true,
+    "baseline_acertos_ramo": 54,
+    "sinais_acertos_ramo": 53,
+    "sinais_hierarquico_acertos_ramo": 54,
+    "total_desenvolvimento": 80,
+    "publicacoes": 0
+  },
+  "testes_ultima_suite": {
+    "aprovados": 482,
+    "segundos": 168.233,
+    "escopo": "software; nao certifica precisao nas questoes sem rotulos"
+  },
+  "pendencias": [
+    "Resolver a divergencia de protocolo com procedencia documentada antes de retomar o encoder.",
+    "Corrigir ou esclarecer snapshot historico do primeiro piloto; nao adulterar manifesto antigo.",
+    "Concluir 436 registros, comparacao completa, diagnostico, benchmark e reproducao isolada.",
+    "Corrigir defesa condicional para RRF e projecao de custo Small+Large e de execucao retomada.",
+    "Gerar CSV, previsao e PDF finais com resultados reais; previas usam numeros ficticios.",
+    "Atualizar documentacao e criar checkpoint de conclusao somente apos verificacao final."
+  ],
+  "documento_retomada": "docs/RETOMADA_MODULO8.md",
+  "commit_push_ou_envio_executado": false,
+  "novos_experimentos_apos_pedido_pausa": false
+}

@@ -1,0 +1,19 @@
+{
+  "janelas": 10,
+  "memoria_final": {
+    "comprometimento_livre_bytes": 4536446976,
+    "ram_livre_bytes": 1863557120
+  },
+  "memoria_inicio": {
+    "comprometimento_livre_bytes": 4399681536,
+    "ram_livre_bytes": 471756800
+  },
+  "minima_ram_livre_bytes": 471756800,
+  "minimo_comprometimento_livre_bytes": 3513581568,
+  "piloto": true,
+  "registros": 10,
+  "registros_reutilizados_checkpoint": 0,
+  "schema": "execucao_encoder_large_m8_v1",
+  "segundos": 59.098,
+  "vetores_sha256": "71df27ce66ad0243579487d683b45615ae2a39836b506a041bcf3fe455ce55e0"
+}

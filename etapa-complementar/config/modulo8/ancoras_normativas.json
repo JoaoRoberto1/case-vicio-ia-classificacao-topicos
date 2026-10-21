@@ -1,0 +1,938 @@
+{
+  "schema": "ancoras_normativas_m8_v1",
+  "procedimento": "LLM_preparacao_somente_taxonomia_e_legislacao",
+  "questoes_ou_rotulos_consultados": false,
+  "verificado_em": "2026-10-21",
+  "origem_catalogo": "config/modulo7/catalogo_*.json e artefatos/preparacao/temas_preparados.json",
+  "escopo": "Associa??es de temas a instrumentos e artigos, sem penas, prazos ou decis?es sobre quest?es. Consulta ?s ementas e artigos do Planalto. N?o inclui propaga??o para ancestrais ou t?tulos divididos em Partes. Hom?nimos expl?citos recebem a mesma associa??o sem fronteira tem?tica inventada. Artigos selecionados s?o ?ncoras n?o exaustivas, n?o definem tudo que pertence a um tema. A mera cita??o de uma norma n?o comprova a classifica??o.",
+  "registros": [
+    {
+      "tema_id": "4684",
+      "titulo": "Abuso de Autoridade",
+      "instrumento": "lei:13869/2019",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4685",
+      "titulo": "Biossegurança",
+      "instrumento": "lei:11105/2005",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4686",
+      "titulo": "Contravenções Penais",
+      "instrumento": "decreto_lei:3688/1941",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3688.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4687",
+      "titulo": "Crimes contra a Economia Popular",
+      "instrumento": "lei:1521/1951",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l1521.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4688",
+      "titulo": "Crimes contra o meio ambiente",
+      "instrumento": "lei:9605/1998",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4689",
+      "titulo": "Crimes contra o Sistema Financeiro",
+      "instrumento": "lei:7492/1986",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7492.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4690",
+      "titulo": "Crimes de Racismo",
+      "instrumento": "lei:7716/1989",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7716.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4691",
+      "titulo": "Crimes de Trânsito",
+      "instrumento": "lei:9503/1997",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4692",
+      "titulo": "Crimes Eleitorais",
+      "instrumento": "lei:4737/1965",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l4737.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4693",
+      "titulo": "Crimes Hediondos",
+      "instrumento": "lei:8072/1990",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8072.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4694",
+      "titulo": "Crimes previstos no CDC",
+      "instrumento": "lei:8078/1990",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4695",
+      "titulo": "Crimes Tributários",
+      "instrumento": "lei:8137/1990",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8137.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4696",
+      "titulo": "Estaturo de Idoso - Crimes",
+      "instrumento": "lei:10741/2003",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4697",
+      "titulo": "Estatuto do Desarmamento",
+      "instrumento": "lei:10826/2003",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4698",
+      "titulo": "Genocídio",
+      "instrumento": "lei:2889/1956",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l2889.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4699",
+      "titulo": "Identificação Criminal",
+      "instrumento": "lei:12037/2009",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12037.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4700",
+      "titulo": "Interceptação Telefônica",
+      "instrumento": "lei:9296/1996",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4701",
+      "titulo": "Juizado Especial Criminal",
+      "instrumento": "lei:9099/1995",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4702",
+      "titulo": "Lavagem de Dinheiro",
+      "instrumento": "lei:9613/1998",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4703",
+      "titulo": "Lei de Execução Penal",
+      "instrumento": "lei:7210/1984",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4704",
+      "titulo": "Lei Maria da Penha",
+      "instrumento": "lei:11340/2006",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4705",
+      "titulo": "Organizações Criminosas",
+      "instrumento": "lei:12850/2013",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4706",
+      "titulo": "Terrorismo",
+      "instrumento": "lei:13260/2016",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13260.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4707",
+      "titulo": "Tortura",
+      "instrumento": "lei:9455/1997",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4708",
+      "titulo": "Tráfico de Drogas",
+      "instrumento": "lei:11343/2006",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4709",
+      "titulo": "Violência contra Criança e Adolescente",
+      "instrumento": "lei:13431/2017",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13431.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "4709",
+      "titulo": "Violência contra Criança e Adolescente",
+      "instrumento": "lei:14344/2022",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14344.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "5067",
+      "titulo": "Concurso Material",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:69"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5068",
+      "titulo": "Concurso Formal",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:70"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5069",
+      "titulo": "Crime Continuado",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:71"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5077",
+      "titulo": "Das Lesões Corporais",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:129"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5089",
+      "titulo": "Peculato e Peculato Mediante Erro de Outrem",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:312",
+        "art:313"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5091",
+      "titulo": "Concussão e Excesso de Exação",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:316"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5092",
+      "titulo": "Corrupção Passiva",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:317"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5093",
+      "titulo": "Corrupção Ativa",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:333"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5094",
+      "titulo": "Contrabando ou Descaminho",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:334",
+        "art:334-A"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5095",
+      "titulo": "Prevaricação",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:319"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5122",
+      "titulo": "Calúnia",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:138"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5123",
+      "titulo": "Difamação",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:139"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5124",
+      "titulo": "Injúria",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:140"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5150",
+      "titulo": "Homicídio",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:121"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5151",
+      "titulo": "Feminicídio",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:121-A"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5153",
+      "titulo": "Infanticídio",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:123"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5154",
+      "titulo": "Aborto",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:124",
+        "art:125",
+        "art:126",
+        "art:127",
+        "art:128"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5159",
+      "titulo": "Furto",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:155",
+        "art:156"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5160",
+      "titulo": "Roubo",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:157"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5161",
+      "titulo": "Extorsão",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:158"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5164",
+      "titulo": "Dano",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:163"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5165",
+      "titulo": "Apropriação indébita",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:168",
+        "art:168-A"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5166",
+      "titulo": "Estelionato",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:171"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5169",
+      "titulo": "Receptação",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:180",
+        "art:180-A"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5177",
+      "titulo": "Crime Consumado e Tentado",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:14"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5178",
+      "titulo": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:15",
+        "art:16"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5179",
+      "titulo": "Crime Impossível",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:17"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5214",
+      "titulo": "Erro de Proibição",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:21"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5224",
+      "titulo": "Erro de Tipo",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:20"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5230",
+      "titulo": "Estado de Necessidade",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:24"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5231",
+      "titulo": "Legítima Defesa",
+      "instrumento": "decreto_lei:2848/1940",
+      "artigos": [
+        "art:25"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5477",
+      "titulo": "Habeas Corpus",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:647",
+        "art:647-A"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5478",
+      "titulo": "Revisão Criminal",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:621"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5502",
+      "titulo": "Acordo de Não Persecução Penal",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:28-A"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5503",
+      "titulo": "Juiz das Garantias",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:3-B"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5518",
+      "titulo": "Prisão em Flagrante",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:301",
+        "art:302"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5519",
+      "titulo": "Prisão Preventiva",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:311",
+        "art:312",
+        "art:313",
+        "art:314",
+        "art:315",
+        "art:316"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5520",
+      "titulo": "Prisão Temporária",
+      "instrumento": "lei:7960/1989",
+      "artigos": [
+        "art:1"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "5521",
+      "titulo": "Prisão Domiciliar",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:317",
+        "art:318",
+        "art:318-A",
+        "art:318-B"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5522",
+      "titulo": "Medidas Cautelares Diversas da Prisão",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:319"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5541",
+      "titulo": "Transação Penal",
+      "instrumento": "lei:9099/1995",
+      "artigos": [
+        "art:76"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "5542",
+      "titulo": "Suspensão Condicional do Processo",
+      "instrumento": "lei:9099/1995",
+      "artigos": [
+        "art:89"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "5544",
+      "titulo": "Cadeia de Custódia",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:158-A",
+        "art:158-B",
+        "art:158-C",
+        "art:158-D",
+        "art:158-E",
+        "art:158-F"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5548",
+      "titulo": "Confissão",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:197",
+        "art:198",
+        "art:199",
+        "art:200"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5551",
+      "titulo": "Reconhecimento de Pessoas e Coisas",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:226"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5552",
+      "titulo": "Acareação",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:229",
+        "art:230"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5554",
+      "titulo": "Busca e Apreensão",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:240"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5557",
+      "titulo": "Colaboração Premiada",
+      "instrumento": "lei:12850/2013",
+      "artigos": [
+        "art:4"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "5561",
+      "titulo": "Recurso em sentido estrito (RESE)",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:581"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5562",
+      "titulo": "Apelação",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:593"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5579",
+      "titulo": "Emendatio Libelli e Mutatio Libelli",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:383",
+        "art:384"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5589",
+      "titulo": "Audiência de Custódia",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:310"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "5594",
+      "titulo": "Prova Ilegal e Prova Ilícita",
+      "instrumento": "decreto_lei:3689/1941",
+      "artigos": [
+        "art:157"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+      "ambiguo": false,
+      "nota": "Artigos centrais identificados na se??o legal correspondente; cobertura n?o exaustiva."
+    },
+    {
+      "tema_id": "6716",
+      "titulo": "Abuso de Autoridade",
+      "instrumento": "lei:13869/2019",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "6717",
+      "titulo": "Crimes contra o meio ambiente",
+      "instrumento": "lei:9605/1998",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "6722",
+      "titulo": "Estatuto do Idoso - Crimes",
+      "instrumento": "lei:10741/2003",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "6723",
+      "titulo": "Lavagem de Dinheiro",
+      "instrumento": "lei:9613/1998",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "6724",
+      "titulo": "Lei Maria da Penha",
+      "instrumento": "lei:11340/2006",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "6725",
+      "titulo": "Organizações Criminosas",
+      "instrumento": "lei:12850/2013",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "6728",
+      "titulo": "Tráfico de Drogas",
+      "instrumento": "lei:11343/2006",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    },
+    {
+      "tema_id": "6734",
+      "titulo": "Lei de Execução Penal",
+      "instrumento": "lei:7210/1984",
+      "artigos": [],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm",
+      "ambiguo": false,
+      "nota": "Correspond?ncia tem?tica ao instrumento legal; lista de artigos n?o exaustiva."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Case Vício — Classificação de tópicos
 
+**Módulo 8 pausado com segurança em 21/10/2026.** As melhorias em andamento e os comandos para continuar estão no [registro de retomada](etapa-complementar/docs/RETOMADA_MODULO8.md). A pasta `entrega-final-v2` ainda não está pronta para envio; as entregas anteriores abaixo foram preservadas.
+
 **Entrega atual: etapa complementar, com 659 questões e 100 referências humanas.** Abra a pasta [etapa-complementar](etapa-complementar/README.md) para executar e avaliar esta versão. O teste reservado teve 6/20 acertos; a política encaminha todas as questões para revisão. A meta de precisão de 95% com cobertura não foi atingida. O relatório preserva esse resultado e explica os próximos experimentos.
 
 Arquivos atuais: [CSV de 659 questões](etapa-complementar/publicacao.csv), [previsão](etapa-complementar/previsao.txt), [relatório de quatro páginas](etapa-complementar/relatorio.pdf), [relatório em Markdown](etapa-complementar/relatorio.md), [defesa técnica](etapa-complementar/docs/DEFESA_TECNICA.md) e [guia de entrega](etapa-complementar/docs/ENTREGA.md). Os arquivos de mesmo nome na raiz pertencem à primeira entrega.

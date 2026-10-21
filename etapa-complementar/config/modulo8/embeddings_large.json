@@ -1,0 +1,55 @@
+{
+  "versao": 1,
+  "modelo": "intfloat/multilingual-e5-large",
+  "variante": "large_int8",
+  "revisao": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+  "licenca": "MIT",
+  "origem": "https://huggingface.co/intfloat/multilingual-e5-large",
+  "arquivos": {
+    "modelo.onnx": {
+      "caminho_remoto": "onnx/model_qint8_avx512_vnni.onnx",
+      "bytes": 561845741,
+      "sha256": "46f5d13dba7ade0160c67d346087d870162950882be17ff9319f873cf6fedff1"
+    },
+    "tokenizer.json": {
+      "caminho_remoto": "onnx/tokenizer.json",
+      "bytes": 17082660,
+      "sha256": "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626"
+    }
+  },
+  "quantizacao": {
+    "origem": "Artefato INT8 publicado no repositório oficial, sem conversão local ou treino adicional.",
+    "arquivo_oficial": "model_qint8_avx512_vnni.onnx",
+    "hardware_piloto": "Intel Core i7-7600U, AVX2, sem AVX512/VNNI; 12 GB RAM compartilhada com aplicativos existentes.",
+    "limite": "ONNX Runtime executa INT8 em AVX2. U8S8 pode sofrer saturação nesse hardware; não se presume equivalência numérica ao FP32, nem melhoria de classificação sem avaliação.",
+    "referencia": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html"
+  },
+  "sessao_onnx": {
+    "enable_cpu_mem_arena": false,
+    "enable_mem_pattern": false,
+    "motivo": "Reduzir retenção de memória entre textos de tamanhos diferentes. Mesmo encoder, tokenização, pooling e batch1; resultados conferidos numericamente."
+  },
+  "preparacao": {
+    "dimensoes": 1024,
+    "max_tokens": 512,
+    "janela_tokens": 480,
+    "sobreposicao_tokens": 32,
+    "batch_size": 1,
+    "threads": 2,
+    "casas_decimais": 8
+  },
+  "papel_questoes": "query",
+  "papel_temas": "passage",
+  "pooling": "Média de tokens com attention_mask, normalização L2 por janela, média de janelas e L2, arredondamento final.",
+  "entradas": "659 questões: enunciado, comando e textos das alternativas ordenados. 371 temas: título, caminho e descrição enriquecida M7. Sem rótulos ou predições e sem repetição dos campos.",
+  "protocolo_piloto": "Cinco questões e cinco temas escolhidos pelo menor SHA256 do par tipo:id; escolha independe dos textos e rótulos. Cronometrar preparação numérica e memória antes do lote completo.",
+  "catalogo_procedencia": "config/modulo7/preparacao_catalogo.json",
+  "dependencias_preparacao": {
+    "onnxruntime": "1.31.0",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.4"
+  },
+  "inferencias_api": 0,
+  "custo_api": 0,
+  "classificacao_executa_encoder": false
+}
