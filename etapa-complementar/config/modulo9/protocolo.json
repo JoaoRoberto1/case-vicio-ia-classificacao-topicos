@@ -1,0 +1,46 @@
+{
+  "schema": "politica_publicacao_m9_v1",
+  "registrado_em_utc": "2026-10-22 17:08:17 UTC",
+  "objetivo": "Comparar precisao, cobertura e estabilidade de filtros de publicacao; revisar a trava global sem alterar o ranking.",
+  "natureza": "Experimento exploratorio posterior aos resultados M1-M8; nao e teste independente novo.",
+  "conhecimento_previo": {
+    "m8": "Politica global bloqueada; 4/4 publicacoes externas concentradas em um bloco e provenientes de RRF; sinais_large selecionado internamente com 14/14.",
+    "diagnostico_sem_trava": "Corte sinais_large>=0.9 aceitaria60/559 sem rotulos; nas20referencias conhecidas aceitaria3 com2acertos. Estes resultados ja eram conhecidos antes do M9."
+  },
+  "ranking_fixo": "sinais_large",
+  "receitas_concordancia": ["sinais_small", "large_rrf20", "sinais_large"],
+  "concordancia": "Igualdade exata do tema sugerido pelos tres algoritmos locais. Nao e votacao de LLM. Algoritmos correlacionados; concordancia nao prova acerto.",
+  "calibracao": "Logistica M8 com9atributos e L2=1, sem alterar implementacao. Reconstituir OOF internas de cada treino externo; ajustar calibrador apenas nelas.",
+  "grade": {
+    "cortes": [0.8, 0.9, 0.95],
+    "exigir_concordancia": [false, true],
+    "total": 6,
+    "ampliar_apos_resultados": false
+  },
+  "selecao_interna": {
+    "elegibilidade": "n>0 e precisao observada>=0.95; sem minimo arbitrario10",
+    "ordem": ["maior n", "maior precisao", "maior minimo n entre particoes", "filtro simples", "maior corte"],
+    "sem_elegivel": "abster; manter sugestao de sinais_large",
+    "campo": "confianca_oof"
+  },
+  "avaliacao": {
+    "externa": "Mesmos3blocos fixados nas80referencias. Cada escolha interna e calibrador exclui rotulos do bloco externo. Rankings externos M8 autenticados podem ser reutilizados.",
+    "curvas": "Medir todas6regras nos mesmos rankings externos, suporte e Wilson agregado/porbloco; curvas apenas diagnosticas, nao reescolher pelo resultado externo.",
+    "reserva20": "Diagnostico apos escolha final; historicamente conhecida, nunca usada para selecao nesta rodada.",
+    "avaliacao559": "Cobertura aplicavel, precisao desconhecida; nenhum rotulo novo."
+  },
+  "criterio_promocao_experimental": {
+    "precisao_agregada": 0.95,
+    "publica_nos_tres_blocos": true,
+    "precisao_em_cada_bloco": 0.95,
+    "interpretacao": "Criterio operacional de estabilidade, nao garantia estatistica. Pode passar com1/1 emcada bloco; sempre mostrar contagens e intervalo. Somente candidato experimental, sem declarar95% populacional comprovado.",
+    "falha": "Nao substituir entrega oficial; registrar candidato e motivos, sem procurar mais cortes."
+  },
+  "restricoes": {
+    "LLM_classifica_ou_valida": false,
+    "novos_rotulos": false,
+    "API_paga": false,
+    "encoder_na_decisao": false,
+    "preservar_M1_M8": true
+  }
+}

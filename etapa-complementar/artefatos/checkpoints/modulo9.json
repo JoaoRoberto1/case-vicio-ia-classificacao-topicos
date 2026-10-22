@@ -1,0 +1,147 @@
+{
+  "artefatos_sha256": {
+    "artefatos/politica-m9-preparacao-v1/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "artefatos/politica-m9-preparacao-v1/fontes.json": "e0638ac12280a968dd2735041baeb920abe045853e04ac75811c79ac17775eaa",
+    "artefatos/politica-m9-preparacao-v1/internas_bloco1.json": "78e35746f42f7c7ce8d9d526e2c3a6ab6d1061ff6854161cf24ecd14f96520db",
+    "artefatos/politica-m9-preparacao-v1/internas_bloco1.json.sha256": "7ff97a527d7087fa58a226f4ad84d9d3fff18ceebc25b1c3a9df7af318e90cd7",
+    "artefatos/politica-m9-preparacao-v1/internas_bloco2.json": "2f3ddd34109c90ef1794416af2a6d51640915a5858cc005b4ee164156345c783",
+    "artefatos/politica-m9-preparacao-v1/internas_bloco2.json.sha256": "2ed38a678b26351ca0151ca8562e2ccf2d099ed5fa17f151c691165de02a9b71",
+    "artefatos/politica-m9-preparacao-v1/internas_bloco3.json": "7cb98f0d866be7365c86b9b3ba0a25d1caaad8360b0bfacc2d3f014611c8e0fa",
+    "artefatos/politica-m9-preparacao-v1/internas_bloco3.json.sha256": "686ae6f2c1afac60781f17df590519b0e174af145d5ed6bb76e087656fbf07c4",
+    "artefatos/politica-m9-preparacao-v1/manifesto.json": "25ed5182018467d7a008f2d04bd02bca3ffac7356ec5412975e568056c8f4794",
+    "artefatos/politica-m9-preparacao-v1/predicoes_20_concordancia.jsonl": "ff5adcc4be1987aab6e10daa6b046a12fc37a9a6f151936f394d771db80187be",
+    "artefatos/politica-m9-preparacao-v1/predicoes_20_concordancia.jsonl.sha256": "f70b1e3209c0c25f8264701c67df4608947d9584088e1ce98163f2a9c7656dc6",
+    "artefatos/politica-m9-preparacao-v1/sugestoes_559_concordancia.jsonl": "68a87c0e0e6e129dbfeca8df5729bf4b46417b54ca4b8a516006138f97a8eadc",
+    "artefatos/politica-m9-preparacao-v1/sugestoes_559_concordancia.jsonl.sha256": "16be3a15c587e5927749311a20d13af23abd406735818ea2ba00b91281b4ab8b",
+    "artefatos/politica-m9-v1/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "artefatos/politica-m9-v1/ANALISE.md": "8f44fb185869eb5cf320526ba2b669abc6fb33adc53b59e09337db649dcdeb01",
+    "artefatos/politica-m9-v1/calibracao_e_selecoes.json": "12960f0467fc55ddabc7672b8f5c37bdbb03b110cfefb53ef87c8a142d6eefdb",
+    "artefatos/politica-m9-v1/manifesto.json": "2d8483a964a339ea46eb4078709baffbe0a79e0092861b80db1ce78894e6de59",
+    "artefatos/politica-m9-v1/metricas.json": "b6d4d9567c171739366903dd6c127a9923ad2e1cb20b2061b724820f96d8dde8",
+    "artefatos/politica-m9-v1/politica_candidata.json": "b67d502bc45a0ce3b35c885b79f74eb37027f12c06c8ffbc24d29c8075188f99",
+    "artefatos/politica-m9-v1/predicoes_20.jsonl": "b04b300f5a3d1ec11b8f9532627720c703a0827dcd6cf9618a8d3b35a9d13737",
+    "artefatos/politica-m9-v1/predicoes_externas.jsonl": "84b849f67027160277f4f9ca6b8634e00200fcfc40fb5e0fefc5cbe61e547039",
+    "artefatos/politica-m9-v1/publicacao_candidata.csv": "0ee182a3fe9ebc49320c596248d2c8d690c822d07fa6b35bbbd80a2a830cadcd",
+    "artefatos/politica-m9-v1/sugestoes_559.jsonl": "6fd0f404aa379dbfd1caa32ef54ab0d808071b2da4e9240a57e8985c5b7aeda3",
+    "classificacao_politica/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "classificacao_politica/__init__.py": "729f197e89af184bc413d55882dbd3c6fe07267d5239c4e2fdc841d43614e9d9",
+    "classificacao_politica/experimento.py": "d6689747e132756cc70121ec2fba7d56e95754ef76fda17c15dab8b2f3d43213",
+    "classificacao_politica/politica.py": "0bad0e1fc99b460e87e259383e14d0fda8f6f96eebaae5b29c8b7115d133a45b",
+    "classificacao_politica/preparacao.py": "49e207ef613da58aea38612cf6fbc731c05471f76eb16cefc10207fe17011b6a",
+    "config/modulo9/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "config/modulo9/protocolo.json": "f686c64cce60d1c100d318946f1d0e23659557cfbb3b6e233d76c0c0596162cf",
+    "docs/MODULO9_POLITICA.md": "865b93ac1bbaf1103cdced8624c3c1dd976f812afe3e75c3ac2cd883f63bb06d",
+    "scripts/revisar_politica.py": "c9407cc526002135f6e9c98336445e3836c09b5563f7916cf6439478da45c565",
+    "tests/test_experimento_politica_m9.py": "418dece6ef6c376d617644b18d16cf8d3c6b273865d647dcce3a86894a1fdb36",
+    "tests/test_politica_m9.py": "1db1a601079936477e7a8a2956c6ba67c96e492d50a4ff804fb67e114f8f0776"
+  },
+  "candidata_csv": "artefatos/politica-m9-v1/publicacao_candidata.csv",
+  "cobertura_oficial_559": 0,
+  "commit_push_envio_realizados": false,
+  "entrega_oficial": "entrega-final-v2",
+  "estado": "concluido_candidata_exploratoria_nao_promovida",
+  "execucao_inicial_segundos": 202.369,
+  "git_base": "07cc7c3e1f861173319f3566c2222ad9deea078f",
+  "historicos_preservados": true,
+  "limite": "Sem novo teste independente; meta de precisão de 95% nas 559 não demonstrada.",
+  "registrado_em_utc": "2026-10-22 17:23:45 UTC",
+  "reproducao_completa": {
+    "comando": "python -u -E -X utf8 -B -S scripts/revisar_politica.py --reconstruir --verificar",
+    "exit_code": 0,
+    "preparacao_e_produtos_identicos": true,
+    "rede_credenciais_encoder_bloqueados": true,
+    "segundos": 174.812
+  },
+  "resultado": {
+    "candidata559": {
+      "coverage": 0.1073345259391771,
+      "motivo": "Sem rótulos humanos disponíveis.",
+      "n": 60,
+      "precision": null,
+      "total": 559
+    },
+    "estabilidade": {
+      "aprovada_experimentalmente": false,
+      "garantia_populacional_95": false,
+      "limitacao": "Mesmo 1/1 em cada bloco passa; suporte e Wilson devem ser lidos. Não é teste novo independente.",
+      "motivos": [
+        "Publicações não se repetiram nos três blocos externos."
+      ]
+    },
+    "procedimento_externo": {
+      "count": 80,
+      "coverage": 0.1125,
+      "k": 9,
+      "minimo_publicacoes_particao": 0,
+      "n": 9,
+      "por_particao": [
+        {
+          "count": 27,
+          "coverage": 0.2222222222222222,
+          "k": 6,
+          "n": 6,
+          "particao": 1,
+          "precision": 1.0,
+          "wilson95": {
+            "inferior": 0.6096657120978348,
+            "superior": 1.0
+          }
+        },
+        {
+          "count": 27,
+          "coverage": 0.1111111111111111,
+          "k": 3,
+          "n": 3,
+          "particao": 2,
+          "precision": 1.0,
+          "wilson95": {
+            "inferior": 0.4385029682449546,
+            "superior": 1.0
+          }
+        },
+        {
+          "count": 26,
+          "coverage": 0.0,
+          "k": 0,
+          "n": 0,
+          "particao": 3,
+          "precision": null,
+          "wilson95": null
+        }
+      ],
+      "precision": 1.0,
+      "wilson95": {
+        "inferior": 0.7008549515804562,
+        "superior": 1.0
+      }
+    },
+    "reserva20_diagnostico": {
+      "count": 20,
+      "coverage": 0.15,
+      "k": 2,
+      "minimo_publicacoes_particao": 0,
+      "n": 3,
+      "por_particao": [],
+      "precision": 0.6666666666666666,
+      "teste_independente": false,
+      "usada_na_selecao": false,
+      "wilson95": {
+        "inferior": 0.20765960080204782,
+        "superior": 0.9385080552796038
+      }
+    }
+  },
+  "retomada": "docs/MODULO9_POLITICA.md",
+  "schema": "checkpoint_modulo9_v1",
+  "testes": {
+    "comando": "python -E -X utf8 -B -S -m unittest tests.test_experimento_politica_m9 tests.test_politica_m9 -q",
+    "exit_code": 0,
+    "segundos_unittest": 3.676,
+    "total": 45
+  },
+  "verificacao_rapida": {
+    "exit_code": 0,
+    "produtos_identicos": true,
+    "segundos": 0.764
+  }
+}

@@ -1,0 +1,1444 @@
+{
+  "externas": [
+    {
+      "calibrador": {
+        "acertos": 34,
+        "coeficientes": [
+          -0.28429647449716544,
+          0.804341242146108,
+          0.14664582105257193,
+          0.72433958416305,
+          -0.11061544706314357,
+          -0.14938955588550154,
+          1.120677682135857,
+          -0.35076218076275506,
+          -0.0009021043103944744
+        ],
+        "convergencia": {
+          "convergiu": true,
+          "iteracoes": 5,
+          "max_iteracoes": 300,
+          "tolerancia": 1e-08,
+          "tolerancia_decremento": 1e-12
+        },
+        "dimensoes": 9,
+        "escalas": [
+          1.1264908698981335,
+          0.7781280011267993,
+          0.09500008637629567,
+          0.018319946635738594,
+          0.48911250554021596,
+          0.400478572670963,
+          0.21598623428308203,
+          0.06924312226489217,
+          0.007566730313961403
+        ],
+        "intercepto": 0.8832527280504618,
+        "medias": [
+          3.256398546547034,
+          0.8764740660680099,
+          0.23188974726811595,
+          0.8359001840606383,
+          0.3962264150943396,
+          0.5130962362449856,
+          0.35094339622641507,
+          0.07404432288290212,
+          0.00852611852971575
+        ],
+        "metodo": "logistica_l2_pseudocontagens",
+        "n": 53,
+        "pseudocontagens": {
+          "acertos": 0.5,
+          "erros": 0.5,
+          "local": "centro_padronizado"
+        },
+        "regularizacao": 1.0,
+        "schema": "confianca_logistica_m8_v1"
+      },
+      "particao": 1,
+      "politica": {
+        "corte": 0.9,
+        "count": 53,
+        "coverage": 0.1509433962264151,
+        "diagnosticos": [
+          {
+            "corte": 0.8,
+            "count": 53,
+            "coverage": 0.32075471698113206,
+            "exige_concordancia": false,
+            "habilitada": false,
+            "k": 14,
+            "minimo_publicacoes_particao": 4,
+            "n": 17,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.3333333333333333,
+                "k": 5,
+                "n": 6,
+                "particao": 0,
+                "precision": 0.8333333333333334,
+                "wilson95": {
+                  "inferior": 0.4364971778135299,
+                  "superior": 0.9699466302516934
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.3888888888888889,
+                "k": 6,
+                "n": 7,
+                "particao": 1,
+                "precision": 0.8571428571428571,
+                "wilson95": {
+                  "inferior": 0.48687217072568123,
+                  "superior": 0.9743203756552564
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.23529411764705882,
+                "k": 3,
+                "n": 4,
+                "particao": 2,
+                "precision": 0.75,
+                "wilson95": {
+                  "inferior": 0.300641842582402,
+                  "superior": 0.9544127391902995
+                }
+              }
+            ],
+            "precision": 0.8235294117647058,
+            "receita": "sinais_large",
+            "regra": "confianca_p80",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5897054143116588,
+              "superior": 0.9380887336237901
+            }
+          },
+          {
+            "corte": 0.8,
+            "count": 53,
+            "coverage": 0.22641509433962265,
+            "exige_concordancia": true,
+            "habilitada": false,
+            "k": 11,
+            "minimo_publicacoes_particao": 4,
+            "n": 12,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 4,
+                "n": 4,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.5101091635454027,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 4,
+                "n": 4,
+                "particao": 1,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.5101091635454027,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.23529411764705882,
+                "k": 3,
+                "n": 4,
+                "particao": 2,
+                "precision": 0.75,
+                "wilson95": {
+                  "inferior": 0.300641842582402,
+                  "superior": 0.9544127391902995
+                }
+              }
+            ],
+            "precision": 0.9166666666666666,
+            "receita": "sinais_large",
+            "regra": "confianca_p80_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.6461200888588832,
+              "superior": 0.9851349055950829
+            }
+          },
+          {
+            "corte": 0.9,
+            "count": 53,
+            "coverage": 0.1509433962264151,
+            "exige_concordancia": false,
+            "habilitada": true,
+            "k": 8,
+            "minimo_publicacoes_particao": 1,
+            "n": 8,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 3,
+                "n": 3,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.4385029682449546,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 4,
+                "n": 4,
+                "particao": 1,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.5101091635454027,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.058823529411764705,
+                "k": 1,
+                "n": 1,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 1.0,
+            "receita": "sinais_large",
+            "regra": "confianca_p90",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.6755924351161198,
+              "superior": 1.0
+            }
+          },
+          {
+            "corte": 0.9,
+            "count": 53,
+            "coverage": 0.11320754716981132,
+            "exige_concordancia": true,
+            "habilitada": true,
+            "k": 6,
+            "minimo_publicacoes_particao": 1,
+            "n": 6,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 3,
+                "n": 3,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.4385029682449546,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.1111111111111111,
+                "k": 2,
+                "n": 2,
+                "particao": 1,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.3423802275066532,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.058823529411764705,
+                "k": 1,
+                "n": 1,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 1.0,
+            "receita": "sinais_large",
+            "regra": "confianca_p90_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.6096657120978348,
+              "superior": 1.0
+            }
+          },
+          {
+            "corte": 0.95,
+            "count": 53,
+            "coverage": 0.09433962264150944,
+            "exige_concordancia": false,
+            "habilitada": true,
+            "k": 5,
+            "minimo_publicacoes_particao": 1,
+            "n": 5,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 3,
+                "n": 3,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.4385029682449546,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.05555555555555555,
+                "k": 1,
+                "n": 1,
+                "particao": 1,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.058823529411764705,
+                "k": 1,
+                "n": 1,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 1.0,
+            "receita": "sinais_large",
+            "regra": "confianca_p95",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5655175352168254,
+              "superior": 1.0
+            }
+          },
+          {
+            "corte": 0.95,
+            "count": 53,
+            "coverage": 0.09433962264150944,
+            "exige_concordancia": true,
+            "habilitada": true,
+            "k": 5,
+            "minimo_publicacoes_particao": 1,
+            "n": 5,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 3,
+                "n": 3,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.4385029682449546,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.05555555555555555,
+                "k": 1,
+                "n": 1,
+                "particao": 1,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.058823529411764705,
+                "k": 1,
+                "n": 1,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 1.0,
+            "receita": "sinais_large",
+            "regra": "confianca_p95_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5655175352168254,
+              "superior": 1.0
+            }
+          }
+        ],
+        "exige_concordancia": false,
+        "habilitada": true,
+        "k": 8,
+        "minimo_publicacoes_particao": 1,
+        "n": 8,
+        "por_particao": [
+          {
+            "count": 18,
+            "coverage": 0.16666666666666666,
+            "k": 3,
+            "n": 3,
+            "particao": 0,
+            "precision": 1.0,
+            "wilson95": {
+              "inferior": 0.4385029682449546,
+              "superior": 1.0
+            }
+          },
+          {
+            "count": 18,
+            "coverage": 0.2222222222222222,
+            "k": 4,
+            "n": 4,
+            "particao": 1,
+            "precision": 1.0,
+            "wilson95": {
+              "inferior": 0.5101091635454027,
+              "superior": 1.0
+            }
+          },
+          {
+            "count": 17,
+            "coverage": 0.058823529411764705,
+            "k": 1,
+            "n": 1,
+            "particao": 2,
+            "precision": 1.0,
+            "wilson95": {
+              "inferior": 0.20654931437723745,
+              "superior": 1.0
+            }
+          }
+        ],
+        "precision": 1.0,
+        "receita": "sinais_large",
+        "regra": "confianca_p90",
+        "schema": "politica_seletiva_m9_v1",
+        "wilson95": {
+          "inferior": 0.6755924351161198,
+          "superior": 1.0
+        }
+      },
+      "resultado": {
+        "count": 27,
+        "coverage": 0.2222222222222222,
+        "k": 6,
+        "minimo_publicacoes_particao": 6,
+        "n": 6,
+        "por_particao": [
+          {
+            "count": 27,
+            "coverage": 0.2222222222222222,
+            "k": 6,
+            "n": 6,
+            "particao": 1,
+            "precision": 1.0,
+            "wilson95": {
+              "inferior": 0.6096657120978348,
+              "superior": 1.0
+            }
+          }
+        ],
+        "precision": 1.0,
+        "wilson95": {
+          "inferior": 0.6096657120978348,
+          "superior": 1.0
+        }
+      }
+    },
+    {
+      "calibrador": {
+        "acertos": 33,
+        "coeficientes": [
+          0.12117527254599178,
+          0.32490448348456324,
+          -0.05029578166218054,
+          0.36460286921116264,
+          -0.1703241063280805,
+          -0.110346085275817,
+          0.9179112889588397,
+          0.035043354236309124,
+          0.19998433610110383
+        ],
+        "convergencia": {
+          "convergiu": true,
+          "iteracoes": 5,
+          "max_iteracoes": 300,
+          "tolerancia": 1e-08,
+          "tolerancia_decremento": 1e-12
+        },
+        "dimensoes": 9,
+        "escalas": [
+          1.1574014633097909,
+          0.9416297885867385,
+          0.0936868721412872,
+          0.01959305172457632,
+          0.48911250554021596,
+          0.41336279509226337,
+          0.15263206351816364,
+          0.07697890506885553,
+          0.008351668556510497
+        ],
+        "intercepto": 0.6535562938273807,
+        "medias": [
+          3.417805468054909,
+          0.9387809573777779,
+          0.2318871871970629,
+          0.8403623081694436,
+          0.3962264150943396,
+          0.5383474048925363,
+          0.3169811320754717,
+          0.07040521152890628,
+          0.00799724868893487
+        ],
+        "metodo": "logistica_l2_pseudocontagens",
+        "n": 53,
+        "pseudocontagens": {
+          "acertos": 0.5,
+          "erros": 0.5,
+          "local": "centro_padronizado"
+        },
+        "regularizacao": 1.0,
+        "schema": "confianca_logistica_m8_v1"
+      },
+      "particao": 2,
+      "politica": {
+        "corte": 0.95,
+        "count": 53,
+        "coverage": 0.09433962264150944,
+        "diagnosticos": [
+          {
+            "corte": 0.8,
+            "count": 53,
+            "coverage": 0.20754716981132076,
+            "exige_concordancia": false,
+            "habilitada": false,
+            "k": 9,
+            "minimo_publicacoes_particao": 0,
+            "n": 11,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 0,
+                "precision": null,
+                "wilson95": null
+              },
+              {
+                "count": 18,
+                "coverage": 0.5,
+                "k": 7,
+                "n": 9,
+                "particao": 1,
+                "precision": 0.7777777777777778,
+                "wilson95": {
+                  "inferior": 0.452588969106989,
+                  "superior": 0.9367748928821532
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.11764705882352941,
+                "k": 2,
+                "n": 2,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.3423802275066532,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.8181818181818182,
+            "receita": "sinais_large",
+            "regra": "confianca_p80",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5230194380391561,
+              "superior": 0.948632310253915
+            }
+          },
+          {
+            "corte": 0.8,
+            "count": 53,
+            "coverage": 0.16981132075471697,
+            "exige_concordancia": true,
+            "habilitada": false,
+            "k": 7,
+            "minimo_publicacoes_particao": 0,
+            "n": 9,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 0,
+                "precision": null,
+                "wilson95": null
+              },
+              {
+                "count": 18,
+                "coverage": 0.4444444444444444,
+                "k": 6,
+                "n": 8,
+                "particao": 1,
+                "precision": 0.75,
+                "wilson95": {
+                  "inferior": 0.409275430310169,
+                  "superior": 0.928520787247891
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.058823529411764705,
+                "k": 1,
+                "n": 1,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.7777777777777778,
+            "receita": "sinais_large",
+            "regra": "confianca_p80_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.452588969106989,
+              "superior": 0.9367748928821532
+            }
+          },
+          {
+            "corte": 0.9,
+            "count": 53,
+            "coverage": 0.1509433962264151,
+            "exige_concordancia": false,
+            "habilitada": false,
+            "k": 6,
+            "minimo_publicacoes_particao": 0,
+            "n": 8,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 0,
+                "precision": null,
+                "wilson95": null
+              },
+              {
+                "count": 18,
+                "coverage": 0.3888888888888889,
+                "k": 5,
+                "n": 7,
+                "particao": 1,
+                "precision": 0.7142857142857143,
+                "wilson95": {
+                  "inferior": 0.3589344518326194,
+                  "superior": 0.9177810759959433
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.058823529411764705,
+                "k": 1,
+                "n": 1,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.75,
+            "receita": "sinais_large",
+            "regra": "confianca_p90",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.409275430310169,
+              "superior": 0.928520787247891
+            }
+          },
+          {
+            "corte": 0.9,
+            "count": 53,
+            "coverage": 0.1320754716981132,
+            "exige_concordancia": true,
+            "habilitada": false,
+            "k": 5,
+            "minimo_publicacoes_particao": 0,
+            "n": 7,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 0,
+                "precision": null,
+                "wilson95": null
+              },
+              {
+                "count": 18,
+                "coverage": 0.3888888888888889,
+                "k": 5,
+                "n": 7,
+                "particao": 1,
+                "precision": 0.7142857142857143,
+                "wilson95": {
+                  "inferior": 0.3589344518326194,
+                  "superior": 0.9177810759959433
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 2,
+                "precision": null,
+                "wilson95": null
+              }
+            ],
+            "precision": 0.7142857142857143,
+            "receita": "sinais_large",
+            "regra": "confianca_p90_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.3589344518326194,
+              "superior": 0.9177810759959433
+            }
+          },
+          {
+            "corte": 0.95,
+            "count": 53,
+            "coverage": 0.09433962264150944,
+            "exige_concordancia": false,
+            "habilitada": true,
+            "k": 5,
+            "minimo_publicacoes_particao": 0,
+            "n": 5,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 0,
+                "precision": null,
+                "wilson95": null
+              },
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 4,
+                "n": 4,
+                "particao": 1,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.5101091635454027,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.058823529411764705,
+                "k": 1,
+                "n": 1,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.20654931437723745,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 1.0,
+            "receita": "sinais_large",
+            "regra": "confianca_p95",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5655175352168254,
+              "superior": 1.0
+            }
+          },
+          {
+            "corte": 0.95,
+            "count": 53,
+            "coverage": 0.07547169811320754,
+            "exige_concordancia": true,
+            "habilitada": true,
+            "k": 4,
+            "minimo_publicacoes_particao": 0,
+            "n": 4,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 0,
+                "precision": null,
+                "wilson95": null
+              },
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 4,
+                "n": 4,
+                "particao": 1,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.5101091635454027,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 17,
+                "coverage": 0.0,
+                "k": 0,
+                "n": 0,
+                "particao": 2,
+                "precision": null,
+                "wilson95": null
+              }
+            ],
+            "precision": 1.0,
+            "receita": "sinais_large",
+            "regra": "confianca_p95_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5101091635454027,
+              "superior": 1.0
+            }
+          }
+        ],
+        "exige_concordancia": false,
+        "habilitada": true,
+        "k": 5,
+        "minimo_publicacoes_particao": 0,
+        "n": 5,
+        "por_particao": [
+          {
+            "count": 18,
+            "coverage": 0.0,
+            "k": 0,
+            "n": 0,
+            "particao": 0,
+            "precision": null,
+            "wilson95": null
+          },
+          {
+            "count": 18,
+            "coverage": 0.2222222222222222,
+            "k": 4,
+            "n": 4,
+            "particao": 1,
+            "precision": 1.0,
+            "wilson95": {
+              "inferior": 0.5101091635454027,
+              "superior": 1.0
+            }
+          },
+          {
+            "count": 17,
+            "coverage": 0.058823529411764705,
+            "k": 1,
+            "n": 1,
+            "particao": 2,
+            "precision": 1.0,
+            "wilson95": {
+              "inferior": 0.20654931437723745,
+              "superior": 1.0
+            }
+          }
+        ],
+        "precision": 1.0,
+        "receita": "sinais_large",
+        "regra": "confianca_p95",
+        "schema": "politica_seletiva_m9_v1",
+        "wilson95": {
+          "inferior": 0.5655175352168254,
+          "superior": 1.0
+        }
+      },
+      "resultado": {
+        "count": 27,
+        "coverage": 0.1111111111111111,
+        "k": 3,
+        "minimo_publicacoes_particao": 3,
+        "n": 3,
+        "por_particao": [
+          {
+            "count": 27,
+            "coverage": 0.1111111111111111,
+            "k": 3,
+            "n": 3,
+            "particao": 2,
+            "precision": 1.0,
+            "wilson95": {
+              "inferior": 0.4385029682449546,
+              "superior": 1.0
+            }
+          }
+        ],
+        "precision": 1.0,
+        "wilson95": {
+          "inferior": 0.4385029682449546,
+          "superior": 1.0
+        }
+      }
+    },
+    {
+      "calibrador": {
+        "acertos": 38,
+        "coeficientes": [
+          -0.06889705308224787,
+          0.031374470856124534,
+          0.14519843850293804,
+          0.07725127023639682,
+          -0.11764009253022825,
+          -0.12454543910002751,
+          0.9346158641916161,
+          0.34332985017680856,
+          0.66409131840751
+        ],
+        "convergencia": {
+          "convergiu": true,
+          "iteracoes": 5,
+          "max_iteracoes": 300,
+          "tolerancia": 1e-08,
+          "tolerancia_decremento": 1e-12
+        },
+        "dimensoes": 9,
+        "escalas": [
+          1.3439826579619654,
+          1.0988444009068998,
+          0.10145489714180533,
+          0.020132601861108414,
+          0.48749802152178456,
+          0.41653885760294823,
+          0.22135633774050273,
+          0.07914395766453236,
+          0.008024221104694683
+        ],
+        "intercepto": 1.1672617508638752,
+        "medias": [
+          3.907191949040504,
+          1.125469625433486,
+          0.2329271632058425,
+          0.8389565860522383,
+          0.38888888888888884,
+          0.5829530999641656,
+          0.362962962962963,
+          0.08251736565273925,
+          0.007470127183023723
+        ],
+        "metodo": "logistica_l2_pseudocontagens",
+        "n": 54,
+        "pseudocontagens": {
+          "acertos": 0.5,
+          "erros": 0.5,
+          "local": "centro_padronizado"
+        },
+        "regularizacao": 1.0,
+        "schema": "confianca_logistica_m8_v1"
+      },
+      "particao": 3,
+      "politica": {
+        "corte": null,
+        "count": 54,
+        "coverage": 0.0,
+        "diagnosticos": [
+          {
+            "corte": 0.8,
+            "count": 54,
+            "coverage": 0.3148148148148148,
+            "exige_concordancia": false,
+            "habilitada": false,
+            "k": 14,
+            "minimo_publicacoes_particao": 3,
+            "n": 17,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.5,
+                "k": 7,
+                "n": 9,
+                "particao": 0,
+                "precision": 0.7777777777777778,
+                "wilson95": {
+                  "inferior": 0.452588969106989,
+                  "superior": 0.9367748928821532
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.2777777777777778,
+                "k": 4,
+                "n": 5,
+                "particao": 1,
+                "precision": 0.8,
+                "wilson95": {
+                  "inferior": 0.3755346297625255,
+                  "superior": 0.9637758913675698
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 3,
+                "n": 3,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.4385029682449546,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.8235294117647058,
+            "receita": "sinais_large",
+            "regra": "confianca_p80",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5897054143116588,
+              "superior": 0.9380887336237901
+            }
+          },
+          {
+            "corte": 0.8,
+            "count": 54,
+            "coverage": 0.24074074074074073,
+            "exige_concordancia": true,
+            "habilitada": false,
+            "k": 12,
+            "minimo_publicacoes_particao": 3,
+            "n": 13,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.3888888888888889,
+                "k": 7,
+                "n": 7,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.6456695649333126,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 2,
+                "n": 3,
+                "particao": 1,
+                "precision": 0.6666666666666666,
+                "wilson95": {
+                  "inferior": 0.20765960080204782,
+                  "superior": 0.9385080552796038
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 3,
+                "n": 3,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.4385029682449546,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.9230769230769231,
+            "receita": "sinais_large",
+            "regra": "confianca_p80_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.6668604907890041,
+              "superior": 0.9862895787574433
+            }
+          },
+          {
+            "corte": 0.9,
+            "count": 54,
+            "coverage": 0.2222222222222222,
+            "exige_concordancia": false,
+            "habilitada": false,
+            "k": 11,
+            "minimo_publicacoes_particao": 2,
+            "n": 12,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.3333333333333333,
+                "k": 6,
+                "n": 6,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.6096657120978348,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 3,
+                "n": 4,
+                "particao": 1,
+                "precision": 0.75,
+                "wilson95": {
+                  "inferior": 0.300641842582402,
+                  "superior": 0.9544127391902995
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.1111111111111111,
+                "k": 2,
+                "n": 2,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.3423802275066532,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.9166666666666666,
+            "receita": "sinais_large",
+            "regra": "confianca_p90",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.6461200888588832,
+              "superior": 0.9851349055950829
+            }
+          },
+          {
+            "corte": 0.9,
+            "count": 54,
+            "coverage": 0.2037037037037037,
+            "exige_concordancia": true,
+            "habilitada": false,
+            "k": 10,
+            "minimo_publicacoes_particao": 2,
+            "n": 11,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.3333333333333333,
+                "k": 6,
+                "n": 6,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.6096657120978348,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.16666666666666666,
+                "k": 2,
+                "n": 3,
+                "particao": 1,
+                "precision": 0.6666666666666666,
+                "wilson95": {
+                  "inferior": 0.20765960080204782,
+                  "superior": 0.9385080552796038
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.1111111111111111,
+                "k": 2,
+                "n": 2,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.3423802275066532,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.9090909090909091,
+            "receita": "sinais_large",
+            "regra": "confianca_p90_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.6226415635484045,
+              "superior": 0.9837678271141154
+            }
+          },
+          {
+            "corte": 0.95,
+            "count": 54,
+            "coverage": 0.14814814814814814,
+            "exige_concordancia": false,
+            "habilitada": false,
+            "k": 7,
+            "minimo_publicacoes_particao": 2,
+            "n": 8,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 4,
+                "n": 4,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.5101091635454027,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.1111111111111111,
+                "k": 1,
+                "n": 2,
+                "particao": 1,
+                "precision": 0.5,
+                "wilson95": {
+                  "inferior": 0.09453120573423074,
+                  "superior": 0.9054687942657693
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.1111111111111111,
+                "k": 2,
+                "n": 2,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.3423802275066532,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.875,
+            "receita": "sinais_large",
+            "regra": "confianca_p95",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5291118177871466,
+              "superior": 0.9775825085499432
+            }
+          },
+          {
+            "corte": 0.95,
+            "count": 54,
+            "coverage": 0.14814814814814814,
+            "exige_concordancia": true,
+            "habilitada": false,
+            "k": 7,
+            "minimo_publicacoes_particao": 2,
+            "n": 8,
+            "por_particao": [
+              {
+                "count": 18,
+                "coverage": 0.2222222222222222,
+                "k": 4,
+                "n": 4,
+                "particao": 0,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.5101091635454027,
+                  "superior": 1.0
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.1111111111111111,
+                "k": 1,
+                "n": 2,
+                "particao": 1,
+                "precision": 0.5,
+                "wilson95": {
+                  "inferior": 0.09453120573423074,
+                  "superior": 0.9054687942657693
+                }
+              },
+              {
+                "count": 18,
+                "coverage": 0.1111111111111111,
+                "k": 2,
+                "n": 2,
+                "particao": 2,
+                "precision": 1.0,
+                "wilson95": {
+                  "inferior": 0.3423802275066532,
+                  "superior": 1.0
+                }
+              }
+            ],
+            "precision": 0.875,
+            "receita": "sinais_large",
+            "regra": "confianca_p95_concordancia",
+            "schema": "politica_seletiva_m9_v1",
+            "wilson95": {
+              "inferior": 0.5291118177871466,
+              "superior": 0.9775825085499432
+            }
+          }
+        ],
+        "exige_concordancia": false,
+        "habilitada": false,
+        "k": 0,
+        "minimo_publicacoes_particao": 0,
+        "n": 0,
+        "por_particao": [
+          {
+            "count": 18,
+            "coverage": 0.0,
+            "k": 0,
+            "n": 0,
+            "particao": 0,
+            "precision": null,
+            "wilson95": null
+          },
+          {
+            "count": 18,
+            "coverage": 0.0,
+            "k": 0,
+            "n": 0,
+            "particao": 1,
+            "precision": null,
+            "wilson95": null
+          },
+          {
+            "count": 18,
+            "coverage": 0.0,
+            "k": 0,
+            "n": 0,
+            "particao": 2,
+            "precision": null,
+            "wilson95": null
+          }
+        ],
+        "precision": null,
+        "receita": "sinais_large",
+        "regra": null,
+        "schema": "politica_seletiva_m9_v1",
+        "wilson95": null
+      },
+      "resultado": {
+        "count": 26,
+        "coverage": 0.0,
+        "k": 0,
+        "minimo_publicacoes_particao": 0,
+        "n": 0,
+        "por_particao": [
+          {
+            "count": 26,
+            "coverage": 0.0,
+            "k": 0,
+            "n": 0,
+            "particao": 3,
+            "precision": null,
+            "wilson95": null
+          }
+        ],
+        "precision": null,
+        "wilson95": null
+      }
+    }
+  ],
+  "final": {
+    "acertos": 53,
+    "coeficientes": [
+      -0.5800945332566423,
+      0.5208060122399976,
+      0.6271838246004513,
+      0.4847508150236013,
+      -0.22686058552789265,
+      -0.09232860407869677,
+      1.0862684987409867,
+      -0.2294729874641509,
+      0.2787036383831056
+    ],
+    "convergencia": {
+      "convergiu": true,
+      "iteracoes": 5,
+      "max_iteracoes": 300,
+      "tolerancia": 1e-08,
+      "tolerancia_decremento": 1e-12
+    },
+    "dimensoes": 9,
+    "escalas": [
+      1.196253332627255,
+      1.0062733267977464,
+      0.0974523439680102,
+      0.018812137074977767,
+      0.48989794855663554,
+      0.41369680198065517,
+      0.2024228247999716,
+      0.07543885776062147,
+      0.007999254724786872
+    ],
+    "intercepto": 0.9776463641734621,
+    "medias": [
+      3.5261196872590146,
+      0.9870843301216947,
+      0.2328268337860867,
+      0.8387272401065698,
+      0.4,
+      0.553965383072323,
+      0.34500000000000003,
+      0.07569851918171103,
+      0.007994533315448523
+    ],
+    "metodo": "logistica_l2_pseudocontagens",
+    "n": 80,
+    "pseudocontagens": {
+      "acertos": 0.5,
+      "erros": 0.5,
+      "local": "centro_padronizado"
+    },
+    "regularizacao": 1.0,
+    "schema": "confianca_logistica_m8_v1"
+  }
+}
