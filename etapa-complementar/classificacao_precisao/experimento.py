@@ -55,6 +55,12 @@ def _calibracao(ps, campo):
     return metricas_calibracao([p[campo] for p in ps], alvos)
 
 
+def _comparar_reserva_m7(raiz, predicoes):
+    # O produtor M7 gravou um array JSON, apesar da extensão histórica .jsonl.
+    baseline = ler_json(raiz, "artefatos/catalogo-m7-v1/predicoes_reserva_conhecida.jsonl")
+    return comparar_pareado(baseline, predicoes)
+
+
 def carregar_contexto(raiz, parcial):
     contexto = _carregar(raiz)
     for modulo in (5, 6, 7):
@@ -182,7 +188,7 @@ def construir_produtos(raiz: Path, parcial=False, progresso=print):
         diagnostico = {"teste_independente": False, "usada_para_selecao": False, "geral": _resumo(ps20),
                       "publicacao": medir(ps20, [p["publicaria_politica_candidata"] for p in ps20]),
                       "calibracao": _calibracao(ps20, "confianca"),
-                      "pareado_m7": comparar_pareado(ler_jsonl(raiz, "artefatos/catalogo-m7-v1/predicoes_reserva_conhecida.jsonl"), ps20)}
+                      "pareado_m7": _comparar_reserva_m7(raiz, ps20)}
         ps_avaliacao, modelo100 = _corte(motor_final, qs, rs, dev | reserva, avaliacao, [nome])
         ps559 = [{**p, "confianca": prever(calibrador, p)} for p in ps_avaliacao[nome]]
         ps559 = [{**p, "publicaria_politica_candidata": aplicar(p, politica_final)} for p in ps559]

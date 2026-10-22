@@ -1,0 +1,52 @@
+{
+  "contagens": {
+    "questao": 594,
+    "tema": 0
+  },
+  "dimensoes": 1024,
+  "encoder_executado_na_migracao": false,
+  "entradas_configuracao_demais_fontes_identicas": true,
+  "fontes_sha256": {
+    "artefatos/preparacao/questoes_preparadas.jsonl": "2675cce95e184952acfc8e17acc9cef7bd7eb8dc9bf229fff47dbc654b144329",
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "classificacao_catalogo/catalogo.py": "43e15fb5d26191449479af40357d8b832ac08f304f6323e2f52e7c9e6600971d",
+    "classificacao_experimentos/entradas.py": "84126f632a0019dacb51a52fd88929e21fa538eca8088c307476c8f014958681",
+    "classificacao_experimentos/preparacao_embeddings.py": "3155f5b7740e7b8524c1bd7e8fc59f055fcc73e2a5981fc601d318f2c00a4ddf",
+    "classificacao_precisao/preparar_large.py": "23ee8f9b28c73f00852de01a78ca57c7f5b8e5408db60134027d2ffabdcc9be9",
+    "config/modulo7/catalogo_criminologia.json": "372d940764d81c91af33ec376d65be7ea570752b1650ef6097bc2af107f0cd1a",
+    "config/modulo7/catalogo_especial.json": "05fa8282674adfa3e5f8488e6cc148f6c380f8214ac4631e2a7d583fab2891ea",
+    "config/modulo7/catalogo_penal.json": "ce7b927e08d535737a418718547415d01cec895a7bf226bf1002cf83ba8f42db",
+    "config/modulo7/catalogo_processo.json": "7ca57c0f001814258775d4f08b26af24db3c05fc0a50c6e7d11674fcaea7e86c",
+    "config/modulo7/preparacao_catalogo.json": "d5fe588b8e41fa22ece3a0bde0792217fb809c482025742c18d0a96c55f49e2a",
+    "config/modulo8/embeddings_large.json": "209bbef7d42c6057084bcdcefa3c34b9f4c0be7c2682b055a8a3b2efafddfe04",
+    "config/modulo8/protocolo.json": "4ac9d655cf825b98bfc5b2151466e618637fd7d906deeaf0de6e3cd5730ba115"
+  },
+  "indice_antes_sha256": "507d36b0f1ff93a1db64abfaf3f845be508abd7331624208023ee281aa1d6cad",
+  "indice_depois_sha256": "d116f87f65b654e69308e20bf9851f1ad8ee9ea10b0b91bf0e41fff432777cdc",
+  "indice_migrado": "indice_migrado.json",
+  "indice_original": "indice_original.json",
+  "janelas_validadas": 614,
+  "justificativa": "O protocolo consta somente da lista FONTES no preparador congelado. Ele não é lido na construção dos textos, tokenização, inferência ou pooling. A alteração documenta a versão do protocolo vigente na retomada; os 594 vetores existentes foram gerados quando o índice referenciava o protocolo anterior.",
+  "mudanca_unica": {
+    "antes": "dd178b70592028c3c03351a6d6f478d3a91b04dc4a91cdcfde810115ecf88e99",
+    "campo": "identidade.fontes_sha256.config/modulo8/protocolo.json",
+    "depois": "4ac9d655cf825b98bfc5b2151466e618637fd7d906deeaf0de6e3cd5730ba115"
+  },
+  "registrado_em_utc": "2026-10-22T12:57:54.477054+00:00",
+  "registros_validados": 594,
+  "rotulos_ou_predicoes_abertos": false,
+  "schema": "migracao_procedencia_checkpoint_large_m8_v1",
+  "script_sha256": "ba8a9f8095c32f68d2c557fc74c22b30cddbb877d7594b30c5fbf4aa32b54ab1",
+  "validacoes": [
+    "sha256 individual",
+    "texto_sha256",
+    "dimensão",
+    "finitude",
+    "norma L2",
+    "tokens",
+    "janelas",
+    "ausência de truncamento",
+    "ausência de arquivos órfãos"
+  ],
+  "vetores_preservados_byte_a_byte": true
+}

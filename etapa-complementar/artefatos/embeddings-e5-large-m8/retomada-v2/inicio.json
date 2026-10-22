@@ -1,0 +1,20 @@
+{
+  "schema": "inicio_retomada_encoder_large_m8_v1",
+  "inicio_utc": "2026-10-22T13:21:06.370601+00:00",
+  "registros_ja_salvos": 851,
+  "registros_restantes": 179,
+  "meta_registros": 1030,
+  "contagens_ja_salvas": {
+    "questao": 659,
+    "tema": 192
+  },
+  "indice_inicio_sha256": "98fcca4df6416e25c108e0dc7d8b7bbd06089b1894d2a182216fca24625d3f2f",
+  "identidade_entradas_fontes_config_validada": true,
+  "todos_hashes_e_vetores_parciais_validados": true,
+  "memoria_inicio_monitoramento": {
+    "ram_livre_bytes": 730443776,
+    "comprometimento_livre_bytes": 7863324672
+  },
+  "tempo_anterior_total_nao_disponivel": true,
+  "suite_tests_encerrada_antes_desta_tentativa": true
+}

@@ -1,0 +1,69 @@
+{
+  "ajuste_final_testado_independentemente": false,
+  "avaliacao_total": 559,
+  "cobertura_intervalo": {
+    "inferior": 0.0,
+    "superior": 0.0
+  },
+  "cobertura_metodo": "Contagem exata das decisões nas 559 questões; exclui as 100 referências.",
+  "cobertura_prevista": 0.0,
+  "contrato_csv": {
+    "decisoes": {
+      "revisar": 659
+    },
+    "linhas": 659
+  },
+  "criterio_empirico_95_atendido_na_selecao_aninhada": false,
+  "decisoes_avaliacao": {
+    "fora": 0,
+    "publicar": 0,
+    "revisar": 559
+  },
+  "media_confianca_interpretacao": "Média das probabilidades estimadas pelo calibrador nas publicadas; diagnóstico separado da precisão empírica e da extrapolação.",
+  "media_confianca_publicadas": null,
+  "meta_95_comprovada": false,
+  "politica_habilitada": false,
+  "precisao_intervalo": null,
+  "precisao_intervalo_natureza": "Sem previsão de precisão para publicações; nenhum intervalo extrapolado.",
+  "precisao_metodo": "Taxa empírica das publicações na seleção aninhada externa sobre 80 referências, extrapolada às publicadas entre as 559 sob hipótese de comparabilidade. Indefinida sem publicações; não é precisão observada nas 559 nem garantia de 95%.",
+  "precisao_observada_avaliacao": null,
+  "precisao_observada_avaliacao_motivo": "As 559 questões de avaliação não possuem rótulos disponíveis.",
+  "precisao_prevista": null,
+  "precisao_prevista_e_extrapolacao": false,
+  "precisao_txt_sentinela_zero": true,
+  "procedencias_csv": {
+    "avaliacao_modelo100": 559,
+    "reserva_conhecida_modelo80": 20,
+    "selecao_aninhada": 80
+  },
+  "publicacoes_por_procedencia": {
+    "avaliacao_modelo100": 0,
+    "reserva_conhecida_modelo80": 0,
+    "selecao_aninhada": 0
+  },
+  "publicadas": 0,
+  "qualificacoes_avaliacao": [
+    "As 80 referências já orientaram módulos anteriores; a seleção aninhada M8 é exploratória.",
+    "As 20 referências reservadas já eram conhecidas; não constituem holdout independente novo.",
+    "As 559 sugestões usam ranking reajustado com 100 referências; esse reajuste não recebeu novo teste independente.",
+    "Mudanças de distribuição nas questões recentes não são medidas por um conjunto rotulado recente.",
+    "A decisão fora não é automatizada; baixa confiança encaminha à revisão com tema sugerido."
+  ],
+  "ranking_aprendido_com100": true,
+  "receita_selecionada": "sinais_large",
+  "referencia_selecao_aninhada": {
+    "count": 80,
+    "coverage": 0.05,
+    "k": 4,
+    "n": 4,
+    "precision": 1.0,
+    "wilson95": {
+      "inferior": 0.5101091635454027,
+      "superior": 1.0
+    }
+  },
+  "referencias_excluidas": 100,
+  "referencias_reutilizadas": true,
+  "schema": "previsao_m8_v1",
+  "universo_csv": 659
+}

@@ -1,0 +1,25 @@
+{
+  "conferido_em_utc": "2026-10-22T14:08:29.142342+00:00",
+  "gerador_sha256": "a8fc9cc6e9a66c7c209114617e283602bada3babdefac20ff29560e3f57d800d",
+  "imagens_locais_nao_versionadas_sha256": {
+    "tmp/pdfs/final-m8-1.png": "6af2734937597817c227a96619033697f7a5d8df66e70b32e1467d91cfea2985",
+    "tmp/pdfs/final-m8-2.png": "84eacfccc60b086bf882a751c1b758739d522ccb80457470f632b78eb36d5256",
+    "tmp/pdfs/final-m8-3.png": "2717e691a33d62f0219a34340f7e765b78ffb1de184facac15e8d2f6a9561e54",
+    "tmp/pdfs/final-m8-4.png": "10e72b2ec6440179c4910321a959c0c9c85628da19a9d3ea532c1a3a32a561e9"
+  },
+  "inspecao_visual": "Quatro paginas renderizadas por Poppler a 110 DPI e inspecionadas visualmente; texto legivel, sem glifos ausentes, cortes, sobreposicoes ou tabelas quebradas. Dois espacos corrigidos e versao final reinspecionada.",
+  "memo_pagina4": true,
+  "nome_completo_primeira_pagina": true,
+  "paginas": 4,
+  "paginas_inspecionadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pdf_sha256": "c4a2b82e1995c7645963da8b8ea7b525b9e4459d73adbfef53d8c224fed1471e",
+  "reproducao_pdf_byte_a_byte": "scripts/gerar_relatorio_precisao.py --verificar aprovado",
+  "rodapes_22_out_2026": 4,
+  "schema": "qualidade_relatorio_m8_v1",
+  "status": "aprovado"
+}

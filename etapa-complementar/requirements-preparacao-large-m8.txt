@@ -1,0 +1,5 @@
+# Opcional: reconstruir embeddings E5-large. A decisao usa apenas Python padrao.
+# Versoes usadas na preparacao, registradas em config/modulo8/embeddings_large.json.
+onnxruntime==1.31.0
+tokenizers==0.23.3
+numpy==2.5.4

@@ -1,0 +1,128 @@
+{
+  "calibracao": {
+    "acertos": 13,
+    "brier": 0.18920261591852422,
+    "ece": 0.06486336739410267,
+    "epsilon_logloss": 1e-15,
+    "faixas": [
+      {
+        "inclui_superior": false,
+        "inferior": 0.0,
+        "intervalo_wilson_95": null,
+        "n": 0,
+        "probabilidade_media": null,
+        "superior": 0.2,
+        "taxa_acerto": null
+      },
+      {
+        "inclui_superior": false,
+        "inferior": 0.2,
+        "intervalo_wilson_95": {
+          "inferior": 0.0,
+          "superior": 0.7934506856227626
+        },
+        "n": 1,
+        "probabilidade_media": 0.3249046688904137,
+        "superior": 0.4,
+        "taxa_acerto": 0.0
+      },
+      {
+        "inclui_superior": false,
+        "inferior": 0.4,
+        "intervalo_wilson_95": {
+          "inferior": 0.21521606221387762,
+          "superior": 0.7847839377861223
+        },
+        "n": 8,
+        "probabilidade_media": 0.4978920015989154,
+        "superior": 0.6,
+        "taxa_acerto": 0.5
+      },
+      {
+        "inclui_superior": false,
+        "inferior": 0.6,
+        "intervalo_wilson_95": {
+          "inferior": 0.4364971778135299,
+          "superior": 0.9699466302516934
+        },
+        "n": 6,
+        "probabilidade_media": 0.7580807027741945,
+        "superior": 0.8,
+        "taxa_acerto": 0.8333333333333334
+      },
+      {
+        "inclui_superior": true,
+        "inferior": 0.8,
+        "intervalo_wilson_95": {
+          "inferior": 0.3755346297625255,
+          "superior": 0.9637758913675698
+        },
+        "n": 5,
+        "probabilidade_media": 0.9007965816856259,
+        "superior": 1.0,
+        "taxa_acerto": 0.8
+      }
+    ],
+    "intervalo_wilson_95": {
+      "inferior": 0.4328542766852363,
+      "superior": 0.8188081758989179
+    },
+    "logloss": 0.5818153348777384,
+    "n": 20,
+    "taxa_acerto": 0.65
+  },
+  "geral": {
+    "acertos": {
+      "exato": 8,
+      "imediato": 13,
+      "ramo": 13
+    },
+    "acertos_top_k_ramo": 17,
+    "niveis_sugeridos": {
+      "1": 6,
+      "2": 14
+    },
+    "recuos_hierarquicos": 0,
+    "sem_evidencia": 0,
+    "taxa_top_k_ramo": 0.85,
+    "taxas_acerto": {
+      "exato": 0.4,
+      "imediato": 0.65,
+      "ramo": 0.65
+    },
+    "total": 20
+  },
+  "pareado_m7": {
+    "exato": {
+      "ambos_corretos": 7,
+      "ambos_errados": 8,
+      "ganho_liquido": -3,
+      "melhorou": 1,
+      "piorou": 4
+    },
+    "imediato": {
+      "ambos_corretos": 11,
+      "ambos_errados": 6,
+      "ganho_liquido": 1,
+      "melhorou": 2,
+      "piorou": 1
+    },
+    "ramo": {
+      "ambos_corretos": 11,
+      "ambos_errados": 6,
+      "ganho_liquido": 1,
+      "melhorou": 2,
+      "piorou": 1
+    }
+  },
+  "publicacao": {
+    "count": 20,
+    "coverage": 0.0,
+    "k": 0,
+    "n": 0,
+    "precision": null,
+    "wilson95": null
+  },
+  "teste_independente": false,
+  "usada_para_selecao": false
+}

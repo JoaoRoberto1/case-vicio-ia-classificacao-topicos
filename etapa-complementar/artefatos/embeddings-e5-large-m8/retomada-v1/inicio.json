@@ -1,0 +1,9 @@
+{
+  "schema": "inicio_retomada_encoder_large_m8_v1",
+  "inicio_utc": "2026-10-22T12:58:30.622429+00:00",
+  "registros_ja_salvos": 594,
+  "registros_restantes": 436,
+  "meta_registros": 1030,
+  "indice_inicio_sha256": "d116f87f65b654e69308e20bf9851f1ad8ee9ea10b0b91bf0e41fff432777cdc",
+  "tempo_anterior_total_nao_disponivel": true
+}

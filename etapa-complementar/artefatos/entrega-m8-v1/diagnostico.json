@@ -1,0 +1,69 @@
+{
+  "fontes_sha256": {
+    "artefatos/precisao-m8-v1/manifesto.json": "f86beb032e850fc0ab6e30d3c9a2b4896974d6d7b1b6ce9f039d31c58b642005",
+    "artefatos/precisao-m8-v1/politica.json": "26b27577b49a077a9287bad4663419b586b117a6366167caccd518a34ae1fe4a",
+    "artefatos/precisao-m8-v1/predicoes_aninhadas.jsonl": "df85532a4b3f69c327a9da1e312a26a767b191ea428ddb47ad380771f1890722",
+    "artefatos/precisao-m8-v1/predicoes_desenvolvimento.jsonl": "b8c7055d993faa6c59ff066f7dbc906c0a9fd07348cb495981e404a2658052ec",
+    "artefatos/precisao-m8-v1/predicoes_reserva_conhecida.jsonl": "dfbe9182fa02ad2eb710bcdbcec08716aad132088becc85e4d908bf47ab76a36",
+    "artefatos/preparacao/rotulos_referencia.jsonl": "c08783afe6c144d5bca99c438bb7eae2326240e7110bb07e4e894eeaa1e029dc",
+    "artefatos/preparacao/temas_preparados.json": "834ab023c9e41d0ea1d975ae6f5a8177c58da1e0f31b0e9304b19849a83f8724",
+    "scripts/diagnosticar_precisao.py": "6b345f3100be946332c01b3b49d2ad0ad7b39355a46f9e40132e0987b97b7431"
+  },
+  "limite": "Agregação estrutural; não demonstra causas jurídicas nem constitui adjudicação por LLM.",
+  "resultados": {
+    "receita_escolhida80": {
+      "central_visto_treino": {
+        "k": 21,
+        "n": 27
+      },
+      "erros_ordenacao_com_aceito_top5": 14,
+      "n": 80,
+      "relacoes": {
+        "ancestral": 2,
+        "descendente": 12,
+        "exato": 39,
+        "irmao_erro": 2,
+        "outra_disciplina_erro": 6,
+        "outro_ramo_mesma_disciplina_erro": 13,
+        "referencia_fora": 6
+      },
+      "sem_aceito_top5_incluindo_fora": 13
+    },
+    "reserva_conhecida20": {
+      "central_visto_treino": {
+        "k": 7,
+        "n": 10
+      },
+      "erros_ordenacao_com_aceito_top5": 4,
+      "n": 20,
+      "relacoes": {
+        "descendente": 5,
+        "exato": 8,
+        "irmao_erro": 1,
+        "outra_disciplina_erro": 3,
+        "outro_ramo_mesma_disciplina_erro": 1,
+        "referencia_fora": 2
+      },
+      "sem_aceito_top5_incluindo_fora": 3
+    },
+    "selecao_aninhada80": {
+      "central_visto_treino": {
+        "k": 21,
+        "n": 27
+      },
+      "erros_ordenacao_com_aceito_top5": 12,
+      "n": 80,
+      "relacoes": {
+        "ancestral": 2,
+        "descendente": 9,
+        "exato": 43,
+        "irmao_erro": 3,
+        "outra_disciplina_erro": 6,
+        "outro_ramo_mesma_disciplina_erro": 11,
+        "referencia_fora": 6
+      },
+      "sem_aceito_top5_incluindo_fora": 14
+    }
+  },
+  "schema": "diagnostico_precisao_m8_v1"
+}

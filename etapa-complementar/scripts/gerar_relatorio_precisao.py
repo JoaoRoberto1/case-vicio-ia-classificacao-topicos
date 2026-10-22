@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import importlib.util
 import json
+import math
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -22,6 +23,40 @@ def percentual(valor):
     return "indefinida" if valor is None else numero(valor * 100) + "%"
 
 
+def linhas_preparacao(receita, small, large, tempo_questoes=None):
+    """Separa encoders e não trata checkpoints reutilizados como trabalho medido."""
+    horas_small = 50000 * small["segundos_observados"] / small["registros_observados"] / 3600
+    linhas = [f"| Preparação Small | {numero(small['segundos_observados'],1)}s /{small['registros_observados']} registros | {numero(horas_small)} horas; aproximação com questões e temas misturados |"]
+    nota = "A preparação Small inclui carga fixa e uma composição diferente da semana projetada."
+    if "large" in receita:
+        total = large["registros"]
+        reutilizados = large["registros_reutilizados_checkpoint"]
+        if (type(total) is not int or type(reutilizados) is not int
+                or not 0 <= reutilizados <= total or total <= 0):
+            raise ValueError("Contagens de preparação Large inválidas.")
+        if not isinstance(tempo_questoes, dict):
+            raise ValueError("Projeção Large exige evidência dos intervalos de questões.")
+        n = tempo_questoes["registros_medidos"]
+        intervalos = tempo_questoes["intervalos_ns"]
+        registros = tempo_questoes["registros"]
+        derivados = [b["concluido_mtime_ns"] - a["concluido_mtime_ns"]
+                     for a, b in zip(registros, registros[1:])]
+        if (type(n) is not int or n <= 0 or len(registros) != n + 1
+                or len(intervalos) != n or derivados != intervalos
+                or any(type(x) is not int or x <= 0 for x in intervalos)
+                or tempo_questoes["temas_incluidos"] is not False
+                or tempo_questoes["carga_encoder_ou_594_reutilizados_incluidos"] is not False
+                or not math.isclose(sum(intervalos) / 1e9, tempo_questoes["segundos"], abs_tol=1e-9)):
+            raise ValueError("Evidência temporal Large inconsistente.")
+        horas_large = 50000 * tempo_questoes["segundos"] / n / 3600
+        linhas.append(f"| Preparação Large adicional | {numero(tempo_questoes['segundos'],1)}s /{n} questões ({tempo_questoes['janelas_medidas']} janelas) | {numero(horas_large)} horas adicionais; extrapolação linear condicional |")
+        nota = (f"Large também exige Small: cenário somado de{numero(horas_small + horas_large)} horas. "
+                f"Large usa{n} questões contíguas não aleatórias, por timestamps de arquivos em host compartilhado; "
+                "não garante representatividade e exclui carga inicial e reaproveitamento de cache. "
+                "A duração integral desde zero permanece desconhecida.")
+    return "\n".join(linhas), nota
+
+
 def construir_markdown():
     m = ler("artefatos/precisao-m8-v1/metricas.json")
     r = ler("artefatos/precisao-m8-v1/diagnostico_reserva_conhecida.json")
@@ -31,19 +66,22 @@ def construir_markdown():
     antigo = ler("artefatos/entrega-m5-v1/diagnostico.json")
     large = ler("artefatos/embeddings-e5-large-m8/execucao.json")
     receita = m["receita_selecionada"]
+    tempo_questoes = (ler("artefatos/embeddings-e5-large-m8/retomada-v1/tempo_questoes.json")
+                     if "large" in receita else None)
     nomes = {"baseline_m7": "M7 preservado", "sinais_small": "Small + sinais",
              "sinais_small_hierarquico": "Small + sinais + hierarquia", "large_rrf20": "Large + fusão RRF",
              "sinais_large": "Large + sinais", "sinais_large_hierarquico": "Large + sinais + hierarquia"}
     escolhido = m["metricas_receitas"][receita]
+    interna = m["politica_selecionada_dev"]
     externa = m["selecao_aninhada"]
     grupo = externa["publicacao"]
     pub = p["publicadas"]
     desempenho = (f"A política candidata publica {pub}/559 questões ({percentual(p['cobertura_prevista'])}). "
                   f"A precisão prevista é {percentual(p['precisao_prevista'])}, extrapolada de uma avaliação exploratória, sem garantia populacional."
                   if pub else "As 559 questões seguem para revisão. A meta de precisão de 95% com cobertura não foi atingida; sem publicações, a precisão é indefinida.")
-    ranking = ("Fusão das posições lexical e semântica por RRF, k=20, pesos iguais; não aprende pesos com os100 rótulos."
+    ranking = ("Fusão das posições lexical e semântica por RRF, k=20, pesos iguais; não aprende pesos com os100 rótulos. Sinais específicos informam confiança e política, sem mudar o ranking RRF."
                if receita == "large_rrf20" else
-               "Ranking supervisionado por pares, com regularização e peso igual por questão. Aprende com centrais e extras humanos; o escore não é probabilidade.")
+               "Ranking supervisionado por pares, com regularização e peso igual por questão. Aprende com centrais e extras humanos; o escore não é probabilidade. Variantes com sinais usam normas, artigos, termos e títulos.")
     ajuste = ("O ranking RRF é fixo: os80 rótulos orientam seleção e calibração; os20 conhecidos entram apenas no diagnóstico."
               if receita == "large_rrf20" else
               "O ranking final é reajustado nas100 referências; a confiança usa apenas as previsões fora do treino das80. Esse reajuste não recebeu teste independente novo.")
@@ -51,18 +89,21 @@ def construir_markdown():
                          for n, x in m["metricas_receitas"].items())
     diagnostico = d["selecao_aninhada80"]
     rel = diagnostico["relacoes"]
-    comparacao = (f"A publicação externa teve {grupo['k']}/{grupo['n']} acertos ({percentual(grupo['precision'])}); "
-                  "essa taxa de grupo informa a previsão, sob hipótese de comparabilidade."
-                  if grupo["n"] else "Não houve publicações na avaliação externa; ela não oferece uma estimativa de precisão entre publicadas.")
+    comparacao = (f"As regras candidatas aceitaram {grupo['n']}/80 ({percentual(grupo['coverage'])}), "
+                  f"com {grupo['k']}/{grupo['n']} acertos e Wilson95% de{percentual(grupo['wilson95']['inferior'])} "
+                  f"a{percentual(grupo['wilson95']['superior'])}. "
+                  f"São menos de10 aceitos: a política final ficou desabilitada."
+                  if grupo["n"] else "As regras candidatas não aceitaram questões na avaliação externa; não há estimativa de precisão entre aceitas.")
+    origem_aceites = "; ".join(
+        f"bloco{x['particao']}: {nomes[x['politica']['receita']]} aceitou{x['resultado_externo']['n']}"
+        for x in externa["particoes"])
     confianca = externa["calibracao"]
     constante = externa["calibracao_constante"]
     inferencia = b["tempos_segundos"]["inferencia_559"]
     horas = b["estimativa_linear_50000"]["segundos_so_inferencia"] / 3600
     revisao_horas = (50000 * (1 - p["cobertura_prevista"]) * 2) / 60
-    usa_large = "large" in receita
-    prep = ({"segundos_observados": large["segundos"], "registros_observados": large["registros"]}
-            if usa_large else antigo["contas_50_mil"]["preparacao_m3"])
-    prep_horas = 50000 * prep["segundos_observados"] / prep["registros_observados"] / 3600
+    preparo_linhas, preparo_nota = linhas_preparacao(
+        receita, antigo["contas_50_mil"]["preparacao_m3"], large, tempo_questoes)
     status_memo = (f"A política separou {pub} das559 questões para publicação candidata; as demais seguem para revisão. "
                    "A estimativa é exploratória e precisa de confirmação em questões novas antes de uma ampliação em produção."
                    if pub else "A entrega encaminha todas as559 questões à revisão. Ainda não há evidência suficiente para publicação automática com95% de precisão.")
@@ -70,7 +111,7 @@ def construir_markdown():
 
 # Classificação de tópicos da Vício
 
-Etapa complementar | Relatório final M8 | 21 de outubro de 2026
+Etapa complementar | Relatório final M8 | 22 de outubro de 2026
 
 **Resultado:** {nomes[receita]} foi a receita escolhida. Acertou {escolhido['acertos']['ramo']}/80 sugestões por ramo no desenvolvimento e {r['geral']['acertos']['ramo']}/20 no diagnóstico já conhecido. {desempenho}
 
@@ -81,11 +122,11 @@ O programa recebe659 questões, a árvore e100 referências humanas. Limpa HTML 
 | Componente | Função e procedência |
 |---|---|
 | Catálogo | Descrições e termos para371 temas, com fontes e ambiguidades;88 âncoras de leis/artigos para87 temas. Preparação por LLM somente sobre taxonomia e fontes, sem consultar classificações de questões. |
-| Representação | TF-IDF do catálogo; E5-small FP32 de384 dimensões e alternativa E5-large INT8 de1024, preparados localmente. Texto longo é dividido em janelas, sem corte silencioso. Versões e hashes estão nos manifestos. |
-| Ordenação escolhida | {ranking} Variantes com sinais usam normas, artigos, termos e títulos. A relação com uma lei é evidência textual, não validação jurídica. |
+| Representação | TF-IDF do catálogo; E5-small FP32 de384 dimensões e alternativa E5-large INT8 de1024, preparados localmente. As receitas Large também requerem vetores Small. Texto longo usa janelas, sem corte silencioso. Versões e hashes estão nos manifestos. |
+| Ordenação escolhida | {ranking} Uma referência legal é evidência textual, não validação jurídica. |
 | Confiança e publicação | Logística regularizada com nove atributos, ajustada em previsões fora do treino. Dezoito regras por receita com suporte mínimo10 e precisão observada mínima95%; validação externa antes de habilitar a política. |
 
-A variante hierárquica recua ao ancestral comum mais específico dos três primeiros candidatos, quando ativo, não raiz e não genérico. Níveis e recuos são registrados. Não há classificação manual das questões, reutilização de rótulos de IA anteriores ou uso das respostas do concorrente. Não houve revisão jurídica humana dos descritores.
+A variante hierárquica recua ao ancestral comum mais específico dos três primeiros candidatos, quando ativo, não raiz e não genérico. Níveis e recuos são registrados. As referências de classificação são exclusivamente as100 fornecidas pela equipe, sem rótulos artificiais ou classificação manual das questões. Não houve revisão jurídica humana dos descritores.
 
 Fontes: [catálogo](../config/modulo7/preparacao_catalogo.json), [âncoras](../config/modulo8/ancoras_normativas.json), [protocolo](../config/modulo8/protocolo.json), [encoder maior](../config/modulo8/embeddings_large.json). E5-large: revisão 3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3, licença MIT. INT8 oficial executado em AVX2; não se presume equivalência ao FP32.
 
@@ -93,28 +134,28 @@ Fontes: [catálogo](../config/modulo7/preparacao_catalogo.json), [âncoras](../c
 
 # Avaliação, escolha e previsão
 
-As100 referências têm92 questões dentro da árvore, oito fora,61 temas centrais e39 questões com extras. Todas vêm do banco anterior; não há referência recente disponível. O acerto aceita central, extra ou ancestral/descendente de um deles; irmãos contam como erro.
+As100 referências têm92 questões dentro da árvore, oito fora, 61 temas centrais e39 questões com extras. Todas vêm do banco anterior; não há referência recente disponível. O acerto aceita central, extra ou ancestral/descendente de um deles; irmãos contam como erro.
 
-## Comparação registrada antes da medição M8
+## Grade fixada antes da medição M8
 
 | Receita | Acerto por ramo | Exato / top5 |
 |---|---:|---:|
 | Híbrido original M3 | 37/80 | 24 /54 |
 {tabela}
 
-O M6 já havia testado oito variações sem superar o M3. Enriquecer o catálogo no M7 elevou o acerto a54/80. O M8 compara esse resultado preservado, seis sinais específicos e o encoder maior, mantendo a grade fixada. O maior modelo não recebe preferência por tamanho: a regra prioriza cobertura elegível, precisão, acerto global e desempates fixos.
+A regra fixada prioriza cobertura elegível, precisão e depois acerto global. Na seleção interna, {nomes[receita]} com confiança mínima{numero(interna['corte'])} teve{interna['k']}/{interna['n']} aceitas corretas ({percentual(interna['n']/80)} das80). RRF também teve14/14, mas perdeu no desempate:50/80 contra{escolhido['acertos']['ramo']}/80. M7 tinha54/80, sem grupo elegível. Portanto, a escolhida não melhorou o acerto global: perdeu um acerto frente ao M7.
 
-Em três blocos externos das80 referências, o treino é subdividido para escolher receita e regra e ajustar a confiança. Rótulos externos ficam fora de todos esses ajustes. O procedimento completo teve {externa['geral']['acertos']['ramo']}/80 acertos por ramo e {externa['geral']['acertos_top_k_ramo']}/80 no top5. {comparacao}
+Em três blocos externos, receita, regra e confiança são ajustadas apenas no treino. O procedimento teve {externa['geral']['acertos']['ramo']}/80 acertos por ramo, {externa['geral']['acertos']['exato']} exatos e {externa['geral']['acertos_top_k_ramo']} no top5. {comparacao} Origem: {origem_aceites}. Os4/4 vieram do RRF; não validam diretamente a receita final nem repetem o resultado interno de14/14.
 
-Na confiança externa, Brier={numero(confianca['brier'],4)} e log-loss={numero(confianca['logloss'],4)}, contra Brier={numero(constante['brier'],4)} da constante ajustada no treino; menor é melhor. ECE={numero(confianca['ece'],4)}, em cinco faixas fixas. Esses diagnósticos não certificam probabilidades individuais.
+Na confiança externa, Brier={numero(confianca['brier'],4)} contra{numero(constante['brier'],4)} da constante ajustada no treino; ECE={numero(confianca['ece'],4)} contra{numero(constante['ece'],4)}, em cinco faixas. Menor é melhor em ambos: o Brier melhorou, o ECE piorou. O resultado misto não certifica probabilidades individuais.
 
 ## Limites da evidência e entrega
 
-As80 referências orientaram módulos anteriores, e as20 inicialmente reservadas já eram conhecidas. O resultado permanece exploratório: a validação aninhada controla a seleção desta grade, sem apagar a adaptação histórica. O cross-fit interno da confiança compartilha treinos dos rankers; não é um teste independente. As20 foram consultadas somente depois da escolha: {r['geral']['acertos']['ramo']}/20 por ramo e {r['geral']['acertos_top_k_ramo']}/20 no top5.
+As80 referências orientaram módulos anteriores; as20 reservadas já eram conhecidas. A validação aninhada separa esta seleção, sem apagar a adaptação histórica. O cross-fit interno compartilha treinos dos rankers. O diagnóstico das20 veio depois da escolha: {r['geral']['acertos']['ramo']}/20 por ramo e {r['geral']['acertos_top_k_ramo']}/20 no top5; não é um teste independente novo.
 
 O CSV reúne80 predições externas aninhadas,20 do diagnóstico e559 da execução final. {ajuste} A previsão exclui as100 referências: cobertura={pub}/559. A precisão real das559 é desconhecida; intervalo de Wilson exploratório não cobre adaptação ou mudança de distribuição. Se não há publicadas, TXT usa zero como sentinela e JSON registra null.
 
-Fontes: [métricas](../artefatos/precisao-m8-v1/metricas.json), [diagnóstico das20](../artefatos/precisao-m8-v1/diagnostico_reserva_conhecida.json), [previsão](previsao.json). Não são resultados de um novo teste independente.
+Fontes: [métricas](../artefatos/precisao-m8-v1/metricas.json), [diagnóstico das 20](../artefatos/precisao-m8-v1/diagnostico_reserva_conhecida.json), [previsão](previsao.json). Não são resultados de um novo teste independente.
 
 <!-- pagina -->
 
@@ -122,7 +163,7 @@ Fontes: [métricas](../artefatos/precisao-m8-v1/metricas.json), [diagnóstico da
 
 ## O que ainda atrapalha
 
-A árvore original tem337 descrições de parentesco,20 vazias e oito grupos de títulos repetidos. O enriquecimento melhora a representação, mas não estabelece a convenção editorial da equipe. Recortes ambíguos como Parte1/2 continuam sem fronteiras inventadas. Os100 exemplos cobrem apenas61 centrais, o que limita o aprendizado de distinções finas.
+A árvore original tem337 descrições de parentesco, 20 vazias e oito grupos de títulos repetidos. O enriquecimento melhora a representação, mas não estabelece a convenção editorial da equipe. Recortes ambíguos como Parte1/2 continuam sem fronteiras inventadas. Os100 exemplos cobrem apenas61 centrais, o que limita o aprendizado de distinções finas.
 
 Na seleção externa das80, a comparação estrutural encontrou {rel.get('outra_disciplina_erro',0)} erros em outra disciplina, {rel.get('outro_ramo_mesma_disciplina_erro',0)} em outro ramo da mesma disciplina, {rel.get('irmao_erro',0)} em tema irmão e {rel.get('referencia_fora',0)} referências fora. Em {diagnostico['erros_ordenacao_com_aceito_top5']} erros havia destino aceito no top5; em {diagnostico['sem_aceito_top5_incluindo_fora']} casos não havia, incluindo fora. São relações da árvore, não causas jurídicas demonstradas por IA.
 
@@ -134,17 +175,17 @@ As medidas locais usam Windows e CPU. Uma execução em ambiente compartilhado n
 
 | Fase | Medida local | Projeção para50 mil |
 |---|---|---|
-| Preparação selecionada | {numero(prep['segundos_observados'],1)}s /{prep['registros_observados']} registros, misturando questões e temas | {numero(prep_horas)} horas; aproximação com custo fixo e composição diferente |
+{preparo_linhas}
 | Decisão com vetores prontos | {numero(inferencia,1)}s para559; carga separada:{numero(b['tempos_segundos']['carga_e_verificacao_inicial'],1)}s | {numero(horas)} horas só de inferência |
 | Revisão humana | Hipótese:2min por questão revisada; cobertura mantida | {numero(revisao_horas,1)} horas de revisão |
 
-Não houve custo de API. Computador, energia e revisão têm custo: a conta é horas-máquina vezes sua tarifa mais horas de revisão vezes o custo do especialista. O tempo humano acima é hipótese de cenário, não duração medida. O gargalo operacional depende da cobertura validada, não apenas da velocidade do código.
+{preparo_nota} Não houve custo de API. Computador, energia e revisão têm custo: horas-máquina vezes tarifa mais horas de revisão vezes custo do especialista. O tempo humano é hipótese, não duração medida.
 
-Cada correção deve registrar central, extras ou fora, justificativa, revisor e versões da árvore e do sistema. Avaliar candidatos semanalmente, com novas correções e teste temporal separado; promover só com precisão e cobertura sustentadas, preservando a versão anterior. Essa operação é proposta, não serviço implantado.
+Em produção, processar em lotes e liberar caches de consultas para limitar RAM. Cada correção registra central, extras ou fora, justificativa, revisor e versões. Avaliar candidatos semanalmente com novas correções e teste temporal separado; promover só com precisão e cobertura sustentadas, preservando a versão anterior. Essa operação é proposta, não serviço implantado.
 
 Para regenerar CSV e previsão, na pasta etapa-complementar: `python -E -X utf8 -B -S scripts/entregar_precisao.py`. O README separa esse comando da reconstrução dos embeddings e do PDF. A verificação em cópia bloqueia rede, credenciais, encoders e pesos.
 
-Fontes: [benchmark](../artefatos/checkpoints/benchmark_modulo8.json), [diagnóstico estrutural](../artefatos/entrega-m8-v1/diagnostico.json), [preparação large](../artefatos/embeddings-e5-large-m8/execucao.json). Projeções não são garantias de capacidade.
+Fontes: [benchmark](../artefatos/checkpoints/benchmark_modulo8.json), [diagnóstico estrutural](../artefatos/entrega-m8-v1/diagnostico.json), [preparação Small](../artefatos/entrega-m5-v1/diagnostico.json), [execução Large](../artefatos/embeddings-e5-large-m8/execucao.json), [intervalos Large](../artefatos/embeddings-e5-large-m8/retomada-v1/tempo_questoes.json). Projeções não garantem capacidade.
 
 <!-- pagina -->
 
@@ -186,15 +227,37 @@ Registrar o tema central, os temas adicionais aceitos, o motivo da correção e 
     return "".join(trechos)
 
 
+def gerar_pdf(markdown):
+    from reportlab.pdfgen import canvas
+    from unittest.mock import patch
+
+    spec = importlib.util.spec_from_file_location("render_relatorio_m5", RAIZ / "scripts/gerar_relatorio.py")
+    modulo = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(modulo)
+    rodapes_atualizados = 0
+
+    class CanvasRelatorio(canvas.Canvas):
+        def drawString(self, x, y, text, *args, **kwargs):
+            nonlocal rodapes_atualizados
+            if text == "Vício | Etapa complementar | 21 out 2026":
+                text = "Vício | Etapa complementar | 22 out 2026"
+                rodapes_atualizados += 1
+            return super().drawString(x, y, text, *args, **kwargs)
+
+    # Reutiliza o layout M5 sem alterar sua fonte congelada por hashes.
+    with patch.object(canvas, "Canvas", CanvasRelatorio):
+        pdf = modulo.gerar(markdown)
+    if rodapes_atualizados != 4:
+        raise ValueError("Os quatro rodapés devem usar a data da entrega M8.")
+    return pdf
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--verificar", action="store_true")
     args = parser.parse_args()
     markdown = construir_markdown()
-    spec = importlib.util.spec_from_file_location("render_relatorio_m5", RAIZ / "scripts/gerar_relatorio.py")
-    modulo = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(modulo)
-    pdf = modulo.gerar(markdown)
+    pdf = gerar_pdf(markdown)
     for nome, dados in (("relatorio.md", markdown.encode("utf-8")), ("relatorio.pdf", pdf)):
         destino = DESTINO / nome
         if args.verificar:

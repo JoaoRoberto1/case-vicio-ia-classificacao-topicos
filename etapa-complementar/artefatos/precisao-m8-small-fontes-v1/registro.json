@@ -1,0 +1,23 @@
+{
+  "commit_original": "043b14e4e67ed2d8ee894c5d0a1eac25ac337687",
+  "escopo_correcao": "Somente compatibilidade do parser no diagnostico das 20 referencias conhecidas, executado depois da selecao. Nao muda receitas, protocolo, escolha, calibracao ou regras de publicacao.",
+  "fonte_corrigida_sha256": "33b1d890fea953f0aba61e2ccf9efc147fa648caaba080a3bced663d22feb1e9",
+  "fonte_original": "classificacao_precisao/experimento.py",
+  "fonte_original_bytes": 15057,
+  "fonte_original_identica_ao_commit": true,
+  "fonte_original_sha256": "5c29dcdb149a5a07e38acb6c1004b947d0b2b2e437b5f40d34c5491322c03a5f",
+  "fonte_preservada": "artefatos/precisao-m8-small-fontes-v1/experimento.py",
+  "manifestos_e_produtos_historicos_preservados": true,
+  "motivo": "Preservar a fonte do experimento parcial M8 antes da correcao de leitura do diagnostico historico M7. O arquivo M7 tem extensao .jsonl, mas seu produtor gravou um array JSON indentado.",
+  "protocolo_decisao_alterado": false,
+  "schema": "fonte_historica_precisao_m8_small_v1",
+  "validacao_correcao": {
+    "experimento_completo_executado_nesta_validacao": false,
+    "modulos": [
+      "tests.test_reserva_historica_precisao",
+      "tests.test_experimento_precisao"
+    ],
+    "segundos": 0.568,
+    "testes_sinteticos_aprovados": 17
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "conclusao_retomada_encoder_large_m8_v1",
+  "verificado_em_utc": "2026-10-22T13:25:04.391003+00:00",
+  "estado": "cache_completo_validado",
+  "codigo_saida_ultima_execucao": 0,
+  "questoes": 659,
+  "temas": 371,
+  "registros": 1030,
+  "janelas": 1053,
+  "dimensoes": 1024,
+  "truncados": 0,
+  "todos_registros_hash_texto_norma_dimensao_conferidos": true,
+  "cache_final_identico_aos_parciais": true,
+  "entradas_config_fontes_atuais_conferidas": true,
+  "indices_anteriores_reconstruidos_sha256": {
+    "594": "d116f87f65b654e69308e20bf9851f1ad8ee9ea10b0b91bf0e41fff432777cdc",
+    "851": "98fcca4df6416e25c108e0dc7d8b7bbd06089b1894d2a182216fca24625d3f2f"
+  },
+  "vetores_594_originais_e_851_da_primeira_retomada_preservados": true,
+  "produtos_sha256": {
+    "vetores.json": "ccc440ce7edb031a03bdd16b235aa394d02be3505907e527f5cdaef1399dd74c",
+    "manifesto.json": "c2bfd4d39f10bb2e43cc3450d0bf7fe4ae26f2147201c8fb044d951d02a92580",
+    "execucao.json": "b0a5df434625083e33f27009ba61c97d84dc3473e10f47e55db9e3fcee332451"
+  },
+  "evidencias_sha256": {
+    "migracao-protocolo-v1/indice_migrado.json": "d116f87f65b654e69308e20bf9851f1ad8ee9ea10b0b91bf0e41fff432777cdc",
+    "migracao-protocolo-v1/indice_original.json": "507d36b0f1ff93a1db64abfaf3f845be508abd7331624208023ee281aa1d6cad",
+    "migracao-protocolo-v1/manifesto.json": "0f76eaafc8038248318d07eebe4553c62e3fbc0bf69964d259c57a6ec2ab3035",
+    "retomada-v1/inicio.json": "cf6044b0125cfcc76a26a71f9a9653cfb6e46544412f773408960673197bf845",
+    "retomada-v1/interrupcao.json": "ca318b60faa3ceb128d4493378ec4d52ca070de6ff951cf0cb1bcc74cf967c05",
+    "retomada-v1/tempo_questoes.json": "cbe4c49846ae965ad6493698c50c4bf7fe68145ff42b04abc17c71e54c06f31e",
+    "retomada-v2/inicio.json": "61dde1aa37686e308a37ef91de896f19a4529b820edaae6421c58dd3aa155218"
+  },
+  "indice_final_sha256": "a616bdb05149795165e78883b88a24a6caaaae4b8b7414dc970fe8d177ec5e7d",
+  "ultima_tentativa_segundos": 161.044,
+  "ultima_tentativa_registros_reutilizados": 851,
+  "ultima_tentativa_registros_gerados": 179,
+  "ultima_tentativa_gerou_somente_temas": true,
+  "registros_gerados_22_10_primeira_tentativa": 257,
+  "registros_gerados_22_10_total": 436,
+  "tempo_total_integral_de_preparacao_segundos": null,
+  "motivo_tempo_total_indisponivel": "Execucao anterior a pausa e primeira retomada foram interrompidas; nao ha duracao monotona completa registrada. A ultima execucao mede apenas leitura de 851 e geracao de 179 temas.",
+  "tempo_questoes_parcial": "retomada-v1/tempo_questoes.json",
+  "nenhum_llm_decidiu_ou_validou_classificacoes": true
+}

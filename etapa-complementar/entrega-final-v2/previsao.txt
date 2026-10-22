@@ -1,0 +1,17 @@
+precisao_prevista: 0.00000000
+precisao_intervalo: 0.00000000-1.00000000
+cobertura_prevista: 0.00000000
+cobertura_intervalo: 0.00000000-0.00000000
+
+A previsão considera apenas as 559 questões sem rótulos. As 100 referências humanas são excluídas dos denominadores de avaliação.
+Foram publicadas 0 de 559 questões. A cobertura é uma contagem exata; a precisão observada nessas questões é desconhecida.
+
+Não há questões publicadas na avaliação. A precisão entre publicadas é matematicamente indefinida por denominador zero. O valor 0.00000000 da primeira linha é uma sentinela numérica do formato, não uma previsão de 0% de acerto. O JSON registra null.
+O intervalo 0.00000000-1.00000000 significa ausência de informação sobre precisão entre publicadas; não é um intervalo de confiança estimado. Cobertura zero não comprova atendimento à meta de 95%.
+
+As 80 referências já orientaram módulos anteriores; a seleção aninhada M8 é exploratória.
+As 20 referências reservadas já eram conhecidas; não constituem holdout independente novo.
+As 559 sugestões usam ranking reajustado com 100 referências; esse reajuste não recebeu novo teste independente.
+Mudanças de distribuição nas questões recentes não são medidas por um conjunto rotulado recente.
+A decisão fora não é automatizada; baixa confiança encaminha à revisão com tema sugerido.
+A meta de 95% não é declarada comprovada e não há garantia individual de acerto.
